@@ -45,12 +45,12 @@ h6, .zeta {
 }
 
 h1, .alpha {
-  @include font-size(55px);
-  font-weight: 700;
+  @include font-size(25px);
+  font-weight: 500;
 }
 h2, .beta {
-  @include font-size(34px);
-  font-weight: 700;
+  @include font-size(20px);
+  font-weight: 500;
   color: $mid-blue;
 }
 h3, .gamma {
@@ -61,7 +61,7 @@ h4, .delta {
 }
 h5, .epsilon{
   @include font-size(16px);
-  font-weight: 700;
+  font-weight: 500;
 }
 h6, .zeta {
   @include font-size(16px);
