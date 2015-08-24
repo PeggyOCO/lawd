@@ -1,7 +1,7 @@
 name = Angel
 description = A custom layout for Los Angeles Web Design.
 preview = preview.png
-template = angel
+template = angel-layout
 
 ; Regions
 regions[branding]       = Branding
