@@ -76,6 +76,7 @@ $gutters: 1/3;
   /* Header Area */
   .l-header {
     @include pie-clearfix;
+    border: 2px dotted red;
   }
   .l-branding {
     @include grid-span(1,5);
