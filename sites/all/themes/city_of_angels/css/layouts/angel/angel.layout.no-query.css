@@ -1,0 +1,89 @@
+/*******************************************************************************
+ * angel.layout.scss
+ *
+ * Styling of the "angel" layout demonstrating the golden rule and asymmetric
+ * grids with Singularity.
+ ******************************************************************************/
+/* line 26, ../../../sass/layouts/angel/angel.layout.scss */
+.l-page {
+  width: 95%;
+  max-width: 110em;
+  margin: 0 auto; }
+
+/* line 32, ../../../sass/layouts/angel/angel.layout.scss */
+.l-header,
+.l-main {
+  *zoom: 1;
+  margin-bottom: 20px; }
+  /* line 38, ../../../../../../../../../.rvm/gems/ruby-1.9.3-p551@global/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_clearfix.scss */
+  .l-header:after,
+  .l-main:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+/* Header Area */
+/* line 74, ../../../sass/layouts/angel/angel.layout.scss */
+.l-header {
+  *zoom: 1; }
+  /* line 38, ../../../../../../../../../.rvm/gems/ruby-1.9.3-p551@global/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_clearfix.scss */
+  .l-header:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+/* line 77, ../../../sass/layouts/angel/angel.layout.scss */
+.l-branding {
+  width: 6.77966%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 0;
+  clear: none; }
+
+/* line 80, ../../../sass/layouts/angel/angel.layout.scss */
+.l-region--header {
+  width: 15.25424%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 8.47458%;
+  clear: none; }
+
+/* line 83, ../../../sass/layouts/angel/angel.layout.scss */
+.l-region--navigation {
+  clear: both; }
+
+/* Content Area */
+/* line 88, ../../../sass/layouts/angel/angel.layout.scss */
+.l-content {
+  width: 6.77966%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 0;
+  clear: none; }
+
+/* Sidebars */
+/* line 94, ../../../sass/layouts/angel/angel.layout.scss */
+.has-one-sidebar .l-region--sidebar-first,
+.has-one-sidebar .l-region--sidebar-second {
+  width: 15.25424%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 8.47458%;
+  clear: none; }
+
+/* line 100, ../../../sass/layouts/angel/angel.layout.scss */
+.has-two-sidebars .l-region--sidebar-first {
+  width: 6.77966%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 8.47458%;
+  clear: none; }
+/* line 103, ../../../sass/layouts/angel/angel.layout.scss */
+.has-two-sidebars .l-region--sidebar-second {
+  width: 6.77966%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 16.94915%;
+  clear: none; }
+
+/*# sourceMappingURL=angel.layout.no-query.css.map */
