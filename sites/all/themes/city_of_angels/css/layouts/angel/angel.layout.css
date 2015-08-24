@@ -8,13 +8,15 @@
 .l-page {
   width: 95%;
   max-width: 110em;
-  margin: 0 auto; }
+  margin: 0 auto;
+  border: 2px dotted red; }
 
-/* line 32, ../../../sass/layouts/angel/angel.layout.scss */
+/* line 33, ../../../sass/layouts/angel/angel.layout.scss */
 .l-header,
 .l-main {
   *zoom: 1;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  border: 2px dotted green; }
   /* line 38, ../../../../../../../../../.rvm/gems/ruby-1.9.3-p551@global/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_clearfix.scss */
   .l-header:after,
   .l-main:after {
@@ -24,7 +26,7 @@
 
 @media (min-width: 700px) {
   /* Header Area */
-  /* line 40, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 42, ../../../sass/layouts/angel/angel.layout.scss */
   .l-branding {
     width: 6.77966%;
     float: left;
@@ -32,7 +34,7 @@
     margin-left: 0;
     clear: none; }
 
-  /* line 43, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 45, ../../../sass/layouts/angel/angel.layout.scss */
   .l-region--header {
     width: 6.77966%;
     float: left;
@@ -40,12 +42,12 @@
     margin-left: 8.47458%;
     clear: none; }
 
-  /* line 46, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 48, ../../../sass/layouts/angel/angel.layout.scss */
   .l-region--navigation {
     clear: both; }
 
   /* Content Area */
-  /* line 51, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 53, ../../../sass/layouts/angel/angel.layout.scss */
   .l-content {
     width: 15.25424%;
     float: left;
@@ -54,7 +56,7 @@
     clear: none; }
 
   /* Sidebars */
-  /* line 57, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 59, ../../../sass/layouts/angel/angel.layout.scss */
   .has-one-sidebar .l-region--sidebar-first,
   .has-one-sidebar .l-region--sidebar-second {
     width: 15.25424%;
@@ -63,14 +65,14 @@
     margin-left: 0;
     clear: none; }
 
-  /* line 63, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 65, ../../../sass/layouts/angel/angel.layout.scss */
   .has-two-sidebars .l-region--sidebar-first {
     width: 6.77966%;
     float: left;
     margin-right: -100%;
     margin-left: 0;
     clear: both; }
-  /* line 66, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 68, ../../../sass/layouts/angel/angel.layout.scss */
   .has-two-sidebars .l-region--sidebar-second {
     width: 6.77966%;
     float: left;
@@ -79,7 +81,7 @@
     clear: none; } }
 @media (min-width: 1250px) {
   /* Header Area */
-  /* line 74, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 76, ../../../sass/layouts/angel/angel.layout.scss */
   .l-header {
     *zoom: 1; }
     /* line 38, ../../../../../../../../../.rvm/gems/ruby-1.9.3-p551@global/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_clearfix.scss */
@@ -88,7 +90,7 @@
       display: table;
       clear: both; }
 
-  /* line 77, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 79, ../../../sass/layouts/angel/angel.layout.scss */
   .l-branding {
     width: 6.77966%;
     float: left;
@@ -96,7 +98,7 @@
     margin-left: 0;
     clear: none; }
 
-  /* line 80, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 82, ../../../sass/layouts/angel/angel.layout.scss */
   .l-region--header {
     width: 15.25424%;
     float: left;
@@ -104,12 +106,12 @@
     margin-left: 8.47458%;
     clear: none; }
 
-  /* line 83, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 85, ../../../sass/layouts/angel/angel.layout.scss */
   .l-region--navigation {
     clear: both; }
 
   /* Content Area */
-  /* line 88, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 90, ../../../sass/layouts/angel/angel.layout.scss */
   .l-content {
     width: 6.77966%;
     float: left;
@@ -118,7 +120,7 @@
     clear: none; }
 
   /* Sidebars */
-  /* line 94, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 96, ../../../sass/layouts/angel/angel.layout.scss */
   .has-one-sidebar .l-region--sidebar-first,
   .has-one-sidebar .l-region--sidebar-second {
     width: 15.25424%;
@@ -127,14 +129,14 @@
     margin-left: 8.47458%;
     clear: none; }
 
-  /* line 100, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 102, ../../../sass/layouts/angel/angel.layout.scss */
   .has-two-sidebars .l-region--sidebar-first {
     width: 6.77966%;
     float: left;
     margin-right: -100%;
     margin-left: 8.47458%;
     clear: none; }
-  /* line 103, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 105, ../../../sass/layouts/angel/angel.layout.scss */
   .has-two-sidebars .l-region--sidebar-second {
     width: 6.77966%;
     float: left;
