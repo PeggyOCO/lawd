@@ -40,7 +40,7 @@ $gutters: 1/3;
 @include breakpoint($tab) {
   /* Header Area */
   .l-branding {
-    @include grid-span(5, 1);
+    @include grid-span(1, 5);
     border:2px dotted orange;
   }
   .l-region--header {
@@ -78,8 +78,8 @@ $gutters: 1/3;
     @include pie-clearfix;
   }
   .l-branding {
-    @include grid-span(5, 1);
-    border: 2px dotted blue;
+    @include grid-span(1,5);
+    border: 2px dotted maroon;
   }
   .l-region--header {
     @include grid-span(3, 2);
