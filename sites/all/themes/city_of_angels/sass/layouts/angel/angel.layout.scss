@@ -41,6 +41,7 @@ $gutters: 1/3;
   /* Header Area */
   .l-branding {
     @include grid-span(5, 1);
+    border:2px dotted orange;
   }
   .l-region--header {
     @include grid-span(3, 2);
@@ -78,6 +79,7 @@ $gutters: 1/3;
   }
   .l-branding {
     @include grid-span(5, 1);
+    border: 2px dotted blue;
   }
   .l-region--header {
     @include grid-span(3, 2);
