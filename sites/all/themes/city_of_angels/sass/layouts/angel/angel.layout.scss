@@ -15,7 +15,6 @@ $desk : 980px;
 
 @include breakpoint($tab) {
   /* Header Area */
-
   $typecsset-base-font-size:      14px;
 $typecsset-base-line-height:    16px;
 $typecsset-h1-size:             14px;
@@ -30,8 +29,7 @@ $typecsset-h1-size:             12px;
 @include breakpoint($desk) {
  $typecsset-base-font-size:      16px;
 $typecsset-base-line-height:    18px;
-$typecsset-h1-size:             10px;
-
+$typecsset-h1-size:             10px !important;
 }
 
 @import "../../typecsset/typecsset.scss";
