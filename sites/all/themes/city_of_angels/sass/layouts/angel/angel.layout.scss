@@ -29,7 +29,7 @@ $typecsset-h1-size:             12px;
 @include breakpoint($desk) {
  $typecsset-base-font-size:      16px;
 $typecsset-base-line-height:    18px;
-$typecsset-h1-size:             10px !important;
+$typecsset-h1-size:             10px;
 }
 
 @import "../../typecsset/typecsset.scss";
@@ -78,7 +78,9 @@ $gutters: 1/3;
 @include breakpoint($phone, true) {
   /* Header Area */
 
-
+ h1 {
+     @include typecsset-font-size(12px);
+}
 
   @include sgs-change('debug', true);
   .l-header {
@@ -123,7 +125,9 @@ $gutters: 1/3;
 
 @include breakpoint($tab) {
   /* Header Area */
-
+ h1 {
+     @include typecsset-font-size(14px);
+}
 
     @include sgs-change('debug', true);
   .l-branding {
@@ -162,7 +166,9 @@ $gutters: 1/3;
 
 @include breakpoint($desk, true) {
   /* Header Area */
-
+ h1 {
+     @include typecsset-font-size(16px);
+}
 
   @include sgs-change('debug', true);
   .l-header {
