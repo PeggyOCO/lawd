@@ -76,7 +76,6 @@ a:hover{color:#666;}
   .l-header {
     @include pie-clearfix;
     border: 0px dotted red;
-    padding:0 2em;
   }
   .l-branding {
    @include background-grid($color: #e1e1e1);
@@ -135,7 +134,6 @@ a:hover{color:#666;}
   }
   .l-region--header {
     @include grid-span(12, 1);
-      padding:0 2em;
   }
   .l-region--navigation {
     clear: both;
@@ -185,7 +183,7 @@ a:hover{color:#666;}
     border: 0px dotted maroon;
     background-color: #ededed;
     text-align:left;
-    padding:0 2em;
+
   }
   .l-region--header {
     @include grid-span(12, 1);
