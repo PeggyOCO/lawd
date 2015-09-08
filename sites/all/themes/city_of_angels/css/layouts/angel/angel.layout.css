@@ -1,437 +1,55 @@
-@charset "UTF-8";
-/*******************************************************************************
- * angel.layout.scss
- *
- * Styling of the "angel" layout demonstrating the golden rule and asymmetric
- * grids with Singularity.
- ******************************************************************************/
-/**
- * Typecsset
- *
- * Typecsset is a small, unopinionated library for creating beautifully set type
- * on the web. Typecsset gives perfect vertical rhythm at any configurable font
- * size, as well as many other typographical niceties.
- */
-/*------------------------------------*\
-    #SHARED
-\*------------------------------------*/
-/**
- * A lot of elements in Typecsset need to share some declarations (mainly for
- * vertical rhythm), so we `@extend` some silent classes.
- */
-/* line 100, ../../../sass/typecsset/typecsset.scss */
-h1, h2, h3, h4, h5, h6, ul, ol, dd, p, address, pre, blockquote, table {
-  margin: 0;
-  padding: 0; }
+/*
+Error: Import directives may not be used within control directives or mixins.
+        on line 67 of /Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss
 
-/* line 105, ../../../sass/typecsset/typecsset.scss */
-h1, h2, h3, h4, h5, h6, ul, ol, dd, p, address, pre, blockquote, table {
-  margin-bottom: 14px;
-  margin-bottom: 1.16667rem; }
+62: $typecsset-h2-size:             10px;
+63: $typecsset-h3-size:             8px;
+64: $typecsset-h4-size:             8px;
+65: $typecsset-h5-size:             8px;
+66: $typecsset-h6-size:             8px;
+67: @import "../../typecsset/typecsset.scss";
+68:   @include sgs-change('debug', true);
+69:   .l-header {
+70:     @include pie-clearfix;
+71:     border: 0px dotted red;
+72:   }
 
-/*------------------------------------*\
-    #BASE
-\*------------------------------------*/
-/**
- * 1. Set the base element’s `font-size` to the value of your choosing. Set in
- *    ems, assuming a browser default of 16px.
- * 2. Work out the unitless `line-height` for your project based around your
- *    desired `line-height` (defined previously in pixels), and your project’s
- *    base font size.
- */
-/* line 132, ../../../sass/typecsset/typecsset.scss */
-html {
-  font-size: 0.75em;
-  /* [1] */
-  line-height: 1.16667;
-  /* [2] */ }
-
-/* line 146, ../../../sass/typecsset/typecsset.scss */
-body {
-  margin: 0; }
-
-/*------------------------------------*\
-    #HEADINGS
-\*------------------------------------*/
-/* line 157, ../../../sass/typecsset/typecsset.scss */
-h1 {
-  font-size: 24px;
-  font-size: 2rem;
-  line-height: 1.16667; }
-
-/* line 162, ../../../sass/typecsset/typecsset.scss */
-h2 {
-  font-size: 18px;
-  font-size: 1.5rem;
-  line-height: 1.55556; }
-
-/* line 167, ../../../sass/typecsset/typecsset.scss */
-h3 {
-  font-size: 15px;
-  font-size: 1.25rem;
-  line-height: 1.86667; }
-
-/* line 172, ../../../sass/typecsset/typecsset.scss */
-h4 {
-  font-size: 12px;
-  font-size: 1rem;
-  line-height: 1.16667; }
-
-/* line 177, ../../../sass/typecsset/typecsset.scss */
-h5 {
-  font-size: 10px;
-  font-size: 0.83333rem;
-  line-height: 1.4; }
-
-/* line 182, ../../../sass/typecsset/typecsset.scss */
-h6 {
-  font-size: 9px;
-  font-size: 0.75rem;
-  line-height: 1.55556; }
-
-/*------------------------------------*\
-    #LISTS
-\*------------------------------------*/
-/* line 194, ../../../sass/typecsset/typecsset.scss */
-ul, ol, dd {
-  margin-left: 28px;
-  margin-left: 2.33333rem; }
-
-/* line 199, ../../../sass/typecsset/typecsset.scss */
-li > ul,
-li > ol {
-  margin-bottom: 0; }
-
-/*------------------------------------*\
-    #PARAGRAPHS
-\*------------------------------------*/
-/**
- * Not strictly a paragraph, but probably doesn’t need its own section.
- */
-/*------------------------------------*\
-    #CODE
-\*------------------------------------*/
-/**
- * 1. Fix an odd quirk whereby, without this, code blocks are rendered at a
- *    font-size smaller than 1em.
- */
-/* line 248, ../../../sass/typecsset/typecsset.scss */
-code,
-kbd,
-pre,
-samp {
-  font-family: monospace, monospace;
-  /* [1] */ }
-
-/*------------------------------------*\
-    #QUOTES
-\*------------------------------------*/
-/**
- * 1. Hang the opening quote of the blockquote.
- */
-/* line 265, ../../../sass/typecsset/typecsset.scss */
-blockquote {
-  text-indent: -0.41em;
-  /* [1] */ }
-
-/**
- * Set up quote marks on quoting elements. This is very English-based, so we are
- * using “, ”, ‘, and ’ quotes.
- */
-/* line 273, ../../../sass/typecsset/typecsset.scss */
-blockquote {
-  quotes: "“" "”";
-  margin-left: 28px;
-  margin-left: 2.33333rem; }
-  /* line 280, ../../../sass/typecsset/typecsset.scss */
-  blockquote p:before {
-    content: "“";
-    content: open-quote; }
-  /* line 285, ../../../sass/typecsset/typecsset.scss */
-  blockquote p:after {
-    content: "";
-    content: no-close-quote; }
-  /* line 290, ../../../sass/typecsset/typecsset.scss */
-  blockquote p:last-of-type:after {
-    content: "”";
-    content: close-quote; }
-
-/* line 299, ../../../sass/typecsset/typecsset.scss */
-q {
-  quotes: "‘" "’" "“" "”";
-  /**
-   * If an element opens with an inline quote, let’s hang that.
-   */ }
-  /* line 302, ../../../sass/typecsset/typecsset.scss */
-  q:before {
-    content: "‘";
-    content: open-quote; }
-  /* line 307, ../../../sass/typecsset/typecsset.scss */
-  q:after {
-    content: "’";
-    content: close-quote; }
-  /* line 312, ../../../sass/typecsset/typecsset.scss */
-  q q:before {
-    content: "“";
-    content: open-quote; }
-  /* line 317, ../../../sass/typecsset/typecsset.scss */
-  q q:after {
-    content: "”";
-    content: close-quote; }
-  /* line 325, ../../../sass/typecsset/typecsset.scss */
-  q:first-child {
-    display: inline-block;
-    text-indent: -0.22em; }
-
-/*------------------------------------*\
-    #TABLES
-\*------------------------------------*/
-/**
- * Crude table styles; tables are very difficult to keep on the baseline.
- */
-/* line 342, ../../../sass/typecsset/typecsset.scss */
-table {
-  width: 100%;
-  border-collapse: collapse;
-  border-spacing: 0; }
-
-/* line 349, ../../../sass/typecsset/typecsset.scss */
-th,
-td {
-  padding: 7px; }
-
-/* line 40, ../../../sass/layouts/angel/angel.layout.scss */
-.l-page {
-  width: 95%;
-  max-width: 110em;
-  margin: 0 auto;
-  border: 0px dotted red; }
-
-/* line 47, ../../../sass/layouts/angel/angel.layout.scss */
-.l-header,
-.l-main {
-  *zoom: 1;
-  margin-bottom: 20px;
-  border: 0px dotted green; }
-  /* line 38, ../../../../../../../../../.rvm/gems/ruby-1.9.3-p551@global/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_clearfix.scss */
-  .l-header:after,
-  .l-main:after {
-    content: "";
-    display: table;
-    clear: both; }
-
-@media (min-width: 320px) {
-  /* Header Area */
-  /* line 68, ../../../sass/layouts/angel/angel.layout.scss */
-  .l-header {
-    *zoom: 1;
-    border: 0px dotted red; }
-    /* line 38, ../../../../../../../../../.rvm/gems/ruby-1.9.3-p551@global/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_clearfix.scss */
-    .l-header:after {
-      content: "";
-      display: table;
-      clear: both; }
-
-  /* line 72, ../../../sass/layouts/angel/angel.layout.scss */
-  .l-branding {
-    background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww%2Ew3%2Eorg%2F2000%2Fsvg%22%3E%3Crect%20x%3D%220%25%22%20fill%3D%22gray%22%20width%3D%226%2E77966%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%226%2E77966%25%22%20fill%3D%22%23a0a0a0%22%20width%3D%221%2E69492%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%228%2E47458%25%22%20fill%3D%22gray%22%20width%3D%226%2E77966%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2215%2E25424%25%22%20fill%3D%22%23a0a0a0%22%20width%3D%221%2E69492%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2216%2E94915%25%22%20fill%3D%22gray%22%20width%3D%226%2E77966%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2223%2E72881%25%22%20fill%3D%22%23a0a0a0%22%20width%3D%221%2E69492%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2225%2E42373%25%22%20fill%3D%22gray%22%20width%3D%226%2E77966%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2232%2E20339%25%22%20fill%3D%22%23a0a0a0%22%20width%3D%221%2E69492%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2233%2E89831%25%22%20fill%3D%22gray%22%20width%3D%226%2E77966%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2240%2E67797%25%22%20fill%3D%22%23a0a0a0%22%20width%3D%221%2E69492%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2242%2E37288%25%22%20fill%3D%22gray%22%20width%3D%226%2E77966%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2249%2E15254%25%22%20fill%3D%22%23a0a0a0%22%20width%3D%221%2E69492%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2250%2E84746%25%22%20fill%3D%22gray%22%20width%3D%226%2E77966%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2257%2E62712%25%22%20fill%3D%22%23a0a0a0%22%20width%3D%221%2E69492%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2259%2E32203%25%22%20fill%3D%22gray%22%20width%3D%226%2E77966%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2266%2E10169%25%22%20fill%3D%22%23a0a0a0%22%20width%3D%221%2E69492%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2267%2E79661%25%22%20fill%3D%22gray%22%20width%3D%226%2E77966%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2274%2E57627%25%22%20fill%3D%22%23a0a0a0%22%20width%3D%221%2E69492%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2276%2E27119%25%22%20fill%3D%22gray%22%20width%3D%226%2E77966%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2283%2E05085%25%22%20fill%3D%22%23a0a0a0%22%20width%3D%221%2E69492%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2284%2E74576%25%22%20fill%3D%22gray%22%20width%3D%226%2E77966%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2291%2E52542%25%22%20fill%3D%22%23a0a0a0%22%20width%3D%221%2E69492%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2293%2E22034%25%22%20fill%3D%22gray%22%20width%3D%226%2E77966%25%22%20height%3D%22100%25%22%2F%3E%3C%2Fsvg%3E");
-    -sgs-span-settings: ("span": 12, "location": 1, "grid": 12, "gutter": 0.25, "style": "opposite", "start row": true, "end row": true, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
-    width: 100%;
-    float: right;
-    margin-left: 0;
-    margin-right: 0;
-    clear: none;
-    border: 0px dotted maroon;
-    background-color: lightgray;
-    text-align: center; }
-
-  /* line 79, ../../../sass/layouts/angel/angel.layout.scss */
-  .l-region--header {
-    -sgs-span-settings: ("span": 12, "location": 1, "grid": 12, "gutter": 0.25, "style": "opposite", "start row": true, "end row": true, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
-    width: 100%;
-    float: right;
-    margin-left: 0;
-    margin-right: 0;
-    clear: none; }
-
-  /* line 82, ../../../sass/layouts/angel/angel.layout.scss */
-  .l-region--navigation {
-    clear: both; }
-
-  /* Content Area */
-  /* line 87, ../../../sass/layouts/angel/angel.layout.scss */
-  .l-content {
-    -sgs-span-settings: ("span": 12, "location": 1, "grid": 12, "gutter": 0.25, "style": "opposite", "start row": true, "end row": true, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
-    width: 100%;
-    float: right;
-    margin-left: 0;
-    margin-right: 0;
-    clear: none; }
-
-  /* Sidebars */
-  /* line 93, ../../../sass/layouts/angel/angel.layout.scss */
-  .has-one-sidebar .l-region--sidebar-first,
-  .has-one-sidebar .l-region--sidebar-second {
-    -sgs-span-settings: ("span": 2, "location": 2, "grid": 12, "gutter": 0.25, "style": "opposite", "start row": false, "end row": false, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
-    width: 15.25424%;
-    float: left;
-    margin-right: -100%;
-    margin-left: 8.47458%;
-    clear: none; }
-
-  /* line 99, ../../../sass/layouts/angel/angel.layout.scss */
-  .has-two-sidebars .l-region--sidebar-first {
-    -sgs-span-settings: ("span": 1, "location": 2, "grid": 12, "gutter": 0.25, "style": "opposite", "start row": false, "end row": false, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
-    width: 6.77966%;
-    float: left;
-    margin-right: -100%;
-    margin-left: 8.47458%;
-    clear: none; }
-  /* line 102, ../../../sass/layouts/angel/angel.layout.scss */
-  .has-two-sidebars .l-region--sidebar-second {
-    -sgs-span-settings: ("span": 1, "location": 3, "grid": 12, "gutter": 0.25, "style": "opposite", "start row": false, "end row": false, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
-    width: 6.77966%;
-    float: left;
-    margin-right: -100%;
-    margin-left: 16.94915%;
-    clear: none; } }
-@media (min-width: 768px) {
-  /* Header Area */
-  /* line 112, ../../../sass/layouts/angel/angel.layout.scss */
-  .l-branding {
-    background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww%2Ew3%2Eorg%2F2000%2Fsvg%22%3E%3Crect%20x%3D%220%25%22%20fill%3D%22orange%22%20width%3D%226%2E77966%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%226%2E77966%25%22%20fill%3D%22%23ffbc40%22%20width%3D%221%2E69492%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%228%2E47458%25%22%20fill%3D%22orange%22%20width%3D%226%2E77966%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2215%2E25424%25%22%20fill%3D%22%23ffbc40%22%20width%3D%221%2E69492%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2216%2E94915%25%22%20fill%3D%22orange%22%20width%3D%226%2E77966%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2223%2E72881%25%22%20fill%3D%22%23ffbc40%22%20width%3D%221%2E69492%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2225%2E42373%25%22%20fill%3D%22orange%22%20width%3D%226%2E77966%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2232%2E20339%25%22%20fill%3D%22%23ffbc40%22%20width%3D%221%2E69492%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2233%2E89831%25%22%20fill%3D%22orange%22%20width%3D%226%2E77966%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2240%2E67797%25%22%20fill%3D%22%23ffbc40%22%20width%3D%221%2E69492%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2242%2E37288%25%22%20fill%3D%22orange%22%20width%3D%226%2E77966%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2249%2E15254%25%22%20fill%3D%22%23ffbc40%22%20width%3D%221%2E69492%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2250%2E84746%25%22%20fill%3D%22orange%22%20width%3D%226%2E77966%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2257%2E62712%25%22%20fill%3D%22%23ffbc40%22%20width%3D%221%2E69492%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2259%2E32203%25%22%20fill%3D%22orange%22%20width%3D%226%2E77966%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2266%2E10169%25%22%20fill%3D%22%23ffbc40%22%20width%3D%221%2E69492%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2267%2E79661%25%22%20fill%3D%22orange%22%20width%3D%226%2E77966%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2274%2E57627%25%22%20fill%3D%22%23ffbc40%22%20width%3D%221%2E69492%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2276%2E27119%25%22%20fill%3D%22orange%22%20width%3D%226%2E77966%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2283%2E05085%25%22%20fill%3D%22%23ffbc40%22%20width%3D%221%2E69492%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2284%2E74576%25%22%20fill%3D%22orange%22%20width%3D%226%2E77966%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2291%2E52542%25%22%20fill%3D%22%23ffbc40%22%20width%3D%221%2E69492%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2293%2E22034%25%22%20fill%3D%22orange%22%20width%3D%226%2E77966%25%22%20height%3D%22100%25%22%2F%3E%3C%2Fsvg%3E");
-    -sgs-span-settings: ("span": 12, "location": 1, "grid": 12, "gutter": 0.25, "style": "opposite", "start row": true, "end row": true, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
-    width: 100%;
-    float: right;
-    margin-left: 0;
-    margin-right: 0;
-    clear: none;
-    border: 0px dotted orange; }
-
-  /* line 117, ../../../sass/layouts/angel/angel.layout.scss */
-  .l-region--header {
-    -sgs-span-settings: ("span": 12, "location": 1, "grid": 12, "gutter": 0.25, "style": "opposite", "start row": true, "end row": true, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
-    width: 100%;
-    float: right;
-    margin-left: 0;
-    margin-right: 0;
-    clear: none; }
-
-  /* line 120, ../../../sass/layouts/angel/angel.layout.scss */
-  .l-region--navigation {
-    clear: both; }
-
-  /* Content Area */
-  /* line 125, ../../../sass/layouts/angel/angel.layout.scss */
-  .l-content {
-    -sgs-span-settings: ("span": 12, "location": 1, "grid": 12, "gutter": 0.25, "style": "opposite", "start row": true, "end row": true, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
-    width: 100%;
-    float: right;
-    margin-left: 0;
-    margin-right: 0;
-    clear: none; }
-
-  /* Sidebars */
-  /* line 131, ../../../sass/layouts/angel/angel.layout.scss */
-  .has-one-sidebar .l-region--sidebar-first,
-  .has-one-sidebar .l-region--sidebar-second {
-    -sgs-span-settings: ("span": 2, "location": 1, "grid": 12, "gutter": 0.25, "style": "opposite", "start row": true, "end row": false, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
-    width: 15.25424%;
-    float: left;
-    margin-right: -100%;
-    margin-left: 0;
-    clear: none; }
-
-  /* line 137, ../../../sass/layouts/angel/angel.layout.scss */
-  .has-two-sidebars .l-region--sidebar-first {
-    -sgs-span-settings: ("span": 1, "location": 1, "grid": 12, "gutter": 0.25, "style": "opposite", "start row": true, "end row": false, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": ("clear": both));
-    width: 6.77966%;
-    float: left;
-    margin-right: -100%;
-    margin-left: 0;
-    clear: both; }
-  /* line 140, ../../../sass/layouts/angel/angel.layout.scss */
-  .has-two-sidebars .l-region--sidebar-second {
-    -sgs-span-settings: ("span": 1, "location": 2, "grid": 12, "gutter": 0.25, "style": "opposite", "start row": false, "end row": false, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
-    width: 6.77966%;
-    float: left;
-    margin-right: -100%;
-    margin-left: 8.47458%;
-    clear: none; } }
-@media (min-width: 980px) {
-  /* Header Area */
-  /* line 150, ../../../sass/layouts/angel/angel.layout.scss */
-  .l-header {
-    *zoom: 1;
-    border: 0px dotted red; }
-    /* line 38, ../../../../../../../../../.rvm/gems/ruby-1.9.3-p551@global/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_clearfix.scss */
-    .l-header:after {
-      content: "";
-      display: table;
-      clear: both; }
-
-  /* line 154, ../../../sass/layouts/angel/angel.layout.scss */
-  .l-branding {
-    background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww%2Ew3%2Eorg%2F2000%2Fsvg%22%3E%3Crect%20x%3D%220%25%22%20fill%3D%22lavender%22%20width%3D%226%2E77966%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%226%2E77966%25%22%20fill%3D%22%23ececfb%22%20width%3D%221%2E69492%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%228%2E47458%25%22%20fill%3D%22lavender%22%20width%3D%226%2E77966%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2215%2E25424%25%22%20fill%3D%22%23ececfb%22%20width%3D%221%2E69492%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2216%2E94915%25%22%20fill%3D%22lavender%22%20width%3D%226%2E77966%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2223%2E72881%25%22%20fill%3D%22%23ececfb%22%20width%3D%221%2E69492%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2225%2E42373%25%22%20fill%3D%22lavender%22%20width%3D%226%2E77966%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2232%2E20339%25%22%20fill%3D%22%23ececfb%22%20width%3D%221%2E69492%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2233%2E89831%25%22%20fill%3D%22lavender%22%20width%3D%226%2E77966%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2240%2E67797%25%22%20fill%3D%22%23ececfb%22%20width%3D%221%2E69492%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2242%2E37288%25%22%20fill%3D%22lavender%22%20width%3D%226%2E77966%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2249%2E15254%25%22%20fill%3D%22%23ececfb%22%20width%3D%221%2E69492%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2250%2E84746%25%22%20fill%3D%22lavender%22%20width%3D%226%2E77966%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2257%2E62712%25%22%20fill%3D%22%23ececfb%22%20width%3D%221%2E69492%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2259%2E32203%25%22%20fill%3D%22lavender%22%20width%3D%226%2E77966%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2266%2E10169%25%22%20fill%3D%22%23ececfb%22%20width%3D%221%2E69492%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2267%2E79661%25%22%20fill%3D%22lavender%22%20width%3D%226%2E77966%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2274%2E57627%25%22%20fill%3D%22%23ececfb%22%20width%3D%221%2E69492%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2276%2E27119%25%22%20fill%3D%22lavender%22%20width%3D%226%2E77966%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2283%2E05085%25%22%20fill%3D%22%23ececfb%22%20width%3D%221%2E69492%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2284%2E74576%25%22%20fill%3D%22lavender%22%20width%3D%226%2E77966%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2291%2E52542%25%22%20fill%3D%22%23ececfb%22%20width%3D%221%2E69492%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2293%2E22034%25%22%20fill%3D%22lavender%22%20width%3D%226%2E77966%25%22%20height%3D%22100%25%22%2F%3E%3C%2Fsvg%3E");
-    -sgs-span-settings: ("span": 12, "location": 1, "grid": 12, "gutter": 0.25, "style": "opposite", "start row": true, "end row": true, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
-    width: 100%;
-    float: right;
-    margin-left: 0;
-    margin-right: 0;
-    clear: none;
-    border: 0px dotted maroon;
-    background-color: lightgray;
-    text-align: center; }
-
-  /* line 161, ../../../sass/layouts/angel/angel.layout.scss */
-  .l-region--header {
-    -sgs-span-settings: ("span": 12, "location": 1, "grid": 12, "gutter": 0.25, "style": "opposite", "start row": true, "end row": true, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
-    width: 100%;
-    float: right;
-    margin-left: 0;
-    margin-right: 0;
-    clear: none; }
-
-  /* line 164, ../../../sass/layouts/angel/angel.layout.scss */
-  .l-region--navigation {
-    clear: both; }
-
-  /* Content Area */
-  /* line 169, ../../../sass/layouts/angel/angel.layout.scss */
-  .l-content {
-    -sgs-span-settings: ("span": 12, "location": 1, "grid": 12, "gutter": 0.25, "style": "opposite", "start row": true, "end row": true, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
-    width: 100%;
-    float: right;
-    margin-left: 0;
-    margin-right: 0;
-    clear: none; }
-
-  /* Sidebars */
-  /* line 175, ../../../sass/layouts/angel/angel.layout.scss */
-  .has-one-sidebar .l-region--sidebar-first,
-  .has-one-sidebar .l-region--sidebar-second {
-    -sgs-span-settings: ("span": 2, "location": 2, "grid": 12, "gutter": 0.25, "style": "opposite", "start row": false, "end row": false, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
-    width: 15.25424%;
-    float: left;
-    margin-right: -100%;
-    margin-left: 8.47458%;
-    clear: none; }
-
-  /* line 181, ../../../sass/layouts/angel/angel.layout.scss */
-  .has-two-sidebars .l-region--sidebar-first {
-    -sgs-span-settings: ("span": 1, "location": 2, "grid": 12, "gutter": 0.25, "style": "opposite", "start row": false, "end row": false, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
-    width: 6.77966%;
-    float: left;
-    margin-right: -100%;
-    margin-left: 8.47458%;
-    clear: none; }
-  /* line 184, ../../../sass/layouts/angel/angel.layout.scss */
-  .has-two-sidebars .l-region--sidebar-second {
-    -sgs-span-settings: ("span": 1, "location": 3, "grid": 12, "gutter": 0.25, "style": "opposite", "start row": false, "end row": false, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
-    width: 6.77966%;
-    float: left;
-    margin-right: -100%;
-    margin-left: 16.94915%;
-    clear: none; } }
-
-/*# sourceMappingURL=angel.layout.css.map */
+Backtrace:
+/Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss:67
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@global/gems/sass-3.4.14/lib/sass/tree/visitors/check_nesting.rb:13:in `visit'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@global/gems/sass-3.4.14/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@global/gems/sass-3.4.14/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@global/gems/sass-3.4.14/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@global/gems/sass-3.4.14/lib/sass/tree/visitors/check_nesting.rb:49:in `visit_children'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@global/gems/sass-3.4.14/lib/sass/tree/visitors/base.rb:38:in `visit'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@global/gems/sass-3.4.14/lib/sass/tree/visitors/check_nesting.rb:15:in `visit'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@global/gems/sass-3.4.14/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@global/gems/sass-3.4.14/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@global/gems/sass-3.4.14/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@global/gems/sass-3.4.14/lib/sass/tree/visitors/check_nesting.rb:49:in `visit_children'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@global/gems/sass-3.4.14/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@global/gems/sass-3.4.14/lib/sass/tree/visitors/check_nesting.rb:57:in `visit_root'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@global/gems/sass-3.4.14/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@global/gems/sass-3.4.14/lib/sass/tree/visitors/check_nesting.rb:15:in `visit'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@global/gems/sass-3.4.14/lib/sass/tree/visitors/base.rb:24:in `visit'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@global/gems/sass-3.4.14/lib/sass/tree/root_node.rb:35:in `css_tree'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@global/gems/sass-3.4.14/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@global/gems/sass-3.4.14/lib/sass/engine.rb:368:in `_render_with_sourcemap'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@global/gems/sass-3.4.14/lib/sass/engine.rb:285:in `render_with_sourcemap'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@global/gems/sass-3.4.14/lib/sass/plugin/compiler.rb:490:in `update_stylesheet'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@global/gems/sass-3.4.14/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@global/gems/sass-3.4.14/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@global/gems/sass-3.4.14/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@global/gems/sass-3.4.14/lib/sass/plugin/compiler.rb:470:in `on_file_changed'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@global/gems/sass-3.4.14/lib/sass/plugin/compiler.rb:328:in `block in watch'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@global/gems/listen-2.10.0/lib/listen/listener.rb:291:in `call'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@global/gems/listen-2.10.0/lib/listen/listener.rb:291:in `_process_changes'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@global/gems/listen-2.10.0/lib/listen/listener.rb:255:in `block in _wait_for_changes'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@global/gems/listen-2.10.0/lib/listen/listener.rb:238:in `loop'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@global/gems/listen-2.10.0/lib/listen/listener.rb:238:in `_wait_for_changes'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@global/gems/listen-2.10.0/lib/listen/listener.rb:327:in `block in _start_wait_thread'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Import directives may not be used within control directives or mixins.\A         on line 67 of /Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss\A \A 62: $typecsset-h2-size:             10px;\A 63: $typecsset-h3-size:             8px;\A 64: $typecsset-h4-size:             8px;\A 65: $typecsset-h5-size:             8px;\A 66: $typecsset-h6-size:             8px;\A 67: @import \"../../typecsset/typecsset.scss\";\A 68:   @include sgs-change('debug', true);\A 69:   .l-header {\A 70:     @include pie-clearfix;\A 71:     border: 0px dotted red;\A 72:   }"; }
