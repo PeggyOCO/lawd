@@ -19,20 +19,22 @@ $desk : 980px;
   $typecsset-base-font-size:      14px;
 $typecsset-base-line-height:    16px;
 $typecsset-h1-size:             14px;
-@import "../../typecsset/typecsset.scss";}
+}
 
 @include breakpoint($phone, true) {
  $typecsset-base-font-size:      12px;
 $typecsset-base-line-height:    14px;
 $typecsset-h1-size:             12px;
-@import "../../typecsset/typecsset.scss";}
+}
 
 @include breakpoint($desk, true) {
  $typecsset-base-font-size:      16px;
 $typecsset-base-line-height:    18px;
 $typecsset-h1-size:             10px;
-@import "../../typecsset/typecsset.scss";
+
 }
+
+@import "../../typecsset/typecsset.scss";
 // 
 // $typecsset-h1-size:             24px;
 // $typecsset-h2-size:             18px;
