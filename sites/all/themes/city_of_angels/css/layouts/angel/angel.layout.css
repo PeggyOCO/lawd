@@ -26,8 +26,8 @@ h1, h2, h3, h4, h5, h6, ul, ol, dd, p, address, pre, blockquote, table {
 
 /* line 105, ../../../sass/typecsset/typecsset.scss */
 h1, h2, h3, h4, h5, h6, ul, ol, dd, p, address, pre, blockquote, table {
-  margin-bottom: 27px;
-  margin-bottom: 1.5rem; }
+  margin-bottom: 14px;
+  margin-bottom: 1.16667rem; }
 
 /*------------------------------------*\
     #BASE
@@ -41,9 +41,9 @@ h1, h2, h3, h4, h5, h6, ul, ol, dd, p, address, pre, blockquote, table {
  */
 /* line 132, ../../../sass/typecsset/typecsset.scss */
 html {
-  font-size: 1.125em;
+  font-size: 0.75em;
   /* [1] */
-  line-height: 1.5;
+  line-height: 1.16667;
   /* [2] */ }
 
 /* line 146, ../../../sass/typecsset/typecsset.scss */
@@ -56,46 +56,46 @@ body {
 /* line 157, ../../../sass/typecsset/typecsset.scss */
 h1 {
   font-size: 48px;
-  font-size: 2.66667rem;
-  line-height: 1.125; }
+  font-size: 4rem;
+  line-height: 1.16667; }
 
 /* line 162, ../../../sass/typecsset/typecsset.scss */
 h2 {
   font-size: 36px;
-  font-size: 2rem;
-  line-height: 1.5; }
+  font-size: 3rem;
+  line-height: 1.16667; }
 
 /* line 167, ../../../sass/typecsset/typecsset.scss */
 h3 {
   font-size: 30px;
-  font-size: 1.66667rem;
-  line-height: 1.8; }
+  font-size: 2.5rem;
+  line-height: 1.4; }
 
 /* line 172, ../../../sass/typecsset/typecsset.scss */
 h4 {
   font-size: 24px;
-  font-size: 1.33333rem;
-  line-height: 1.125; }
+  font-size: 2rem;
+  line-height: 1.16667; }
 
 /* line 177, ../../../sass/typecsset/typecsset.scss */
 h5 {
   font-size: 20px;
-  font-size: 1.11111rem;
-  line-height: 1.35; }
+  font-size: 1.66667rem;
+  line-height: 1.4; }
 
 /* line 182, ../../../sass/typecsset/typecsset.scss */
 h6 {
   font-size: 18px;
-  font-size: 1rem;
-  line-height: 1.5; }
+  font-size: 1.5rem;
+  line-height: 1.55556; }
 
 /*------------------------------------*\
     #LISTS
 \*------------------------------------*/
 /* line 194, ../../../sass/typecsset/typecsset.scss */
 ul, ol, dd {
-  margin-left: 54px;
-  margin-left: 3rem; }
+  margin-left: 28px;
+  margin-left: 2.33333rem; }
 
 /* line 199, ../../../sass/typecsset/typecsset.scss */
 li > ul,
@@ -141,8 +141,8 @@ blockquote {
 /* line 273, ../../../sass/typecsset/typecsset.scss */
 blockquote {
   quotes: "“" "”";
-  margin-left: 54px;
-  margin-left: 3rem; }
+  margin-left: 28px;
+  margin-left: 2.33333rem; }
   /* line 280, ../../../sass/typecsset/typecsset.scss */
   blockquote p:before {
     content: "“";
@@ -198,7 +198,7 @@ table {
 /* line 349, ../../../sass/typecsset/typecsset.scss */
 th,
 td {
-  padding: 13.5px; }
+  padding: 7px; }
 
 /* line 33, ../../../sass/layouts/angel/angel.layout.scss */
 .l-page {
