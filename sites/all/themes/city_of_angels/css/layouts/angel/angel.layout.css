@@ -24,7 +24,7 @@
     display: table;
     clear: both; }
 
-@media (min-width: 700px) {
+@media (min-width: 400px) {
   /* Header Area */
   /* line 42, ../../../sass/layouts/angel/angel.layout.scss */
   .l-branding {
@@ -80,7 +80,7 @@
     margin-right: -100%;
     margin-left: 8.47458%;
     clear: none; } }
-@media (min-width: 1250px) {
+@media (min-width: 900px) {
   /* Header Area */
   /* line 77, ../../../sass/layouts/angel/angel.layout.scss */
   .l-header {
