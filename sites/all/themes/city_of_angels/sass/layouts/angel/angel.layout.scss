@@ -13,7 +13,7 @@ $phone : 320px;
 $tab  : 768px;
 $desk : 980px;
 
-@include breakpoint($tab, true) {
+@include breakpoint($tab) {
   /* Header Area */
 
   $typecsset-base-font-size:      14px;
@@ -21,13 +21,13 @@ $typecsset-base-line-height:    16px;
 $typecsset-h1-size:             14px;
 }
 
-@include breakpoint($phone, true) {
+@include breakpoint($phone) {
  $typecsset-base-font-size:      12px;
 $typecsset-base-line-height:    14px;
 $typecsset-h1-size:             12px;
 }
 
-@include breakpoint($desk, true) {
+@include breakpoint($desk) {
  $typecsset-base-font-size:      16px;
 $typecsset-base-line-height:    18px;
 $typecsset-h1-size:             10px;
