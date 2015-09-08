@@ -444,7 +444,7 @@ a:hover {
     clear: none;
     padding: 0 2em;
     border: 0px dotted orange;
-    height: 900px;
+    min-height: 900px;
     padding: 0 2em; }
 
   /* Sidebars */
@@ -459,7 +459,7 @@ a:hover {
     clear: none;
     padding: 0 2em;
     border: 1px dotted gray;
-    height: 900px; }
+    min-height: 900px; }
 
   /* line 215, ../../../sass/layouts/angel/angel.layout.scss */
   .has-two-sidebars .l-region--sidebar-first {

@@ -197,7 +197,7 @@ a:hover{color:#666;}
     @include grid-span(12, 1);
     padding:0 2em;
     border:0px dotted orange;
-    height:900px;
+    min-height:900px;
       padding:0 2em;
   }
 
@@ -208,7 +208,7 @@ a:hover{color:#666;}
       @include grid-span(6, 6);
       padding:0 2em;
       border:1px dotted gray;
-      height:900px;
+      min-height:900px;
     }
   }
   .has-two-sidebars {
