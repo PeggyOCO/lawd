@@ -42,8 +42,10 @@ $grids: add-grid(12 at $desk);
 
 $gutters: 1/3;
 
+body{padding:0;margin:0;}
+
 .l-page {
-  width: 95%;
+  width: 100%;
   max-width: 110em;
   margin: 0 auto;
   border: 0px dotted red;
@@ -57,7 +59,7 @@ $gutters: 1/3;
 }
 
 a{text-decoration: none;color:#000;}
-a:hover{color:lightblue;}
+a:hover{color:#666;}
 
 
 
