@@ -60,7 +60,7 @@ a{text-decoration: none;color:#000;}
 a:hover{color:lightblue;}
 
 html * {
-    font-size: 12pt;
+    font-size: 12px;
 }
 
 @include breakpoint($phone, true) {
@@ -68,7 +68,7 @@ html * {
 
 
  h1 {
-     @include typecsset-font-size(1em);
+     @include typecsset-font-size(16px);
 }
 
   @include sgs-change('debug', true);
@@ -115,7 +115,7 @@ html * {
 @include breakpoint($tab) {
   /* Header Area */
  h1 {
-     @include typecsset-font-size(1.5em);
+     @include typecsset-font-size(20px);
 }
 
     @include sgs-change('debug', true);
@@ -156,7 +156,7 @@ html * {
 @include breakpoint($desk, true) {
   /* Header Area */
  h1 {
-     @include typecsset-font-size(2em);
+     @include typecsset-font-size(24px);
 }
 
   @include sgs-change('debug', true);
