@@ -24,7 +24,7 @@
     display: table;
     clear: both; }
 
-@media (min-width: 360px) {
+@media (min-width: 320px) {
   /* Header Area */
   /* line 47, ../../../sass/layouts/angel/angel.layout.scss */
   .l-header {
