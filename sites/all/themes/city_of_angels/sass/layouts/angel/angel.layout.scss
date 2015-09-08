@@ -46,12 +46,12 @@ $gutters: 1/3;
   @include sgs-change('debug', true);
   .l-header {
     @include pie-clearfix;
-    border: 2px dotted red;
+    border: 0px dotted red;
   }
   .l-branding {
-   @include background-grid($color: yellow);
+   @include background-grid($color: gray);
     @include grid-span(12,1);
-    border: 2px dotted maroon;
+    border: 0px dotted maroon;
     background-color: lightgray;
     text-align:center;
   }
@@ -130,7 +130,7 @@ $gutters: 1/3;
     border: 2px dotted red;
   }
   .l-branding {
-   @include background-grid($color: red);
+   @include background-grid($color: lavender);
     @include grid-span(12,1);
     border: 2px dotted maroon;
     background-color: lightgray;
