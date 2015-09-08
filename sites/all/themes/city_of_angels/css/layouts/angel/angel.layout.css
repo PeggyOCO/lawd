@@ -94,10 +94,10 @@
 
   /* line 81, ../../../sass/layouts/angel/angel.layout.scss */
   .l-branding {
-    width: 49.15254%;
-    float: left;
-    margin-right: -100%;
+    width: 100%;
+    float: right;
     margin-left: 0;
+    margin-right: 0;
     clear: none;
     border: 2px dotted maroon;
     background-color: lightgray;
@@ -105,10 +105,10 @@
 
   /* line 87, ../../../sass/layouts/angel/angel.layout.scss */
   .l-region--header {
-    width: 49.15254%;
-    float: left;
-    margin-right: -100%;
+    width: 100%;
+    float: right;
     margin-left: 0;
+    margin-right: 0;
     clear: none; }
 
   /* line 90, ../../../sass/layouts/angel/angel.layout.scss */
@@ -118,10 +118,10 @@
   /* Content Area */
   /* line 95, ../../../sass/layouts/angel/angel.layout.scss */
   .l-content {
-    width: 49.15254%;
-    float: left;
-    margin-right: -100%;
+    width: 100%;
+    float: right;
     margin-left: 0;
+    margin-right: 0;
     clear: none; }
 
   /* Sidebars */
