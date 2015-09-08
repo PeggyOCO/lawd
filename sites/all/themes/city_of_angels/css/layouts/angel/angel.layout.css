@@ -222,11 +222,12 @@ td {
 
 /* line 59, ../../../sass/layouts/angel/angel.layout.scss */
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: #000; }
 
 /* line 60, ../../../sass/layouts/angel/angel.layout.scss */
 a:hover {
-  color: lightgray; }
+  color: lightblue; }
 
 @media (min-width: 320px) {
   /* Header Area */

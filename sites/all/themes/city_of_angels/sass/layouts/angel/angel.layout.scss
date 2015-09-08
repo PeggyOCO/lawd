@@ -56,8 +56,8 @@ $gutters: 1/3;
     border: 0px dotted green;
 }
 
-a{text-decoration: none;}
-a:hover{color:lightgray;}
+a{text-decoration: none;color:#000;}
+a:hover{color:lightblue;}
 
 @include breakpoint($phone, true) {
   /* Header Area */
