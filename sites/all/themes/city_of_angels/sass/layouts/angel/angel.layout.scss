@@ -40,11 +40,11 @@ $gutters: 1/3;
 @include breakpoint($tab) {
   /* Header Area */
   .l-branding {
-    @include grid-span(1, 5);
+    @include grid-span(6, 1);
     border:2px dotted orange;
   }
   .l-region--header {
-    @include grid-span(3, 2);
+    @include grid-span(6, 1);
   }
   .l-region--navigation {
     clear: both;
@@ -52,7 +52,7 @@ $gutters: 1/3;
 
   /* Content Area */
   .l-content {
-    @include grid-span(5, 1);
+    @include grid-span(6, 1);
   }
 
   /* Sidebars */
