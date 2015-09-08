@@ -7,6 +7,7 @@
 @import "compass";
 @import "breakpoint";
 @import "singularitygs";
+@import "typecsset";
 
 // Set consistent vertical and horizontal spacing units.
 $vert-spacing-unit: 20px;
@@ -43,6 +44,7 @@ $gutters: 1/3;
 
 @include breakpoint($phone, true) {
   /* Header Area */
+$typecsset-base-font-size:      10px;
   @include sgs-change('debug', true);
   .l-header {
     @include pie-clearfix;
@@ -86,6 +88,7 @@ $gutters: 1/3;
 
 @include breakpoint($tab) {
   /* Header Area */
+  $typecsset-base-font-size:      12px;
     @include sgs-change('debug', true);
   .l-branding {
     @include background-grid($color: orange);
@@ -123,7 +126,7 @@ $gutters: 1/3;
 
 @include breakpoint($desk, true) {
   /* Header Area */
-  
+  $typecsset-base-font-size:      14px;
   @include sgs-change('debug', true);
   .l-header {
     @include pie-clearfix;
