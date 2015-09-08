@@ -19,6 +19,7 @@ $desk : 980px;
 
 // Set Singularity grid variables.
 $grids: 6,6;
+$grids: add-grid(6 6 at $phone);
 $grids: add-grid(6 6 at $tab);
 $grids: add-grid(6 6 at $desk);
 
