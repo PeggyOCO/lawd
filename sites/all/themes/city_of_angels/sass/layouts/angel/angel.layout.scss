@@ -64,7 +64,7 @@ $typecsset-h3-size:             8px;
 $typecsset-h4-size:             8px;
 $typecsset-h5-size:             8px;
 $typecsset-h6-size:             8px;
-@import "../../typecsset/typecsset.scss";
+
   @include sgs-change('debug', true);
   .l-header {
     @include pie-clearfix;
@@ -109,7 +109,7 @@ $typecsset-h6-size:             8px;
 @include breakpoint($tab) {
   /* Header Area */
   $typecsset-base-font-size:      12px;
-  @import "../../typecsset/typecsset.scss";
+
     @include sgs-change('debug', true);
   .l-branding {
     @include background-grid($color: orange);
@@ -148,7 +148,7 @@ $typecsset-h6-size:             8px;
 @include breakpoint($desk, true) {
   /* Header Area */
   $typecsset-base-font-size:      16px;
-  @import "../../typecsset/typecsset.scss";
+
   @include sgs-change('debug', true);
   .l-header {
     @include pie-clearfix;
