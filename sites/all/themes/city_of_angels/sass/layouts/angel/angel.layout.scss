@@ -79,13 +79,13 @@ $gutters: 1/3;
     border: 2px dotted red;
   }
   .l-branding {
-    @include grid-span(1,6);
+    @include grid-span(6,1);
     border: 2px dotted maroon;
     background-color: lightgray;
     text-align:center;
   }
   .l-region--header {
-    @include grid-span(1, 6);
+    @include grid-span(6, 1);
   }
   .l-region--navigation {
     clear: both;
@@ -93,7 +93,7 @@ $gutters: 1/3;
 
   /* Content Area */
   .l-content {
-    @include grid-span(1, 6);
+    @include grid-span(6, 1);
   }
 
   /* Sidebars */
