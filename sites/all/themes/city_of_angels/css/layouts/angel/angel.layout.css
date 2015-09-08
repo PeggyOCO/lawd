@@ -94,36 +94,38 @@
 
   /* line 81, ../../../sass/layouts/angel/angel.layout.scss */
   .l-branding {
-    width: 40.67797%;
+    width: 6.77966%;
     float: left;
     margin-right: -100%;
-    margin-left: 16.94915%;
+    margin-left: 42.37288%;
     clear: none;
-    border: 2px dotted maroon; }
+    border: 2px dotted maroon;
+    background-color: lightgray;
+    text-align: center; }
 
-  /* line 85, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 87, ../../../sass/layouts/angel/angel.layout.scss */
   .l-region--header {
-    width: 23.72881%;
+    width: 6.77966%;
     float: left;
     margin-right: -100%;
-    margin-left: 8.47458%;
+    margin-left: 42.37288%;
     clear: none; }
 
-  /* line 88, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 90, ../../../sass/layouts/angel/angel.layout.scss */
   .l-region--navigation {
     clear: both; }
 
   /* Content Area */
-  /* line 93, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 95, ../../../sass/layouts/angel/angel.layout.scss */
   .l-content {
-    width: 40.67797%;
+    width: 6.77966%;
     float: left;
     margin-right: -100%;
-    margin-left: 0;
+    margin-left: 42.37288%;
     clear: none; }
 
   /* Sidebars */
-  /* line 99, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 101, ../../../sass/layouts/angel/angel.layout.scss */
   .has-one-sidebar .l-region--sidebar-first,
   .has-one-sidebar .l-region--sidebar-second {
     width: 15.25424%;
@@ -132,14 +134,14 @@
     margin-left: 8.47458%;
     clear: none; }
 
-  /* line 105, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 107, ../../../sass/layouts/angel/angel.layout.scss */
   .has-two-sidebars .l-region--sidebar-first {
     width: 6.77966%;
     float: left;
     margin-right: -100%;
     margin-left: 8.47458%;
     clear: none; }
-  /* line 108, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 110, ../../../sass/layouts/angel/angel.layout.scss */
   .has-two-sidebars .l-region--sidebar-second {
     width: 6.77966%;
     float: left;
