@@ -8,6 +8,11 @@
 @import "breakpoint";
 @import "singularitygs";
 
+// Set breakpoint values.
+$phone : 320px;
+$tab  : 768px;
+$desk : 980px;
+
 @include breakpoint($tab, true) {
   /* Header Area */
 
@@ -36,9 +41,9 @@ $vert-spacing-unit: 20px;
 $horz-spacing-unit: 1em;
 
 // Set breakpoint values.
-$phone : 320px;
-$tab  : 768px;
-$desk : 980px;
+// $phone : 320px;
+// $tab  : 768px;
+// $desk : 980px;
 
 // Set Singularity grid variables.
 
