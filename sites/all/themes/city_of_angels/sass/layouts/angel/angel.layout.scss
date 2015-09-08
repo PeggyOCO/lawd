@@ -77,10 +77,10 @@ a:hover{color:#666;}
     border: 0px dotted red;
   }
   .l-branding {
-   @include background-grid($color: gray);
+   @include background-grid($color: #e1e1e1);
     @include grid-span(12,1);
     border: 0px dotted maroon;
-    background-color: lightgray;
+    background-color: #e1e1e1;
     text-align:center;
   }
   .l-region--header {
@@ -120,7 +120,7 @@ a:hover{color:#666;}
 
     @include sgs-change('debug', true);
   .l-branding {
-    @include background-grid($color: orange);
+    @include background-grid($color: #ebebeb);
     @include grid-span(12, 1);
     border:0px dotted orange;
   }
@@ -165,10 +165,10 @@ a:hover{color:#666;}
     border: 0px dotted red;
   }
   .l-branding {
-   @include background-grid($color: lavender);
+   @include background-grid($color: #ededed);
     @include grid-span(12,1);
     border: 0px dotted maroon;
-    background-color: lightgray;
+    background-color: #ededed;
     text-align:center;
   }
   .l-region--header {
