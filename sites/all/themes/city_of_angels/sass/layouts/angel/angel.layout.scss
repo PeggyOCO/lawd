@@ -13,8 +13,9 @@ $vert-spacing-unit: 20px;
 $horz-spacing-unit: 1em;
 
 // Set breakpoint values.
-$tab  : 400px;
-$desk : 900px;
+$phone : 400px;
+$tab  : 900px;
+$desk : 1200px;
 
 // Set Singularity grid variables.
 $grids: 6,6;
@@ -35,6 +36,51 @@ $gutters: 1/3;
   @include pie-clearfix;
   margin-bottom: $vert-spacing-unit;
     border: 2px dotted green;
+}
+
+
+@include breakpoint($phone, true) {
+  /* Header Area */
+  
+  @include sgs-change('debug', true);
+  .l-header {
+    @include pie-clearfix;
+    border: 2px dotted red;
+  }
+  .l-branding {
+   @include background-grid($color: blue);
+    @include grid-span(12,1);
+    border: 2px dotted maroon;
+    background-color: lightgray;
+    text-align:center;
+  }
+  .l-region--header {
+    @include grid-span(12, 1);
+  }
+  .l-region--navigation {
+    clear: both;
+  }
+
+  /* Content Area */
+  .l-content {
+    @include grid-span(12, 1);
+  }
+
+  /* Sidebars */
+  .has-one-sidebar {
+    .l-region--sidebar-first,
+    .l-region--sidebar-second {
+      @include grid-span(2, 2);
+    }
+  }
+  .has-two-sidebars {
+    .l-region--sidebar-first {
+      @include grid-span(1, 2);
+    }
+    .l-region--sidebar-second {
+      @include grid-span(1, 3);
+    }
+  }
 }
 
 @include breakpoint($tab) {
@@ -74,11 +120,14 @@ $gutters: 1/3;
 
 @include breakpoint($desk, true) {
   /* Header Area */
+  
+  @include sgs-change('debug', true);
   .l-header {
     @include pie-clearfix;
     border: 2px dotted red;
   }
   .l-branding {
+   @include background-grid($color: blue);
     @include grid-span(12,1);
     border: 2px dotted maroon;
     background-color: lightgray;
