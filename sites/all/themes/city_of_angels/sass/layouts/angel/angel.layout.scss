@@ -86,7 +86,9 @@ $gutters: 1/3;
 
 @include breakpoint($tab) {
   /* Header Area */
+    @include sgs-change('debug', true);
   .l-branding {
+    @include background-grid($color: blue);
     @include grid-span(12, 1);
     border:2px dotted orange;
   }
