@@ -8,15 +8,15 @@
 @import "breakpoint";
 @import "singularitygs";
 
-$typecsset-base-font-size:      12px;
-$typecsset-base-line-height:    14px;
-
-$typecsset-h1-size:             24px;
-$typecsset-h2-size:             18px;
-$typecsset-h3-size:             15px;
-$typecsset-h4-size:             12px;
-$typecsset-h5-size:             10px;
-$typecsset-h6-size:             9px;
+// $typecsset-base-font-size:      12px;
+// $typecsset-base-line-height:    14px;
+// 
+// $typecsset-h1-size:             24px;
+// $typecsset-h2-size:             18px;
+// $typecsset-h3-size:             15px;
+// $typecsset-h4-size:             12px;
+// $typecsset-h5-size:             10px;
+// $typecsset-h6-size:             9px;
 @import "../../typecsset/typecsset.scss";
 
 // Set consistent vertical and horizontal spacing units.
@@ -108,7 +108,16 @@ $typecsset-h6-size:             8px;
 
 @include breakpoint($tab) {
   /* Header Area */
-  $typecsset-base-font-size:      12px;
+
+  $typecsset-base-font-size:      14px;
+$typecsset-base-line-height:    16px;
+
+$typecsset-h1-size:             24px;
+$typecsset-h2-size:             18px;
+$typecsset-h3-size:             15px;
+$typecsset-h4-size:             12px;
+$typecsset-h5-size:             10px;
+$typecsset-h6-size:             9px;
 
     @include sgs-change('debug', true);
   .l-branding {
@@ -147,7 +156,15 @@ $typecsset-h6-size:             8px;
 
 @include breakpoint($desk, true) {
   /* Header Area */
-  $typecsset-base-font-size:      16px;
+  $typecsset-base-font-size:      18px;
+$typecsset-base-line-height:    20px;
+
+$typecsset-h1-size:            30px;
+$typecsset-h2-size:             24px;
+$typecsset-h3-size:             20px;
+$typecsset-h4-size:             18px;
+$typecsset-h5-size:             16px;
+$typecsset-h6-size:            14px;
 
   @include sgs-change('debug', true);
   .l-header {
