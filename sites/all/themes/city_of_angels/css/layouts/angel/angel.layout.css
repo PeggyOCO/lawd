@@ -226,7 +226,7 @@ a {
 
 /* line 60, ../../../sass/layouts/angel/angel.layout.scss */
 a:hover {
-  color: gray; }
+  color: lightgray; }
 
 @media (min-width: 320px) {
   /* Header Area */
