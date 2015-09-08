@@ -26,6 +26,10 @@
 
 @media (min-width: 320px) {
   /* Header Area */
+  /* line 45, ../../../sass/layouts/angel/angel.layout.scss */
+  body {
+    font-size: 62.5%; }
+
   /* line 47, ../../../sass/layouts/angel/angel.layout.scss */
   .l-header {
     *zoom: 1;
