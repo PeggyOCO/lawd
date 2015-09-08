@@ -24,7 +24,7 @@
     display: table;
     clear: both; }
 
-@media (min-width: 400px) {
+@media (min-width: 360px) {
   /* Header Area */
   /* line 46, ../../../sass/layouts/angel/angel.layout.scss */
   .l-header {
@@ -99,7 +99,7 @@
     margin-right: -100%;
     margin-left: 16.94915%;
     clear: none; } }
-@media (min-width: 900px) {
+@media (min-width: 768px) {
   /* Header Area */
   /* line 88, ../../../sass/layouts/angel/angel.layout.scss */
   .l-branding {
@@ -161,7 +161,7 @@
     margin-right: -100%;
     margin-left: 8.47458%;
     clear: none; } }
-@media (min-width: 1200px) {
+@media (min-width: 980px) {
   /* Header Area */
   /* line 125, ../../../sass/layouts/angel/angel.layout.scss */
   .l-header {
