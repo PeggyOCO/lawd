@@ -77,6 +77,10 @@ a:hover{color:#666;}
     @include pie-clearfix;
     border: 0px dotted red;
   }
+  
+  .grid-8{ @include grid-span(8,1);display:inline-block;background-color:lightblue;}
+  .grid-4{ @include grid-span(4,8);display:inline-block;background-color:pink;}
+  
   .l-branding {
    @include background-grid($color: #e1e1e1);
     @include grid-span(12,1);
@@ -96,6 +100,8 @@ a:hover{color:#666;}
   .l-content {
     @include grid-span(12, 1);
       padding:0 2em;
+      
+      h1{display:none;}
   }
 
   /* Sidebars */
@@ -138,11 +144,15 @@ a:hover{color:#666;}
   .l-region--navigation {
     clear: both;
   }
+  
+  .grid-8{ @include grid-span(8,1);display:inline-block;background-color:lightblue;}
+  .grid-4{ @include grid-span(4,8);display:inline-block;background-color:pink;}
 
   /* Content Area */
   .l-content {
     @include grid-span(12,1);
       padding:0 2em;
+       h1{display:none;}
   }
 
   /* Sidebars */
@@ -202,6 +212,7 @@ a:hover{color:#666;}
     border:0px dotted orange;
     min-height:900px;
       padding:0 2em;
+      h1{display:none;}
   }
 
   /* Sidebars */
