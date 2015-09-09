@@ -224,7 +224,7 @@ a:hover{color:#666;}
   .grid-3-1{ @include grid-span(3,1);display:inline-block;background-color:lavender;border:1px dotted black;}
   
   .grid-3-3{ @include grid-span(3,4);display:inline-block;background-color:lime;border:1px dotted black;}
-  .grid-3-6{ @include grid-span(3,10);display:inline-block;background-color:pink;border:1px dotted black;}
+  .grid-3-6{ @include grid-span(3,7);display:inline-block;background-color:pink;border:1px dotted black;}
   .grid-3-9{ @include grid-span(3,10);display:inline-block;background-color:yellow;border:1px dotted black;}
 
   .grid-6-1{ @include grid-span(6,1);display:inline-block;background-color:orange;border:1px dotted black;}

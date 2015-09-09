@@ -683,11 +683,11 @@ a:hover {
 
   /* line 227, ../../../sass/layouts/angel/angel.layout.scss */
   .grid-3-6 {
-    -sgs-span-settings: ("span": 3, "location": 10, "grid": 12, "gutter": 0.25, "style": "opposite", "start row": false, "end row": true, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
+    -sgs-span-settings: ("span": 3, "location": 7, "grid": 12, "gutter": 0.25, "style": "opposite", "start row": false, "end row": false, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
     width: 23.72881%;
-    float: right;
-    margin-left: 0;
-    margin-right: 0;
+    float: left;
+    margin-right: -100%;
+    margin-left: 50.84746%;
     clear: none;
     display: inline-block;
     background-color: pink;
