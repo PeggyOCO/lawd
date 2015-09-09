@@ -225,8 +225,7 @@ a:hover{color:#666;}
   .grid-6-6{ @include grid-span(6,7);display:inline-block;background-color:lime;border:1px dotted black;}
 
   
-  .grid-8{ @include grid-span(8,1);display:inline-block;background-color:lightblue;}
-  .grid-4{ @include grid-span(4,8);display:inline-block;background-color:pink;}
+
   .l-branding {
    @include background-grid($color: #ededed);
     @include grid-span(12,1);
