@@ -82,18 +82,19 @@ a:hover{color:#666;}
   .grid-4-8{ @include grid-span(4,8);display:inline-block;background-color:pink;}
  
   .grid-9-1{ @include grid-span(9,1);display:inline-block;background-color:lightblue;}
-  .grid-9-3{ @include grid-span(9,3);display:inline-block;background-color:lightblue;}
+  .grid-9-3{ @include grid-span(9,3);display:inline-block;background-color:pink;}
   
   .grid-3-1{ @include grid-span(3,1);display:inline-block;background-color:lavender;}
   
   .grid-3-3{ @include grid-span(3,3);display:inline-block;background-color:lavender;}
-  .grid-3-3{ @include grid-span(3,9);display:inline-block;background-color:lavender;}
+  .grid-3-3{ @include grid-span(3,9);display:inline-block;background-color:yellow;}
   .grid-6-1{ @include grid-span(6,1);display:inline-block;background-color:orange;}
-  .grid-6-6{ @include grid-span(6,6);display:inline-block;background-color:orange;}
+  .grid-6-6{ @include grid-span(6,6);display:inline-block;background-color:lime;}
 
   .node__submitted{display:none;}
   
   .htwenty{height:20em;}
+  .hthirty{height:30em;}
   .hforty{height:40em;}
   
   
