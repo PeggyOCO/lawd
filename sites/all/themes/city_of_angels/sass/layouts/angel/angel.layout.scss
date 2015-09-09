@@ -35,7 +35,7 @@ $horz-spacing-unit: 0;
 
 // Set Singularity grid variables.
 @include add-grid(12);
-@include add-gutter(.001);
+@include add-gutter(0.0);
 /*$grids: 12;
 $grids: add-grid(12 at $phone);
 $grids: add-grid(12 at $tab);
