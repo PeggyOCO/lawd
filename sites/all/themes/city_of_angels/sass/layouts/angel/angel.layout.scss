@@ -204,6 +204,8 @@ a:hover{color:#666;}
      @include typecsset-font-size(24px);
 }
 
+footer{height:20em;background-color:#666;}
+
   @include sgs-change('debug', true);
   .l-header {
     @include pie-clearfix;
