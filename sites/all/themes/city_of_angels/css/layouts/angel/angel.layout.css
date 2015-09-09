@@ -772,7 +772,8 @@ a:hover {
   /* line 255, ../../../sass/layouts/angel/angel.layout.scss */
   .l-main {
     margin: 0;
-    padding: 0; }
+    padding: 0;
+    margin-bottom: 0px; }
 
   /* line 256, ../../../sass/layouts/angel/angel.layout.scss */
   .l-content {
