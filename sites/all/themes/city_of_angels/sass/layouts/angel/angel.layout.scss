@@ -78,13 +78,13 @@ a:hover{color:#666;}
     border: 0px dotted red;
   }
   
-    .grid-12-1{ @include grid-span(12,1);display:block;background-color:gray;}
+    .grid-12-1{ @include grid-span(12,1);display:block;background-color:lightgray;}
 
   .grid-8-1{ @include grid-span(8,1);display:inline-block;background-color:lightblue;}
   .grid-4-8{ @include grid-span(4,8);display:inline-block;background-color:pink;}
  
   .grid-9-1{ @include grid-span(9,1);display:inline-block;background-color:lightblue;}
-  .grid-9-3{ @include grid-span(9,3);display:inline-block;background-color:pink;}
+  .grid-9-3{ @include grid-span(10,3);display:inline-block;background-color:pink;}
   
   .grid-3-1{ @include grid-span(3,1);display:inline-block;background-color:lavender;}
   

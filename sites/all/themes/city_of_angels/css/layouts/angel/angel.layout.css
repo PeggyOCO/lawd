@@ -261,7 +261,7 @@ a:hover {
     margin-right: 0;
     clear: none;
     display: block;
-    background-color: gray; }
+    background-color: lightgray; }
 
   /* line 83, ../../../sass/layouts/angel/angel.layout.scss */
   .grid-8-1 {
@@ -298,11 +298,11 @@ a:hover {
 
   /* line 87, ../../../sass/layouts/angel/angel.layout.scss */
   .grid-9-3 {
-    -sgs-span-settings: ("span": 9, "location": 3, "grid": 12, "gutter": 0.25, "style": "opposite", "start row": false, "end row": false, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
-    width: 74.57627%;
-    float: left;
-    margin-right: -100%;
-    margin-left: 16.94915%;
+    -sgs-span-settings: ("span": 10, "location": 3, "grid": 12, "gutter": 0.25, "style": "opposite", "start row": false, "end row": true, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
+    width: 83.05085%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
     clear: none;
     display: inline-block;
     background-color: pink; }
