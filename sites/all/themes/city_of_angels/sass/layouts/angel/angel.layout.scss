@@ -244,6 +244,8 @@ footer{height:20em;background-color:#d5d5d5;margin:0;}
     text-align:left;
 
   }
+  
+  .l-header{margin:0;}
   .l-region--header {
     @include grid-span(12, 1);
   }
