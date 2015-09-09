@@ -34,13 +34,15 @@ $horz-spacing-unit: 0;
 // $desk : 980px;
 
 // Set Singularity grid variables.
-
-$grids: 12;
+@include add-grid(12);
+@include add-gutter(.1);
+/*$grids: 12;
 $grids: add-grid(12 at $phone);
 $grids: add-grid(12 at $tab);
 $grids: add-grid(12 at $desk);
 
-$gutters: 1/100;
+$gutter-styles: 
+$gutters: 1/100;*/
 
 body{padding:0;margin:0;}
 
