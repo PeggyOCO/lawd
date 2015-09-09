@@ -78,7 +78,7 @@ a:hover{color:#666;}
     border: 0px dotted red;
   }
   
-    .grid-12-1{ @include grid-span(12,1);display:inline-block;background-color:gray;}
+    .grid-12-1{ @include grid-span(12,1);display:block;background-color:gray;}
 
   .grid-8-1{ @include grid-span(8,1);display:inline-block;background-color:lightblue;}
   .grid-4-8{ @include grid-span(4,8);display:inline-block;background-color:pink;}
@@ -95,6 +95,7 @@ a:hover{color:#666;}
 
   .node__submitted{display:none;}
   
+  .section{width:100%;display:block;clear:both;height:auto;}
   .htwenty{height:20em;}
   .hthirty{height:30em;}
   .hforty{height:40em;}
