@@ -91,6 +91,11 @@ a:hover{color:#666;}
   .grid-6-1{ @include grid-span(6,1);display:inline-block;background-color:orange;}
   .grid-6-6{ @include grid-span(6,6);display:inline-block;background-color:orange;}
 
+  .node__submitted{display:none;}
+  
+  .htwenty{height:20em;}
+  .hforty{height:40em;}
+  
   
   .l-branding {
    @include background-grid($color: #e1e1e1);
