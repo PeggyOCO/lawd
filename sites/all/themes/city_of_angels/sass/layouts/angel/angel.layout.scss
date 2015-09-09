@@ -252,12 +252,13 @@ footer{height:20em;background-color:#d5d5d5;margin:0;}
   }
 
   /* Content Area */
+  .l-main{margin:0;padding:0;}
   .l-content {
     @include grid-span(12, 1);
-    padding:0 2em;
+    padding:0 0em;
     border:0px dotted orange;
     min-height:900px;
-      padding:0 2em;
+      padding:0 0em;
       h1{display:none;}
   }
 
