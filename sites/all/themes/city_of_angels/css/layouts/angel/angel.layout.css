@@ -294,7 +294,8 @@ a:hover {
     margin-left: 0;
     clear: none;
     display: inline-block;
-    background-color: lightblue; }
+    background-color: lightblue;
+    padding: 0 1em 0 0; }
 
   /* line 87, ../../../sass/layouts/angel/angel.layout.scss */
   .grid-9-3 {

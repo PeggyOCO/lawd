@@ -40,7 +40,7 @@ $grids: add-grid(12 at $phone);
 $grids: add-grid(12 at $tab);
 $grids: add-grid(12 at $desk);
 
-$gutters: 1/12;
+$gutters: 1/3;
 
 body{padding:0;margin:0;}
 
@@ -83,7 +83,7 @@ a:hover{color:#666;}
   .grid-8-1{ @include grid-span(8,1);display:inline-block;background-color:lightblue;}
   .grid-4-8{ @include grid-span(4,8);display:inline-block;background-color:pink;}
  
-  .grid-9-1{ @include grid-span(9,1);display:inline-block;background-color:lightblue;}
+  .grid-9-1{ @include grid-span(9,1);display:inline-block;background-color:lightblue;padding:0 1em 0 0;}
   .grid-9-3{ @include grid-span(10,3);display:inline-block;background-color:pink;}
   
   .grid-3-1{ @include grid-span(3,1);display:inline-block;background-color:lavender;}
