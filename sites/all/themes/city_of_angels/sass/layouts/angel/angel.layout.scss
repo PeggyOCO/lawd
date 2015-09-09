@@ -217,22 +217,22 @@ footer{height:20em;background-color:#d5d5d5;margin:0;}
   .hthirty{height:30em;}
   .hforty{height:40em;}
   
-  .grid-12-1{ @include grid-span(12,1);display:block;background-color:lightgray;border:1px dotted black;}
+  .grid-12-1{ @include grid-span(12,1);display:block;background-color:lightgray;border:0px dotted black;}
 
-  .grid-8-1{ @include grid-span(8,1);display:inline-block;background-color:lightblue;border:1px dotted black;}
+  .grid-8-1{ @include grid-span(8,1);display:inline-block;background-color:lightblue;border:0px dotted black;}
   .grid-4-8{ @include grid-span(4,9);display:inline-block;background-color:pink;border:1px dotted black;}
  
-  .grid-9-1{ @include grid-span(9,1);display:inline-block;background-color:lightblue;padding:0 1em 0 0;border:1px dotted black;}
-  .grid-9-3{ @include grid-span(10,3);display:inline-block;background-color:pink;border:1px dotted black;}
+  .grid-9-1{ @include grid-span(9,1);display:inline-block;background-color:lightblue;border:0px dotted black;}
+  .grid-9-3{ @include grid-span(10,3);display:inline-block;background-color:pink;border:0px dotted black;}
   
-  .grid-3-1{ @include grid-span(3,1);display:inline-block;background-color:lavender;border:1px dotted black;}
+  .grid-3-1{ @include grid-span(3,1);display:inline-block;background-color:lavender;border:0px dotted black;}
   
   .grid-3-3{ @include grid-span(3,4);display:inline-block;background-color:plum;border:1px dotted black;}
   .grid-3-6{ @include grid-span(3,7);display:inline-block;background-color:pink;border:1px dotted black;}
-  .grid-3-9{ @include grid-span(3,10);display:inline-block;background-color:yellow;border:1px dotted black;}
+  .grid-3-9{ @include grid-span(3,10);display:inline-block;background-color:yellow;border:0px dotted black;}
 
-  .grid-6-1{ @include grid-span(6,1);display:inline-block;background-color:orange;border:1px dotted black;}
-  .grid-6-6{ @include grid-span(6,7);display:inline-block;background-color:lime;border:1px dotted black;}
+  .grid-6-1{ @include grid-span(6,1);display:inline-block;background-color:orange;border:0px dotted black;}
+  .grid-6-6{ @include grid-span(6,7);display:inline-block;background-color:lime;border:0px dotted black;}
 
   
 
