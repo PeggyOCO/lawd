@@ -89,7 +89,7 @@ a:hover{color:#666;}
   .grid-3-1{ @include grid-span(3,1);display:inline-block;background-color:lavender;}
   
   .grid-3-3{ @include grid-span(3,3);display:inline-block;background-color:lavender;}
-  .grid-3-9{ @include grid-span(3,9);display:inline-block;background-color:yellow;}
+  .grid-3-9{ @include grid-span(3,10);display:inline-block;background-color:yellow;}
   .grid-6-1{ @include grid-span(6,1);display:inline-block;background-color:orange;}
   .grid-6-6{ @include grid-span(6,6);display:inline-block;background-color:lime;}
 
