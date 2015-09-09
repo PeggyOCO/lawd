@@ -261,7 +261,8 @@ a:hover {
     margin-right: 0;
     clear: none;
     display: block;
-    background-color: lightgray; }
+    background-color: lightgray;
+    border: 1px dotted black; }
 
   /* line 83, ../../../sass/layouts/angel/angel.layout.scss */
   .grid-8-1 {
@@ -272,7 +273,8 @@ a:hover {
     margin-left: 0;
     clear: none;
     display: inline-block;
-    background-color: lightblue; }
+    background-color: lightblue;
+    border: 1px dotted black; }
 
   /* line 84, ../../../sass/layouts/angel/angel.layout.scss */
   .grid-4-8 {
@@ -283,7 +285,8 @@ a:hover {
     margin-left: 59.32203%;
     clear: none;
     display: inline-block;
-    background-color: pink; }
+    background-color: pink;
+    border: 1px dotted black; }
 
   /* line 86, ../../../sass/layouts/angel/angel.layout.scss */
   .grid-9-1 {
@@ -295,7 +298,8 @@ a:hover {
     clear: none;
     display: inline-block;
     background-color: lightblue;
-    padding: 0 1em 0 0; }
+    padding: 0 1em 0 0;
+    border: 1px dotted black; }
 
   /* line 87, ../../../sass/layouts/angel/angel.layout.scss */
   .grid-9-3 {
@@ -306,7 +310,8 @@ a:hover {
     margin-right: 0;
     clear: none;
     display: inline-block;
-    background-color: pink; }
+    background-color: pink;
+    border: 1px dotted black; }
 
   /* line 89, ../../../sass/layouts/angel/angel.layout.scss */
   .grid-3-1 {
@@ -317,7 +322,8 @@ a:hover {
     margin-left: 0;
     clear: none;
     display: inline-block;
-    background-color: lavender; }
+    background-color: lavender;
+    border: 1px dotted black; }
 
   /* line 91, ../../../sass/layouts/angel/angel.layout.scss */
   .grid-3-3 {
@@ -328,7 +334,8 @@ a:hover {
     margin-left: 16.94915%;
     clear: none;
     display: inline-block;
-    background-color: lavender; }
+    background-color: lavender;
+    border: 1px dotted black; }
 
   /* line 92, ../../../sass/layouts/angel/angel.layout.scss */
   .grid-3-9 {
@@ -339,7 +346,8 @@ a:hover {
     margin-right: 0;
     clear: none;
     display: inline-block;
-    background-color: yellow; }
+    background-color: yellow;
+    border: 1px dotted black; }
 
   /* line 93, ../../../sass/layouts/angel/angel.layout.scss */
   .grid-6-1 {
@@ -350,7 +358,8 @@ a:hover {
     margin-left: 0;
     clear: none;
     display: inline-block;
-    background-color: orange; }
+    background-color: orange;
+    border: 1px dotted black; }
 
   /* line 94, ../../../sass/layouts/angel/angel.layout.scss */
   .grid-6-6 {
@@ -361,7 +370,8 @@ a:hover {
     margin-left: 42.37288%;
     clear: none;
     display: inline-block;
-    background-color: lime; }
+    background-color: lime;
+    border: 1px dotted black; }
 
   /* line 96, ../../../sass/layouts/angel/angel.layout.scss */
   .node__submitted {
