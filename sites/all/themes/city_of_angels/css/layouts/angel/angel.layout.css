@@ -584,7 +584,8 @@ a:hover {
   /* line 207, ../../../sass/layouts/angel/angel.layout.scss */
   footer {
     height: 20em;
-    background-color: #666; }
+    background-color: #d5d5d5;
+    margin: 0; }
 
   /* line 210, ../../../sass/layouts/angel/angel.layout.scss */
   .l-header {

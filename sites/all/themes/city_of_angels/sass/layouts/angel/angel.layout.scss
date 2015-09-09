@@ -204,7 +204,7 @@ a:hover{color:#666;}
      @include typecsset-font-size(24px);
 }
 
-footer{height:20em;background-color:#666;}
+footer{height:20em;background-color:#d5d5d5;margin:0;}
 
   @include sgs-change('debug', true);
   .l-header {
