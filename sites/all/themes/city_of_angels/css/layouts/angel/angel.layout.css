@@ -691,7 +691,7 @@ a:hover {
     clear: none;
     display: inline-block;
     background-color: plum;
-    border: 1px dotted black; }
+    border: 0px dotted black; }
 
   /* line 231, ../../../sass/layouts/angel/angel.layout.scss */
   .grid-3-6 {
@@ -703,7 +703,7 @@ a:hover {
     clear: none;
     display: inline-block;
     background-color: pink;
-    border: 1px dotted black; }
+    border: 0px dotted black; }
 
   /* line 232, ../../../sass/layouts/angel/angel.layout.scss */
   .grid-3-9 {

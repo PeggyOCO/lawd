@@ -227,8 +227,8 @@ footer{height:20em;background-color:#d5d5d5;margin:0;}
   
   .grid-3-1{ @include grid-span(3,1);display:inline-block;background-color:lavender;border:0px dotted black;}
   
-  .grid-3-3{ @include grid-span(3,4);display:inline-block;background-color:plum;border:1px dotted black;}
-  .grid-3-6{ @include grid-span(3,7);display:inline-block;background-color:pink;border:1px dotted black;}
+  .grid-3-3{ @include grid-span(3,4);display:inline-block;background-color:plum;border:0px dotted black;}
+  .grid-3-6{ @include grid-span(3,7);display:inline-block;background-color:pink;border:0px dotted black;}
   .grid-3-9{ @include grid-span(3,10);display:inline-block;background-color:yellow;border:0px dotted black;}
 
   .grid-6-1{ @include grid-span(6,1);display:inline-block;background-color:orange;border:0px dotted black;}
