@@ -670,6 +670,18 @@ a:hover {
     border: 1px dotted black; }
 
   /* line 223, ../../../sass/layouts/angel/angel.layout.scss */
+  .grid-3-6 {
+    -sgs-span-settings: ("span": 3, "location": 10, "grid": 12, "gutter": 0.25, "style": "opposite", "start row": false, "end row": true, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
+    width: 23.72881%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+    display: inline-block;
+    background-color: lavender;
+    border: 1px dotted black; }
+
+  /* line 226, ../../../sass/layouts/angel/angel.layout.scss */
   .grid-3-9 {
     -sgs-span-settings: ("span": 3, "location": 10, "grid": 12, "gutter": 0.25, "style": "opposite", "start row": false, "end row": true, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
     width: 23.72881%;
@@ -681,7 +693,7 @@ a:hover {
     background-color: yellow;
     border: 1px dotted black; }
 
-  /* line 224, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 227, ../../../sass/layouts/angel/angel.layout.scss */
   .grid-6-1 {
     -sgs-span-settings: ("span": 6, "location": 1, "grid": 12, "gutter": 0.25, "style": "opposite", "start row": true, "end row": false, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
     width: 49.15254%;
@@ -693,7 +705,7 @@ a:hover {
     background-color: orange;
     border: 1px dotted black; }
 
-  /* line 225, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 228, ../../../sass/layouts/angel/angel.layout.scss */
   .grid-6-6 {
     -sgs-span-settings: ("span": 6, "location": 7, "grid": 12, "gutter": 0.25, "style": "opposite", "start row": false, "end row": true, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
     width: 49.15254%;
@@ -705,7 +717,7 @@ a:hover {
     background-color: lime;
     border: 1px dotted black; }
 
-  /* line 229, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 232, ../../../sass/layouts/angel/angel.layout.scss */
   .l-branding {
     background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww%2Ew3%2Eorg%2F2000%2Fsvg%22%3E%3Crect%20x%3D%220%25%22%20fill%3D%22%23ededed%22%20width%3D%226%2E77966%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%226%2E77966%25%22%20fill%3D%22%23f2f2f2%22%20width%3D%221%2E69492%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%228%2E47458%25%22%20fill%3D%22%23ededed%22%20width%3D%226%2E77966%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2215%2E25424%25%22%20fill%3D%22%23f2f2f2%22%20width%3D%221%2E69492%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2216%2E94915%25%22%20fill%3D%22%23ededed%22%20width%3D%226%2E77966%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2223%2E72881%25%22%20fill%3D%22%23f2f2f2%22%20width%3D%221%2E69492%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2225%2E42373%25%22%20fill%3D%22%23ededed%22%20width%3D%226%2E77966%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2232%2E20339%25%22%20fill%3D%22%23f2f2f2%22%20width%3D%221%2E69492%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2233%2E89831%25%22%20fill%3D%22%23ededed%22%20width%3D%226%2E77966%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2240%2E67797%25%22%20fill%3D%22%23f2f2f2%22%20width%3D%221%2E69492%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2242%2E37288%25%22%20fill%3D%22%23ededed%22%20width%3D%226%2E77966%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2249%2E15254%25%22%20fill%3D%22%23f2f2f2%22%20width%3D%221%2E69492%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2250%2E84746%25%22%20fill%3D%22%23ededed%22%20width%3D%226%2E77966%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2257%2E62712%25%22%20fill%3D%22%23f2f2f2%22%20width%3D%221%2E69492%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2259%2E32203%25%22%20fill%3D%22%23ededed%22%20width%3D%226%2E77966%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2266%2E10169%25%22%20fill%3D%22%23f2f2f2%22%20width%3D%221%2E69492%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2267%2E79661%25%22%20fill%3D%22%23ededed%22%20width%3D%226%2E77966%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2274%2E57627%25%22%20fill%3D%22%23f2f2f2%22%20width%3D%221%2E69492%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2276%2E27119%25%22%20fill%3D%22%23ededed%22%20width%3D%226%2E77966%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2283%2E05085%25%22%20fill%3D%22%23f2f2f2%22%20width%3D%221%2E69492%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2284%2E74576%25%22%20fill%3D%22%23ededed%22%20width%3D%226%2E77966%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2291%2E52542%25%22%20fill%3D%22%23f2f2f2%22%20width%3D%221%2E69492%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2293%2E22034%25%22%20fill%3D%22%23ededed%22%20width%3D%226%2E77966%25%22%20height%3D%22100%25%22%2F%3E%3C%2Fsvg%3E");
     -sgs-span-settings: ("span": 12, "location": 1, "grid": 12, "gutter": 0.25, "style": "opposite", "start row": true, "end row": true, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
@@ -718,7 +730,7 @@ a:hover {
     background-color: #ededed;
     text-align: left; }
 
-  /* line 237, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 240, ../../../sass/layouts/angel/angel.layout.scss */
   .l-region--header {
     -sgs-span-settings: ("span": 12, "location": 1, "grid": 12, "gutter": 0.25, "style": "opposite", "start row": true, "end row": true, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
     width: 100%;
@@ -727,12 +739,12 @@ a:hover {
     margin-right: 0;
     clear: none; }
 
-  /* line 240, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 243, ../../../sass/layouts/angel/angel.layout.scss */
   .l-region--navigation {
     clear: both; }
 
   /* Content Area */
-  /* line 245, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 248, ../../../sass/layouts/angel/angel.layout.scss */
   .l-content {
     -sgs-span-settings: ("span": 12, "location": 1, "grid": 12, "gutter": 0.25, "style": "opposite", "start row": true, "end row": true, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
     width: 100%;
@@ -744,12 +756,12 @@ a:hover {
     border: 0px dotted orange;
     min-height: 900px;
     padding: 0 2em; }
-    /* line 251, ../../../sass/layouts/angel/angel.layout.scss */
+    /* line 254, ../../../sass/layouts/angel/angel.layout.scss */
     .l-content h1 {
       display: none; }
 
   /* Sidebars */
-  /* line 256, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 259, ../../../sass/layouts/angel/angel.layout.scss */
   .has-one-sidebar .l-region--sidebar-first,
   .has-one-sidebar .l-region--sidebar-second {
     -sgs-span-settings: ("span": 6, "location": 6, "grid": 12, "gutter": 0.25, "style": "opposite", "start row": false, "end row": false, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
@@ -762,7 +774,7 @@ a:hover {
     border: 1px dotted gray;
     min-height: 900px; }
 
-  /* line 265, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 268, ../../../sass/layouts/angel/angel.layout.scss */
   .has-two-sidebars .l-region--sidebar-first {
     -sgs-span-settings: ("span": 1, "location": 2, "grid": 12, "gutter": 0.25, "style": "opposite", "start row": false, "end row": false, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
     width: 6.77966%;
@@ -770,7 +782,7 @@ a:hover {
     margin-right: -100%;
     margin-left: 8.47458%;
     clear: none; }
-  /* line 268, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 271, ../../../sass/layouts/angel/angel.layout.scss */
   .has-two-sidebars .l-region--sidebar-second {
     -sgs-span-settings: ("span": 1, "location": 3, "grid": 12, "gutter": 0.25, "style": "opposite", "start row": false, "end row": false, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
     width: 6.77966%;
