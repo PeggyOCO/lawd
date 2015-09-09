@@ -363,6 +363,10 @@ a:hover {
     background-color: lime; }
 
   /* line 96, ../../../sass/layouts/angel/angel.layout.scss */
+  .node__submitted {
+    display: none; }
+
+  /* line 97, ../../../sass/layouts/angel/angel.layout.scss */
   h2.node__title {
     display: none; }
 

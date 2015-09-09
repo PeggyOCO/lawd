@@ -93,8 +93,8 @@ a:hover{color:#666;}
   .grid-6-1{ @include grid-span(6,1);display:inline-block;background-color:orange;}
   .grid-6-6{ @include grid-span(6,6);display:inline-block;background-color:lime;}
 
-  h2.node__title{display:none;}
-  
+  .node__submitted{display:none;}
+   h2.node__title{display:none;}
   .section{width:100%;display:block;clear:both;height:auto;}
   .htwenty{height:20em;}
   .hthirty{height:30em;}
