@@ -969,7 +969,8 @@ a:hover {
 
   /* line 286, ../../../sass/layouts/angel/angel.layout.scss */
   .home-five {
-    background-color: white; }
+    background-color: white;
+    overflow: hidden; }
 
   /* line 287, ../../../sass/layouts/angel/angel.layout.scss */
   h4.red {
