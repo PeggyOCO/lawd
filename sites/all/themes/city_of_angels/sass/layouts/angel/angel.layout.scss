@@ -197,6 +197,8 @@ footer{height:20em;background-color:#d5d5d5;margin:0;}
 
   .home-five{background-color:white;}
   h4.red{color:#d35232;letter-spacing:2px;font-size:1em;font-weight:bold;line-height:1em;width:80%;display:block;text-align:left;margin:.5em auto;}
+  h4.gray{color:#666;letter-spacing:2px;font-size:1em;font-weight:bold;line-height:1em;width:80%;display:block;text-align:left;margin:.5em auto;}
+
   .l-branding {
    @include background-grid($color: #fff);
     @include grid-span(12,1);
@@ -289,13 +291,19 @@ footer{height:20em;background-color:#d5d5d5;margin:0;}
   
   .grid-3-3{ @include grid-span(3,4);display:inline-block;background-color:white;border:.3pt solid gray;}
   .grid-3-6{ @include grid-span(3,7);display:inline-block;background-color:pink;border:0px dotted black;}
-  .grid-3-9{ @include grid-span(3,10);display:inline-block;background-color:yellow;border:0px dotted black;}
+  .grid-3-9{ @include grid-span(3,10);display:inline-block;background-color:yellow;border:0px dotted black;
+  display:table-cell;vertical-align:middle;}
 
   .grid-6-1{ @include grid-span(6,1);display:inline-block;background-color:orange;border:0px dotted black;}
   .grid-6-6{ @include grid-span(6,7);display:inline-block;background-color:white;border:.3pt solid gray;}
 
   .home-five{background-color:white;overflow:hidden;}
   h4.red{color:#d35232;letter-spacing:2px;font-size:1em;font-weight:bold;line-height:1em;width:80%;display:block;text-align:left;margin:.5em auto;}
+  h4.gray{color:#666;letter-spacing:2px;font-size:1em;font-weight:bold;line-height:1em;width:80%;display:block;text-align:left;margin:.5em auto;}
+
+ ul#twolist{list-style-type: none;color:#d15232;width:80%;margin:0 auto;}
+ 
+ 
   .l-branding {
    @include background-grid($color: #fff);
     @include grid-span(12,1);
