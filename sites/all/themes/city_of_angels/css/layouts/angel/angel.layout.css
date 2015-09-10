@@ -759,6 +759,8 @@ a:hover {
     font-weight: bold;
     line-height: 2em;
     width: 80%;
+    display: block;
+    text-align: center;
     margin: 2em auto; }
 
   /* line 240, ../../../sass/layouts/angel/angel.layout.scss */
