@@ -239,7 +239,7 @@ footer{height:20em;background-color:#d5d5d5;margin:0;}
   .grid-6-6{ @include grid-span(6,7);display:inline-block;background-color:white;border:0px dotted black;}
 
   .home-five{background:url("/dev/sites/default/files/home-five.jpg");background-size:cover;background-repeat:no-repeat;}
-  h4.red{color:darkred;letter-spacing:2px;font-size:1em;font-weight:bold;line-height:1em;width:80%;display:block;text-align:center;margin:.5em auto;}
+  h4.red{color:#d35232;letter-spacing:2px;font-size:1em;font-weight:bold;line-height:1em;width:80%;display:block;text-align:left;margin:.5em auto;}
   .l-branding {
    @include background-grid($color: #fff);
     @include grid-span(12,1);

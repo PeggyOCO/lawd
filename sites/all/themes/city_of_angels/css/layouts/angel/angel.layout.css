@@ -781,14 +781,14 @@ a:hover {
 
   /* line 242, ../../../sass/layouts/angel/angel.layout.scss */
   h4.red {
-    color: darkred;
+    color: #d35232;
     letter-spacing: 2px;
     font-size: 1em;
     font-weight: bold;
     line-height: 1em;
     width: 80%;
     display: block;
-    text-align: center;
+    text-align: left;
     margin: .5em auto; }
 
   /* line 243, ../../../sass/layouts/angel/angel.layout.scss */
