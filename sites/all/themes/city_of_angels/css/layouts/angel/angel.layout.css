@@ -687,7 +687,7 @@ a:hover {
     clear: none;
     display: inline-block;
     background-color: lightblue;
-    border: 0px dotted black; }
+    border: 0px solid black; }
 
   /* line 230, ../../../sass/layouts/angel/angel.layout.scss */
   .grid-9-3 {
@@ -699,7 +699,7 @@ a:hover {
     clear: none;
     display: inline-block;
     background-color: pink;
-    border: 0px dotted black; }
+    border: 0px solid black; }
 
   /* line 232, ../../../sass/layouts/angel/angel.layout.scss */
   .grid-3-1 {
@@ -711,7 +711,7 @@ a:hover {
     clear: none;
     display: inline-block;
     background-color: lavender;
-    border: 1px dotted gray; }
+    border: 1px solid gray; }
 
   /* line 234, ../../../sass/layouts/angel/angel.layout.scss */
   .grid-3-3 {
@@ -723,7 +723,7 @@ a:hover {
     clear: none;
     display: inline-block;
     background-color: plum;
-    border: 1px dotted gray; }
+    border: 1px solid gray; }
 
   /* line 235, ../../../sass/layouts/angel/angel.layout.scss */
   .grid-3-6 {
@@ -771,7 +771,7 @@ a:hover {
     clear: none;
     display: inline-block;
     background-color: white;
-    border: 1px dotted gray; }
+    border: 1px solid gray; }
 
   /* line 241, ../../../sass/layouts/angel/angel.layout.scss */
   .home-five {

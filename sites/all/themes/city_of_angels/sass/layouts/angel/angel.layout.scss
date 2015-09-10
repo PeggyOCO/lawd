@@ -226,17 +226,17 @@ footer{height:20em;background-color:#d5d5d5;margin:0;}
   .grid-8-1{ @include grid-span(8,1);display:inline-block;background-color:lightblue;border:0px dotted black;}
   .grid-4-8{ @include grid-span(4,9);display:inline-block;background-color:pink;border:1px dotted black;}
  
-  .grid-9-1{ @include grid-span(9,1);display:inline-block;background-color:lightblue;border:0px dotted black;}
-  .grid-9-3{ @include grid-span(10,3);display:inline-block;background-color:pink;border:0px dotted black;}
+  .grid-9-1{ @include grid-span(9,1);display:inline-block;background-color:lightblue;border:0px solid black;}
+  .grid-9-3{ @include grid-span(10,3);display:inline-block;background-color:pink;border:0px solid black;}
   
-  .grid-3-1{ @include grid-span(3,1);display:inline-block;background-color:lavender;border:1px dotted gray;}
+  .grid-3-1{ @include grid-span(3,1);display:inline-block;background-color:lavender;border:1px solid gray;}
   
-  .grid-3-3{ @include grid-span(3,4);display:inline-block;background-color:plum;border:1px dotted gray;}
+  .grid-3-3{ @include grid-span(3,4);display:inline-block;background-color:plum;border:1px solid gray;}
   .grid-3-6{ @include grid-span(3,7);display:inline-block;background-color:pink;border:0px dotted black;}
   .grid-3-9{ @include grid-span(3,10);display:inline-block;background-color:yellow;border:0px dotted black;}
 
   .grid-6-1{ @include grid-span(6,1);display:inline-block;background-color:orange;border:0px dotted black;}
-  .grid-6-6{ @include grid-span(6,7);display:inline-block;background-color:white;border:1px dotted gray;}
+  .grid-6-6{ @include grid-span(6,7);display:inline-block;background-color:white;border:1px solid gray;}
 
   .home-five{background:url("/dev/sites/default/files/home-five.jpg");background-size:cover;background-repeat:no-repeat;}
   h4.red{color:#d35232;letter-spacing:2px;font-size:1em;font-weight:bold;line-height:1em;width:80%;display:block;text-align:left;margin:.5em auto;}
