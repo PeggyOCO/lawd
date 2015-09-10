@@ -14,6 +14,7 @@ $tab  : 768px;
 $desk : 980px;
 div{position:relative;}
 img.top{width:100%;margin-top:0;margin-bottom:.5em;}
+img.high{height:100%;}
 
 @import "../../typecsset/typecsset.scss";
 // 
@@ -238,7 +239,7 @@ footer{height:20em;background-color:#d5d5d5;margin:0;}
   .grid-6-1{ @include grid-span(6,1);display:inline-block;background-color:orange;border:0px dotted black;}
   .grid-6-6{ @include grid-span(6,7);display:inline-block;background-color:white;border:.3pt solid gray;}
 
-  .home-five{background:url("/dev/sites/default/files/home-five.jpg");background-size:cover;background-repeat:no-repeat;}
+  .home-five{background-color:white;}
   h4.red{color:#d35232;letter-spacing:2px;font-size:1em;font-weight:bold;line-height:1em;width:80%;display:block;text-align:left;margin:.5em auto;}
   .l-branding {
    @include background-grid($color: #fff);
