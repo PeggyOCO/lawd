@@ -240,7 +240,7 @@ footer{height:20em;background-color:#d5d5d5;margin:0;}
   .home-five{background:url("/dev/sites/default/files/home-five.jpg");background-size:cover;background-repeat:no-repeat;}
   h4.red{color:darkred;letter-spacing:2px;font-size:1em;font-weight:bold;line-height:2em;width:80%;display:block;text-align:center;margin:2em auto;}
   .l-branding {
-   @include background-grid($color: #ededed);
+   @include background-grid($color: #fff);
     @include grid-span(12,1);
     border: 0px dotted maroon;
     background-color: #ededed;
