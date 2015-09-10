@@ -616,14 +616,16 @@ a:hover {
   /* line 221, ../../../sass/layouts/angel/angel.layout.scss */
   p.frontblack {
     font-size: 1em;
-    color: black; }
+    color: black;
+    width: 80%;
+    margin: 3em auto; }
 
   /* line 222, ../../../sass/layouts/angel/angel.layout.scss */
   p.frontwhite {
-    font-size: 1em;
-    color: black;
+    font-size: 1.5em;
+    color: white;
     width: 80%;
-    margin: 1em auto; }
+    margin: 3em auto; }
 
   /* line 223, ../../../sass/layouts/angel/angel.layout.scss */
   .grid-12-1 {
