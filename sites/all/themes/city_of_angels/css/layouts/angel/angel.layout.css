@@ -200,6 +200,10 @@ th,
 td {
   padding: 12px; }
 
+/* line 26, ../../../sass/layouts/angel/angel.layout.scss */
+* {
+  font-family: Verdana, Helvetica, sans-serif; }
+
 /*$grids: 12;
 $grids: add-grid(12 at $phone);
 $grids: add-grid(12 at $tab);
