@@ -152,47 +152,88 @@ a:hover{color:#666;}
 @include breakpoint($tab) {
   /* Header Area */
  h1 {
-     @include typecsset-font-size(20px);
+     @include typecsset-font-size(24px);
 }
 
-    @include sgs-change('debug', true);
-  .l-branding {
-    @include background-grid($color: #e6e6e6);
-    @include grid-span(12, 1);
-    border:0px dotted orange;
-      padding:0 2em;
-      text-align:left;
+footer{height:20em;background-color:#d5d5d5;margin:0;}
+
+  @include sgs-change('debug', true);
+  .l-header {
+    @include pie-clearfix;
+    border: 0px dotted red;
+    
   }
+  
+  .htwenty{height:20em;}
+  .htwenty-five{height:25em;}
+  .hthirty{height:30em;}
+  .hforty{height:40em;}
+  
+   p.frontblack{font-size:.8em;color:black;width:80%;margin:.5em auto;}
+   p.frontwhite{font-size:1.5em;color:white;width:80%;margin:2.5em auto;}
+  .grid-12-1{ @include grid-span(12,1);display:block;background-color:lightgray;border:0px dotted black;}
+
+  .grid-8-1{ @include grid-span(8,1);display:inline-block;background-color:lightblue;border:0px dotted black;}
+  .grid-4-8{ @include grid-span(4,9);display:inline-block;background-color:pink;border:1px dotted black;}
+ 
+  .grid-9-1{ @include grid-span(9,1);display:inline-block;background-color:lightblue;border:0px solid black;}
+  .grid-9-3{ @include grid-span(10,3);display:inline-block;background-color:pink;border:0px solid black;}
+  
+  .grid-3-1{ @include grid-span(3,1);display:inline-block;background-color:white;border:.3pt solid gray;}
+  
+  .grid-3-3{ @include grid-span(3,4);display:inline-block;background-color:white;border:.3pt solid gray;}
+  .grid-3-6{ @include grid-span(3,7);display:inline-block;background-color:pink;border:0px dotted black;}
+  .grid-3-9{ @include grid-span(3,10);display:inline-block;background-color:yellow;border:0px dotted black;}
+
+  .grid-6-1{ @include grid-span(6,1);display:inline-block;background-color:orange;border:0px dotted black;}
+  .grid-6-6{ @include grid-span(6,7);display:inline-block;background-color:white;border:.3pt solid gray;}
+
+  .home-five{background-color:white;}
+  h4.red{color:#d35232;letter-spacing:2px;font-size:1em;font-weight:bold;line-height:1em;width:80%;display:block;text-align:left;margin:.5em auto;}
+  .l-branding {
+   @include background-grid($color: #fff);
+    @include grid-span(12,1);
+    border: 0px dotted maroon;
+    background-color: #ededed;
+    text-align:left;
+
+  }
+  
+  .l-header{margin:0;}
   .l-region--header {
     @include grid-span(12, 1);
   }
   .l-region--navigation {
     clear: both;
   }
-  
-  .grid-8{ @include grid-span(8,1);display:inline-block;background-color:lightblue;}
-  .grid-4{ @include grid-span(4,8);display:inline-block;background-color:pink;}
 
   /* Content Area */
+  .l-main{margin:0;padding:0;margin-bottom: 0px;}
   .l-content {
-    @include grid-span(12,1);
-      padding:0 2em;
-       h1{display:none;}
+    @include grid-span(12, 1);
+    padding:0 0em;
+    border:0px dotted orange;
+    min-height:900px;
+      padding:0 0em;
+      h1{display:none;}
   }
 
   /* Sidebars */
   .has-one-sidebar {
     .l-region--sidebar-first,
     .l-region--sidebar-second {
-      @include grid-span(2, 1);
+      @include grid-span(6, 6);
+      padding:0 2em;
+      border:1px dotted gray;
+      min-height:900px;
     }
   }
   .has-two-sidebars {
     .l-region--sidebar-first {
-      @include isolation-span(1, 1, 'both');
+      @include grid-span(1, 2);
     }
     .l-region--sidebar-second {
-      @include grid-span(1, 2);
+      @include grid-span(1, 3);
     }
   }
 }
