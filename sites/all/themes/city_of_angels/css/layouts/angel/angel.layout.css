@@ -738,12 +738,12 @@ a:hover {
     margin-right: 0;
     clear: none;
     display: inline-block;
-    background-color: lime;
+    background-color: white;
     border: 0px dotted black; }
 
   /* line 237, ../../../sass/layouts/angel/angel.layout.scss */
   .home-five {
-    background: url("sites/default/files/home-five.jpg");
+    background: url("/drupal/sites/default/files/home-five.jpg");
     background-size: contain; }
 
   /* line 238, ../../../sass/layouts/angel/angel.layout.scss */
