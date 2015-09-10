@@ -17,7 +17,8 @@ img.top {
 
 /* line 17, ../../../sass/layouts/angel/angel.layout.scss */
 img.high {
-  height: 100%; }
+  height: 100%;
+  width: 100%; }
 
 /**
  * Typecsset
