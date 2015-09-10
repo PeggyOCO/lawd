@@ -5,6 +5,10 @@
  * Styling of the "angel" layout demonstrating the golden rule and asymmetric
  * grids with Singularity.
  ******************************************************************************/
+/* line 15, ../../../sass/layouts/angel/angel.layout.scss */
+div {
+  position: relative; }
+
 /* line 16, ../../../sass/layouts/angel/angel.layout.scss */
 img.top {
   width: 100%;
