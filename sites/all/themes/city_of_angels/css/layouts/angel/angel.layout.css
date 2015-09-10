@@ -744,7 +744,8 @@ a:hover {
   /* line 237, ../../../sass/layouts/angel/angel.layout.scss */
   .home-five {
     background: url("/dev/sites/default/files/home-five.jpg");
-    background-size: contain; }
+    background-size: contain;
+    background-repeat: no-repeat; }
 
   /* line 238, ../../../sass/layouts/angel/angel.layout.scss */
   h4 {
