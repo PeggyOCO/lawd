@@ -752,12 +752,14 @@ a:hover {
     background-repeat: no-repeat; }
 
   /* line 239, ../../../sass/layouts/angel/angel.layout.scss */
-  h4 {
+  h4.red {
     color: darkred;
-    text-transform: uppercase;
     letter-spacing: 2px;
+    font-size: 1em;
     font-weight: bold;
-    line-height: 2em; }
+    line-height: 2em;
+    width: auto;
+    margin: 2em auto; }
 
   /* line 240, ../../../sass/layouts/angel/angel.layout.scss */
   .l-branding {
