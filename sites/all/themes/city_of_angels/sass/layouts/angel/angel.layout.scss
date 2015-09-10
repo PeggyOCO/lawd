@@ -88,10 +88,10 @@ a:hover{color:#666;}
     .grid-12-1{ @include grid-span(12,1);display:block;background-color:lightgray;border:1px dotted black;}
 
   .grid-8-1{ @include grid-span(8,1);display:inline-block;background-color:lightblue;border:1px dotted black;
-  display:table-cell;vertical-align:middle;}
+  }
   .grid-4-8{ @include grid-span(4,8);display:inline-block;background-color:pink;border:1px dotted black;}
  
-  .grid-9-1{ @include grid-span(9,1);display:inline-block;background-color:lightblue;padding:0 1em 0 0;border:1px dotted black;}
+  .grid-9-1{ @include grid-span(9,1);display:inline-block;background-color:lightblue;padding:0 1em 0 0;border:2px dotted black;}
   .grid-9-3{ @include grid-span(10,3);display:inline-block;background-color:pink;border:1px dotted black;}
   
   .grid-3-1{ @include grid-span(3,1);display:inline-block;background-color:lavender;border:1px dotted black;}
@@ -274,13 +274,14 @@ footer{height:20em;background-color:#d5d5d5;margin:0;}
   .hforty{height:40vh;}
   
    p.frontblack{font-size:.8em;color:black;width:80%;margin:.5em auto;}
-   p.frontwhite{font-size:1.5em;color:white;width:80%;margin:2.5em auto;}
+   p.frontwhite{font-size:1.5em;color:white;width:80%;}
   .grid-12-1{ @include grid-span(12,1);display:block;background-color:lightgray;border:0px dotted black;}
 
   .grid-8-1{ @include grid-span(8,1);display:inline-block;background-color:lightblue;border:0px dotted black;}
   .grid-4-8{ @include grid-span(4,9);display:inline-block;background-color:pink;border:1px dotted black;}
  
-  .grid-9-1{ @include grid-span(9,1);display:inline-block;background-color:lightblue;border:0px solid black;}
+  .grid-9-1{ @include grid-span(9,1);display:inline-block;background-color:lightblue;border:0px solid black;
+  display:table-cell;vertical-align:middle;}
   .grid-9-3{ @include grid-span(10,3);display:inline-block;background-color:pink;border:0px solid black;}
   
   .grid-3-1{ @include grid-span(3,1);display:inline-block;background-color:white;border:.3pt solid gray;}
