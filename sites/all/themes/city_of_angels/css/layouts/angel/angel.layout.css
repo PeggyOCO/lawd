@@ -783,13 +783,13 @@ a:hover {
   h4.red {
     color: darkred;
     letter-spacing: 2px;
-    font-size: 1em;
+    font-size: .8em;
     font-weight: bold;
     line-height: 1em;
     width: 80%;
     display: block;
     text-align: center;
-    margin: 1em auto; }
+    margin: .5em auto; }
 
   /* line 243, ../../../sass/layouts/angel/angel.layout.scss */
   .l-branding {
