@@ -13,7 +13,7 @@ div {
 img.top {
   width: 100%;
   margin-top: 0;
-  margin-bottom: 1em; }
+  margin-bottom: .5em; }
 
 /**
  * Typecsset
@@ -632,14 +632,14 @@ a:hover {
     font-size: 1em;
     color: black;
     width: 80%;
-    margin: 3em auto; }
+    margin: 1em auto; }
 
   /* line 223, ../../../sass/layouts/angel/angel.layout.scss */
   p.frontwhite {
     font-size: 1.5em;
     color: white;
     width: 80%;
-    margin: 3em auto; }
+    margin: 1em auto; }
 
   /* line 224, ../../../sass/layouts/angel/angel.layout.scss */
   .grid-12-1 {
@@ -785,11 +785,11 @@ a:hover {
     letter-spacing: 2px;
     font-size: 1em;
     font-weight: bold;
-    line-height: 2em;
+    line-height: 1em;
     width: 80%;
     display: block;
     text-align: center;
-    margin: 2em auto; }
+    margin: 1em auto; }
 
   /* line 243, ../../../sass/layouts/angel/angel.layout.scss */
   .l-branding {

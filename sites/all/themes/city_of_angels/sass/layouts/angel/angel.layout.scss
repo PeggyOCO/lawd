@@ -13,7 +13,7 @@ $phone : 320px;
 $tab  : 768px;
 $desk : 980px;
 div{position:relative;}
-img.top{width:100%;margin-top:0;margin-bottom:1em;}
+img.top{width:100%;margin-top:0;margin-bottom:.5em;}
 
 @import "../../typecsset/typecsset.scss";
 // 
@@ -219,8 +219,8 @@ footer{height:20em;background-color:#d5d5d5;margin:0;}
   .hthirty{height:30em;}
   .hforty{height:40em;}
   
-   p.frontblack{font-size:1em;color:black;width:80%;margin:3em auto;}
-   p.frontwhite{font-size:1.5em;color:white;width:80%;margin:3em auto;}
+   p.frontblack{font-size:1em;color:black;width:80%;margin:1em auto;}
+   p.frontwhite{font-size:1.5em;color:white;width:80%;margin:1em auto;}
   .grid-12-1{ @include grid-span(12,1);display:block;background-color:lightgray;border:0px dotted black;}
 
   .grid-8-1{ @include grid-span(8,1);display:inline-block;background-color:lightblue;border:0px dotted black;}
@@ -239,7 +239,7 @@ footer{height:20em;background-color:#d5d5d5;margin:0;}
   .grid-6-6{ @include grid-span(6,7);display:inline-block;background-color:white;border:0px dotted black;}
 
   .home-five{background:url("/dev/sites/default/files/home-five.jpg");background-size:cover;background-repeat:no-repeat;}
-  h4.red{color:darkred;letter-spacing:2px;font-size:1em;font-weight:bold;line-height:2em;width:80%;display:block;text-align:center;margin:2em auto;}
+  h4.red{color:darkred;letter-spacing:2px;font-size:1em;font-weight:bold;line-height:1em;width:80%;display:block;text-align:center;margin:1em auto;}
   .l-branding {
    @include background-grid($color: #fff);
     @include grid-span(12,1);
