@@ -807,19 +807,19 @@ a:hover {
 
   /* line 262, ../../../sass/layouts/angel/angel.layout.scss */
   .htwenty {
-    height: 20em; }
+    height: 20vh; }
 
   /* line 263, ../../../sass/layouts/angel/angel.layout.scss */
   .htwenty-five {
-    height: 40%; }
+    height: 25vh; }
 
   /* line 264, ../../../sass/layouts/angel/angel.layout.scss */
   .hthirty {
-    height: 30em; }
+    height: 30vh; }
 
   /* line 265, ../../../sass/layouts/angel/angel.layout.scss */
   .hforty {
-    height: 40em; }
+    height: 40vh; }
 
   /* line 267, ../../../sass/layouts/angel/angel.layout.scss */
   p.frontblack {
