@@ -842,10 +842,8 @@ a:hover {
   /* line 276, ../../../sass/layouts/angel/angel.layout.scss */
   .middlecenter {
     width: 80%;
-    margin: 0 auto;
-    height: auto;
-    display: table-cell;
-    vertical-align: middle; }
+    margin: 2em auto;
+    height: auto; }
 
   /* line 279, ../../../sass/layouts/angel/angel.layout.scss */
   .htwenty {
