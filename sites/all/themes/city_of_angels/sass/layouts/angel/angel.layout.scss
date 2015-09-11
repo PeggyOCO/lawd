@@ -166,6 +166,8 @@ a:hover{color:#666;}
   display: none;
 }
 
+.worktop{background-color:teal;color:white;height:15em;width:60%;margin:2em auto;}
+
 footer{height:20em;background-color:#d5d5d5;margin:0;}
 
   @include sgs-change('debug', true);
