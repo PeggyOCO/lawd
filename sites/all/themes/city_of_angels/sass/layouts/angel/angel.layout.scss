@@ -286,7 +286,10 @@ footer{height:20em;background-color:#d5d5d5;margin:0;}
   
   .middlecenter{width:80%;
 margin:2em auto;height:auto;text-align:center;}
-  
+  .l-region--branding{width:40%;display:inline-block;float:right;}
+  #block-system-main-menu .menu{list-style-type:none;
+  li{list-style-type:none;display:inline-block;float:left;}
+  }
  /*   .htwenty{height:40vh;}
   .htwenty-five{height:60vh;}
   .hthirty{height:50vh;}
