@@ -166,7 +166,8 @@ a:hover{color:#666;}
   display: none;
 }
 div.grid-12-1.teal{background-color:teal;height:8em;}
-.worktop{background-color:none;color:white;height:4em;width:60%;margin:2em auto;}
+.worktop{background-color:none;color:white;height:4em;width:40%;margin:2em auto;}
+.gray{color:lightgray;}
 
 footer{height:20em;background-color:#d5d5d5;margin:0;}
 
@@ -283,8 +284,8 @@ margin:2em auto;height:auto;text-align:center;}
   display: none;
 }
 div.grid-12-1.teal{background-color:teal;height:8em;}
-.worktop{background-color:none;color:white;height:4em;width:60%;margin:2em auto;}
-
+.worktop{background-color:none;color:white;height:4em;width:40%;margin:2em auto;}
+.gray{color:lightgray;}
 footer{height:20em;background-color:#d5d5d5;margin:0;}
 
   @include sgs-change('debug', true);
