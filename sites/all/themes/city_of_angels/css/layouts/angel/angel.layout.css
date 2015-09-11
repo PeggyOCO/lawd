@@ -704,7 +704,8 @@ a:hover {
     clear: none;
     display: inline-block;
     background-color: white;
-    border: .3pt solid gray; }
+    border: .3pt solid gray;
+    text-align: center; }
 
   /* line 207, ../../../sass/layouts/angel/angel.layout.scss */
   .home-five {
