@@ -843,7 +843,8 @@ a:hover {
   .middlecenter {
     width: 80%;
     margin: 2em auto;
-    height: auto; }
+    height: auto;
+    text-align: center; }
 
   /* line 279, ../../../sass/layouts/angel/angel.layout.scss */
   .htwenty {
@@ -1036,7 +1037,7 @@ a:hover {
     line-height: 1em;
     width: 100%;
     display: block;
-    text-align: left;
+    text-align: center;
     margin: .5em auto; }
 
   /* line 309, ../../../sass/layouts/angel/angel.layout.scss */
@@ -1044,7 +1045,8 @@ a:hover {
     list-style-type: none;
     color: #d15232;
     width: 90%;
-    margin: 0 auto; }
+    margin: 0 auto;
+    text-align: center; }
 
   /* line 312, ../../../sass/layouts/angel/angel.layout.scss */
   .l-branding {
