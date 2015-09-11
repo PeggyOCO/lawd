@@ -162,6 +162,10 @@ a:hover{color:#666;}
      @include typecsset-font-size(24px);
 }
 
+.breadcrumb {
+  display: none;
+}
+
 footer{height:20em;background-color:#d5d5d5;margin:0;}
 
   @include sgs-change('debug', true);
@@ -178,8 +182,11 @@ footer{height:20em;background-color:#d5d5d5;margin:0;}
   
   .middlecenter{width:80%;
 margin:2em auto;height:auto;text-align:center;}
-  
-  /*   .htwenty{height:40vh;}
+  .l-region--branding{width:40%;display:inline-block;float:right;}
+  #block-system-main-menu .menu{list-style-type:none;
+  li{list-style-type:none;display:inline-block;float:left;margin-left:2em;}
+  }
+ /*   .htwenty{height:40vh;}
   .htwenty-five{height:60vh;}
   .hthirty{height:50vh;}
   .hforty{height:40vh;}*/
@@ -268,6 +275,10 @@ margin:2em auto;height:auto;text-align:center;}
   body{font-size:16px;}
  h1 {
      @include typecsset-font-size(24px);
+}
+
+.breadcrumb {
+  display: none;
 }
 
 footer{height:20em;background-color:#d5d5d5;margin:0;}
