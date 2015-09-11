@@ -567,7 +567,8 @@ a:hover {
   p.frontwhite {
     font-size: 1.5em;
     color: white;
-    width: 80%; }
+    width: 80%;
+    margin: 2em auto; }
 
   /* line 188, ../../../sass/layouts/angel/angel.layout.scss */
   .grid-12-1 {
