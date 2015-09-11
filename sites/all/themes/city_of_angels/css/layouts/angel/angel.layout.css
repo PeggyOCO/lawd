@@ -530,10 +530,22 @@ a:hover {
       display: table;
       clear: both; }
 
-  /* .htwenty{height:20em;}
-   .htwenty-five{height:25em;}
-   .hthirty{height:30em;}
-   .hforty{height:40em;}*/
+  /* line 174, ../../../sass/layouts/angel/angel.layout.scss */
+  .htwenty {
+    height: 20em; }
+
+  /* line 175, ../../../sass/layouts/angel/angel.layout.scss */
+  .htwenty-five {
+    height: 25em; }
+
+  /* line 176, ../../../sass/layouts/angel/angel.layout.scss */
+  .hthirty {
+    height: 30em; }
+
+  /* line 177, ../../../sass/layouts/angel/angel.layout.scss */
+  .hforty {
+    height: 40em; }
+
   /* line 179, ../../../sass/layouts/angel/angel.layout.scss */
   .middlecenter {
     width: 80%;
@@ -541,22 +553,10 @@ a:hover {
     height: auto;
     text-align: center; }
 
-  /* line 182, ../../../sass/layouts/angel/angel.layout.scss */
-  .htwenty {
-    height: 40vh; }
-
-  /* line 183, ../../../sass/layouts/angel/angel.layout.scss */
-  .htwenty-five {
-    height: 60vh; }
-
-  /* line 184, ../../../sass/layouts/angel/angel.layout.scss */
-  .hthirty {
-    height: 50vh; }
-
-  /* line 185, ../../../sass/layouts/angel/angel.layout.scss */
-  .hforty {
-    height: 40vh; }
-
+  /*   .htwenty{height:40vh;}
+  .htwenty-five{height:60vh;}
+  .hthirty{height:50vh;}
+  .hforty{height:40vh;}*/
   /* line 187, ../../../sass/layouts/angel/angel.layout.scss */
   p.frontblack {
     font-size: .8em;
@@ -855,10 +855,22 @@ a:hover {
       display: table;
       clear: both; }
 
-  /* .htwenty{height:20em;}
-   .htwenty-five{height:25em;}
-   .hthirty{height:30em;}
-   .hforty{height:40em;}*/
+  /* line 282, ../../../sass/layouts/angel/angel.layout.scss */
+  .htwenty {
+    height: 20em; }
+
+  /* line 283, ../../../sass/layouts/angel/angel.layout.scss */
+  .htwenty-five {
+    height: 25em; }
+
+  /* line 284, ../../../sass/layouts/angel/angel.layout.scss */
+  .hthirty {
+    height: 30em; }
+
+  /* line 285, ../../../sass/layouts/angel/angel.layout.scss */
+  .hforty {
+    height: 40em; }
+
   /* line 287, ../../../sass/layouts/angel/angel.layout.scss */
   .middlecenter {
     width: 80%;
@@ -866,22 +878,10 @@ a:hover {
     height: auto;
     text-align: center; }
 
-  /* line 290, ../../../sass/layouts/angel/angel.layout.scss */
-  .htwenty {
-    height: 40vh; }
-
-  /* line 291, ../../../sass/layouts/angel/angel.layout.scss */
-  .htwenty-five {
-    height: 60vh; }
-
-  /* line 292, ../../../sass/layouts/angel/angel.layout.scss */
-  .hthirty {
-    height: 50vh; }
-
-  /* line 293, ../../../sass/layouts/angel/angel.layout.scss */
-  .hforty {
-    height: 40vh; }
-
+  /*   .htwenty{height:40vh;}
+   .htwenty-five{height:60vh;}
+   .hthirty{height:50vh;}
+   .hforty{height:40vh;}*/
   /* line 295, ../../../sass/layouts/angel/angel.layout.scss */
   p.frontblack {
     font-size: .8em;
