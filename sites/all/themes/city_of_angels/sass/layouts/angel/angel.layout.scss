@@ -102,7 +102,7 @@ a:hover{color:#666;}
   .grid-6-1{ @include grid-span(6,1);display:inline-block;background-color:orange;border:1px dotted black;}
   .grid-6-6{ @include grid-span(6,7);display:inline-block;background-color:lime;border:1px dotted black;}
 
-  .node__submitted{display:none;}
+ /* .node__submitted{display:none;}*/
    h2.node__title{display:none;}
   .section{width:100%;display:block;clear:both;height:auto;}
   .htwenty{height:20em;}

@@ -405,10 +405,7 @@ a:hover {
     background-color: lime;
     border: 1px dotted black; }
 
-  /* line 105, ../../../sass/layouts/angel/angel.layout.scss */
-  .node__submitted {
-    display: none; }
-
+  /* .node__submitted{display:none;}*/
   /* line 106, ../../../sass/layouts/angel/angel.layout.scss */
   h2.node__title {
     display: none; }
