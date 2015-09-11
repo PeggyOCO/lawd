@@ -891,7 +891,8 @@ a:hover {
     #block-system-main-menu .menu li {
       list-style-type: none;
       display: inline-block;
-      float: left; }
+      float: left;
+      margin-left: 2em; }
 
   /*   .htwenty{height:40vh;}
    .htwenty-five{height:60vh;}
