@@ -191,6 +191,10 @@ margin:2em auto;height:auto;text-align:center;}
   li{margin-left:2em;}
   
   }
+  
+  #admin-menu, #admin-menu .dropdown {
+  z-index: 9999;
+}
 
 
   .l-region--branding{width:40%;display:inline-block;float:right;}
