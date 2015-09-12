@@ -21,6 +21,10 @@ img.high{position:absolute;
     margin-left:2em;
 }
 
+  #admin-menu, #admin-menu .dropdown {
+  z-index: 9999;
+}
+
 @import "../../typecsset/typecsset.scss";
 // 
 // $typecsset-h1-size:             24px;
@@ -192,9 +196,7 @@ margin:2em auto;height:auto;text-align:center;}
   
   }
   
-  #admin-menu, #admin-menu .dropdown {
-  z-index: 9999;
-}
+  
 
 
   .l-region--branding{width:40%;display:inline-block;float:right;}
