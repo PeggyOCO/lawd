@@ -1,4 +1,6 @@
 .masonry-item {
+float:left;
+display:inline-block;
 border: 0px solid #333;
 background-color: #fff;
 margin: 0;
