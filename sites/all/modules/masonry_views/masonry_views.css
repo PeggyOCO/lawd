@@ -3,5 +3,6 @@ border: 0px solid #333;
 background-color: #fff;
 margin: 0;
 padding: 0;
+width:auto;
 }
-.masonry-item img{width:100%;}
+.masonry-item img{width:auto;}
