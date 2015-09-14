@@ -14,4 +14,4 @@ height:20vh;
 .sixhundred{max-width:50%;height:40vh;}
 
 .gridwrap{width:100%;height:auto;display:block;clear:both;}
-.gridwrapouter{width:50%;height:50vh;display:block;clear:both;}
+.gridwrapouter{width:50%;height:50vh;display:inline-block;}
