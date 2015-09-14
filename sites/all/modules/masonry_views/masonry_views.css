@@ -5,13 +5,13 @@ border: 0px solid #333;
 background-color: #fff;
 margin: 0;
 padding: 0;
-width:auto;
+width:50%;
 max-width:50%;
-height:22vh;
+height:25vh;
 }
 .masonry-item img{width:100%;}
 
-.sixhundred{max-width:50%;height:50vh;}
+.sixhundred{width:50%;max-width:50%;height:50vh;}
 
-.gridwrap{width:100%;height:auto;display:block;clear:both;}
+.gridwrap{width:100%;height:25vh;display:block;clear:both;}
 .gridwrapouter{width:50%;height:50vh;display:inline-block;}
