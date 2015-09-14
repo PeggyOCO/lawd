@@ -7,12 +7,12 @@ margin: 0;
 padding: 0;
 width:50%;
 max-width:50%;
-height:25vh;
+height:10em;
 }
 .masonry-item img{width:100%;}
 
-.sixhundred{width:50%;max-width:50%;height:50vh;}
+.sixhundred{width:50%;max-width:50%;height:20em;}
 
-.gridwrap{width:100%;height:25vh;display:block;clear:both;}
-.gridwrapouter{width:50%;height:50vh;display:inline-block;}
+.gridwrap{width:100%;height:10em;display:block;clear:both;}
+.gridwrapouter{width:50%;height:20em;display:inline-block;}
 .right{float:right;}
