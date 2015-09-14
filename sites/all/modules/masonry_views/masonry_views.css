@@ -9,7 +9,7 @@ width:auto;
 max-width:50%;
 height:22vh;
 }
-.masonry-item img{width:auto;}
+.masonry-item img{width:100%;}
 
 .sixhundred{max-width:50%;height:50vh;}
 
