@@ -6,7 +6,9 @@ background-color: #fff;
 margin: 0;
 padding: 0;
 width:auto;
-max-width:30%;
-height:28vh;
+max-width:25%;
+height:20vh;
 }
 .masonry-item img{width:auto;}
+
+.sixhundred{max-width:50%;height:40vh;}
