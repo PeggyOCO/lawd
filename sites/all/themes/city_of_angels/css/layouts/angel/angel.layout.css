@@ -310,7 +310,7 @@ a:hover {
     margin-left: 0;
     clear: none;
     display: inline-block;
-    background-color: lightblue;
+    background-color: #47bdbf;
     border: 1px dotted black; }
 
   /* line 98, ../../../sass/layouts/angel/angel.layout.scss */
@@ -322,7 +322,7 @@ a:hover {
     margin-left: 58.33333%;
     clear: none;
     display: inline-block;
-    background-color: pink;
+    background-color: white;
     border: 1px dotted black; }
 
   /* line 100, ../../../sass/layouts/angel/angel.layout.scss */
@@ -334,7 +334,7 @@ a:hover {
     margin-left: 0;
     clear: none;
     display: inline-block;
-    background-color: lightblue;
+    background-color: #47bdbf;
     padding: 0 1em 0 0;
     border: 2px dotted black; }
 
@@ -347,7 +347,7 @@ a:hover {
     margin-right: 0;
     clear: none;
     display: inline-block;
-    background-color: pink;
+    background-color: white;
     border: 1px dotted black; }
 
   /* line 103, ../../../sass/layouts/angel/angel.layout.scss */
@@ -359,7 +359,7 @@ a:hover {
     margin-left: 0;
     clear: none;
     display: inline-block;
-    background-color: lavender;
+    background-color: white;
     border: 1px dotted black; }
 
   /* line 105, ../../../sass/layouts/angel/angel.layout.scss */
@@ -371,7 +371,7 @@ a:hover {
     margin-left: 25%;
     clear: none;
     display: inline-block;
-    background-color: plum;
+    background-color: white;
     border: 1px dotted black; }
 
   /* line 106, ../../../sass/layouts/angel/angel.layout.scss */
@@ -383,7 +383,7 @@ a:hover {
     margin-right: 0;
     clear: none;
     display: inline-block;
-    background-color: yellow;
+    background-color: white;
     border: 1px dotted black; }
 
   /* line 107, ../../../sass/layouts/angel/angel.layout.scss */
@@ -395,7 +395,7 @@ a:hover {
     margin-left: 0;
     clear: none;
     display: inline-block;
-    background-color: orange;
+    background-color: white;
     border: 1px dotted black; }
 
   /* line 108, ../../../sass/layouts/angel/angel.layout.scss */
@@ -407,7 +407,7 @@ a:hover {
     margin-right: 0;
     clear: none;
     display: inline-block;
-    background-color: lime;
+    background-color: white;
     border: 1px dotted black; }
 
   /* line 110, ../../../sass/layouts/angel/angel.layout.scss */
@@ -664,7 +664,7 @@ a:hover {
     margin-left: 0;
     clear: none;
     display: inline-block;
-    background-color: white;
+    background-color: #47bdbf;
     border: 0px solid black;
     display: table-cell;
     vertical-align: middle; }
