@@ -98,7 +98,7 @@ a:hover{color:#666;}
   .grid-4-8{ @include grid-span(4,8);display:inline-block;background-color:white;border:1px dotted black;}
  
   .grid-9-1{ @include grid-span(9,1);display:inline-block;background-color:#47bdbf;padding:0 1em 0 0;border:2px dotted black;}
-  .grid-9-3{ @include grid-span(10,3);display:inline-block;background-color:white;border:1px dotted black;}
+  .grid-9-3{ @include grid-span(10,3);display:inline-block;background-color:#47bdbf;border:1px dotted black;}
   
   .grid-3-1{ @include grid-span(3,1);display:inline-block;background-color:white;border:1px dotted black;}
   
@@ -219,7 +219,7 @@ margin:2em auto;height:auto;text-align:center;}
  
   .grid-9-1{ @include grid-span(9,1);display:inline-block;background-color:#47bdbf;border:0px solid black;
   display:table-cell;vertical-align:middle;}
-  .grid-9-3{ @include grid-span(10,3);display:inline-block;background-color:white;border:0px solid black;}
+  .grid-9-3{ @include grid-span(10,3);display:inline-block;background-color:#47bdbf;border:0px solid black;}
   
   .grid-3-1{ @include grid-span(3,1);display:inline-block;background-color:white;border:.3pt solid gray;}
   

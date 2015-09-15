@@ -347,7 +347,7 @@ a:hover {
     margin-right: 0;
     clear: none;
     display: inline-block;
-    background-color: white;
+    background-color: #47bdbf;
     border: 1px dotted black; }
 
   /* line 103, ../../../sass/layouts/angel/angel.layout.scss */
@@ -682,7 +682,7 @@ a:hover {
     margin-right: 0;
     clear: none;
     display: inline-block;
-    background-color: white;
+    background-color: #47bdbf;
     border: 0px solid black; }
 
   /* line 224, ../../../sass/layouts/angel/angel.layout.scss */
