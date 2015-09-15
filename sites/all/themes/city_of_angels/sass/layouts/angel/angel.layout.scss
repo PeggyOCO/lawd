@@ -340,7 +340,7 @@ margin:2em auto;height:auto;text-align:center;}
   .grid-8-1{ @include grid-span(8,1);display:inline-block;background-color:white;border:0px dotted black;}
   .grid-4-8{ @include grid-span(4,9);display:inline-block;background-color:white;border:0px dotted black;}
  
-  .grid-9-1{ @include grid-span(9,1);display:inline-block;background-color:white;border:0px solid black;
+  .grid-9-1{ @include grid-span(9,1);display:inline-block;background-color:#47bdbf;border:0px solid black;
   display:table-cell;vertical-align:middle;}
   .grid-9-3{ @include grid-span(10,3);display:inline-block;background-color:white;border:0px solid black;}
   
