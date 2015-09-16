@@ -36,7 +36,11 @@ img.high {
 .gridwrap {
   display: inline-block;
   float: left;
-  clear: not; }
+  clear: none; }
+
+/* line 31, ../../../sass/layouts/angel/angel.layout.scss */
+.height2 {
+  height: 22em; }
 
 /**
  * Typecsset

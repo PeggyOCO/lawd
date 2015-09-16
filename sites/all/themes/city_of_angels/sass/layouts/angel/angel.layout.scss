@@ -27,8 +27,8 @@ img.high{position:absolute;
 
 .grid-sizer,
 .grid-item { width: 15%; }
-.gridwrap{display:inline-block;float:left;clear:not;}
-
+.gridwrap{display:inline-block;float:left;clear:none;}
+.height2{height:22em;}
 @import "../../typecsset/typecsset.scss";
 // 
 // $typecsset-h1-size:             24px;
