@@ -177,7 +177,7 @@ div.grid-12-1.teal{background-color:#47bdbf;height:8em;}
 
 footer{height:20em;background-color:#d5d5d5;margin:0;}
 
-  @include sgs-change('debug', true);
+  @include sgs-change('debug', false);
   .l-header {
     @include pie-clearfix;
     border: 0px dotted red;
@@ -310,7 +310,7 @@ div.grid-12-1.teal{background-color:#47bdbf;height:8em;}
 .gray{color:lightgray;}
 footer{height:20em;background-color:#d5d5d5;margin:0;}
 
-  @include sgs-change('debug', true);
+  @include sgs-change('debug', false);
   .l-header {
     @include pie-clearfix;
     border: 0px dotted red;
