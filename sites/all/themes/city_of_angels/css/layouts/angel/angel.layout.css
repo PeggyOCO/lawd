@@ -269,7 +269,7 @@ a:hover {
 
 /* line 77, ../../../sass/layouts/angel/angel.layout.scss */
 .scrim {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(66, 66, 66, 0.7);
   position: absolute;
   top: 0;
   left: 0;
