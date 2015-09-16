@@ -639,7 +639,8 @@ a:hover {
   .fronttop {
     background-image: url("/dev/sites/default/files/projectpic.png");
     background-repeat: none;
-    background-size: cover; }
+    background-size: cover;
+    background-position: center top; }
 
   /* line 218, ../../../sass/layouts/angel/angel.layout.scss */
   .grid-8-1 {
@@ -1014,7 +1015,8 @@ a:hover {
   .fronttop {
     background-image: url("/dev/sites/default/files/projectpic.png");
     background-repeat: none;
-    background-size: cover; }
+    background-size: cover;
+    background-position: center top; }
 
   /* line 341, ../../../sass/layouts/angel/angel.layout.scss */
   .grid-8-1 {
