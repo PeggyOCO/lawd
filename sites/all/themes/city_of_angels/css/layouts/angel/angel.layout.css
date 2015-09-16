@@ -1145,7 +1145,7 @@ a:hover {
   h4.red {
     color: #d35232;
     letter-spacing: 2px;
-    font-size: 1em;
+    font-size: .8em;
     font-weight: bold;
     line-height: 1em;
     width: 80%;
@@ -1157,7 +1157,7 @@ a:hover {
   h4.gray {
     color: #666;
     letter-spacing: 2px;
-    font-size: 1em;
+    font-size: .8em;
     font-weight: bold;
     line-height: 1em;
     width: 100%;
