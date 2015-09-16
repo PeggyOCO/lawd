@@ -1090,7 +1090,8 @@ a:hover {
     clear: none;
     display: inline-block;
     background-color: white;
-    border: .3pt solid gray; }
+    border: .3pt solid gray;
+    overflow: hidden; }
 
   /* line 367, ../../../sass/layouts/angel/angel.layout.scss */
   .home-five {
