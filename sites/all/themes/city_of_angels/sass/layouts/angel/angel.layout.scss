@@ -253,10 +253,10 @@ margin:2em auto;height:auto;text-align:center;}
   .grid-6-6{ @include grid-span(6,7);display:inline-block;background-color:white;border:.3pt solid gray;overflow: hidden;}
 
   .home-five{background-color:white;overflow:hidden;}
-  h4.red{color:#d35232;letter-spacing:2px;font-size:1em;font-weight:bold;line-height:1em;width:80%;display:block;text-align:left;margin:.5em auto;}
-  h4.gray{color:#666;letter-spacing:2px;font-size:1em;font-weight:bold;line-height:1em;width:100%;display:block;text-align:center;margin:.5em auto;}
+  h4.red{color:#d35232;letter-spacing:2px;font-size:.8em;font-weight:bold;line-height:1em;width:80%;display:block;text-align:left;margin:.5em auto;}
+  h4.gray{color:#666;letter-spacing:2px;font-size:.8em;font-weight:bold;line-height:1em;width:100%;display:block;text-align:center;margin:.5em auto;}
 
- ul#twolist{list-style-type: none;color:#d15232;width:90%;margin:0 auto;text-align:center;}
+ ul#twolist{list-style-type: none;color:#d15232;width:80%;margin:0 auto;text-align:left;}
  
  
   .l-branding {

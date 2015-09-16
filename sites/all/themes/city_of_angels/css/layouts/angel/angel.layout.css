@@ -788,7 +788,7 @@ a:hover {
   h4.red {
     color: #d35232;
     letter-spacing: 2px;
-    font-size: 1em;
+    font-size: .8em;
     font-weight: bold;
     line-height: 1em;
     width: 80%;
@@ -800,7 +800,7 @@ a:hover {
   h4.gray {
     color: #666;
     letter-spacing: 2px;
-    font-size: 1em;
+    font-size: .8em;
     font-weight: bold;
     line-height: 1em;
     width: 100%;
@@ -812,9 +812,9 @@ a:hover {
   ul#twolist {
     list-style-type: none;
     color: #d15232;
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
-    text-align: center; }
+    text-align: left; }
 
   /* line 262, ../../../sass/layouts/angel/angel.layout.scss */
   .l-branding {
