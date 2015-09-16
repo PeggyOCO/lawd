@@ -55,11 +55,13 @@ $grids: add-grid(12 at $desk);
 $gutter-styles: 
 $gutters: 1/100;*/
 
-body{padding:0;margin:0;font-family:Verdana, Helvetica, sans-serif;}
+body{padding:0;margin:0;font-family:Verdana, Helvetica, sans-serif;
+  max-width: 1280px;
+  max-height:600px;}
 
 .l-page {
   width: 100%;
- /* max-width: 110em;*/
+
   margin: 0 auto;
   border: 0px dotted red;
 }
