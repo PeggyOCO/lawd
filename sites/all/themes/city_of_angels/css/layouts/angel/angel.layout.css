@@ -634,7 +634,7 @@ a:hover {
     display: block;
     background-color: lightgray;
     border: 2px dotted black;
-    background: url(/dev/sites/default/files/projectpic.png) no-repeat center center fixed;
+    background: url(/dev/sites/default/files/projectpic.png) no-repeat center top;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -1008,7 +1008,7 @@ a:hover {
     display: block;
     background-color: lightgray;
     border: 2px dotted black;
-    background: url(/dev/sites/default/files/projectpic.png) no-repeat center center fixed;
+    background: url(/dev/sites/default/files/projectpic.png) no-repeat center top;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
