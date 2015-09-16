@@ -1169,9 +1169,9 @@ a:hover {
   ul#twolist {
     list-style-type: none;
     color: #d15232;
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
-    text-align: center; }
+    text-align: left; }
 
   /* line 389, ../../../sass/layouts/angel/angel.layout.scss */
   .l-branding {
