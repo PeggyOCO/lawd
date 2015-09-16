@@ -557,7 +557,8 @@ a:hover {
 
   /* line 190, ../../../sass/layouts/angel/angel.layout.scss */
   .teal {
-    background-color: #47bdbf; }
+    background-color: #47bdbf;
+    background-image: none; }
 
   /* line 191, ../../../sass/layouts/angel/angel.layout.scss */
   div.grid-12-1.teal {
