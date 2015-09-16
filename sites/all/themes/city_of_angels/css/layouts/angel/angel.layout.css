@@ -637,7 +637,9 @@ a:hover {
 
   /* line 216, ../../../sass/layouts/angel/angel.layout.scss */
   .fronttop {
-    background-image: url("/dev/sites/default/files/projectpic.png"); }
+    background-image: url("/dev/sites/default/files/projectpic.png");
+    background-repeat: none;
+    background-size: cover; }
 
   /* line 218, ../../../sass/layouts/angel/angel.layout.scss */
   .grid-8-1 {
@@ -1010,7 +1012,9 @@ a:hover {
 
   /* line 340, ../../../sass/layouts/angel/angel.layout.scss */
   .fronttop {
-    background-image: url("/dev/sites/default/files/projectpic.png"); }
+    background-image: url("/dev/sites/default/files/projectpic.png");
+    background-repeat: none;
+    background-size: cover; }
 
   /* line 341, ../../../sass/layouts/angel/angel.layout.scss */
   .grid-8-1 {
