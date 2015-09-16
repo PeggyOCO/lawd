@@ -26,7 +26,8 @@ img.high{position:absolute;
 }
 
 .grid-sizer,
-.grid-item { width: 15%; }
+.grid-item { width: 25%; }
+.grid-sizer{display:none;}
 .gridwrap{display:inline-block;float:left;clear:none;}
 .height2{height:auto;}
 @import "../../typecsset/typecsset.scss";
