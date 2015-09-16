@@ -635,9 +635,9 @@ a:hover {
     background-color: lightgray;
     border: 2px dotted black;
     background-image: url("/dev/sites/default/files/projectpic.png");
-    background-repeat: none;
+    background-repeat: no-repeat;
     background-size: cover;
-    background-position: center top; }
+    background-position: 0 0; }
 
   /* line 218, ../../../sass/layouts/angel/angel.layout.scss */
   .grid-8-1 {
@@ -1008,9 +1008,9 @@ a:hover {
     background-color: lightgray;
     border: 2px dotted black;
     background-image: url("/dev/sites/default/files/projectpic.png");
-    background-repeat: none;
+    background-repeat: no-repeat;
     background-size: cover;
-    background-position: center top; }
+    background-position: 0 0; }
 
   /* line 340, ../../../sass/layouts/angel/angel.layout.scss */
   .grid-8-1 {

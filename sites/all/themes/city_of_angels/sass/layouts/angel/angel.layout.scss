@@ -212,7 +212,7 @@ margin:2em auto;height:auto;text-align:center;}
   
    p.frontblack{font-size:.8em;color:black;width:80%;margin:.5em auto;}
    p.frontwhite{font-size:1.5em;color:white;width:80%;margin: 2em auto;}
-  .grid-12-1{ @include grid-span(12,1);display:block;background-color:lightgray;border:2px dotted black;background-image:url("/dev/sites/default/files/projectpic.png");background-repeat:none;background-size:cover;background-position:center top;}
+  .grid-12-1{ @include grid-span(12,1);display:block;background-color:lightgray;border:2px dotted black;background-image:url("/dev/sites/default/files/projectpic.png");background-repeat:no-repeat;background-size:cover;background-position:0 0;}
 
 
    .grid-8-1{ @include grid-span(8,1);display:inline-block;background-color:white;border:0px dotted black;}
@@ -336,7 +336,7 @@ margin:2em auto;height:auto;text-align:center;}
   
    p.frontblack{font-size:.8em;color:black;width:80%;margin:.5em auto;}
    p.frontwhite{font-size:1.5em;color:white;width:80%;margin: 2em auto;}
-  .grid-12-1{ @include grid-span(12,1);display:block;background-color:lightgray;border:2px dotted black;background-image:url("/dev/sites/default/files/projectpic.png");background-repeat:none;background-size:cover;background-position:center top;}
+  .grid-12-1{ @include grid-span(12,1);display:block;background-color:lightgray;border:2px dotted black;background-image:url("/dev/sites/default/files/projectpic.png");background-repeat:no-repeat;background-size:cover;background-position:0 0;}
   .grid-8-1{ @include grid-span(8,1);display:inline-block;background-color:white;border:0px dotted black;}
   .grid-4-8{ @include grid-span(4,9);display:inline-block;background-color:white;border:0px dotted black;}
  
