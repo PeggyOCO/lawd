@@ -25,6 +25,9 @@ img.high{position:absolute;
   z-index: 1001;
 }
 
+.grid-sizer,
+.grid-item { width: 15%; }
+
 @import "../../typecsset/typecsset.scss";
 // 
 // $typecsset-h1-size:             24px;
