@@ -9,9 +9,9 @@
 @import "singularitygs";
 
 // Set breakpoint values.
-$phone : 320px;
-$tab  : 768px;
-$desk : 980px;
+$phone : 480px;
+$tab  : 1366px;
+$desk : 1920px;
 div{position:relative;}
 img.top{width:100%;margin-top:0;margin-bottom:.5em;}
 img.high{position:absolute;
@@ -62,8 +62,8 @@ $gutter-styles:
 $gutters: 1/100;*/
 
 body{padding:0;margin:0;font-family:Verdana, Helvetica, sans-serif;
-  max-width: 1280px;
-  max-height:600px;
+  max-width: 1920px;
+  max-height:1080px;
   margin:0 auto;
   background-color:#666;}
 
@@ -106,7 +106,7 @@ a:hover{color:#666;}
 
 @include breakpoint($phone, true) {
   /* Header Area */
-  body{font-size:9px;}
+  body{font-size:16px;}
 
  h1 {
      @include typecsset-font-size(16px);
@@ -188,7 +188,7 @@ a:hover{color:#666;}
 
 @include breakpoint($tab) {
   /* Header Area */
-  body{font-size:12px;}
+  body{font-size:16px;}
  h1 {
      @include typecsset-font-size(24px);
 }

@@ -261,8 +261,8 @@ body {
   padding: 0;
   margin: 0;
   font-family: Verdana, Helvetica, sans-serif;
-  max-width: 1280px;
-  max-height: 600px;
+  max-width: 1920px;
+  max-height: 1080px;
   margin: 0 auto;
   background-color: #666; }
 
@@ -343,11 +343,11 @@ a:hover {
 .image100 {
   width: 100%; }
 
-@media (min-width: 320px) {
+@media (min-width: 480px) {
   /* Header Area */
   /* line 109, ../../../sass/layouts/angel/angel.layout.scss */
   body {
-    font-size: 9px; }
+    font-size: 16px; }
 
   /* line 111, ../../../sass/layouts/angel/angel.layout.scss */
   h1 {
@@ -565,11 +565,11 @@ a:hover {
     margin-right: -100%;
     margin-left: 16.66667%;
     clear: none; } }
-@media (min-width: 768px) {
+@media (min-width: 1366px) {
   /* Header Area */
   /* line 191, ../../../sass/layouts/angel/angel.layout.scss */
   body {
-    font-size: 12px; }
+    font-size: 16px; }
 
   /* line 192, ../../../sass/layouts/angel/angel.layout.scss */
   h1 {
@@ -931,7 +931,7 @@ a:hover {
     margin-right: -100%;
     margin-left: 16.66667%;
     clear: none; } }
-@media (min-width: 980px) {
+@media (min-width: 1920px) {
   /* Header Area */
   /* line 328, ../../../sass/layouts/angel/angel.layout.scss */
   body {
