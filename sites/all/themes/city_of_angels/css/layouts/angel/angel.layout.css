@@ -565,7 +565,7 @@ a:hover {
     margin-right: -100%;
     margin-left: 16.66667%;
     clear: none; } }
-@media (min-width: 1366px) {
+@media (min-width: 920px) {
   /* Header Area */
   /* line 191, ../../../sass/layouts/angel/angel.layout.scss */
   body {
