@@ -1272,8 +1272,20 @@ a:hover {
     justify-content: center;
     flex-direction: column; }
 
-  /* Sidebars */
+  /* line 439, ../../../sass/layouts/angel/angel.layout.scss */
+  .htwenty img {
+    width: 100%; }
+
+  /* line 440, ../../../sass/layouts/angel/angel.layout.scss */
+  .hthirty img {
+    width: 100%; }
+
   /* line 441, ../../../sass/layouts/angel/angel.layout.scss */
+  .hforty img {
+    width: 100%; }
+
+  /* Sidebars */
+  /* line 445, ../../../sass/layouts/angel/angel.layout.scss */
   .has-one-sidebar .l-region--sidebar-first,
   .has-one-sidebar .l-region--sidebar-second {
     width: 50%;
@@ -1285,14 +1297,14 @@ a:hover {
     border: 1px dotted gray;
     min-height: 900px; }
 
-  /* line 450, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 454, ../../../sass/layouts/angel/angel.layout.scss */
   .has-two-sidebars .l-region--sidebar-first {
     width: 8.33333%;
     float: left;
     margin-right: -100%;
     margin-left: 8.33333%;
     clear: none; }
-  /* line 453, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 457, ../../../sass/layouts/angel/angel.layout.scss */
   .has-two-sidebars .l-region--sidebar-second {
     width: 8.33333%;
     float: left;
