@@ -281,6 +281,19 @@ margin:2em auto;height:auto;text-align:center;}
 
   }
   
+   .l-content > div {
+  flex: 1;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.htwenty img{width:100%;}
+.hthirty img{width:100%;}
+.hforty img{width:100%;}
+
+  
   .l-header{margin:0;}
   .l-region--header {
     @include grid-span(12, 1);
