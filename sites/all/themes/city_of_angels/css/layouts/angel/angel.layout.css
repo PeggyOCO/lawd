@@ -158,7 +158,7 @@
   /* line 151, ../../../sass/layouts/angel/angel.layout.scss */
   .flex-colstretch {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     border: 2px dotted red;
     min-height: 900px; }
 
