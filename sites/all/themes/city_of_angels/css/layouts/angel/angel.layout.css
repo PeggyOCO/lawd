@@ -968,15 +968,16 @@ a:hover {
 
   /* line 350, ../../../sass/layouts/angel/angel.layout.scss */
   section {
-    flex-direction: column;
-    flex: 0 1 auto; }
+    flex-direction: row;
+    flex: 0 1 auto;
+    border: 2px dotted green; }
 
   /* line 352, ../../../sass/layouts/angel/angel.layout.scss */
   .item {
     flex: 0 1 auto;
-    flex-direction: row;
     background-color: #47bdbf;
-    min-height: 8em; }
+    min-height: 8em;
+    border: 2px dotted orange; }
 
   /* line 354, ../../../sass/layouts/angel/angel.layout.scss */
   .breadcrumb {

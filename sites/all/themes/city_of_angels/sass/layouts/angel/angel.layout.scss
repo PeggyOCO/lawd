@@ -347,9 +347,9 @@ margin:2em auto;height:auto;text-align:center;}
 }
 
 
-section{flex-direction:column;flex: 0 1 auto;}
+section{flex-direction:row;flex: 0 1 auto;border:2px dotted green;}
 
-.item{flex:0 1 auto;flex-direction:row;background-color:#47bdbf;min-height:8em;}
+.item{flex:0 1 auto;background-color:#47bdbf;min-height:8em;border:2px dotted orange;}
 
 .breadcrumb {
   display: none;
