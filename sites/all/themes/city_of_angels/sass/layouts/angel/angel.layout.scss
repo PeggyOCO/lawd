@@ -83,6 +83,13 @@ footer{height:20em;background-color:#d5d5d5;margin:0;}
 
 }
 
+ .top{
+  background: url(/dev/sites/default/files/projectpic_0.png) no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}
+
 .flex-colstretch{display:flex;
 flex-direction: column;
 border:2px dotted red;min-height: 900px;}
@@ -143,6 +150,14 @@ footer{height:20em;background-color:#d5d5d5;margin:0;}
  h1 {
 
 }
+
+
+ .top{
+  background: url(/dev/sites/default/files/projectpic_0.png) no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}
 
 .flex-colstretch{display:flex;
 flex-direction: column;
