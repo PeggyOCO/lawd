@@ -964,23 +964,20 @@ a:hover {
 
   /* line 346, ../../../sass/layouts/angel/angel.layout.scss */
   .flex-colstretch {
-    display: flex;
+    display: block;
     border: 2px dotted red;
     min-height: 900px; }
 
   /* line 350, ../../../sass/layouts/angel/angel.layout.scss */
   section {
-    display: flex;
-    flex-direction: column;
-    flex: 0 1 auto;
+    display: block;
     border: 2px dotted green;
     min-height: 20em; }
 
   /* line 352, ../../../sass/layouts/angel/angel.layout.scss */
   .item {
-    display: flex;
-    flex-direction: row;
-    background-color: #47bdbf;
+    display: inline-block;
+    background-color: #ff0;
     min-height: 8em;
     border: 2px dotted orange; }
 
