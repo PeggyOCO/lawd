@@ -173,7 +173,8 @@
     flex: 1 1 auto;
     background-color: #ff0;
     min-height: 8em;
-    border: 2px dotted orange; }
+    border: 2px dotted orange;
+    width: 30%; }
 
   /* line 160, ../../../sass/layouts/angel/angel.layout.scss */
   .breadcrumb {
