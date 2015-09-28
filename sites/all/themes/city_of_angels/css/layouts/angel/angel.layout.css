@@ -164,7 +164,7 @@
 
   /* line 156, ../../../sass/layouts/angel/angel.layout.scss */
   section {
-    flex-direction: row;
+    flex-direction: column;
     border: 2px dotted green;
     min-height: 20em; }
 
