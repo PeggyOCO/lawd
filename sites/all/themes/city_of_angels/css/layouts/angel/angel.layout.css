@@ -164,12 +164,13 @@
 
   /* line 156, ../../../sass/layouts/angel/angel.layout.scss */
   section {
-    flex-direction: column;
+    flex-direction: row;
     border: 2px dotted green;
     min-height: 20em; }
 
   /* line 158, ../../../sass/layouts/angel/angel.layout.scss */
   .item {
+    flex-grow: 1;
     background-color: #ff0;
     min-height: 8em;
     border: 2px dotted orange;
