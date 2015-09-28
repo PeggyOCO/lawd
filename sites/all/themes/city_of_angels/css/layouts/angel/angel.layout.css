@@ -964,17 +964,20 @@ a:hover {
 
   /* line 346, ../../../sass/layouts/angel/angel.layout.scss */
   .flex-colstretch {
-    display: flex; }
+    display: flex;
+    border: 2px dotted red;
+    min-height: 900px; }
 
   /* line 350, ../../../sass/layouts/angel/angel.layout.scss */
   section {
-    flex-direction: row;
+    flex-direction: column;
     flex: 0 1 auto;
-    border: 2px dotted green; }
+    border: 2px dotted green;
+    min-height: 20em; }
 
   /* line 352, ../../../sass/layouts/angel/angel.layout.scss */
   .item {
-    flex: 0 1 auto;
+    flex-direction: row;
     background-color: #47bdbf;
     min-height: 8em;
     border: 2px dotted orange; }
@@ -983,129 +986,36 @@ a:hover {
   .breadcrumb {
     display: none; }
 
-  /* line 358, ../../../sass/layouts/angel/angel.layout.scss */
-  .worktop {
-    background-color: none;
-    color: white;
-    height: 4em;
-    width: 40%;
-    margin: 2em auto; }
-
   /* line 359, ../../../sass/layouts/angel/angel.layout.scss */
-  .gray {
-    color: lightgray; }
-
-  /* line 360, ../../../sass/layouts/angel/angel.layout.scss */
   footer {
     height: 20em;
     background-color: #d5d5d5;
     margin: 0; }
 
-  /* line 363, ../../../sass/layouts/angel/angel.layout.scss */
-  .l-header {
-    *zoom: 1;
-    border: 0px dotted red; }
-    /* line 38, ../../../../../../../../../.rvm/gems/ruby-1.9.3-p551@global/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_clearfix.scss */
-    .l-header:after {
-      content: "";
-      display: table;
-      clear: both; }
-
-  /* line 371, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 364, ../../../sass/layouts/angel/angel.layout.scss */
   .l-region--branding {
     width: 40%;
     display: inline-block;
     float: right; }
 
-  /* line 372, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 365, ../../../sass/layouts/angel/angel.layout.scss */
   #block-system-main-menu .menu {
     list-style-type: none; }
-    /* line 373, ../../../sass/layouts/angel/angel.layout.scss */
+    /* line 366, ../../../sass/layouts/angel/angel.layout.scss */
     #block-system-main-menu .menu li {
       list-style-type: none;
       display: inline-block;
       float: left;
       margin-left: 2em; }
 
-  /* line 376, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 369, ../../../sass/layouts/angel/angel.layout.scss */
   #superfish-1 {
     margin-top: 2em; }
-    /* line 378, ../../../sass/layouts/angel/angel.layout.scss */
+    /* line 371, ../../../sass/layouts/angel/angel.layout.scss */
     #superfish-1 li {
       margin-left: 2em; }
 
-  /*   .htwenty{height:40vh;}
-   .htwenty-five{height:60vh;}
-   .hthirty{height:50vh;}
-   .hforty{height:40vh;}*/
-  /* line 386, ../../../sass/layouts/angel/angel.layout.scss */
-  p.frontblack {
-    font-size: .8em;
-    color: black;
-    width: 80%;
-    margin: .5em auto; }
-
-  /* line 387, ../../../sass/layouts/angel/angel.layout.scss */
-  p.frontwhite {
-    font-size: 1.5em;
-    color: white;
-    width: 80%;
-    margin: 2em auto; }
-
-  /* line 388, ../../../sass/layouts/angel/angel.layout.scss */
-  .grid-12-1 {
-    width: 100%;
-    float: right;
-    margin-left: 0;
-    margin-right: 0;
-    clear: none;
-    display: block;
-    background-color: lightgray;
-    border: 0px dotted black;
-    background: url(/dev/sites/default/files/projectpic_0.png) no-repeat center top;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover; }
-
-  /* line 395, ../../../sass/layouts/angel/angel.layout.scss */
-  .home-five {
-    background-color: white;
-    overflow: hidden; }
-
-  /* line 396, ../../../sass/layouts/angel/angel.layout.scss */
-  h4.red {
-    color: #d35232;
-    letter-spacing: 2px;
-    font-size: .8em;
-    font-weight: bold;
-    line-height: 1em;
-    width: 80%;
-    display: block;
-    text-align: left;
-    margin: .5em auto; }
-
-  /* line 397, ../../../sass/layouts/angel/angel.layout.scss */
-  h4.gray {
-    color: #666;
-    letter-spacing: 2px;
-    font-size: .8em;
-    font-weight: bold;
-    line-height: 1em;
-    width: 100%;
-    display: block;
-    text-align: center;
-    margin: .5em auto; }
-
-  /* line 399, ../../../sass/layouts/angel/angel.layout.scss */
-  ul#twolist {
-    list-style-type: none;
-    color: #d15232;
-    width: 60%;
-    margin: 0 auto;
-    text-align: left; }
-
-  /* line 402, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 377, ../../../sass/layouts/angel/angel.layout.scss */
   .l-branding {
     width: 100%;
     float: right;
@@ -1116,11 +1026,11 @@ a:hover {
     background-color: #ededed;
     text-align: left; }
 
-  /* line 411, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 386, ../../../sass/layouts/angel/angel.layout.scss */
   .l-header {
     margin: 0; }
 
-  /* line 412, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 387, ../../../sass/layouts/angel/angel.layout.scss */
   .l-region--header {
     width: 100%;
     float: right;
@@ -1128,13 +1038,13 @@ a:hover {
     margin-right: 0;
     clear: none; }
 
-  /* line 415, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 390, ../../../sass/layouts/angel/angel.layout.scss */
   .l-region--navigation {
     clear: both; }
 
   /* Content Area */
   /* Sidebars */
-  /* line 423, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 398, ../../../sass/layouts/angel/angel.layout.scss */
   .has-one-sidebar .l-region--sidebar-first,
   .has-one-sidebar .l-region--sidebar-second {
     width: 50%;
@@ -1146,14 +1056,14 @@ a:hover {
     border: 1px dotted gray;
     min-height: 900px; }
 
-  /* line 432, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 407, ../../../sass/layouts/angel/angel.layout.scss */
   .has-two-sidebars .l-region--sidebar-first {
     width: 8.33333%;
     float: left;
     margin-right: -100%;
     margin-left: 8.33333%;
     clear: none; }
-  /* line 435, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 410, ../../../sass/layouts/angel/angel.layout.scss */
   .has-two-sidebars .l-region--sidebar-second {
     width: 8.33333%;
     float: left;
