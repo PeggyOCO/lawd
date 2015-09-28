@@ -6,12 +6,12 @@
  ******************************************************************************/
 @import "compass";
 @import "breakpoint";
-@import "singularitygs";
+/*@import "singularitygs";*/
 
 // Set breakpoint values.
 $phone : 480px;
-$tab  : 920px;
-$desk : 1920px;
+$tab  : 800px;
+$desk : 1100px;
 div{position:relative;}
 img.top{width:100%;margin-top:0;margin-bottom:.5em;}
 img.high{position:absolute;
@@ -25,41 +25,6 @@ img.high{position:absolute;
   z-index: 1001;
 }
 
-.grid-sizer,
-.grid-item { width: 25%; }
-.grid-sizer{display:none;}
-.gridwrap{display:inline-block;float:left;clear:none;}
-.height2{height:auto;}
-.masonry-item{background:#666;}
-@import "../../typecsset/typecsset.scss";
-// 
-// $typecsset-h1-size:             24px;
-// $typecsset-h2-size:             18px;
-// $typecsset-h3-size:             15px;
-// $typecsset-h4-size:             12px;
-// $typecsset-h5-size:             10px;
-// $typecsset-h6-size:             9px;
-
-* {font-family:Verdana, Helvetica, sans-serif;}
-// Set consistent vertical and horizontal spacing units.
-$vert-spacing-unit: 20px;
-$horz-spacing-unit: 0;
-
-// Set breakpoint values.
-// $phone : 320px;
-// $tab  : 768px;
-// $desk : 980px;
-
-// Set Singularity grid variables.
-@include add-grid(12);
-@include add-gutter(0.0);
-/*$grids: 12;
-$grids: add-grid(12 at $phone);
-$grids: add-grid(12 at $tab);
-$grids: add-grid(12 at $desk);
-
-$gutter-styles: 
-$gutters: 1/100;*/
 
 body{padding:0;margin:0;font-family:Verdana, Helvetica, sans-serif;
   max-width: 1920px;
@@ -187,89 +152,42 @@ a:hover{color:#666;}
 //************tablet************//
 
 @include breakpoint($tab) {
+@include breakpoint($desk, true) {
   /* Header Area */
   body{font-size:16px;}
  h1 {
      @include typecsset-font-size(24px);
 }
 
+.flex-colstretch{display:block;
+border:2px dotted red;min-height: 900px;}
+
+
+section{display:block;border:2px dotted green;min-height:20em;}
+
+.item{display:inline-block;background-color:#ff0;min-height:8em;border:2px dotted orange;}
+
 .breadcrumb {
   display: none;
 }
 
-.teal{background-color:#47bdbf;background-image:none !important;}
-div.grid-12-1.teal{background-color:#47bdbf;height:8em;}
-.worktop{background-color:none;color:white;height:4em;width:40%;margin:2em auto;}
-.gray{color:lightgray;}
 
 footer{height:20em;background-color:#d5d5d5;margin:0;}
 
-  @include sgs-change('debug', false);
-  .l-header {
-    @include pie-clearfix;
-    border: 0px dotted red;
-    
-  }
-  
-  .htwenty{height:18em;}
-  .htwenty-five{height:23em;}
-  .hthirty{height:27em;}
-      .hthirty2{height:26.5em;}
-  .hforty{height:35em;}
-  
-  .middlecenter{width:80%;
-margin:2em auto;height:auto;text-align:center;}
 
-  #superfish-1{
-  margin-top:2em;
-  li{margin-left:2em;}
-  
-  }
-  
-  
-
+ 
 
   .l-region--branding{width:40%;display:inline-block;float:right;}
   #block-system-main-menu .menu{list-style-type:none;
   li{list-style-type:none;display:inline-block;float:left;margin-left:2em;}
   }
- /*   .htwenty{height:40vh;}
-  .htwenty-five{height:60vh;}
-  .hthirty{height:50vh;}
-  .hforty{height:40vh;}*/
   
-   p.frontblack{font-size:.8em;color:black;width:80%;margin:.5em auto;}
-   p.frontwhite{font-size:1.5em;color:white;width:80%;margin: 2em auto;}
-  .grid-12-1{ @include grid-span(12,1);display:block;background-color:lightgray;border:0px dotted black;
-  background: url(/dev/sites/default/files/projectpic_0.png) no-repeat center top; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;}
-
-
-   .grid-8-1{ @include grid-span(8,1);display:inline-block;background-color:white;border:0px dotted black;}
-  .grid-4-8{ @include grid-span(4,9);display:inline-block;background-color:white;border:0px dotted black;}
+  #superfish-1{
+  margin-top:2em;
+  li{margin-left:2em;}
+  
+  }
  
-  .grid-9-1{ @include grid-span(9,1);display:inline-block;background-color:#47bdbf;border:0px solid black;
-  display:table-cell;vertical-align:middle;}
-  .grid-9-3{ @include grid-span(10,3);display:inline-block;background-color:#47bdbf;border:0px solid black;}
-  
-  .grid-3-1{ @include grid-span(3,1);display:inline-block;background-color:white;border:.3pt solid gray;}
-  
-  .grid-3-3{ @include grid-span(3,4);display:inline-block;background-color:white;border:.3pt solid gray;}
-  .grid-3-6{ @include grid-span(3,7);display:inline-block;background-color:white;border:0px dotted black;}
-  .grid-3-9{ @include grid-span(3,10);display:inline-block;background-color:white;border:0px dotted black;
-  display:table-cell;vertical-align:middle;}
-
-  .grid-6-1{ @include grid-span(6,1);display:inline-block;background-color:white;border:0px dotted black;}
-  .grid-6-6{ @include grid-span(6,7);display:inline-block;background-color:white;border:.3pt solid gray;overflow: hidden;}
-
-  .home-five{background-color:white;overflow:hidden;}
-  h4.red{color:#d35232;letter-spacing:2px;font-size:.8em;font-weight:bold;line-height:1em;width:80%;display:block;text-align:left;margin:.5em auto;}
-  h4.gray{color:#666;letter-spacing:2px;font-size:.8em;font-weight:bold;line-height:1em;width:100%;display:block;text-align:center;margin:.5em auto;}
-
- ul#twolist{list-style-type: none;color:#d15232;width:60%;margin:0 auto;text-align:left;}
  
  
   .l-branding {
@@ -281,19 +199,6 @@ margin:2em auto;height:auto;text-align:center;}
 
   }
   
-   .l-content > div {
-  flex: 1;
-
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.htwenty img{width:100%;}
-.hthirty img{width:100%;}
-.hforty img{width:100%;}
-
-  
   .l-header{margin:0;}
   .l-region--header {
     @include grid-span(12, 1);
@@ -303,16 +208,7 @@ margin:2em auto;height:auto;text-align:center;}
   }
 
   /* Content Area */
-  .l-main{margin:0;padding:0;margin-bottom: 0px;}
-  .l-content {
-    @include grid-span(12, 1);
-    padding:0 0em;
-    border:0px dotted orange;
-    min-height:900px;
-      padding:0 0em;
-      h1{display:none;}
-  }
-
+ 
   /* Sidebars */
   .has-one-sidebar {
     .l-region--sidebar-first,
@@ -412,4 +308,3 @@ footer{height:20em;background-color:#d5d5d5;margin:0;}
     }
   }
 }
-//************end desk************//
