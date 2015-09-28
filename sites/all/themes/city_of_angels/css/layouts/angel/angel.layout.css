@@ -969,6 +969,7 @@ a:hover {
 
   /* line 349, ../../../sass/layouts/angel/angel.layout.scss */
   section {
+    flex-direction: row;
     flex: 0 1 auto; }
 
   /* line 351, ../../../sass/layouts/angel/angel.layout.scss */
