@@ -347,9 +347,9 @@ margin:2em auto;height:auto;text-align:center;}
 border:2px dotted red;min-height: 900px;}
 
 
-section{flex-direction:column;flex: 0 1 auto;border:2px dotted green;min-height:20em;}
+section{display:flex;flex-direction:column;flex: 0 1 auto;border:2px dotted green;min-height:20em;}
 
-.item{flex-direction:row;background-color:#47bdbf;min-height:8em;border:2px dotted orange;}
+.item{display:flex;flex-direction:row;background-color:#47bdbf;min-height:8em;border:2px dotted orange;}
 
 .breadcrumb {
   display: none;

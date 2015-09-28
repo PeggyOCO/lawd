@@ -970,6 +970,7 @@ a:hover {
 
   /* line 350, ../../../sass/layouts/angel/angel.layout.scss */
   section {
+    display: flex;
     flex-direction: column;
     flex: 0 1 auto;
     border: 2px dotted green;
@@ -977,6 +978,7 @@ a:hover {
 
   /* line 352, ../../../sass/layouts/angel/angel.layout.scss */
   .item {
+    display: flex;
     flex-direction: row;
     background-color: #47bdbf;
     min-height: 8em;
