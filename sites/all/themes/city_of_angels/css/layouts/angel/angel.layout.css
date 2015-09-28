@@ -176,6 +176,13 @@
     min-height: 8em;
     border: 2px dotted orange; }
 
+  /* line 159, ../../../sass/layouts/angel/angel.layout.scss */
+  .item2 {
+    flex-grow: 2;
+    background-color: #0ff;
+    min-height: 8em;
+    border: 2px dotted pink; }
+
   /* line 160, ../../../sass/layouts/angel/angel.layout.scss */
   .breadcrumb {
     display: none; }
