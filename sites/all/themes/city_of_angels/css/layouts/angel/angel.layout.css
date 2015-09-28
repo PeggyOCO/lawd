@@ -170,7 +170,6 @@
 
   /* line 158, ../../../sass/layouts/angel/angel.layout.scss */
   .item {
-    flex-direction: row;
     background-color: #ff0;
     min-height: 8em;
     border: 2px dotted orange;
