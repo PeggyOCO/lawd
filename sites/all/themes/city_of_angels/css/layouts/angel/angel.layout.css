@@ -13,209 +13,212 @@
 
   /* line 25, ../../../sass/layouts/angel/angel.layout.scss */
   .flex-colstretch {
-    display: block;
+    display: flex;
+    flex-direction: column;
     border: 2px dotted red;
     min-height: 900px; }
 
-  /* line 29, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 30, ../../../sass/layouts/angel/angel.layout.scss */
   section {
-    display: block;
+    flex-direction: row;
     border: 2px dotted green;
     min-height: 20em; }
 
-  /* line 31, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 32, ../../../sass/layouts/angel/angel.layout.scss */
   .item {
-    display: inline-block;
+    flex: 0 1 auto;
     background-color: #ff0;
     min-height: 8em;
     border: 2px dotted orange; }
 
-  /* line 33, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 34, ../../../sass/layouts/angel/angel.layout.scss */
   .breadcrumb {
     display: none; }
 
-  /* line 38, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 39, ../../../sass/layouts/angel/angel.layout.scss */
   footer {
     height: 20em;
     background-color: #d5d5d5;
     margin: 0; }
 
-  /* line 43, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 44, ../../../sass/layouts/angel/angel.layout.scss */
   .l-region--branding {
     width: 40%;
     display: inline-block;
     float: right; }
 
-  /* line 44, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 45, ../../../sass/layouts/angel/angel.layout.scss */
   #block-system-main-menu .menu {
     list-style-type: none; }
-    /* line 45, ../../../sass/layouts/angel/angel.layout.scss */
+    /* line 46, ../../../sass/layouts/angel/angel.layout.scss */
     #block-system-main-menu .menu li {
       list-style-type: none;
       display: inline-block;
       float: left;
       margin-left: 2em; }
 
-  /* line 48, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 49, ../../../sass/layouts/angel/angel.layout.scss */
   #superfish-1 {
     margin-top: 2em; }
-    /* line 50, ../../../sass/layouts/angel/angel.layout.scss */
+    /* line 51, ../../../sass/layouts/angel/angel.layout.scss */
     #superfish-1 li {
       margin-left: 2em; }
 
-  /* line 56, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 57, ../../../sass/layouts/angel/angel.layout.scss */
   .l-branding {
     border: 0px dotted maroon;
     background-color: #ededed;
     text-align: left; }
 
-  /* line 64, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 66, ../../../sass/layouts/angel/angel.layout.scss */
   .l-header {
     margin: 0; }
 
-  /* line 68, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 70, ../../../sass/layouts/angel/angel.layout.scss */
   .l-region--navigation {
     clear: both; } }
 @media (min-width: 800px) {
   /* Header Area */
-  /* line 79, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 83, ../../../sass/layouts/angel/angel.layout.scss */
   body {
     font-size: 16px; }
 
-  /* line 84, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 88, ../../../sass/layouts/angel/angel.layout.scss */
   .flex-colstretch {
-    display: block;
+    display: flex;
+    flex-direction: column;
     border: 2px dotted red;
     min-height: 900px; }
 
-  /* line 88, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 93, ../../../sass/layouts/angel/angel.layout.scss */
   section {
-    display: block;
+    flex-direction: row;
     border: 2px dotted green;
     min-height: 20em; }
 
-  /* line 90, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 95, ../../../sass/layouts/angel/angel.layout.scss */
   .item {
-    display: inline-block;
+    flex: 0 1 auto;
     background-color: #ff0;
     min-height: 8em;
     border: 2px dotted orange; }
 
-  /* line 92, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 97, ../../../sass/layouts/angel/angel.layout.scss */
   .breadcrumb {
     display: none; }
 
-  /* line 97, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 102, ../../../sass/layouts/angel/angel.layout.scss */
   footer {
     height: 20em;
     background-color: #d5d5d5;
     margin: 0; }
 
-  /* line 102, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 107, ../../../sass/layouts/angel/angel.layout.scss */
   .l-region--branding {
     width: 40%;
     display: inline-block;
     float: right; }
 
-  /* line 103, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 108, ../../../sass/layouts/angel/angel.layout.scss */
   #block-system-main-menu .menu {
     list-style-type: none; }
-    /* line 104, ../../../sass/layouts/angel/angel.layout.scss */
+    /* line 109, ../../../sass/layouts/angel/angel.layout.scss */
     #block-system-main-menu .menu li {
       list-style-type: none;
       display: inline-block;
       float: left;
       margin-left: 2em; }
 
-  /* line 107, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 112, ../../../sass/layouts/angel/angel.layout.scss */
   #superfish-1 {
     margin-top: 2em; }
-    /* line 109, ../../../sass/layouts/angel/angel.layout.scss */
+    /* line 114, ../../../sass/layouts/angel/angel.layout.scss */
     #superfish-1 li {
       margin-left: 2em; }
 
-  /* line 115, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 120, ../../../sass/layouts/angel/angel.layout.scss */
   .l-branding {
     border: 0px dotted maroon;
     background-color: #ededed;
     text-align: left; }
 
-  /* line 124, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 129, ../../../sass/layouts/angel/angel.layout.scss */
   .l-header {
     margin: 0; }
 
-  /* line 128, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 133, ../../../sass/layouts/angel/angel.layout.scss */
   .l-region--navigation {
     clear: both; } }
 @media (min-width: 1100px) {
   /* Header Area */
-  /* line 139, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 146, ../../../sass/layouts/angel/angel.layout.scss */
   body {
     font-size: 16px; }
 
-  /* line 144, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 151, ../../../sass/layouts/angel/angel.layout.scss */
   .flex-colstretch {
-    display: block;
+    display: flex;
+    flex-direction: column;
     border: 2px dotted red;
     min-height: 900px; }
 
-  /* line 148, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 156, ../../../sass/layouts/angel/angel.layout.scss */
   section {
-    display: block;
+    flex-direction: row;
     border: 2px dotted green;
     min-height: 20em; }
 
-  /* line 150, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 158, ../../../sass/layouts/angel/angel.layout.scss */
   .item {
-    display: inline-block;
+    flex: 0 1 auto;
     background-color: #ff0;
     min-height: 8em;
     border: 2px dotted orange; }
 
-  /* line 152, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 160, ../../../sass/layouts/angel/angel.layout.scss */
   .breadcrumb {
     display: none; }
 
-  /* line 157, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 165, ../../../sass/layouts/angel/angel.layout.scss */
   footer {
     height: 20em;
     background-color: #d5d5d5;
     margin: 0; }
 
-  /* line 162, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 170, ../../../sass/layouts/angel/angel.layout.scss */
   .l-region--branding {
     width: 40%;
     display: inline-block;
     float: right; }
 
-  /* line 163, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 171, ../../../sass/layouts/angel/angel.layout.scss */
   #block-system-main-menu .menu {
     list-style-type: none; }
-    /* line 164, ../../../sass/layouts/angel/angel.layout.scss */
+    /* line 172, ../../../sass/layouts/angel/angel.layout.scss */
     #block-system-main-menu .menu li {
       list-style-type: none;
       display: inline-block;
       float: left;
       margin-left: 2em; }
 
-  /* line 167, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 175, ../../../sass/layouts/angel/angel.layout.scss */
   #superfish-1 {
     margin-top: 2em; }
-    /* line 169, ../../../sass/layouts/angel/angel.layout.scss */
+    /* line 177, ../../../sass/layouts/angel/angel.layout.scss */
     #superfish-1 li {
       margin-left: 2em; }
 
-  /* line 175, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 183, ../../../sass/layouts/angel/angel.layout.scss */
   .l-branding {
     border: 0px dotted maroon;
     background-color: #ededed;
     text-align: left; }
 
-  /* line 184, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 192, ../../../sass/layouts/angel/angel.layout.scss */
   .l-header {
     margin: 0; }
 
-  /* line 188, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 196, ../../../sass/layouts/angel/angel.layout.scss */
   .l-region--navigation {
     clear: both; } }
 
