@@ -12,151 +12,14 @@
 $phone : 480px;
 $tab  : 800px;
 $desk : 1100px;
-div{position:relative;}
-img.top{width:100%;margin-top:0;margin-bottom:.5em;}
-img.high{position:absolute;
-   /* width: 100%;*/
-    max-height:100%; 
-    bottom:0;
-    margin-left:2em;
-}
-
-  #admin-menu, #admin-menu .dropdown {
-  z-index: 1001;
-}
-
-
-body{padding:0;margin:0;font-family:Verdana, Helvetica, sans-serif;
-  max-width: 1920px;
-  max-height:1080px;
-  margin:0 auto;
-  background-color:#666;}
-
-.l-page {
-  width: 100%;
-
-  margin: 0 auto;
-  border: 0px dotted red;
-}
-
-.l-header,
-.l-main {
-  @include pie-clearfix;
-  margin-bottom: $vert-spacing-unit;
-    border: 0px dotted green;
-}
-
-a{text-decoration: none;color:#000;}
-a:hover{color:#666;}
-
-.scrim{background-color: rgba(88, 88, 88, 0.8);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;}
-    
-.fred{color: #d25333;}
-.white{color:#fff;}
-.single{font-size:1.1em;}
-.double{font-size:1.7em;}
-.center{text-align:center;}
-.fourtop{margin-top:4em;}
-.twotop{margin-top:2em;}
-.left{text-align:left;}
-.floatright{float:right;}
-.image100{width:100%;}
 
 //************phone************//
 
 @include breakpoint($phone, true) {
   /* Header Area */
   body{font-size:16px;}
-
  h1 {
-     @include typecsset-font-size(16px);
-}
 
-  @include sgs-change('debug', false);
-  .l-header {
-    @include pie-clearfix;
-    border: 0px dotted red;
-  }
-  
-    .grid-12-1{ @include grid-span(12,1);display:block;background-color:lightgray;border:1px dotted black;}
-
-  .grid-8-1{ @include grid-span(8,1);display:inline-block;background-color:#47bdbf;border:1px dotted black;
-  }
-  .grid-4-8{ @include grid-span(4,8);display:inline-block;background-color:white;border:1px dotted black;}
- 
-  .grid-9-1{ @include grid-span(9,1);display:inline-block;background-color:#47bdbf;padding:0 1em 0 0;border:0px dotted black;}
-  .grid-9-3{ @include grid-span(10,3);display:inline-block;background-color:#47bdbf;border:1px dotted black;}
-  
-  .grid-3-1{ @include grid-span(3,1);display:inline-block;background-color:white;border:1px dotted black;}
-  
-  .grid-3-3{ @include grid-span(3,4);display:inline-block;background-color:white;border:1px dotted black;}
-  .grid-3-9{ @include grid-span(3,10);display:inline-block;background-color:white;border:1px dotted black;}
-  .grid-6-1{ @include grid-span(6,1);display:inline-block;background-color:white;border:1px dotted black;}
-  .grid-6-6{ @include grid-span(6,7);display:inline-block;background-color:white;border:1px dotted black;}
-
-  .node__submitted{display:none;}
-   h2.node__title{display:none;}
-  .section{width:100%;display:block;clear:both;height:auto;}
-  .htwenty{height:18em;}
-  .hthirty{height:30em;}
-  .hforty{height:35em;}
-  
-  
-  .l-branding {
-   @include background-grid($color: #e1e1e1);
-    @include grid-span(12,1);
-    border: 0px dotted maroon;
-    background-color: #e1e1e1;
-    text-align:left;
-      padding:0 2em;
-  }
-  .l-region--header {
-    @include grid-span(12, 1);
-  }
-  .l-region--navigation {
-    clear: both;
-    border:0px dotted red;
-  }
-
-  /* Content Area */
-  .l-content {
-    @include grid-span(12, 1);
-      padding:0 2em;
-      
-      h1{display:none;}
-  }
-
-  /* Sidebars */
-  .has-one-sidebar {
-    .l-region--sidebar-first,
-    .l-region--sidebar-second {
-      @include grid-span(2, 2);
-    }
-  }
-  .has-two-sidebars {
-    .l-region--sidebar-first {
-      @include grid-span(1, 2);
-    }
-    .l-region--sidebar-second {
-      @include grid-span(1, 3);
-    }
-  }
-}
-
-//************end phone************//
-//************tablet************//
-
-@include breakpoint($tab) {
-@include breakpoint($desk, true) {
-  /* Header Area */
-  body{font-size:16px;}
- h1 {
-     @include typecsset-font-size(24px);
 }
 
 .flex-colstretch{display:block;
@@ -191,8 +54,7 @@ footer{height:20em;background-color:#d5d5d5;margin:0;}
  
  
   .l-branding {
-   @include background-grid($color: #fff);
-    @include grid-span(12,1);
+
     border: 0px dotted maroon;
     background-color: #ededed;
     text-align:left;
@@ -201,33 +63,73 @@ footer{height:20em;background-color:#d5d5d5;margin:0;}
   
   .l-header{margin:0;}
   .l-region--header {
-    @include grid-span(12, 1);
+
   }
   .l-region--navigation {
     clear: both;
   }
 
-  /* Content Area */
- 
-  /* Sidebars */
-  .has-one-sidebar {
-    .l-region--sidebar-first,
-    .l-region--sidebar-second {
-      @include grid-span(6, 6);
-      padding:0 2em;
-      border:1px dotted gray;
-      min-height:900px;
-    }
   }
-  .has-two-sidebars {
-    .l-region--sidebar-first {
-      @include grid-span(1, 2);
-    }
-    .l-region--sidebar-second {
-      @include grid-span(1, 3);
-    }
-  }
+
+//************end phone************//
+//************tablet************//
+
+@include breakpoint($tab) {
+  /* Header Area */
+  body{font-size:16px;}
+ h1 {
+
 }
+
+.flex-colstretch{display:block;
+border:2px dotted red;min-height: 900px;}
+
+
+section{display:block;border:2px dotted green;min-height:20em;}
+
+.item{display:inline-block;background-color:#ff0;min-height:8em;border:2px dotted orange;}
+
+.breadcrumb {
+  display: none;
+}
+
+
+footer{height:20em;background-color:#d5d5d5;margin:0;}
+
+
+ 
+
+  .l-region--branding{width:40%;display:inline-block;float:right;}
+  #block-system-main-menu .menu{list-style-type:none;
+  li{list-style-type:none;display:inline-block;float:left;margin-left:2em;}
+  }
+  
+  #superfish-1{
+  margin-top:2em;
+  li{margin-left:2em;}
+  
+  }
+ 
+ 
+ 
+  .l-branding {
+
+
+    border: 0px dotted maroon;
+    background-color: #ededed;
+    text-align:left;
+
+  }
+  
+  .l-header{margin:0;}
+  .l-region--header {
+
+  }
+  .l-region--navigation {
+    clear: both;
+  }
+
+  }
 
 //************end tablet************//
 //************desk************//
@@ -236,7 +138,7 @@ footer{height:20em;background-color:#d5d5d5;margin:0;}
   /* Header Area */
   body{font-size:16px;}
  h1 {
-     @include typecsset-font-size(24px);
+
 }
 
 .flex-colstretch{display:block;
@@ -271,8 +173,8 @@ footer{height:20em;background-color:#d5d5d5;margin:0;}
  
  
   .l-branding {
-   @include background-grid($color: #fff);
-    @include grid-span(12,1);
+
+
     border: 0px dotted maroon;
     background-color: #ededed;
     text-align:left;
@@ -281,30 +183,10 @@ footer{height:20em;background-color:#d5d5d5;margin:0;}
   
   .l-header{margin:0;}
   .l-region--header {
-    @include grid-span(12, 1);
+
   }
   .l-region--navigation {
     clear: both;
   }
 
-  /* Content Area */
- 
-  /* Sidebars */
-  .has-one-sidebar {
-    .l-region--sidebar-first,
-    .l-region--sidebar-second {
-      @include grid-span(6, 6);
-      padding:0 2em;
-      border:1px dotted gray;
-      min-height:900px;
-    }
   }
-  .has-two-sidebars {
-    .l-region--sidebar-first {
-      @include grid-span(1, 2);
-    }
-    .l-region--sidebar-second {
-      @include grid-span(1, 3);
-    }
-  }
-}
