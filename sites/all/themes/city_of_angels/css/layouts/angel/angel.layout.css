@@ -590,24 +590,24 @@
     flex-direction: column;
     border: 0px dotted red; }
 
-  /*section{position:relative;display:flex; flex-flow: row;min-height:20em;align-items: stretch;}*/
-  /* line 273, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 271, ../../../sass/layouts/angel/angel.layout.scss */
   section {
     position: relative;
     display: flex;
-    flex-flow: column;
-    min-width: 20em;
+    flex-flow: row;
+    min-height: 20em;
     align-items: stretch; }
 
-  /*section.quad{position:relative;display:flex; flex-flow: row;min-height:10em;align-items: stretch;}*/
-  /* line 275, ../../../sass/layouts/angel/angel.layout.scss */
+  /* section{position:relative;display:flex; flex-flow: column;min-width:20em;align-items: stretch;}*/
+  /* line 274, ../../../sass/layouts/angel/angel.layout.scss */
   section.quad {
     position: relative;
     display: flex;
-    flex-flow: column;
-    min-width: 10em;
+    flex-flow: row;
+    min-height: 10em;
     align-items: stretch; }
 
+  /*section.quad{position:relative;display:flex; flex-flow: column;min-width:10em;align-items: stretch;}*/
   /* line 276, ../../../sass/layouts/angel/angel.layout.scss */
   .teal {
     background-color: #47bdbf; }
