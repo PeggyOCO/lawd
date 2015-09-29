@@ -134,7 +134,7 @@
     display: flex;
     flex-flow: row;
     min-height: 20em;
-    align-items: center; }
+    align-items: stretch; }
 
   /* line 106, ../../../sass/layouts/angel/angel.layout.scss */
   .item {
@@ -233,7 +233,7 @@
     display: flex;
     flex-flow: row;
     min-height: 20em;
-    align-items: center; }
+    align-items: stretch; }
 
   /* line 175, ../../../sass/layouts/angel/angel.layout.scss */
   .item {
