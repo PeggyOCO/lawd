@@ -312,7 +312,7 @@
     background-color: #47bdbf; }
 
   /* line 187, ../../../sass/layouts/angel/angel.layout.scss */
-  h4.red {
+  .red {
     color: #d35232;
     letter-spacing: 1px;
     font-size: 1em;
