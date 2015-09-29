@@ -133,7 +133,8 @@
   section {
     display: flex;
     flex-flow: row;
-    min-height: 20em; }
+    min-height: 20em;
+    align-items: center; }
 
   /* line 106, ../../../sass/layouts/angel/angel.layout.scss */
   .item {
@@ -149,8 +150,7 @@
 
   /* line 108, ../../../sass/layouts/angel/angel.layout.scss */
   .item2 p {
-    width: 25em;
-    margin: 5em auto; }
+    width: 25em; }
 
   /* line 109, ../../../sass/layouts/angel/angel.layout.scss */
   .breadcrumb {
@@ -232,7 +232,8 @@
   section {
     display: flex;
     flex-flow: row;
-    min-height: 20em; }
+    min-height: 20em;
+    align-items: center; }
 
   /* line 175, ../../../sass/layouts/angel/angel.layout.scss */
   .item {
@@ -244,13 +245,11 @@
   .item2 {
     flex-grow: 2;
     background-color: #0ff;
-    min-height: 8em;
-    justify-content: center; }
+    min-height: 8em; }
 
   /* line 177, ../../../sass/layouts/angel/angel.layout.scss */
   .item2 p {
-    width: 50%;
-    margin: 5em auto; }
+    width: 25em; }
 
   /* line 178, ../../../sass/layouts/angel/angel.layout.scss */
   .breadcrumb {
