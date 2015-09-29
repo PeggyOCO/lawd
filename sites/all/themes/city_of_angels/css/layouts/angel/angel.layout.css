@@ -200,7 +200,7 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    min-height: 45em; }
+    height: 45em; }
 
   /* line 163, ../../../sass/layouts/angel/angel.layout.scss */
   .flex-colstretch {
@@ -213,22 +213,19 @@
   section {
     display: flex;
     flex-flow: row;
-    border: 2px dotted green;
     min-height: 20em; }
 
   /* line 170, ../../../sass/layouts/angel/angel.layout.scss */
   .item {
     flex-grow: 1;
     background-color: #ff0;
-    min-height: 8em;
-    border: 2px dotted orange; }
+    min-height: 8em; }
 
   /* line 171, ../../../sass/layouts/angel/angel.layout.scss */
   .item2 {
     flex-grow: 2;
     background-color: #0ff;
-    min-height: 8em;
-    border: 2px dotted pink; }
+    min-height: 8em; }
 
   /* line 172, ../../../sass/layouts/angel/angel.layout.scss */
   .breadcrumb {
