@@ -91,7 +91,7 @@ footer{height:20em;background-color:#d5d5d5;margin:0;}
   min-height:75em;}
   
   .teal{background:teal;color:white;
-  p{font-size:1.5em;margin:10% auto;}}
+ }
 
 .flex-colstretch{display:flex;
 flex-direction: column;
@@ -165,7 +165,7 @@ flex-direction: column;
 border:2px dotted red;min-height: 900px;}
 
 
-section{display:flex; flex-flow: row wrap;border:2px dotted green;min-height:20em;}
+section{display:flex; flex-flow: row;border:2px dotted green;min-height:20em;}
 
 .item{  flex-grow:1;background-color:#ff0;min-height:8em;border:2px dotted orange;}
 .item2{  flex-grow:2;background-color:#0ff;min-height:8em;border:2px dotted pink;}
