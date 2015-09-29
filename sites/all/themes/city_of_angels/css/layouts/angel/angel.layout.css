@@ -74,7 +74,7 @@
   .item {
     flex-grow: 1;
     flex-shrink: 1;
-    flex-basis: auto;
+    flex-basis: 10em;
     background-color: #fff;
     min-height: 8em; }
 
@@ -82,7 +82,7 @@
   .item2 {
     flex-grow: 2;
     flex-shrink: 1;
-    flex-basis: auto;
+    flex-basis: 10em;
     min-height: 8em; }
 
   /* line 45, ../../../sass/layouts/angel/angel.layout.scss */
@@ -239,7 +239,7 @@
   .item {
     flex-grow: 1;
     flex-shrink: 1;
-    flex-basis: auto;
+    flex-basis: fit-content;
     background-color: #fff;
     min-height: 8em; }
 
@@ -247,7 +247,7 @@
   .item2 {
     flex-grow: 2;
     flex-shrink: 1;
-    flex-basis: auto;
+    flex-basis: fit-content;
     min-height: 8em; }
 
   /* line 125, ../../../sass/layouts/angel/angel.layout.scss */
