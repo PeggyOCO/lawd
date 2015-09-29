@@ -253,7 +253,10 @@
 
   /* line 177, ../../../sass/layouts/angel/angel.layout.scss */
   .item2 p {
-    width: 25em; }
+    width: 75%;
+    margin: 0 auto;
+    color: white;
+    font-size: 1.5em; }
 
   /* line 178, ../../../sass/layouts/angel/angel.layout.scss */
   .breadcrumb {
