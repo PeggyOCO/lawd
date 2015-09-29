@@ -47,14 +47,12 @@ $desk : 1200px;
 .flex-colstretch{display:flex;
 flex-direction: column;
 border:0px dotted red;min-height: 900px;}
-
 .flex-colstretchnoheight{display:flex;
 flex-direction: column;
 border:0px dotted red;}
 
  
 section{position:relative;display:flex; flex-flow: row;min-height:20em;align-items: stretch;}
-section.quad{position:relative;display:flex; flex-flow: row;min-height:10em;align-items: stretch;}
 .teal{background-color:#47bdbf;}
  .red{color:#d35232;letter-spacing:1px;font-size:1em;font-weight:bold;line-height:1em;display:block;text-align:left;}
 
@@ -153,17 +151,12 @@ footer{height:20em;background-color:#d5d5d5;margin:0;}
 .flex-colstretch{display:flex;
 flex-direction: column;
 border:0px dotted red;min-height: 900px;}
-
 .flex-colstretchnoheight{display:flex;
 flex-direction: column;
 border:0px dotted red;}
 
- 
-/*section{position:relative;display:flex; flex-flow: row;min-height:20em;align-items: stretch;}*/
-
-section{position:relative;display:flex; flex-flow: column;min-width:20em;align-items: stretch;}
-/*section.quad{position:relative;display:flex; flex-flow: row;min-height:10em;align-items: stretch;}*/
-section.quad{position:relative;display:flex; flex-flow: column;min-width:10em;align-items: stretch;}
+section{position:relative;display:flex; flex-flow: row;min-height:20em;align-items: stretch;}
+section.quad{position:relative;display:flex; flex-flow: row;min-height:10em;align-items: stretch;}
 .teal{background-color:#47bdbf;}
  .red{color:#d35232;letter-spacing:1px;font-size:1em;font-weight:bold;line-height:1em;display:block;text-align:left;}
 
@@ -269,10 +262,7 @@ border:0px dotted red;}
 
  
 section{position:relative;display:flex; flex-flow: row;min-height:20em;align-items: stretch;}
-
-/* section{position:relative;display:flex; flex-flow: column;min-width:20em;align-items: stretch;}*/
 section.quad{position:relative;display:flex; flex-flow: row;min-height:10em;align-items: stretch;}
-/*section.quad{position:relative;display:flex; flex-flow: column;min-width:10em;align-items: stretch;}*/
 .teal{background-color:#47bdbf;}
  .red{color:#d35232;letter-spacing:1px;font-size:1em;font-weight:bold;line-height:1em;display:block;text-align:left;}
 
