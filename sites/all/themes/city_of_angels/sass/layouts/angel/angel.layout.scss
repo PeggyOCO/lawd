@@ -11,7 +11,7 @@
 // Set breakpoint values.
 $phone : 480px;
 $tab  : 800px;
-$desk : 2200px;
+$desk : 1200px;
 
 //************phone************//
 
@@ -19,6 +19,7 @@ $desk : 2200px;
   /* Header Area */
   body{font-size:16px;}
 .node__submitted{display:none;}
+
 .l-content{h1{display:none;}}
  .top{
   background: url(/dev/sites/default/files/projectpic_0.png) no-repeat center top;
@@ -32,11 +33,12 @@ $desk : 2200px;
 flex-direction: column;
 border:0px dotted red;min-height: 900px;}
 
+ 
+section{display:flex; flex-flow: row;min-height:20em;align-items: stretch;}
 
-section{display:flex; flex-flow: row;min-height:20em;}
-
-.item{  flex-grow:1;background-color:#ff0;min-height:8em;}
-.item2{  flex-grow:2;background-color:#0ff;min-height:8em;}
+.item{  flex-grow:1;flex-basis:0;background-color:#ff0;min-height:8em;}
+.item2{  flex-grow:2;flex-basis:0;background-color:#0ff;min-height:8em;}
+p.first{width:75%;margin:0 auto;color:white;font-size:1.5em;}
 .breadcrumb {
   display: none;
 }
@@ -100,12 +102,12 @@ footer{height:20em;background-color:#d5d5d5;margin:0;}
 flex-direction: column;
 border:0px dotted red;min-height: 900px;}
 
-
+ 
 section{display:flex; flex-flow: row;min-height:20em;align-items: stretch;}
 
 .item{  flex-grow:1;flex-basis:0;background-color:#ff0;min-height:8em;}
 .item2{  flex-grow:2;flex-basis:0;background-color:#0ff;min-height:8em;}
-.item2 p{width:25em;}
+p.first{width:75%;margin:0 auto;color:white;font-size:1.5em;}
 .breadcrumb {
   display: none;
 }
@@ -174,7 +176,7 @@ section{display:flex; flex-flow: row;min-height:20em;align-items: stretch;}
 
 .item{  flex-grow:1;flex-basis:0;background-color:#ff0;min-height:8em;}
 .item2{  flex-grow:2;flex-basis:0;background-color:#0ff;min-height:8em;}
-.item2 p{width:75%;margin:0 auto;color:white;font-size:1.5em;}
+p.first{width:75%;margin:0 auto;color:white;font-size:1.5em;}
 .breadcrumb {
   display: none;
 }
