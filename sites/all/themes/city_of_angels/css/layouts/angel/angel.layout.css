@@ -98,7 +98,7 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    min-height: 45em; }
+    min-height: 75em; }
 
   /* line 93, ../../../sass/layouts/angel/angel.layout.scss */
   .teal {
@@ -108,7 +108,7 @@
     .teal p {
       font-size: 1.5em;
       width: 80%;
-      margin: 20% auto; }
+      margin: 10% auto; }
 
   /* line 96, ../../../sass/layouts/angel/angel.layout.scss */
   .flex-colstretch {
