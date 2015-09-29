@@ -43,7 +43,7 @@ flex-direction: column;
 border:0px dotted red;min-height: 900px;}
 
  
-section{display:flex; flex-flow: row;min-height:20em;align-items: stretch;}
+section{position:relative;display:flex; flex-flow: row;min-height:20em;align-items: stretch;}
 .teal{background-color:#47bdbf;}
  .red{color:#d35232;letter-spacing:1px;font-size:1em;font-weight:bold;line-height:1em;display:block;text-align:left;}
 
@@ -132,7 +132,7 @@ flex-direction: column;
 border:0px dotted red;min-height: 900px;}
 
  
-section{display:flex; flex-flow: row;min-height:20em;align-items: stretch;}
+section{position:relative;display:flex; flex-flow: row;min-height:20em;align-items: stretch;}
 .teal{background-color:#47bdbf;}
  .red{color:#d35232;letter-spacing:1px;font-size:1em;font-weight:bold;line-height:1em;display:block;text-align:left;}
 
@@ -221,7 +221,7 @@ flex-direction: column;
 border:0px dotted red;min-height: 900px;}
 
  
-section{display:flex; flex-flow: row;min-height:20em;align-items: stretch;}
+section{position:relative;display:flex; flex-flow: row;min-height:20em;align-items: stretch;}
 .teal{background-color:#47bdbf;}
  .red{color:#d35232;letter-spacing:1px;font-size:1em;font-weight:bold;line-height:1em;display:block;text-align:left;}
 

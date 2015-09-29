@@ -54,6 +54,7 @@
 
   /* line 46, ../../../sass/layouts/angel/angel.layout.scss */
   section {
+    position: relative;
     display: flex;
     flex-flow: row;
     min-height: 20em;
@@ -233,6 +234,7 @@
 
   /* line 135, ../../../sass/layouts/angel/angel.layout.scss */
   section {
+    position: relative;
     display: flex;
     flex-flow: row;
     min-height: 20em;
@@ -412,6 +414,7 @@
 
   /* line 224, ../../../sass/layouts/angel/angel.layout.scss */
   section {
+    position: relative;
     display: flex;
     flex-flow: row;
     min-height: 20em;
