@@ -105,16 +105,20 @@ border:0px dotted red;min-height: 900px;}
  
 section{display:flex; flex-flow: row;min-height:20em;align-items: stretch;}
 .teal{background-color:#47bdbf;}
-.item{  flex-grow:1;flex-basis:0;background-color:#fff;min-height:8em;text-align:center;}
-.item2{  flex-grow:2;flex-basis:0;min-height:8em;text-align:center;}
-.item img{width:100%;}
-.item2 img{width:100%;}
+  h4.red{color:#d35232;letter-spacing:2px;font-size:.8em;font-weight:bold;line-height:1em;width:80%;display:block;text-align:left;margin:.5em auto;}
+
+   p.frontblack{font-size:1em;color:black;}
+   p.frontwhite{font-size:1.5em;color:white;}
+.item{  flex-grow:1;flex-basis:0;background-color:#fff;min-height:8em;}
+.item2{  flex-grow:2;flex-basis:0;min-height:8em;}
 p.first{width:75%;margin:3em auto;color:white;font-size:1.5em;vertical-align:middle;}
 .breadcrumb {
   display: none;
 }
 
-
+.centerbox{width:80%;margin:1em auto;
+p{text-align:left;}
+}
 ul#twolist{list-style-type: none;color:#d15232;width:60%;margin:0 auto;text-align:left;}
  .middlecenter{width:80%;
 margin:2em auto;height:auto;text-align:center;}
@@ -182,8 +186,8 @@ section{display:flex; flex-flow: row;min-height:20em;align-items: stretch;}
 .teal{background-color:#47bdbf;}
   h4.red{color:#d35232;letter-spacing:2px;font-size:.8em;font-weight:bold;line-height:1em;width:80%;display:block;text-align:left;margin:.5em auto;}
 
-   p.frontblack{font-size:.8em;color:black;width:80%;margin:.5em auto;}
-   p.frontwhite{font-size:1.5em;color:white;width:80%;margin: 2em auto;}
+   p.frontblack{font-size:1em;color:black;}
+   p.frontwhite{font-size:1.5em;color:white;}
 .item{  flex-grow:1;flex-basis:0;background-color:#fff;min-height:8em;}
 .item2{  flex-grow:2;flex-basis:0;min-height:8em;}
 p.first{width:75%;margin:3em auto;color:white;font-size:1.5em;vertical-align:middle;}
@@ -191,7 +195,9 @@ p.first{width:75%;margin:3em auto;color:white;font-size:1.5em;vertical-align:mid
   display: none;
 }
 
-
+.centerbox{width:80%;margin:1em auto;
+p{text-align:left;}
+}
 ul#twolist{list-style-type: none;color:#d15232;width:60%;margin:0 auto;text-align:left;}
  .middlecenter{width:80%;
 margin:2em auto;height:auto;text-align:center;}
