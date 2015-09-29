@@ -176,7 +176,7 @@ section{display:flex; flex-flow: row;min-height:20em;align-items: stretch;}
 
 .item{  flex-grow:1;flex-basis:0;background-color:#ff0;min-height:8em;}
 .item2{  flex-grow:2;flex-basis:0;background-color:#0ff;min-height:8em;}
-p.first{width:75%;margin:0 auto;color:white;font-size:1.5em;}
+p.first{width:75%;margin:3em auto;color:white;font-size:1.5em;vertical-align:middle;}
 .breadcrumb {
   display: none;
 }

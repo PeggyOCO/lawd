@@ -267,9 +267,10 @@
   /* line 179, ../../../sass/layouts/angel/angel.layout.scss */
   p.first {
     width: 75%;
-    margin: 0 auto;
+    margin: 3em auto;
     color: white;
-    font-size: 1.5em; }
+    font-size: 1.5em;
+    vertical-align: middle; }
 
   /* line 180, ../../../sass/layouts/angel/angel.layout.scss */
   .breadcrumb {
