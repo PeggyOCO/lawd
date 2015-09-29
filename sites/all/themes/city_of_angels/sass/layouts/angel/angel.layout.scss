@@ -12,7 +12,7 @@
 $phone : 480px;
 $tab  : 800px;
 $desk : 1200px;
-
+* {font-family:Verdana, Helvetica, sans-serif;}
 //************phone************//
 
 @include breakpoint($phone, true) {
@@ -173,15 +173,19 @@ border:0px dotted red;min-height: 900px;}
 
  
 section{display:flex; flex-flow: row;min-height:20em;align-items: stretch;}
-
-.item{  flex-grow:1;flex-basis:0;background-color:#ff0;min-height:8em;}
-.item2{  flex-grow:2;flex-basis:0;background-color:#0ff;min-height:8em;}
+.teal{background-color:#47bdbf;}
+.item{  flex-grow:1;flex-basis:0;background-color:#fff;min-height:8em;}
+.item2{  flex-grow:2;flex-basis:0;min-height:8em;}
 p.first{width:75%;margin:3em auto;color:white;font-size:1.5em;vertical-align:middle;}
 .breadcrumb {
   display: none;
 }
 
 
+ul#twolist{list-style-type: none;color:#d15232;width:60%;margin:0 auto;text-align:left;}
+ .middlecenter{width:80%;
+margin:2em auto;height:auto;text-align:center;}
+.gray{#666;}
 footer{height:20em;background-color:#d5d5d5;margin:0;}
 
 
