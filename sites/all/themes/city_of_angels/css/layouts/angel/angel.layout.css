@@ -107,7 +107,6 @@
     /* line 94, ../../../sass/layouts/angel/angel.layout.scss */
     .teal p {
       font-size: 1.5em;
-      width: 80%;
       margin: 10% auto; }
 
   /* line 96, ../../../sass/layouts/angel/angel.layout.scss */
@@ -120,7 +119,7 @@
   /* line 101, ../../../sass/layouts/angel/angel.layout.scss */
   section {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row;
     border: 2px dotted green;
     min-height: 20em; }
 
