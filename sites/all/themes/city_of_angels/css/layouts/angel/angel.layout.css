@@ -237,7 +237,7 @@
 
   /* line 174, ../../../sass/layouts/angel/angel.layout.scss */
   .item2 {
-    flex-grow: 2;
+    flex-grow: 2 0px;
     background-color: #0ff;
     min-height: 8em; }
 
