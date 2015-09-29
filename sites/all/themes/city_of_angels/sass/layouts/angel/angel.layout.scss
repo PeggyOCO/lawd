@@ -47,6 +47,9 @@ $desk : 1200px;
 .flex-colstretch{display:flex;
 flex-direction: column;
 border:0px dotted red;min-height: 900px;}
+.flex-colstretchnoheight{display:flex;
+flex-direction: column;
+border:0px dotted red;}
 
  
 section{position:relative;display:flex; flex-flow: row;min-height:20em;align-items: stretch;}
@@ -148,6 +151,9 @@ footer{height:20em;background-color:#d5d5d5;margin:0;}
 .flex-colstretch{display:flex;
 flex-direction: column;
 border:0px dotted red;min-height: 900px;}
+.flex-colstretchnoheight{display:flex;
+flex-direction: column;
+border:0px dotted red;}
 
  
 section{position:relative;display:flex; flex-flow: row;min-height:20em;align-items: stretch;}
@@ -249,6 +255,10 @@ footer{height:20em;background-color:#d5d5d5;margin:0;}
 .flex-colstretch{display:flex;
 flex-direction: column;
 border:0px dotted red;min-height: 900px;}
+
+.flex-colstretchnoheight{display:flex;
+flex-direction: column;
+border:0px dotted red;}
 
  
 section{position:relative;display:flex; flex-flow: row;min-height:20em;align-items: stretch;}
