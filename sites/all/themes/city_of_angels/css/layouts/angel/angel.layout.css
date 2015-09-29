@@ -239,7 +239,8 @@
   .item2 {
     flex-grow: 2 0px;
     background-color: #0ff;
-    min-height: 8em; }
+    min-height: 8em;
+    justify-content: center; }
 
   /* line 175, ../../../sass/layouts/angel/angel.layout.scss */
   .breadcrumb {
