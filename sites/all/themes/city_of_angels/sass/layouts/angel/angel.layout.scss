@@ -86,6 +86,7 @@ footer{height:20em;background-color:#d5d5d5;margin:0;}
   /* Header Area */
   body{font-size:16px;}
 .node__submitted{display:none;}
+
 .l-content{h1{display:none;}}
  .top{
   background: url(/dev/sites/default/files/projectpic_0.png) no-repeat center top;
@@ -103,7 +104,8 @@ border:0px dotted red;min-height: 900px;}
 section{display:flex; flex-flow: row;min-height:20em;}
 
 .item{  flex-grow:1;background-color:#ff0;min-height:8em;}
-.item2{  flex-grow:2;background-color:#0ff;min-height:8em;}
+.item2{  flex-grow:2;background-color:#0ff;min-height:8em;justify-content: center;}
+.item2 p{width:50%;margin:5em auto;}
 .breadcrumb {
   display: none;
 }
