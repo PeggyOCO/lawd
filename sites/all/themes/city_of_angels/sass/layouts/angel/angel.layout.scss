@@ -35,7 +35,6 @@ $desk : 1200px;
 .fourtop{margin-top:4em;}
 .leftbottom{position:absolute;left:10%;bottom:5%;}
 
-
 .l-content{h1{display:none;}}
  .top{
   background: url(/dev/sites/default/files/projectpic_0.png) no-repeat center top;
@@ -62,8 +61,8 @@ p.first{width:75%;margin:3em auto;color:white;font-size:1.5em;vertical-align:mid
 .breadcrumb {
   display: none;
 }
-.item img{width:100%;}
-.item2 img{width:100%;}
+.item img{width:100%;height: 100%;}
+.item2 img{width:100%;height: 100%;}
 .centerbox{width:80%;margin:1em auto;
 p{text-align:left;}
 }
@@ -157,8 +156,8 @@ p.first{width:75%;margin:3em auto;color:white;font-size:1.5em;vertical-align:mid
 .breadcrumb {
   display: none;
 }
-.item img{width:100%;}
-.item2 img{width:100%;}
+.item img{width:100%;height: 100%;}
+.item2 img{width:100%;height: 100%;}
 .centerbox{width:80%;margin:1em auto;
 p{text-align:left;}
 }
@@ -252,8 +251,8 @@ p.first{width:75%;margin:3em auto;color:white;font-size:1.5em;vertical-align:mid
 .breadcrumb {
   display: none;
 }
-.item img{width:100%;}
-.item2 img{width:100%;}
+.item img{width:100%;height: 100%;}
+.item2 img{width:100%;height: 100%;}
 .centerbox{width:80%;margin:1em auto;
 p{text-align:left;}
 }
