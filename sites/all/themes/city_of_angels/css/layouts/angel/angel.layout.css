@@ -112,6 +112,7 @@
 
   /* line 58, ../../../sass/layouts/angel/angel.layout.scss */
   .item {
+    box-sizing: content-box;
     width: 25%;
     flex-grow: 1;
     flex-shrink: 1;
@@ -121,6 +122,7 @@
 
   /* line 59, ../../../sass/layouts/angel/angel.layout.scss */
   .item2 {
+    box-sizing: content-box;
     flex-grow: 2;
     flex-shrink: 1;
     flex-basis: 0;
@@ -141,12 +143,12 @@
   /* line 64, ../../../sass/layouts/angel/angel.layout.scss */
   .item img {
     width: 100%;
-    height: 100%; }
+    min-height: 100%; }
 
   /* line 65, ../../../sass/layouts/angel/angel.layout.scss */
   .item2 img {
     width: 100%;
-    height: 100%; }
+    min-height: 100%; }
 
   /* line 66, ../../../sass/layouts/angel/angel.layout.scss */
   .centerbox {
@@ -320,6 +322,7 @@
 
   /* line 153, ../../../sass/layouts/angel/angel.layout.scss */
   .item {
+    box-sizing: content-box;
     width: 25%;
     flex-grow: 1;
     flex-shrink: 1;
@@ -329,6 +332,7 @@
 
   /* line 154, ../../../sass/layouts/angel/angel.layout.scss */
   .item2 {
+    box-sizing: content-box;
     flex-grow: 2;
     flex-shrink: 1;
     flex-basis: 0;
@@ -349,12 +353,12 @@
   /* line 159, ../../../sass/layouts/angel/angel.layout.scss */
   .item img {
     width: 100%;
-    height: 100%; }
+    min-height: 100%; }
 
   /* line 160, ../../../sass/layouts/angel/angel.layout.scss */
   .item2 img {
     width: 100%;
-    height: 100%; }
+    min-height: 100%; }
 
   /* line 161, ../../../sass/layouts/angel/angel.layout.scss */
   .centerbox {
@@ -528,6 +532,7 @@
 
   /* line 248, ../../../sass/layouts/angel/angel.layout.scss */
   .item {
+    box-sizing: content-box;
     width: 25%;
     flex-grow: 1;
     flex-shrink: 1;
@@ -537,6 +542,7 @@
 
   /* line 249, ../../../sass/layouts/angel/angel.layout.scss */
   .item2 {
+    box-sizing: content-box;
     flex-grow: 2;
     flex-shrink: 1;
     flex-basis: 0;
@@ -557,12 +563,12 @@
   /* line 254, ../../../sass/layouts/angel/angel.layout.scss */
   .item img {
     width: 100%;
-    height: 100%; }
+    min-height: 100%; }
 
   /* line 255, ../../../sass/layouts/angel/angel.layout.scss */
   .item2 img {
     width: 100%;
-    height: 100%; }
+    min-height: 100%; }
 
   /* line 256, ../../../sass/layouts/angel/angel.layout.scss */
   .centerbox {
