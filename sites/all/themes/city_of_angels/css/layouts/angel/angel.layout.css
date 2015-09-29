@@ -145,12 +145,11 @@
   .item2 {
     flex-grow: 2;
     background-color: #0ff;
-    min-height: 8em;
-    justify-content: center; }
+    min-height: 8em; }
 
   /* line 108, ../../../sass/layouts/angel/angel.layout.scss */
   .item2 p {
-    width: 50%;
+    width: 25em;
     margin: 5em auto; }
 
   /* line 109, ../../../sass/layouts/angel/angel.layout.scss */
