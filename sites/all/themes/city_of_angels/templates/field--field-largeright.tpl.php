@@ -19,6 +19,8 @@ $element['#label_display']: Position of label display, inline, above, or hidden.
 $field_name_css: The css-compatible field name.
 $field_type_css: The css-compatible field type.
 */
+
+dsm($items);
 ?>
 <style>
 .red{border:5px dotted red;}
