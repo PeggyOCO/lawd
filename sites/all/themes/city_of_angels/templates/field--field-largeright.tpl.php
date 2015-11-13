@@ -20,10 +20,7 @@ $field_name_css: The css-compatible field name.
 $field_type_css: The css-compatible field type.
 */
 
-dsm($items);
+dsm($element);
 
-foreach($items as $k=>$v){
 
- drupal_render($v),
-}
 dsm($classes);
