@@ -21,4 +21,9 @@ $field_type_css: The css-compatible field type.
 */
 
 dsm($items);
+
+foreach($items as $k=>$v){
+
+ drupal_render($v),
+}
 dsm($classes);
