@@ -1,0 +1,13 @@
+diff --git a/masonry_fields.module b/masonry_fields.module
+index 10c400d..4e3bebc 100644
+--- a/masonry_fields.module
++++ b/masonry_fields.module
+@@ -124,7 +124,7 @@ function masonry_fields_preprocess_field(&$variables) {
+   $options = field_formatter_settings_get_instance_display_settings($element['#entity_type'], $element['#field_name'], $element['#bundle'], $element['#view_mode']);
+ 
+   // Display field items in a Masonry layout
+-  if ($options['masonry']) {
++  if (isset($options['masonry']) && $options['masonry']) {
+     $container = '.field-name-' . $variables['field_name_css'] . ' .field-items';
+     $options['masonry_item_selector'] = '.field-item';
+     masonry_apply($container, $options);
