@@ -29,6 +29,6 @@ dsm($items[0]['entity']['field_collection_item'][5]['field_label_one']['#object'
   <div class="red">
     <?php
 
-      print render($items);
+ print render($items[0]['entity']['field_collection_item'][5]['field_label_one']['#object']->field_label_one);
     ?>
   </div>
