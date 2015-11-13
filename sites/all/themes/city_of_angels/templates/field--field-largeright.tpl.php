@@ -25,7 +25,7 @@ $field_type_css: The css-compatible field type.
 
 <div class="surround">
 <?php
-print render($items[0]['entity']['field_collection_item'][5]['field_label_one']);
+print render($items[0]['entity']);
 
 ?>
 </div>
