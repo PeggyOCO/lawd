@@ -20,7 +20,7 @@ $field_name_css: The css-compatible field name.
 $field_type_css: The css-compatible field type.
 */
 
-render($element);
+dsm($element['#object']);
 
 
 dsm($classes);
