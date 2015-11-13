@@ -28,6 +28,6 @@ dsm($items[0]['entity']['field_collection_item'][5]['field_label_one']['#object'
 
   <div class="red">
     <?php
-render($element['#object']);
+render($items);
     ?>
   </div>
