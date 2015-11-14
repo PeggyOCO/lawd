@@ -24,6 +24,6 @@ $field_type_css: The css-compatible field type.
 ?>
 
 <?php 
-print render($items);
+print render($items[0]);
 
 ?>
