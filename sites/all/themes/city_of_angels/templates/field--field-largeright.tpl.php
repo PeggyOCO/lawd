@@ -27,8 +27,8 @@ $field_type_css: The css-compatible field type.
 
 <div style="border:1px solid;"><?php print render($items[1]);?></div>
 
-<div style="border:1px solid;"><?php print render($items[4]);?></div>
+<div style="border:1px solid;"><?php print render($items[2]);?></div>
 
-<div style="border:1px solid;"><?php print render($items[7]);?></div>
-<div style="border:1px solid;"><?php print render($items[10]);?></div>
-<div style="border:1px solid;"><?php print render($items[13]);?></div>
+<div style="border:1px solid;"><?php print render($items[3]);?></div>
+<div style="border:1px solid;"><?php print render($items[4]);?></div>
+<div style="border:1px solid;"><?php print render($items[5]);?></div>
