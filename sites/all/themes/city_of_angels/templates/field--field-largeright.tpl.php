@@ -20,6 +20,6 @@ $field_name_css: The css-compatible field name.
 $field_type_css: The css-compatible field type.
 */
 
-dsm($items[0]['entity']['field_collection_item'][5]['field_label_one']['#object']);
+//dsm($items[0]['entity']['field_collection_item'][5]['field_label_one']['#object']);
 
 ?>
