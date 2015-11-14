@@ -23,8 +23,14 @@ $field_type_css: The css-compatible field type.
 //dsm($items[0]['entity']['field_collection_item'][5]['field_label_one']['#object']);
 ?>
 
-
+<?php foreach ($items as $k => $v) : ?>
+<?php dsm($v);
+render($v);
+?>
+<?php endforeach; ?>
 <?php
-print render($items);
+
+//foreach($items as $k=>$v){}
+//print render($items);
 
 ?>
