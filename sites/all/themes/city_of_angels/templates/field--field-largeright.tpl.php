@@ -23,13 +23,12 @@ $field_type_css: The css-compatible field type.
 //dsm($items[0]['entity']['field_collection_item'][5]['field_label_one']['#object']);
 ?>
 
-<div style="border:1px solid;"><?php print render($items[0]);?></div>
+
 
 <div style="border:1px solid;"><?php print render($items[1]);?></div>
-<div style="border:1px solid;"><?php print render($items[2]);?></div>
-<div style="border:1px solid;"><?php print render($items[3]);?></div>
+
 <div style="border:1px solid;"><?php print render($items[4]);?></div>
-<div style="border:1px solid;"><?php print render($items[5]);?></div>
-<div style="border:1px solid;"><?php print render($items[6]);?></div>
+
 <div style="border:1px solid;"><?php print render($items[7]);?></div>
-?>
+<div style="border:1px solid;"><?php print render($items[10]);?></div>
+<div style="border:1px solid;"><?php print render($items[13]);?></div>
