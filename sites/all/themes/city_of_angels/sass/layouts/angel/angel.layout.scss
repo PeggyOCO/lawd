@@ -124,6 +124,84 @@ footer{height:20em;background-color:#d5d5d5;margin:0;}
 
 @include breakpoint($tab) {
   /* Header Area */
+  
+
+
+.hundredpercent{  position:relative;
+ background-color:#4cbdbf;
+ height:12em;
+margin-top:0;
+padding-top:0;
+ width:100%;}
+.blurb p{  
+text-align:left;
+border:0px dotted red;
+ width:50%;
+ margin:0 auto;
+ font-size:1.5em;
+ position:absolute; 
+ top:20%;left:25%; 
+ height:50%;
+ }
+ 
+
+	div.field-collection-item-field-bigright {
+  width: 100%;
+  background-color:red;
+margin:0;padding:0;
+display:block;
+clear:both;
+overflow:hidden;
+
+display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -moz-box-orient: vertical;
+  -moz-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+	div.field-name-field-fourup {
+	display:inline-block;
+	float:left;
+  width: 50%;
+  background-color:red;
+  margin:0;padding:0;
+overflow:hidden;
+ -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -moz-box-flex: 1;
+  -ms-flex: 1;
+
+}
+
+    
+    
+    	div.field-name-field-rightbig {
+	display:inline-block;
+	float:left;
+  width: 50%;
+  background-color:red;
+  margin:0;padding:0;
+overflow:hidden;
+ -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -moz-box-flex: 1;
+  -ms-flex: 1;
+
+}
+
+  
+  
+  
+  
+  
   body{font-size:16px;}
 .node__submitted{display:none;}
 
@@ -232,6 +310,82 @@ footer{height:20em;background-color:#d5d5d5;margin:0;}
 @include breakpoint($desk, true) {
   /* Header Area */
   body{font-size:16px;}
+  
+  
+
+.hundredpercent{  position:relative;
+ background-color:#4cbdbf;
+ height:12em;
+margin-top:0;
+padding-top:0;
+ width:100%;}
+.blurb p{  
+text-align:left;
+border:0px dotted red;
+ width:50%;
+ margin:0 auto;
+ font-size:1.5em;
+ position:absolute; 
+ top:20%;left:25%; 
+ height:50%;
+ }
+ 
+
+	div.field-collection-item-field-bigright {
+  width: 100%;
+  background-color:red;
+margin:0;padding:0;
+display:block;
+clear:both;
+overflow:hidden;
+
+display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -moz-box-orient: vertical;
+  -moz-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+	div.field-name-field-fourup {
+	display:inline-block;
+	float:left;
+  width: 50%;
+  background-color:red;
+  margin:0;padding:0;
+overflow:hidden;
+ -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -moz-box-flex: 1;
+  -ms-flex: 1;
+
+}
+
+    
+    
+    	div.field-name-field-rightbig {
+	display:inline-block;
+	float:left;
+  width: 50%;
+  background-color:red;
+  margin:0;padding:0;
+overflow:hidden;
+ -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -moz-box-flex: 1;
+  -ms-flex: 1;
+
+}
+  
+  
+  
+  
 .node__submitted{display:none;}
 
 .scrim{background-color: rgba(88, 88, 88, 0.8);
