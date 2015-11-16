@@ -653,8 +653,9 @@
 
   /* line 370, ../../../sass/layouts/angel/angel.layout.scss */
   div.field-name-field-fourup img {
-    width: 50%;
-    height: 50%; }
+    flex: 1;
+    width: 50% !important;
+    height: 50% !important; }
 
   /* line 374, ../../../sass/layouts/angel/angel.layout.scss */
   div.field-name-field-rightbig {
