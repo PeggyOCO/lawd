@@ -677,6 +677,10 @@
     height: 50% !important;
     margin-bottom: -3%; }
 
+  /* line 376, ../../../sass/layouts/angel/angel.layout.scss */
+  div.field-name-field-rightbig img {
+    margin-bottom: -3%; }
+
   /* line 378, ../../../sass/layouts/angel/angel.layout.scss */
   div.field-name-field-rightbig {
     display: inline-block;
