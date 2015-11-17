@@ -370,11 +370,13 @@ display: -webkit-box;
 display: flex;
 flex-wrap: wrap;
 flex-direction: row;
+margin:0;
+padding:0;
 }
 
 	div.field-name-field-fourup img{
  display: flex; 
-flex-basis: 50%;  
+flex-basis: (50% - 20px);  
 justify-content: center;
 flex-direction: column;
 	}
