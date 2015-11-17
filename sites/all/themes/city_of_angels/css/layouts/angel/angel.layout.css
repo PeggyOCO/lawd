@@ -668,11 +668,11 @@
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: row;
+    -webkit-flex-direction: column;
     -moz-box-orient: vertical;
     -moz-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row; }
+    -ms-flex-direction: column;
+    flex-direction: column; }
 
   /* line 379, ../../../sass/layouts/angel/angel.layout.scss */
   div.field-name-field-fourup img {
@@ -694,11 +694,11 @@
     justify-content: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: row;
+    -webkit-flex-direction: column;
     -moz-box-orient: vertical;
     -moz-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row; }
+    -ms-flex-direction: column;
+    flex-direction: column; }
 
   /* line 404, ../../../sass/layouts/angel/angel.layout.scss */
   div.field-name-field-rightbig img {

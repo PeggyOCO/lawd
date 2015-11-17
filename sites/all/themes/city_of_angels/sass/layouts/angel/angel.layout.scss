@@ -369,11 +369,11 @@ display: -webkit-box;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
+  -webkit-flex-direction: column;
   -moz-box-orient: vertical;
   -moz-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 	div.field-name-field-fourup img{-webkit-box-flex: 1;
@@ -394,11 +394,11 @@ display: -webkit-box;
   justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
+  -webkit-flex-direction: column;
   -moz-box-orient: vertical;
   -moz-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+  -ms-flex-direction: column;
+  flex-direction: column;
 	}
 
     	div.field-name-field-rightbig img{margin-bottom:0;
