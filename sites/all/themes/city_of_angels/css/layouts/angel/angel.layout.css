@@ -1,136 +1,957 @@
-/*
-Error: Incompatible units: 'px' and '%'.
-        on line 379 of /Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss, in `@content'
-        from line 62 of /Users/Pi/.rvm/gems/ruby-1.9.3-p551@global/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss, in `breakpoint'
-        from line 311 of /Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss
+/*******************************************************************************
+ * angel.layout.scss
+ *
+ * Styling of the "angel" layout demonstrating the golden rule and asymmetric
+ * grids with Singularity.
+ ******************************************************************************/
+/*@import "singularitygs";*/
+/* line 15, ../../../sass/layouts/angel/angel.layout.scss */
+* {
+  font-family: Verdana, Helvetica, sans-serif; }
 
-374: padding:0;
-375: }
-376: 
-377: 	div.field-name-field-fourup img{
-378:  display: flex; 
-379: flex-basis: (50% - 20px);  
-380: justify-content: center;
-381: flex-direction: column;
-382: 	}
-383: 
-384:     	div.field-name-field-rightbig img{margin-bottom:0;
+@media (min-width: 480px) {
+  /* Header Area */
+  /* line 20, ../../../sass/layouts/angel/angel.layout.scss */
+  body {
+    font-size: 16px; }
 
-Backtrace:
-/Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss:379:in `@content'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@global/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss:62:in `breakpoint'
-/Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss:311
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/script/value/number.rb:417:in `coercion_factor'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/script/value/number.rb:349:in `coerce'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/script/value/number.rb:397:in `operate'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/script/value/number.rb:108:in `minus'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/script/tree/operation.rb:82:in `_perform'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/script/tree/node.rb:50:in `perform'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:395:in `visit_prop'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/stack.rb:79:in `block in with_base'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/stack.rb:115:in `with_frame'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/stack.rb:79:in `with_base'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:158:in `visit'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:431:in `block (2 levels) in visit_rule'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:431:in `map'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:431:in `block in visit_rule'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:429:in `visit_rule'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/stack.rb:79:in `block in with_base'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/stack.rb:115:in `with_frame'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/stack.rb:79:in `with_base'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:158:in `visit'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:382:in `block (3 levels) in visit_content'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:382:in `map'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:382:in `block (2 levels) in visit_content'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:381:in `block in visit_content'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/stack.rb:98:in `block in with_mixin'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/stack.rb:115:in `with_frame'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/stack.rb:98:in `with_mixin'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:377:in `visit_content'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/stack.rb:79:in `block in with_base'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/stack.rb:115:in `with_frame'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/stack.rb:79:in `with_base'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:158:in `visit'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/base.rb:52:in `map'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:513:in `visit_media'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/stack.rb:79:in `block in with_base'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/stack.rb:115:in `with_frame'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/stack.rb:79:in `with_base'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:158:in `visit'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:299:in `block (2 levels) in visit_if'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:299:in `map'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:299:in `block in visit_if'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:298:in `visit_if'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/stack.rb:79:in `block in with_base'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/stack.rb:115:in `with_frame'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/stack.rb:79:in `with_base'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:158:in `visit'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:364:in `block (4 levels) in visit_mixin'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:364:in `map'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:364:in `block (3 levels) in visit_mixin'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:364:in `block (2 levels) in visit_mixin'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:84:in `perform_arguments'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:359:in `block in visit_mixin'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/stack.rb:98:in `block in with_mixin'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/stack.rb:115:in `with_frame'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/stack.rb:98:in `with_mixin'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:347:in `visit_mixin'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/stack.rb:79:in `block in with_base'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/stack.rb:115:in `with_frame'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/stack.rb:79:in `with_base'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:158:in `visit'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/base.rb:52:in `map'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:157:in `visit'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:8:in `visit'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/root_node.rb:36:in `css_tree'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/engine.rb:378:in `_render_with_sourcemap'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/engine.rb:295:in `render_with_sourcemap'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/plugin/compiler.rb:490:in `update_stylesheet'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/plugin/compiler.rb:209:in `each'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/plugin/compiler.rb:470:in `on_file_changed'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/plugin/compiler.rb:328:in `block in watch'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/vendor/listen/lib/listen/listener.rb:252:in `call'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/vendor/listen/lib/listen/listener.rb:252:in `on_change'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/vendor/listen/lib/listen/adapter.rb:254:in `call'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/vendor/listen/lib/listen/adapter.rb:254:in `report_changes'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/vendor/listen/lib/listen/adapter.rb:323:in `poll_changed_directories'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Incompatible units: 'px' and '%'.\A         on line 379 of /Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss, in `@content'\A         from line 62 of /Users/Pi/.rvm/gems/ruby-1.9.3-p551@global/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss, in `breakpoint'\A         from line 311 of /Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss\A \A 374: padding:0;\A 375: }\A 376: \A 377: 	div.field-name-field-fourup img{\A 378:  display: flex; \A 379: flex-basis: (50% - 20px);  \A 380: justify-content: center;\A 381: flex-direction: column;\A 382: 	}\A 383: \A 384:     	div.field-name-field-rightbig img{margin-bottom:0;"; }
+  /* line 21, ../../../sass/layouts/angel/angel.layout.scss */
+  .node__submitted {
+    display: none; }
+
+  /* line 23, ../../../sass/layouts/angel/angel.layout.scss */
+  .scrim {
+    background-color: rgba(88, 88, 88, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+  /* line 30, ../../../sass/layouts/angel/angel.layout.scss */
+  .fred {
+    color: #d25333; }
+
+  /* line 31, ../../../sass/layouts/angel/angel.layout.scss */
+  .white {
+    color: #fff; }
+
+  /* line 32, ../../../sass/layouts/angel/angel.layout.scss */
+  .single {
+    font-size: 1.1em; }
+
+  /* line 33, ../../../sass/layouts/angel/angel.layout.scss */
+  .double {
+    font-size: 1.7em; }
+
+  /* line 34, ../../../sass/layouts/angel/angel.layout.scss */
+  .center {
+    text-align: center; }
+
+  /* line 35, ../../../sass/layouts/angel/angel.layout.scss */
+  .fourtop {
+    margin-top: 4em; }
+
+  /* line 36, ../../../sass/layouts/angel/angel.layout.scss */
+  .leftbottom {
+    position: absolute;
+    left: 10%;
+    bottom: 5%; }
+
+  /* line 38, ../../../sass/layouts/angel/angel.layout.scss */
+  .l-content h1 {
+    display: none; }
+
+  /* line 39, ../../../sass/layouts/angel/angel.layout.scss */
+  .top {
+    background: url(/dev/sites/default/files/projectpic_0.png) no-repeat center top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 45em; }
+
+  /* line 47, ../../../sass/layouts/angel/angel.layout.scss */
+  .flex-colstretch {
+    display: flex;
+    flex-direction: column;
+    border: 0px dotted red;
+    min-height: 900px; }
+
+  /* line 51, ../../../sass/layouts/angel/angel.layout.scss */
+  .flex-colstretchnoheight {
+    display: flex;
+    flex-direction: column;
+    border: 0px dotted red; }
+
+  /* line 56, ../../../sass/layouts/angel/angel.layout.scss */
+  section {
+    position: relative;
+    display: flex;
+    flex-flow: row;
+    min-height: 20em;
+    align-items: stretch; }
+
+  /* line 57, ../../../sass/layouts/angel/angel.layout.scss */
+  section.quad {
+    position: relative;
+    display: flex;
+    flex-flow: row;
+    min-height: 10em;
+    align-items: stretch; }
+
+  /* line 58, ../../../sass/layouts/angel/angel.layout.scss */
+  .teal {
+    background-color: #47bdbf; }
+
+  /* line 59, ../../../sass/layouts/angel/angel.layout.scss */
+  .red {
+    color: #d35232;
+    letter-spacing: 1px;
+    font-size: 1em;
+    font-weight: bold;
+    line-height: 1em;
+    display: block;
+    text-align: left; }
+
+  /* line 61, ../../../sass/layouts/angel/angel.layout.scss */
+  p.frontblack {
+    font-size: 1em;
+    color: black;
+    width: 80%;
+    margin: 0 auto; }
+
+  /* line 62, ../../../sass/layouts/angel/angel.layout.scss */
+  p.frontwhite {
+    font-size: 1.5em;
+    color: white; }
+
+  /* line 63, ../../../sass/layouts/angel/angel.layout.scss */
+  .item {
+    box-sizing: content-box;
+    width: 25%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+    background-color: #fff;
+    min-height: 8em; }
+
+  /* line 64, ../../../sass/layouts/angel/angel.layout.scss */
+  .item2 {
+    box-sizing: content-box;
+    flex-grow: 2;
+    flex-shrink: 1;
+    flex-basis: 0;
+    min-height: 8em; }
+
+  /* line 66, ../../../sass/layouts/angel/angel.layout.scss */
+  .itemquad {
+    box-sizing: content-box;
+    width: 25%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+    background-color: #fff;
+    min-height: 4em; }
+
+  /* line 67, ../../../sass/layouts/angel/angel.layout.scss */
+  .itemquad2 {
+    box-sizing: content-box;
+    flex-grow: 2;
+    flex-shrink: 1;
+    flex-basis: 0;
+    min-height: 4em; }
+
+  /* line 69, ../../../sass/layouts/angel/angel.layout.scss */
+  p.first {
+    width: 75%;
+    margin: 3em auto;
+    color: white;
+    font-size: 1.5em;
+    vertical-align: middle; }
+
+  /* line 70, ../../../sass/layouts/angel/angel.layout.scss */
+  .breadcrumb {
+    display: none; }
+
+  /* line 73, ../../../sass/layouts/angel/angel.layout.scss */
+  .item img {
+    width: 100%; }
+
+  /* line 74, ../../../sass/layouts/angel/angel.layout.scss */
+  .item2 img {
+    width: 100%; }
+
+  /* line 75, ../../../sass/layouts/angel/angel.layout.scss */
+  .itemquad img {
+    width: 100%; }
+
+  /* line 76, ../../../sass/layouts/angel/angel.layout.scss */
+  .itemquad2 img {
+    width: 100%; }
+
+  /* line 77, ../../../sass/layouts/angel/angel.layout.scss */
+  .centerbox {
+    width: 100%;
+    margin: 0 auto; }
+    /* line 78, ../../../sass/layouts/angel/angel.layout.scss */
+    .centerbox h4.red {
+      width: 80%;
+      margin: 1em auto; }
+    /* line 79, ../../../sass/layouts/angel/angel.layout.scss */
+    .centerbox p {
+      text-align: left; }
+
+  /* line 81, ../../../sass/layouts/angel/angel.layout.scss */
+  ul#twolist {
+    list-style-type: none;
+    color: #d15232;
+    width: 60%;
+    margin: 0 auto;
+    text-align: left; }
+
+  /* line 82, ../../../sass/layouts/angel/angel.layout.scss */
+  .middlecenter {
+    width: 80%;
+    margin: 2em auto;
+    height: auto;
+    text-align: center; }
+
+  /* line 84, ../../../sass/layouts/angel/angel.layout.scss */
+  .gray {
+    color: #666; }
+
+  /* line 85, ../../../sass/layouts/angel/angel.layout.scss */
+  footer {
+    height: 20em;
+    background-color: #d5d5d5;
+    margin: 0; }
+
+  /* line 90, ../../../sass/layouts/angel/angel.layout.scss */
+  .l-region--branding {
+    width: 40%;
+    display: inline-block;
+    float: right; }
+
+  /* line 91, ../../../sass/layouts/angel/angel.layout.scss */
+  #block-system-main-menu .menu {
+    list-style-type: none; }
+    /* line 92, ../../../sass/layouts/angel/angel.layout.scss */
+    #block-system-main-menu .menu li {
+      list-style-type: none;
+      display: inline-block;
+      float: left;
+      margin-left: 2em; }
+
+  /* line 95, ../../../sass/layouts/angel/angel.layout.scss */
+  #superfish-1 {
+    margin-top: 2em; }
+    /* line 97, ../../../sass/layouts/angel/angel.layout.scss */
+    #superfish-1 li {
+      margin-left: 2em; }
+
+  /* line 103, ../../../sass/layouts/angel/angel.layout.scss */
+  .l-branding {
+    border: 0px dotted maroon;
+    background-color: #ededed;
+    text-align: left; }
+
+  /* line 112, ../../../sass/layouts/angel/angel.layout.scss */
+  .l-header {
+    margin: 0; }
+
+  /* line 116, ../../../sass/layouts/angel/angel.layout.scss */
+  .l-region--navigation {
+    clear: both; } }
+@media (min-width: 800px) {
+  /* Header Area */
+  /* line 127, ../../../sass/layouts/angel/angel.layout.scss */
+  .field-collection-view.clearfix.view-mode-full.field-collection-view-final {
+    width: 100%;
+    margin: 0;
+    padding: 0; }
+
+  /* line 131, ../../../sass/layouts/angel/angel.layout.scss */
+  .hundredpercent {
+    position: relative;
+    background-color: #4cbdbf;
+    height: 12em;
+    margin-top: 0;
+    padding-top: 0;
+    width: 100%; }
+
+  /* line 137, ../../../sass/layouts/angel/angel.layout.scss */
+  .hundredpercent p {
+    text-align: left;
+    border: 0px dotted red;
+    width: 50%;
+    margin: 0 auto;
+    font-size: 1.5em;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    height: 50%; }
+
+  /* line 149, ../../../sass/layouts/angel/angel.layout.scss */
+  div.field-collection-item-field-bigright {
+    width: 100%;
+    background-color: red;
+    margin: 0;
+    padding: 0;
+    display: block;
+    clear: both;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row; }
+
+  /* line 171, ../../../sass/layouts/angel/angel.layout.scss */
+  div.field-name-field-fourup {
+    display: inline-block;
+    float: left;
+    width: 50%;
+    background-color: red;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -moz-box-flex: 1;
+    -ms-flex: 1; }
+
+  /* line 185, ../../../sass/layouts/angel/angel.layout.scss */
+  div.field-name-field-fourup img {
+    flex: 1;
+    width: 50% !important;
+    height: 50% !important; }
+
+  /* line 189, ../../../sass/layouts/angel/angel.layout.scss */
+  div.field-name-field-rightbig {
+    display: inline-block;
+    float: left;
+    width: 50%;
+    background-color: red;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -moz-box-flex: 1;
+    -ms-flex: 1; }
+
+  /* line 206, ../../../sass/layouts/angel/angel.layout.scss */
+  body {
+    font-size: 16px; }
+
+  /* line 207, ../../../sass/layouts/angel/angel.layout.scss */
+  .node__submitted {
+    display: none; }
+
+  /* line 209, ../../../sass/layouts/angel/angel.layout.scss */
+  .scrim {
+    background-color: rgba(88, 88, 88, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+  /* line 216, ../../../sass/layouts/angel/angel.layout.scss */
+  .fred {
+    color: #d25333; }
+
+  /* line 217, ../../../sass/layouts/angel/angel.layout.scss */
+  .white {
+    color: #fff; }
+
+  /* line 218, ../../../sass/layouts/angel/angel.layout.scss */
+  .single {
+    font-size: 1.1em; }
+
+  /* line 219, ../../../sass/layouts/angel/angel.layout.scss */
+  .double {
+    font-size: 1.7em; }
+
+  /* line 220, ../../../sass/layouts/angel/angel.layout.scss */
+  .center {
+    text-align: center; }
+
+  /* line 221, ../../../sass/layouts/angel/angel.layout.scss */
+  .fourtop {
+    margin-top: 4em; }
+
+  /* line 222, ../../../sass/layouts/angel/angel.layout.scss */
+  .leftbottom {
+    position: absolute;
+    left: 10%;
+    bottom: 5%; }
+
+  /* line 224, ../../../sass/layouts/angel/angel.layout.scss */
+  .l-content h1 {
+    display: none; }
+
+  /* line 225, ../../../sass/layouts/angel/angel.layout.scss */
+  .top {
+    background: url(/dev/sites/default/files/projectpic_0.png) no-repeat center top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 45em; }
+
+  /* line 233, ../../../sass/layouts/angel/angel.layout.scss */
+  .flex-colstretch {
+    display: flex;
+    flex-direction: column;
+    border: 0px dotted red;
+    min-height: 900px; }
+
+  /* line 237, ../../../sass/layouts/angel/angel.layout.scss */
+  .flex-colstretchnoheight {
+    display: flex;
+    flex-direction: column;
+    border: 0px dotted red; }
+
+  /* line 242, ../../../sass/layouts/angel/angel.layout.scss */
+  section {
+    position: relative;
+    display: flex;
+    flex-flow: row;
+    min-height: 20em;
+    align-items: stretch; }
+
+  /* line 243, ../../../sass/layouts/angel/angel.layout.scss */
+  section.quad {
+    position: relative;
+    display: flex;
+    flex-flow: row;
+    min-height: 10em;
+    align-items: stretch; }
+
+  /* line 244, ../../../sass/layouts/angel/angel.layout.scss */
+  .teal {
+    background-color: #47bdbf; }
+
+  /* line 245, ../../../sass/layouts/angel/angel.layout.scss */
+  .red {
+    color: #d35232;
+    letter-spacing: 1px;
+    font-size: 1em;
+    font-weight: bold;
+    line-height: 1em;
+    display: block;
+    text-align: left; }
+
+  /* line 247, ../../../sass/layouts/angel/angel.layout.scss */
+  p.frontblack {
+    font-size: 1em;
+    color: black;
+    width: 80%;
+    margin: 0 auto; }
+
+  /* line 248, ../../../sass/layouts/angel/angel.layout.scss */
+  p.frontwhite {
+    font-size: 1.5em;
+    color: white; }
+
+  /* line 249, ../../../sass/layouts/angel/angel.layout.scss */
+  .item {
+    box-sizing: content-box;
+    width: 25%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+    background-color: #fff;
+    min-height: 8em; }
+
+  /* line 250, ../../../sass/layouts/angel/angel.layout.scss */
+  .item2 {
+    box-sizing: content-box;
+    flex-grow: 2;
+    flex-shrink: 1;
+    flex-basis: 0;
+    min-height: 8em; }
+
+  /* line 252, ../../../sass/layouts/angel/angel.layout.scss */
+  .itemquad {
+    box-sizing: content-box;
+    width: 25%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+    background-color: #fff;
+    min-height: 4em; }
+
+  /* line 253, ../../../sass/layouts/angel/angel.layout.scss */
+  .itemquad2 {
+    box-sizing: content-box;
+    flex-grow: 2;
+    flex-shrink: 1;
+    flex-basis: 0;
+    min-height: 4em; }
+
+  /* line 255, ../../../sass/layouts/angel/angel.layout.scss */
+  p.first {
+    width: 75%;
+    margin: 3em auto;
+    color: white;
+    font-size: 1.5em;
+    vertical-align: middle; }
+
+  /* line 256, ../../../sass/layouts/angel/angel.layout.scss */
+  .breadcrumb {
+    display: none; }
+
+  /* line 259, ../../../sass/layouts/angel/angel.layout.scss */
+  .item img {
+    width: 100%; }
+
+  /* line 260, ../../../sass/layouts/angel/angel.layout.scss */
+  .item2 img {
+    width: 100%; }
+
+  /* line 261, ../../../sass/layouts/angel/angel.layout.scss */
+  .itemquad img {
+    width: 100%; }
+
+  /* line 262, ../../../sass/layouts/angel/angel.layout.scss */
+  .itemquad2 img {
+    width: 100%; }
+
+  /* line 263, ../../../sass/layouts/angel/angel.layout.scss */
+  .centerbox {
+    width: 100%;
+    margin: 0 auto; }
+    /* line 264, ../../../sass/layouts/angel/angel.layout.scss */
+    .centerbox h4.red {
+      width: 80%;
+      margin: 1em auto; }
+    /* line 265, ../../../sass/layouts/angel/angel.layout.scss */
+    .centerbox p {
+      text-align: left; }
+
+  /* line 267, ../../../sass/layouts/angel/angel.layout.scss */
+  ul#twolist {
+    list-style-type: none;
+    color: #d15232;
+    width: 60%;
+    margin: 0 auto;
+    text-align: left; }
+
+  /* line 268, ../../../sass/layouts/angel/angel.layout.scss */
+  .middlecenter {
+    width: 80%;
+    margin: 2em auto;
+    height: auto;
+    text-align: center; }
+
+  /* line 270, ../../../sass/layouts/angel/angel.layout.scss */
+  .gray {
+    color: #666; }
+
+  /* line 271, ../../../sass/layouts/angel/angel.layout.scss */
+  footer {
+    height: 20em;
+    background-color: #d5d5d5;
+    margin: 0; }
+
+  /* line 276, ../../../sass/layouts/angel/angel.layout.scss */
+  .l-region--branding {
+    width: 40%;
+    display: inline-block;
+    float: right; }
+
+  /* line 277, ../../../sass/layouts/angel/angel.layout.scss */
+  #block-system-main-menu .menu {
+    list-style-type: none; }
+    /* line 278, ../../../sass/layouts/angel/angel.layout.scss */
+    #block-system-main-menu .menu li {
+      list-style-type: none;
+      display: inline-block;
+      float: left;
+      margin-left: 2em; }
+
+  /* line 281, ../../../sass/layouts/angel/angel.layout.scss */
+  #superfish-1 {
+    margin-top: 2em; }
+    /* line 283, ../../../sass/layouts/angel/angel.layout.scss */
+    #superfish-1 li {
+      margin-left: 2em; }
+
+  /* line 289, ../../../sass/layouts/angel/angel.layout.scss */
+  .l-branding {
+    border: 0px dotted maroon;
+    background-color: #ededed;
+    text-align: left; }
+
+  /* line 298, ../../../sass/layouts/angel/angel.layout.scss */
+  .l-header {
+    margin: 0; }
+
+  /* line 302, ../../../sass/layouts/angel/angel.layout.scss */
+  .l-region--navigation {
+    clear: both; } }
+@media (min-width: 1200px) {
+  /* Header Area */
+  /* line 313, ../../../sass/layouts/angel/angel.layout.scss */
+  html, body {
+    height: 100%;
+    margin: 0;
+    font-size: 16px; }
+
+  /* line 318, ../../../sass/layouts/angel/angel.layout.scss */
+  .field-collection-view.clearfix.view-mode-full.field-collection-view-final {
+    width: 100%;
+    margin: 0;
+    padding: 0; }
+
+  /* line 322, ../../../sass/layouts/angel/angel.layout.scss */
+  .hundredpercent {
+    position: relative;
+    background-color: #4cbdbf;
+    height: 12em;
+    margin-top: 0;
+    padding-top: 0;
+    width: 100%; }
+
+  /* line 328, ../../../sass/layouts/angel/angel.layout.scss */
+  .hundredpercent p {
+    text-align: left;
+    border: 0px dotted red;
+    width: 50%;
+    margin: 0 auto;
+    font-size: 1.5em;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    height: 50%; }
+
+  /* line 340, ../../../sass/layouts/angel/angel.layout.scss */
+  div.field-collection-item-field-bigright {
+    width: 100%;
+    background-color: red;
+    margin: 0;
+    padding: 0;
+    display: block;
+    clear: both;
+    overflow: hidden;
+    margin-bottom: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; }
+
+  /* line 367, ../../../sass/layouts/angel/angel.layout.scss */
+  div.field-name-field-fourup {
+    min-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 0;
+    padding: 0; }
+
+  /* line 377, ../../../sass/layouts/angel/angel.layout.scss */
+  div.field-name-field-fourup img {
+    display: flex;
+    flex-basis: calc(50% - 20px);
+    justify-content: center;
+    flex-direction: column; }
+
+  /* line 384, ../../../sass/layouts/angel/angel.layout.scss */
+  div.field-name-field-rightbig img {
+    margin-bottom: 0;
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%; }
+
+  /* line 389, ../../../sass/layouts/angel/angel.layout.scss */
+  div.field-name-field-rightbig {
+    display: inline-block;
+    float: left;
+    width: 50%;
+    background-color: red;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -moz-box-flex: 1;
+    -ms-flex: 1; }
+
+  /* line 406, ../../../sass/layouts/angel/angel.layout.scss */
+  .node__submitted {
+    display: none; }
+
+  /* line 408, ../../../sass/layouts/angel/angel.layout.scss */
+  .scrim {
+    background-color: rgba(88, 88, 88, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+  /* line 415, ../../../sass/layouts/angel/angel.layout.scss */
+  .fred {
+    color: #d25333; }
+
+  /* line 416, ../../../sass/layouts/angel/angel.layout.scss */
+  .white {
+    color: #fff; }
+
+  /* line 417, ../../../sass/layouts/angel/angel.layout.scss */
+  .single {
+    font-size: 1.1em; }
+
+  /* line 418, ../../../sass/layouts/angel/angel.layout.scss */
+  .double {
+    font-size: 1.7em; }
+
+  /* line 419, ../../../sass/layouts/angel/angel.layout.scss */
+  .center {
+    text-align: center; }
+
+  /* line 420, ../../../sass/layouts/angel/angel.layout.scss */
+  .fourtop {
+    margin-top: 4em; }
+
+  /* line 421, ../../../sass/layouts/angel/angel.layout.scss */
+  .leftbottom {
+    position: absolute;
+    left: 10%;
+    bottom: 5%; }
+
+  /* line 423, ../../../sass/layouts/angel/angel.layout.scss */
+  .l-content h1 {
+    display: none; }
+
+  /* line 424, ../../../sass/layouts/angel/angel.layout.scss */
+  .top {
+    background: url(/dev/sites/default/files/projectpic_0.png) no-repeat center top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 45em; }
+
+  /* line 432, ../../../sass/layouts/angel/angel.layout.scss */
+  .flex-colstretch {
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: column;
+    border: 0px dotted red;
+    min-height: 900px; }
+
+  /* line 446, ../../../sass/layouts/angel/angel.layout.scss */
+  .flex-colstretchnoheight {
+    display: flex;
+    flex-direction: column;
+    border: 2px dotted red; }
+
+  /* line 451, ../../../sass/layouts/angel/angel.layout.scss */
+  section {
+    position: relative;
+    display: flex;
+    flex-flow: row;
+    min-height: 20em;
+    align-items: stretch; }
+
+  /* line 452, ../../../sass/layouts/angel/angel.layout.scss */
+  section.quad {
+    position: relative;
+    display: flex;
+    flex-flow: row;
+    min-height: 10em;
+    align-items: stretch; }
+
+  /* line 453, ../../../sass/layouts/angel/angel.layout.scss */
+  .teal {
+    background-color: #47bdbf; }
+
+  /* line 454, ../../../sass/layouts/angel/angel.layout.scss */
+  .red {
+    color: #d35232;
+    letter-spacing: 1px;
+    font-size: 1em;
+    font-weight: bold;
+    line-height: 1em;
+    display: block;
+    text-align: left; }
+
+  /* line 456, ../../../sass/layouts/angel/angel.layout.scss */
+  p.frontblack {
+    font-size: 1em;
+    color: black;
+    width: 80%;
+    margin: 0 auto; }
+
+  /* line 457, ../../../sass/layouts/angel/angel.layout.scss */
+  p.frontwhite {
+    font-size: 1.5em;
+    color: white; }
+
+  /* line 458, ../../../sass/layouts/angel/angel.layout.scss */
+  .item {
+    box-sizing: content-box;
+    width: 25%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+    background-color: #fff;
+    min-height: 8em; }
+
+  /* line 459, ../../../sass/layouts/angel/angel.layout.scss */
+  .item2 {
+    box-sizing: content-box;
+    flex-grow: 2;
+    flex-shrink: 1;
+    flex-basis: 0;
+    min-height: 8em; }
+
+  /* line 461, ../../../sass/layouts/angel/angel.layout.scss */
+  .itemquad {
+    box-sizing: content-box;
+    width: 25%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+    background-color: #fff;
+    min-height: 4em; }
+
+  /* line 462, ../../../sass/layouts/angel/angel.layout.scss */
+  .itemquad2 {
+    box-sizing: content-box;
+    flex-grow: 2;
+    flex-shrink: 1;
+    flex-basis: 0;
+    min-height: 4em; }
+
+  /* line 464, ../../../sass/layouts/angel/angel.layout.scss */
+  p.first {
+    width: 75%;
+    margin: 3em auto;
+    color: white;
+    font-size: 1.5em;
+    vertical-align: middle; }
+
+  /* line 465, ../../../sass/layouts/angel/angel.layout.scss */
+  .breadcrumb {
+    display: none; }
+
+  /* line 468, ../../../sass/layouts/angel/angel.layout.scss */
+  .item img {
+    width: 100%; }
+
+  /* line 469, ../../../sass/layouts/angel/angel.layout.scss */
+  .item2 img {
+    width: 100%; }
+
+  /* line 470, ../../../sass/layouts/angel/angel.layout.scss */
+  .itemquad img {
+    width: 100%; }
+
+  /* line 471, ../../../sass/layouts/angel/angel.layout.scss */
+  .itemquad2 img {
+    width: 100%; }
+
+  /* line 472, ../../../sass/layouts/angel/angel.layout.scss */
+  .centerbox {
+    width: 100%;
+    margin: 0 auto; }
+    /* line 473, ../../../sass/layouts/angel/angel.layout.scss */
+    .centerbox h4.red {
+      width: 80%;
+      margin: 1em auto; }
+    /* line 474, ../../../sass/layouts/angel/angel.layout.scss */
+    .centerbox p {
+      text-align: left; }
+
+  /* line 476, ../../../sass/layouts/angel/angel.layout.scss */
+  ul#twolist {
+    list-style-type: none;
+    color: #d15232;
+    width: 60%;
+    margin: 0 auto;
+    text-align: left; }
+
+  /* line 477, ../../../sass/layouts/angel/angel.layout.scss */
+  .middlecenter {
+    width: 80%;
+    margin: 2em auto;
+    height: auto;
+    text-align: center; }
+
+  /* line 479, ../../../sass/layouts/angel/angel.layout.scss */
+  .gray {
+    color: #666; }
+
+  /* line 480, ../../../sass/layouts/angel/angel.layout.scss */
+  footer {
+    height: 20em;
+    background-color: #d5d5d5;
+    margin: 0; }
+
+  /* line 485, ../../../sass/layouts/angel/angel.layout.scss */
+  .l-region--branding {
+    width: 40%;
+    display: inline-block;
+    float: right; }
+
+  /* line 486, ../../../sass/layouts/angel/angel.layout.scss */
+  #block-system-main-menu .menu {
+    list-style-type: none; }
+    /* line 487, ../../../sass/layouts/angel/angel.layout.scss */
+    #block-system-main-menu .menu li {
+      list-style-type: none;
+      display: inline-block;
+      float: left;
+      margin-left: 2em; }
+
+  /* line 490, ../../../sass/layouts/angel/angel.layout.scss */
+  #superfish-1 {
+    margin-top: 2em; }
+    /* line 492, ../../../sass/layouts/angel/angel.layout.scss */
+    #superfish-1 li {
+      margin-left: 2em; }
+
+  /* line 498, ../../../sass/layouts/angel/angel.layout.scss */
+  .l-branding {
+    border: 0px dotted maroon;
+    background-color: #ededed;
+    text-align: left; }
+
+  /* line 507, ../../../sass/layouts/angel/angel.layout.scss */
+  .l-header {
+    margin: 0; }
+
+  /* line 511, ../../../sass/layouts/angel/angel.layout.scss */
+  .l-region--navigation {
+    clear: both; } }
+
+/*# sourceMappingURL=angel.layout.css.map */
