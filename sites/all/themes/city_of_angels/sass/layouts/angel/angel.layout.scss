@@ -380,13 +380,15 @@ flex-basis: 50%;
  flex-grow:1;
 justify-content: center;
 flex-direction: column;
-	 margin:-1% 0;}
+	 margin:-2% 0;}
 
     	div.field-name-field-rightbig img{margin-bottom:0;
     	   flex-shrink:0;
     	   flex-grow:1;
+    	   flex-basis: 100%; 
     min-width:100%;
     min-height:100%;
+     margin:-2% 0;
    }    
     
     	div.field-name-field-rightbig {
