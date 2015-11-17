@@ -310,7 +310,10 @@ footer{height:20em;background-color:#d5d5d5;margin:0;}
 
 @include breakpoint($desk, true) {
   /* Header Area */
-  body{font-size:16px;}
+html, body {
+height: 100%;
+margin: 0;
+font-size:16px;}
   
    .field-collection-view.clearfix.view-mode-full.field-collection-view-final{width:100%;
  margin:0;
@@ -362,43 +365,18 @@ display: -webkit-box;
 }
 
 	div.field-name-field-fourup {
-	  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -moz-box-orient: vertical;
-  -moz-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+  
+  min-height: 100%;
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
 }
 
-	div.field-name-field-fourup img{-webkit-box-flex: 1;
-  -webkit-flex: 1;
-  -moz-box-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  float:left;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -moz-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -moz-box-orient: vertical;
-  -moz-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+	div.field-name-field-fourup img{
+ display: flex; 
+flex-basis: 50%;  
+justify-content: center;
+flex-direction: column;
 	}
 
     	div.field-name-field-rightbig img{margin-bottom:0;
