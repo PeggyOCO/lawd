@@ -379,12 +379,13 @@ padding:0;
 flex-basis: 50%;  
 justify-content: center;
 flex-direction: column;
-	}
+	 margin:-1% 0;}
 
     	div.field-name-field-rightbig img{margin-bottom:0;
     	   flex-shrink:0;
     min-width:100%;
-    min-height:calc(100% + 5px);}    
+    min-height:100%;
+    margin:-1% 0;}    
     
     	div.field-name-field-rightbig {
 	display:inline-block;
@@ -397,6 +398,7 @@ overflow:hidden;
   -webkit-flex: 1;
   -moz-box-flex: 1;
   -ms-flex: 1;
+  min-height:100%;
 
 }
   
