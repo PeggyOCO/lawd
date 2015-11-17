@@ -682,7 +682,7 @@
     margin-bottom: 0;
     flex-shrink: 0;
     min-width: 100%;
-    min-height: calc(100% + 2px); }
+    min-height: calc(100% + 5px); }
 
   /* line 389, ../../../sass/layouts/angel/angel.layout.scss */
   div.field-name-field-rightbig {
