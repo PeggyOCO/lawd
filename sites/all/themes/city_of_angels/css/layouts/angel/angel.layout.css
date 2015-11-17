@@ -638,7 +638,7 @@
   /* line 340, ../../../sass/layouts/angel/angel.layout.scss */
   div.field-collection-item-field-bigright {
     width: 100%;
-    height: 26em;
+    height: auto;
     background-color: red;
     margin: 0;
     padding: 0;
