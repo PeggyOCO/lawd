@@ -673,7 +673,7 @@
   /* line 377, ../../../sass/layouts/angel/angel.layout.scss */
   div.field-name-field-fourup img {
     display: flex;
-    flex-basis: calc(50% + 1px);
+    flex-basis: 50%;
     justify-content: center;
     flex-direction: column; }
 
