@@ -383,9 +383,10 @@ flex-direction: column;
 
     	div.field-name-field-rightbig img{margin-bottom:0;
     	   flex-shrink:0;
+    	   flex-grow:1;
     min-width:100%;
     min-height:100%;
-    margin:-1% 0;}    
+   }    
     
     	div.field-name-field-rightbig {
 	display:inline-block;
