@@ -361,7 +361,7 @@ display: -webkit-box;
   
     justify-content:center;
     align-items:center;
-    overflow:hidden
+    overflow:visible
 }
 
 	div.field-name-field-fourup {
@@ -384,7 +384,7 @@ flex-direction: column;
     	div.field-name-field-rightbig img{margin-bottom:0;
     	   flex-shrink:0;
     min-width:100%;
-    min-height:100%}    
+    min-height:calc(100% + 2px;}    
     
     	div.field-name-field-rightbig {
 	display:inline-block;
