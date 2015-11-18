@@ -184,17 +184,17 @@ align-items:center;
 overflow:hidden
 }
 
-	div.field.field-name-field-fourup,div.field.field-name-field-fourupright {
+	.field-name-field-fourup,.field-name-field-fourupright {
 @include flex(1);
-@include flex-flow(column);
-@include flex-direction(column);
+@include flex-flow(row);
+@include flex-direction(row);
 margin:0;
 padding:0;
 height:34vw;
 width:50%;
 }
 
-	div.field-name-field-fourup img,div.field-name-field-fourupright img{
+	.field-name-field-fourup img,.field-name-field-fourupright img{
 
 @include flex-basis(50%);
 @include flex-grow(1);
@@ -209,7 +209,7 @@ height:17.25vw;
 
 
 
-div.field-name-field-rightbig img,div.field-name-field-leftbig img{
+.field-name-field-rightbig img,.field-name-field-leftbig img{
 
 @include flex-shrink(1);
 @include flex-grow(1);
@@ -219,7 +219,7 @@ min-height:100%;
 margin:0;
 }    
     
-    	div.field-name-field-rightbig,div.field-name-field-leftbig {
+    .field-name-field-rightbig,.field-name-field-leftbig {
 
  @include flex(1);
 float:left;
@@ -349,6 +349,7 @@ height: 100%;
 margin: 0;
 font-size:16px;}
 
+
 /**START Projects page**/  
   
    .field-collection-view.clearfix.view-mode-full.field-collection-view-final{
@@ -395,9 +396,9 @@ align-items:center;
 overflow:hidden
 }
 
-	div.field-name-field-fourup,div.field-name-field-fourupright {
+	.field-name-field-fourup,.field-name-field-fourupright {
 @include flex(1);
-@include flex-flow(row wrap);
+@include flex-flow(row);
 @include flex-direction(row);
 margin:0;
 padding:0;
@@ -405,7 +406,7 @@ height:34vw;
 width:50%;
 }
 
-	div.field-name-field-fourup img,div.field-name-field-fourupright img{
+	.field-name-field-fourup img,.field-name-field-fourupright img{
 
 @include flex-basis(50%);
 @include flex-grow(1);
@@ -420,7 +421,7 @@ height:17.25vw;
 
 
 
-div.field-name-field-rightbig img,div.field-name-field-leftbig img{
+.field-name-field-rightbig img,.field-name-field-leftbig img{
 
 @include flex-shrink(1);
 @include flex-grow(1);
@@ -430,7 +431,7 @@ min-height:100%;
 margin:0;
 }    
     
-    	div.field-name-field-rightbig,div.field-name-field-leftbig {
+    .field-name-field-rightbig,.field-name-field-leftbig {
 
  @include flex(1);
 float:left;
