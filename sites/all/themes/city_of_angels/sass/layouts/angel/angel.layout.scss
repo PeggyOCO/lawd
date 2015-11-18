@@ -327,7 +327,7 @@ font-size:16px;}
 /**START Projects page**/  
   
    .field-collection-view.clearfix.view-mode-full.field-collection-view-final{
-  @include flexbox;
+  @include 'flexbox';
   width:100%;
  margin:0;
  padding:0;} 
