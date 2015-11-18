@@ -339,14 +339,14 @@ border:0px dotted red;
 
 	div.field-collection-item-field-bigright,	div.field-collection-item-field-bigleft {
   width: 100%;
-  height:auto;
+  height:27em;
   background-color:red;
 margin:0;padding:0;
 display:block;
 clear:both;
-overflow:27em;
+overflow:hidden;
 margin-bottom:0;
-border:2px dotted red;
+border:0px dotted red;
 
 display: -webkit-box;
   display: -webkit-flex;
@@ -456,7 +456,7 @@ border:0px dotted red;min-height: 900px;}
 
 .flex-colstretchnoheight{display:flex;
 flex-direction: column;
-border:2px dotted red;}
+border:0px dotted red;}
 
  
 section{position:relative;display:flex; flex-flow: row;min-height:20em;align-items: stretch;}
