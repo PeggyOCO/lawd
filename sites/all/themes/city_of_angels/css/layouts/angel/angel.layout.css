@@ -660,7 +660,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    overflow: visible; }
+    overflow: hidden; }
 
   /* line 368, ../../../sass/layouts/angel/angel.layout.scss */
   div.field-name-field-fourup, div.field-name-field-fourupright {
