@@ -327,7 +327,8 @@ font-size:16px;}
 /**START Projects page**/  
   
    .field-collection-view.clearfix.view-mode-full.field-collection-view-final{
-
+@include flexbox(1,2);
+@include flex(1);
   width:100%;
  margin:0;
  padding:0;} 
@@ -363,7 +364,8 @@ overflow:hidden;
 margin-bottom:0;
 border:0px dotted red;
 
-@include flexbox-display-flex;
+@include flexbox(1,2);
+@include flex(1);
 @include flex-direction(row);
 justify-content:center;
 align-items:center;
