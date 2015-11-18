@@ -14,7 +14,18 @@ $tab  : 800px;
 $desk : 1200px;
 * {font-family:Verdana, Helvetica, sans-serif;}
 
+//****mixins*****//
 
+@mixin flexbox
+ {
+ display:-webkit-box; // old
+ display:-moz-box; // old
+ display:-ms-flexbox; // ie
+ display:-webkit-flex; // new
+ display:flex; // new
+ }
+
+//****mixins*****//
 
 
 //************phone************//
@@ -158,11 +169,13 @@ display:block;
 clear:both;
 overflow:hidden;
 
-display: -webkit-box;
+ @include flexbox();
+
+/*display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
   display: -ms-flexbox;
-  display: flex;
+  display: flex;*/
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
@@ -354,11 +367,12 @@ overflow:hidden;
 margin-bottom:0;
 border:0px dotted red;
 
-display: -webkit-box;
+ @include flexbox();
+/*display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
   display: -ms-flexbox;
-  display: flex;
+  display: flex;*/
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
@@ -375,7 +389,8 @@ display: -webkit-box;
 	div.field-name-field-fourup,div.field-name-field-fourupright {
   
   min-height: 100%;
-display: flex;
+   @include flexbox();
+/*display: flex;*/
 flex-wrap: wrap;
 flex-direction: row;
 margin:0;
@@ -383,7 +398,8 @@ padding:0;
 }
 
 	div.field-name-field-fourup img,div.field-name-field-fourupright img{
- display: flex; 
+	 @include flexbox();
+/* display: flex; */
 flex-basis: 50%;  
  flex-grow:1;
 justify-content: center;
@@ -400,6 +416,8 @@ flex-direction: column;
    }    
     
     	div.field-name-field-rightbig,div.field-name-field-leftbig {
+    	
+    	 @include flexbox();
 	display:inline-block;
 	float:left;
   width: 50%;
@@ -415,7 +433,7 @@ overflow:hidden;
 }
   
  .clearfix {
-    margin: -2px 0 !important;
+    margin: -1vw 0 !important;
     padding: 0 !important;
 } 
   
