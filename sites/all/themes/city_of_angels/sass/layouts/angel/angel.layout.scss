@@ -381,7 +381,7 @@ min-height: 100%;
 
 	div.field-name-field-fourup img,div.field-name-field-fourupright img{
 
-@include flex-basis(25%);
+@include flex-basis(50%);
 @include flex-grow(1);
 @include flex-direction(row);
 justify-content: center;

@@ -671,8 +671,8 @@
 
   /* line 382, ../../../sass/layouts/angel/angel.layout.scss */
   div.field-name-field-fourup img, div.field-name-field-fourupright img {
-    -webkit-flex-basis: 25%;
-    flex-basis: 25%;
+    -webkit-flex-basis: 50%;
+    flex-basis: 50%;
     -webkit-flex-grow: 1;
     flex-grow: 1;
     -webkit-flex-direction: row;
