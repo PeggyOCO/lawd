@@ -186,8 +186,8 @@ overflow:hidden
 
 	div.field-name-field-fourup,div.field-name-field-fourupright {
 @include flex(1);
-@include flex-flow(row wrap);
-@include flex-direction(row);
+@include flex-flow(column);
+@include flex-direction(column);
 margin:0;
 padding:0;
 height:34vw;
