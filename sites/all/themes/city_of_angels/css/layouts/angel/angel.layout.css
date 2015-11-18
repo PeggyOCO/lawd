@@ -636,7 +636,7 @@
     height: 50%; }
 
   /* line 340, ../../../sass/layouts/angel/angel.layout.scss */
-  div.field-collection-item-field-bigright {
+  div.field-collection-item-field-bigright, div.field-collection-item-field-bigleft {
     width: 100%;
     height: auto;
     background-color: red;
@@ -663,7 +663,7 @@
     overflow: visible; }
 
   /* line 368, ../../../sass/layouts/angel/angel.layout.scss */
-  div.field-name-field-fourup {
+  div.field-name-field-fourup, div.field-name-field-fourupright {
     min-height: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -672,7 +672,7 @@
     padding: 0; }
 
   /* line 378, ../../../sass/layouts/angel/angel.layout.scss */
-  div.field-name-field-fourup img {
+  div.field-name-field-fourup img, div.field-name-field-fourupright img {
     display: flex;
     flex-basis: 50%;
     flex-grow: 1;
@@ -681,7 +681,7 @@
     margin: -2% 0; }
 
   /* line 386, ../../../sass/layouts/angel/angel.layout.scss */
-  div.field-name-field-rightbig img {
+  div.field-name-field-rightbig img, div.field-name-field-leftbig img {
     margin-bottom: 0;
     flex-shrink: 0;
     flex-grow: 1;
@@ -691,7 +691,7 @@
     margin: 0; }
 
   /* line 395, ../../../sass/layouts/angel/angel.layout.scss */
-  div.field-name-field-rightbig {
+  div.field-name-field-rightbig, div.field-name-field-leftbig {
     display: inline-block;
     float: left;
     width: 50%;
