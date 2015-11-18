@@ -190,6 +190,10 @@ overflow:hidden;
   flex-direction: row;
 }
 
+	div.field-collection-item-field-bigright img,	div.field-collection-item-field-bigleft img {
+	 width:50%;
+	}
+
 	div.field-name-field-fourup,div.field-name-field-fourupright {
 	 @include flexbox();
 	display:inline-block;
@@ -209,7 +213,7 @@ overflow:hidden;
 
     
     
-    	div.field-name-field-rightbig,div.field-name-field-leftbig{
+    	div.field-name-field-bigright,div.field-name-field-bigleft{
 	display:inline-block;
 	float:left;
   width: 50%;
@@ -401,6 +405,10 @@ border:0px dotted red;
     align-items:center;
     overflow:hidden
 }
+
+	div.field-collection-item-field-bigright img,	div.field-collection-item-field-bigleft img {
+	 width:50%;
+	}
 
 	div.field-name-field-fourup,div.field-name-field-fourupright {
   
