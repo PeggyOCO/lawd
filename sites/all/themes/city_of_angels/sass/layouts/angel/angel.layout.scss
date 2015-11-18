@@ -327,7 +327,7 @@ font-size:16px;}
 /**START Projects page**/  
   
    .field-collection-view.clearfix.view-mode-full.field-collection-view-final{
-  @include flexbox;
+
   width:100%;
  margin:0;
  padding:0;} 
@@ -362,7 +362,7 @@ overflow:hidden;
 margin-bottom:0;
 border:0px dotted red;
 
-@include flexbox;
+
 @include flex-direction(row);
 justify-content:center;
 align-items:center;
@@ -370,7 +370,7 @@ overflow:hidden
 }
 
 	div.field-name-field-fourup,div.field-name-field-fourupright {
-@include flexbox;
+
 @include flex-flow(row wrap);
 @include flex-direction(row);
 margin:0;
@@ -379,7 +379,7 @@ min-height: 100%;
 }
 
 	div.field-name-field-fourup img,div.field-name-field-fourupright img{
-@include flexbox;
+
 @include flex-basis(50%);
 @include flex-grow(1);
 justify-content: center;
@@ -387,7 +387,7 @@ flex-direction: column;
 margin:-2% 0;}
 
 div.field-name-field-rightbig img,div.field-name-field-leftbig img{
-@include flexbox;
+
 @include flex-shrink(1);
 @include flex-grow(1);
 @include flex-basis(100%); 
@@ -398,7 +398,7 @@ margin:0;
     
     	div.field-name-field-rightbig,div.field-name-field-leftbig {
 
- @include flexbox;
+ @include flex(1);
 float:left;
 width: 50%;
 background-color:red;
