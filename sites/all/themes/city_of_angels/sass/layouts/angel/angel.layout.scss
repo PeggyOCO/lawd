@@ -139,7 +139,11 @@ margin: 0;
 font-size:16px;}
 
 
-/**START Projects page**/  
+/**START Projects page**/ 
+ds-1colds-1col{
+@include flexbox(1,2);
+@include flex(1);
+}  
   
    .field-collection-view.clearfix.view-mode-full.field-collection-view-final{
 @include flexbox(1,2);
@@ -353,7 +357,11 @@ margin: 0;
 font-size:16px;}
 
 
-/**START Projects page**/  
+/**START Projects page**/ 
+ds-1colds-1col{
+@include flexbox(1,2);
+@include flex(1);
+} 
   
    .field-collection-view.clearfix.view-mode-full.field-collection-view-final{
 @include flexbox(1,2);
