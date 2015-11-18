@@ -681,8 +681,8 @@
     flex: 1;
     -webkit-flex-flow: row wrap;
     flex-flow: row wrap;
-    -webkit-flex-direction: row;
-    flex-direction: row;
+    -webkit-flex-direction: column;
+    flex-direction: column;
     margin: 0;
     padding: 0;
     height: 34vw;
