@@ -629,11 +629,11 @@
     border: 0px dotted red;
     width: 50%;
     margin: 0 auto;
-    font-size: 2vw;
+    font-size: 1vw;
     position: absolute;
     top: 20%;
     left: 25%;
-    height: 50%; }
+    height: 18vw; }
 
   /* line 340, ../../../sass/layouts/angel/angel.layout.scss */
   div.field-collection-item-field-bigright, div.field-collection-item-field-bigleft {
