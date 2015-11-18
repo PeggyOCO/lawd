@@ -16,14 +16,7 @@ $desk : 1200px;
 
 //****mixins*****//
 
-@mixin flexbox
- {
- display:-webkit-box; // old
- display:-moz-box; // old
- display:-ms-flexbox; // ie
- display:-webkit-flex; // new
- display:flex; // new
- }
+
 
 //****mixins*****//
 
@@ -138,12 +131,7 @@ footer{height:20em;background-color:#d5d5d5;margin:0;}
 //************tablet************//
 
 @include breakpoint($tab) {
-/* Header Area */
-html, body {
-height: 100%;
-margin: 0;
-font-size:12px;}
-
+  /* Header Area */
  .field-collection-view.clearfix.view-mode-full.field-collection-view-final{width:100%;
  margin:0;
  padding:0;} 
@@ -166,7 +154,7 @@ border:0px dotted red;
  }
  
 
-	div.field-collection-item-field-bigright,	div.field-collection-item-field-bigleft {
+	div.field-collection-item-field-bigright {
   width: 100%;
   background-color:red;
 margin:0;padding:0;
@@ -174,13 +162,11 @@ display:block;
 clear:both;
 overflow:hidden;
 
- @include flexbox();
-
-/*display: -webkit-box;
+display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
   display: -ms-flexbox;
-  display: flex;*/
+  display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
@@ -190,12 +176,7 @@ overflow:hidden;
   flex-direction: row;
 }
 
-	div.field-collection-item-field-bigright img,	div.field-collection-item-field-bigleft img {
-	 width:50%;
-	}
-
-	div.field-name-field-fourup,div.field-name-field-fourupright {
-	 @include flexbox();
+	div.field-name-field-fourup {
 	display:inline-block;
 	float:left;
   width: 50%;
@@ -209,11 +190,11 @@ overflow:hidden;
 
 }
 
-	div.field-name-field-fourup img,div.field-name-field-fourupright img{flex:1;width:50% !important;height:50% !important;}
+	div.field-name-field-fourup img{flex:1;width:50% !important;height:50% !important;}
 
     
     
-    	div.field-name-field-bigright,div.field-name-field-bigleft{
+    	div.field-name-field-rightbig {
 	display:inline-block;
 	float:left;
   width: 50%;
@@ -226,16 +207,6 @@ overflow:hidden;
   -ms-flex: 1;
 
 }
-
-
-    	div.field-name-field-bigright img,div.field-name-field-bigleft img{margin-bottom:0;
-    	   flex-shrink:0;
-    	   flex-grow:1;
-    	   flex-basis: 100%; 
-    min-width:100%;
-    min-height:100%;
-     margin:0;
-   }  
   
   
   
@@ -387,12 +358,11 @@ overflow:hidden;
 margin-bottom:0;
 border:0px dotted red;
 
- @include flexbox();
-/*display: -webkit-box;
+display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
   display: -ms-flexbox;
-  display: flex;*/
+  display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
@@ -406,15 +376,10 @@ border:0px dotted red;
     overflow:hidden
 }
 
-	div.field-collection-item-field-bigright img,	div.field-collection-item-field-bigleft img {
-	 width:50%;
-	}
-
 	div.field-name-field-fourup,div.field-name-field-fourupright {
   
   min-height: 100%;
-   @include flexbox();
-/*display: flex;*/
+display: flex;
 flex-wrap: wrap;
 flex-direction: row;
 margin:0;
@@ -422,18 +387,23 @@ padding:0;
 }
 
 	div.field-name-field-fourup img,div.field-name-field-fourupright img{
-	 @include flexbox();
-/* display: flex; */
+ display: flex; 
 flex-basis: 50%;  
  flex-grow:1;
 justify-content: center;
 flex-direction: column;
 	 margin:-2% 0;}
-  
+
+    	div.field-name-field-rightbig img,div.field-name-field-leftbig img{margin-bottom:0;
+    	   flex-shrink:0;
+    	   flex-grow:1;
+    	   flex-basis: 100%; 
+    min-width:100%;
+    min-height:100%;
+     margin:0;
+   }    
     
     	div.field-name-field-rightbig,div.field-name-field-leftbig {
-    	
-    	 @include flexbox();
 	display:inline-block;
 	float:left;
   width: 50%;
@@ -447,18 +417,9 @@ overflow:hidden;
   min-height:100%;
 
 }
-
-    	div.field-name-field-rightbig img,div.field-name-field-leftbig img{margin-bottom:0;
-    	   flex-shrink:0;
-    	   flex-grow:1;
-    	   flex-basis: 100%; 
-    min-width:100%;
-    min-height:100%;
-     margin:0;
-   } 
   
  .clearfix {
-    margin: -1vw 0 !important;
+    margin: -2px 0 !important;
     padding: 0 !important;
 } 
   
