@@ -128,20 +128,13 @@ footer{height:20em;background-color:#d5d5d5;margin:0;}
 
 @include breakpoint($tab) {
   /* Header Area */
-html, body {
-height: 100%;
-margin: 0;
-font-size:12px;}
-
-/**START Projects page**/  
-  
-   .field-collection-view.clearfix.view-mode-full.field-collection-view-final{width:100%;
+ .field-collection-view.clearfix.view-mode-full.field-collection-view-final{width:100%;
  margin:0;
  padding:0;} 
 
 .hundredpercent{  position:relative;
  background-color:#4cbdbf;
- height:12.5vw;
+ height:12em;
 margin-top:0;
 padding-top:0;
  width:100%;}
@@ -150,23 +143,20 @@ text-align:left;
 border:0px dotted red;
  width:50%;
  margin:0 auto;
- font-size:1.5vw;
+ font-size:1.5em;
  position:absolute; 
  top:20%;left:25%; 
- height:18vw;
+ height:50%;
  }
  
 
-	div.field-collection-item-field-bigright,	div.field-collection-item-field-bigleft {
+	div.field-collection-item-field-bigright {
   width: 100%;
-  height:37vw;
   background-color:red;
 margin:0;padding:0;
 display:block;
 clear:both;
 overflow:hidden;
-margin-bottom:0;
-border:0px dotted red;
 
 display: -webkit-box;
   display: -webkit-flex;
@@ -180,40 +170,9 @@ display: -webkit-box;
   -moz-box-direction: normal;
   -ms-flex-direction: row;
   flex-direction: row;
-  
-    justify-content:center;
-    align-items:center;
-    overflow:hidden
 }
 
-	div.field-name-field-fourup,div.field-name-field-fourupright {
-  
-  min-height: 100%;
-display: flex;
-flex-wrap: wrap;
-flex-direction: row;
-margin:0;
-padding:0;
-}
-
-	div.field-name-field-fourup img,div.field-name-field-fourupright img{
- display: flex; 
-flex-basis: 50%;  
- flex-grow:1;
-justify-content: center;
-flex-direction: column;
-	 margin:-2% 0;}
-
-    	div.field-name-field-rightbig img,div.field-name-field-leftbig img{margin-bottom:0;
-    	   flex-shrink:0;
-    	   flex-grow:1;
-    	   flex-basis: 100%; 
-    min-width:100%;
-    min-height:100%;
-     margin:0;
-   }    
-    
-    	div.field-name-field-rightbig,div.field-name-field-leftbig {
+	div.field-name-field-fourup {
 	display:inline-block;
 	float:left;
   width: 50%;
@@ -224,19 +183,31 @@ overflow:hidden;
   -webkit-flex: 1;
   -moz-box-flex: 1;
   -ms-flex: 1;
-  min-height:100%;
+
+}
+
+	div.field-name-field-fourup img{flex:1;width:50% !important;height:50% !important;}
+
+    
+    
+    	div.field-name-field-rightbig {
+	display:inline-block;
+	float:left;
+  width: 50%;
+  background-color:red;
+  margin:0;padding:0;
+overflow:hidden;
+ -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -moz-box-flex: 1;
+  -ms-flex: 1;
 
 }
   
- .clearfix {
-    margin: -2px 0 !important;
-    padding: 0 !important;
-} 
-  
-/**END Projects page**/  
   
   
-
+  
+  body{font-size:16px;}
 .node__submitted{display:none;}
 
 .scrim{background-color: rgba(88, 88, 88, 0.8);
