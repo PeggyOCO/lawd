@@ -708,8 +708,8 @@
 
   /* line 411, ../../../sass/layouts/angel/angel.layout.scss */
   .clearfix {
-    margin: -2px 0;
-    padding: 0; }
+    margin: -2px 0 !important;
+    padding: 0 !important; }
 
   /* line 417, ../../../sass/layouts/angel/angel.layout.scss */
   .node__submitted {
