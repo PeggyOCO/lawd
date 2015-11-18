@@ -276,7 +276,7 @@
 
   /**START Projects page**/
   /* line 143, ../../../sass/layouts/angel/angel.layout.scss */
-  ds-1colds-1col {
+  .ds-1colds-1col {
     -webkit-flex: 1;
     flex: 1; }
 
@@ -638,7 +638,7 @@
 
   /**START Projects page**/
   /* line 361, ../../../sass/layouts/angel/angel.layout.scss */
-  ds-1colds-1col {
+  .ds-1colds-1col {
     -webkit-flex: 1;
     flex: 1; }
 

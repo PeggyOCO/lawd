@@ -140,7 +140,7 @@ font-size:16px;}
 
 
 /**START Projects page**/ 
-ds-1colds-1col{
+.ds-1colds-1col{
 @include flexbox(1,2);
 @include flex(1);
 }  
@@ -358,7 +358,7 @@ font-size:16px;}
 
 
 /**START Projects page**/ 
-ds-1colds-1col{
+.ds-1colds-1col{
 @include flexbox(1,2);
 @include flex(1);
 } 
