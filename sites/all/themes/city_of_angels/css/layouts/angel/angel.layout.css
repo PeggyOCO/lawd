@@ -1,6 +1,6 @@
 /*
-Error: Mixin flex is missing argument $flex.
-        on line 330 of /Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss, in `flex'
+Error: Mixin flexbox is missing argument $properties.
+        on line 330 of /Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss, in `flexbox'
         from line 330 of /Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss, in `@content'
         from line 62 of /Users/Pi/.rvm/gems/ruby-1.9.3-p551@global/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss, in `breakpoint'
         from line 320 of /Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss
@@ -10,7 +10,7 @@ Error: Mixin flex is missing argument $flex.
 327: /**START Projects page**\/  
 328:   
 329:    .field-collection-view.clearfix.view-mode-full.field-collection-view-final{
-330:   @include flex;
+330:   @include flexbox;
 331:   width:100%;
 332:  margin:0;
 333:  padding:0;} 
@@ -18,7 +18,7 @@ Error: Mixin flex is missing argument $flex.
 335: .hundredpercent{  position:relative;
 
 Backtrace:
-/Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss:330:in `flex'
+/Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss:330:in `flexbox'
 /Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss:330:in `@content'
 /Users/Pi/.rvm/gems/ruby-1.9.3-p551@global/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss:62:in `breakpoint'
 /Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss:320
@@ -136,4 +136,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Mixin flex is missing argument $flex.\A         on line 330 of /Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss, in `flex'\A         from line 330 of /Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss, in `@content'\A         from line 62 of /Users/Pi/.rvm/gems/ruby-1.9.3-p551@global/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss, in `breakpoint'\A         from line 320 of /Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss\A \A 325: font-size:16px;}\A 326: \A 327: /**START Projects page**/  \A 328:   \A 329:    .field-collection-view.clearfix.view-mode-full.field-collection-view-final{\A 330:   @include flex;\A 331:   width:100%;\A 332:  margin:0;\A 333:  padding:0;} \A 334: \A 335: .hundredpercent{  position:relative;"; }
+  content: "Error: Mixin flexbox is missing argument $properties.\A         on line 330 of /Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss, in `flexbox'\A         from line 330 of /Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss, in `@content'\A         from line 62 of /Users/Pi/.rvm/gems/ruby-1.9.3-p551@global/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss, in `breakpoint'\A         from line 320 of /Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss\A \A 325: font-size:16px;}\A 326: \A 327: /**START Projects page**/  \A 328:   \A 329:    .field-collection-view.clearfix.view-mode-full.field-collection-view-final{\A 330:   @include flexbox;\A 331:   width:100%;\A 332:  margin:0;\A 333:  padding:0;} \A 334: \A 335: .hundredpercent{  position:relative;"; }
