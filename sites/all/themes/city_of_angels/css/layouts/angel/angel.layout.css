@@ -661,7 +661,7 @@
     height: 18vw; }
 
   /* line 382, ../../../sass/layouts/angel/angel.layout.scss */
-  div.field-collection-item-field-bigright, div.field-collection-item-field-bigleft {
+  .field-collection-item-field-bigright, .field-collection-item-field-bigleft {
     width: 100%;
     height: 34vw;
     background-color: red;
@@ -671,7 +671,7 @@
     clear: both;
     overflow: hidden;
     margin-bottom: 0;
-    border: 0px dotted red;
+    border: 3px dotted blue;
     justify-content: center;
     align-items: center;
     overflow: hidden; }
