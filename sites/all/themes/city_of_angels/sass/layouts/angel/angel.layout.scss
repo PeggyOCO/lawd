@@ -387,7 +387,7 @@ justify-content: center;
 flex-direction: column;
 margin:-2% 0;}
 
-div.field-name-field-rightbig img,div.field-name-field-leftbig img{
+div.field-name-field-rightbig img,div.field-name-field-bigleft img{
 
 @include flex-shrink(1);
 @include flex-grow(1);
@@ -397,7 +397,7 @@ min-height:100%;
 margin:0;
 }    
     
-    	div.field-name-field-rightbig,div.field-name-field-leftbig {
+    	div.field-name-field-rightbig,div.field-name-field-bigleft {
 
  @include flex(1);
 float:left;

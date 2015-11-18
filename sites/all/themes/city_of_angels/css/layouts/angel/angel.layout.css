@@ -678,7 +678,7 @@
     margin: -2% 0; }
 
   /* line 390, ../../../sass/layouts/angel/angel.layout.scss */
-  div.field-name-field-rightbig img, div.field-name-field-leftbig img {
+  div.field-name-field-rightbig img, div.field-name-field-bigleft img {
     -webkit-flex-shrink: 1;
     flex-shrink: 1;
     -webkit-flex-grow: 1;
@@ -690,7 +690,7 @@
     margin: 0; }
 
   /* line 400, ../../../sass/layouts/angel/angel.layout.scss */
-  div.field-name-field-rightbig, div.field-name-field-leftbig {
+  div.field-name-field-rightbig, div.field-name-field-bigleft {
     -webkit-flex: 1;
     flex: 1;
     float: left;
