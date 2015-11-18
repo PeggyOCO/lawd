@@ -6,7 +6,12 @@
  ******************************************************************************/
 @import "compass";
 @import "breakpoint";
-/*@import "singularitygs";*/
+@import "singularitygs";
+@import "toolkit";
+@import "variables/**/*";
+@import "abstractions/**/*";
+@import "base/**/*";
+@import "components/**/*";
 
 // Set breakpoint values.
 $phone : 480px;
@@ -14,11 +19,7 @@ $tab  : 800px;
 $desk : 1200px;
 * {font-family:Verdana, Helvetica, sans-serif;}
 
-//****mixins*****//
 
-
-
-//****mixins*****//
 
 
 //************phone************//
@@ -325,7 +326,9 @@ font-size:16px;}
 
 /**START Projects page**/  
   
-   .field-collection-view.clearfix.view-mode-full.field-collection-view-final{width:100%;
+   .field-collection-view.clearfix.view-mode-full.field-collection-view-final{
+  @include flexbox;
+  width:100%;
  margin:0;
  padding:0;} 
 
@@ -335,6 +338,7 @@ font-size:16px;}
 margin-top:0;
 padding-top:0;
  width:100%;}
+ 
 .hundredpercent p{  
 text-align:left;
 border:0px dotted red;
@@ -358,69 +362,55 @@ overflow:hidden;
 margin-bottom:0;
 border:0px dotted red;
 
-display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
-  -moz-box-orient: vertical;
-  -moz-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  
-    justify-content:center;
-    align-items:center;
-    overflow:hidden
+@include flexbox;
+@include flex-direction(row);
+justify-content:center;
+align-items:center;
+overflow:hidden
 }
 
 	div.field-name-field-fourup,div.field-name-field-fourupright {
-  
-  min-height: 100%;
-display: flex;
-flex-wrap: wrap;
-flex-direction: row;
+@include flexbox;
+@include flex-flow(row wrap);
+@include flex-direction(row);
 margin:0;
 padding:0;
+min-height: 100%;
 }
 
 	div.field-name-field-fourup img,div.field-name-field-fourupright img{
- display: flex; 
-flex-basis: 50%;  
- flex-grow:1;
+@include flexbox;
+@include flex-basis(50%);
+@include flex-grow(1);
 justify-content: center;
 flex-direction: column;
-	 margin:-2% 0;}
+margin:-2% 0;}
 
-    	div.field-name-field-rightbig img,div.field-name-field-leftbig img{margin-bottom:0;
-    	   flex-shrink:0;
-    	   flex-grow:1;
-    	   flex-basis: 100%; 
-    min-width:100%;
-    min-height:100%;
-     margin:0;
-   }    
+div.field-name-field-rightbig img,div.field-name-field-leftbig img{
+@include flexbox;
+@include flex-shrink(1);
+@include flex-grow(1);
+@include flex-basis(100%); 
+min-width:100%;
+min-height:100%;
+margin:0;
+}    
     
     	div.field-name-field-rightbig,div.field-name-field-leftbig {
-	display:inline-block;
-	float:left;
-  width: 50%;
-  background-color:red;
-  margin:0;padding:0;
+
+ @include flexbox;
+float:left;
+width: 50%;
+background-color:red;
+margin:0;padding:0;
 overflow:hidden;
- -webkit-box-flex: 1;
-  -webkit-flex: 1;
-  -moz-box-flex: 1;
-  -ms-flex: 1;
-  min-height:100%;
+min-height:100%;
 
 }
   
  .clearfix {
-    margin: -2px 0 !important;
-    padding: 0 !important;
+margin: -2px 0 !important;
+ padding: 0 !important;
 } 
   
 /**END Projects page**/  
