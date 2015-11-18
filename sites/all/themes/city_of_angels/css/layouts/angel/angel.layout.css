@@ -667,7 +667,7 @@
     flex-direction: row;
     margin: 0;
     padding: 0;
-    min-height: 100%; }
+    height: 34vw; }
 
   /* line 382, ../../../sass/layouts/angel/angel.layout.scss */
   div.field-name-field-fourup img, div.field-name-field-fourupright img {
@@ -678,7 +678,7 @@
     justify-content: center;
     margin: -2px 0;
     width: 25%;
-    height: 17.25vw; }
+    height: 17vw; }
 
   /* line 397, ../../../sass/layouts/angel/angel.layout.scss */
   div.field-name-field-rightbig img, div.field-name-field-leftbig img {
