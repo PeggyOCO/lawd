@@ -363,7 +363,7 @@ overflow:hidden;
 margin-bottom:0;
 border:0px dotted red;
 
-
+@include flexbox-display-flex;
 @include flex-direction(row);
 justify-content:center;
 align-items:center;
