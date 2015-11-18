@@ -15,8 +15,8 @@
 
 // Set breakpoint values.
 $phone : 480px;
-
-$desk : 800px;
+$tab  : 800px;
+$desk : 1200px;
 * {font-family:Verdana, Helvetica, sans-serif;}
 
 
@@ -131,6 +131,212 @@ footer{height:20em;background-color:#d5d5d5;margin:0;}
 //************end phone************//
 //************tablet************//
 
+@include breakpoint($tab) {
+  /* Header Area */
+html, body {
+height: 100%;
+margin: 0;
+font-size:12px;}
+
+/**START Projects page**/  
+  
+   .field-collection-view.clearfix.view-mode-full.field-collection-view-final{
+@include flexbox(1,2);
+@include flex(1);
+  width:100%;
+ margin:0;
+ padding:0;} 
+
+.hundredpercent{  position:relative;
+ background-color:#4cbdbf;
+ height:12.5vw;
+margin-top:0;
+padding-top:0;
+ width:100%;}
+ 
+.hundredpercent p{  
+text-align:left;
+border:0px dotted red;
+ width:50%;
+ margin:0 auto;
+ font-size:1.5vw;
+ position:absolute; 
+ top:20%;left:25%; 
+ height:18vw;
+ }
+ 
+
+	div.field-collection-item-field-bigright,	div.field-collection-item-field-bigleft {
+
+  width: 100%;
+  height:34vw;
+  background-color:red;
+margin:0;padding:0;
+display:block;
+clear:both;
+overflow:hidden;
+margin-bottom:0;
+border:0px dotted red;
+
+@include flexbox(1,2);
+justify-content:center;
+align-items:center;
+overflow:hidden
+}
+
+	div.field-name-field-fourup,div.field-name-field-fourupright {
+@include flex(1);
+@include flex-flow(row wrap);
+@include flex-direction(row);
+margin:0;
+padding:0;
+height:34vw;
+}
+
+	div.field-name-field-fourup img,div.field-name-field-fourupright img{
+
+@include flex-basis(50%);
+@include flex-grow(1);
+
+justify-content: center;
+margin:-2px 0;
+width: 25%;
+height:17.25vw;
+
+}
+
+
+
+
+div.field-name-field-rightbig img,div.field-name-field-leftbig img{
+
+@include flex-shrink(1);
+@include flex-grow(1);
+@include flex-basis(100%); 
+min-width:100%;
+min-height:100%;
+margin:0;
+}    
+    
+    	div.field-name-field-rightbig,div.field-name-field-leftbig {
+
+ @include flex(1);
+float:left;
+width: 50%;
+background-color:red;
+margin:0;padding:0;
+overflow:hidden;
+min-height:100%;
+
+}
+  
+ .clearfix {
+margin: -2px 0 !important;
+ padding: 0 !important;
+} 
+  
+/**END Projects page**/  
+
+.node__submitted{display:none;}
+
+.scrim{background-color: rgba(88, 88, 88, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;}
+    
+.fred{color: #d25333;}
+.white{color:#fff;}
+.single{font-size:1.1em;}
+.double{font-size:1.7em;}
+.center{text-align:center;}
+.fourtop{margin-top:4em;}
+.leftbottom{position:absolute;left:10%;bottom:5%;}
+
+.l-content{h1{display:none;}}
+ .top{
+  background: url(/dev/sites/default/files/projectpic_0.png) no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    height:45em;}
+
+.flex-colstretch{display:flex;
+flex-direction: column;
+border:0px dotted red;min-height: 900px;}
+
+.flex-colstretchnoheight{display:flex;
+flex-direction: column;
+border:0px dotted red;}
+
+ 
+section{position:relative;display:flex; flex-flow: row;min-height:20em;align-items: stretch;}
+section.quad{position:relative;display:flex; flex-flow: row;min-height:10em;align-items: stretch;}
+.teal{background-color:#47bdbf;}
+ .red{color:#d35232;letter-spacing:1px;font-size:1em;font-weight:bold;line-height:1em;display:block;text-align:left;}
+
+   p.frontblack{font-size:1em;color:black;width:80%;margin:0 auto;}
+   p.frontwhite{font-size:1.5em;color:white;}
+.item{   box-sizing: content-box;width:25%; flex-grow:1;flex-shrink:1;flex-basis:0;background-color:#fff;min-height:8em;}
+.item2{   box-sizing: content-box;flex-grow:2;flex-shrink:1;flex-basis:0;min-height:8em;}
+
+.itemquad{   box-sizing: content-box;width:25%; flex-grow:1;flex-shrink:1;flex-basis:0;background-color:#fff;min-height:4em;}
+.itemquad2{   box-sizing: content-box;flex-grow:2;flex-shrink:1;flex-basis:0;min-height:4em;}
+
+p.first{width:75%;margin:3em auto;color:white;font-size:1.5em;vertical-align:middle;}
+.breadcrumb {
+  display: none;
+}
+.item img{width:100%;}
+.item2 img{width:100%;}
+.itemquad img{width:100%;}
+.itemquad2 img{width:100%;}
+.centerbox{width:100%;margin:0 auto;
+h4.red{width:80%;margin:1em auto;}
+p{text-align:left;}
+}
+ul#twolist{list-style-type: none;color:#d15232;width:60%;margin:0 auto;text-align:left;}
+ .middlecenter{width:80%;
+margin:2em auto;height:auto;text-align:center;}
+.gray{color:#666;}
+footer{height:20em;background-color:#d5d5d5;margin:0;}
+
+
+ 
+
+  .l-region--branding{width:40%;display:inline-block;float:right;}
+  #block-system-main-menu .menu{list-style-type:none;
+  li{list-style-type:none;display:inline-block;float:left;margin-left:2em;}
+  }
+  
+  #superfish-1{
+  margin-top:2em;
+  li{margin-left:2em;}
+  
+  }
+ 
+ 
+ 
+  .l-branding {
+
+
+    border: 0px dotted maroon;
+    background-color: #ededed;
+    text-align:left;
+
+  }
+  
+  .l-header{margin:0;}
+  .l-region--header {
+
+  }
+  .l-region--navigation {
+    clear: both;
+  }
+
+  }
 
 //************end tablet************//
 //************desk************//
