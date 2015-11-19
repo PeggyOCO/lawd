@@ -189,11 +189,10 @@ align-items:center;
 overflow:hidden
 }
 
-	.field-name-field-fourup{
+	.field-name-field-fourup,.field-name-field-fourupright{
 @include flex(1);
 @include flex-flow(row);
 @include flex-direction(row);
-@include order(1);
 margin:0;
 padding:0;
 height:34vw;
@@ -253,7 +252,7 @@ margin:0;
     .field-name-field-rightbig,.field-name-field-leftbig {
 
  @include flex(1);
- @include order(1);
+
 float:left;
 width: 50%;
 background-color:red;
@@ -262,6 +261,8 @@ overflow:hidden;
 min-height:100%;
 
 }
+
+
   
  .clearfix {
 margin: -2px 0 !important;
@@ -433,11 +434,10 @@ align-items:center;
 overflow:hidden
 }
 
-	.field-name-field-fourup{
+	.field-name-field-fourup,.field-name-field-fourupright{
 @include flex(1);
 @include flex-flow(row);
 @include flex-direction(row);
-@include order(1);
 margin:0;
 padding:0;
 height:34vw;
@@ -497,7 +497,7 @@ margin:0;
     .field-name-field-rightbig,.field-name-field-leftbig {
 
  @include flex(1);
- @include order(1);
+
 float:left;
 width: 50%;
 background-color:red;
@@ -506,6 +506,8 @@ overflow:hidden;
 min-height:100%;
 
 }
+
+
   
  .clearfix {
 margin: -2px 0 !important;
