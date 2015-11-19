@@ -201,11 +201,23 @@ width:50%;
 float: left;
 }
 
-	.field-name-field-fourupright{
+	.field-name-field-fourupright:nth-child(even) {
 @include flex(1);
 @include flex-flow(row);
 @include flex-direction(row);
 @include order(2);
+margin:0;
+padding:0;
+height:34vw;
+width:50%;
+float: left;
+}
+
+	.field-name-field-fourupright:nth-child(odd) {
+@include flex(1);
+@include flex-flow(row);
+@include flex-direction(row);
+@include order(1);
 margin:0;
 padding:0;
 height:34vw;
@@ -433,11 +445,23 @@ width:50%;
 float: left;
 }
 
-	.field-name-field-fourupright{
+	.field-name-field-fourupright:nth-child(even) {
 @include flex(1);
 @include flex-flow(row);
 @include flex-direction(row);
 @include order(2);
+margin:0;
+padding:0;
+height:34vw;
+width:50%;
+float: left;
+}
+
+	.field-name-field-fourupright:nth-child(odd) {
+@include flex(1);
+@include flex-flow(row);
+@include flex-direction(row);
+@include order(1);
 margin:0;
 padding:0;
 height:34vw;
@@ -489,6 +513,7 @@ margin: -2px 0 !important;
 } 
   
 /**END Projects page**/  
+
 
 
 .node__submitted{display:none;}
