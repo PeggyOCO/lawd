@@ -396,7 +396,9 @@ font-size:16px;}
   width:100%;
  margin:0;
  padding:0;} 
+ 
 
+    
 .hundredpercent{  position:relative;
  background-color:#4cbdbf;
  height:12.5vw;
@@ -434,6 +436,8 @@ align-items:center;
 overflow:hidden
 }
 
+
+
 	.field-name-field-fourup,.field-name-field-fourupright{
 @include flex(1);
 @include flex-flow(row);
@@ -445,7 +449,7 @@ width:50%;
 float: left;
 }
 
-	.field-name-field-fourupright:nth-child(even) {
+	.field-name-field-fourupright {
 @include flex(1);
 @include flex-flow(row);
 @include flex-direction(row);
@@ -457,7 +461,7 @@ width:50%;
 float: left;
 }
 
-	.field-name-field-fourupright:nth-child(odd) {
+	.field-name-field-fourupright {
 @include flex(1);
 @include flex-flow(row);
 @include flex-direction(row);
@@ -481,7 +485,8 @@ height:17.25vw;
 
 }
 
-
+    .field-collection-view:nth-child(even) .ds-1col .fourup{float:left;}
+    .field-collection-view:nth-child(odd) .ds-1col .fourup{float:right;}
 
 
 .field-name-field-rightbig img,.field-name-field-leftbig img{
