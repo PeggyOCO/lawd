@@ -791,11 +791,11 @@
   /* .field-collection .field-collection-view .ds-1col .fourup{float:right !important;border:1px dotted yellow;}
    .field-collection .field-collection-view-final .ds-1col .fourup{float:left;border:1px dotted orange;}*/
   /* line 496, ../../../sass/layouts/angel/angel.layout.scss */
-  .field-collection-view-final {
+  .field-collection-view {
     border: 2px dotted yellow; }
 
   /* line 497, ../../../sass/layouts/angel/angel.layout.scss */
-  .field-collection-view-final .ds-1col .field-name-field-fourup {
+  .field-collection-view .ds-1col .field-name-field-fourup {
     float: right !important; }
 
   /* line 499, ../../../sass/layouts/angel/angel.layout.scss */
