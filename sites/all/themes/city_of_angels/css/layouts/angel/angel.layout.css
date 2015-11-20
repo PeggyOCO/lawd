@@ -788,15 +788,11 @@
     width: 50%;
     height: 17.25vw; }
 
-  /* line 494, ../../../sass/layouts/angel/angel.layout.scss */
-  .field-collection .field-collection-view .ds-1col .fourup {
-    float: right;
-    border: 1px dotted yellow; }
-
-  /* line 495, ../../../sass/layouts/angel/angel.layout.scss */
+  /* .field-collection .field-collection-view .ds-1col .fourup{float:right !important;border:1px dotted yellow;}
+   .field-collection .field-collection-view-final .ds-1col .fourup{float:left;border:1px dotted orange;}*/
+  /* line 496, ../../../sass/layouts/angel/angel.layout.scss */
   .field-collection .field-collection-view-final .ds-1col .fourup {
-    float: left;
-    border: 1px dotted orange; }
+    float: right !important; }
 
   /* line 498, ../../../sass/layouts/angel/angel.layout.scss */
   .field-name-field-rightbig img, .field-name-field-leftbig img {
