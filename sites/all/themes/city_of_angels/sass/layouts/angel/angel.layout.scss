@@ -494,8 +494,8 @@ height:17.25vw;
   /* .field-collection .field-collection-view .ds-1col .fourup{float:right !important;border:1px dotted yellow;}
    .field-collection .field-collection-view-final .ds-1col .fourup{float:left;border:1px dotted orange;}*/
   .field-collection-view{border:2px dotted yellow;} 
-  .field-collection-view .ds-1col .field-name-field-fourup{float:right !important;}
-
+  .field-collection-view:nth-child(odd) .ds-1col .field-name-field-fourup{float:right;}
+  .field-collection-view:nth-child(even) .ds-1col .field-name-field-fourup{float:left;}
 .field-name-field-rightbig img,.field-name-field-leftbig img{
 
 @include flex-shrink(1);
