@@ -759,7 +759,7 @@
     padding: 0;
     height: 34vw;
     width: 50%;
-    float: left; }
+    /*float: left;*/ }
 
   /* line 470, ../../../sass/layouts/angel/angel.layout.scss */
   .field-name-field-fourupright {
@@ -795,7 +795,7 @@
     border: 2px dotted yellow; }
 
   /* line 497, ../../../sass/layouts/angel/angel.layout.scss */
-  .field-collection-view-final .ds-1col .fourup {
+  .field-collection-view-final .ds-1col .field-name-field-fourup {
     float: right !important; }
 
   /* line 499, ../../../sass/layouts/angel/angel.layout.scss */
