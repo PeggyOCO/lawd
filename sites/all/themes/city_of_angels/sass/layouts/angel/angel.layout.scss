@@ -138,6 +138,7 @@ height: 100%;
 margin: 0;
 font-size:16px;}
 
+
 /**START Projects page**/ 
 .ds-1col{
 @include flexbox(1,2);
@@ -212,7 +213,7 @@ margin:0;
 padding:0;
 height:34vw;
 width:50%;
-float: left;
+
 }
 
 	.field-name-field-fourupright {
@@ -239,10 +240,10 @@ height:17.25vw;
 
 }
 
-   .field-collection .field-collection-view .ds-1col .fourup{float:right;border:1px dotted yellow;}
-   .field-collection .field-collection-view-final .ds-1col .fourup{float:left;border:1px dotted orange;}
-
-
+  .field-collection-view:nth-child(odd) .ds-1col .field-name-field-fourup{float:right;}
+  .field-collection-view:nth-child(even) .ds-1col .field-name-field-fourup{float:left;}
+  
+  
 .field-name-field-rightbig img,.field-name-field-leftbig img{
 
 @include flex-shrink(1);
@@ -464,7 +465,7 @@ margin:0;
 padding:0;
 height:34vw;
 width:50%;
-/*float: left;*/
+
 }
 
 	.field-name-field-fourupright {
@@ -491,11 +492,10 @@ height:17.25vw;
 
 }
 
-  /* .field-collection .field-collection-view .ds-1col .fourup{float:right !important;border:1px dotted yellow;}
-   .field-collection .field-collection-view-final .ds-1col .fourup{float:left;border:1px dotted orange;}*/
-  .field-collection-view{border:2px dotted yellow;} 
   .field-collection-view:nth-child(odd) .ds-1col .field-name-field-fourup{float:right;}
   .field-collection-view:nth-child(even) .ds-1col .field-name-field-fourup{float:left;}
+  
+  
 .field-name-field-rightbig img,.field-name-field-leftbig img{
 
 @include flex-shrink(1);
