@@ -203,7 +203,7 @@ width:50%;
 float: left;
 }
 
-	.field-name-field-fourupright {
+	.field-name-field-fourup {
 @include flex(1);
 @include flex-flow(row);
 @include flex-direction(row);
@@ -239,8 +239,8 @@ height:17.25vw;
 
 }
 
-    .field-collection-view:nth-child(even) .ds-1col .fourup{float:left;}
-    .field-collection-view:nth-child(odd) .ds-1col .fourup{float:right;}
+   .field-collection .field-collection-view .ds-1col .fourup{float:right;border:1px dotted yellow;}
+   .field-collection .field-collection-view-final .ds-1col .fourup{float:left;border:1px dotted orange;}
 
 
 .field-name-field-rightbig img,.field-name-field-leftbig img{
@@ -455,7 +455,7 @@ width:50%;
 float: left;
 }
 
-	.field-name-field-fourupright {
+	.field-name-field-fourup {
 @include flex(1);
 @include flex-flow(row);
 @include flex-direction(row);
@@ -491,8 +491,8 @@ height:17.25vw;
 
 }
 
-    .field-collection-view:nth-child(even) .ds-1col .fourup{float:left;}
-    .field-collection-view:nth-child(odd) .ds-1col .fourup{float:right;}
+   .field-collection .field-collection-view .ds-1col .fourup{float:right;border:1px dotted yellow;}
+   .field-collection .field-collection-view-final .ds-1col .fourup{float:left;border:1px dotted orange;}
 
 
 .field-name-field-rightbig img,.field-name-field-leftbig img{
@@ -526,8 +526,6 @@ margin: -2px 0 !important;
 } 
   
 /**END Projects page**/  
-
-
 
 .node__submitted{display:none;}
 
