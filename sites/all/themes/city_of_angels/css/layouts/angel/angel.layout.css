@@ -277,12 +277,12 @@ footer {
   /* line 143, ../../../sass/layouts/angel/angel.layout.scss */
   #superfish-1 li a {
     text-decoration: none;
-    font-size: 1vw;
+    font-size: 2vw;
     color: #000; }
   /* line 147, ../../../sass/layouts/angel/angel.layout.scss */
   #superfish-1 li a:hover {
     text-decoration: none;
-    font-size: 1vw;
+    font-size: 2vw;
     color: #999; }
 
   /**START Projects page**/
@@ -629,7 +629,7 @@ footer {
   ul#twolist {
     list-style-type: none;
     color: #d15232;
-    width: 60%;
+    width: 40%;
     margin: 0 auto;
     text-align: left; }
 
@@ -652,7 +652,7 @@ footer {
 
   /* line 372, ../../../sass/layouts/angel/angel.layout.scss */
   .l-region--branding {
-    width: 60%;
+    width: 50%;
     display: inline-block;
     float: right; }
 
@@ -664,14 +664,14 @@ footer {
       list-style-type: none;
       display: inline-block;
       float: left;
-      margin-left: 2em; }
+      margin-left: 2vw; }
 
   /* line 377, ../../../sass/layouts/angel/angel.layout.scss */
   #superfish-1 {
-    margin-top: 2em; }
+    margin-top: 2vw; }
     /* line 379, ../../../sass/layouts/angel/angel.layout.scss */
     #superfish-1 li {
-      margin-left: 2em; }
+      margin-left: 2vw; }
 
   /* line 385, ../../../sass/layouts/angel/angel.layout.scss */
   .l-branding {

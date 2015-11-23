@@ -141,11 +141,11 @@ font-size:16px;}
 #superfish-1{
     li{
         a{text-decoration: none;
-            font-size:1vw;
+            font-size:2vw;
             color:#000;
           }
           a:hover{text-decoration: none;
-            font-size:1vw;
+            font-size:2vw;
              color:#999;
           }
 
@@ -360,7 +360,7 @@ p.first{width:75%;margin:3em auto;color:white;font-size:1.5em;vertical-align:mid
 h4.red{width:80%;margin:1em auto;}
 p{text-align:left;}
 }
-ul#twolist{list-style-type: none;color:#d15232;width:60%;margin:0 auto;text-align:left;}
+ul#twolist{list-style-type: none;color:#d15232;width:40%;margin:0 auto;text-align:left;}
  .middlecenter{width:80%;
 margin:2em auto;height:auto;text-align:center;}
 .gray{color:#666;}
@@ -369,14 +369,14 @@ footer{height:20em;background-color:#d5d5d5;margin:0;}
 
  
 
-  .l-region--branding{width:60%;display:inline-block;float:right;}
+  .l-region--branding{width:50%;display:inline-block;float:right;}
   #block-system-main-menu .menu{list-style-type:none;
-  li{list-style-type:none;display:inline-block;float:left;margin-left:2em;}
+  li{list-style-type:none;display:inline-block;float:left;margin-left:2vw;}
   }
   
   #superfish-1{
-  margin-top:2em;
-  li{margin-left:2em;}
+  margin-top:2vw;
+  li{margin-left:2vw;}
   
   }
  
