@@ -277,12 +277,12 @@ footer {
   /* line 143, ../../../sass/layouts/angel/angel.layout.scss */
   #superfish-1 li a {
     text-decoration: none;
-    font-size: 2vw;
+    font-size: 1vw;
     color: #000; }
   /* line 147, ../../../sass/layouts/angel/angel.layout.scss */
   #superfish-1 li a:hover {
     text-decoration: none;
-    font-size: 2vw;
+    font-size: 1vw;
     color: #999; }
 
   /* line 155, ../../../sass/layouts/angel/angel.layout.scss */
