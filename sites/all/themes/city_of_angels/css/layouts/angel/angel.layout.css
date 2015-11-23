@@ -1,1081 +1,154 @@
-/*******************************************************************************
- * angel.layout.scss
- *
- * Styling of the "angel" layout demonstrating the golden rule and asymmetric
- * grids with Singularity.
- ******************************************************************************/
-/* No files to import found in variables/**\/* */
-/* No files to import found in abstractions/**\/* */
-/* No files to import found in base/**\/* */
-/* No files to import found in components/**\/* */
-/* line 20, ../../../sass/layouts/angel/angel.layout.scss */
-* {
-  font-family: Verdana, Helvetica, sans-serif; }
-
-@media (min-width: 480px) {
-  /* Header Area */
-  /* line 29, ../../../sass/layouts/angel/angel.layout.scss */
-  body {
-    font-size: 16px; }
-
-  /* line 30, ../../../sass/layouts/angel/angel.layout.scss */
-  .node__submitted {
-    display: none; }
-
-  /* line 32, ../../../sass/layouts/angel/angel.layout.scss */
-  .scrim {
-    background-color: rgba(88, 88, 88, 0.8);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%; }
-
-  /* line 39, ../../../sass/layouts/angel/angel.layout.scss */
-  .fred {
-    color: #d25333; }
-
-  /* line 40, ../../../sass/layouts/angel/angel.layout.scss */
-  .white {
-    color: #fff; }
-
-  /* line 41, ../../../sass/layouts/angel/angel.layout.scss */
-  .single {
-    font-size: 1.1em; }
-
-  /* line 42, ../../../sass/layouts/angel/angel.layout.scss */
-  .double {
-    font-size: 1.7em; }
-
-  /* line 43, ../../../sass/layouts/angel/angel.layout.scss */
-  .center {
-    text-align: center; }
-
-  /* line 44, ../../../sass/layouts/angel/angel.layout.scss */
-  .fourtop {
-    margin-top: 4em; }
-
-  /* line 45, ../../../sass/layouts/angel/angel.layout.scss */
-  .leftbottom {
-    position: absolute;
-    left: 10%;
-    bottom: 5%; }
-
-  /* line 47, ../../../sass/layouts/angel/angel.layout.scss */
-  .l-content h1 {
-    display: none; }
-
-  /* line 48, ../../../sass/layouts/angel/angel.layout.scss */
-  .top {
-    background: url(/dev/sites/default/files/projectpic_0.png) no-repeat center top;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 45em; }
-
-  /* line 56, ../../../sass/layouts/angel/angel.layout.scss */
-  .flex-colstretch {
-    display: flex;
-    flex-direction: column;
-    border: 0px dotted red;
-    min-height: 900px; }
-
-  /* line 60, ../../../sass/layouts/angel/angel.layout.scss */
-  .flex-colstretchnoheight {
-    display: flex;
-    flex-direction: column;
-    border: 0px dotted red; }
-
-  /* line 65, ../../../sass/layouts/angel/angel.layout.scss */
-  section {
-    position: relative;
-    display: flex;
-    flex-flow: row;
-    min-height: 20em;
-    align-items: stretch; }
-
-  /* line 66, ../../../sass/layouts/angel/angel.layout.scss */
-  section.quad {
-    position: relative;
-    display: flex;
-    flex-flow: row;
-    min-height: 10em;
-    align-items: stretch; }
-
-  /* line 67, ../../../sass/layouts/angel/angel.layout.scss */
-  .teal {
-    background-color: #47bdbf; }
-
-  /* line 68, ../../../sass/layouts/angel/angel.layout.scss */
-  .red {
-    color: #d35232;
-    letter-spacing: 1px;
-    font-size: 1em;
-    font-weight: bold;
-    line-height: 1em;
-    display: block;
-    text-align: left; }
-
-  /* line 70, ../../../sass/layouts/angel/angel.layout.scss */
-  p.frontblack {
-    font-size: 1em;
-    color: black;
-    width: 80%;
-    margin: 0 auto; }
-
-  /* line 71, ../../../sass/layouts/angel/angel.layout.scss */
-  p.frontwhite {
-    font-size: 1.5em;
-    color: white; }
-
-  /* line 72, ../../../sass/layouts/angel/angel.layout.scss */
-  .item {
-    box-sizing: content-box;
-    width: 25%;
-    flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: 0;
-    background-color: #fff;
-    min-height: 8em; }
-
-  /* line 73, ../../../sass/layouts/angel/angel.layout.scss */
-  .item2 {
-    box-sizing: content-box;
-    flex-grow: 2;
-    flex-shrink: 1;
-    flex-basis: 0;
-    min-height: 8em; }
-
-  /* line 75, ../../../sass/layouts/angel/angel.layout.scss */
-  .itemquad {
-    box-sizing: content-box;
-    width: 25%;
-    flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: 0;
-    background-color: #fff;
-    min-height: 4em; }
-
-  /* line 76, ../../../sass/layouts/angel/angel.layout.scss */
-  .itemquad2 {
-    box-sizing: content-box;
-    flex-grow: 2;
-    flex-shrink: 1;
-    flex-basis: 0;
-    min-height: 4em; }
-
-  /* line 78, ../../../sass/layouts/angel/angel.layout.scss */
-  p.first {
-    width: 75%;
-    margin: 3em auto;
-    color: white;
-    font-size: 1.5em;
-    vertical-align: middle; }
-
-  /* line 79, ../../../sass/layouts/angel/angel.layout.scss */
-  .breadcrumb {
-    display: none; }
-
-  /* line 82, ../../../sass/layouts/angel/angel.layout.scss */
-  .item img {
-    width: 100%; }
-
-  /* line 83, ../../../sass/layouts/angel/angel.layout.scss */
-  .item2 img {
-    width: 100%; }
-
-  /* line 84, ../../../sass/layouts/angel/angel.layout.scss */
-  .itemquad img {
-    width: 100%; }
-
-  /* line 85, ../../../sass/layouts/angel/angel.layout.scss */
-  .itemquad2 img {
-    width: 100%; }
-
-  /* line 86, ../../../sass/layouts/angel/angel.layout.scss */
-  .centerbox {
-    width: 100%;
-    margin: 0 auto; }
-    /* line 87, ../../../sass/layouts/angel/angel.layout.scss */
-    .centerbox h4.red {
-      width: 80%;
-      margin: 1em auto; }
-    /* line 88, ../../../sass/layouts/angel/angel.layout.scss */
-    .centerbox p {
-      text-align: left; }
-
-  /* line 90, ../../../sass/layouts/angel/angel.layout.scss */
-  ul#twolist {
-    list-style-type: none;
-    color: #d15232;
-    width: 60%;
-    margin: 0 auto;
-    text-align: left; }
-
-  /* line 91, ../../../sass/layouts/angel/angel.layout.scss */
-  .middlecenter {
-    width: 80%;
-    margin: 2em auto;
-    height: auto;
-    text-align: center; }
-
-  /* line 93, ../../../sass/layouts/angel/angel.layout.scss */
-  .gray {
-    color: #666; }
-
-  /* line 94, ../../../sass/layouts/angel/angel.layout.scss */
-  footer {
-    height: 20em;
-    background-color: #d5d5d5;
-    margin: 0; }
-
-  /* line 99, ../../../sass/layouts/angel/angel.layout.scss */
-  .l-region--branding {
-    width: 40%;
-    display: inline-block;
-    float: right; }
-
-  /* line 100, ../../../sass/layouts/angel/angel.layout.scss */
-  #block-system-main-menu .menu {
-    list-style-type: none; }
-    /* line 101, ../../../sass/layouts/angel/angel.layout.scss */
-    #block-system-main-menu .menu li {
-      list-style-type: none;
-      display: inline-block;
-      float: left;
-      margin-left: 2em; }
-
-  /* line 104, ../../../sass/layouts/angel/angel.layout.scss */
-  #superfish-1 {
-    margin-top: 2em; }
-    /* line 106, ../../../sass/layouts/angel/angel.layout.scss */
-    #superfish-1 li {
-      margin-left: 2em; }
-
-  /* line 112, ../../../sass/layouts/angel/angel.layout.scss */
-  .l-branding {
-    border: 0px dotted maroon;
-    background-color: #ededed;
-    text-align: left; }
-
-  /* line 121, ../../../sass/layouts/angel/angel.layout.scss */
-  .l-header {
-    margin: 0; }
-
-  /* line 125, ../../../sass/layouts/angel/angel.layout.scss */
-  .l-region--navigation {
-    clear: both; } }
-@media (min-width: 800px) {
-  /* Header Area */
-  /* line 136, ../../../sass/layouts/angel/angel.layout.scss */
-  html, body {
-    height: 100%;
-    margin: 0;
-    font-size: 16px; }
-
-  /**START Projects page**/
-  /* line 143, ../../../sass/layouts/angel/angel.layout.scss */
-  .ds-1col {
-    -webkit-flex: 1;
-    flex: 1; }
-
-  /* line 148, ../../../sass/layouts/angel/angel.layout.scss */
-  .field-collection-view.clearfix.view-mode-full.field-collection-view-final {
-    -webkit-flex: 1;
-    flex: 1;
-    width: 100%;
-    margin: 0;
-    padding: 0; }
-
-  /* line 157, ../../../sass/layouts/angel/angel.layout.scss */
-  .hundredpercent {
-    position: relative;
-    background-color: #4cbdbf;
-    height: 12.5vw;
-    margin-top: 0;
-    padding-top: 0;
-    width: 100%; }
-
-  /* line 164, ../../../sass/layouts/angel/angel.layout.scss */
-  .hundredpercent p {
-    text-align: left;
-    border: 0px dotted red;
-    width: 50%;
-    margin: 0 auto;
-    font-size: 1.5vw;
-    position: absolute;
-    top: 20%;
-    left: 25%;
-    height: 18vw; }
-
-  /* line 176, ../../../sass/layouts/angel/angel.layout.scss */
-  .field-collection-item-field-bigright, .field-collection-item-field-bigleft {
-    width: 100%;
-    height: 34vw;
-    background-color: red;
-    margin: 0;
-    padding: 0;
-    -webkit-flex: 1;
-    flex: 1;
-    clear: both;
-    overflow: hidden;
-    margin-bottom: 0;
-    border: 0px dotted blue;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden; }
-
-  /* line 196, ../../../sass/layouts/angel/angel.layout.scss */
-  .field-name-field-fourup, .field-name-field-fourupright {
-    -webkit-flex: 1;
-    flex: 1;
-    -webkit-flex-flow: row;
-    flex-flow: row;
-    -webkit-flex-direction: row;
-    flex-direction: row;
-    margin: 0;
-    padding: 0;
-    height: 34vw;
-    width: 50%;
-    float: left; }
-
-  /* line 207, ../../../sass/layouts/angel/angel.layout.scss */
-  .field-name-field-fourup {
-    -webkit-flex: 1;
-    flex: 1;
-    -webkit-flex-flow: row;
-    flex-flow: row;
-    -webkit-flex-direction: row;
-    flex-direction: row;
-    -webkit-order: 2;
-    order: 2;
-    margin: 0;
-    padding: 0;
-    height: 34vw;
-    width: 50%; }
-
-  /* line 219, ../../../sass/layouts/angel/angel.layout.scss */
-  .field-name-field-fourupright {
-    -webkit-flex: 1;
-    flex: 1;
-    -webkit-flex-flow: row;
-    flex-flow: row;
-    -webkit-flex-direction: row;
-    flex-direction: row;
-    -webkit-order: 1;
-    order: 1;
-    margin: 0;
-    padding: 0;
-    height: 34vw;
-    width: 50%;
-    float: left; }
-
-  /* line 231, ../../../sass/layouts/angel/angel.layout.scss */
-  .field-name-field-fourup img, .field-name-field-fourupright img {
-    -webkit-flex-basis: 50%;
-    flex-basis: 50%;
-    -webkit-flex-grow: 1;
-    flex-grow: 1;
-    justify-content: center;
-    margin: -2px 0;
-    width: 50%;
-    height: 17.25vw; }
-
-  /* line 243, ../../../sass/layouts/angel/angel.layout.scss */
-  .field-collection-view:nth-child(odd) .ds-1col .field-name-field-fourup {
-    float: right; }
-
-  /* line 244, ../../../sass/layouts/angel/angel.layout.scss */
-  .field-collection-view:nth-child(even) .ds-1col .field-name-field-fourup {
-    float: left; }
-
-  /* line 247, ../../../sass/layouts/angel/angel.layout.scss */
-  .field-name-field-rightbig img, .field-name-field-leftbig img {
-    -webkit-flex-shrink: 1;
-    flex-shrink: 1;
-    -webkit-flex-grow: 1;
-    flex-grow: 1;
-    -webkit-flex-basis: 100%;
-    flex-basis: 100%;
-    min-width: 100%;
-    min-height: 100%;
-    margin: 0; }
-
-  /* line 257, ../../../sass/layouts/angel/angel.layout.scss */
-  .field-name-field-rightbig, .field-name-field-leftbig {
-    -webkit-flex: 1;
-    flex: 1;
-    float: left;
-    width: 50%;
-    background-color: red;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    min-height: 100%; }
-
-  /* line 272, ../../../sass/layouts/angel/angel.layout.scss */
-  .clearfix {
-    margin: -2px 0 !important;
-    padding: 0 !important; }
-
-  /**END Projects page**/
-  /* line 282, ../../../sass/layouts/angel/angel.layout.scss */
-  .node__submitted {
-    display: none; }
-
-  /* line 284, ../../../sass/layouts/angel/angel.layout.scss */
-  .scrim {
-    background-color: rgba(88, 88, 88, 0.8);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%; }
-
-  /* line 291, ../../../sass/layouts/angel/angel.layout.scss */
-  .fred {
-    color: #d25333; }
-
-  /* line 292, ../../../sass/layouts/angel/angel.layout.scss */
-  .white {
-    color: #fff; }
-
-  /* line 293, ../../../sass/layouts/angel/angel.layout.scss */
-  .single {
-    font-size: 1.1em; }
-
-  /* line 294, ../../../sass/layouts/angel/angel.layout.scss */
-  .double {
-    font-size: 1.7em; }
-
-  /* line 295, ../../../sass/layouts/angel/angel.layout.scss */
-  .center {
-    text-align: center; }
-
-  /* line 296, ../../../sass/layouts/angel/angel.layout.scss */
-  .fourtop {
-    margin-top: 4em; }
-
-  /* line 297, ../../../sass/layouts/angel/angel.layout.scss */
-  .leftbottom {
-    position: absolute;
-    left: 10%;
-    bottom: 5%; }
-
-  /* line 299, ../../../sass/layouts/angel/angel.layout.scss */
-  .l-content h1 {
-    display: none; }
-
-  /* line 300, ../../../sass/layouts/angel/angel.layout.scss */
-  .top {
-    background: url(/dev/sites/default/files/projectpic_0.png) no-repeat center top;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 45em; }
-
-  /* line 308, ../../../sass/layouts/angel/angel.layout.scss */
-  .flex-colstretch {
-    display: flex;
-    flex-direction: column;
-    border: 0px dotted red;
-    min-height: 900px; }
-
-  /* line 312, ../../../sass/layouts/angel/angel.layout.scss */
-  .flex-colstretchnoheight {
-    display: flex;
-    flex-direction: column;
-    border: 0px dotted red; }
-
-  /* line 317, ../../../sass/layouts/angel/angel.layout.scss */
-  section {
-    position: relative;
-    display: flex;
-    flex-flow: row;
-    min-height: 20em;
-    align-items: stretch; }
-
-  /* line 318, ../../../sass/layouts/angel/angel.layout.scss */
-  section.quad {
-    position: relative;
-    display: flex;
-    flex-flow: row;
-    min-height: 10em;
-    align-items: stretch; }
-
-  /* line 319, ../../../sass/layouts/angel/angel.layout.scss */
-  .teal {
-    background-color: #47bdbf; }
-
-  /* line 320, ../../../sass/layouts/angel/angel.layout.scss */
-  .red {
-    color: #d35232;
-    letter-spacing: 1px;
-    font-size: 1em;
-    font-weight: bold;
-    line-height: 1em;
-    display: block;
-    text-align: left; }
-
-  /* line 322, ../../../sass/layouts/angel/angel.layout.scss */
-  p.frontblack {
-    font-size: 1em;
-    color: black;
-    width: 80%;
-    margin: 0 auto; }
-
-  /* line 323, ../../../sass/layouts/angel/angel.layout.scss */
-  p.frontwhite {
-    font-size: 1.5em;
-    color: white; }
-
-  /* line 324, ../../../sass/layouts/angel/angel.layout.scss */
-  .item {
-    box-sizing: content-box;
-    width: 25%;
-    flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: 0;
-    background-color: #fff;
-    min-height: 8em; }
-
-  /* line 325, ../../../sass/layouts/angel/angel.layout.scss */
-  .item2 {
-    box-sizing: content-box;
-    flex-grow: 2;
-    flex-shrink: 1;
-    flex-basis: 0;
-    min-height: 8em; }
-
-  /* line 327, ../../../sass/layouts/angel/angel.layout.scss */
-  .itemquad {
-    box-sizing: content-box;
-    width: 25%;
-    flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: 0;
-    background-color: #fff;
-    min-height: 4em; }
-
-  /* line 328, ../../../sass/layouts/angel/angel.layout.scss */
-  .itemquad2 {
-    box-sizing: content-box;
-    flex-grow: 2;
-    flex-shrink: 1;
-    flex-basis: 0;
-    min-height: 4em; }
-
-  /* line 330, ../../../sass/layouts/angel/angel.layout.scss */
-  p.first {
-    width: 75%;
-    margin: 3em auto;
-    color: white;
-    font-size: 1.5em;
-    vertical-align: middle; }
-
-  /* line 331, ../../../sass/layouts/angel/angel.layout.scss */
-  .breadcrumb {
-    display: none; }
-
-  /* line 334, ../../../sass/layouts/angel/angel.layout.scss */
-  .item img {
-    width: 100%; }
-
-  /* line 335, ../../../sass/layouts/angel/angel.layout.scss */
-  .item2 img {
-    width: 100%; }
-
-  /* line 336, ../../../sass/layouts/angel/angel.layout.scss */
-  .itemquad img {
-    width: 100%; }
-
-  /* line 337, ../../../sass/layouts/angel/angel.layout.scss */
-  .itemquad2 img {
-    width: 100%; }
-
-  /* line 338, ../../../sass/layouts/angel/angel.layout.scss */
-  .centerbox {
-    width: 100%;
-    margin: 0 auto; }
-    /* line 339, ../../../sass/layouts/angel/angel.layout.scss */
-    .centerbox h4.red {
-      width: 80%;
-      margin: 1em auto; }
-    /* line 340, ../../../sass/layouts/angel/angel.layout.scss */
-    .centerbox p {
-      text-align: left; }
-
-  /* line 342, ../../../sass/layouts/angel/angel.layout.scss */
-  ul#twolist {
-    list-style-type: none;
-    color: #d15232;
-    width: 60%;
-    margin: 0 auto;
-    text-align: left; }
-
-  /* line 343, ../../../sass/layouts/angel/angel.layout.scss */
-  .middlecenter {
-    width: 80%;
-    margin: 2em auto;
-    height: auto;
-    text-align: center; }
-
-  /* line 345, ../../../sass/layouts/angel/angel.layout.scss */
-  .gray {
-    color: #666; }
-
-  /* line 346, ../../../sass/layouts/angel/angel.layout.scss */
-  footer {
-    height: 20em;
-    background-color: #d5d5d5;
-    margin: 0; }
-
-  /* line 351, ../../../sass/layouts/angel/angel.layout.scss */
-  .l-region--branding {
-    width: 60%;
-    display: inline-block;
-    float: right; }
-
-  /* line 352, ../../../sass/layouts/angel/angel.layout.scss */
-  #block-system-main-menu .menu {
-    list-style-type: none; }
-    /* line 353, ../../../sass/layouts/angel/angel.layout.scss */
-    #block-system-main-menu .menu li {
-      list-style-type: none;
-      display: inline-block;
-      float: left;
-      margin-left: 2em; }
-
-  /* line 356, ../../../sass/layouts/angel/angel.layout.scss */
-  #superfish-1 {
-    margin-top: 2em; }
-    /* line 358, ../../../sass/layouts/angel/angel.layout.scss */
-    #superfish-1 li {
-      margin-left: 2em; }
-
-  /* line 364, ../../../sass/layouts/angel/angel.layout.scss */
-  .l-branding {
-    border: 0px dotted maroon;
-    background-color: #ededed;
-    text-align: left; }
-
-  /* line 373, ../../../sass/layouts/angel/angel.layout.scss */
-  .l-header {
-    margin: 0; }
-
-  /* line 377, ../../../sass/layouts/angel/angel.layout.scss */
-  .l-region--navigation {
-    clear: both; } }
-@media (min-width: 1200px) {
-  /* Header Area */
-  /* line 388, ../../../sass/layouts/angel/angel.layout.scss */
-  html, body {
-    height: 100%;
-    margin: 0;
-    font-size: 16px; }
-
-  /**START Projects page**/
-  /* line 395, ../../../sass/layouts/angel/angel.layout.scss */
-  .ds-1col {
-    -webkit-flex: 1;
-    flex: 1; }
-
-  /* line 400, ../../../sass/layouts/angel/angel.layout.scss */
-  .field-collection-view.clearfix.view-mode-full.field-collection-view-final {
-    -webkit-flex: 1;
-    flex: 1;
-    width: 100%;
-    margin: 0;
-    padding: 0; }
-
-  /* line 409, ../../../sass/layouts/angel/angel.layout.scss */
-  .hundredpercent {
-    position: relative;
-    background-color: #4cbdbf;
-    height: 12.5vw;
-    margin-top: 0;
-    padding-top: 0;
-    width: 100%; }
-
-  /* line 416, ../../../sass/layouts/angel/angel.layout.scss */
-  .hundredpercent p {
-    text-align: left;
-    border: 0px dotted red;
-    width: 50%;
-    margin: 0 auto;
-    font-size: 1.5vw;
-    position: absolute;
-    top: 20%;
-    left: 25%;
-    height: 18vw; }
-
-  /* line 428, ../../../sass/layouts/angel/angel.layout.scss */
-  .field-collection-item-field-bigright, .field-collection-item-field-bigleft {
-    width: 100%;
-    height: 34vw;
-    background-color: red;
-    margin: 0;
-    padding: 0;
-    -webkit-flex: 1;
-    flex: 1;
-    clear: both;
-    overflow: hidden;
-    margin-bottom: 0;
-    border: 0px dotted blue;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden; }
-
-  /* line 448, ../../../sass/layouts/angel/angel.layout.scss */
-  .field-name-field-fourup, .field-name-field-fourupright {
-    -webkit-flex: 1;
-    flex: 1;
-    -webkit-flex-flow: row;
-    flex-flow: row;
-    -webkit-flex-direction: row;
-    flex-direction: row;
-    margin: 0;
-    padding: 0;
-    height: 34vw;
-    width: 50%;
-    float: left; }
-
-  /* line 459, ../../../sass/layouts/angel/angel.layout.scss */
-  .field-name-field-fourup {
-    -webkit-flex: 1;
-    flex: 1;
-    -webkit-flex-flow: row;
-    flex-flow: row;
-    -webkit-flex-direction: row;
-    flex-direction: row;
-    -webkit-order: 2;
-    order: 2;
-    margin: 0;
-    padding: 0;
-    height: 34vw;
-    width: 50%; }
-
-  /* line 471, ../../../sass/layouts/angel/angel.layout.scss */
-  .field-name-field-fourupright {
-    -webkit-flex: 1;
-    flex: 1;
-    -webkit-flex-flow: row;
-    flex-flow: row;
-    -webkit-flex-direction: row;
-    flex-direction: row;
-    -webkit-order: 1;
-    order: 1;
-    margin: 0;
-    padding: 0;
-    height: 34vw;
-    width: 50%;
-    float: left; }
-
-  /* line 483, ../../../sass/layouts/angel/angel.layout.scss */
-  .field-name-field-fourup img, .field-name-field-fourupright img {
-    -webkit-flex-basis: 50%;
-    flex-basis: 50%;
-    -webkit-flex-grow: 1;
-    flex-grow: 1;
-    justify-content: center;
-    margin: -2px 0;
-    width: 50%;
-    height: 17.25vw; }
-
-  /* line 495, ../../../sass/layouts/angel/angel.layout.scss */
-  .field-collection-view:nth-child(odd) .ds-1col .field-name-field-fourup {
-    float: right; }
-
-  /* line 496, ../../../sass/layouts/angel/angel.layout.scss */
-  .field-collection-view:nth-child(even) .ds-1col .field-name-field-fourup {
-    float: left; }
-
-  /* line 499, ../../../sass/layouts/angel/angel.layout.scss */
-  .field-name-field-rightbig img, .field-name-field-leftbig img {
-    -webkit-flex-shrink: 1;
-    flex-shrink: 1;
-    -webkit-flex-grow: 1;
-    flex-grow: 1;
-    -webkit-flex-basis: 100%;
-    flex-basis: 100%;
-    min-width: 100%;
-    min-height: 100%;
-    margin: 0; }
-
-  /* line 509, ../../../sass/layouts/angel/angel.layout.scss */
-  .field-name-field-rightbig, .field-name-field-leftbig {
-    -webkit-flex: 1;
-    flex: 1;
-    float: left;
-    width: 50%;
-    background-color: red;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    min-height: 100%; }
-
-  /* line 524, ../../../sass/layouts/angel/angel.layout.scss */
-  .clearfix {
-    margin: -2px 0 !important;
-    padding: 0 !important; }
-
-  /**END Projects page**/
-  /* line 531, ../../../sass/layouts/angel/angel.layout.scss */
-  .node__submitted {
-    display: none; }
-
-  /* line 533, ../../../sass/layouts/angel/angel.layout.scss */
-  .scrim {
-    background-color: rgba(88, 88, 88, 0.8);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%; }
-
-  /* line 540, ../../../sass/layouts/angel/angel.layout.scss */
-  .fred {
-    color: #d25333; }
-
-  /* line 541, ../../../sass/layouts/angel/angel.layout.scss */
-  .white {
-    color: #fff; }
-
-  /* line 542, ../../../sass/layouts/angel/angel.layout.scss */
-  .single {
-    font-size: 1.1em; }
-
-  /* line 543, ../../../sass/layouts/angel/angel.layout.scss */
-  .double {
-    font-size: 1.7em; }
-
-  /* line 544, ../../../sass/layouts/angel/angel.layout.scss */
-  .center {
-    text-align: center; }
-
-  /* line 545, ../../../sass/layouts/angel/angel.layout.scss */
-  .fourtop {
-    margin-top: 4em; }
-
-  /* line 546, ../../../sass/layouts/angel/angel.layout.scss */
-  .leftbottom {
-    position: absolute;
-    left: 10%;
-    bottom: 5%; }
-
-  /* line 548, ../../../sass/layouts/angel/angel.layout.scss */
-  .l-content h1 {
-    display: none; }
-
-  /* line 549, ../../../sass/layouts/angel/angel.layout.scss */
-  .top {
-    background: url(/dev/sites/default/files/projectpic_0.png) no-repeat center top;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 45em; }
-
-  /* line 557, ../../../sass/layouts/angel/angel.layout.scss */
-  .flex-colstretch {
-    display: flex;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    -webkit-box-align: center;
-    align-items: center;
-    flex-direction: column;
-    border: 0px dotted red;
-    min-height: 900px; }
-
-  /* line 571, ../../../sass/layouts/angel/angel.layout.scss */
-  .flex-colstretchnoheight {
-    display: flex;
-    flex-direction: column;
-    border: 0px dotted red; }
-
-  /* line 576, ../../../sass/layouts/angel/angel.layout.scss */
-  section {
-    position: relative;
-    display: flex;
-    flex-flow: row;
-    min-height: 20em;
-    align-items: stretch; }
-
-  /* line 577, ../../../sass/layouts/angel/angel.layout.scss */
-  section.quad {
-    position: relative;
-    display: flex;
-    flex-flow: row;
-    min-height: 10em;
-    align-items: stretch; }
-
-  /* line 578, ../../../sass/layouts/angel/angel.layout.scss */
-  .teal {
-    background-color: #47bdbf; }
-
-  /* line 579, ../../../sass/layouts/angel/angel.layout.scss */
-  .red {
-    color: #d35232;
-    letter-spacing: 1px;
-    font-size: 1em;
-    font-weight: bold;
-    line-height: 1em;
-    display: block;
-    text-align: left; }
-
-  /* line 581, ../../../sass/layouts/angel/angel.layout.scss */
-  p.frontblack {
-    font-size: 1em;
-    color: black;
-    width: 80%;
-    margin: 0 auto; }
-
-  /* line 582, ../../../sass/layouts/angel/angel.layout.scss */
-  p.frontwhite {
-    font-size: 1.5em;
-    color: white; }
-
-  /* line 583, ../../../sass/layouts/angel/angel.layout.scss */
-  .item {
-    box-sizing: content-box;
-    width: 25%;
-    flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: 0;
-    background-color: #fff;
-    min-height: 8em; }
-
-  /* line 584, ../../../sass/layouts/angel/angel.layout.scss */
-  .item2 {
-    box-sizing: content-box;
-    flex-grow: 2;
-    flex-shrink: 1;
-    flex-basis: 0;
-    min-height: 8em; }
-
-  /* line 586, ../../../sass/layouts/angel/angel.layout.scss */
-  .itemquad {
-    box-sizing: content-box;
-    width: 25%;
-    flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: 0;
-    background-color: #fff;
-    min-height: 4em; }
-
-  /* line 587, ../../../sass/layouts/angel/angel.layout.scss */
-  .itemquad2 {
-    box-sizing: content-box;
-    flex-grow: 2;
-    flex-shrink: 1;
-    flex-basis: 0;
-    min-height: 4em; }
-
-  /* line 589, ../../../sass/layouts/angel/angel.layout.scss */
-  p.first {
-    width: 75%;
-    margin: 3em auto;
-    color: white;
-    font-size: 1.5em;
-    vertical-align: middle; }
-
-  /* line 590, ../../../sass/layouts/angel/angel.layout.scss */
-  .breadcrumb {
-    display: none; }
-
-  /* line 593, ../../../sass/layouts/angel/angel.layout.scss */
-  .item img {
-    width: 100%; }
-
-  /* line 594, ../../../sass/layouts/angel/angel.layout.scss */
-  .item2 img {
-    width: 100%; }
-
-  /* line 595, ../../../sass/layouts/angel/angel.layout.scss */
-  .itemquad img {
-    width: 100%; }
-
-  /* line 596, ../../../sass/layouts/angel/angel.layout.scss */
-  .itemquad2 img {
-    width: 100%; }
-
-  /* line 597, ../../../sass/layouts/angel/angel.layout.scss */
-  .centerbox {
-    width: 100%;
-    margin: 0 auto; }
-    /* line 598, ../../../sass/layouts/angel/angel.layout.scss */
-    .centerbox h4.red {
-      width: 80%;
-      margin: 1em auto; }
-    /* line 599, ../../../sass/layouts/angel/angel.layout.scss */
-    .centerbox p {
-      text-align: left; }
-
-  /* line 601, ../../../sass/layouts/angel/angel.layout.scss */
-  ul#twolist {
-    list-style-type: none;
-    color: #d15232;
-    width: 60%;
-    margin: 0 auto;
-    text-align: left; }
-
-  /* line 602, ../../../sass/layouts/angel/angel.layout.scss */
-  .middlecenter {
-    width: 80%;
-    margin: 2em auto;
-    height: auto;
-    text-align: center; }
-
-  /* line 604, ../../../sass/layouts/angel/angel.layout.scss */
-  .gray {
-    color: #666; }
-
-  /* line 605, ../../../sass/layouts/angel/angel.layout.scss */
-  footer {
-    height: 20em;
-    background-color: #d5d5d5;
-    margin: 0; }
-
-  /* line 610, ../../../sass/layouts/angel/angel.layout.scss */
-  .l-region--branding {
-    width: 60%;
-    display: inline-block;
-    float: right; }
-
-  /* line 611, ../../../sass/layouts/angel/angel.layout.scss */
-  #block-system-main-menu .menu {
-    list-style-type: none; }
-    /* line 612, ../../../sass/layouts/angel/angel.layout.scss */
-    #block-system-main-menu .menu li {
-      list-style-type: none;
-      display: inline-block;
-      float: left;
-      margin-left: 2em; }
-
-  /* line 615, ../../../sass/layouts/angel/angel.layout.scss */
-  #superfish-1 {
-    margin-top: 2em; }
-    /* line 617, ../../../sass/layouts/angel/angel.layout.scss */
-    #superfish-1 li {
-      margin-left: 2em; }
-
-  /* line 623, ../../../sass/layouts/angel/angel.layout.scss */
-  .l-branding {
-    border: 0px dotted maroon;
-    background-color: #ededed;
-    text-align: left; }
-
-  /* line 632, ../../../sass/layouts/angel/angel.layout.scss */
-  .l-header {
-    margin: 0; }
-
-  /* line 636, ../../../sass/layouts/angel/angel.layout.scss */
-  .l-region--navigation {
-    clear: both; } }
-
-/*# sourceMappingURL=angel.layout.css.map */
+/*
+Error: Undefined variable: "$black".
+        on line 145 of /Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss, in `@content'
+        from line 62 of /Users/Pi/.rvm/gems/ruby-1.9.3-p551@global/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss, in `breakpoint'
+        from line 134 of /Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss
+
+140: 
+141: #superfish-1{
+142:     li{
+143:         a{text-decoration: none;
+144:             font-size:1vw;
+145:             color:$black;
+146:           }
+147:           a:hover{text-decoration: none;
+148:             font-size:1vw;
+149:              color:$gray;
+150:           }
+
+Backtrace:
+/Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss:145:in `@content'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@global/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss:62:in `breakpoint'
+/Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss:134
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/script/tree/variable.rb:49:in `_perform'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/script/tree/node.rb:50:in `perform'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:395:in `visit_prop'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/stack.rb:79:in `block in with_base'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/stack.rb:115:in `with_frame'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/stack.rb:79:in `with_base'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:431:in `block (2 levels) in visit_rule'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:431:in `map'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:431:in `block in visit_rule'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:429:in `visit_rule'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/stack.rb:79:in `block in with_base'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/stack.rb:115:in `with_frame'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/stack.rb:79:in `with_base'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:431:in `block (2 levels) in visit_rule'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:431:in `map'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:431:in `block in visit_rule'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:429:in `visit_rule'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/stack.rb:79:in `block in with_base'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/stack.rb:115:in `with_frame'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/stack.rb:79:in `with_base'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:431:in `block (2 levels) in visit_rule'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:431:in `map'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:431:in `block in visit_rule'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:429:in `visit_rule'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/stack.rb:79:in `block in with_base'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/stack.rb:115:in `with_frame'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/stack.rb:79:in `with_base'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:382:in `block (3 levels) in visit_content'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:382:in `map'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:382:in `block (2 levels) in visit_content'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:381:in `block in visit_content'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/stack.rb:98:in `block in with_mixin'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/stack.rb:115:in `with_frame'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/stack.rb:98:in `with_mixin'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:377:in `visit_content'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/stack.rb:79:in `block in with_base'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/stack.rb:115:in `with_frame'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/stack.rb:79:in `with_base'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:513:in `visit_media'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/stack.rb:79:in `block in with_base'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/stack.rb:115:in `with_frame'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/stack.rb:79:in `with_base'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:299:in `block (2 levels) in visit_if'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:299:in `map'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:299:in `block in visit_if'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:298:in `visit_if'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/stack.rb:79:in `block in with_base'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/stack.rb:115:in `with_frame'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/stack.rb:79:in `with_base'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:364:in `block (4 levels) in visit_mixin'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:364:in `map'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:364:in `block (3 levels) in visit_mixin'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:364:in `block (2 levels) in visit_mixin'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:84:in `perform_arguments'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:359:in `block in visit_mixin'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/stack.rb:98:in `block in with_mixin'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/stack.rb:115:in `with_frame'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/stack.rb:98:in `with_mixin'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:347:in `visit_mixin'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/stack.rb:79:in `block in with_base'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/stack.rb:115:in `with_frame'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/stack.rb:79:in `with_base'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/engine.rb:378:in `_render_with_sourcemap'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/engine.rb:295:in `render_with_sourcemap'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/plugin/compiler.rb:490:in `update_stylesheet'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/plugin/compiler.rb:470:in `on_file_changed'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/plugin/compiler.rb:328:in `block in watch'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/vendor/listen/lib/listen/listener.rb:252:in `call'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/vendor/listen/lib/listen/adapter.rb:254:in `call'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/vendor/listen/lib/listen/adapter.rb:254:in `report_changes'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/vendor/listen/lib/listen/adapter.rb:323:in `poll_changed_directories'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$black\".\A         on line 145 of /Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss, in `@content'\A         from line 62 of /Users/Pi/.rvm/gems/ruby-1.9.3-p551@global/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss, in `breakpoint'\A         from line 134 of /Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss\A \A 140: \A 141: #superfish-1{\A 142:     li{\A 143:         a{text-decoration: none;\A 144:             font-size:1vw;\A 145:             color:$black;\A 146:           }\A 147:           a:hover{text-decoration: none;\A 148:             font-size:1vw;\A 149:              color:$gray;\A 150:           }"; }
