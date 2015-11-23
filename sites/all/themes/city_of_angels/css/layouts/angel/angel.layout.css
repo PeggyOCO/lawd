@@ -396,9 +396,9 @@ footer {
     -webkit-flex-grow: 1;
     flex-grow: 1;
     justify-content: center;
-    margin: -2px 0;
+    margin: 0px 0;
     width: 50%;
-    height: 17.25vw; }
+    height: 16vw; }
 
   /* line 264, ../../../sass/layouts/angel/angel.layout.scss */
   .field-collection-view:nth-child(odd) .ds-1col .field-name-field-fourup {
