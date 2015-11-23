@@ -152,6 +152,13 @@ font-size:16px;}
       }
 }
 
+.sf-menu.sf-horizontal.sf-shadow ul, .sf-menu.sf-vertical.sf-shadow ul, .sf-menu.sf-navbar.sf-shadow ul ul {
+    background:none;
+    padding: 0px 0px 0px 0px !important;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
 
 /**START Projects page**/ 
 .ds-1col{
