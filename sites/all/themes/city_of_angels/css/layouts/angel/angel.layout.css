@@ -417,7 +417,7 @@ footer {
     -webkit-flex-basis: 100%;
     flex-basis: 100%;
     min-width: 100%;
-    min-height: 100%;
+    min-height: 34vw;
     margin: 0; }
 
   /* line 278, ../../../sass/layouts/angel/angel.layout.scss */
