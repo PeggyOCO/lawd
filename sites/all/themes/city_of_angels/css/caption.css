@@ -1,13 +1,13 @@
 
 
-.field-name-field-fourup p.caption {
+.field-name-field-fourup h4.caption {
 	margin: 0;
 	padding:0;
 	position: relative;
 }
 
 
-.field-name-field-fourup p.caption p {
+.field-name-field-fourup h4.caption p {
   position:absolute;
 	bottom:0;
 	left:0;
@@ -21,10 +21,10 @@
 	z-index:999;
 }
 
-.field-name-field-fourup p.caption p a{text-decoration:none;
+.field-name-field-fourup h4.caption p a{text-decoration:none;
 color:white;text-transform:uppercase;}
 
-.field-name-field-fourup p.caption img {
+.field-name-field-fourup h4.caption img {
 	margin: 0; padding: 0;
 	z-index:0;
 }

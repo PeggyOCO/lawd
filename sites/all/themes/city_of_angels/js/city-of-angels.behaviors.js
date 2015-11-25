@@ -60,7 +60,7 @@
   
   $(document).ready(function(){
 	$('.field-name-field-fourup a img').jcaption({
-	  wrapperElement: 'p',
+	  wrapperElement: 'h4',
 		copyStyle: true,
 		animate: true,
 		show: {height: "show"},
