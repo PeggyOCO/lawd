@@ -6,7 +6,7 @@
  * City of Angels theme.
  */
 function city_of_angels_preprocess_field(&$variables) {
-	if($variables['element']['#field_name'] == 'field_bigright') {
+	if($variables['element']['#field_name'] == 'field_fourup') {
             dsm($variables);
 	}
 }
