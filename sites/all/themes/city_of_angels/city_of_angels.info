@@ -12,7 +12,7 @@ stylesheets[all][] = css/city-of-angels.normalize.css
 stylesheets[all][] = css/city-of-angels.hacks.css
 stylesheets[all][] = css/city-of-angels.styles.css
 stylesheets[all][] = css/city-of-angels.no-query.css
-
+stylesheets[all][] = css/caption.css
 ; ========================================
 ; Scripts
 ; ========================================
