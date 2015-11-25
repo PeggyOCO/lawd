@@ -60,7 +60,7 @@
   
   $(document).ready(function(){
 	$('.field-name-field-fourup a img').jcaption({
-	  wrapperElement: 'a',
+	  wrapperElement: 'div',
 		copyStyle: true,
 		animate: true,
 		show: {height: "show"},
@@ -68,7 +68,7 @@
 	});
 	
 		$('.field-name-field-rightbig a img').jcaption({
-		wrapperElement: 'a',
+		wrapperElement: 'div',
 		copyStyle: true,
 		animate: true,
 		show: {height: "show"},

@@ -1,13 +1,13 @@
 
 
-.field-name-field-fourup a.caption {
+.field-name-field-fourup div.caption {
 	margin: 0;
 	padding:0;
 	position: relative;
 }
 
 
-.field-name-field-fourup a.caption p {
+.field-name-field-fourup div.caption p {
 	margin: -65px 0 0 0;
 	padding: 20px;
 	border: 0px #ddd dotted;
@@ -19,23 +19,23 @@
 	z-index:999;
 }
 
-.field-name-field-fourup a.caption p a{text-decoration:none;
+.field-name-field-fourup div.caption p a{text-decoration:none;
 color:white;text-transform:uppercase;}
 
-.field-name-field-fourup a.caption img {
+.field-name-field-fourup div.caption img {
 	margin: 0; padding: 0;
 	z-index:0;
 }
 
 
-.field-name-field-rightbig a.caption {
+.field-name-field-rightbig div.caption {
 	margin: 0;
 	padding:0;
 	position: relative;
 }
 
 
-.field-name-field-rightbig a.caption p {
+.field-name-field-rightbig div.caption p {
 	margin: -45px 0 0 0;
 	padding: 20px;
 	border: 0px #ddd dotted;
@@ -46,10 +46,10 @@ color:white;text-transform:uppercase;}
 	z-index:999;
 }
 
-.field-name-field-rightbig a.caption p a{text-decoration:none;
+.field-name-field-rightbig div.caption p a{text-decoration:none;
 color:white;text-transform:uppercase;}
 
-.field-name-field-rightbig a.caption img {
+.field-name-field-rightbig div.caption img {
 	margin: 0; padding: 0;
 	z-index:0;
 }
