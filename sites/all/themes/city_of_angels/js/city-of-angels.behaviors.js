@@ -65,7 +65,7 @@
 		animate: true,
 		show: {height: "show"},
 		hide: {height: "hide"}
-	});
+	});*/
 	
 		$('.field-name-field-rightbig a img').jcaption({
 		wrapperElement: 'div',
@@ -73,7 +73,7 @@
 		animate: true,
 		show: {height: "show"},
 		hide: {height: "hide"}
-	});*/
+	});
 
 });
 
