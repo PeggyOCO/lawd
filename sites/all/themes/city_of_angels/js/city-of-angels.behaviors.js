@@ -56,5 +56,23 @@
       });
     }
   };
+  
+  
+  $(document).ready(function(){
+	$('div.field-name-field-fourup a img').jcaption({
+		copyStyle: true,
+		animate: true,
+		show: {height: "show"},
+		hide: {height: "hide"}
+	});
+	
+		$('div.field-name-field-rightbig a img').jcaption({
+		copyStyle: true,
+		animate: true,
+		show: {height: "show"},
+		hide: {height: "hide"}
+	});
+
+});
 
 })(jQuery);
