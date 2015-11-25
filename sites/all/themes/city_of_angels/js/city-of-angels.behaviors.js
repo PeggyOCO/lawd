@@ -59,14 +59,16 @@
   
   
   $(document).ready(function(){
-	$('div.field-name-field-fourup a img').jcaption({
+	$('.field-name-field-fourup a img').jcaption({
+	  wrapperElement: 'a',
 		copyStyle: true,
 		animate: true,
 		show: {height: "show"},
 		hide: {height: "hide"}
 	});
 	
-		$('div.field-name-field-rightbig a img').jcaption({
+		$('.field-name-field-rightbig a img').jcaption({
+		wrapperElement: 'a',
 		copyStyle: true,
 		animate: true,
 		show: {height: "show"},
