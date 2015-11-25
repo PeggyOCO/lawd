@@ -59,7 +59,7 @@
   
   
   $(document).ready(function(){
-	$('.field-name-field-fourup a').jcaption({
+	$('.field-name-field-fourup a img').jcaption({
 	  wrapperElement: 'span',
 		copyStyle: true,
 		animate: true,
