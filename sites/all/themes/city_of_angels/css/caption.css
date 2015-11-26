@@ -10,8 +10,9 @@
 
 .field-name-field-fourup a div.caption p {
 position:absolute;
-bottom:10px;
+bottom:0px;
 left:0;
+width:100%;
 	margin: 0 0 0 0;
 	padding: 20px;
 	border: 0px #ddd dotted;
@@ -42,7 +43,7 @@ color:white;text-transform:uppercase;}
 
 .field-name-field-rightbig div.caption p {
 position:absolute;
-bottom:10px;
+bottom:0px;
 left:0;
 	margin: 0 0 0 0;
 	padding: 20px;
