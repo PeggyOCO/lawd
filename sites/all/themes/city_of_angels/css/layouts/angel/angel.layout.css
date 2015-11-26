@@ -371,7 +371,8 @@ footer {
     margin: 0;
     padding: 0;
     height: 34vw;
-    width: 50%; }
+    width: 50%;
+    float: left; }
 
   /* line 240, ../../../sass/layouts/angel/angel.layout.scss */
   .field-name-field-fourupright {
@@ -398,7 +399,7 @@ footer {
     justify-content: center;
     margin: 0px 0;
     width: 50%;
-    height: 18vw;
+    height: 17vw;
     float: left; }
 
   /* line 266, ../../../sass/layouts/angel/angel.layout.scss */
