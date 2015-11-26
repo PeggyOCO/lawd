@@ -459,7 +459,7 @@ footer {
   /* line 320, ../../../sass/layouts/angel/angel.layout.scss */
   .clearfix::after {
     content: "";
-    display: none;
+    display: table;
     clear: both; }
 
   /**END Projects page**/

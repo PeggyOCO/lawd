@@ -319,7 +319,7 @@ margin: 0px 0 !important;
 
 .clearfix::after {
     content: "";
-    display: none;
+    display: table;
     clear: both;
 }
   
