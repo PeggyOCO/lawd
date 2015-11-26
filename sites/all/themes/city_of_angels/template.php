@@ -7,9 +7,7 @@
  */
 function city_of_angels_preprocess_field(&$variables) {
 	if($variables['element']['#field_name'] == 'field_fourup') {
-	$variables['items']['#prefix'] = '<div class = "aroundimage">';
-		$variables['items']['#suffix'] = '</div>';
-            dsm($variables);
+            dsm($variables['items']);
 	}
 }
 
