@@ -410,9 +410,9 @@ footer {
   /* line 274, ../../../sass/layouts/angel/angel.layout.scss */
   .inlinefourup a div p {
     z-index: 99;
-    position: absolute;
-    bottom: 0;
-    left: 0;
+    position: relative;
+    margin-bottom: 0;
+    margin-left: 0;
     width: 100%;
     font-size: .9em;
     color: white;
