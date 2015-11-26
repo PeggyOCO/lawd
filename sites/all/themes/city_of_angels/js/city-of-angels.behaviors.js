@@ -59,8 +59,8 @@
   
   
   $(document).ready(function(){
-	$('.field-name-field-fourup .inlinefourup').jcaption({
-	  wrapperElement: 'span',
+	$('.field-name-field-fourup .inlinefourup a img').jcaption({
+	  wrapperElement: 'div',
 		copyStyle: true,
 		animate: true,
 		show: {height: "show"},
