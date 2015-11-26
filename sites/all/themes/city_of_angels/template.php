@@ -7,7 +7,7 @@
  */
 function city_of_angels_preprocess_field(&$variables) {
 	if($variables['element']['#field_name'] == 'field_fourup') {
-            dsm($variables['items'][0][0]);
+            dsm($variables['items'][0][0][0]);
 	}
 }
 
