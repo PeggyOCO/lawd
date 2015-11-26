@@ -190,7 +190,7 @@ border:0px dotted red;
  font-size:1.5vw;
  position:absolute; 
  top:20%;left:25%; 
- height:18vw;
+ height:8vw;
  }
  
 
@@ -206,11 +206,12 @@ clear:both;
 overflow:hidden;
 margin-bottom:0;
 border:0px dotted blue;
-margin-top:-2px;
+
 @include flexbox(1,2);
 justify-content:center;
 align-items:center;
 overflow:hidden;
+margin-top:-2px;
 }
 
 
