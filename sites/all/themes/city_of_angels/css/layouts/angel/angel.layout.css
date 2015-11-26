@@ -396,7 +396,7 @@ footer {
     -webkit-flex-grow: 1;
     flex-grow: 1;
     justify-content: center;
-    margin: -2px 0;
+    margin: 0px 0;
     width: 50%;
     height: 18vw;
     float: left; }
@@ -452,7 +452,7 @@ footer {
 
   /* line 315, ../../../sass/layouts/angel/angel.layout.scss */
   .clearfix {
-    margin: -2px 0 !important;
+    margin: 0px 0 !important;
     padding: 0 !important; }
 
   /**END Projects page**/
