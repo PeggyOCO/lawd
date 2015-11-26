@@ -390,7 +390,7 @@ footer {
     float: left; }
 
   /* line 252, ../../../sass/layouts/angel/angel.layout.scss */
-  .field-name-field-fourup img, .field-name-field-fourupright img {
+  .inlinefourup {
     -webkit-flex-basis: 50%;
     flex-basis: 50%;
     -webkit-flex-grow: 1;
@@ -401,14 +401,19 @@ footer {
     height: 18vw; }
 
   /* line 264, ../../../sass/layouts/angel/angel.layout.scss */
+  .field-name-field-fourup img, .field-name-field-fourupright img {
+    width: 100%;
+    height: 18vw; }
+
+  /* line 271, ../../../sass/layouts/angel/angel.layout.scss */
   .field-collection-view:nth-child(odd) .ds-1col .field-name-field-fourup {
     float: right; }
 
-  /* line 265, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 272, ../../../sass/layouts/angel/angel.layout.scss */
   .field-collection-view:nth-child(even) .ds-1col .field-name-field-fourup {
     float: left; }
 
-  /* line 268, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 275, ../../../sass/layouts/angel/angel.layout.scss */
   .field-name-field-rightbig img, .field-name-field-leftbig img {
     -webkit-flex-shrink: 1;
     flex-shrink: 1;
@@ -420,7 +425,7 @@ footer {
     min-height: 34vw;
     margin: 0; }
 
-  /* line 278, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 285, ../../../sass/layouts/angel/angel.layout.scss */
   .field-name-field-rightbig, .field-name-field-leftbig {
     -webkit-flex: 1;
     flex: 1;
@@ -432,17 +437,17 @@ footer {
     overflow: hidden;
     min-height: 100%; }
 
-  /* line 293, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 300, ../../../sass/layouts/angel/angel.layout.scss */
   .clearfix {
     margin: -2px 0 !important;
     padding: 0 !important; }
 
   /**END Projects page**/
-  /* line 300, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 307, ../../../sass/layouts/angel/angel.layout.scss */
   .node__submitted {
     display: none; }
 
-  /* line 302, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 309, ../../../sass/layouts/angel/angel.layout.scss */
   .scrim {
     background-color: rgba(88, 88, 88, 0.8);
     position: absolute;
@@ -451,41 +456,41 @@ footer {
     width: 100%;
     height: 100%; }
 
-  /* line 309, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 316, ../../../sass/layouts/angel/angel.layout.scss */
   .fred {
     color: #d25333; }
 
-  /* line 310, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 317, ../../../sass/layouts/angel/angel.layout.scss */
   .white {
     color: #fff; }
 
-  /* line 311, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 318, ../../../sass/layouts/angel/angel.layout.scss */
   .single {
     font-size: 1.1em; }
 
-  /* line 312, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 319, ../../../sass/layouts/angel/angel.layout.scss */
   .double {
     font-size: 1.7em; }
 
-  /* line 313, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 320, ../../../sass/layouts/angel/angel.layout.scss */
   .center {
     text-align: center; }
 
-  /* line 314, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 321, ../../../sass/layouts/angel/angel.layout.scss */
   .fourtop {
     margin-top: 4em; }
 
-  /* line 315, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 322, ../../../sass/layouts/angel/angel.layout.scss */
   .leftbottom {
     position: absolute;
     left: 10%;
     bottom: 5%; }
 
-  /* line 317, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 324, ../../../sass/layouts/angel/angel.layout.scss */
   .l-content h1 {
     display: none; }
 
-  /* line 318, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 325, ../../../sass/layouts/angel/angel.layout.scss */
   .top {
     background: url(/dev/sites/default/files/projectpic_0.png) no-repeat center top;
     -webkit-background-size: cover;
@@ -494,7 +499,7 @@ footer {
     background-size: cover;
     height: 45em; }
 
-  /* line 326, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 333, ../../../sass/layouts/angel/angel.layout.scss */
   .flex-colstretch {
     display: flex;
     display: -ms-flexbox;
@@ -508,13 +513,13 @@ footer {
     border: 0px dotted red;
     min-height: 900px; }
 
-  /* line 340, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 347, ../../../sass/layouts/angel/angel.layout.scss */
   .flex-colstretchnoheight {
     display: flex;
     flex-direction: column;
     border: 0px dotted red; }
 
-  /* line 345, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 352, ../../../sass/layouts/angel/angel.layout.scss */
   section {
     position: relative;
     display: flex;
@@ -522,7 +527,7 @@ footer {
     min-height: 20em;
     align-items: stretch; }
 
-  /* line 346, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 353, ../../../sass/layouts/angel/angel.layout.scss */
   section.quad {
     position: relative;
     display: flex;
@@ -530,11 +535,11 @@ footer {
     min-height: 10em;
     align-items: stretch; }
 
-  /* line 347, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 354, ../../../sass/layouts/angel/angel.layout.scss */
   .teal {
     background-color: #47bdbf; }
 
-  /* line 348, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 355, ../../../sass/layouts/angel/angel.layout.scss */
   .red {
     color: #d35232;
     letter-spacing: 1px;
@@ -544,19 +549,19 @@ footer {
     display: block;
     text-align: left; }
 
-  /* line 350, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 357, ../../../sass/layouts/angel/angel.layout.scss */
   p.frontblack {
     font-size: 1em;
     color: black;
     width: 80%;
     margin: 0 auto; }
 
-  /* line 351, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 358, ../../../sass/layouts/angel/angel.layout.scss */
   p.frontwhite {
     font-size: 1.5em;
     color: white; }
 
-  /* line 352, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 359, ../../../sass/layouts/angel/angel.layout.scss */
   .item {
     box-sizing: content-box;
     width: 25%;
@@ -566,7 +571,7 @@ footer {
     background-color: #fff;
     min-height: 8em; }
 
-  /* line 353, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 360, ../../../sass/layouts/angel/angel.layout.scss */
   .item2 {
     box-sizing: content-box;
     flex-grow: 2;
@@ -574,7 +579,7 @@ footer {
     flex-basis: 0;
     min-height: 8em; }
 
-  /* line 355, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 362, ../../../sass/layouts/angel/angel.layout.scss */
   .itemquad {
     box-sizing: content-box;
     width: 25%;
@@ -584,7 +589,7 @@ footer {
     background-color: #fff;
     min-height: 4em; }
 
-  /* line 356, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 363, ../../../sass/layouts/angel/angel.layout.scss */
   .itemquad2 {
     box-sizing: content-box;
     flex-grow: 2;
@@ -592,7 +597,7 @@ footer {
     flex-basis: 0;
     min-height: 4em; }
 
-  /* line 358, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 365, ../../../sass/layouts/angel/angel.layout.scss */
   p.first {
     width: 75%;
     margin: 3em auto;
@@ -600,39 +605,39 @@ footer {
     font-size: 1.5em;
     vertical-align: middle; }
 
-  /* line 359, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 366, ../../../sass/layouts/angel/angel.layout.scss */
   .breadcrumb {
     display: none; }
 
-  /* line 362, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 369, ../../../sass/layouts/angel/angel.layout.scss */
   .item img {
     width: 100%; }
 
-  /* line 363, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 370, ../../../sass/layouts/angel/angel.layout.scss */
   .item2 img {
     width: 100%; }
 
-  /* line 364, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 371, ../../../sass/layouts/angel/angel.layout.scss */
   .itemquad img {
     width: 100%; }
 
-  /* line 365, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 372, ../../../sass/layouts/angel/angel.layout.scss */
   .itemquad2 img {
     width: 100%; }
 
-  /* line 366, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 373, ../../../sass/layouts/angel/angel.layout.scss */
   .centerbox {
     width: 100%;
     margin: 0 auto; }
-    /* line 367, ../../../sass/layouts/angel/angel.layout.scss */
+    /* line 374, ../../../sass/layouts/angel/angel.layout.scss */
     .centerbox h4.red {
       width: 80%;
       margin: 1em auto; }
-    /* line 368, ../../../sass/layouts/angel/angel.layout.scss */
+    /* line 375, ../../../sass/layouts/angel/angel.layout.scss */
     .centerbox p {
       text-align: left; }
 
-  /* line 370, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 377, ../../../sass/layouts/angel/angel.layout.scss */
   ul#twolist {
     list-style-type: none;
     color: #d15232;
@@ -640,57 +645,57 @@ footer {
     margin: 0 auto;
     text-align: left; }
 
-  /* line 371, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 378, ../../../sass/layouts/angel/angel.layout.scss */
   .middlecenter {
     width: 80%;
     margin: 2em auto;
     height: auto;
     text-align: center; }
 
-  /* line 373, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 380, ../../../sass/layouts/angel/angel.layout.scss */
   .gray {
     color: #666; }
 
-  /* line 374, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 381, ../../../sass/layouts/angel/angel.layout.scss */
   footer {
     height: 20em;
     background-color: #d5d5d5;
     margin: 0; }
 
-  /* line 379, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 386, ../../../sass/layouts/angel/angel.layout.scss */
   .l-region--branding {
     width: 50%;
     display: inline-block;
     float: right; }
 
-  /* line 380, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 387, ../../../sass/layouts/angel/angel.layout.scss */
   #block-system-main-menu .menu {
     list-style-type: none; }
-    /* line 381, ../../../sass/layouts/angel/angel.layout.scss */
+    /* line 388, ../../../sass/layouts/angel/angel.layout.scss */
     #block-system-main-menu .menu li {
       list-style-type: none;
       display: inline-block;
       float: left;
       margin-left: 2vw; }
 
-  /* line 384, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 391, ../../../sass/layouts/angel/angel.layout.scss */
   #superfish-1 {
     margin-top: 2vw; }
-    /* line 386, ../../../sass/layouts/angel/angel.layout.scss */
+    /* line 393, ../../../sass/layouts/angel/angel.layout.scss */
     #superfish-1 li {
       margin-left: 2vw; }
 
-  /* line 392, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 399, ../../../sass/layouts/angel/angel.layout.scss */
   .l-branding {
     border: 0px dotted maroon;
     background-color: #ededed;
     text-align: left; }
 
-  /* line 401, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 408, ../../../sass/layouts/angel/angel.layout.scss */
   .l-header {
     margin: 0; }
 
-  /* line 405, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 412, ../../../sass/layouts/angel/angel.layout.scss */
   .l-region--navigation {
     clear: both; } }
 

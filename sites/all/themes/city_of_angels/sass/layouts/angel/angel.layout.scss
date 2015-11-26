@@ -249,7 +249,7 @@ width:50%;
 float: left;
 }
 
-	.field-name-field-fourup img,.field-name-field-fourupright img{
+	.inlinefourup{
 
 @include flex-basis(50%);
 @include flex-grow(1);
@@ -257,6 +257,13 @@ float: left;
 justify-content: center;
 margin:-2px 0;
 width: 50%;
+height:18vw;
+
+}
+
+	.field-name-field-fourup img,.field-name-field-fourupright img{
+
+width:100%;
 height:18vw;
 
 }
