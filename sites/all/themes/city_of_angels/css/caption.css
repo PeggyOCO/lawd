@@ -1,13 +1,13 @@
 
 
-.field-name-field-fourup div.caption {
+.field-name-field-fourup a div.caption {
 	margin: 0;
 	padding:0;
 	position: relative;
 }
 
 
-.field-name-field-fourup div.caption p {
+.field-name-field-fourup a div.caption p {
 	margin: -45px 0 0 0;
 	padding: 20px;
 	border: 0px #ddd dotted;
@@ -18,10 +18,10 @@
 	z-index:999;
 }
 
-.field-name-field-fourup div.caption p a{text-decoration:none;
+.field-name-field-fourup a div.caption p a{text-decoration:none;
 color:white;text-transform:uppercase;}
 
-.field-name-field-fourup div.caption img {
+.field-name-field-fourup a div.caption img {
 	margin: 0; padding: 0;
 	z-index:0;
 }
