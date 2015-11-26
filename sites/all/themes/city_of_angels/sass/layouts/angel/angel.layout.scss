@@ -316,6 +316,12 @@ min-height:100%;
 margin: 0px 0 !important;
  padding: 0 !important;
 } 
+
+.clearfix::after {
+    content: "";
+    display: none;
+    clear: both;
+}
   
 /**END Projects page**/  
 
