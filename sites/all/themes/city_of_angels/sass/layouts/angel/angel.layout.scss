@@ -273,12 +273,14 @@ z-index:1;
 
 .inlinefourup a div p{z-index:99;
 position:relative;
-margin-bottom:0;
+margin-bottom:-30px;
 margin-left:0;
 width:100%;
 font-size:.9em;
 color:white;
-background:black;}
+background:black;
+padding:1em;
+}
 
   .field-collection-view:nth-child(odd) .ds-1col .field-name-field-fourup{float:right;}
   .field-collection-view:nth-child(even) .ds-1col .field-name-field-fourup{float:left;}
