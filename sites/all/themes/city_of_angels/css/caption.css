@@ -9,7 +9,7 @@
 
 
 .field-name-field-fourup a div.caption p {
-	margin: -45px 0 0 0;
+	margin: 0 0 0 0;
 	padding: 20px;
 	border: 0px #ddd dotted;
 	font-size: .9em;
@@ -25,6 +25,7 @@ color:white;text-transform:uppercase;}
 .field-name-field-fourup a div.caption img {
 	margin: 0; padding: 0;
 	z-index:0;
+	height:18vw;
 }
 
 
@@ -32,11 +33,12 @@ color:white;text-transform:uppercase;}
 	margin: 0;
 	padding:0;
 	position: relative;
+	height:34vw;
 }
 
 
 .field-name-field-rightbig div.caption p {
-	margin: -45px 0 0 0;
+	margin: 0 0 0 0;
 	padding: 20px;
 	border: 0px #ddd dotted;
 	font-size: .9em;
@@ -52,4 +54,5 @@ color:white;text-transform:uppercase;}
 .field-name-field-rightbig div.caption img {
 	margin: 0; padding: 0;
 	z-index:0;
+	height:34vw;
 }
