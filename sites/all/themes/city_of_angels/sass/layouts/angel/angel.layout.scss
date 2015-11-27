@@ -125,6 +125,18 @@ footer{height:20em;background-color:#d5d5d5;margin:0;}
   .l-region--navigation {
     clear: both;
   }
+  
+  
+  	.field-name-field-fourup,.field-name-field-fourupright{
+@include flex(1);
+@include flex-flow(row);
+@include flex-direction(row);
+margin:0;
+padding:0;
+height:67vw;
+width:100%;
+clear: both;
+}
 
 //  }
 
