@@ -208,7 +208,7 @@ margin-bottom:0;
 border:0px dotted blue;
 
 @include flexbox(1,2);
-justify-content:center;
+/*justify-content:center;*/
 align-items:center;
 overflow:hidden;
 margin-top:-2px;

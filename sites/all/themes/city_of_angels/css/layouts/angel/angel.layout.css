@@ -340,7 +340,7 @@ footer {
     overflow: hidden;
     margin-bottom: 0;
     border: 0px dotted blue;
-    justify-content: center;
+    /*justify-content:center;*/
     align-items: center;
     overflow: hidden;
     margin-top: -2px; }
