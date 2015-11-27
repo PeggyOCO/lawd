@@ -1,5 +1,5 @@
 name = City of Angels
-description = Please provide a description for your theme.
+description = Custom theme for Los Angeles Web Design by Peggy O'Connor.
 base theme = omega
 screenshot = screenshot.png
 engine = phptemplate
@@ -10,9 +10,11 @@ core = 7.x
 ; ========================================
 stylesheets[all][] = css/city-of-angels.normalize.css
 stylesheets[all][] = css/city-of-angels.hacks.css
+stylesheets[all][] = css/caption.css
+stylesheets[all][] = css/layouts/angel/angel.layout.css
 stylesheets[all][] = css/city-of-angels.styles.css
 stylesheets[all][] = css/city-of-angels.no-query.css
-stylesheets[all][] = css/caption.css
+
 ; ========================================
 ; Scripts
 ; ========================================
