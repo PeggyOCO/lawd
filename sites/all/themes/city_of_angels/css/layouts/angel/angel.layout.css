@@ -405,8 +405,8 @@ footer {
 
   /* line 268, ../../../sass/layouts/angel/angel.layout.scss */
   .field-name-field-fourup img, .field-name-field-fourupright img {
-    width: 100%;
-    height: 100%;
+    width: 100% !important;
+    height: 17vw;
     z-index: 1; }
 
   /*.inlinefourup a div p{z-index:99;
