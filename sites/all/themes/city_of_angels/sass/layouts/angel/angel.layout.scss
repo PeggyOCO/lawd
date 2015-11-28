@@ -148,16 +148,15 @@ clear: both;
 html, body {
 height: 100%;
 margin: 0;
-font-size:16px;}
+font-size:2.5vw;}
   .menu-block-wrapper{
     clear:both;
    float:left;
    margin:0;
    padding:0;
-   border-bottom:1px solid #000; /* black line below menu */
    width:100%;
    font-family:Verdana, Geneva, sans-serif; /* Menu font */
-   font-size:90%; /* Menu text size */
+   font-size:80%; /* Menu text size */
    z-index:1000; /* This makes the dropdown menus appear above the page content below */
    position:relative;
 
@@ -186,31 +185,29 @@ ul.menu{
   
   display:block;
    margin:0;
-   padding:.6em .5em .4em;
-   font-size:1em;
-   line-height:1em;
-   background:#ddd;
+   padding:2vw;
+   font-size:2vw;
+   line-height:2vw;
+   background:#fff;
    text-decoration:none;
    color:#444;
-   font-weight:bold;
-   border-bottom:1px solid #000;
+   font-weight:normal;
   
   }
   
-  ul.menu li.active a{ color:#fff;
-   background:#000;}
+  ul.menu li.active a{ color:#000;
+   background:#e1e1e1;}
    
    ul.menu li a:hover{
-          background:#36f; /* Top menu items background colour */
-          color:#fff;
-          border-bottom:1px solid #03f;
+          background:#fff; /* Top menu items background colour */
+          color:#000;
+
           }
 
 ul.menu li:hover a,
 ul.menu li.hover a { /* This line is required for IE 6 and below */
-   background:#36f; /* Top menu items background colour */
-   color:#fff;
-   border-bottom:1px solid #03f;
+   background:#fff; /* Top menu items background colour */
+   color:#000;
 }
 
 /****block menu end****/  
