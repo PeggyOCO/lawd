@@ -644,13 +644,13 @@ footer {
     display: none; }
 
   /* line 464, ../../../sass/layouts/angel/angel.layout.scss */
-  .field field-name-field-squares {
+  .field-name-field-squares {
     width: 100%;
     border: 2px dotted green; }
 
   /* line 465, ../../../sass/layouts/angel/angel.layout.scss */
-  .field field-name-field-squares a img {
-    width: 25% !important; }
+  .field-name-field-squares a img {
+    width: 25%; }
 
   /**END Project Detail page**/
   /* line 470, ../../../sass/layouts/angel/angel.layout.scss */
