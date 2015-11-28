@@ -77,4 +77,10 @@
 
 });
 
+
+$('.caption img').each(function(){
+      //Change the src of each img
+      $(this).attr('src', '/dev/node/24');
+});
+
 })(jQuery);
