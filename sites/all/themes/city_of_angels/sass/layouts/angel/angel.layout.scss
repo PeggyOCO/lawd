@@ -170,14 +170,17 @@ font-size:1.5vw;}
    list-style:none;
    float:right;
    position:relative;
-   right:50%;
+   right:2vw;
+   top:0;
    li{
         margin:0 0 0 1px;
         padding:0;
         float:left;
         position:relative;
-        left:50%;
-        top:1px;
+        left:2vw;
+        top:0;
+        /*top:1px;*/
+         list-style-type:none;
       }
   }
   
@@ -226,7 +229,8 @@ font-size:1.5vw;}
    margin: 0 1em; /* Reset the 1px margin from the top menu */
    clear:left;
    width:100%;
-   border-right:1px solid black;
+   border-right:0px solid black;
+   list-style-type:none;
 }
 #block-menu-block-1 .menu-block-wrapper ul.menu ul li a,
 #block-menu-block-1 .menu-block-wrapper ul.menu li.active li a,
