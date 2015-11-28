@@ -156,7 +156,7 @@ font-size:1.5vw;}
    padding:0;
    width:100%;
    font-family:Verdana, Geneva, sans-serif; /* Menu font */
-   font-size:1.5vw; /* Menu text size */
+   font-size:1vw; /* Menu text size */
    z-index:1000; /* This makes the dropdown menus appear above the page content below */
    position:relative;
 
@@ -185,9 +185,9 @@ font-size:1.5vw;}
   
   display:block;
    margin:0;
-   padding:1.5vw;
-   font-size:1.5vw;
-   line-height:1.5vw;
+   padding:1vw;
+   font-size:1vw;
+   line-height:1vw;
    background:#fff;
    text-decoration:none;
    color:#444;
@@ -216,7 +216,7 @@ font-size:1.5vw;}
 #block-menu-block-1 .menu-block-wrapper ul.menu ul {
    display:none; /* Sub menus are hiden by default */
    position:absolute;
-   top:1.5vw;
+   top:1vw;
    left:0;
    right:auto; /*resets the right:50% on the parent ul */
    width:10em; /* width of the drop-down menus */
@@ -231,7 +231,7 @@ font-size:1.5vw;}
 #block-menu-block-1 .menu-block-wrapper ul.menu li.active li a,
 #block-menu-block-1 .menu-block-wrapper ul.menu li:hover ul li a,
 #block-menu-block-1 .menu-block-wrapper ul.menu li.hover ul li a { /* This line is required for IE 6 and below */
-   font-size:1.5vw;
+   font-size:1vw;
    font-weight:normal; /* resets the bold set for the top level menu items */
    background:#e1e1e1;
    color:#000;
