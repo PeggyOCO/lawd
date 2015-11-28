@@ -639,9 +639,13 @@ footer {
 
   /**END Projects page**/
   /**START Project Detail page**/
+  /* line 463, ../../../sass/layouts/angel/angel.layout.scss */
+  .field field-name-field-squares {
+    width: 100%; }
+
   /* line 464, ../../../sass/layouts/angel/angel.layout.scss */
   .field field-name-field-squares a img {
-    width: 25%; }
+    width: 25% !important; }
 
   /**END Project Detail page**/
   /* line 469, ../../../sass/layouts/angel/angel.layout.scss */

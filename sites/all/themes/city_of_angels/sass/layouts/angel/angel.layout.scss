@@ -460,8 +460,8 @@ margin: 0px 0 !important;
 /**END Projects page**/ 
 
 /**START Project Detail page**/
-
-.field field-name-field-squares a img{width:25%;}
+.field field-name-field-squares{width:100%;}
+.field field-name-field-squares a img{width:25% !important;}
  
 /**END Project Detail page**/
 
