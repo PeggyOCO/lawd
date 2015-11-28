@@ -230,7 +230,7 @@ font-size:1.5vw;}
    border-right:0px solid black;
    list-style:none;
    list-style-type:none;
-    border:1px dotted blue;
+    border:0px dotted blue;
 }
 #block-menu-block-1 .menu-block-wrapper ul.menu ul li a,
 #block-menu-block-1 .menu-block-wrapper ul.menu li.active li a,
@@ -240,8 +240,9 @@ font-size:1.5vw;}
    font-weight:normal; /* resets the bold set for the top level menu items */
    background:transparent;
    color:#000;
+   height:1.5em;
    line-height:1vw; /* overwrite line-height value from top menu */
-   border:1px dotted red;
+   border:0px dotted red;
 }
 #block-menu-block-1 .menu-block-wrapper ul.menu ul li a:hover,
 #block-menu-block-1 .menu-block-wrapper ul.menu li.active ul li a:hover,
