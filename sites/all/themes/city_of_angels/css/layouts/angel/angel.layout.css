@@ -21,10 +21,6 @@ body {
 .node__submitted {
   display: none; }
 
-/* line 31, ../../../sass/layouts/angel/angel.layout.scss */
-#block-system-main-menu {
-  display: none; }
-
 /* line 32, ../../../sass/layouts/angel/angel.layout.scss */
 #block-menu-block-1 {
   display: none; }
@@ -302,7 +298,7 @@ footer {
 
   /* line 154, ../../../sass/layouts/angel/angel.layout.scss */
   #block-system-main-menu {
-    display: none; }
+    display: none !important; }
 
   /* line 155, ../../../sass/layouts/angel/angel.layout.scss */
   .mean-bar {

@@ -28,7 +28,7 @@ $desk : 480px;
   /* Header Area */
   body{font-size:16px;}
 .node__submitted{display:none;}
-#block-system-main-menu{display:none;}
+
 #block-menu-block-1{display:none;}
 .mean-bar{display:block;}
 .scrim{background-color: rgba(88, 88, 88, 0.8);
@@ -151,7 +151,7 @@ html, body {
 height: 100%;
 margin: 0;
 font-size:1.5vw;}
-#block-system-main-menu{display:none;}
+#block-system-main-menu{display:none !important;}
 .mean-bar{display:none;}
 #block-menu-block-1{display:block;}
 #block-menu-block-1 .menu-block-wrapper{
