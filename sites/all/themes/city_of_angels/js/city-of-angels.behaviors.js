@@ -75,12 +75,8 @@
 		hide: {height: "hide"}
 	});
 
-});
+$('.inlinefourup a').prop("href", "/dev/node/24");
 
-
-$('.inlinefourup a').each(function(){
-      //Change the src of each a
-      $(this).attr('href', '/dev/node/24');
 });
 
 })(jQuery);
