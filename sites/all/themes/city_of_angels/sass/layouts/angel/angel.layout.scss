@@ -188,25 +188,25 @@ font-size:1.5vw;}
    padding:1vw;
    font-size:1vw;
    line-height:1vw;
-   background:#fff;
+   background:transparent;
    text-decoration:none;
    color:#444;
    font-weight:normal;
   
   }
   
-#block-menu-block-1 .menu-block-wrapper ul.menu li.active a{ color:#000;
-   background:#e1e1e1;}
+#block-menu-block-1 .menu-block-wrapper ul.menu li.active a{ color:#666;
+   background:transparent;}
    
 #block-menu-block-1 .menu-block-wrapper ul.menu li a:hover{
-          background:#fff; /* Top menu items background colour */
+          background:transparent; /* Top menu items background colour */
           color:#000;
 
           }
 
 #block-menu-block-1 .menu-block-wrapper ul.menu li:hover a,
 #block-menu-block-1 .menu-block-wrapper ul.menu li.hover a { /* This line is required for IE 6 and below */
-   background:#fff; /* Top menu items background colour */
+   background:transparent; /* Top menu items background colour */
    color:#000;
 }
 
@@ -233,15 +233,15 @@ font-size:1.5vw;}
 #block-menu-block-1 .menu-block-wrapper ul.menu li.hover ul li a { /* This line is required for IE 6 and below */
    font-size:1vw;
    font-weight:normal; /* resets the bold set for the top level menu items */
-   background:#e1e1e1;
+   background:transparent;
    color:#000;
-   line-height:1.4vw; /* overwrite line-height value from top menu */
+   line-height:1vw; /* overwrite line-height value from top menu */
 }
 #block-menu-block-1 .menu-block-wrapper ul.menu ul li a:hover,
 #block-menu-block-1 .menu-block-wrapper ul.menu li.active ul li a:hover,
 #block-menu-block-1 .menu-block-wrapper ul.menu li:hover ul li a:hover,
 #block-menu-block-1 .menu-block-wrapper ul.menu li.hover ul li a:hover { /* This line is required for IE 6 and below */
-   background:#fff; /* Sub menu items background colour */
+   background:transparent; /* Sub menu items background colour */
    color:#000;
 }
 
