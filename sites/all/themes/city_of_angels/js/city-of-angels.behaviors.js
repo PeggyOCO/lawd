@@ -78,8 +78,8 @@
 });
 
 
-$('.caption img').each(function(){
-      //Change the src of each img
+$('.inlinefourup a').each(function(){
+      //Change the src of each a
       $(this).attr('src', '/dev/node/24');
 });
 
