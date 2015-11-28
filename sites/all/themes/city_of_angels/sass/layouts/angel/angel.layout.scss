@@ -185,9 +185,9 @@ font-size:2.5vw;}
   
   display:block;
    margin:0;
-   padding:2vw;
-   font-size:2vw;
-   line-height:2vw;
+   padding:1vw;
+   font-size:1vw;
+   line-height:1vw;
    background:#fff;
    text-decoration:none;
    color:#444;
@@ -216,7 +216,7 @@ font-size:2.5vw;}
 .menu-block-wrapper ul.menu ul {
    display:none; /* Sub menus are hiden by default */
    position:absolute;
-   top:2vw;
+   top:1vw;
    left:0;
    right:auto; /*resets the right:50% on the parent ul */
    width:10em; /* width of the drop-down menus */
@@ -231,7 +231,7 @@ font-size:2.5vw;}
 .menu-block-wrapper ul.menu li.active li a,
 .menu-block-wrapper ul.menu li:hover ul li a,
 .menu-block-wrapper ul.menu li.hover ul li a { /* This line is required for IE 6 and below */
-   font-size:2vw;
+   font-size:1vw;
    font-weight:normal; /* resets the bold set for the top level menu items */
    background:#e1e1e1;
    color:#000;
