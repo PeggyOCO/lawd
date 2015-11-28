@@ -289,18 +289,18 @@ footer {
     font-size: 16px; }
 
   /* line 155, ../../../sass/layouts/angel/angel.layout.scss */
-  #superfish-1 li a {
+  ul.menu li a {
     text-decoration: none;
     font-size: 1vw;
     color: #000; }
   /* line 159, ../../../sass/layouts/angel/angel.layout.scss */
-  #superfish-1 li a:hover {
+  ul.menu li a:hover {
     text-decoration: none;
     font-size: 1vw;
     color: #999; }
 
   /* line 167, ../../../sass/layouts/angel/angel.layout.scss */
-  .sf-menu.sf-horizontal.sf-shadow ul, .sf-menu.sf-vertical.sf-shadow ul, .sf-menu.sf-navbar.sf-shadow ul ul {
+  ul.menu ul.menu {
     background: none;
     padding: 0px 0px 0px 0px !important;
     border-top-right-radius: 0px;

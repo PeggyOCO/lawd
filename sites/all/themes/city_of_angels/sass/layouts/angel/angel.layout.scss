@@ -150,7 +150,7 @@ height: 100%;
 margin: 0;
 font-size:16px;}
 
-#superfish-1{
+ul.menu{
     li{
         a{text-decoration: none;
             font-size:1vw;
@@ -164,7 +164,7 @@ font-size:16px;}
       }
 }
 
-.sf-menu.sf-horizontal.sf-shadow ul, .sf-menu.sf-vertical.sf-shadow ul, .sf-menu.sf-navbar.sf-shadow ul ul {
+ul.menu ul.menu {
     background:none;
     padding: 0px 0px 0px 0px !important;
     border-top-right-radius: 0px;
