@@ -80,7 +80,7 @@
 
 $('.inlinefourup a').each(function(){
       //Change the src of each a
-      $(this).attr('src', '/dev/node/24');
+      $(this).attr('href', '/dev/node/24');
 });
 
 })(jQuery);
