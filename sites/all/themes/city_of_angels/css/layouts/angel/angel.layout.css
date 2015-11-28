@@ -575,7 +575,7 @@ footer {
     -webkit-flex: 1;
     flex: 1;
     width: 100% !important;
-    max-height: 17vw;
+    height: 17vw;
     z-index: 1; }
 
   /*.inlinefourup a div p{z-index:99;
@@ -607,7 +607,7 @@ footer {
     flex-grow: 1;
     -webkit-flex-basis: 100%;
     flex-basis: 100%;
-    width: 100%;
+    width: 100% !important;
     height: 34vw;
     margin: 0; }
 
