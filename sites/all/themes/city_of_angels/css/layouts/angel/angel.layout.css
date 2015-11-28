@@ -305,7 +305,7 @@ footer {
 
   /****block menu begin****/
   /* line 167, ../../../sass/layouts/angel/angel.layout.scss */
-  .menu-block-wrapper ul.menu {
+  #block-menu-block-1 .menu-block-wrapper ul.menu {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -313,7 +313,7 @@ footer {
     position: relative;
     right: 50%; }
     /* line 174, ../../../sass/layouts/angel/angel.layout.scss */
-    .menu-block-wrapper ul.menu li {
+    #block-menu-block-1 .menu-block-wrapper ul.menu li {
       margin: 0 0 0 1px;
       padding: 0;
       float: left;
@@ -322,7 +322,7 @@ footer {
       top: 1px; }
 
   /* line 184, ../../../sass/layouts/angel/angel.layout.scss */
-  .menu-block-wrapper ul.menu li a {
+  #block-menu-block-1 .menu-block-wrapper ul.menu li a {
     display: block;
     margin: 0;
     padding: 1vw;
@@ -334,19 +334,19 @@ footer {
     font-weight: normal; }
 
   /* line 198, ../../../sass/layouts/angel/angel.layout.scss */
-  .menu-block-wrapper ul.menu li.active a {
+  #block-menu-block-1 .menu-block-wrapper ul.menu li.active a {
     color: #000;
     background: #e1e1e1; }
 
   /* line 201, ../../../sass/layouts/angel/angel.layout.scss */
-  .menu-block-wrapper ul.menu li a:hover {
+  #block-menu-block-1 .menu-block-wrapper ul.menu li a:hover {
     background: #fff;
     /* Top menu items background colour */
     color: #000; }
 
   /* line 207, ../../../sass/layouts/angel/angel.layout.scss */
-  .menu-block-wrapper ul.menu li:hover a,
-  .menu-block-wrapper ul.menu li.hover a {
+  #block-menu-block-1 .menu-block-wrapper ul.menu li:hover a,
+  #block-menu-block-1 .menu-block-wrapper ul.menu li.hover a {
     /* This line is required for IE 6 and below */
     background: #fff;
     /* Top menu items background colour */
@@ -354,7 +354,7 @@ footer {
 
   /* Submenu items */
   /* line 216, ../../../sass/layouts/angel/angel.layout.scss */
-  .menu-block-wrapper ul.menu ul {
+  #block-menu-block-1 .menu-block-wrapper ul.menu ul {
     display: none;
     /* Sub menus are hiden by default */
     position: absolute;
@@ -366,7 +366,7 @@ footer {
     /* width of the drop-down menus */ }
 
   /* line 224, ../../../sass/layouts/angel/angel.layout.scss */
-  .menu-block-wrapper ul.menu ul li {
+  #block-menu-block-1 .menu-block-wrapper ul.menu ul li {
     left: auto;
     /*resets the left:50% on the parent li */
     margin: 0;
@@ -375,10 +375,10 @@ footer {
     width: 100%; }
 
   /* line 230, ../../../sass/layouts/angel/angel.layout.scss */
-  .menu-block-wrapper ul.menu ul li a,
-  .menu-block-wrapper ul.menu li.active li a,
-  .menu-block-wrapper ul.menu li:hover ul li a,
-  .menu-block-wrapper ul.menu li.hover ul li a {
+  #block-menu-block-1 .menu-block-wrapper ul.menu ul li a,
+  #block-menu-block-1 .menu-block-wrapper ul.menu li.active li a,
+  #block-menu-block-1 .menu-block-wrapper ul.menu li:hover ul li a,
+  #block-menu-block-1 .menu-block-wrapper ul.menu li.hover ul li a {
     /* This line is required for IE 6 and below */
     font-size: 1vw;
     font-weight: normal;
@@ -389,10 +389,10 @@ footer {
     /* overwrite line-height value from top menu */ }
 
   /* line 240, ../../../sass/layouts/angel/angel.layout.scss */
-  .menu-block-wrapper ul.menu ul li a:hover,
-  .menu-block-wrapper ul.menu li.active ul li a:hover,
-  .menu-block-wrapper ul.menu li:hover ul li a:hover,
-  .menu-block-wrapper ul.menu li.hover ul li a:hover {
+  #block-menu-block-1 .menu-block-wrapper ul.menu ul li a:hover,
+  #block-menu-block-1 .menu-block-wrapper ul.menu li.active ul li a:hover,
+  #block-menu-block-1 .menu-block-wrapper ul.menu li:hover ul li a:hover,
+  #block-menu-block-1 .menu-block-wrapper ul.menu li.hover ul li a:hover {
     /* This line is required for IE 6 and below */
     background: #fff;
     /* Sub menu items background colour */
@@ -400,7 +400,7 @@ footer {
 
   /* Flip the last submenu so it stays within the page */
   /* line 249, ../../../sass/layouts/angel/angel.layout.scss */
-  .menu-block-wrapper ul.menu ul.last {
+  #block-menu-block-1 .menu-block-wrapper ul.menu ul.last {
     left: auto;
     /* reset left:0; value */
     right: 0;
@@ -408,8 +408,8 @@ footer {
 
   /* Make the sub menus appear on hover */
   /* line 255, ../../../sass/layouts/angel/angel.layout.scss */
-  .menu-block-wrapper ul.menu li:hover ul,
-  .menu-block-wrapper ul.menu li.hover ul {
+  #block-menu-block-1 .menu-block-wrapper ul.menu li:hover ul,
+  #block-menu-block-1 .menu-block-wrapper ul.menu li.hover ul {
     /* This line is required for IE 6 and below */
     display: block;
     /* Show the sub menus */ }
