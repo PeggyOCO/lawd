@@ -460,9 +460,11 @@ margin: 0px 0 !important;
 /**END Projects page**/ 
 
 /**START Project Detail page**/
-.field-name-field-detailrowimage div{display:none;}
-.field-name-field-squares{width:100%;border:2px dotted green;}
-.field-name-field-squares a img{width:25%;}
+.field-name-field-detailrowimage div,.field-name-field-detailrowtitle div,.field-name-field-detailrowcontent div{display:none;}
+.field-name-field-squares{width:100%;}
+.field-name-field-squares a img{width:25%;height:auto;}
+.field-name-field-squares2{width:100%;}
+.field-name-field-squares2 a img{width:25%;height:auto;}
  
 /**END Project Detail page**/
 
