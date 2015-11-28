@@ -230,7 +230,8 @@ font-size:1.5vw;}
    border-right:0px solid black;
    list-style:none;
    list-style-type:none;
-    border:1px dotted blue;
+    border:0px dotted blue;
+    background-color:#eee;
 }
 #block-menu-block-1 .menu-block-wrapper ul.menu ul li a,
 #block-menu-block-1 .menu-block-wrapper ul.menu li.active li a,
@@ -242,7 +243,7 @@ font-size:1.5vw;}
    color:#000;
    height:1.5em;
    line-height:1vw; /* overwrite line-height value from top menu */
-   border:1px dotted red;
+   border:0px dotted red;
    margin:0px;
    padding:2px 3px;
 }
