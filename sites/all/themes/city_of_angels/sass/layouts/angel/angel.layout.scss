@@ -461,6 +461,9 @@ margin: 0px 0 !important;
 
 /**START Project Detail page**/
 .field-name-field-detailrowimage div,.field-name-field-detailrowtitle div,.field-name-field-detailrowcontent div{display:none;}
+.field-name-field-detailrowimage,.field-name-field-detailrowtitle,.field-name-field-detailrowcontent{text-align:center;}
+.field-name-field-detailrowtitle{font-size:2vw;}
+.field-name-field-detailrowcontent{font-size:1.25vw;}
 .field-name-field-squares{width:100%;}
 .field-name-field-squares a img{width:25%;height:auto;}
 .field-name-field-squares2{width:100%;}
