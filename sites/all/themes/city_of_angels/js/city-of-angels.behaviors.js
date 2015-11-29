@@ -75,6 +75,8 @@
 		hide: {height: "hide"}
 	});
 
+var realurl = $('.field-name-field-rightbig a img').attr('title');
+$('.field-name-field-rightbig a').prop("href", realurl);
 $('.inlinefourup a').prop("href", "/dev/node/24");
 
 
