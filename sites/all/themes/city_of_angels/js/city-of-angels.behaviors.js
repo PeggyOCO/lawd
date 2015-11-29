@@ -78,10 +78,10 @@
 var realurl = $('.field-name-field-rightbig a img').attr('title');
 var realurlsmall = $('.inlinefourup a img').attr('title');
 $('.field-name-field-rightbig a').prop("href", realurl);
-/*$('.inlinefourup a').prop("href", realurlsmall);*/
 
 $('.inlinefourup a').each( function( index, element ){
-    $(this).prop("href", realurlsmall);
+    var realurltiny = $(this).children("img").attr('title');
+    $(this).prop("href",realurltiny);
 });
 
 
