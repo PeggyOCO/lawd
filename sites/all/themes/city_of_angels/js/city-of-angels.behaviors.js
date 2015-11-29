@@ -76,8 +76,9 @@
 	});
 
 var realurl = $('.field-name-field-rightbig a img').attr('title');
+var realurlsmall = $('.inlinefourup a img').attr('title');
 $('.field-name-field-rightbig a').prop("href", realurl);
-$('.inlinefourup a').prop("href", "/dev/node/24");
+$('.inlinefourup a').prop("href", realurlsmall);
 
 
 $('.field-name-field-fourup .inlinefourup a .caption img').each(function(i, item) {
