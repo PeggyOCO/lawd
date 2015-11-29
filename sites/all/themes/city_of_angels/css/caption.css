@@ -5,7 +5,7 @@
 	padding:0;
 	position: relative;
 	height:17vw;
-	width:100%;
+	width:100% !important;
 }
 
 
@@ -33,10 +33,8 @@ color:white;text-transform:uppercase;}
 	margin: 0; padding: 0;
 	z-index:0;
 	height:17vw;
-	width:100%;
-	position:absolute;
-	top:0;
-	left:0;
+	width:100% !important;
+
 }
 
 
@@ -45,6 +43,7 @@ color:white;text-transform:uppercase;}
 	padding:0;
 	position: relative;
 	height:34vw;
+		width:100% !important;
 }
 
 
@@ -73,8 +72,6 @@ color:white;text-transform:uppercase;}
 	margin: 0; padding: 0;
 	z-index:0;
 	height:34vw;
-	width:100%;
-		position:absolute;
-	top:0;
-	left:0;
+	width:100% !important;
+
 }
