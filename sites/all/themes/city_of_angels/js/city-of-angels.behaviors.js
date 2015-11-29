@@ -75,9 +75,15 @@
 		hide: {height: "hide"}
 	});
 
-var realurl = $('.field-name-field-rightbig a img').attr('title');
+/*var realurl = $('.field-name-field-rightbig a img').attr('title');
 var realurlsmall = $('.inlinefourup a img').attr('title');
-$('.field-name-field-rightbig a').prop("href", realurl);
+$('.field-name-field-rightbig a').prop("href", realurl);*/
+
+
+$('.field-name-field-rightbig a').each( function( index, element ){
+    var realurlbig = $(this).children("img").attr('title');
+    $(this).prop("href",realurlbig);
+});
 
 $('.inlinefourup a').each( function( index, element ){
     var realurltiny = $(this).children("img").attr('title');
