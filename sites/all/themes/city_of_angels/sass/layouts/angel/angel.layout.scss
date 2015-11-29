@@ -16,7 +16,7 @@
 // Set breakpoint values.
 $phone : 480px;
 $tab  : 800px;
-$desk : 1160px;
+$desk : 480px;
 * {font-family:Verdana, Helvetica, sans-serif;}
 
 
@@ -144,8 +144,8 @@ clear: both;
 
 //************end phone************//
 
-//************tab************//
-@include breakpoint($tab, true) {
+//************tab***********//
+/*@include breakpoint($tab, true) {
 
 
 	.field-name-field-fourup,.field-name-field-fourupright{
@@ -196,7 +196,7 @@ min-height:100%;
 
 }
 
-}
+}**//
 
 //************end tab************//
 
