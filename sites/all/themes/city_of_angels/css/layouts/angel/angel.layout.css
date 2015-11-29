@@ -507,14 +507,13 @@ min-height:100%;
     -webkit-flex: 1;
     flex: 1; }
 
-  /* line 339, ../../../sass/layouts/angel/angel.layout.scss */
-  .field-collection-view.clearfix.view-mode-full.field-collection-view-final {
-    -webkit-flex: 1;
-    flex: 1;
-    width: 100%;
-    margin: 0;
-    padding: 0; }
-
+  /*   .field-collection-view.clearfix.view-mode-full.field-collection-view-final{
+  @include flexbox(1,2);
+  @include flex(1);
+    width:100%;
+   margin:0;
+   padding:0;} 
+   */
   /* line 348, ../../../sass/layouts/angel/angel.layout.scss */
   .hundredpercent {
     position: relative;
