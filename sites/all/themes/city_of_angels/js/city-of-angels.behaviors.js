@@ -78,7 +78,7 @@
 $('.inlinefourup a').prop("href", "/dev/node/24");
 
 
-$('.field-name-field-fourup .inlinefourup a img').each(function(i, item) {
+$('.field-name-field-fourup .inlinefourup a .caption img').each(function(i, item) {
     var img_height = $(item).height();
     var div_height = $(item).parent().height();
     if(img_height<div_height){
@@ -96,7 +96,7 @@ $('.field-name-field-fourup .inlinefourup a img').each(function(i, item) {
     }
 });
 
-$('.field-name-field-rightbig a img').each(function(i, item) {
+$('.field-name-field-rightbig a .caption img').each(function(i, item) {
     var img_height = $(item).height();
     var div_height = $(item).parent().height();
     if(img_height<div_height){
