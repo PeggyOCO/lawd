@@ -349,8 +349,8 @@
     border: 1px dotted red; }
     /* line 194, ../../../sass/layouts/angel/angel.layout.scss */
     .inlinefourup a .caption {
-      width: 100%;
-      height: 75vw; }
+      width: 100% !important;
+      height: 75vw !important; }
       /* line 196, ../../../sass/layouts/angel/angel.layout.scss */
       .inlinefourup a .caption img {
         -webkit-flex: 1;
