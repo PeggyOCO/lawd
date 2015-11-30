@@ -7,6 +7,15 @@
 	width:100% !important;
 }
 
+
+.field-name-field-fourup a div.caption img {
+	margin: 0; padding: 0;
+	z-index:0;
+	height:75vw;
+	width:100% !important;
+
+}
+
 }
 
 .field-name-field-fourup a div.caption {
