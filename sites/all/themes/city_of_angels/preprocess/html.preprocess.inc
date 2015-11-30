@@ -1,3 +1,5 @@
+<?php 
+
 function city_of_angels_preprocess_html(&$vars) {
 $meta_ie_render_engine = array(
     '#type' => 'html_tag',
