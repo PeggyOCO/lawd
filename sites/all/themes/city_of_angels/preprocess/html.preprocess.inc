@@ -6,7 +6,7 @@ $meta_ie_render_engine = array(
     '#tag' => 'meta',
     '#attributes' => array(
       'http-equiv' => 'X-UA-Compatible',
-      'content' =>  'IE=edge,chrome=1',
+      'content' =>  'IE=edge',
     ),
     '#weight' => '-99999',
   );
