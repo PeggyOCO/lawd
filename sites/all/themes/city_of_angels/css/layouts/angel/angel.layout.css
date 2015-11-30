@@ -272,7 +272,7 @@
   .hundredpercent {
     position: relative;
     background-color: #4cbdbf;
-    height: auto;
+    height: 30vw;
     margin-top: 0;
     padding-top: 0;
     width: 100%; }
@@ -331,7 +331,7 @@
       -webkit-flex-basis: 100%;
       flex-basis: 100%;
       width: 100% !important;
-      height: 100%;
+      height: 75vw;
       margin: 0; }
 
   /* line 184, ../../../sass/layouts/angel/angel.layout.scss */
@@ -352,7 +352,7 @@
       -webkit-flex: 1;
       flex: 1;
       width: 100% !important;
-      height: 100%;
+      height: 75vw;
       z-index: 1; } }
 /*@include breakpoint($tab, true) {
 
