@@ -217,7 +217,7 @@ clear: both;
 @include flex-direction(column);
 margin:0;
 padding:0;
-height:72vw;
+height:auto;
 width:100%;
 clear: both;
 }
@@ -232,7 +232,7 @@ width: 100%;
 background-color:#666;
 margin:0;padding:0;
 overflow:hidden;
-height:72vw;
+height:auto;
 
 }
 
@@ -257,6 +257,8 @@ height:72vw;
     }
 
 }
+
+..field-collection-view{height:auto;margin:0;padding:0;width:100%;}
 
 //************end tab************//
 
