@@ -1,38 +1,4 @@
-@media (max-width:480px){
-.field-name-field-fourup a div.caption {
-	margin: 0;
-	padding:0;
-	position: relative;
-	height:75vw;
-	width:100% !important;
-}
 
-
-.field-name-field-fourup a div.caption img {
-	margin: 0; padding: 0;
-	z-index:0;
-	height:75vw;
-	width:100% !important;
-
-}
-
-.field-name-field-rightbig div.caption{
-	margin: 0; padding: 0;
-	z-index:0;
-	height:75vw;
-	width:100% !important;
-
-}
-
-.field-name-field-rightbig div.caption img {
-	margin: 0; padding: 0;
-	z-index:0;
-	height:75vw;
-	width:100% !important;
-
-}
-
-}
 
 .field-name-field-fourup a div.caption {
 	margin: 0;
@@ -107,5 +73,44 @@ color:white;text-transform:uppercase;}
 	z-index:0;
 	height:34vw;
 	width:100% !important;
+
+}
+
+
+@media (max-width:480px){
+.field-name-field-fourup a div.caption {
+	margin: 0;
+	padding:0;
+	position: relative;
+	height:75vw;
+	width:100% !important;
+}
+
+
+
+
+.field-name-field-fourup a div.caption img {
+	margin: 0; padding: 0;
+	z-index:0;
+	height:75vw;
+	width:100% !important;
+
+}
+
+.field-name-field-rightbig div.caption{
+	margin: 0; padding: 0;
+	z-index:0;
+	height:75vw;
+	width:100% !important;
+
+}
+
+.field-name-field-rightbig div.caption img {
+	margin: 0; padding: 0;
+	z-index:0;
+	height:75vw;
+	width:100% !important;
+
+}
 
 }
