@@ -409,7 +409,8 @@
   height: auto;
   margin: 0;
   padding: 0;
-  width: 100%; }
+  width: 100%;
+  border: 0; }
 
 @media (min-width: 800px) {
   /* Header Area */
