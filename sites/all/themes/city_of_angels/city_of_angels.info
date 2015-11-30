@@ -1,5 +1,5 @@
 name = City of Angels
-description = Custom theme for Los Angeles Web Design by Peggy O'Connor.
+description = Custom theme for Los Angeles Web Design by Peggy O\'Connor.
 base theme = omega
 screenshot = screenshot.png
 engine = phptemplate
@@ -20,6 +20,7 @@ stylesheets[all][] = css/city-of-angels.no-query.css
 ; ========================================
 scripts[] = js/jcaption.min.js
 scripts[] = js/city-of-angels.behaviors.js
+
 ; ========================================
 ; Regions
 ; ========================================
@@ -36,9 +37,9 @@ regions[footer] = Footer
 ; ========================================
 ; Settings
 ; ========================================
-settings[toggle_logo] = 0
-settings[toggle_name] = 1
-settings[toggle_slogan] = 1
+settings[toggle_logo] = 1
+settings[toggle_name] = 0
+settings[toggle_slogan] = 0
 settings[toggle_node_user_picture] = 1
 settings[toggle_comment_user_picture] = 1
 settings[toggle_comment_user_verification] = 1
@@ -46,8 +47,8 @@ settings[toggle_favicon] = 1
 settings[toggle_main_menu] = 1
 settings[toggle_secondary_menu] = 1
 settings[omega_toggle_front_page_content] = 1
-settings[default_logo] = 1
-settings[logo_path] = ""
+settings[default_logo] = 0
+settings[logo_path] = public://LAwebLogoNew.png
 settings[logo_upload] = ""
 settings[default_favicon] = 1
 settings[favicon_path] = ""
@@ -73,7 +74,7 @@ settings[omega_libraries][respond][status] = 0
 settings[omega_libraries][respond][variant] = _default
 settings[omega_libraries][pie][status] = 0
 settings[omega_libraries][pie][variant] = _default
-settings[omega_libraries][html5shiv][status] = 0
+settings[omega_libraries][html5shiv][status] = 1
 settings[omega_libraries][html5shiv][variant] = _default
 settings[omega_toggle_extension_development] = 1
 settings[omega_enable_export_reminder] = 1
@@ -95,4 +96,5 @@ settings[omega_demo_regions_list][sidebar_first] = sidebar_first
 settings[omega_demo_regions_list][sidebar_second] = sidebar_second
 settings[omega_demo_regions_list][footer] = footer
 settings[omega_toggle_extension_layouts] = 1
-settings[omega_layout] = hero
+settings[omega_layout] = angel
+settings[jquery_update_jquery_version] = 1.11
