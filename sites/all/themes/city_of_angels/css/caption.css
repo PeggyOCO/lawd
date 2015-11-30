@@ -66,7 +66,7 @@ left:0;
 }
 
 .field-name-field-rightbig a div.caption p{text-decoration:none;
-color:white;text-transform:uppercase;}
+color:white;}
 
 .field-name-field-rightbig div.caption img {
 	margin: 0; padding: 0;
@@ -82,7 +82,7 @@ color:white;text-transform:uppercase;}
 	margin: 0;
 	padding:0;
 	position: relative;
-	height:36vw;
+	height:auto;
 	width:100% !important;
 }
 
@@ -92,7 +92,7 @@ color:white;text-transform:uppercase;}
 .field-name-field-fourup a div.caption img {
 	margin: 0; padding: 0;
 	z-index:0;
-	height:34vw;
+	height:36vw;
 	width:100% !important;
 
 }
@@ -114,7 +114,24 @@ color:white;text-transform:uppercase;}
 }
 
 
-.field-name-field-fourup a div.caption p,.field-name-field-rightbig a div.caption p {
+.field-name-field-fourup a div.caption p{
+position:absolute;
+top:0px;
+left:0;
+width:100%;
+height:100%;
+	margin: 0 0 0 0;
+	padding: 20px;
+	border: 0px #ddd dotted;
+	font-size: 1.2vw;
+/*	background-color:black;
+	opacity: .3;*/
+	background: rgba(0,0,0,0.4);
+	color:white;
+	z-index:999;
+}
+
+.field-name-field-rightbig a div.caption p{
 position:absolute;
 top:0px;
 left:0;
@@ -162,7 +179,7 @@ height:100%;
 	z-index:0;
 	height:72vw;
 	width:100% !important;
-
+  clear:both;
 }
 
 .field-name-field-rightbig a div.caption img {
@@ -173,7 +190,7 @@ height:100%;
 
 }
 
-.field-name-field-fourup a div.caption p,.field-name-field-rightbig a div.caption p  {
+.field-name-field-fourup a div.caption p{
 position:absolute;
 top:0px;
 left:0;
@@ -190,4 +207,20 @@ height:100%;
 	z-index:999;
 }
 
+.field-name-field-rightbig a div.caption p{
+position:absolute;
+top:0px;
+left:0;
+width:100%;
+height:100%;
+	margin: 0 0 0 0;
+	padding: 20px;
+	border: 0px #ddd dotted;
+	font-size: 1.2vw;
+/*	background-color:black;
+	opacity: .3;*/
+	background: rgba(0,0,0,0.4);
+	color:white;
+	z-index:999;
+}
 }
