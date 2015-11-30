@@ -103,11 +103,7 @@ footer{height:20em;background-color:#d5d5d5;margin:0;}
   li{list-style-type:none;display:inline-block;float:left;margin-left:2em;}
   }
   
-  #superfish-1{
-  margin-top:2vw;
-  li{margin-left:1.5vw;}
-  
-  }
+
  
  
  
@@ -128,8 +124,32 @@ footer{height:20em;background-color:#d5d5d5;margin:0;}
     clear: both;
   }
   
+  .hundredpercent{  position:relative;
+          background-color:#4cbdbf;
+          height:auto;
+          margin-top:0;
+          padding-top:0;
+          width:100%;
+              p{  
+                text-align:left;
+                border:0px dotted red;
+                width:80%;
+                margin:0 auto;
+                font-size:1.5vw;
+                position:absolute; 
+                top:20%;left:10%; 
+                height:auto;
+              }
+          }
+          
+    .field-collection-view {
+    padding:0px;
+    margin: 0px;
+    border: 0px;
+}
   
-  	.field-name-field-fourup,.field-name-field-fourupright{
+  
+  	.field-name-field-fourup{
 @include flex(1);
 @include flex-flow(row);
 @include flex-direction(row);
@@ -139,6 +159,39 @@ height:67vw;
 width:100%;
 clear: both;
 }
+
+    .field-name-field-rightbig {
+
+ @include flex(1);
+
+clear:both;
+width: 100%;
+background-color:#666;
+margin:0;padding:0;
+overflow:hidden;
+min-height:100%;
+
+}
+
+	.inlinefourup{
+  @include flex(1);
+  @include flex-basis(100%);
+  @include flex-grow(1);
+  margin:0px 0;
+  width: 100%;
+  height:75vw;
+  float:left;
+        a{ 
+        .caption{
+                img{
+                  @include flex(1);
+                  width:100% !important;
+                  height:75vw;
+                  z-index:1;     
+                  }
+                }
+          }
+    }
 
 //  }
 
