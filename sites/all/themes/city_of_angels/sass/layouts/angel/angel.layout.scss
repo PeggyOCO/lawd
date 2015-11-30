@@ -24,7 +24,7 @@ $desk : 480px;
 
 //************phone************//
 
-@include breakpoint($phone, false) {
+@media (max-width:480px){
   /* Header Area */
   body{font-size:16px;}
 .node__submitted{display:none;}
