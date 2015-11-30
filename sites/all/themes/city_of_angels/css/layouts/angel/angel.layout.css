@@ -358,7 +358,7 @@
         width: 100% !important;
         height: 75vw;
         z-index: 1; } }
-@media (min-width: 480px) and (max-width: 800px) {
+@media (min-width: 480px) and (max-width: 799px) {
   /* line 214, ../../../sass/layouts/angel/angel.layout.scss */
   .field-name-field-fourup {
     -webkit-flex: 1;
