@@ -1,4 +1,13 @@
+@media (max-width:480px){
+.field-name-field-fourup a div.caption {
+	margin: 0;
+	padding:0;
+	position: relative;
+	height:75vw;
+	width:100% !important;
+}
 
+}
 
 .field-name-field-fourup a div.caption {
 	margin: 0;
