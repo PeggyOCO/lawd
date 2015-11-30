@@ -24,7 +24,7 @@ $desk : 480px;
 
 //************phone************//
 
-//@include breakpoint($phone, true) {
+@include breakpoint($phone, false) {
   /* Header Area */
   body{font-size:16px;}
 .node__submitted{display:none;}
@@ -193,7 +193,7 @@ min-height:100%;
           }
     }
 
-//  }
+  }
 
 //************end phone************//
 
