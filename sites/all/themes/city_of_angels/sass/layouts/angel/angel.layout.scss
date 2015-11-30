@@ -14,8 +14,8 @@
 @import "components/**/*";
 
 // Set breakpoint values.
-$phone : 480px;
-$tab  : 800px;
+$phone : max-width 480px;
+//$tab  : 480px 800px;
 $desk : 480px;
 * {font-family:Verdana, Helvetica, sans-serif;}
 
@@ -24,7 +24,7 @@ $desk : 480px;
 
 //************phone************//
 
-@media (max-width:480px){
+@include breakpoint($phone, true) {
   /* Header Area */
   body{font-size:16px;}
 .node__submitted{display:none;}
