@@ -85,9 +85,9 @@ $('.field-name-field-rightbig').each( function( index, element ){
     $(this).children("a").prop("href",realurlbig);
 });
 
-$('.inlinefourup a').each( function( index, element ){
-    var realurltiny = $(this).children("img").attr('title');
-    $(this).prop("href",realurltiny);
+$('.inlinefourup').each( function( index, element ){
+    var realurltiny = $(this).children("a").children(".caption").children("img").attr('title');
+    $(this).children("a").prop("href",realurltiny);
 });
 
 
