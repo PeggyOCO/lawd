@@ -1,5 +1,5 @@
 
-
+@media (min-width:800px){
 .field-name-field-fourup a div.caption {
 	margin: 0;
 	padding:0;
@@ -26,8 +26,8 @@ height:100%;
 	z-index:999;
 }
 
-.field-name-field-fourup a div.caption p a{text-decoration:none;
-color:white;text-transform:uppercase;}
+.field-name-field-fourup a div.caption p{text-decoration:none;
+color:white;}
 
 .field-name-field-fourup a div.caption img {
 	margin: 0; padding: 0;
@@ -38,7 +38,7 @@ color:white;text-transform:uppercase;}
 }
 
 
-.field-name-field-rightbig div.caption {
+.field-name-field-rightbig a div.caption {
 	margin: 0;
 	padding:0;
 	position: relative;
@@ -47,7 +47,7 @@ color:white;text-transform:uppercase;}
 }
 
 
-.field-name-field-rightbig div.caption p {
+.field-name-field-rightbig a div.caption p {
 position:absolute;
 top:0px;
 left:0;
@@ -65,7 +65,7 @@ left:0;
 	width:100%;
 }
 
-.field-name-field-rightbig div.caption p a{text-decoration:none;
+.field-name-field-rightbig a div.caption p{text-decoration:none;
 color:white;text-transform:uppercase;}
 
 .field-name-field-rightbig div.caption img {
@@ -75,14 +75,14 @@ color:white;text-transform:uppercase;}
 	width:100% !important;
 
 }
-
+}
 
 @media (min-width:480px) AND (max-width:800px){
 .field-name-field-fourup a div.caption {
 	margin: 0;
 	padding:0;
 	position: relative;
-	height:34vw;
+	height:36vw;
 	width:100% !important;
 }
 
@@ -97,18 +97,18 @@ color:white;text-transform:uppercase;}
 
 }
 
-.field-name-field-rightbig div.caption{
+.field-name-field-rightbig a div.caption{
 	margin: 0; padding: 0;
 	z-index:0;
-	height:70vw;
+	height:72vw;
 	width:100% !important;
 
 }
 
-.field-name-field-rightbig div.caption img {
+.field-name-field-rightbig a div.caption img {
 	margin: 0; padding: 0;
 	z-index:0;
-	height:70vw;
+	height:72vw;
 	width:100% !important;
 
 }
@@ -124,7 +124,7 @@ color:white;text-transform:uppercase;}
 	margin: 0;
 	padding:0;
 	position: relative;
-	height:75vw;
+	height:72vw;
 	width:100% !important;
 }
 
@@ -134,23 +134,23 @@ color:white;text-transform:uppercase;}
 .field-name-field-fourup a div.caption img {
 	margin: 0; padding: 0;
 	z-index:0;
-	height:75vw;
+	height:72vw;
 	width:100% !important;
 
 }
 
-.field-name-field-rightbig div.caption{
+.field-name-field-rightbig a div.caption{
 	margin: 0; padding: 0;
 	z-index:0;
-	height:75vw;
+	height:72vw;
 	width:100% !important;
 
 }
 
-.field-name-field-rightbig div.caption img {
+.field-name-field-rightbig a div.caption img {
 	margin: 0; padding: 0;
 	z-index:0;
-	height:75vw;
+	height:72vw;
 	width:100% !important;
 
 }
