@@ -335,6 +335,24 @@ clear: both;
 
 /****block menu end****/ 
 
+.hundredpercent{  position:relative;
+          background-color:#4cbdbf;
+          height:34vw;
+          margin-top:0;
+          padding-top:0;
+          width:100%;
+              p{  
+                text-align:left;
+                border:0px dotted red;
+                width:50%;
+                margin:0 auto;
+                font-size:1.5vw;
+                position:absolute; 
+                top:20%;left:25%; 
+                height:8vw;
+              }
+          }
+ 
 
 	.field-name-field-fourup{
 @include flex(1);
