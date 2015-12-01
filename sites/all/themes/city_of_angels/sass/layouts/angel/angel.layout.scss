@@ -339,7 +339,7 @@ h1{display:none;}
 
 .hundredpercent{  position:relative;
           background-color:#4cbdbf;
-          height:15vw;
+          height:20vw;
           margin-top:0;
           padding-top:0;
           width:100%;
@@ -352,6 +352,8 @@ h1{display:none;}
                 position:absolute; 
                 top:20%;left:25%; 
                 height:8vw;
+                span.white{color:white;}
+                span.gray{color:lightgray;}
               }
           }
  
