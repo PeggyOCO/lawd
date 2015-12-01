@@ -210,7 +210,8 @@ clear: both;
 //************tab***********//
 @include breakpoint($tab, true) {
 
-
+.breadcrumbs{display:none;}
+h1{display:none;}
 
 #block-system-main-menu{display:none !important;}
 .mean-bar{display:none;}
@@ -303,12 +304,12 @@ clear: both;
 #block-menu-block-1 .menu-block-wrapper ul.menu li.active li a,
 #block-menu-block-1 .menu-block-wrapper ul.menu li:hover ul li a,
 #block-menu-block-1 .menu-block-wrapper ul.menu li.hover ul li a { /* This line is required for IE 6 and below */
-   font-size:1vw;
+   font-size:2vw;
    font-weight:normal; /* resets the bold set for the top level menu items */
    background:transparent;
    color:#000;
    height:1.5em;
-   line-height:1vw; /* overwrite line-height value from top menu */
+   line-height:2vw; /* overwrite line-height value from top menu */
    border:0px dotted red;
    margin:0px;
    padding:2px 3px;
@@ -337,7 +338,7 @@ clear: both;
 
 .hundredpercent{  position:relative;
           background-color:#4cbdbf;
-          height:34vw;
+          height:12.5vw;
           margin-top:0;
           padding-top:0;
           width:100%;
@@ -346,7 +347,7 @@ clear: both;
                 border:0px dotted red;
                 width:50%;
                 margin:0 auto;
-                font-size:1.5vw;
+                font-size:2.5vw;
                 position:absolute; 
                 top:20%;left:25%; 
                 height:8vw;
