@@ -218,15 +218,15 @@ h1{display:none;}
 #block-menu-block-1{display:block;}
 #block-menu-block-1 .menu-block-wrapper{
     clear:both;
-   float:left;
    margin:0;
-   padding:0;
+   padding:.5vw;
    width:100%;
    font-family:Verdana, Geneva, sans-serif; /* Menu font */
-   font-size:1vw; /* Menu text size */
+   font-size:2vw; /* Menu text size */
    z-index:1000; /* This makes the dropdown menus appear above the page content below */
-   position:relative;
-   border: 1px dotted green;
+   position:absolute;
+   top:0;
+   right:0;
     }
 
 /****block menu begin****/    
