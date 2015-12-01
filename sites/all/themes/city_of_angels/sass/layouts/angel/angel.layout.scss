@@ -226,6 +226,7 @@ h1{display:none;}
    font-size:1vw; /* Menu text size */
    z-index:1000; /* This makes the dropdown menus appear above the page content below */
    position:relative;
+   border: 1px dotted green;
     }
 
 /****block menu begin****/    
@@ -293,7 +294,7 @@ h1{display:none;}
    margin: 1px; /* Reset the 1px margin from the top menu */
    clear:left;
    width:100%;
-   height:1.5em;
+   height:2.5vw;
    border-right:0px solid black;
    list-style:none;
    list-style-type:none;
@@ -308,7 +309,7 @@ h1{display:none;}
    font-weight:normal; /* resets the bold set for the top level menu items */
    background:transparent;
    color:#000;
-   height:1.5em;
+   height:2.5vw;
    line-height:2vw; /* overwrite line-height value from top menu */
    border:0px dotted red;
    margin:0px;
@@ -338,7 +339,7 @@ h1{display:none;}
 
 .hundredpercent{  position:relative;
           background-color:#4cbdbf;
-          height:12.5vw;
+          height:155vw;
           margin-top:0;
           padding-top:0;
           width:100%;
