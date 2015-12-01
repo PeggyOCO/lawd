@@ -210,7 +210,7 @@ clear: both;
 //************tab***********//
 @include breakpoint($tab, true) {
 
-.breadcrumbs{display:none;}
+.breadcrumb{display:none;}
 h1{display:none;}
 
 #block-system-main-menu{display:none !important;}
@@ -254,8 +254,8 @@ h1{display:none;}
    display:block;
    margin:0;
    padding:1vw;
-   font-size:1vw;
-   line-height:1vw;
+   font-size:2vw;
+   line-height:2vw;
    background:transparent;
    text-decoration:none;
    color:#444;

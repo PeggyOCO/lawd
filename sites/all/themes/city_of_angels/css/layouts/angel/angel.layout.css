@@ -360,7 +360,7 @@
         z-index: 1; } }
 @media (min-width: 480px) and (max-width: 799px) {
   /* line 213, ../../../sass/layouts/angel/angel.layout.scss */
-  .breadcrumbs {
+  .breadcrumb {
     display: none; }
 
   /* line 214, ../../../sass/layouts/angel/angel.layout.scss */
@@ -421,8 +421,8 @@
     display: block;
     margin: 0;
     padding: 1vw;
-    font-size: 1vw;
-    line-height: 1vw;
+    font-size: 2vw;
+    line-height: 2vw;
     background: transparent;
     text-decoration: none;
     color: #444;
