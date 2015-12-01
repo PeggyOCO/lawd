@@ -521,6 +521,10 @@
     /* Show the sub menus */ }
 
   /****block menu end****/
+  /* line 339, ../../../sass/layouts/angel/angel.layout.scss */
+  .l-header {
+    background-color: #eee; }
+
   /* line 340, ../../../sass/layouts/angel/angel.layout.scss */
   .hundredpercent {
     position: relative;
