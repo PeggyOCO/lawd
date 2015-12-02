@@ -59,6 +59,15 @@
   
   
   $(document).ready(function(){
+  
+  
+  if($(window).width() > 800){
+    drupal_add_js('sites/all/themes/city_of_angels/js/jcaption.min.js');}
+    if($(window).width() < 800){
+    drupal_add_js('sites/all/themes/city_of_angels/js/jcaption.js');
+    }
+    
+    
 	$('.field-name-field-fourup .inlinefourup a img').jcaption({
 	  wrapperElement: 'div',
 		copyStyle: true,
