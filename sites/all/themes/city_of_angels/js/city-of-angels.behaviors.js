@@ -60,7 +60,7 @@
   
   $(document).ready(function(){
   alert('got here');
-drupal_add_js('/dev/sites/all/themes/city_of_angels/js/jcaption.min.js', file);
+drupal_add_js('themes/city_of_angels/js/jcaption.min.js');
      /*   alert($(window).width() + ' got here' + $base_url);*/
     
     
