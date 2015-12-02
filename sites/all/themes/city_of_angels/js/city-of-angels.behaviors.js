@@ -59,9 +59,9 @@
   
   
   $(document).ready(function(){
-  
-    drupal_add_js('sites/all/themes/city_of_angels/js/jcaption.min.js');
-    alert($(window).width() + ' got here' + $base_url);
+  alert('got here');
+  /*  drupal_add_js('sites/all/themes/city_of_angels/js/jcaption.min.js');
+    alert($(window).width() + ' got here' + $base_url);*/
     
     
 	$('.field-name-field-fourup .inlinefourup a img').jcaption({
