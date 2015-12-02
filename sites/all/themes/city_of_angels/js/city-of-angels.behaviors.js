@@ -62,7 +62,7 @@
 	$('.field-name-field-fourup .inlinefourup a img').jcaption({
 	  wrapperElement: 'div',
 		copyStyle: true,
-		animate: false,
+		animate: true,
 		show: {height: "show"},
 		hide: {height: "hide"}
 	});
@@ -70,7 +70,7 @@
 		$('.field-name-field-rightbig a img').jcaption({
 		wrapperElement: 'div',
 		copyStyle: true,
-		animate: false,
+		animate: true,
 		show: {height: "show"},
 		hide: {height: "hide"}
 	});
