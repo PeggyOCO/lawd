@@ -60,12 +60,8 @@
   
   $(document).ready(function(){
   
-  
-  if($(window).width() > 800){
-    drupal_add_js('/dev/sites/all/themes/city_of_angels/js/jcaption.min.js');}
-    if($(window).width() < 800){
-    drupal_add_js('/dev/sites/all/themes/city_of_angels/js/jcaption.js');
-    }
+    drupal_add_js('sites/all/themes/city_of_angels/js/jcaption.min.js');
+    alert($(window).width() + ' got here' + $base_url);
     
     
 	$('.field-name-field-fourup .inlinefourup a img').jcaption({
