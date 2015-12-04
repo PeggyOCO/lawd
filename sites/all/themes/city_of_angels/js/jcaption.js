@@ -58,7 +58,7 @@
 					
 					if(settings.animate){
 						$(this).next().hide();
-						$(this).parent().dblclick(
+						$(this).parent().hover(
 						function(){
 							$(this).find('p').animate(settings.show, settings.showDuration);
 						},
