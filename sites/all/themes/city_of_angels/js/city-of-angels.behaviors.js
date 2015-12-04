@@ -102,7 +102,7 @@ $('.inlinefourup').each( function( index, element ){
 });
 
 $('a').click(function() {
-  alert($(this).data('href') || $(this).attr('href'));
+  alert($(this).data('href'));
 });
 
 $('.field-name-field-fourup .inlinefourup a .caption img').each(function(i, item) {
