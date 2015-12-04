@@ -17,10 +17,10 @@ $meta_ie_render_engine = array(
     '#weight' => '-99999',
   );
 
-/* drupal_add_html_head($meta_ie_render_engine, 'meta_ie_render_engine');
+ drupal_add_html_head($meta_ie_render_engine, 'meta_ie_render_engine');
  if($detect->isMobile()){
 drupal_add_js('sites/all/themes/city_of_angels/js/jcaption.js');}else{
 drupal_add_js('sites/all/themes/city_of_angels/js/jcaption.min.js');
-}*/
-drupal_add_js('sites/all/themes/city_of_angels/js/jcaption.min.js');
+}
+//drupal_add_js('sites/all/themes/city_of_angels/js/jcaption.min.js');
 }
