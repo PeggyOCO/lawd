@@ -5,7 +5,7 @@ function city_of_angels_preprocess_html(&$vars) {
 $theme_path = drupal_get_path('theme', 'city_of_angels');
 require_once $theme_path . '/includes/Mobile_Detect.php'; //This include is important to add desired classes to the menus
 //require_once '../includes/Mobile_Detect.php';
-//$detect = new Mobile_Detect;
+$detect = new Mobile_Detect;
 
 $meta_ie_render_engine = array(
     '#type' => 'html_tag',
