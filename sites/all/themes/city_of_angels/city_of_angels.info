@@ -22,7 +22,7 @@ stylesheets[all][] = css/city-of-angels.no-query.css
 ; ========================================
 ; Scripts
 ; ========================================
-;scripts[] = js/jcaption.min.js
+scripts[] = js/jcaption.min.js
 scripts[] = js/city-of-angels.behaviors.js
 
 ; ========================================
