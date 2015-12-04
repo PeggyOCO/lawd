@@ -101,6 +101,11 @@ $('.inlinefourup').each( function( index, element ){
     /* $(this).children("a").attr("onclick",'window.location=/dev/los-angeles-web-design/' + realurltiny);*/
 });
 
+$('a').each(function() {
+  var href = $(this).attr('href');
+  $(this).attr('onclick', "window.location='" + href + "'")
+         .removeAttr('href');
+});
 
 $('.field-name-field-fourup .inlinefourup a .caption img').each(function(i, item) {
     var img_height = $(item).height();
