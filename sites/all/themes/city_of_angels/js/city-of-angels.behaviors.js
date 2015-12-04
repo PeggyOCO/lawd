@@ -98,7 +98,7 @@ $('.field-name-field-rightbig').each( function( index, element ){
 
 $('.inlinefourup').each( function( index, element ){
    var realurltiny = $(this).children("a").children(".caption").children("img").attr('title');
-    alert(realurltiny);
+   /* alert(realurltiny);*/
    $(this).children("a").attr("href","/dev/los-angeles-web-design/"+realurltiny+"");
       /* $(location).attr('href',"/dev/los-angeles-web-design/"+realurltiny+"");*/
     /* $(this).children("a").data("href",'/dev/los-angeles-web-design/' + realurltiny);*/
