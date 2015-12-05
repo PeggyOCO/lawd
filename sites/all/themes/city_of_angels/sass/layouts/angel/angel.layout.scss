@@ -26,7 +26,10 @@ $desk : 800px;
 
 @include breakpoint($phone, true) {
   /* Header Area */
-  body{font-size:16px;}
+html, body {
+height: 100%;
+margin: 0;
+font-size:12px;}
 .node__submitted{display:none;}
 
 #block-menu-block-1{display:none;}
@@ -240,6 +243,10 @@ clear: both;
 //************tab***********//
 @include breakpoint($tab, true) {
 
+html, body {
+height: 100%;
+margin: 0;
+font-size:14px;}
 .breadcrumb{display:none;}
 h1{display:none;}
 
@@ -252,7 +259,7 @@ h1{display:none;}
    padding:.5vw;
    width:100%;
    font-family:Verdana, Geneva, sans-serif; /* Menu font */
-   font-size:2vw; /* Menu text size */
+   font-size:.8rem; /* Menu text size */
    z-index:1000; /* This makes the dropdown menus appear above the page content below */
    position:absolute;
    top:0;
@@ -285,7 +292,7 @@ h1{display:none;}
    display:block;
    margin:0;
    padding:1vw;
-   font-size:2vw;
+   font-size:.8rem;
    line-height:2vw;
    background:transparent;
    text-decoration:none;
@@ -317,7 +324,7 @@ h1{display:none;}
    top:3vw;
    left:1vw;
    right:auto; /*resets the right:50% on the parent ul */
-   width:15em; /* width of the drop-down menus */
+   width:15rem; /* width of the drop-down menus */
 }
 #block-menu-block-1 .menu-block-wrapper ul.menu ul li {
    left:auto;  /*resets the left:50% on the parent li */
@@ -335,7 +342,7 @@ h1{display:none;}
 #block-menu-block-1 .menu-block-wrapper ul.menu li.active li a,
 #block-menu-block-1 .menu-block-wrapper ul.menu li:hover ul li a,
 #block-menu-block-1 .menu-block-wrapper ul.menu li.hover ul li a { /* This line is required for IE 6 and below */
-   font-size:2vw;
+   font-size:.8rem;
    font-weight:normal; /* resets the bold set for the top level menu items */
    background:transparent;
    color:#000;
@@ -378,7 +385,7 @@ h1{display:none;}
                 border:0px dotted red;
                 width:60%;
                 margin:0 auto;
-                font-size:2.5vw;
+                font-size:.8rem;
                 position:absolute; 
                 top:15%;left:20%; 
                 height:8vw;
@@ -429,6 +436,7 @@ height:auto;
                   height:34vw;
                   z-index:1;     
                   }
+                  p{font-size:.8rem;}
                 }
           }
     }
@@ -446,7 +454,7 @@ height:auto;
 html, body {
 height: 100%;
 margin: 0;
-font-size:1.5vw;}
+font-size:16px;}
 #block-system-main-menu{display:none !important;}
 .mean-bar{display:none;}
 #block-menu-block-1{display:block;}
@@ -457,7 +465,7 @@ font-size:1.5vw;}
    padding:0;
    width:100%;
    font-family:Verdana, Geneva, sans-serif; /* Menu font */
-   font-size:1vw; /* Menu text size */
+   font-size:.8rem /* Menu text size */
    z-index:1000; /* This makes the dropdown menus appear above the page content below */
    position:relative;
     }
@@ -488,7 +496,7 @@ font-size:1.5vw;}
    display:block;
    margin:0;
    padding:1vw;
-   font-size:1vw;
+   font-size:.8rem;
    line-height:1vw;
    background:transparent;
    text-decoration:none;
@@ -520,14 +528,14 @@ font-size:1.5vw;}
    top:3vw;
    left:1vw;
    right:auto; /*resets the right:50% on the parent ul */
-   width:15em; /* width of the drop-down menus */
+   width:15rem; /* width of the drop-down menus */
 }
 #block-menu-block-1 .menu-block-wrapper ul.menu ul li {
    left:auto;  /*resets the left:50% on the parent li */
    margin: 1px; /* Reset the 1px margin from the top menu */
    clear:left;
    width:100%;
-   height:1.5em;
+   height:1.5rem;
    border-right:0px solid black;
    list-style:none;
    list-style-type:none;
@@ -538,11 +546,11 @@ font-size:1.5vw;}
 #block-menu-block-1 .menu-block-wrapper ul.menu li.active li a,
 #block-menu-block-1 .menu-block-wrapper ul.menu li:hover ul li a,
 #block-menu-block-1 .menu-block-wrapper ul.menu li.hover ul li a { /* This line is required for IE 6 and below */
-   font-size:1vw;
+   font-size:.8rem;
    font-weight:normal; /* resets the bold set for the top level menu items */
    background:transparent;
    color:#000;
-   height:1.5em;
+   height:.8rem;
    line-height:1vw; /* overwrite line-height value from top menu */
    border:0px dotted red;
    margin:0px;
@@ -582,7 +590,7 @@ font-size:1.5vw;}
                 border:0px dotted red;
                 width:50%;
                 margin:0 auto;
-                font-size:1.5vw;
+                p{font-size:.8em;}
                 position:absolute; 
                 top:20%;left:25%; 
                 height:8vw;
@@ -639,6 +647,7 @@ font-size:1.5vw;}
                   height:17vw;
                   z-index:1;     
                   }
+                  p{font-size:.8em;}
                 }
           }
     }
@@ -699,8 +708,8 @@ margin: 0px 0 !important;
 /**START Project Detail page**/
 .field-name-field-detailrowimage div,.field-name-field-detailrowtitle div,.field-name-field-detailrowcontent div{display:none;}
 .field-name-field-detailrowimage,.field-name-field-detailrowtitle,.field-name-field-detailrowcontent{text-align:center;}
-.field-name-field-detailrowtitle{font-size:2vw;}
-.field-name-field-detailrowcontent{font-size:1.25vw;}
+.field-name-field-detailrowtitle{font-size:.8rem;}
+.field-name-field-detailrowcontent{font-size:.8rem;}
 .field-name-field-squares{width:100%;}
 .field-name-field-squares a img{width:25%;height:auto;}
 .field-name-field-squares2{width:100%;}

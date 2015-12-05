@@ -96,7 +96,7 @@ height:100%;
 	margin: 0 0 0 0;
 	padding: 20px;
 	border: 0px #ddd dotted;
-	font-size: 2.5vw;
+	font-size: .8rem;
 /*	background-color:black;
 	opacity: .3;*/
 	background: rgba(0,0,0,0.4);
@@ -132,7 +132,7 @@ left:0;
 	margin: 0 0 0 0;
 	padding: 20px;
 	border: 0px #ddd dotted;
-	font-size: 2.5vw;
+	font-size: .8rem;
 	width:100%;
  height:100%;
 /*	background-color:black;
@@ -144,7 +144,8 @@ left:0;
 }
 
 .field-name-field-rightbig a div.caption p{text-decoration:none;
-color:white;}
+color:white;
+font-size:.8rem;}
 
 .field-name-field-rightbig div.caption img {
 	margin: 0; padding: 0;
