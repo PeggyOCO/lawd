@@ -155,14 +155,14 @@ footer{height:20em;background-color:#d5d5d5;margin:0;}
 @include flex-direction(row);
 margin:0;
 padding:0;
-height:75vw;
+height:72vw;
 width:100%;
 clear: both;
 }
 
  .field-name-field-rightbig{
          @include flex(1);
-        float:left;
+        clear:both;
         width: 100%;
         background-color:#666;
         margin:0;padding:0;
@@ -194,7 +194,7 @@ clear: both;
   border:0px dotted red;
         a{ 
         .caption{width:100% !important;
-                 height:75vw !important;
+                 height:72vw !important;
                 img{
                   @include flex(1);
                   width:100% !important;
