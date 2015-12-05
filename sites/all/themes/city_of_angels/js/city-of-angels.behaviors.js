@@ -97,7 +97,7 @@ $('.field-name-field-rightbig').each( function( index, element ){
    /* $(this).children("a").attr("onclick",'window.location=/dev/los-angeles-web-design/' + realurlbig+'');*/
 });
 
-$('.inlinefourup').each( function( index, element ){
+$('.field-name-field-fourup').each( function( index, element ){
    /*var realurltiny = $(this).children("a").children(".caption").children("img").prop('title');*/
     var realurltiny = $(this).find("img").prop('title');
    alert(realurltiny + ' got here');
