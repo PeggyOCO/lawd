@@ -168,7 +168,7 @@ clear: both;
         margin:0;padding:0;
         overflow:hidden;
         min-height:100%;
-        border:0px dotted blue;
+        border:none;
                  img{
             @include flex(1);
             @include flex-shrink(1);
@@ -191,7 +191,7 @@ clear: both;
   height:100%;
   height:72vw;
   clear:both;
-  border:0px dotted red;
+  border:none;
         a{ 
         .caption{width:100% !important;
                  height:72vw !important;
