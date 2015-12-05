@@ -185,6 +185,7 @@ color:white;}
 	height:72vw;
 	width:100% !important;
   clear:both;
+  position:relative;
 }
 
 .field-name-field-rightbig a div.caption img {
