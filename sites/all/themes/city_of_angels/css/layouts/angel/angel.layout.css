@@ -312,7 +312,7 @@
     flex-direction: row;
     margin: 0;
     padding: 0;
-    height: 72vw;
+    height: auto;
     width: 100%;
     clear: both; }
 
