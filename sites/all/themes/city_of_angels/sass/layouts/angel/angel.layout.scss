@@ -168,14 +168,15 @@ clear: both;
         margin:0;padding:0;
         overflow:hidden;
         min-height:100%;
-        border:1px dotted blue;
+        border:0px dotted blue;
                  img{
             @include flex(1);
             @include flex-shrink(1);
             @include flex-grow(1);
             @include flex-basis(100%); 
             width:100% !important;
-            height:75vw;
+            height:100%;
+            height:72vw;
             margin:0;
 
             }    
@@ -187,16 +188,18 @@ clear: both;
   @include flex-grow(1);
   margin:0px 0;
   width: 100%;
-  height:75vw;
+  height:100%;
+  height:72vw;
   clear:both;
-  border:1px dotted red;
+  border:0px dotted red;
         a{ 
         .caption{width:100% !important;
                  height:75vw !important;
                 img{
                   @include flex(1);
                   width:100% !important;
-                  height:75vw;
+                  height:100%;
+                  height:72vw;
                   z-index:1;     
                   }
                 }
