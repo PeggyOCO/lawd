@@ -135,7 +135,7 @@ footer{height:20em;background-color:#d5d5d5;margin:0;}
                 border:0px dotted red;
                 width:80%;
                 margin:0 auto;
-                font-size:1.5vw;
+                font-size:2rem;
                 position:absolute; 
                 top:20%;left:10%; 
                 height:auto;
@@ -171,7 +171,7 @@ clear: both;
         overflow:hidden;
         height:100%;
         height:72vw;
-        border:2px dotted orange;
+        border:none;
                  img{
             @include flex(1);
             @include flex-shrink(1);
