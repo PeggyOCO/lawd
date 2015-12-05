@@ -745,7 +745,7 @@
     display: none;
     /* Sub menus are hiden by default */
     position: absolute;
-    top: .4rem;
+    top: 1.25rem;
     left: 1rem;
     right: auto;
     /*resets the right:50% on the parent ul */
