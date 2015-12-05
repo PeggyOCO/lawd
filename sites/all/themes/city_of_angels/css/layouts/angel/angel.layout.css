@@ -745,7 +745,7 @@
     display: none;
     /* Sub menus are hiden by default */
     position: absolute;
-    top: 1.25rem;
+    top: 1.5rem;
     left: 1rem;
     right: auto;
     /*resets the right:50% on the parent ul */
@@ -817,7 +817,7 @@
   .hundredpercent {
     position: relative;
     background-color: #4cbdbf;
-    height: 5rem;
+    height: 11rem;
     margin-top: 0;
     padding-top: 0;
     width: 100%; }
