@@ -1240,6 +1240,20 @@
 
   /* line 826, ../../../sass/layouts/angel/angel.layout.scss */
   .l-region--navigation {
-    clear: both; } }
+    clear: both; }
+
+  /* line 830, ../../../sass/layouts/angel/angel.layout.scss */
+  .l-main {
+    -webkit-flex: 1;
+    flex: 1;
+    -webkit-flex-shrink: 1;
+    flex-shrink: 1;
+    -webkit-flex-grow: 1;
+    flex-grow: 1;
+    -webkit-flex-basis: 100%;
+    flex-basis: 100%;
+    margin: 0;
+    width: 100%;
+    height: auto; } }
 
 /*# sourceMappingURL=angel.layout.css.map */
