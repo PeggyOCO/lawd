@@ -1280,6 +1280,11 @@
     width: 100%;
     height: auto;
     vertical-align: top;
-    border: 0px dotted pink; } }
+    border: 0px dotted pink; }
+
+  /* line 854, ../../../sass/layouts/angel/angel.layout.scss */
+  .bottomleft {
+    margin-top: 40%;
+    margin-left: 2rem; } }
 
 /*# sourceMappingURL=angel.layout.css.map */
