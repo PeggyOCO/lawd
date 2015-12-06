@@ -834,6 +834,7 @@ footer{height:20em;background-color:#d5d5d5;margin:0;}
     @include flex-basis(100%); 
     margin:0;width:100%;
     height:auto;
+    border:2px dotted pink;
     }
 
   }
