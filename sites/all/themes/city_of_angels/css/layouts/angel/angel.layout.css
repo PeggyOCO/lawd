@@ -995,16 +995,16 @@
   .field--name-field-left {
     display: flex;
     float: left;
-    width: 50%;
-    height: 30vw;
+    width: 66%;
+    height: 25vw;
     background-color: #47bdbf; }
 
   /* line 724, ../../../sass/layouts/angel/angel.layout.scss */
   .field--name-field-right {
     display: flex;
     float: left;
-    width: 50%;
-    height: 30vw;
+    width: 34%;
+    height: 25vw;
     background-color: #fff; }
     /* line 730, ../../../sass/layouts/angel/angel.layout.scss */
     .field--name-field-right div {
