@@ -721,7 +721,20 @@ margin: 0px 0 !important;
 
 /**Begin home page**/
 .field--name-field-left{display:flex;float:left;width:50%;height:30vw;background-color:#47bdbf;}
-.field--name-field-right{display:flex;float:left;width:50%;height:30vw;background-color:#47bdbf;}
+.field--name-field-right{
+          display:flex;
+          float:left;
+          width:50%;
+          height:30vw;
+          background-color:#fff;
+              div{
+                  div{
+                      .item{
+                          width:100%;
+                          }
+                      }
+                  }
+}
 /**end home page**/
 
 .node__submitted{display:none;}
