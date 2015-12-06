@@ -1006,8 +1006,8 @@
     width: 50%;
     height: 30vw;
     background-color: #fff; }
-    /* line 731, ../../../sass/layouts/angel/angel.layout.scss */
-    .field--name-field-right div div {
+    /* line 730, ../../../sass/layouts/angel/angel.layout.scss */
+    .field--name-field-right div {
       width: 100%; }
       /* line 732, ../../../sass/layouts/angel/angel.layout.scss */
       .field--name-field-right div div .item {
