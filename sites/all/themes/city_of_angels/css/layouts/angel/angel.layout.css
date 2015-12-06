@@ -1039,6 +1039,7 @@
 
   /* line 740, ../../../sass/layouts/angel/angel.layout.scss */
   .top {
+    display: block;
     width: 100%;
     position: relative;
     background: url(/dev/sites/default/files/projectpic_0.png) no-repeat center top;
