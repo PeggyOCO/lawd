@@ -1019,10 +1019,6 @@
   .double {
     font-size: 1.7em; }
 
-  /* line 735, ../../../sass/layouts/angel/angel.layout.scss */
-  .center {
-    text-align: center; }
-
   /* line 736, ../../../sass/layouts/angel/angel.layout.scss */
   .fourtop {
     margin-top: 4em; }
@@ -1110,6 +1106,11 @@
     line-height: 1em;
     display: block;
     text-align: left; }
+
+  /* line 783, ../../../sass/layouts/angel/angel.layout.scss */
+  .center {
+    text-align: center;
+    width: 100%; }
 
   /* line 784, ../../../sass/layouts/angel/angel.layout.scss */
   p.frontblack {
@@ -1275,6 +1276,6 @@
     width: 100%;
     height: auto;
     vertical-align: top;
-    border: 2px dotted pink; } }
+    border: 0px dotted pink; } }
 
 /*# sourceMappingURL=angel.layout.css.map */
