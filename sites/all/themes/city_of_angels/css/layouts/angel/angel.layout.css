@@ -964,11 +964,11 @@
   .field-name-field-squares2{width:100%;}
   .field-name-field-squares2 a img{width:25%;height:auto;}*/
   /* line 720, ../../../sass/layouts/angel/angel.layout.scss */
-  .field field-name-field-detailrow {
+  .field-name-field-detailrow {
     height: 72vw; }
 
   /* line 721, ../../../sass/layouts/angel/angel.layout.scss */
-  .field field-name-field-foursquaresrow {
+  .field-name-field-foursquaresrow {
     height: 25vw;
     border: 2px dotted red; }
 
