@@ -767,7 +767,7 @@ margin: 0px 0 !important;
         a{
           text-decoration:none;color:#d25333;
             &:hover{
-                  color:lighten(#d25333,15%);
+                  color:darken(#d25333,20%);
                     }
           }
       }
