@@ -983,43 +983,47 @@
 
   /* line 730, ../../../sass/layouts/angel/angel.layout.scss */
   .field-name-field-square1 {
-    width: 25vw;
+    width: 25%;
     height: 100%;
     display: inline-block;
     float: left; }
     /* line 730, ../../../sass/layouts/angel/angel.layout.scss */
     .field-name-field-square1 a img {
-      width: 100%; }
+      width: 100%;
+      border: 1px solid; }
 
   /* line 731, ../../../sass/layouts/angel/angel.layout.scss */
   .field-name-field-square2 {
-    width: 25vw;
+    width: 25%;
     height: 100%;
     display: inline-block;
     float: left; }
     /* line 731, ../../../sass/layouts/angel/angel.layout.scss */
     .field-name-field-square2 a img {
-      width: 100%; }
+      width: 100%;
+      border: 1px solid; }
 
   /* line 732, ../../../sass/layouts/angel/angel.layout.scss */
   .field-name-field-square3 {
-    width: 25vw;
+    width: 25%;
     height: 100%;
     display: inline-block;
     float: left; }
     /* line 732, ../../../sass/layouts/angel/angel.layout.scss */
     .field-name-field-square3 a img {
-      width: 100%; }
+      width: 100%;
+      border: 1px solid; }
 
   /* line 733, ../../../sass/layouts/angel/angel.layout.scss */
   .field-name-field-square4 {
-    width: 25vw;
+    width: 25%;
     height: 100%;
     display: inline-block;
     float: left; }
     /* line 733, ../../../sass/layouts/angel/angel.layout.scss */
     .field-name-field-square4 a img {
-      width: 100%; }
+      width: 100%;
+      border: 1px solid; }
 
   /**END Project Detail page**/
   /**Begin home page**/
