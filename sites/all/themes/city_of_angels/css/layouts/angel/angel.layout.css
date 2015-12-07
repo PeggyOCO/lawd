@@ -1347,17 +1347,20 @@
   /* line 892, ../../../sass/layouts/angel/angel.layout.scss */
   .bottomleft {
     margin-top: 10%;
-    font-size: 1.25rem;
+    font-size: .7rem;
     margin-left: 2rem; }
-    /* line 895, ../../../sass/layouts/angel/angel.layout.scss */
+    /* line 896, ../../../sass/layouts/angel/angel.layout.scss */
     .bottomleft p a {
       text-decoration: none;
       color: #d25333; }
-      /* line 896, ../../../sass/layouts/angel/angel.layout.scss */
+      /* line 898, ../../../sass/layouts/angel/angel.layout.scss */
       .bottomleft p a a:hover {
         color: #eee; }
+    /* line 903, ../../../sass/layouts/angel/angel.layout.scss */
+    .bottomleft p:last-child {
+      font-weight: 600; }
 
-  /* line 899, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 905, ../../../sass/layouts/angel/angel.layout.scss */
   .middle {
     padding-top: 10%; } }
 

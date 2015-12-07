@@ -890,11 +890,17 @@ footer{height:20em;background-color:#d5d5d5;margin:0;}
     border:0px dotted pink;
     }
     .bottomleft{margin-top:10%;
-    font-size:1.25rem;
+    font-size:.7rem;
     margin-left:2rem;
-    p{a{text-decoration:none;color:#d25333;
-      a:hover{color:#eee;}}}
-    
+      p{
+        a{
+          text-decoration:none;color:#d25333;
+            a:hover{
+                  color:#eee;
+                    }
+          }
+      }
+      p:last-child{font-weight:600;}
     }
     .middle{padding-top:10%;}
 
