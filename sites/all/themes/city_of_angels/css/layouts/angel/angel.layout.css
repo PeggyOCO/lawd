@@ -1348,8 +1348,15 @@
   .bottomleft {
     margin-top: 10%;
     margin-left: 2rem; }
+    /* line 892, ../../../sass/layouts/angel/angel.layout.scss */
+    .bottomleft p a {
+      text-decoration: none;
+      color: white; }
+      /* line 893, ../../../sass/layouts/angel/angel.layout.scss */
+      .bottomleft p a a:hover {
+        color: #eee; }
 
-  /* line 892, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 896, ../../../sass/layouts/angel/angel.layout.scss */
   .middle {
     padding-top: 10%; } }
 

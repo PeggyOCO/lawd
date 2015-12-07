@@ -888,7 +888,11 @@ footer{height:20em;background-color:#d5d5d5;margin:0;}
     border:0px dotted pink;
     }
     .bottomleft{margin-top:10%;
-    margin-left:2rem;}
+    margin-left:2rem;
+    p{a{text-decoration:none;color:white;
+      a:hover{color:#eee;}}}
+    
+    }
     .middle{padding-top:10%;}
 
   }
