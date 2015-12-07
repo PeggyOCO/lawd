@@ -750,11 +750,8 @@ margin: 0px 0 !important;
                       }
                   }
 }
-/**end home page**/
 
-.node__submitted{display:none;}
-
-.scrim{background-color: rgba(175, 175, 175, 0.8);
+.scrim{background-color: rgba(200, 200, 200, 0.85);
     position: absolute;
     top: 0;
     left: 0;
@@ -762,6 +759,11 @@ margin: 0px 0 !important;
     height: 100%;
     z-index:9999;
      padding-top:10%;}
+/**end home page**/
+
+.node__submitted{display:none;}
+
+
     
 .fred{color: #d25333;}
 .white{color:#fff;}
