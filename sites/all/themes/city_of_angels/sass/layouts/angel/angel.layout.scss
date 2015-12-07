@@ -754,7 +754,7 @@ margin: 0px 0 !important;
 
 .node__submitted{display:none;}
 
-.scrim{background-color: rgba(88, 88, 88, 0.5);
+.scrim{background-color: rgba(225, 225, 225, 0.6);
     position: absolute;
     top: 0;
     left: 0;
@@ -888,8 +888,9 @@ footer{height:20em;background-color:#d5d5d5;margin:0;}
     border:0px dotted pink;
     }
     .bottomleft{margin-top:10%;
+    font-size:1.25rem;
     margin-left:2rem;
-    p{a{text-decoration:none;color:white;
+    p{a{text-decoration:none;color:$fred;
       a:hover{color:#eee;}}}
     
     }
