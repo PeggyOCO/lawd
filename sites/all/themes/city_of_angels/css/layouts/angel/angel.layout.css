@@ -978,7 +978,8 @@
   /* line 729, ../../../sass/layouts/angel/angel.layout.scss */
   .field-name-field-foursquaresrow {
     height: 25vw;
-    border: 2px dotted red; }
+    width: 100%;
+    border: 0px dotted red; }
 
   /* line 730, ../../../sass/layouts/angel/angel.layout.scss */
   .field-name-field-square1 {
