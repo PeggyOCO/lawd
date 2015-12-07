@@ -708,14 +708,17 @@ margin: 0px 0 !important;
 /**END Projects page**/ 
 
 /**START Project Detail page**/
-.field-name-field-detailrowimage div,.field-name-field-detailrowtitle div,.field-name-field-detailrowcontent div{display:none;}
+/*.field-name-field-detailrowimage div,.field-name-field-detailrowtitle div,.field-name-field-detailrowcontent div{display:none;}
 .field-name-field-detailrowimage,.field-name-field-detailrowtitle,.field-name-field-detailrowcontent{text-align:center;}
 .field-name-field-detailrowtitle{font-size:.8rem;}
 .field-name-field-detailrowcontent{font-size:.8rem;}
 .field-name-field-squares{width:100%;}
 .field-name-field-squares a img{width:25%;height:auto;}
 .field-name-field-squares2{width:100%;}
-.field-name-field-squares2 a img{width:25%;height:auto;}
+.field-name-field-squares2 a img{width:25%;height:auto;}*/
+
+.field field-name-field-detailrow{height:72vw;}
+.field field-name-field-foursquaresrow{height:25vw;border:2px dotted red;}
  
 /**END Project Detail page**/
 
