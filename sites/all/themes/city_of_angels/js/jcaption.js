@@ -17,7 +17,7 @@
 			copyAlignmentToClass: false,
 			copyFloatToClass: true,
 			autoWidth: true,
-			animate: false,
+			animate: true,
 			show: {opacity: 'show'},
 			showDuration: 200,
 			hide: {opacity: 'hide'},
