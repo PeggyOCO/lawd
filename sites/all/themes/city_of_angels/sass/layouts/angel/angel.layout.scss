@@ -651,10 +651,13 @@ font-size:16px;}
 .hover_caption_caption{color: #FFF;
 width: auto;
 font-size: 14px;
+font-weight:normal;
 position: absolute;
 margin: 0px;
+top:10px;
+left:10px;
 display: block;
-padding: 10%;
+padding: 0;
 display: none;
 height: auto;
 z-index: 3;
