@@ -646,9 +646,19 @@ font-size:16px;}
               
   .hover_caption {
    background-color: rgba(0, 0, 0, 0.4);
-   z-index:99;
+   z-index:5;
 }
-.hover_caption_caption{border:1px dotted red;}
+.hover_caption_caption{color: #FFF;
+width: 633px;
+font-size: 18px;
+position: absolute;
+margin: 0px;
+display: block;
+padding: 44.31px;
+display: none;
+height: 34vw;
+z-index: 3;
+background-color: rgba(0, 0, 0, 0.3);}
 
 	.inlinefourup{
   @include flex(1);
