@@ -890,14 +890,14 @@
   /* line 651, ../../../sass/layouts/angel/angel.layout.scss */
   .hover_caption_caption {
     color: #FFF;
-    width: 633px;
-    font-size: 18px;
+    width: auto;
+    font-size: 14px;
     position: absolute;
     margin: 0px;
     display: block;
-    padding: 44.31px;
+    padding: 10%;
     display: none;
-    height: 34vw;
+    height: auto;
     z-index: 3;
     background-color: rgba(0, 0, 0, 0.3); }
 

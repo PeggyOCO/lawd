@@ -62,6 +62,7 @@
              // 'padding': caption_padding,
               'color': config.caption_color,
               'width': width,
+              'height': height,
               'font-size': config.caption_font_size,
               'position': 'absolute',
               'margin': 0
