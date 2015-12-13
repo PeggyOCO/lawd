@@ -17,7 +17,7 @@
 
   $.hover_caption = {
     defaults: {
-      caption_font_size: '18px',
+      caption_font_size: '14px',
       caption_color: 'white',
       caption_bold: true,
       caption_default: "Click for screenshots."
@@ -46,7 +46,7 @@
           // add necessary html and css
           image
             .css({
-              'z-index': '-1',
+              'z-index': '1',
               'position': 'relative'
             })
            .wrap('<div>')
