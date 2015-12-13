@@ -61,23 +61,11 @@
   $(document).ready(function(){
 
      /*   alert($(window).width() + ' got here' + $base_url);*/
+   $('img').hover_caption(); 
     
-    
-	$('.field-name-field-fourup .inlinefourup a img').jcaption({
-	  wrapperElement: 'div',
-		copyStyle: true,
-		animate: true,
-		show: {height: "show"},
-		hide: {height: "hide"}
-	});
+	$('.field-name-field-fourup .inlinefourup a img').hover_caption();
 	
-		$('.field-name-field-rightbig a img').jcaption({
-		wrapperElement: 'div',
-		copyStyle: true,
-		animate: true,
-		show: {height: "show"},
-		hide: {height: "hide"}
-	});
+		$('.field-name-field-rightbig a img').hover_caption();
 
 /*var realurl = $('.field-name-field-rightbig a img').attr('title');
 var realurlsmall = $('.inlinefourup a img').attr('title');

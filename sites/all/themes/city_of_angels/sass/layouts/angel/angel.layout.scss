@@ -199,6 +199,11 @@ clear: both;
   height:72vw;
   clear:both;
   border:none;
+  
+  .hover_caption {
+   background-color: rgba(0, 0, 0, 0.7);
+}
+  
         a{ 
         .caption{width:100% !important;
                  height:72vw !important;
@@ -421,6 +426,11 @@ height:auto;
 
 }
 
+  
+  .hover_caption {
+   background-color: rgba(0, 0, 0, 0.7);
+}
+
 	.inlinefourup{
   @include flex(1);
   @include flex-basis(50%);
@@ -632,6 +642,11 @@ font-size:16px;}
             width:50%;
             float: left;
             }
+            
+              
+  .hover_caption {
+   background-color: rgba(0, 0, 0, 0.7);
+}
 
 	.inlinefourup{
   @include flex(1);
