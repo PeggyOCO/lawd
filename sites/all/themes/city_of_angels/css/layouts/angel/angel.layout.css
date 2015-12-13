@@ -884,7 +884,7 @@
 
   /* line 647, ../../../sass/layouts/angel/angel.layout.scss */
   .hover_caption {
-    background-color: rgba(0, 0, 0, 0.7); }
+    background-color: rgba(0, 0, 0, 0.4); }
 
   /* line 651, ../../../sass/layouts/angel/angel.layout.scss */
   .inlinefourup {
@@ -899,14 +899,14 @@
     height: 17vw;
     float: left; }
     /* line 661, ../../../sass/layouts/angel/angel.layout.scss */
-    .inlinefourup a .caption img {
+    .inlinefourup a .hover_caption img {
       -webkit-flex: 1;
       flex: 1;
       width: 100% !important;
       height: 17vw;
       z-index: 1; }
     /* line 667, ../../../sass/layouts/angel/angel.layout.scss */
-    .inlinefourup a .caption p {
+    .inlinefourup a .hover_caption p {
       font-size: .8em; }
 
   /* line 674, ../../../sass/layouts/angel/angel.layout.scss */
