@@ -64,9 +64,7 @@
               'width': width,
               'font-size': config.caption_font_size,
               'position': 'absolute',
-              'margin': 0,
-              'z-index':2,
-              'background-color':rgba(0,0,0,0.4);
+              'margin': 0
             })
             .hide();
 
