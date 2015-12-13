@@ -61,7 +61,6 @@
   $(document).ready(function(){
 
      /*   alert($(window).width() + ' got here' + $base_url);*/
-   $('img').hover_caption(); 
     
 	$('.field-name-field-fourup .inlinefourup a img').hover_caption();
 	
@@ -98,7 +97,7 @@ $('.inlinefourup').each( function( index, element ){
 
 
 
-$('.field-name-field-fourup .inlinefourup a .caption img').each(function(i, item) {
+/*$('.field-name-field-fourup .inlinefourup a .hover_caption img').each(function(i, item) {
     var img_height = $(item).height();
     var div_height = $(item).parent().height();
     if(img_height<div_height){
@@ -116,7 +115,7 @@ $('.field-name-field-fourup .inlinefourup a .caption img').each(function(i, item
     }
 });
 
-$('.field-name-field-rightbig a .caption img').each(function(i, item) {
+$('.field-name-field-rightbig a .hover_caption img').each(function(i, item) {
     var img_height = $(item).height();
     var div_height = $(item).parent().height();
     if(img_height<div_height){
@@ -132,7 +131,7 @@ $('.field-name-field-rightbig a .caption img').each(function(i, item) {
         var newMargin = (div_width-img_width)/2+'px';
         $(item).css({'margin-left': newMargin});
     }
-});
+});*/
 
 
 });
