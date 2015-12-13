@@ -904,7 +904,7 @@
       flex: 1;
       width: 100% !important;
       height: 17vw;
-      z-index: 1; }
+      /* z-index:1; */ }
     /* line 667, ../../../sass/layouts/angel/angel.layout.scss */
     .inlinefourup a .hover_caption p {
       font-size: .8em; }
