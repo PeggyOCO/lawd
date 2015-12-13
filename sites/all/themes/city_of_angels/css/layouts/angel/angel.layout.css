@@ -896,10 +896,10 @@
     font-weight: normal;
     position: absolute;
     margin: 0px;
-    top: 10px;
-    left: 10px;
+    top: 0;
+    left: 0;
     display: block;
-    padding: 0;
+    padding: 10px;
     display: none;
     height: auto;
     z-index: 3;
