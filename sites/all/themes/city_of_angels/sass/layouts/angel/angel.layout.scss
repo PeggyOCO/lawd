@@ -652,7 +652,13 @@ font-size:16px;}
    height:100%;
 }
 
-.hovercaption{width:100%;height:100%;}
+.hovercaption{
+     @include flex(1);
+     width:100%;
+     height:100%;
+     position:relative;
+     background-color: rgba(0, 0, 0, 0.4);
+ }
 
 .hover_caption_caption{color: #FFF;
 width: auto;
@@ -660,14 +666,14 @@ font-size: 14px;
 font-weight:normal;
 position: absolute;
 margin: 0px;
-top:0;
-left:0;
+top:15px;
+left:15px;
 display: block;
-padding: 10px;
+padding: 0px;
 display: none;
 height: auto;
 z-index: 3;
-background-color: rgba(0, 0, 0, 0.4);}
+}
 
 	.inlinefourup{
   @include flex(1);
