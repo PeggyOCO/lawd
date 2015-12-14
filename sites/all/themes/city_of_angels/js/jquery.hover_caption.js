@@ -20,7 +20,8 @@
       caption_font_size: '14px',
       caption_color: 'white',
       caption_bold: false,
-      caption_default: "Please fill in the alt field for your image."
+       caption_bold: false,
+       caption_default: "Please fill in the alt field for your image."
     }
   }
 
@@ -37,8 +38,8 @@
           var width = image.width();
           var height = image.height();
 
-          // variables for caption
-          //var caption_padding = width * .07; // dynamic margin depending on img width
+          variables for caption
+          var caption_padding = width * .07; // dynamic margin depending on img width
 
           //  set caption to title attr if set
           var caption = image.attr('alt') ? image.attr('alt') : config.caption_default;
@@ -57,11 +58,11 @@
               'width': width,
               'height': height
             })
-            .prepend('<h3>'+ caption +'</h3>')
+            .prepend('<h3>'+ caption + width + height +'</h3>')
             .find('h3')
             .addClass('hover_caption_caption') // use this hook for additional styling
             .css({
-             // 'padding': caption_padding,
+              'padding': caption_padding,
               'color': config.caption_color,
               'width': width,
               'height': height,
