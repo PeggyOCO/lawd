@@ -659,22 +659,23 @@ font-size:16px;}
      position:relative;
      background-color: rgba(0, 0, 0, 0.4);
      z-index:6;
-     border:3px dotted orange;
+     border:0px dotted orange;
  }
 
 .hover_caption_caption{color: #FFF;
-width: auto;
+width: 100%;
+height: 100%;
 font-size: 14px;
 font-weight:normal;
 position: absolute;
 margin: 0px;
-top:15px;
-left:15px;
+top:0px;
+left:0px;
 display: block;
 padding: 0px;
 display: none;
-height: auto;
 z-index: 7;
+background-color: rgba(0, 0, 0, 0.4);
 }
 
 	.inlinefourup{
@@ -693,6 +694,12 @@ z-index: 7;
         width:100% !important;
                   height:17vw;
                   z-index:99;
+                 .hover_caption_caption{
+                       height:17vw;
+                       z-index:99;
+                       background-color: rgba(0, 0, 0, 0.4);
+                       z-index:100;
+                      }
                 img{
                   @include flex(1);
                   width:100% !important;
