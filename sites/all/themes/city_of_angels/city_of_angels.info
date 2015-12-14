@@ -14,10 +14,9 @@ files[] = includes/Mobile_Detect.php
 ; ========================================
 stylesheets[all][] = css/city-of-angels.normalize.css
 stylesheets[all][] = css/city-of-angels.hacks.css
-stylesheets[all][] = css/caption.css
-stylesheets[all][] = css/layouts/angel/angel.layout.css
 stylesheets[all][] = css/city-of-angels.styles.css
 stylesheets[all][] = css/city-of-angels.no-query.css
+stylesheets[all][] = css/layouts/angel/angel.layout.css
 
 ; ========================================
 ; Scripts
