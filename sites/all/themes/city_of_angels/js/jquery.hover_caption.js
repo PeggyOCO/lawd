@@ -20,7 +20,6 @@
       caption_font_size: '14px',
       caption_color: 'white',
       caption_bold: false,
-       caption_bold: false,
        caption_default: "Please fill in the alt field for your image."
     }
   }
@@ -50,7 +49,7 @@
               'z-index': '1',
               'position': 'relative',
               'width':'100%',
-              'height':'auto'
+              'height':'100%'
             })
            .wrap('<div>')
            .parent()
