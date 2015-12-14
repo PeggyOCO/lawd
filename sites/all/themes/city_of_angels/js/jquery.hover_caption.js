@@ -38,7 +38,7 @@
           var width = image.width();
           var height = image.height();
 
-          variables for caption
+         // variables for caption
           var caption_padding = width * .07; // dynamic margin depending on img width
 
           //  set caption to title attr if set
