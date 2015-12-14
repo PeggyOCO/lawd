@@ -936,12 +936,12 @@
     /* line 692, ../../../sass/layouts/angel/angel.layout.scss */
     .inlinefourup a {
       width: 100% !important;
-      height: 17vw;
+      height: 17vw !important;
       z-index: 99; }
       /* line 696, ../../../sass/layouts/angel/angel.layout.scss */
       .inlinefourup a div {
         width: 100% !important;
-        height: 17vw;
+        height: 17vw !important;
         z-index: 99; }
         /* line 699, ../../../sass/layouts/angel/angel.layout.scss */
         .inlinefourup a div .hover_caption_caption {
