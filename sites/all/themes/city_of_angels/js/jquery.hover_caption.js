@@ -49,7 +49,7 @@
               'z-index': '1',
               'position': 'relative'
             })
-           .wrap('<div>')
+           .wrap('<div class="hover_caption">')
            .parent()
             .css({
               'width': width,
