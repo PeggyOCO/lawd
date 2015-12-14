@@ -51,7 +51,7 @@
               'width':'100%',
               'height':'auto'
             })
-           .wrap('<div class="hover_caption">')
+           .wrap('<div class="hovercaption">')
            .parent()
             .css({
               'width': width,
