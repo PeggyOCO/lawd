@@ -47,7 +47,9 @@
           image
             .css({
               'z-index': '1',
-              'position': 'relative'
+              'position': 'relative',
+              'width':'100%',
+              'height':'auto'
             })
            .wrap('<div class="hover_caption">')
            .parent()
