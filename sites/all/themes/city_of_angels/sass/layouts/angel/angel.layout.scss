@@ -738,16 +738,23 @@ background-color: rgba(0, 0, 0, 0.4);
         overflow:hidden;
         height:100%;
         position:relative;
-                 img{
-            @include flex(1);
-            @include flex-shrink(1);
-            @include flex-grow(1);
-            @include flex-basis(100%); 
-            width:100% !important;
-            height:34vw;
-            margin:0;
-
-            }    
+              a{display:block;
+                width:100%;
+                height:100%;
+                div{display:block;
+                    width:100%;
+                    height:34vw;
+                  img{
+                      @include flex(1);
+                     /* @include flex-shrink(1);
+                      @include flex-grow(1);
+                      @include flex-basis(100%);*/ 
+                      width:100% !important;
+                      height:34vw;
+                      margin:0;
+                     } 
+                   }
+                }   
         }
 
 
