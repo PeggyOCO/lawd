@@ -1054,7 +1054,8 @@
     font-size: 1em;
     color: #000;
     text-align: center;
-    width: 70%; }
+    width: 70%;
+    margin: 0 auto; }
 
   /* line 799, ../../../sass/layouts/angel/angel.layout.scss */
   .field-name-field-detailrow {
