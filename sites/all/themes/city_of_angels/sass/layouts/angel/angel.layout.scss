@@ -18,7 +18,7 @@
 $phone : max-width 480px;
 $tab  : 480px 799px;
 $desk : 800px;
-* {font-family:Lato,Tahoma,Verdana, Helvetica, sans-serif;}
+* {font-family:Lato,Tahoma,Verdana, Helvetica, sans-serif;letter-spacing:.05%;}
 
 
 
@@ -795,8 +795,8 @@ margin: 0px 0 !important;
 .field-name-field-squares2{width:100%;}
 .field-name-field-squares2 a img{width:25%;height:auto;}*/
 
-.field-name-field-detailrowtitle{font-size:1.5em;color: #c74c4f;text-align:center;}
-.field-name-field-detailrowcontent{font-size:1em;color: #000;text-align:center;width:70%;margin:0 auto;}
+.field-name-field-detailrowtitle{font-size:1.5em;color: #c74c4f;text-align:center;width:70%;margin:2% auto;}
+.field-name-field-detailrowcontent{font-size:1em;color: #000;text-align:center;width:70%;margin:3% auto;}
 .field-name-field-detailrow{height:72vw;
        div{
             div{

@@ -11,7 +11,8 @@
 /* No files to import found in components/**\/* */
 /* line 21, ../../../sass/layouts/angel/angel.layout.scss */
 * {
-  font-family: Lato,Tahoma,Verdana, Helvetica, sans-serif; }
+  font-family: Lato,Tahoma,Verdana, Helvetica, sans-serif;
+  letter-spacing: .05%; }
 
 @media (max-width: 480px) {
   /* Header Area */
@@ -1048,7 +1049,9 @@
   .field-name-field-detailrowtitle {
     font-size: 1.5em;
     color: #c74c4f;
-    text-align: center; }
+    text-align: center;
+    width: 70%;
+    margin: 2% auto; }
 
   /* line 799, ../../../sass/layouts/angel/angel.layout.scss */
   .field-name-field-detailrowcontent {
@@ -1056,7 +1059,7 @@
     color: #000;
     text-align: center;
     width: 70%;
-    margin: 0 auto; }
+    margin: 3% auto; }
 
   /* line 800, ../../../sass/layouts/angel/angel.layout.scss */
   .field-name-field-detailrow {
