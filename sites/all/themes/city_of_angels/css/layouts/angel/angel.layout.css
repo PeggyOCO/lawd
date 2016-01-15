@@ -12,7 +12,7 @@
 /* line 21, ../../../sass/layouts/angel/angel.layout.scss */
 * {
   font-family: Lato,Tahoma,Verdana, Helvetica, sans-serif;
-  letter-spacing: .05%; }
+  letter-spacing: 2px; }
 
 @media (max-width: 480px) {
   /* Header Area */
