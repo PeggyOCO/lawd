@@ -21,9 +21,9 @@ $desk : 800px;
 * {font-family:Lato,Tahoma,Verdana, Helvetica, sans-serif;letter-spacing:2px;}
 
 .pinktitle{font-size:1.5em;color: #c74c4f;text-transform:uppercase;text-align:center;}
-.wrapfloats{display:block;width:100%;margin:0 auto; border:1px dotted blue;}
-.wrapfloats50{display:block;width:100%;margin:0 auto;border:1px dotted orange;height:50vw;}
-.floatleft2col{display:inline-block;float:left;margin:0em;width:49%;border:1px dotted green;text-align:left;}
+.wrapfloats{display:block;width:100%;margin:0 auto; border:0px dotted blue;}
+.wrapfloats50{display:block;width:100%;margin:0 auto;border:0px dotted orange;height:auto;}
+.floatleft2col{display:inline-block;float:left;margin:0em;width:49%;border:0px dotted green;text-align:left;}
 .clr{clear:both;}
 
 //************phone************//

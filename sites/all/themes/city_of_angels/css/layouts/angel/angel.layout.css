@@ -26,15 +26,15 @@
   display: block;
   width: 100%;
   margin: 0 auto;
-  border: 1px dotted blue; }
+  border: 0px dotted blue; }
 
 /* line 25, ../../../sass/layouts/angel/angel.layout.scss */
 .wrapfloats50 {
   display: block;
   width: 100%;
   margin: 0 auto;
-  border: 1px dotted orange;
-  height: 50vw; }
+  border: 0px dotted orange;
+  height: auto; }
 
 /* line 26, ../../../sass/layouts/angel/angel.layout.scss */
 .floatleft2col {
@@ -42,7 +42,7 @@
   float: left;
   margin: 0em;
   width: 49%;
-  border: 1px dotted green;
+  border: 0px dotted green;
   text-align: left; }
 
 /* line 27, ../../../sass/layouts/angel/angel.layout.scss */
