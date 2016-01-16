@@ -20,11 +20,8 @@
   color: #c74c4f;
   text-transform: uppercase;
   text-align: left; }
-  /* line 24, ../../../sass/layouts/angel/angel.layout.scss */
-  .pinktitle div {
-    margin: 1% 0; }
 
-/* line 25, ../../../sass/layouts/angel/angel.layout.scss */
+/* line 24, ../../../sass/layouts/angel/angel.layout.scss */
 .wrapfloats {
   display: block;
   width: 100%;
@@ -32,7 +29,7 @@
   border: 0px dotted blue;
   margin: 2%; }
 
-/* line 26, ../../../sass/layouts/angel/angel.layout.scss */
+/* line 25, ../../../sass/layouts/angel/angel.layout.scss */
 .wrapfloats50 {
   display: block;
   width: 100%;
@@ -41,7 +38,7 @@
   height: 15vw;
   margin-bottom: 2%; }
 
-/* line 27, ../../../sass/layouts/angel/angel.layout.scss */
+/* line 26, ../../../sass/layouts/angel/angel.layout.scss */
 .floatleft2col {
   display: inline-block;
   float: left;
@@ -49,6 +46,10 @@
   width: 49%;
   border: 0px dotted green;
   text-align: left; }
+
+/* line 27, ../../../sass/layouts/angel/angel.layout.scss */
+.floatleft2col div {
+  margin: 1.5% 0; }
 
 /* line 28, ../../../sass/layouts/angel/angel.layout.scss */
 .floatleft2colA {
