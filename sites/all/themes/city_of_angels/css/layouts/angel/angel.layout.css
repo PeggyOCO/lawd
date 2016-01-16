@@ -1110,6 +1110,7 @@
   .field-name-field-detailrowcontent {
     font-size: 1em;
     color: gray;
+    border: 1px solid red;
     text-align: center;
     width: 85%;
     margin: 3% auto;
