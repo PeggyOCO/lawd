@@ -33,8 +33,8 @@
   display: block;
   width: 100%;
   margin: 0 auto;
-  border: 2px dotted orange;
-  height: auto;
+  border: 0px dotted orange;
+  height: 25vw;
   margin-bottom: 2%; }
 
 /* line 26, ../../../sass/layouts/angel/angel.layout.scss */
