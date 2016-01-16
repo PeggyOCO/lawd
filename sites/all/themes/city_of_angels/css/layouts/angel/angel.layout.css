@@ -18,22 +18,23 @@
 .pinktitle {
   font-size: 1.5em;
   color: #c74c4f;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  text-align: center; }
 
 /* line 24, ../../../sass/layouts/angel/angel.layout.scss */
 .wrapfloats {
   display: block;
   width: 100%;
   margin: 0 auto;
-  border: 1px dotted blue;
-  height: 50vw; }
+  border: 1px dotted blue; }
 
 /* line 25, ../../../sass/layouts/angel/angel.layout.scss */
 .wrapfloats50 {
   display: block;
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
-  border: 1px dotted orange; }
+  border: 1px dotted orange;
+  height: 50vw; }
 
 /* line 26, ../../../sass/layouts/angel/angel.layout.scss */
 .floatleft2col {
@@ -41,7 +42,8 @@
   float: left;
   margin: 0em;
   width: 40%;
-  border: 1px dotted green; }
+  border: 1px dotted green;
+  text-align: left; }
 
 /* line 27, ../../../sass/layouts/angel/angel.layout.scss */
 .clr {
