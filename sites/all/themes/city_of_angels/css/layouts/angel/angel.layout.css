@@ -23,20 +23,23 @@
 .wrapfloats {
   display: block;
   width: 100%;
-  margin: 0 auto; }
+  margin: 0 auto;
+  border: 1px dotted red; }
 
 /* line 25, ../../../sass/layouts/angel/angel.layout.scss */
 .wrapfloats50 {
   display: block;
-  width: 50%;
-  margin: 0 auto; }
+  width: 80%;
+  margin: 0 auto;
+  border: 1px dotted orange; }
 
 /* line 26, ../../../sass/layouts/angel/angel.layout.scss */
 .floatleft2col {
   display: inline-block;
   float: left;
   margin: 2em;
-  width: 40%; }
+  width: 40%;
+  border: 1px dotted green; }
 
 @media (max-width: 480px) {
   /* Header Area */
