@@ -33,8 +33,9 @@
   display: block;
   width: 100%;
   margin: 0 auto;
-  border: 0px dotted orange;
-  height: auto; }
+  border: 2px dotted orange;
+  height: auto;
+  margin-bottom: 2%; }
 
 /* line 26, ../../../sass/layouts/angel/angel.layout.scss */
 .floatleft2col {
@@ -1110,7 +1111,7 @@
   .field-name-field-detailrowcontent {
     font-size: 1em;
     color: gray;
-    border: 1px solid red;
+    border: 0px solid red;
     text-align: center;
     width: 85%;
     margin: 3% auto;
