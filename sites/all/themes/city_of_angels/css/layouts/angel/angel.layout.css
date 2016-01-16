@@ -57,11 +57,11 @@
 /* line 28, ../../../sass/layouts/angel/angel.layout.scss */
 .floatleft2colB {
   display: inline-block;
-  float: left;
+  float: right;
   margin: 0em;
   width: 73%;
   border: 0px dotted green;
-  text-align: left; }
+  text-align: right; }
 
 /* line 30, ../../../sass/layouts/angel/angel.layout.scss */
 .clr {
@@ -1111,7 +1111,7 @@
     font-size: 1em;
     color: gray;
     text-align: center;
-    width: 50%;
+    width: 80%;
     margin: 3% auto; }
 
   /* line 806, ../../../sass/layouts/angel/angel.layout.scss */
