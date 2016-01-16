@@ -37,9 +37,13 @@
 .floatleft2col {
   display: inline-block;
   float: left;
-  margin: 2em;
+  margin: 0em;
   width: 40%;
   border: 1px dotted green; }
+
+/* line 27, ../../../sass/layouts/angel/angel.layout.scss */
+.clr {
+  clear: both; }
 
 @media (max-width: 480px) {
   /* Header Area */
