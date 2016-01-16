@@ -17,14 +17,16 @@
 /* line 23, ../../../sass/layouts/angel/angel.layout.scss */
 .pinktitle {
   font-size: 1.5em;
-  color: #c74c4f; }
+  color: #c74c4f;
+  text-transform: uppercase; }
 
 /* line 24, ../../../sass/layouts/angel/angel.layout.scss */
 .wrapfloats {
   display: block;
   width: 100%;
   margin: 0 auto;
-  border: 1px dotted red; }
+  border: 1px dotted blue;
+  height: 50vw; }
 
 /* line 25, ../../../sass/layouts/angel/angel.layout.scss */
 .wrapfloats50 {

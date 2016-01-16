@@ -20,8 +20,8 @@ $tab  : 480px 799px;
 $desk : 800px;
 * {font-family:Lato,Tahoma,Verdana, Helvetica, sans-serif;letter-spacing:2px;}
 
-.pinktitle{font-size:1.5em;color: #c74c4f;}
-.wrapfloats{display:block;width:100%;margin:0 auto; border:1px dotted red;}
+.pinktitle{font-size:1.5em;color: #c74c4f;text-transform:uppercase;}
+.wrapfloats{display:block;width:100%;margin:0 auto; border:1px dotted blue;height:50vw;}
 .wrapfloats50{display:block;width:80%;margin:0 auto;border:1px dotted orange;}
 .floatleft2col{display:inline-block;float:left;margin:0em;width:40%;border:1px dotted green;}
 .clr{clear:both;}
