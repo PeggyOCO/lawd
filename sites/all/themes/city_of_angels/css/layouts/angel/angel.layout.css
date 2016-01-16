@@ -26,7 +26,8 @@
   display: block;
   width: 100%;
   margin: 0 auto;
-  border: 0px dotted blue; }
+  border: 0px dotted blue;
+  margin: 1%; }
 
 /* line 25, ../../../sass/layouts/angel/angel.layout.scss */
 .wrapfloats50 {
@@ -34,7 +35,7 @@
   width: 100%;
   margin: 0 auto;
   border: 0px dotted orange;
-  height: 25vw;
+  height: 15vw;
   margin-bottom: 2%; }
 
 /* line 26, ../../../sass/layouts/angel/angel.layout.scss */
