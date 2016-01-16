@@ -24,8 +24,8 @@ $desk : 800px;
 .wrapfloats{display:block;width:100%;margin:0 auto; border:0px dotted blue;}
 .wrapfloats50{display:block;width:100%;margin:0 auto;border:0px dotted orange;height:auto;}
 .floatleft2col{display:inline-block;float:left;margin:0em;width:49%;border:0px dotted green;text-align:left;}
-.floatleft2colA{display:inline-block;float:left;margin:0em;width:25%;border:0px dotted green;text-align:left;}
-.floatleft2colB{display:inline-block;float:right;margin:0em;width:73%;border:0px dotted green;text-align:right;}
+.floatleft2colA{display:inline-block;float:left;margin:0em;width:32%;border:0px dotted green;text-align:left;}
+.floatleft2colB{display:inline-block;float:right;margin:0em;width:67%;border:0px dotted green;text-align:right;}
 
 .clr{clear:both;}
 
@@ -802,7 +802,7 @@ margin: 0px 0 !important;
 .field-name-field-squares2 a img{width:25%;height:auto;}*/
 
 .field-name-field-detailrowtitle{font-size:1.5em;color: #c74c4f;text-align:center;width:70%;margin:2% auto;}
-.field-name-field-detailrowcontent{font-size:1em;color: gray;text-align:center;width:80%;margin:3% auto;}
+.field-name-field-detailrowcontent{font-size:1em;color: gray;text-align:center;width:85%;margin:3% auto;padding:3%;}
 .field-name-field-detailrow{height:72vw;
        div{
             div{
