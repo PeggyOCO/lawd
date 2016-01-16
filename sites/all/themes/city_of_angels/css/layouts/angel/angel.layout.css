@@ -1120,7 +1120,9 @@
     text-align: center;
     width: 85%;
     margin: 3% auto;
-    padding: 3%; }
+    padding: 3%;
+    margin-top: 0;
+    padding-top: 0; }
 
   /* line 807, ../../../sass/layouts/angel/angel.layout.scss */
   .field-name-field-detailrow {
