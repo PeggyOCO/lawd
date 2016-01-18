@@ -57,7 +57,7 @@
               'width': width,
               'height': height
             })
-            .prepend('<h3>'+ caption + width + height +'</h3>')
+            .prepend('<h3>'+ caption'</h3>')
             .find('h3')
             .addClass('hover_caption_caption') // use this hook for additional styling
             .css({
