@@ -1504,7 +1504,7 @@
     display: inline-block;
     font-size: 0.65em;
     float: left;
-    margin-top: 100px;
+    margin-top: 60px;
     font-style: italic;
     letter-spacing: 0.5px;
     margin-left: 1.5vw;
@@ -1526,7 +1526,8 @@
 
   /* line 999, ../../../sass/layouts/angel/angel.layout.scss */
   .l-header {
-    margin: 0; }
+    margin: 0;
+    height: 100px; }
 
   /* line 1003, ../../../sass/layouts/angel/angel.layout.scss */
   .l-region--navigation {
