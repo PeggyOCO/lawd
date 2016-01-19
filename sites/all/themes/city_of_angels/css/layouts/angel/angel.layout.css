@@ -1487,7 +1487,7 @@
       list-style-type: none;
       display: inline-block;
       float: left;
-      margin-left: 1em;
+      margin: 0;
       text-transform: uppercase;
       letter-spacing: none; }
       /* line 960, ../../../sass/layouts/angel/angel.layout.scss */
@@ -1499,7 +1499,7 @@
     display: inline-block;
     float: left;
     width: 150px;
-    height: 150px;
+    height: 120px;
     margin-left: 50px; }
 
   /* line 971, ../../../sass/layouts/angel/angel.layout.scss */
