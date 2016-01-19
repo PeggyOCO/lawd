@@ -18,9 +18,9 @@
 $phone : max-width 480px;
 $tab  : 480px 799px;
 $desk : 800px;
-* {font-family:Lato,Tahoma,Verdana, Helvetica, sans-serif;letter-spacing:2px;font-size:2vw;}
+* {font-family:Lato,Tahoma,Verdana, Helvetica, sans-serif;letter-spacing:2px;}
 
-.pinktitle{font-size:1.5em;color: #c74c4f;text-transform:uppercase;text-align:left;}
+.pinktitle{font-size:2em;color: #c74c4f;text-transform:uppercase;text-align:left;}
 .wrapfloats{display:block;width:100%;margin:0 auto; border:0px dotted blue;margin:2%;}
 .wrapfloats50{display:block;width:100%;margin:0 auto;border:0px dotted orange;height:15vw;margin-bottom:2%;}
 .floatleft2col{display:inline-block;float:left;margin:0em;width:49%;border:0px dotted green;text-align:left;}
@@ -36,6 +36,7 @@ $desk : 800px;
   /* Header Area */
 html, body {
 height: 100%;
+width:100%;
 margin: 0;
 font-size:12px;}
 .node__submitted{display:none;}
@@ -260,7 +261,7 @@ clear: both;
 html, body {
 height: 100%;
 margin: 0;
-font-size:14px;}
+font-size:16px;}
 .breadcrumb{display:none;}
 h1{display:none;}
 
@@ -306,7 +307,7 @@ h1{display:none;}
    display:block;
    margin:0;
    padding:1vw;
-   font-size:.8rem;
+   font-size:1rem;
    line-height:2vw;
    background:transparent;
    text-decoration:none;
