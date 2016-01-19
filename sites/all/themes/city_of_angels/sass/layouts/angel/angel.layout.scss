@@ -952,10 +952,26 @@ footer{height:20em;background-color:#d5d5d5;margin:0;}
 
  
 
-  .l-region--branding{width:60%;display:inline-block;float:right;}
+  .l-region--branding{width:55%;display:inline-block;float:right;}
   #block-system-main-menu .menu{list-style-type:none;
-  li{list-style-type:none;display:inline-block;float:left;margin-left:2vw;}
+  li{list-style-type:none;display:inline-block;float:left;margin-left:1.5vw;text-transform:uppercase;letter-spacing:none;}
   }
+  
+  .site-logo {
+    float: left;
+    width: auto;
+    height: 200px;
+}
+  
+  .site-slogan {
+    font-size: 0.5em;
+    float: left;
+    margin-top: 100px;
+    font-style: italic;
+    letter-spacing: 0.5px;
+    margin-left: 1vw;
+    color: gray;
+}
   
   #superfish-1{
   margin-top:2vw;
@@ -971,6 +987,7 @@ footer{height:20em;background-color:#d5d5d5;margin:0;}
     border: 0px dotted maroon;
     background-color: #ededed;
     text-align:left;
+    height:200px;
 
   }
   
