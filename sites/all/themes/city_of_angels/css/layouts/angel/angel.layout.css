@@ -1487,49 +1487,55 @@
       list-style-type: none;
       display: inline-block;
       float: left;
-      margin-left: 1.5vw;
+      margin-left: 1em;
       text-transform: uppercase;
       letter-spacing: none; }
 
   /* line 960, ../../../sass/layouts/angel/angel.layout.scss */
   .site-logo {
+    display: inline-block;
     float: left;
-    width: auto;
-    height: 200px; }
+    width: 150px;
+    height: auto;
+    margin-left: 50px; }
 
-  /* line 966, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 968, ../../../sass/layouts/angel/angel.layout.scss */
   .site-slogan {
-    font-size: 0.5em;
+    display: inline-block;
+    font-size: 0.65em;
     float: left;
     margin-top: 100px;
     font-style: italic;
     letter-spacing: 0.5px;
-    margin-left: 1vw;
+    margin-left: 1.5vw;
     color: gray; }
 
-  /* line 976, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 979, ../../../sass/layouts/angel/angel.layout.scss */
   #superfish-1 {
     margin-top: 2vw; }
-    /* line 978, ../../../sass/layouts/angel/angel.layout.scss */
+    /* line 981, ../../../sass/layouts/angel/angel.layout.scss */
     #superfish-1 li {
       margin-left: 2vw; }
 
-  /* line 984, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 987, ../../../sass/layouts/angel/angel.layout.scss */
   .l-branding {
+    width: 60%;
+    position: absolute;
+    margin: 0px 0px 0px 50%;
     border: 0px dotted maroon;
     background-color: #ededed;
     text-align: left;
-    height: 200px; }
+    height: auto; }
 
-  /* line 994, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 999, ../../../sass/layouts/angel/angel.layout.scss */
   .l-header {
     margin: 0; }
 
-  /* line 998, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1003, ../../../sass/layouts/angel/angel.layout.scss */
   .l-region--navigation {
     clear: both; }
 
-  /* line 1002, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1007, ../../../sass/layouts/angel/angel.layout.scss */
   .l-main {
     -webkit-flex: 1;
     flex: 1;

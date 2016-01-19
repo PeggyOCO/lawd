@@ -954,22 +954,25 @@ footer{height:20em;background-color:#d5d5d5;margin:0;}
 
   .l-region--branding{width:55%;display:inline-block;float:right;}
   #block-system-main-menu .menu{list-style-type:none;
-  li{list-style-type:none;display:inline-block;float:left;margin-left:1.5vw;text-transform:uppercase;letter-spacing:none;}
+  li{list-style-type:none;display:inline-block;float:left;margin-left:1em;text-transform:uppercase;letter-spacing:none;}
   }
   
-  .site-logo {
+.site-logo {
+    display:inline-block;
     float: left;
-    width: auto;
-    height: 200px;
+    width: 150px;
+    height: auto;
+    margin-left: 50px;
 }
   
   .site-slogan {
-    font-size: 0.5em;
+    display:inline-block;
+    font-size: 0.65em;
     float: left;
     margin-top: 100px;
     font-style: italic;
     letter-spacing: 0.5px;
-    margin-left: 1vw;
+    margin-left: 1.5vw;
     color: gray;
 }
   
@@ -982,12 +985,14 @@ footer{height:20em;background-color:#d5d5d5;margin:0;}
  
  
   .l-branding {
-
+    width: 60%;
+    position: absolute;
+    margin: 0px 0px 0px 50%;
 
     border: 0px dotted maroon;
     background-color: #ededed;
     text-align:left;
-    height:200px;
+    height:auto;
 
   }
   
