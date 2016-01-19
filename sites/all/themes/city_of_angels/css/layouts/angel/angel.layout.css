@@ -782,8 +782,8 @@
     display: block;
     margin: 0;
     padding: 1vw;
-    font-size: .8rem;
-    line-height: .8rem;
+    font-size: 1.1rem;
+    line-height: 1.1rem;
     background: transparent;
     text-decoration: none;
     color: #444;
@@ -1475,7 +1475,7 @@
 
   /* line 955, ../../../sass/layouts/angel/angel.layout.scss */
   .l-region--branding {
-    width: 50%;
+    width: 60%;
     display: inline-block;
     float: right; }
 
