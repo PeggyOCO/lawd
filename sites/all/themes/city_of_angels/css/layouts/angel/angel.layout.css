@@ -1475,14 +1475,14 @@
 
   /* line 955, ../../../sass/layouts/angel/angel.layout.scss */
   .l-region--branding {
-    width: 55%;
-    display: inline-block;
-    float: right; }
+    width: 60%;
+    position: absolute;
+    margin: 0px 0px 0px 39%; }
 
-  /* line 956, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 958, ../../../sass/layouts/angel/angel.layout.scss */
   #block-system-main-menu .menu {
     list-style-type: none; }
-    /* line 957, ../../../sass/layouts/angel/angel.layout.scss */
+    /* line 959, ../../../sass/layouts/angel/angel.layout.scss */
     #block-system-main-menu .menu li {
       list-style-type: none;
       display: inline-block;
@@ -1491,15 +1491,15 @@
       text-transform: uppercase;
       letter-spacing: none; }
 
-  /* line 960, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 962, ../../../sass/layouts/angel/angel.layout.scss */
   .site-logo {
     display: inline-block;
     float: left;
     width: 150px;
-    height: auto;
+    height: 150px;
     margin-left: 50px; }
 
-  /* line 968, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 970, ../../../sass/layouts/angel/angel.layout.scss */
   .site-slogan {
     display: inline-block;
     font-size: 0.65em;
@@ -1510,18 +1510,15 @@
     margin-left: 1.5vw;
     color: gray; }
 
-  /* line 979, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 981, ../../../sass/layouts/angel/angel.layout.scss */
   #superfish-1 {
     margin-top: 2vw; }
-    /* line 981, ../../../sass/layouts/angel/angel.layout.scss */
+    /* line 983, ../../../sass/layouts/angel/angel.layout.scss */
     #superfish-1 li {
       margin-left: 2vw; }
 
-  /* line 987, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 989, ../../../sass/layouts/angel/angel.layout.scss */
   .l-branding {
-    width: 60%;
-    position: absolute;
-    margin: 0px 0px 0px 50%;
     border: 0px dotted maroon;
     background-color: #ededed;
     text-align: left;
