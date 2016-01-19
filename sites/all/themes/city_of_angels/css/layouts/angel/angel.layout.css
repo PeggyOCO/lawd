@@ -898,7 +898,7 @@
     .hundredpercent p {
       text-align: left;
       border: 0px dotted red;
-      width: 50%;
+      width: 70%;
       margin: 0 auto;
       position: absolute;
       top: 20%;
@@ -906,7 +906,7 @@
       height: 8vw; }
       /* line 617, ../../../sass/layouts/angel/angel.layout.scss */
       .hundredpercent p p {
-        font-size: .8em; }
+        font-size: 1.5vw; }
 
   /* line 623, ../../../sass/layouts/angel/angel.layout.scss */
   .hundredpercenthome {
