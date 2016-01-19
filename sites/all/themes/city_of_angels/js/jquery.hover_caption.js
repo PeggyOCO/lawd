@@ -17,9 +17,9 @@
 
   $.hover_caption = {
     defaults: {
-      caption_font_size: '14px',
+      caption_font_size: '2vw',
       caption_color: 'white',
-      caption_bold: false,
+      caption_bold: true,
        caption_default: "Please fill in the alt field for your image."
     }
   }
@@ -38,7 +38,7 @@
           var height = image.height();
 
          // variables for caption
-          var caption_padding = width * .07; // dynamic margin depending on img width
+          var caption_padding = width * .2; // dynamic margin depending on img width
 
           //  set caption to title attr if set
           var caption = image.attr('alt') ? image.attr('alt') : config.caption_default;
