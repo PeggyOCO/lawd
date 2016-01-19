@@ -12,7 +12,8 @@
 /* line 21, ../../../sass/layouts/angel/angel.layout.scss */
 * {
   font-family: Lato,Tahoma,Verdana, Helvetica, sans-serif;
-  letter-spacing: 2px; }
+  letter-spacing: 2px;
+  font-size: 2vw; }
 
 /* line 23, ../../../sass/layouts/angel/angel.layout.scss */
 .pinktitle {
