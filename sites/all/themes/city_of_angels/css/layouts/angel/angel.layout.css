@@ -890,7 +890,7 @@
   .hundredpercent {
     position: relative;
     background-color: #4cbdbf;
-    height: 16rem;
+    height: 18rem;
     margin-top: 0;
     padding-top: 0;
     width: 100%; }
@@ -902,7 +902,7 @@
       margin: 0 auto;
       font-size: 2.3vw;
       position: absolute;
-      top: 30%;
+      top: 33%;
       left: 15%;
       height: 8vw; }
 
@@ -1533,7 +1533,7 @@
   /* line 1005, ../../../sass/layouts/angel/angel.layout.scss */
   .l-header {
     margin: 0;
-    height: 100px; }
+    height: 108px; }
 
   /* line 1009, ../../../sass/layouts/angel/angel.layout.scss */
   .l-region--navigation {
