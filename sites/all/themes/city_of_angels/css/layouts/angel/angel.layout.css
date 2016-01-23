@@ -1541,9 +1541,13 @@
       list-style: none;
       margin-top: -.5em; }
       /* line 990, ../../../sass/layouts/angel/angel.layout.scss */
+      .field--name-field-blurb ul a {
+        color: #fff;
+        text-decoration: none; }
+      /* line 991, ../../../sass/layouts/angel/angel.layout.scss */
       .field--name-field-blurb ul a:hover {
         color: #e1e1e1; }
-    /* line 992, ../../../sass/layouts/angel/angel.layout.scss */
+    /* line 993, ../../../sass/layouts/angel/angel.layout.scss */
     .field--name-field-blurb p {
       width: 60%;
       display: inline-block;
@@ -1553,7 +1557,7 @@
       vertical-align: center;
       margin-top: -.25em; }
 
-  /* line 993, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 994, ../../../sass/layouts/angel/angel.layout.scss */
   blockquote.image-field-caption {
     width: 100%;
     position: absolute;
@@ -1569,7 +1573,7 @@
     margin-left: 0;
     margin-right: 0; }
 
-  /* line 1007, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1008, ../../../sass/layouts/angel/angel.layout.scss */
   .site-slogan {
     display: inline-block;
     font-size: 1vw;
@@ -1580,30 +1584,30 @@
     margin-left: 1.5vw;
     color: gray; }
 
-  /* line 1018, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1019, ../../../sass/layouts/angel/angel.layout.scss */
   #superfish-1 {
     margin-top: 2vw; }
-    /* line 1020, ../../../sass/layouts/angel/angel.layout.scss */
+    /* line 1021, ../../../sass/layouts/angel/angel.layout.scss */
     #superfish-1 li {
       margin-left: 2vw; }
 
-  /* line 1026, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1027, ../../../sass/layouts/angel/angel.layout.scss */
   .l-branding {
     border: 0px dotted maroon;
     background-color: #ededed;
     text-align: left;
     height: auto; }
 
-  /* line 1036, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1037, ../../../sass/layouts/angel/angel.layout.scss */
   .l-header {
     margin: 0;
     height: 108px; }
 
-  /* line 1040, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1041, ../../../sass/layouts/angel/angel.layout.scss */
   .l-region--navigation {
     clear: both; }
 
-  /* line 1044, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1045, ../../../sass/layouts/angel/angel.layout.scss */
   .l-main {
     -webkit-flex: 1;
     flex: 1;
