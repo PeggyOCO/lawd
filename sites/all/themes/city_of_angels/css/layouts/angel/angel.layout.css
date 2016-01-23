@@ -1522,7 +1522,8 @@
 
   /* line 978, ../../../sass/layouts/angel/angel.layout.scss */
   .field--name-field-blurb {
-    border: 1px dotted green;
+    margin-bottom: -.5em;
+    border: 0px dotted green;
     display: block;
     position: relative;
     background-color: #4abdbf;
