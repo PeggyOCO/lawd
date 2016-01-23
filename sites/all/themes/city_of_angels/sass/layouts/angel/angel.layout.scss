@@ -974,16 +974,31 @@ footer{height:15em;background-color:#d5d5d5;margin:0;margin-top:-.25em;}
 .site-logo img {height:100%;}
 article.node--services{position:relative;margin-top:-1em;}
 img[alt="Top picture"]{position:relative;margin-top:0;margin-left:0;}
-blockquote.sig{p{font-style:italic;font-size:.75em;text-align:right;letter-spacing:0;}}
+
+blockquote.sig{
+    p{
+        font-style:italic;
+        font-size:.75em;
+        font-size:1.5vw;
+        font-size:1.5vmin;
+        text-align:right;
+        letter-spacing:0;
+    }
+  }
+  
 .field--name-field-blurb{border:0px dotted green;display:block;position:relative;background-color:#4abdbf;height:300px;margin-top:-5px;padding:4em;color:#fff;
 ul{display:inline-block;
 border:0px dotted red;
 float:left;
 font-size:1.1em;
+font-size:1.5vw;
+font-size:1.5vmin;
 width:30%;
 height:100%;
 vertical-align:center;
 line-height: 1.5em;
+line-height: 1.5vw;
+line-height: 1.5vmin;
 width: 30%;
 height: 100%;
 margin-top: -2em;
@@ -1003,7 +1018,10 @@ li{
 
 p{margin-top:-.175em;border:0px dotted blue;width:60%;color:black;display:inline-block;float:right;font-size:2em;text-align:center;height:100%;vertical-align:center;}}
  .entity-field-collection-item{margin-top:-10px !important;}
- .field--name-body{width:50%;margin:5em auto;font-size:1.2em;
+ .field--name-body{width:50%;margin:5em auto;
+ font-size:1.2em;
+ font-size:1.5vw;
+ font-size:1.5vmin;
  h2{text-align:center;}
  p{text-align:left;margin:2em 0;}}
  blockquote.image-field-caption{width: 100%;
@@ -1011,6 +1029,10 @@ position: absolute;
 top: 200px;
 left: 0;
 font-size: 2.5em;
+font-size:2.5vw;
+font-size:2.5vmin;
+
+
 color: white;
 text-align: center;
 background-color: rgba(140,140,140,0.75);
@@ -1024,7 +1046,9 @@ display: block;
 
   .site-slogan {
     display:inline-block;
+    font-size:.6em;
     font-size: 1vw;
+    font-size: 1vmin;
     float: left;
     margin-top: 80px;
     font-style: italic;
