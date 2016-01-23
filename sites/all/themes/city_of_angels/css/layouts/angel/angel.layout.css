@@ -1522,8 +1522,10 @@
 
   /* line 978, ../../../sass/layouts/angel/angel.layout.scss */
   .field--name-field-blurb {
+    display: block;
+    position: relative;
     background-color: #4abdbf;
-    height: 200px;
+    height: 350px;
     margin-top: -5px;
     padding: 4em 4em;
     color: #fff; }
