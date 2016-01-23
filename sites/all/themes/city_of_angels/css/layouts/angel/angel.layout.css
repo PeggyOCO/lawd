@@ -1534,13 +1534,17 @@
       float: left;
       font-size: 1em;
       line-spacing: 1.2em;
-      width: 40%; }
+      width: 30%;
+      height: 100%;
+      vertical-align: center; }
     /* line 980, ../../../sass/layouts/angel/angel.layout.scss */
     .field--name-field-blurb p {
       width: 50%;
       display: inline-block;
       float: right;
-      font-size: 2em; }
+      font-size: 2em;
+      height: 100%;
+      vertical-align: center; }
 
   /* line 981, ../../../sass/layouts/angel/angel.layout.scss */
   blockquote.image-field-caption {
