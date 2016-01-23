@@ -1516,9 +1516,9 @@
 
   /* line 977, ../../../sass/layouts/angel/angel.layout.scss */
   img[alt="Top picture"] {
-    position: absolute;
-    top: 0;
-    left: 0; }
+    position: relative;
+    margin-top: 0;
+    margin-left: 0; }
 
   /* line 979, ../../../sass/layouts/angel/angel.layout.scss */
   .site-slogan {
