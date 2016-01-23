@@ -1501,7 +1501,7 @@
     display: inline-block;
     float: left;
     width: 150px;
-    height: 120px;
+    height: 95px;
     margin-left: 50px;
     margin-top: 15px; }
 
@@ -1511,7 +1511,8 @@
 
   /* line 976, ../../../sass/layouts/angel/angel.layout.scss */
   article.node--services {
-    position: relative; }
+    position: relative;
+    margin-top: -1em; }
 
   /* line 977, ../../../sass/layouts/angel/angel.layout.scss */
   img[alt="Top picture"] {
