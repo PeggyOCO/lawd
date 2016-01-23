@@ -1525,7 +1525,7 @@
     background-color: #4abdbf;
     height: 200px;
     margin-top: -5px;
-    padding: 2em 4em;
+    padding: 4em 4em;
     color: #fff; }
     /* line 979, ../../../sass/layouts/angel/angel.layout.scss */
     .field--name-field-blurb ul {
@@ -1585,7 +1585,7 @@
     font-size: 3em;
     color: white;
     text-align: center;
-    background-color: rgba(50, 50, 50, 0.6);
+    background-color: rgba(140, 140, 140, 0.6);
     display: block;
     margin-top: 0;
     margin-bottom: 0;
