@@ -299,9 +299,10 @@
 
   /* line 110, ../../../sass/layouts/angel/angel.layout.scss */
   footer {
-    height: 20em;
+    height: 15em;
     background-color: #d5d5d5;
-    margin: 0; }
+    margin: 0;
+    margin-top: -.25em; }
 
   /* line 115, ../../../sass/layouts/angel/angel.layout.scss */
   .l-region--branding {
@@ -1558,9 +1559,6 @@
         /* line 997, ../../../sass/layouts/angel/angel.layout.scss */
         .field--name-field-blurb ul li a:hover {
           color: #e1e1e1; }
-    /* line 1002, ../../../sass/layouts/angel/angel.layout.scss */
-    .field--name-field-blurb footer {
-      margin-top: -.5em; }
     /* line 1004, ../../../sass/layouts/angel/angel.layout.scss */
     .field--name-field-blurb p {
       border: 0px dotted blue;
