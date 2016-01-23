@@ -1548,13 +1548,13 @@
       float: left;
       font-size: 1.1em;
       font-size: 3.5vw;
-      font-size: 3.5vmin;
+      /* font-size:3.5vmin;*/
       width: 30%;
       height: 100%;
       vertical-align: center;
       line-height: 1.5em;
       line-height: 3.5vw;
-      line-height: 3.5vmin;
+      /*line-height: 3.5vmin;*/
       width: 30%;
       height: 100%;
       margin-top: -2em;
