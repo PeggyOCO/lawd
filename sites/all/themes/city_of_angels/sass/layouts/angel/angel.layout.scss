@@ -975,8 +975,16 @@ footer{height:20em;background-color:#d5d5d5;margin:0;}
 .site-logo img {height:100%;}
 article.node--services{position:relative;margin-top:-1em;}
 img[alt="Top picture"]{position:relative;margin-top:0;margin-left:0;}
-.field--name-field-blurb{background-color:#4abdbf;height:300px;margin-top:0;padding:2em 4em;color:#fff;}
-  
+.field--name-field-blurb{background-color:#4abdbf;height:200px;margin-top:0;padding:2em 4em;color:#fff;}
+ blockquote.img-field-caption{width: 100%;
+position: absolute;
+top: 200px;
+left: 0px;
+font-size: 3em;
+color: white;
+text-align: center;
+background-color: rgba(50,50,50,0.3);} 
+
   .site-slogan {
     display:inline-block;
     font-size: 1vw;
