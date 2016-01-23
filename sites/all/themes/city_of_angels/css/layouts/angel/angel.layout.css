@@ -1560,15 +1560,15 @@
       margin-top: .75em; }
 
   /* line 995, ../../../sass/layouts/angel/angel.layout.scss */
-  .field--name-field-body {
+  .field--name-body {
     width: 70%;
     margin: 0 auto;
     font-size: 1.2em; }
     /* line 996, ../../../sass/layouts/angel/angel.layout.scss */
-    .field--name-field-body h2 {
+    .field--name-body h2 {
       text-align: center; }
     /* line 997, ../../../sass/layouts/angel/angel.layout.scss */
-    .field--name-field-body p {
+    .field--name-body p {
       text-align: left;
       margin: 2em 0; }
 
