@@ -1596,6 +1596,7 @@
     top: 200px;
     left: 0;
     font-size: 2.5em;
+    line-height: 3em;
     color: white;
     text-align: center;
     background-color: rgba(140, 140, 140, 0.75);
@@ -1606,7 +1607,7 @@
     margin-right: 0;
     height: 3em; }
 
-  /* line 1023, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1024, ../../../sass/layouts/angel/angel.layout.scss */
   .site-slogan {
     display: inline-block;
     font-size: 1vw;
@@ -1617,30 +1618,30 @@
     margin-left: 1.5vw;
     color: gray; }
 
-  /* line 1034, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1035, ../../../sass/layouts/angel/angel.layout.scss */
   #superfish-1 {
     margin-top: 2vw; }
-    /* line 1036, ../../../sass/layouts/angel/angel.layout.scss */
+    /* line 1037, ../../../sass/layouts/angel/angel.layout.scss */
     #superfish-1 li {
       margin-left: 2vw; }
 
-  /* line 1042, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1043, ../../../sass/layouts/angel/angel.layout.scss */
   .l-branding {
     border: 0px dotted maroon;
     background-color: #ededed;
     text-align: left;
     height: auto; }
 
-  /* line 1052, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1053, ../../../sass/layouts/angel/angel.layout.scss */
   .l-header {
     margin: 0;
     height: 108px; }
 
-  /* line 1056, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1057, ../../../sass/layouts/angel/angel.layout.scss */
   .l-region--navigation {
     clear: both; }
 
-  /* line 1060, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1061, ../../../sass/layouts/angel/angel.layout.scss */
   .l-main {
     -webkit-flex: 1;
     flex: 1;
