@@ -1524,7 +1524,7 @@
   .field--name-field-blurb {
     background-color: #4abdbf;
     height: 200px;
-    margin-top: 0;
+    margin-top: -5px;
     padding: 2em 4em;
     color: #fff; }
 
