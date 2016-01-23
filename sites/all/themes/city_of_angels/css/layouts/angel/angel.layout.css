@@ -1559,6 +1559,10 @@
       vertical-align: center;
       margin-top: .75em; }
 
+  /* line 994, ../../../sass/layouts/angel/angel.layout.scss */
+  .entity-field-collection-item {
+    margin-top: -10px !important; }
+
   /* line 995, ../../../sass/layouts/angel/angel.layout.scss */
   .field--name-body {
     width: 70%;
