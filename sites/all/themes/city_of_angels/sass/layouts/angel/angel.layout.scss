@@ -975,7 +975,7 @@ footer{height:15em;background-color:#d5d5d5;margin:0;margin-top:-.25em;}
 article.node--services{position:relative;margin-top:-1em;}
 img[alt="Top picture"]{position:relative;margin-top:0;margin-left:0;}
 blockquote.sig{p{font-style:italic;font-size:.75em;text-align:right;letter-spacing:0;}}
-.field--name-field-blurb{margin-bottom:-.5em;border:0px dotted green;display:block;position:relative;background-color:#4abdbf;height:300px;margin-top:-5px;padding:4em;color:#fff;
+.field--name-field-blurb{border:0px dotted green;display:block;position:relative;background-color:#4abdbf;height:300px;margin-top:-5px;padding:4em;color:#fff;
 ul{display:inline-block;
 border:0px dotted red;
 float:left;
@@ -986,7 +986,7 @@ vertical-align:center;
 line-height: 1.5em;
 width: 30%;
 height: 100%;
-margin-top: -1em;
+margin-top: -2em;
 list-style: none;
 li:first-child {
     margin-top:0;
@@ -1001,7 +1001,7 @@ li{
 
 
 
-p{border:0px dotted blue;width:60%;color:black;display:inline-block;float:right;font-size:2em;text-align:center;height:100%;vertical-align:center;}}
+p{margin-top:-1em;border:0px dotted blue;width:60%;color:black;display:inline-block;float:right;font-size:2em;text-align:center;height:100%;vertical-align:center;}}
  .entity-field-collection-item{margin-top:-10px !important;}
  .field--name-body{width:50%;margin:5em auto;font-size:1.2em;
  h2{text-align:center;}
