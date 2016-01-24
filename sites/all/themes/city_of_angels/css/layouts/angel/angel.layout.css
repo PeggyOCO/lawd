@@ -1291,7 +1291,7 @@
     -o-background-size: cover;
     background-size: cover;
     height: 45em;
-    width: 100% !important; }
+    width: 100vw !important; }
 
   /* line 895, ../../../sass/layouts/angel/angel.layout.scss */
   .hometop {
