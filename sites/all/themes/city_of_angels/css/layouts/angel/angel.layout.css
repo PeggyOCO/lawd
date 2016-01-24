@@ -1593,11 +1593,11 @@
       /* line 1043, ../../../sass/layouts/angel/angel.layout.scss */
       .field--name-field-blurb p span {
         display: block;
-        width: 75%;
+        width: 100%;
         text-align: right;
         font-weight: bold;
         font-size: .5em;
-        margin-top: 2em; }
+        margin-top: 1.5em; }
 
   /* line 1053, ../../../sass/layouts/angel/angel.layout.scss */
   .entity-field-collection-item {
