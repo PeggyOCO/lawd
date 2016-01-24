@@ -984,6 +984,7 @@ div.sig{
         letter-spacing: 0.5px;
         font-size:.75em;
         font-size: 1.25vw;
+        font-style:italic;
         width:50%;
         margin-left:50%;
   }
@@ -1031,7 +1032,7 @@ div.sig{
       p{
          /* margin-top:-.175em;*/
           border:0px dotted blue;
-          width:40%;
+          width:60%;
           color:black;
           display:inline-block;
           float:right;
@@ -1043,24 +1044,29 @@ div.sig{
             span{display:block;
             width:100%;
           text-align:right;
-          font-weight:bold;
+          font-weight:400;
+          font-style:italic;
           font-size:.5em;
           margin-top:1.5em;}
          
           }
         
     }
+    
+ 
  .entity-field-collection-item{margin-top:-10px !important;}
- .field--name-body{width:60%;margin:5em auto;
-      p{text-align:left;margin:2.5em 0;
+ .field--name-body{width:40%;margin:5em auto;
+      p.services-par{text-align:left;margin:2.5em 0;
       font-size:1.1em;
-      font-size:2vw;
+      font-size:2.5vw;
+      text-align:left;
+      font-color:#666;
  }}
  
  div.centered{
  text-align:center;
   font-size:1.5em;
- font-size:2.5vw;
+ font-size:3vw;
  font-weight:400;
  width:50%;
  margin:0 auto;}
