@@ -1040,13 +1040,15 @@ div.sig{
           text-align:center;
           height:100%;
           vertical-align:center;
-         
-          }
-          p:after{content: "by line";
+            span{display:block;
+            width:75%;
           text-align:right;
           font-weight:bold;
           font-size:.5em;
           margin-top:2em;}
+         
+          }
+        
     }
  .entity-field-collection-item{margin-top:-10px !important;}
  .field--name-body{width:60%;margin:5em auto;
