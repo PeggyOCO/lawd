@@ -977,11 +977,14 @@ img[alt="Top picture"]{position:relative;margin-top:0;margin-left:0;}
 
 blockquote.sig{
     p{
-        font-style:italic;
+        display: block;
+        clear: both;
+        text-align: right;
+        color: rgb(0, 0, 0);
+        font-style: italic;
+        letter-spacing: 0.5px;
         font-size:.75em;
-        font-size:1.25vw;
-        text-align:right;
-        letter-spacing:0;
+        font-size: 1.25vw;
     }
   }
   
