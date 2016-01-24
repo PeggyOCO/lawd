@@ -1600,7 +1600,7 @@
         font-style: italic;
         font-size: .5em;
         margin-top: 1.5em;
-        letter-spacing: .2em; }
+        letter-spacing: 0em; }
 
   /* line 1058, ../../../sass/layouts/angel/angel.layout.scss */
   .entity-field-collection-item {
