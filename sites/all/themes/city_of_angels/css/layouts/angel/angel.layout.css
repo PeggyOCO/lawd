@@ -1609,7 +1609,7 @@
     margin: 5em auto; }
     /* line 1055, ../../../sass/layouts/angel/angel.layout.scss */
     .field--name-body p {
-      text-align: left;
+      text-align: justify;
       margin: 2em 0;
       font-size: 1.1em;
       font-size: 2vw; }
