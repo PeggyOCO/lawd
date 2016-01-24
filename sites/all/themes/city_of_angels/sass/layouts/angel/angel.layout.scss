@@ -1044,19 +1044,20 @@ blockquote.sig{
     }
  .entity-field-collection-item{margin-top:-10px !important;}
  .field--name-body{width:60%;margin:5em auto;
-
-
-div.centered{text-align:center;
+      p{text-align:left;margin:2em 0;
+      font-size:1.1em;
+      font-size:2vw;
+ }}
+ 
+ div.centered{
+ text-align:center;
   font-size:1.5em;
  font-size:2.25vw;
- width:60%;
- margin:0 auto;}
+ width:50%;
+ margin:0 auto;
+ border:1px solid brown;}
  
-
- p{text-align:left;margin:2em 0;
-  font-size:1.1em;
- font-size:2vw;
- }}
+ 
  blockquote.image-field-caption{width: 100%;
 position: absolute;
 top: 200px;
