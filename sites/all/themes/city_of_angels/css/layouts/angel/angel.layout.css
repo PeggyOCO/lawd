@@ -1523,7 +1523,7 @@
     margin-left: 0; }
 
   /* line 978, ../../../sass/layouts/angel/angel.layout.scss */
-  blockquote.sig {
+  div.sig {
     display: block;
     clear: both;
     text-align: right;
@@ -1542,7 +1542,7 @@
     position: relative;
     background-color: #4abdbf;
     height: 300px;
-    height: 25em;
+    height: 18em;
     margin-top: -5px;
     padding: 4em;
     color: #fff; }
