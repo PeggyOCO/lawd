@@ -1056,12 +1056,19 @@ div.sig{
  
  .entity-field-collection-item{margin-top:-10px !important;}
  .field--name-body{width:50%;margin:5em auto;
-      p.services-par{text-align:left;margin:2.5em 0;
-      font-size:1.1em;
-      font-size:2.15vw;
-      text-align:left;
-      font-color:#666;
- }}
+       div{
+          div{
+              p.services-par{
+              text-align:left;
+              margin:2.5em 0;
+              font-size:1.1em;
+              font-size:1.8vw;
+              text-align:left;
+              font-color:#666;
+              }
+          }
+      }
+  }
  
  div.centered{
  text-align:center;
