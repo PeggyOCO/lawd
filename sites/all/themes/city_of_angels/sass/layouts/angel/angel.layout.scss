@@ -994,7 +994,7 @@ blockquote.sig{
     position:relative;
     background-color:#4abdbf;
     height:300px;
-    height:25vw;
+    height:20vw;
     margin-top:-5px;
     padding:4em;
     color:#fff;
@@ -1045,10 +1045,14 @@ blockquote.sig{
  .entity-field-collection-item{margin-top:-10px !important;}
  .field--name-body{width:60%;margin:5em auto;
 
+ *, *::before, *::after {
+    box-sizing: content-box;}
+
  h2{text-align:center;
   font-size:1.5em;
- font-size:2.25vw;
- box-sizing:unset;}
+ font-size:2.25vw;}
+ 
+
  p{text-align:left;margin:2em 0;
   font-size:1.1em;
  font-size:2vw;
