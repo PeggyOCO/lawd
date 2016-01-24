@@ -1620,6 +1620,10 @@
       font-color: #666; }
 
   /* line 1074, ../../../sass/layouts/angel/angel.layout.scss */
+  article.node--article .field--name-body {
+    width: 100%; }
+
+  /* line 1076, ../../../sass/layouts/angel/angel.layout.scss */
   div.centered {
     text-align: center;
     font-size: 1.5em;
@@ -1628,7 +1632,7 @@
     width: 98%;
     margin: 0 auto; }
 
-  /* line 1083, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1085, ../../../sass/layouts/angel/angel.layout.scss */
   blockquote.image-field-caption {
     width: 100%;
     position: absolute;
@@ -1647,7 +1651,7 @@
     height: 3em;
     padding-bottom: .25em; }
 
-  /* line 1100, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1102, ../../../sass/layouts/angel/angel.layout.scss */
   .site-slogan {
     display: inline-block;
     font-size: .6em;
@@ -1661,30 +1665,30 @@
     margin-left: 1.5vw;
     color: gray; }
 
-  /* line 1114, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1116, ../../../sass/layouts/angel/angel.layout.scss */
   #superfish-1 {
     margin-top: 2vw; }
-    /* line 1116, ../../../sass/layouts/angel/angel.layout.scss */
+    /* line 1118, ../../../sass/layouts/angel/angel.layout.scss */
     #superfish-1 li {
       margin-left: 2vw; }
 
-  /* line 1122, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1124, ../../../sass/layouts/angel/angel.layout.scss */
   .l-branding {
     border: 0px dotted maroon;
     background-color: #ededed;
     text-align: left;
     height: auto; }
 
-  /* line 1132, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1134, ../../../sass/layouts/angel/angel.layout.scss */
   .l-header {
     margin: 0;
     height: 108px; }
 
-  /* line 1136, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1138, ../../../sass/layouts/angel/angel.layout.scss */
   .l-region--navigation {
     clear: both; }
 
-  /* line 1140, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1142, ../../../sass/layouts/angel/angel.layout.scss */
   .l-main {
     -webkit-flex: 1;
     flex: 1;
