@@ -1010,11 +1010,11 @@ blockquote.sig{
         height: 100%;
         margin-top: -2em;
         list-style: none;
-        li:first-child {
+       /* li:first-child {
              margin-top:0;
-        }
+        }*/
         li{
-            margin-top: .5em;
+            margin-top: .65em;
             a{color:#fff;text-decoration:none;
                     font-size:1.1em;
                     font-size:1.75vw;
@@ -1026,7 +1026,7 @@ blockquote.sig{
   
       }
       p{
-          margin-top:-.175em;
+         /* margin-top:-.175em;*/
           border:0px dotted blue;
           width:60%;
           color:black;

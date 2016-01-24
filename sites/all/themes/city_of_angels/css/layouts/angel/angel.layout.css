@@ -1556,13 +1556,13 @@
       width: 30%;
       height: 100%;
       margin-top: -2em;
-      list-style: none; }
-      /* line 1013, ../../../sass/layouts/angel/angel.layout.scss */
-      .field--name-field-blurb ul li:first-child {
-        margin-top: 0; }
+      list-style: none;
+      /* li:first-child {
+            margin-top:0;
+       }*/ }
       /* line 1016, ../../../sass/layouts/angel/angel.layout.scss */
       .field--name-field-blurb ul li {
-        margin-top: .5em; }
+        margin-top: .65em; }
         /* line 1018, ../../../sass/layouts/angel/angel.layout.scss */
         .field--name-field-blurb ul li a {
           color: #fff;
@@ -1576,7 +1576,7 @@
           color: #e1e1e1; }
     /* line 1028, ../../../sass/layouts/angel/angel.layout.scss */
     .field--name-field-blurb p {
-      margin-top: -.175em;
+      /* margin-top:-.175em;*/
       border: 0px dotted blue;
       width: 60%;
       color: black;
