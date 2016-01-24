@@ -875,10 +875,12 @@ margin: 0px 0 !important;
 .fred{color: #d25333;}
 .white{color:#fff;}
 .single{font-size:1.1em;}
-.double{font-size:1.7em;}
+.double{font-size:1em;}
 
 .fourtop{margin-top:4em;}
-.leftbottom{position:absolute;left:10%;bottom:5%;}
+.leftbottom{position:absolute;left:10%;bottom:5%;
+z-index:999999;
+}
 
 .l-content{h1{display:none;}}
  .top{display:block;
