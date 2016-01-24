@@ -1599,14 +1599,13 @@
   .field--name-body {
     width: 60%;
     margin: 5em auto; }
-    /* line 1048, ../../../sass/layouts/angel/angel.layout.scss */
-    .field--name-body *, .field--name-body *::before, .field--name-body *::after {
-      box-sizing: unset; }
-    /* line 1051, ../../../sass/layouts/angel/angel.layout.scss */
-    .field--name-body h2 {
+    /* line 1049, ../../../sass/layouts/angel/angel.layout.scss */
+    .field--name-body div.centered {
       text-align: center;
       font-size: 1.5em;
-      font-size: 2.25vw; }
+      font-size: 2.25vw;
+      width: 30%;
+      margin: 0 auto; }
     /* line 1056, ../../../sass/layouts/angel/angel.layout.scss */
     .field--name-body p {
       text-align: left;
