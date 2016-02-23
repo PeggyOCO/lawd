@@ -1512,7 +1512,7 @@
 
   /* line 978, ../../../sass/layouts/angel/angel.layout.scss */
   .site-logo img {
-    height: 100%; }
+    height: auto; }
 
   /* line 979, ../../../sass/layouts/angel/angel.layout.scss */
   article.node--services {
