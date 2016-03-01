@@ -1772,7 +1772,7 @@ body.not-logged-in.page-node {
     z-index: 10000;
     display: none;
     float: left;
-    min-width: 160px;
+    min-width: 500px;
     list-style: none;
     background-color: #fff;
     border: 1px solid #ccc;
