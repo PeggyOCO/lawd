@@ -1739,6 +1739,10 @@ body.not-logged-in.page-node {
 
   /* line 1187, ../../../sass/layouts/angel/angel.layout.scss */
   .tb-megamenu {
-    background-color: #fff; } }
+    background-color: #fff; }
+
+  /* line 1191, ../../../sass/layouts/angel/angel.layout.scss */
+  .tb-megamenu-column-inner {
+    padding: 2em; } }
 
 /*# sourceMappingURL=angel.layout.css.map */
