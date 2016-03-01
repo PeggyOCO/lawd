@@ -1746,6 +1746,11 @@ body.not-logged-in.page-node {
     padding: 2em !important;
     border: 1px solid black !important; } }
 /* line 1196, ../../../sass/layouts/angel/angel.layout.scss */
+.tb-megamenu-column-inner.mega-inner {
+  border: 0 !important;
+  padding: 1em !important; }
+
+/* line 1198, ../../../sass/layouts/angel/angel.layout.scss */
 .tb-megamenu-item.level-2 a {
   text-transform: uppercase;
   text-decoration: none;
