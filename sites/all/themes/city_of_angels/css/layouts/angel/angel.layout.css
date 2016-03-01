@@ -1744,16 +1744,23 @@ body.not-logged-in.page-node {
   /* line 1191, ../../../sass/layouts/angel/angel.layout.scss */
   .tb-megamenu-column-inner {
     padding: 2em !important;
-    border: 1px solid black !important; } }
-/* line 1196, ../../../sass/layouts/angel/angel.layout.scss */
-.tb-megamenu-column-inner.mega-inner {
-  border: 0 !important;
-  padding: 1em !important; }
+    border: 1px solid black !important; }
 
-/* line 1198, ../../../sass/layouts/angel/angel.layout.scss */
-.tb-megamenu-item.level-2 a {
-  text-transform: uppercase;
-  text-decoration: none;
-  font-weight: bold; }
+  /* line 1194, ../../../sass/layouts/angel/angel.layout.scss */
+  .tb-megamenu-column-inner.mega-inner {
+    border: 0 !important;
+    padding: 1em !important; }
+
+  /* line 1196, ../../../sass/layouts/angel/angel.layout.scss */
+  .tb-megamenu-item.level-2 a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold; }
+
+  /* line 1198, ../../../sass/layouts/angel/angel.layout.scss */
+  li.tb-megamenu-item.level-3.mega {
+    text-transform: capitalize;
+    font-size: 1em;
+    padding: 3px 0 0 1em; } }
 
 /*# sourceMappingURL=angel.layout.css.map */
