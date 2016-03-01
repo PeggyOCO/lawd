@@ -1743,6 +1743,6 @@ body.not-logged-in.page-node {
 
   /* line 1191, ../../../sass/layouts/angel/angel.layout.scss */
   .tb-megamenu-column-inner {
-    padding: 2em; } }
+    padding: 2em !important; } }
 
 /*# sourceMappingURL=angel.layout.css.map */
