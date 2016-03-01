@@ -11,7 +11,7 @@
 /* No files to import found in base/**\/* */
 /* No files to import found in components/**\/* */
 /* line 22, ../../../sass/layouts/angel/angel.layout.scss */
-* {
+.page-node {
   font-family: Lato,Tahoma,Verdana, Helvetica, sans-serif;
   letter-spacing: 2px; }
 
