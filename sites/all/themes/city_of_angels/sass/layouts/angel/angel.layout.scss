@@ -961,7 +961,7 @@ footer{height:15em;background-color:#d5d5d5;margin:0;margin-top:-.25em;}
 
  
 
-  .l-region--branding{width:70%;
+  .l-region--branding{width:65%;
     position: absolute;
     top:1%;
     right:1%;
@@ -969,7 +969,7 @@ footer{height:15em;background-color:#d5d5d5;margin:0;margin-top:-.25em;}
     /*margin: 0px 0px 0px 27%;*/
     margin: 0;
     padding-left:15%;
-    border:1px dotted red;
+   /* border:1px dotted red;*/
     
     }
   #block-system-main-menu .menu{list-style-type:none;
@@ -1207,7 +1207,10 @@ display: block;
 text-transform:capitalize !important;
 font-size:1vw !important;
 white-space: nowrap;
-padding:3px 0 0 1em !important;}
+padding:1.5% 0 0 1.5% !important;}
+
+    li:nth-child(2)tb-megamenu-item.level-3.mega a{
+margin-top:15%;}
 
 
 .tb-megamenu .dropdown-menu {
