@@ -1188,9 +1188,9 @@ display: block;
     background-color: #fff;
 }
 
-.tb-megamenu-column-inner{padding:2em !important;}
+.tb-megamenu-column-inner{padding:2em !important;border:1px solid black !important;}
 
 
   }
   
-  .tb-megamenu-item.level-2 a{text-transform:uppercase;text-decoration:none;}
+  .tb-megamenu-item.level-2 a{text-transform:uppercase;text-decoration:none;font-weight:bold;}
