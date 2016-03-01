@@ -1157,12 +1157,24 @@ display: block;
     .tb-megamenu .nav > li > a {
     border-right: 0px solid #222;
     border-top: 0;
-    color: #000;
+    color: #666;
     font-weight: normal;
     padding: 15px 20px;
     text-shadow: none;
     text-decoration: none;
     font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+
+.tb-megamenu .nav > .active > a, .tb-megamenu .nav > .active > a:hover, .tb-megamenu .nav > .active > a:focus {
+    background-color: #fff;
+    color: #e54e4b;
+    text-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    outline: none;
 }
 
 .tb-megamenu .nav > li > a:hover {
