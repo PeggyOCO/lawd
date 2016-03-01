@@ -1195,10 +1195,10 @@ display: block;
   
   .tb-megamenu-item.level-2 a{text-transform:uppercase;text-decoration:none;font-weight:bold;}
   
-    li.tb-megamenu-item.level-3.mega{
-text-transform:capitalize;
-font-size:1em;
-padding:3px 0 0 1em;}
+    li.tb-megamenu-item.level-3.mega a{
+text-transform:capitalize !important;
+font-size:1em !important;
+padding:3px 0 0 1em !important;}
 
   }
   

@@ -1758,9 +1758,9 @@ body.not-logged-in.page-node {
     font-weight: bold; }
 
   /* line 1198, ../../../sass/layouts/angel/angel.layout.scss */
-  li.tb-megamenu-item.level-3.mega {
-    text-transform: capitalize;
-    font-size: 1em;
-    padding: 3px 0 0 1em; } }
+  li.tb-megamenu-item.level-3.mega a {
+    text-transform: capitalize !important;
+    font-size: 1em !important;
+    padding: 3px 0 0 1em !important; } }
 
 /*# sourceMappingURL=angel.layout.css.map */
