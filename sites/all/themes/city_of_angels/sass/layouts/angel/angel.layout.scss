@@ -963,7 +963,14 @@ footer{height:15em;background-color:#d5d5d5;margin:0;margin-top:-.25em;}
 
   .l-region--branding{width:70%;
     position: absolute;
-    margin: 0px 0px 0px 27%;}
+    top:1em;
+    right:1em;
+    text-align:right;
+    /*margin: 0px 0px 0px 27%;*/
+    margin: 0;
+    border:1px dotted red;
+    
+    }
   #block-system-main-menu .menu{list-style-type:none;
   li{list-style-type:none;display:inline-block;float:left;margin:0;text-transform:uppercase;letter-spacing:none;
       a{text-transform:uppercase;}}
@@ -1209,7 +1216,7 @@ padding:3px 0 0 1em !important;}
     z-index: 10000;
     display: none;
     float: left;
-    min-width: 50%;
+    min-width: 50% !important;
     list-style: none;
     background-color: #fff;
     border: 1px solid #ccc;
