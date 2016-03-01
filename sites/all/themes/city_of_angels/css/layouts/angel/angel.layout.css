@@ -1717,10 +1717,10 @@ body.not-logged-in.page-node {
     border-top: 0;
     color: #666;
     font-weight: normal;
-    padding: 15px 20px;
+    padding: 15px 15px;
     text-shadow: none;
     text-decoration: none;
-    font-size: 2vw;
+    font-size: 1.75vw;
     text-transform: uppercase; }
 
   /* line 1172, ../../../sass/layouts/angel/angel.layout.scss */
@@ -1760,7 +1760,7 @@ body.not-logged-in.page-node {
   /* line 1198, ../../../sass/layouts/angel/angel.layout.scss */
   li.tb-megamenu-item.level-3.mega a {
     text-transform: capitalize !important;
-    font-size: 1vw !important;
+    font-size: 1.3vw !important;
     white-space: nowrap;
     padding: 3px 0 0 1em !important; }
 
