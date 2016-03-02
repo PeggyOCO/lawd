@@ -1765,13 +1765,13 @@ body.not-logged-in.page-node {
   /* line 1206, ../../../sass/layouts/angel/angel.layout.scss */
   li.tb-megamenu-item.level-3.mega a {
     text-transform: capitalize !important;
-    font-size: 1vw !important;
+    font-size: .8vw !important;
     white-space: nowrap;
     padding: 1.5% 0 0 1.5% !important; }
 
   /* line 1212, ../../../sass/layouts/angel/angel.layout.scss */
   li:nth-child(6).tb-megamenu-item.level-3.mega a {
-    margin-top: 15%; }
+    margin-top: 20%; }
 
   /* line 1216, ../../../sass/layouts/angel/angel.layout.scss */
   .tb-megamenu .dropdown-menu {
