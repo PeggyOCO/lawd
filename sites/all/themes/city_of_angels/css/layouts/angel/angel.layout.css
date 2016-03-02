@@ -726,7 +726,7 @@ body.not-logged-in.page-node {
   width: 100%;
   border: 0; }
 
-@media (min-width: 800px) and (max-width: 1920px) {
+@media (min-width: 800px) {
   /* Header Area */
   /* line 477, ../../../sass/layouts/angel/angel.layout.scss */
   html, body {
