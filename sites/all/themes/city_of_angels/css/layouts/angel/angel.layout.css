@@ -1823,12 +1823,12 @@ body.not-logged-in.page-node {
             background: #d5d5d5;
             color: #fff; }
             /* line 1257, ../../../sass/layouts/angel/angel.layout.scss */
-            #block-tb-megamenu-menu-bottom-menu div.block__content div.tb-megamenu-menu-bottom-menu div.nav-collapse ul li ul {
+            #block-tb-megamenu-menu-bottom-menu div.block__content div.tb-megamenu-menu-bottom-menu div.nav-collapse ul li div div div div div ul {
               display: block;
               background: #d5d5d5;
               color: #fff; }
               /* line 1261, ../../../sass/layouts/angel/angel.layout.scss */
-              #block-tb-megamenu-menu-bottom-menu div.block__content div.tb-megamenu-menu-bottom-menu div.nav-collapse ul li ul li {
+              #block-tb-megamenu-menu-bottom-menu div.block__content div.tb-megamenu-menu-bottom-menu div.nav-collapse ul li div div div div div ul li {
                 display: block;
                 background: #d5d5d5;
                 color: #fff; } }
