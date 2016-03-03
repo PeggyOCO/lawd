@@ -1254,15 +1254,15 @@ div.tb-megamenu-menu-bottom-menu{
   color:$whitest;
     ul{background: $footergray;
     color:$whitest;
-        li:nth-child(2){width:65vw;}
+        li:nth-child(2){width:55vw;}
         li{background: $footergray;
         color:$whitest;
         margin:0 1vw;
         a:hover{background: $footergray;
         color:$whitest;}
           div{display:block !important;
-            min-width:23vw;
-            width:auto;
+            min-width:45vw;
+            width:45vw;
             
              div div div div ul{display:block !important;
             background: $footergray;

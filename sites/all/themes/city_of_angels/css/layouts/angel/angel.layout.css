@@ -1820,7 +1820,7 @@ body.not-logged-in.page-node {
           color: #fff; }
           /* line 1257, ../../../sass/layouts/angel/angel.layout.scss */
           #block-tb-megamenu-menu-bottom-menu div.block__content div.tb-megamenu-menu-bottom-menu div.nav-collapse ul li:nth-child(2) {
-            width: 65vw; }
+            width: 55vw; }
           /* line 1258, ../../../sass/layouts/angel/angel.layout.scss */
           #block-tb-megamenu-menu-bottom-menu div.block__content div.tb-megamenu-menu-bottom-menu div.nav-collapse ul li {
             background: #d5d5d5;
@@ -1833,8 +1833,8 @@ body.not-logged-in.page-node {
             /* line 1263, ../../../sass/layouts/angel/angel.layout.scss */
             #block-tb-megamenu-menu-bottom-menu div.block__content div.tb-megamenu-menu-bottom-menu div.nav-collapse ul li div {
               display: block !important;
-              min-width: 23vw;
-              width: auto; }
+              min-width: 45vw;
+              width: 45vw; }
               /* line 1267, ../../../sass/layouts/angel/angel.layout.scss */
               #block-tb-megamenu-menu-bottom-menu div.block__content div.tb-megamenu-menu-bottom-menu div.nav-collapse ul li div div div div div ul {
                 display: block !important;
