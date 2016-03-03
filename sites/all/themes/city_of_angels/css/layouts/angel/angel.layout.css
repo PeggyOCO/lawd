@@ -1800,6 +1800,32 @@ body.not-logged-in.page-node {
     box-shadow: 0;
     -webkit-background-clip: padding-box;
     -moz-background-clip: padding;
-    background-clip: padding-box; } }
+    background-clip: padding-box; }
+
+  /* line 1245, ../../../sass/layouts/angel/angel.layout.scss */
+  #block-tb-megamenu-menu-bottom-menu {
+    color: white; }
+    /* line 1246, ../../../sass/layouts/angel/angel.layout.scss */
+    #block-tb-megamenu-menu-bottom-menu div.block__content {
+      background: none;
+      color: white; }
+      /* line 1249, ../../../sass/layouts/angel/angel.layout.scss */
+      #block-tb-megamenu-menu-bottom-menu div.block__content div.tb-megamenu-menu-bottom-menu div.nav-collapse {
+        background: none;
+        display: block; }
+        /* line 1251, ../../../sass/layouts/angel/angel.layout.scss */
+        #block-tb-megamenu-menu-bottom-menu div.block__content div.tb-megamenu-menu-bottom-menu div.nav-collapse ul {
+          background: none; }
+          /* line 1252, ../../../sass/layouts/angel/angel.layout.scss */
+          #block-tb-megamenu-menu-bottom-menu div.block__content div.tb-megamenu-menu-bottom-menu div.nav-collapse ul li {
+            background: none; }
+            /* line 1253, ../../../sass/layouts/angel/angel.layout.scss */
+            #block-tb-megamenu-menu-bottom-menu div.block__content div.tb-megamenu-menu-bottom-menu div.nav-collapse ul li ul {
+              display: block;
+              background: none; }
+              /* line 1256, ../../../sass/layouts/angel/angel.layout.scss */
+              #block-tb-megamenu-menu-bottom-menu div.block__content div.tb-megamenu-menu-bottom-menu div.nav-collapse ul li ul li {
+                display: block;
+                background: none; } }
 
 /*# sourceMappingURL=angel.layout.css.map */
