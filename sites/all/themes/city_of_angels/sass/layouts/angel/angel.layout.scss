@@ -1260,12 +1260,12 @@ div.tb-megamenu-menu-bottom-menu{
         margin:0 1vw;
         a:hover{background: $footergray;
         color:$whitest;}
-          div{display:block !important;
+          div{
             min-width:23vw;
             width:23vw;
-            border: 2px dotted maroon;
+            /*border: 2px dotted maroon;*/
             
-             div div div div ul{display:block !important;
+             div div div div ul{
             background: $footergray;
             color:$whitest;
     
@@ -1284,9 +1284,9 @@ div.tb-megamenu-menu-bottom-menu{
     }
   }
  } 
- .tb-megamenu-submenu{width:75vw;}
- #tb-megamenu-column-6{width:45% !important;display:inline-block !important;float:left !important; li{width:14em !important;}}
- #tb-megamenu-column-8{width:45% !important;display:inline-block !important;float:left !important; li{width:14em !important;}}
+
+ /*#tb-megamenu-column-6{width:45% !important;display:inline-block !important;float:left !important; li{width:14em !important;}}
+ #tb-megamenu-column-8{width:45% !important;display:inline-block !important;float:left !important; li{width:14em !important;}}*/
 
 }
 
