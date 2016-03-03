@@ -1819,27 +1819,30 @@ body.not-logged-in.page-node {
           background: #d5d5d5;
           color: #fff; }
           /* line 1255, ../../../sass/layouts/angel/angel.layout.scss */
-          #block-tb-megamenu-menu-bottom-menu div.block__content div.tb-megamenu-menu-bottom-menu div.nav-collapse ul li, #block-tb-megamenu-menu-bottom-menu div.block__content div.tb-megamenu-menu-bottom-menu div.nav-collapse ul li:hover {
+          #block-tb-megamenu-menu-bottom-menu div.block__content div.tb-megamenu-menu-bottom-menu div.nav-collapse ul li {
             background: #d5d5d5;
             color: #fff;
-            margin: 0 7vw; }
+            margin: 0 5vw; }
             /* line 1258, ../../../sass/layouts/angel/angel.layout.scss */
-            #block-tb-megamenu-menu-bottom-menu div.block__content div.tb-megamenu-menu-bottom-menu div.nav-collapse ul li div, #block-tb-megamenu-menu-bottom-menu div.block__content div.tb-megamenu-menu-bottom-menu div.nav-collapse ul li:hover div {
+            #block-tb-megamenu-menu-bottom-menu div.block__content div.tb-megamenu-menu-bottom-menu div.nav-collapse ul li a:hover {
+              background: #d5d5d5;
+              color: #fff; }
+            /* line 1260, ../../../sass/layouts/angel/angel.layout.scss */
+            #block-tb-megamenu-menu-bottom-menu div.block__content div.tb-megamenu-menu-bottom-menu div.nav-collapse ul li div {
               display: block !important;
-              width: 80%;
-              border: 1px dotted green; }
-              /* line 1261, ../../../sass/layouts/angel/angel.layout.scss */
-              #block-tb-megamenu-menu-bottom-menu div.block__content div.tb-megamenu-menu-bottom-menu div.nav-collapse ul li div div div div div ul, #block-tb-megamenu-menu-bottom-menu div.block__content div.tb-megamenu-menu-bottom-menu div.nav-collapse ul li:hover div div div div div ul {
+              width: 80%; }
+              /* line 1263, ../../../sass/layouts/angel/angel.layout.scss */
+              #block-tb-megamenu-menu-bottom-menu div.block__content div.tb-megamenu-menu-bottom-menu div.nav-collapse ul li div div div div div ul {
                 display: block !important;
                 background: #d5d5d5;
                 color: #fff; }
-                /* line 1265, ../../../sass/layouts/angel/angel.layout.scss */
-                #block-tb-megamenu-menu-bottom-menu div.block__content div.tb-megamenu-menu-bottom-menu div.nav-collapse ul li div div div div div ul li, #block-tb-megamenu-menu-bottom-menu div.block__content div.tb-megamenu-menu-bottom-menu div.nav-collapse ul li:hover div div div div div ul li {
+                /* line 1267, ../../../sass/layouts/angel/angel.layout.scss */
+                #block-tb-megamenu-menu-bottom-menu div.block__content div.tb-megamenu-menu-bottom-menu div.nav-collapse ul li div div div div div ul li {
                   display: block;
                   background: #d5d5d5;
                   color: #fff; }
-                  /* line 1268, ../../../sass/layouts/angel/angel.layout.scss */
-                  #block-tb-megamenu-menu-bottom-menu div.block__content div.tb-megamenu-menu-bottom-menu div.nav-collapse ul li div div div div div ul li:hover, #block-tb-megamenu-menu-bottom-menu div.block__content div.tb-megamenu-menu-bottom-menu div.nav-collapse ul li:hover div div div div div ul li:hover {
+                  /* line 1270, ../../../sass/layouts/angel/angel.layout.scss */
+                  #block-tb-megamenu-menu-bottom-menu div.block__content div.tb-megamenu-menu-bottom-menu div.nav-collapse ul li div div div div div ul li:hover {
                     background: #d5d5d5; } }
 
 /*# sourceMappingURL=angel.layout.css.map */

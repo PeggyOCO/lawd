@@ -1252,12 +1252,14 @@ div.tb-megamenu-menu-bottom-menu{
   color:$whitest;
     ul{background: $footergray;
     color:$whitest;
-        li,li:hover{background: $footergray;
+        li{background: $footergray;
         color:$whitest;
-        margin:0 7vw;
+        margin:0 5vw;
+        a:hover{background: $footergray;
+        color:$whitest;}
           div{display:block !important;
             width:80%;
-            border:1px dotted green;
+            
              div div div div ul{display:block !important;
             background: $footergray;
             color:$whitest;
