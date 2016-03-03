@@ -1839,6 +1839,9 @@ body.not-logged-in.page-node {
               #block-tb-megamenu-menu-bottom-menu div.block__content div.tb-megamenu-menu-bottom-menu div.nav-collapse ul li div div div div div ul {
                 background: #d5d5d5;
                 color: #fff; }
+                /* line 1271, ../../../sass/layouts/angel/angel.layout.scss */
+                #block-tb-megamenu-menu-bottom-menu div.block__content div.tb-megamenu-menu-bottom-menu div.nav-collapse ul li div div div div div ul li:nth-child(2) {
+                  width: 11vw; }
                 /* line 1272, ../../../sass/layouts/angel/angel.layout.scss */
                 #block-tb-megamenu-menu-bottom-menu div.block__content div.tb-megamenu-menu-bottom-menu div.nav-collapse ul li div div div div div ul li {
                   display: block;

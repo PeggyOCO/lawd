@@ -1268,7 +1268,7 @@ div.tb-megamenu-menu-bottom-menu{
              div div div div ul{
             background: $footergray;
             color:$whitest;
-    
+            li:nth-child(2){width:11vw;}
             li{display:block;
               background: $footergray;
               color:$whitest;
