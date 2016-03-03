@@ -1804,28 +1804,33 @@ body.not-logged-in.page-node {
 
   /* line 1246, ../../../sass/layouts/angel/angel.layout.scss */
   #block-tb-megamenu-menu-bottom-menu {
-    color: white; }
+    color: #fff; }
     /* line 1247, ../../../sass/layouts/angel/angel.layout.scss */
     #block-tb-megamenu-menu-bottom-menu div.block__content {
       background: #d5d5d5;
-      color: white; }
+      color: #fff; }
       /* line 1250, ../../../sass/layouts/angel/angel.layout.scss */
       #block-tb-megamenu-menu-bottom-menu div.block__content div.tb-megamenu-menu-bottom-menu div.nav-collapse {
         background: #d5d5d5;
-        display: block; }
-        /* line 1252, ../../../sass/layouts/angel/angel.layout.scss */
+        display: block;
+        color: #fff; }
+        /* line 1253, ../../../sass/layouts/angel/angel.layout.scss */
         #block-tb-megamenu-menu-bottom-menu div.block__content div.tb-megamenu-menu-bottom-menu div.nav-collapse ul {
-          background: #d5d5d5; }
-          /* line 1253, ../../../sass/layouts/angel/angel.layout.scss */
+          background: #d5d5d5;
+          color: #fff; }
+          /* line 1255, ../../../sass/layouts/angel/angel.layout.scss */
           #block-tb-megamenu-menu-bottom-menu div.block__content div.tb-megamenu-menu-bottom-menu div.nav-collapse ul li {
-            background: #d5d5d5; }
-            /* line 1254, ../../../sass/layouts/angel/angel.layout.scss */
+            background: #d5d5d5;
+            color: #fff; }
+            /* line 1257, ../../../sass/layouts/angel/angel.layout.scss */
             #block-tb-megamenu-menu-bottom-menu div.block__content div.tb-megamenu-menu-bottom-menu div.nav-collapse ul li ul {
               display: block;
-              background: #d5d5d5; }
-              /* line 1257, ../../../sass/layouts/angel/angel.layout.scss */
+              background: #d5d5d5;
+              color: #fff; }
+              /* line 1261, ../../../sass/layouts/angel/angel.layout.scss */
               #block-tb-megamenu-menu-bottom-menu div.block__content div.tb-megamenu-menu-bottom-menu div.nav-collapse ul li ul li {
                 display: block;
-                background: #d5d5d5; } }
+                background: #d5d5d5;
+                color: #fff; } }
 
 /*# sourceMappingURL=angel.layout.css.map */

@@ -1243,19 +1243,24 @@ margin-top:20%;}
     background-clip: padding-box;
 }
 
-#block-tb-megamenu-menu-bottom-menu{color:white;
+#block-tb-megamenu-menu-bottom-menu{color:$whitest;
 div.block__content{background: $footergray;
-color:white;
+color:$whitest;
 div.tb-megamenu-menu-bottom-menu{
   div.nav-collapse{background: $footergray;
   display:block;
+  color:$whitest;
     ul{background: $footergray;
+    color:$whitest;
         li{background: $footergray;
+        color:$whitest;
           ul{display:block;
             background: $footergray;
+            color:$whitest;
     
             li{display:block;
               background: $footergray;
+              color:$whitest;
               }
     
             }
