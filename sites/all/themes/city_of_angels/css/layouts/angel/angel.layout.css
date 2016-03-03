@@ -1855,8 +1855,8 @@ body.not-logged-in.page-node {
     display: inline-block !important;
     float: left !important; }
     /* line 1287, ../../../sass/layouts/angel/angel.layout.scss */
-    #tb-megamenu-column-6 div ul li {
-      width: 40%; }
+    #tb-megamenu-column-6 li {
+      width: 14em !important; }
 
   /* line 1288, ../../../sass/layouts/angel/angel.layout.scss */
   #tb-megamenu-column-8 {
@@ -1864,7 +1864,7 @@ body.not-logged-in.page-node {
     display: inline-block !important;
     float: left !important; }
     /* line 1288, ../../../sass/layouts/angel/angel.layout.scss */
-    #tb-megamenu-column-8 div ul li {
-      width: 40%; } }
+    #tb-megamenu-column-8 li {
+      width: 14em !important; } }
 
 /*# sourceMappingURL=angel.layout.css.map */
