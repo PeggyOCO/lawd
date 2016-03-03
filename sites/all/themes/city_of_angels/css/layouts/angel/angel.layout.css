@@ -1820,12 +1820,12 @@ body.not-logged-in.page-node {
           color: #fff; }
           /* line 1255, ../../../sass/layouts/angel/angel.layout.scss */
           #block-tb-megamenu-menu-bottom-menu div.block__content div.tb-megamenu-menu-bottom-menu div.nav-collapse ul li:nth-child(2) {
-            width: 40vw; }
+            width: 35vw; }
           /* line 1256, ../../../sass/layouts/angel/angel.layout.scss */
           #block-tb-megamenu-menu-bottom-menu div.block__content div.tb-megamenu-menu-bottom-menu div.nav-collapse ul li {
             background: #d5d5d5;
             color: #fff;
-            margin: 0 5vw; }
+            margin: 0 1vw; }
             /* line 1259, ../../../sass/layouts/angel/angel.layout.scss */
             #block-tb-megamenu-menu-bottom-menu div.block__content div.tb-megamenu-menu-bottom-menu div.nav-collapse ul li a:hover {
               background: #d5d5d5;
@@ -1833,18 +1833,19 @@ body.not-logged-in.page-node {
             /* line 1261, ../../../sass/layouts/angel/angel.layout.scss */
             #block-tb-megamenu-menu-bottom-menu div.block__content div.tb-megamenu-menu-bottom-menu div.nav-collapse ul li div {
               display: block !important;
-              min-width: 20vw; }
-              /* line 1264, ../../../sass/layouts/angel/angel.layout.scss */
+              min-width: 23vw;
+              width: auto; }
+              /* line 1265, ../../../sass/layouts/angel/angel.layout.scss */
               #block-tb-megamenu-menu-bottom-menu div.block__content div.tb-megamenu-menu-bottom-menu div.nav-collapse ul li div div div div div ul {
                 display: block !important;
                 background: #d5d5d5;
                 color: #fff; }
-                /* line 1268, ../../../sass/layouts/angel/angel.layout.scss */
+                /* line 1269, ../../../sass/layouts/angel/angel.layout.scss */
                 #block-tb-megamenu-menu-bottom-menu div.block__content div.tb-megamenu-menu-bottom-menu div.nav-collapse ul li div div div div div ul li {
                   display: block;
                   background: #d5d5d5;
                   color: #fff; }
-                  /* line 1271, ../../../sass/layouts/angel/angel.layout.scss */
+                  /* line 1272, ../../../sass/layouts/angel/angel.layout.scss */
                   #block-tb-megamenu-menu-bottom-menu div.block__content div.tb-megamenu-menu-bottom-menu div.nav-collapse ul li div div div div div ul li:hover {
                     background: #d5d5d5; } }
 
