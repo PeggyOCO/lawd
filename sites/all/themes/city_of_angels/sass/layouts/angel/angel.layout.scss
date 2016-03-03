@@ -1254,13 +1254,17 @@ div.tb-megamenu-menu-bottom-menu{
     color:$whitest;
         li{background: $footergray;
         color:$whitest;
-          div{display:block !important; div div div div ul{display:block !important;
+        margin:0 7vw;
+          div{display:block !important;
+            width:50%;
+             div div div div ul{display:block !important;
             background: $footergray;
             color:$whitest;
     
             li{display:block;
               background: $footergray;
               color:$whitest;
+              &hover:{background:$footergray;}
               }
     
             }
