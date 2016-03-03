@@ -1284,8 +1284,8 @@ div.tb-megamenu-menu-bottom-menu{
   }
  } 
  
- #tb-megamenu-column-6{width:45%;display:inline-block;float:left;}
- #tb-megamenu-column-8{width:45%;display:inline-block;float:left;}
+ #tb-megamenu-column-6{width:45% !important;display:inline-block !important;float:left !important; div ul li{width:90%;}}
+ #tb-megamenu-column-8{width:45% !important;display:inline-block !important;float:left !important; div ul li{width:90%;}}
 
 }
 
