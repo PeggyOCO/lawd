@@ -1264,7 +1264,7 @@ div.tb-megamenu-menu-bottom-menu{
             li{display:block;
               background: $footergray;
               color:$whitest;
-              &hover:{background:$footergray;}
+              &:hover{background:$footergray;}
               }
     
             }
