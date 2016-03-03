@@ -1254,7 +1254,7 @@ div.tb-megamenu-menu-bottom-menu{
     color:$whitest;
         li{background: $footergray;
         color:$whitest;
-          div div div div div ul{display:block;
+          div{display:block !important; div div div div ul{display:block !important;
             background: $footergray;
             color:$whitest;
     
@@ -1267,7 +1267,7 @@ div.tb-megamenu-menu-bottom-menu{
 
           }
 
-        }
+        }}
       }
     }
   }
