@@ -1803,7 +1803,7 @@ body.not-logged-in.page-node {
     background-clip: padding-box; }
 
   /* line 1246, ../../../sass/layouts/angel/angel.layout.scss */
-  #block-tb-megamenu-menu-bottom-menu > .tb-megamenu-submenu {
+  #block-tb-megamenu-menu-bottom-menu li div.tb-megamenu-submenu {
     display: block !important; }
 
   /*#block-tb-megamenu-menu-bottom-menu{color:$whitest;
