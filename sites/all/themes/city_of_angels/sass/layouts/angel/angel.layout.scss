@@ -958,7 +958,7 @@ ul#twolist{list-style-type: none;color:#d15232;width:40%;margin:0 auto;text-alig
  .middlecenter{width:80%;
 margin:2em auto;height:auto;text-align:center;}
 .gray{color:#555;}
-footer{height:15em;background-color:#d5d5d5;margin:0;margin-top:-.25em;}
+footer{height:23em;background-color:#d5d5d5;margin:0;margin-top:-.25em;}
 
  
 
@@ -1244,13 +1244,13 @@ margin-top:20%;}
 }
 
 
-#block-tb-megamenu-menu-bottom-menu li{background-color: $footergray; &:first-child{ width:10vw;}}
+#block-tb-megamenu-menu-bottom-menu li{background-color: $footergray; &:first-child{ width:15vw;}padding:0;margin:0;}
 #block-tb-megamenu-menu-bottom-menu li:hover{background-color: $footergray;border:0;}
 #block-tb-megamenu-menu-bottom-menu a{background-color: $footergray;text-decoration:none;font-size:75%;border:0;margin:0 0 0 1em;padding:0;}
 #block-tb-megamenu-menu-bottom-menu a:hover{background-color: $footergray;color: $reder;}
 #block-tb-megamenu-menu-bottom-menu li div.tb-megamenu-submenu{display:block !important;border:0;box-shadow: none; div div{background-color: $footergray;}}
 #block-tb-megamenu-menu-bottom-menu li:nth-child(2){width:40vw !important;}
-#block-tb-megamenu-menu-bottom-menu li:nth-child(3){width:10vw !important;}
+#block-tb-megamenu-menu-bottom-menu li:nth-child(3){width:15vw !important;}
 #block-tb-megamenu-menu-bottom-menu li:nth-child(4){width:25vw !important;}
 
 /*#block-tb-megamenu-menu-bottom-menu{color:$whitest;
