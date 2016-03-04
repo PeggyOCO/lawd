@@ -1865,7 +1865,7 @@ body.not-logged-in.page-node {
   /* line 1269, ../../../sass/layouts/angel/angel.layout.scss */
   #block-tb-megamenu-menu-bottom-menu a.mega-group-title {
     font-size: 1rem;
-    font-weight: bold;
+    font-weight: normal;
     color: #666;
     margin-bottom: .5rem; }
 
