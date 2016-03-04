@@ -1729,7 +1729,7 @@ body.not-logged-in.page-node {
     text-transform: uppercase; }
 
   /* line 1181, ../../../sass/layouts/angel/angel.layout.scss */
-  .tb-megamenu .nav > .active > a, .tb-megamenu .nav > .active > a:hover, .tb-megamenu .nav > .active > a:focus {
+  #tb-megamenu-main-menu .nav > .active > a, .tb-megamenu .nav > .active > a:hover, .tb-megamenu .nav > .active > a:focus {
     background-color: #fff;
     color: #e54e4b;
     text-shadow: none;
@@ -1739,42 +1739,42 @@ body.not-logged-in.page-node {
     outline: none; }
 
   /* line 1191, ../../../sass/layouts/angel/angel.layout.scss */
-  .tb-megamenu .nav > li > a:hover {
+  #tb-megamenu-main-menu .nav > li > a:hover {
     color: #f00; }
 
   /* line 1196, ../../../sass/layouts/angel/angel.layout.scss */
-  .tb-megamenu {
+  #tb-megamenu-main-menu {
     background-color: #fff; }
 
   /* line 1200, ../../../sass/layouts/angel/angel.layout.scss */
-  .tb-megamenu-column-inner {
+  #tb-megamenu-main-menu .tb-megamenu-column-inner {
     padding: 2em !important;
     border: 1px solid black !important; }
 
   /* line 1203, ../../../sass/layouts/angel/angel.layout.scss */
-  .tb-megamenu-column-inner.mega-inner {
+  #tb-megamenu-main-menu .tb-megamenu-column-inner.mega-inner {
     border: 0 !important;
     padding: 1em !important; }
 
   /* line 1205, ../../../sass/layouts/angel/angel.layout.scss */
-  .tb-megamenu-item.level-2 a {
+  #tb-megamenu-main-menu .tb-megamenu-item.level-2 a {
     text-transform: uppercase;
     text-decoration: none;
     font-weight: bold; }
 
   /* line 1207, ../../../sass/layouts/angel/angel.layout.scss */
-  li.tb-megamenu-item.level-3.mega a {
+  #tb-megamenu-main-menu li.tb-megamenu-item.level-3.mega a {
     text-transform: capitalize !important;
     font-size: .8vw !important;
     white-space: nowrap;
     padding: 1.5% 0 0 1.5% !important; }
 
   /* line 1213, ../../../sass/layouts/angel/angel.layout.scss */
-  li:nth-child(6).tb-megamenu-item.level-3.mega a {
+  #tb-megamenu-main-menu li:nth-child(6).tb-megamenu-item.level-3.mega a {
     margin-top: 20%; }
 
   /* line 1217, ../../../sass/layouts/angel/angel.layout.scss */
-  .tb-megamenu .dropdown-menu {
+  #tb-megamenu-main-menu .dropdown-menu {
     position: absolute;
     top: 100%;
     left: 0;
@@ -1802,75 +1802,49 @@ body.not-logged-in.page-node {
     -moz-background-clip: padding;
     background-clip: padding-box; }
 
-  /* line 1248, ../../../sass/layouts/angel/angel.layout.scss */
-  #block-tb-megamenu-menu-bottom-menu {
-    color: #fff; }
-    /* line 1249, ../../../sass/layouts/angel/angel.layout.scss */
-    #block-tb-megamenu-menu-bottom-menu div.block__content {
-      background: #d5d5d5;
-      color: #fff; }
-      /* line 1252, ../../../sass/layouts/angel/angel.layout.scss */
-      #block-tb-megamenu-menu-bottom-menu div.block__content div.tb-megamenu-menu-bottom-menu div.nav-collapse {
-        background: #d5d5d5;
-        display: block;
-        color: #fff; }
-        /* line 1255, ../../../sass/layouts/angel/angel.layout.scss */
-        #block-tb-megamenu-menu-bottom-menu div.block__content div.tb-megamenu-menu-bottom-menu div.nav-collapse ul {
-          background: #d5d5d5;
-          color: #fff; }
-          /* line 1257, ../../../sass/layouts/angel/angel.layout.scss */
-          #block-tb-megamenu-menu-bottom-menu div.block__content div.tb-megamenu-menu-bottom-menu div.nav-collapse ul li:nth-child(2) {
-            width: 55vw; }
-          /* line 1258, ../../../sass/layouts/angel/angel.layout.scss */
-          #block-tb-megamenu-menu-bottom-menu div.block__content div.tb-megamenu-menu-bottom-menu div.nav-collapse ul li {
-            background: #d5d5d5;
-            color: #fff;
-            margin: 0 1vw; }
-            /* line 1261, ../../../sass/layouts/angel/angel.layout.scss */
-            #block-tb-megamenu-menu-bottom-menu div.block__content div.tb-megamenu-menu-bottom-menu div.nav-collapse ul li a:hover {
-              background: #d5d5d5;
-              color: #fff; }
-            /* line 1263, ../../../sass/layouts/angel/angel.layout.scss */
-            #block-tb-megamenu-menu-bottom-menu div.block__content div.tb-megamenu-menu-bottom-menu div.nav-collapse ul li div {
-              min-width: 23vw;
-              width: 23vw;
-              /*border: 2px dotted maroon;*/ }
-              /* line 1268, ../../../sass/layouts/angel/angel.layout.scss */
-              #block-tb-megamenu-menu-bottom-menu div.block__content div.tb-megamenu-menu-bottom-menu div.nav-collapse ul li div div div div div ul {
-                background: #d5d5d5;
-                color: #fff; }
-                /* line 1271, ../../../sass/layouts/angel/angel.layout.scss */
-                #block-tb-megamenu-menu-bottom-menu div.block__content div.tb-megamenu-menu-bottom-menu div.nav-collapse ul li div div div div div ul li:nth-child(2) {
-                  width: 11vw; }
-                /* line 1272, ../../../sass/layouts/angel/angel.layout.scss */
-                #block-tb-megamenu-menu-bottom-menu div.block__content div.tb-megamenu-menu-bottom-menu div.nav-collapse ul li div div div div div ul li {
-                  display: block;
-                  background: #d5d5d5;
-                  color: #fff; }
-                  /* line 1275, ../../../sass/layouts/angel/angel.layout.scss */
-                  #block-tb-megamenu-menu-bottom-menu div.block__content div.tb-megamenu-menu-bottom-menu div.nav-collapse ul li div div div div div ul li:hover {
-                    background: #d5d5d5; }
-
-  /* line 1288, ../../../sass/layouts/angel/angel.layout.scss */
-  div.tb-megamenu-row.row-fluid {
-    width: 100% !important; }
-
-  /* line 1290, ../../../sass/layouts/angel/angel.layout.scss */
-  #tb-megamenu-column-6 {
-    width: 45% !important;
-    display: inline-block !important;
-    float: left !important; }
-    /* line 1290, ../../../sass/layouts/angel/angel.layout.scss */
-    #tb-megamenu-column-6 li {
-      width: 14em !important; }
-
-  /* line 1291, ../../../sass/layouts/angel/angel.layout.scss */
-  #tb-megamenu-column-8 {
-    width: 45% !important;
-    display: inline-block !important;
-    float: left !important; }
-    /* line 1291, ../../../sass/layouts/angel/angel.layout.scss */
-    #tb-megamenu-column-8 li {
-      width: 14em !important; } }
+  /*#block-tb-megamenu-menu-bottom-menu{color:$whitest;
+  div.block__content{background: $footergray;
+  color:$whitest;
+  div.tb-megamenu-menu-bottom-menu{
+    div.nav-collapse{background: $footergray;
+    display:block;
+    color:$whitest;
+      ul{background: $footergray;
+      color:$whitest;
+          li:nth-child(2){width:55vw;}
+          li{background: $footergray;
+          color:$whitest;
+          margin:0 1vw;
+          a:hover{background: $footergray;
+          color:$whitest;}
+            div{
+              min-width:23vw;
+              width:23vw;
+              border: 2px dotted maroon;
+              
+               div div div div ul{
+              background: $footergray;
+              color:$whitest;
+              li:nth-child(2){width:11vw;}
+              li{display:block;
+                background: $footergray;
+                color:$whitest;
+                &:hover{background:$footergray;}
+                }
+      
+              }
+  
+            }
+  
+          }}
+        }
+      }
+    }
+   } 
+   
+   div.tb-megamenu-row.row-fluid{width:100% !important;}
+  
+  #tb-megamenu-column-6{width:45% !important;display:inline-block !important;float:left !important; li{width:14em !important;}}
+   #tb-megamenu-column-8{width:45% !important;display:inline-block !important;float:left !important; li{width:14em !important;}}*/ }
 
 /*# sourceMappingURL=angel.layout.css.map */

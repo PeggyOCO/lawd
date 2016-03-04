@@ -1178,7 +1178,7 @@ display: block;
 }
 
 
-.tb-megamenu .nav > .active > a, .tb-megamenu .nav > .active > a:hover, .tb-megamenu .nav > .active > a:focus {
+#tb-megamenu-main-menu .nav > .active > a, .tb-megamenu .nav > .active > a:hover, .tb-megamenu .nav > .active > a:focus {
     background-color: #fff;
     color: #e54e4b;
     text-shadow: none;
@@ -1188,33 +1188,33 @@ display: block;
     outline: none;
 }
 
-.tb-megamenu .nav > li > a:hover {
+#tb-megamenu-main-menu .nav > li > a:hover {
     color: #f00;
  
 }
 
-.tb-megamenu {
+#tb-megamenu-main-menu {
     background-color: #fff;
 }
 
-.tb-megamenu-column-inner{padding:2em !important;border:1px solid black !important;}
+#tb-megamenu-main-menu .tb-megamenu-column-inner{padding:2em !important;border:1px solid black !important;}
 
 
-  .tb-megamenu-column-inner.mega-inner{border:0 !important;padding:1em !important;}
+#tb-megamenu-main-menu  .tb-megamenu-column-inner.mega-inner{border:0 !important;padding:1em !important;}
   
-  .tb-megamenu-item.level-2 a{text-transform:uppercase;text-decoration:none;font-weight:bold;}
+#tb-megamenu-main-menu  .tb-megamenu-item.level-2 a{text-transform:uppercase;text-decoration:none;font-weight:bold;}
   
-    li.tb-megamenu-item.level-3.mega a{
+#tb-megamenu-main-menu    li.tb-megamenu-item.level-3.mega a{
 text-transform:capitalize !important;
 font-size:.8vw !important;
 white-space: nowrap;
 padding:1.5% 0 0 1.5% !important;}
 
-    li:nth-child(6).tb-megamenu-item.level-3.mega a{
+#tb-megamenu-main-menu    li:nth-child(6).tb-megamenu-item.level-3.mega a{
 margin-top:20%;}
 
 
-.tb-megamenu .dropdown-menu {
+#tb-megamenu-main-menu .dropdown-menu {
     position: absolute;
     top: 100%;
     left: 0;
@@ -1245,7 +1245,7 @@ margin-top:20%;}
 
 
 
-#block-tb-megamenu-menu-bottom-menu{color:$whitest;
+/*#block-tb-megamenu-menu-bottom-menu{color:$whitest;
 div.block__content{background: $footergray;
 color:$whitest;
 div.tb-megamenu-menu-bottom-menu{
@@ -1263,7 +1263,7 @@ div.tb-megamenu-menu-bottom-menu{
           div{
             min-width:23vw;
             width:23vw;
-            /*border: 2px dotted maroon;*/
+            border: 2px dotted maroon;
             
              div div div div ul{
             background: $footergray;
@@ -1288,7 +1288,7 @@ div.tb-megamenu-menu-bottom-menu{
  div.tb-megamenu-row.row-fluid{width:100% !important;}
 
 #tb-megamenu-column-6{width:45% !important;display:inline-block !important;float:left !important; li{width:14em !important;}}
- #tb-megamenu-column-8{width:45% !important;display:inline-block !important;float:left !important; li{width:14em !important;}}
+ #tb-megamenu-column-8{width:45% !important;display:inline-block !important;float:left !important; li{width:14em !important;}}*/
 
 }
 
