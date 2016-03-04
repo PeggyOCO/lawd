@@ -1805,9 +1805,10 @@ body.not-logged-in.page-node {
   /* line 1247, ../../../sass/layouts/angel/angel.layout.scss */
   #block-tb-megamenu-menu-bottom-menu li {
     background-color: #d5d5d5; }
-    /* line 1248, ../../../sass/layouts/angel/angel.layout.scss */
-    #block-tb-megamenu-menu-bottom-menu li:hover {
-      background-color: #d5d5d5; }
+
+  /* line 1248, ../../../sass/layouts/angel/angel.layout.scss */
+  #block-tb-megamenu-menu-bottom-menu li:hover {
+    background-color: #d5d5d5; }
 
   /* line 1249, ../../../sass/layouts/angel/angel.layout.scss */
   #block-tb-megamenu-menu-bottom-menu li div.tb-megamenu-submenu {
