@@ -1830,6 +1830,7 @@ body.not-logged-in.page-node {
 
   /* line 1251, ../../../sass/layouts/angel/angel.layout.scss */
   #block-tb-megamenu-menu-bottom-menu li div.tb-megamenu-submenu {
+    width: 40%;
     display: block !important;
     border: 0;
     box-shadow: none; }
