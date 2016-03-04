@@ -1807,7 +1807,7 @@ body.not-logged-in.page-node {
     background-color: #d5d5d5; }
     /* line 1247, ../../../sass/layouts/angel/angel.layout.scss */
     #block-tb-megamenu-menu-bottom-menu li:first-child {
-      width: 20vw; }
+      width: 10vw; }
 
   /* line 1248, ../../../sass/layouts/angel/angel.layout.scss */
   #block-tb-megamenu-menu-bottom-menu li:hover {
@@ -1843,11 +1843,11 @@ body.not-logged-in.page-node {
 
   /* line 1253, ../../../sass/layouts/angel/angel.layout.scss */
   #block-tb-megamenu-menu-bottom-menu li:nth-child(3) {
-    width: 20vw !important; }
+    width: 10vw !important; }
 
   /* line 1254, ../../../sass/layouts/angel/angel.layout.scss */
   #block-tb-megamenu-menu-bottom-menu li:nth-child(4) {
-    width: 20vw !important; }
+    width: 25vw !important; }
 
   /*#block-tb-megamenu-menu-bottom-menu{color:$whitest;
   div.block__content{background: $footergray;
