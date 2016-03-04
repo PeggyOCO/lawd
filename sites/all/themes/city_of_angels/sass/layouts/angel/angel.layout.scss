@@ -1244,7 +1244,10 @@ margin-top:20%;}
 }
 
 #block-tb-megamenu-menu-bottom-menu div div{background-color: $footergray;}
-#block-tb-megamenu-menu-bottom-menu li{background-color: $footergray; &:first-child{ width:15vw;}padding:1em 0 .5em;margin:0;font-size:1.5em;}
+#block-tb-megamenu-menu-bottom-menu li{background-color: $footergray;
+                                         &:first-child{width:15vw;height:10em;
+                                                  border-right:1px solid $blacker;}
+                                 padding:1em 0 .5em;margin:0;font-size:1.5em;}
 #block-tb-megamenu-menu-bottom-menu li:hover{background-color: $footergray;border:0;}
 #block-tb-megamenu-menu-bottom-menu a{background-color: $footergray;text-decoration:none;border:0;margin:0 0 0 1em;padding:0;line-height:1em;}
 #block-tb-megamenu-menu-bottom-menu a:hover{background-color: $footergray;color: $reder;}
@@ -1253,7 +1256,8 @@ margin-top:20%;}
 #block-tb-megamenu-menu-bottom-menu a.mega-group-title{font-size:1rem;font-weight:bold;color:$blacker;margin-bottom:.5rem;}
 #block-tb-megamenu-menu-bottom-menu li div.tb-megamenu-submenu{width:35vw !important;display:block !important;border:0;box-shadow: none; div div{background-color: $footergray;}}
 #block-tb-megamenu-menu-bottom-menu li:nth-child(2){width:40vw !important;padding:1em 0 .5em;margin:0;font-size:1.5em;}
-#block-tb-megamenu-menu-bottom-menu li:nth-child(3){width:15vw !important;padding:1em 0 .5em;margin:0;font-size:1.5em;}
+#block-tb-megamenu-menu-bottom-menu li:nth-child(3){width:15vw !important;padding:1em 0 .5em;margin:0;font-size:1.5em;
+                                          height:10em;border-right:1px solid $blacker;border-left:1px solid $blacker;}
 #block-tb-megamenu-menu-bottom-menu li:nth-child(4){width:25vw !important;padding:1em 1em .5em .5em;margin:0;font-size:1.5em;}
 
 
