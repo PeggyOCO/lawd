@@ -1822,7 +1822,7 @@ body.not-logged-in.page-node {
   #block-tb-megamenu-menu-bottom-menu li div.tb-megamenu-submenu {
     display: block !important;
     border: 0;
-    box-shadow: 0; }
+    box-shadow: none; }
 
   /* line 1252, ../../../sass/layouts/angel/angel.layout.scss */
   #block-tb-megamenu-menu-bottom-menu li:nth-child(2) {
