@@ -1805,8 +1805,9 @@ body.not-logged-in.page-node {
   /* line 1247, ../../../sass/layouts/angel/angel.layout.scss */
   #block-tb-megamenu-menu-bottom-menu li {
     background-color: #d5d5d5;
-    padding: 0;
-    margin: 0; }
+    padding: 1em 0 .5em;
+    margin: 0;
+    font-size: 1.5em; }
     /* line 1247, ../../../sass/layouts/angel/angel.layout.scss */
     #block-tb-megamenu-menu-bottom-menu li:first-child {
       width: 15vw; }
@@ -1842,15 +1843,24 @@ body.not-logged-in.page-node {
 
   /* line 1252, ../../../sass/layouts/angel/angel.layout.scss */
   #block-tb-megamenu-menu-bottom-menu li:nth-child(2) {
-    width: 40vw !important; }
+    width: 40vw !important;
+    padding: 1em 0 .5em;
+    margin: 0;
+    font-size: 1.5em; }
 
   /* line 1253, ../../../sass/layouts/angel/angel.layout.scss */
   #block-tb-megamenu-menu-bottom-menu li:nth-child(3) {
-    width: 15vw !important; }
+    width: 15vw !important;
+    padding: 1em 0 .5em;
+    margin: 0;
+    font-size: 1.5em; }
 
   /* line 1254, ../../../sass/layouts/angel/angel.layout.scss */
   #block-tb-megamenu-menu-bottom-menu li:nth-child(4) {
-    width: 25vw !important; }
+    width: 25vw !important;
+    padding: 1em 1em .5em .5em;
+    margin: 0;
+    font-size: 1.5em; }
 
   /*#block-tb-megamenu-menu-bottom-menu{color:$whitest;
   div.block__content{background: $footergray;
