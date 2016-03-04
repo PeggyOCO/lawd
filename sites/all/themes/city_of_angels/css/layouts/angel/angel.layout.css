@@ -1803,13 +1803,13 @@ body.not-logged-in.page-node {
     background-clip: padding-box; }
 
   /* line 1247, ../../../sass/layouts/angel/angel.layout.scss */
-  #block-tb-megamenu-menu-bottom-menu > li {
+  #block-tb-megamenu-menu-bottom-menu li {
     background-color: #d5d5d5;
     padding: 1em 0 .5em;
     margin: 0;
     font-size: 1.5em; }
     /* line 1247, ../../../sass/layouts/angel/angel.layout.scss */
-    #block-tb-megamenu-menu-bottom-menu > li:first-child {
+    #block-tb-megamenu-menu-bottom-menu li:first-child {
       width: 15vw; }
 
   /* line 1248, ../../../sass/layouts/angel/angel.layout.scss */
@@ -1818,7 +1818,7 @@ body.not-logged-in.page-node {
     border: 0; }
 
   /* line 1249, ../../../sass/layouts/angel/angel.layout.scss */
-  #block-tb-megamenu-menu-bottom-menu a {
+  #block-tb-megamenu-menu-bottom-menu li.level-3 a {
     background-color: #d5d5d5;
     text-decoration: none;
     font-size: 75%;
@@ -1842,21 +1842,21 @@ body.not-logged-in.page-node {
       background-color: #d5d5d5; }
 
   /* line 1252, ../../../sass/layouts/angel/angel.layout.scss */
-  #block-tb-megamenu-menu-bottom-menu > li:nth-child(2) {
+  #block-tb-megamenu-menu-bottom-menu li:nth-child(2) {
     width: 40vw !important;
     padding: 1em 0 .5em;
     margin: 0;
     font-size: 1.5em; }
 
   /* line 1253, ../../../sass/layouts/angel/angel.layout.scss */
-  #block-tb-megamenu-menu-bottom-menu > li:nth-child(3) {
+  #block-tb-megamenu-menu-bottom-menu li:nth-child(3) {
     width: 15vw !important;
     padding: 1em 0 .5em;
     margin: 0;
     font-size: 1.5em; }
 
   /* line 1254, ../../../sass/layouts/angel/angel.layout.scss */
-  #block-tb-megamenu-menu-bottom-menu > li:nth-child(4) {
+  #block-tb-megamenu-menu-bottom-menu li:nth-child(4) {
     width: 25vw !important;
     padding: 1em 1em .5em .5em;
     margin: 0;
