@@ -1808,13 +1808,15 @@ body.not-logged-in.page-node {
 
   /* line 1248, ../../../sass/layouts/angel/angel.layout.scss */
   #block-tb-megamenu-menu-bottom-menu li:hover {
-    background-color: #d5d5d5; }
+    background-color: #d5d5d5;
+    border: 0; }
 
   /* line 1249, ../../../sass/layouts/angel/angel.layout.scss */
   #block-tb-megamenu-menu-bottom-menu a {
     background-color: #d5d5d5;
     text-decoration: none;
     font-size: 75%;
+    border: 0;
     margin: 0 0 0 1em;
     padding: 0; }
 
