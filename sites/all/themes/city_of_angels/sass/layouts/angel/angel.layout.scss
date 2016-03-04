@@ -1245,8 +1245,7 @@ margin-top:20%;}
 
 #block-tb-megamenu-menu-bottom-menu div div{background-color: $footergray;}
 #block-tb-megamenu-menu-bottom-menu li{background-color: $footergray;
-                                         &:first-child{width:15vw;height:10em;
-                                                  border-right:1px solid $blacker;}
+                                         &:first-child{width:15vw;}
                                  padding:1em 0 .5em;margin:0;font-size:1.5em;}
 #block-tb-megamenu-menu-bottom-menu li:hover{background-color: $footergray;border:0;}
 #block-tb-megamenu-menu-bottom-menu a{background-color: $footergray;text-decoration:none;border:0;margin:0 0 0 1em;padding:0;line-height:1em;}
