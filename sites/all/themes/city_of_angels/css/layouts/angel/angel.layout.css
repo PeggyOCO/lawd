@@ -1832,7 +1832,7 @@ body.not-logged-in.page-node {
     color: #c4112f; }
 
   /* line 1251, ../../../sass/layouts/angel/angel.layout.scss */
-  #block-tb-megamenu-menu-bottom-menu a.level-3 {
+  #block-tb-megamenu-menu-bottom-menu li.level-3 a {
     font-size: 1rem !important; }
 
   /* line 1252, ../../../sass/layouts/angel/angel.layout.scss */
