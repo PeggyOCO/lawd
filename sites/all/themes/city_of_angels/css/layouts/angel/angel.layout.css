@@ -1806,6 +1806,10 @@ body.not-logged-in.page-node {
   #block-tb-megamenu-menu-bottom-menu li div.tb-megamenu-submenu {
     display: block !important; }
 
+  /* line 1247, ../../../sass/layouts/angel/angel.layout.scss */
+  #block-tb-megamenu-menu-bottom-menu li:nth-child(2) {
+    width: 55vw !important; }
+
   /*#block-tb-megamenu-menu-bottom-menu{color:$whitest;
   div.block__content{background: $footergray;
   color:$whitest;
