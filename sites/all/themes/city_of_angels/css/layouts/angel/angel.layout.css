@@ -1802,11 +1802,18 @@ body.not-logged-in.page-node {
     -moz-background-clip: padding;
     background-clip: padding-box; }
 
-  /* line 1246, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1247, ../../../sass/layouts/angel/angel.layout.scss */
+  #block-tb-megamenu-menu-bottom-menu li {
+    background-color: #d5d5d5; }
+    /* line 1248, ../../../sass/layouts/angel/angel.layout.scss */
+    #block-tb-megamenu-menu-bottom-menu li:hover {
+      background-color: #d5d5d5; }
+
+  /* line 1249, ../../../sass/layouts/angel/angel.layout.scss */
   #block-tb-megamenu-menu-bottom-menu li div.tb-megamenu-submenu {
     display: block !important; }
 
-  /* line 1247, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1250, ../../../sass/layouts/angel/angel.layout.scss */
   #block-tb-megamenu-menu-bottom-menu li:nth-child(2) {
     width: 55vw !important; }
 
