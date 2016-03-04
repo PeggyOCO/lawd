@@ -1833,8 +1833,8 @@ body.not-logged-in.page-node {
 
   /* line 1251, ../../../sass/layouts/angel/angel.layout.scss */
   #block-tb-megamenu-menu-bottom-menu li.level-3 {
-    margin: 0;
-    padding: 0; }
+    margin: 0 !important;
+    padding: 0 !important; }
     /* line 1251, ../../../sass/layouts/angel/angel.layout.scss */
     #block-tb-megamenu-menu-bottom-menu li.level-3 a {
       font-size: 1rem !important; }
