@@ -1837,7 +1837,8 @@ body.not-logged-in.page-node {
     padding: 0 !important; }
     /* line 1251, ../../../sass/layouts/angel/angel.layout.scss */
     #block-tb-megamenu-menu-bottom-menu li.level-2 a {
-      font-size: 1.2rem !important; }
+      font-size: 1rem !important;
+      color: #c4c3c1; }
 
   /* line 1252, ../../../sass/layouts/angel/angel.layout.scss */
   #block-tb-megamenu-menu-bottom-menu li.level-3 {
@@ -1845,12 +1846,14 @@ body.not-logged-in.page-node {
     padding: 0 !important; }
     /* line 1252, ../../../sass/layouts/angel/angel.layout.scss */
     #block-tb-megamenu-menu-bottom-menu li.level-3 a {
-      font-size: 1rem !important; }
+      font-size: .8rem !important;
+      color: #c4c3c1; }
 
   /* line 1253, ../../../sass/layouts/angel/angel.layout.scss */
   #block-tb-megamenu-menu-bottom-menu a.mega-group-title {
-    font-size: 1.2em;
-    font-weight: bold; }
+    font-size: 1rem;
+    font-weight: bold;
+    color: #c4c3c1; }
 
   /* line 1254, ../../../sass/layouts/angel/angel.layout.scss */
   #block-tb-megamenu-menu-bottom-menu li div.tb-megamenu-submenu {
