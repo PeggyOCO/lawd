@@ -731,7 +731,7 @@ body.not-logged-in.page-node {
   html, body {
     height: 100%;
     margin: 0;
-    font-size: 16px; }
+    font-size: 1.2vw; }
 
   /* line 481, ../../../sass/layouts/angel/angel.layout.scss */
   #block-system-main-menu {
