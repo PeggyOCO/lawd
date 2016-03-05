@@ -1201,6 +1201,7 @@ body.not-logged-in.page-node {
     flex: 1;
     -webkit-flex-direction: "row";
     flex-direction: "row";
+    float: left;
     width: 66%;
     height: 25vw;
     background-color: #47bdbf; }
