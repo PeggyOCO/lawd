@@ -657,13 +657,13 @@ font-size:1.2vw;}
           width:25%;
           height:100%;
           background-color:#fff;
-          flex-direction: columns;
+          flex-direction: column;
           img{width:100%;height:auto;}
           .image-field-caption{width:100%;height:auto;}
                     }
           .field-name-field-double2{
             @include flex(1);
-            flex-direction: columns;
+            flex-direction: column;
             font-size:1.1em;
           width:25%;
           height:100%;
