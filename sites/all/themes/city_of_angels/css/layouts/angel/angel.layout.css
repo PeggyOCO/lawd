@@ -1,24 +1,28 @@
 /*
-Error: Undefined mixin 'breakpoint'.
-        on line 40 of /Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss, in `breakpoint'
-        from line 40 of /Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss
+Error: Undefined variable: "$tab".
+        on line 262 of /Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss, in `breakpoint'
+        from line 262 of /Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss
 
-35: }
-36: .clr{clear:both;}
-37: 
-38: //************phone************\//
-39: 
-40: @include breakpoint($phone, true) {
-41:   /* Header Area *\/
-42: html, body {
-43: height: 100%;
-44: width:100%;
-45: margin: 0;
+257:   }
+258: 
+259: //************end phone************\//
+260: 
+261: //************tab***********\//
+262: @include breakpoint($tab, true) {
+263: 
+264: html, body {
+265: height: 100%;
+266: margin: 0;
+267: font-size:16px;}
 
 Backtrace:
-/Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss:40:in `breakpoint'
-/Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss:40
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:349:in `block in visit_mixin'
+/Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss:262:in `breakpoint'
+/Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss:262
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/script/tree/variable.rb:49:in `_perform'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/script/tree/node.rb:50:in `perform'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:355:in `block (2 levels) in visit_mixin'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:355:in `map'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:355:in `block in visit_mixin'
 /Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/stack.rb:98:in `block in with_mixin'
 /Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/stack.rb:115:in `with_frame'
 /Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/stack.rb:98:in `with_mixin'
@@ -61,4 +65,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'breakpoint'.\A         on line 40 of /Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss, in `breakpoint'\A         from line 40 of /Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss\A \A 35: }\A 36: .clr{clear:both;}\A 37: \A 38: //************phone************//\A 39: \A 40: @include breakpoint($phone, true) {\A 41:   /* Header Area */\A 42: html, body {\A 43: height: 100%;\A 44: width:100%;\A 45: margin: 0;"; }
+  content: "Error: Undefined variable: \"$tab\".\A         on line 262 of /Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss, in `breakpoint'\A         from line 262 of /Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss\A \A 257:   }\A 258: \A 259: //************end phone************//\A 260: \A 261: //************tab***********//\A 262: @include breakpoint($tab, true) {\A 263: \A 264: html, body {\A 265: height: 100%;\A 266: margin: 0;\A 267: font-size:16px;}"; }
