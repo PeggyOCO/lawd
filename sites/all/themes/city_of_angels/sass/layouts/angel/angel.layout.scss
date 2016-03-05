@@ -856,6 +856,8 @@ background-color: rgba(180, 180, 180, 0.85);
 	flex-direction:column;
 
     flex:1;*/
+    
+    h4{margin-top:2em;}
  
     width: 100%;
     height:100%;
@@ -958,7 +960,7 @@ p.first{width:75%;margin:15% auto;color:white;font-size:1rem;vertical-align:midd
 .itemquad img{width:100%;}
 .itemquad2 img{width:100%;}
 .centerbox{width:100%;margin:0 auto;
-h4.red{width:80%;margin:2em auto;}
+h4.red{width:80%;margin:0 auto;}
 
 p{text-align:left;}
 }
