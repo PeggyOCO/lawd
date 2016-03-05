@@ -460,8 +460,9 @@ font-size:1.2vw;}
           .image-field-caption{width:100%;height:auto;
           margin:0;
           padding:0;
-          h4{width:80%;margin:.5em;}
+          h4{width:80%;margin:.5em auto;}
           p{width:80%;
+          margin:.5em auto;
           font-size:.8em;}
             }
           }
@@ -480,6 +481,7 @@ font-size:1.2vw;}
           padding:0;
           h4{width:80%;margin:.5em;}
           p{width:80%;
+          margin:.5em auto;
           font-size:.8em;}
             }
           
