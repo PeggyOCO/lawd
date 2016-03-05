@@ -644,7 +644,12 @@ font-size:1.2vw;}
           align-items:center;
           overflow:hidden;
           //margin-top:-2px;
-          .field-name-field-bigfront50{width:50%;img{100%;}}
+          .field-name-field-bigfront50{
+           @include flex(1);
+                width:50%;
+                height:100%;
+                img{width:100%;}
+                }
           .field-name-field-double1,.field-name-field-double2{
           @include flex(1);
           width:25%;
