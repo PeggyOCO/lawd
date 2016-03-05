@@ -707,7 +707,7 @@ body.not-logged-in {
         /* line 463, ../../../sass/layouts/angel/angel.layout.scss */
         .field-collection-item-field-frontrow .field-name-field-double1 .image-field-caption h4 {
           width: 80%;
-          margin: .5em; }
+          margin: .5em auto; }
         /* line 464, ../../../sass/layouts/angel/angel.layout.scss */
         .field-collection-item-field-frontrow .field-name-field-double1 .image-field-caption p {
           width: 80%;
@@ -735,7 +735,7 @@ body.not-logged-in {
         /* line 482, ../../../sass/layouts/angel/angel.layout.scss */
         .field-collection-item-field-frontrow .field-name-field-double2 .image-field-caption h4 {
           width: 80%;
-          margin: .5em; }
+          margin: .5em auto; }
         /* line 483, ../../../sass/layouts/angel/angel.layout.scss */
         .field-collection-item-field-frontrow .field-name-field-double2 .image-field-caption p {
           width: 80%;
