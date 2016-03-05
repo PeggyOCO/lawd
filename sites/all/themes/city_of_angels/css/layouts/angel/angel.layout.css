@@ -1430,9 +1430,9 @@ body.not-logged-in.page-node {
   /* line 972, ../../../sass/layouts/angel/angel.layout.scss */
   p.first {
     width: 75%;
-    margin: 15% auto;
+    margin: 13% auto;
     color: white;
-    font-size: 1rem;
+    font-size: 1.5rem;
     vertical-align: middle; }
 
   /* line 973, ../../../sass/layouts/angel/angel.layout.scss */
