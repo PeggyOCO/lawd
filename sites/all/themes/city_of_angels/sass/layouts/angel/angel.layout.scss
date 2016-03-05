@@ -663,7 +663,9 @@ font-size:1.2vw;}
           background-color:#fff;
           flex-direction: column;
           img{width:100%;height:auto;}
-          .image-field-caption{width:100%;height:auto;}
+          .image-field-caption{width:100%;height:auto;
+          p{width:90%;margin:0 auto;}
+          }
                     }
           .field-name-field-double2{
             //@include flex(1);
@@ -674,7 +676,8 @@ font-size:1.2vw;}
           height:auto;
           background-color:#fff;
           img{width:100%;height:auto;}
-          .image-field-caption{width:100%;height:auto;}
+          .image-field-caption{width:100%;height:auto;
+          p{width:90%;margin:0 auto;}}
           
           }
   
