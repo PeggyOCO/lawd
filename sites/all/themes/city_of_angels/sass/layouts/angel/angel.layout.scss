@@ -846,6 +846,11 @@ margin: 0px 0 !important;
 }
 
 .scrim{background-color: rgba(180, 180, 180, 0.85);
+
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+
     flex:1;
  
     width: 100%;
