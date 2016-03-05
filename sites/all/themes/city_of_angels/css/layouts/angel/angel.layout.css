@@ -920,7 +920,7 @@ body.not-logged-in.page-node {
     flex: 1; }
 
   /* line 633, ../../../sass/layouts/angel/angel.layout.scss */
-  field-collection-item-field-frontrow {
+  .field-collection-item-field-frontrow {
     -webkit-flex: 1;
     flex: 1;
     width: 100%;
