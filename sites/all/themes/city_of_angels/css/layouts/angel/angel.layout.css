@@ -679,7 +679,6 @@ body.not-logged-in {
     overflow: hidden; }
     /* line 443, ../../../sass/layouts/angel/angel.layout.scss */
     .field-collection-item-field-frontrow .field-name-field-bigfront50 {
-      display: inline-flex;
       width: 50%; }
       /* line 447, ../../../sass/layouts/angel/angel.layout.scss */
       .field-collection-item-field-frontrow .field-name-field-bigfront50 height:auto
