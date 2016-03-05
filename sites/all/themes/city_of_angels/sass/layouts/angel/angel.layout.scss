@@ -957,8 +957,14 @@ section.quad{position:relative;display:flex; flex-flow: row;min-height:10em;alig
 .white.center{font-size:1.5rem;}
    p.frontblack{font-size:1em;color:black;width:80%;margin:0 auto;}
    p.frontwhite{font-size:1.5em;color:white;}
-.item{   box-sizing: content-box;width:25%; flex-grow:1;flex-shrink:1;flex-basis:0;background-color:#fff;min-height:8em;}
-.item2{   box-sizing: content-box;flex-grow:2;flex-shrink:1;flex-basis:0;min-height:8em;}
+.item{   box-sizing: content-box;width:25%; 
+          @include flex(1);
+       // flex-grow:1;flex-shrink:1;flex-basis:0;
+        background-color:#fff;min-height:8em;}
+.item2{  box-sizing: content-box;
+        @include flex(2 1 0);
+       // flex-grow:2;flex-shrink:1;flex-basis:0;
+        min-height:8em;}
 
 .itemquad{   box-sizing: content-box;width:25%; flex-grow:1;flex-shrink:1;flex-basis:0;background-color:#fff;min-height:4em;}
 .itemquad2{   box-sizing: content-box;flex-grow:2;flex-shrink:1;flex-basis:0;min-height:4em;}
