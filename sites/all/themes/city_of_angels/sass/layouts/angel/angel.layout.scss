@@ -14,7 +14,7 @@
  @import "abstractions/**/*";
  @import "base/**/*";
  @import "components/**/*";
-// @import "../../variables/colors";*/
+ @import "../../variables/colors";
 
 // Set breakpoint values.
 $phone : max-width 800px;
