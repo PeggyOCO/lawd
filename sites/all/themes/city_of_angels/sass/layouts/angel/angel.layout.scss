@@ -626,7 +626,7 @@ font-size:16px;}
  
  
  .ds-1col{
-        @include flexbox(1,2);
+        @include flexbox(1);
         @include flex(1);
         } 
  
@@ -840,7 +840,7 @@ background-color:#47bdbf;
 
 .field--name-field-right{
           @include flex(1);
-          @include flex-grow(2);
+          @include flex-grow(1);
           float:left;
           width:34%;
           height:25vw;

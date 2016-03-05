@@ -1208,8 +1208,8 @@ body.not-logged-in.page-node {
   .field--name-field-right {
     -webkit-flex: 1;
     flex: 1;
-    -webkit-flex-grow: 2;
-    flex-grow: 2;
+    -webkit-flex-grow: 1;
+    flex-grow: 1;
     float: left;
     width: 34%;
     height: 25vw;
