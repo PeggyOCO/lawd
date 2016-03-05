@@ -1,9 +1,3 @@
-@import "../libraries/breakpoint-sass/stylesheets/breakpoint";
-@import "variables/**/*";
-@import "abstractions/**/*";
-@import "base/**/*";
-@import "components/**/*";
-
 /*******************************************************************************
  * angel.layout.scss
  *
@@ -12,16 +6,19 @@
  ******************************************************************************/
 @import url("https://fonts.googleapis.com/css?family=Lato:400,700");
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,500");
-//@import "../../compass";
-
-//@import "../../singularitygs";
-//@import "../../toolkit";
-
-//@import "../../variables/colors";
+@import "compass";
+@import "breakpoint";
+@import "singularitygs";
+@import "toolkit";
+@import "variables/**/*";
+@import "abstractions/**/*";
+@import "base/**/*";
+@import "components/**/*";
+@import "../../variables/colors";
 
 // Set breakpoint values.
-$phone : max-width 800px;
-//$tab  : 480px 799px;
+$phone : max-width 480px;
+$tab  : 480px 799px;
 $desk : 800px;
 body.not-logged-in.page-node{font-family:Lato,Tahoma,Verdana, Helvetica, sans-serif;letter-spacing:2px;
 width:100%;overflow-x:hidden;}
@@ -184,7 +181,7 @@ clear: both;
 }
 
  .field-name-field-rightbig{
-         @include flexbox(1);
+         @include flex(1);
         clear:both;
         width: 100%;
         background-color:#666;
@@ -194,7 +191,7 @@ clear: both;
         height:72vw;
         border:none;
                  img{
-            @include flexbox(1);
+            @include flex(1);
             @include flex-shrink(1);
             @include flex-grow(1);
             @include flex-basis(100%); 
@@ -207,7 +204,7 @@ clear: both;
         }
 
 	.inlinefourup{
-  @include flexbox(1);
+  @include flex(1);
   @include flex-basis(100%);
   @include flex-grow(1);
   margin:0px 0;
@@ -225,7 +222,7 @@ clear: both;
         .caption{width:100% !important;
                  height:72vw !important;
                 img{
-                  @include flexbox(1);
+                  @include flex(1);
                   width:100% !important;
                   height:100%;
                   height:72vw;
@@ -419,7 +416,7 @@ h1{display:none;}
  
 
 	.field-name-field-fourup{
-@include flexbox(1);
+@include flex(1);
 @include flex-flow(column);
 @include flex-direction(column);
 margin:0;
@@ -432,7 +429,7 @@ clear: both;
 
    .field-name-field-rightbig{
 
- @include flexbox(1);
+ @include flex(1);
 
 clear:both;
 width: 100%;
@@ -449,7 +446,7 @@ height:auto;
 }
 
 	.inlinefourup{
-  @include flexbox(1);
+  @include flex(1);
   @include flex-basis(50%);
   @include flex-grow(1);
   margin:0px 0;
@@ -459,7 +456,7 @@ height:auto;
         a{ 
         .caption{
                 img{
-                  @include flexbox(1);
+                  @include flex(1);
                   width:100% !important;
                   height:34vw;
                   z-index:1;     
@@ -631,15 +628,12 @@ font-size:16px;}
  
  
  .ds-1col{
-        @include flexbox();
-        @include flex-direction('column'); 
-        
-        div{@include flexbox(1);
-            border: 1px dotted red;}
+        @include flexbox(1,2);
+        @include flex(1);
         } 
  
 	.field-collection-item-field-bigright{
-          @include flexbox(1);
+          @include flex(1);
           @include flexbox(1,2);
           width: 100%;
           height:34vw;
@@ -656,7 +650,7 @@ font-size:16px;}
           }
 
 	.field-name-field-fourup{
-            @include flexbox(1);
+            @include flex(1);
             @include flex-flow(row);
             @include flex-direction(row);
             margin:0;
@@ -676,7 +670,7 @@ font-size:16px;}
 }
 
 .hovercaption{
-     @include flexbox(1);
+     @include flex(1);
      width:100%;
      height:100%;
      position:relative;
@@ -702,7 +696,7 @@ background-color: rgba(0, 0, 0, 0.4);
 }
 
 	.inlinefourup{
-  @include flexbox(1);
+  @include flex(1);
   @include flex-basis(50%);
   @include flex-grow(1);
   margin:0px 0;
@@ -735,7 +729,7 @@ background-color: rgba(0, 0, 0, 0.4);
                       background-color: rgba(0, 0, 0, 0.4);
                       }
                 img{
-                  @include flexbox(1);
+                  @include flex(1);
                   width:100% !important;
                   height:17vw;
                   z-index:2;     
@@ -753,7 +747,7 @@ background-color: rgba(0, 0, 0, 0.4);
   
     
     .field-name-field-rightbig{
-         @include flexbox(1);
+         @include flex(1);
         float:left;
         width: 50% !important;
         background-color:#666;
@@ -768,7 +762,7 @@ background-color: rgba(0, 0, 0, 0.4);
                     width:100% !important;
                     height:34vw !important;
                   img{
-                      @include flexbox(1);
+                      @include flex(1);
                      /* @include flex-shrink(1);
                       @include flex-grow(1);
                       @include flex-basis(100%);*/ 
@@ -1174,7 +1168,7 @@ display: block;
   }
   
   .l-main{
-      @include flexbox(1);
+      @include flex(1);
     @include flex-shrink(1);
     @include flex-grow(1);
     @include flex-basis(100%); 
