@@ -6,21 +6,21 @@
  ******************************************************************************/
 @import url("https://fonts.googleapis.com/css?family=Lato:400,700");
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,500");
-@import "compass";
-@import "breakpoint";
-@import "singularitygs";
-@import "toolkit";
-@import "variables/**/*";
-@import "abstractions/**/*";
-@import "base/**/*";
-@import "components/**/*";
-@import "../../variables/colors";
+// @import "compass";
+// @import "breakpoint";
+// @import "singularitygs";
+// @import "toolkit";
+// @import "variables/**/*";
+// @import "abstractions/**/*";
+// @import "base/**/*";
+// @import "components/**/*";
+// @import "../../variables/colors";*/
 
 // Set breakpoint values.
-$phone : max-width 480px;
-$tab  : 480px 799px;
+$phone : max-width 800px;
+//$tab  : 480px 799px;
 $desk : 800px;
-body.not-logged-in.page-node{font-family:Lato,Tahoma,Verdana, Helvetica, sans-serif;letter-spacing:2px;
+body.not-logged-in{font-family:Lato,Tahoma,Verdana, Helvetica, sans-serif;letter-spacing:2px;
 width:100%;overflow-x:hidden;}
 
 .pinktitle{font-size:2em;color: #c74c4f;text-transform:uppercase;text-align:left;}
