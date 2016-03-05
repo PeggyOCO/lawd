@@ -647,7 +647,7 @@ font-size:1.2vw;}
           .field-name-field-bigfront50{
            @include flex(2 1 auto);
            display: inline-flex;
-                width:48%;
+                width:50%;
                 height:100%;
                 img{width:100%;}
                 }
@@ -656,7 +656,7 @@ font-size:1.2vw;}
           display: inline-flex;
           font-size:1.1em;
           width:25%;
-          height:100%;
+          height:auto;
           background-color:#fff;
           flex-direction: column;
           img{width:100%;height:auto;}
@@ -668,7 +668,7 @@ font-size:1.2vw;}
             flex-direction: column;
             font-size:1.1em;
           width:25%;
-          height:100%;
+          height:auto;
           background-color:#fff;
           img{width:100%;height:auto;}
           .image-field-caption{width:100%;height:auto;}
