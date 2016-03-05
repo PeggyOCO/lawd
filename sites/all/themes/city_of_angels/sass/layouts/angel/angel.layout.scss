@@ -1,3 +1,9 @@
+@import "../libraries/breakpoint-sass/stylesheets/breakpoint";
+@import "variables/**/*";
+@import "abstractions/**/*";
+@import "base/**/*";
+@import "components/**/*";
+
 /*******************************************************************************
  * angel.layout.scss
  *
@@ -7,13 +13,10 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:400,700");
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,500");
 //@import "../../compass";
-@import "../libraries/breakpoint-sass/stylesheets/breakpoint";
+
 //@import "../../singularitygs";
 //@import "../../toolkit";
-@import "variables/**/*";
-@import "abstractions/**/*";
-@import "base/**/*";
-@import "components/**/*";
+
 //@import "../../variables/colors";
 
 // Set breakpoint values.
