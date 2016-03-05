@@ -648,14 +648,14 @@ font-size:1.2vw;}
           overflow:hidden;
           //margin-top:-2px;
           .field-name-field-bigfront50{
-           @include flex(2 1 auto);
+           //@include flex(2 1 auto);
            display: inline-flex;
                 width:50%;
                 height:100%;
                 img{width:100%;}
                 }
           .field-name-field-double1{
-          @include flex(1);
+          //@include flex(1);
           display: inline-flex;
           font-size:1.1em;
           width:25%;
@@ -666,7 +666,7 @@ font-size:1.2vw;}
           .image-field-caption{width:100%;height:auto;}
                     }
           .field-name-field-double2{
-            @include flex(1);
+            //@include flex(1);
             display: inline-flex;
             flex-direction: column;
             font-size:1.1em;
