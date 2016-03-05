@@ -1199,8 +1199,8 @@ body.not-logged-in.page-node {
   .field--name-field-left {
     -webkit-flex: 1;
     flex: 1;
-    -webkit-flex-grow: 2 1;
-    flex-grow: 2 1;
+    -webkit-flex-grow: 1;
+    flex-grow: 1;
     height: 25vw;
     background-color: #47bdbf; }
 

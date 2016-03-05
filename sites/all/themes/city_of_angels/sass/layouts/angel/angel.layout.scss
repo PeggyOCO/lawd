@@ -831,7 +831,7 @@ margin: 0px 0 !important;
 /**Begin home page**/
 .field--name-field-left{
 @include flex(1);
-@include flex-grow(2 1);
+@include flex-grow(1);
 //float:left;width:66%;
 height:25vw;
 background-color:#47bdbf;
