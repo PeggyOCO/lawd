@@ -1,6 +1,6 @@
 /*
-Error: Undefined mixin 'flexbox'.
-        on line 176 of /Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss, in `flexbox'
+Error: Undefined mixin 'flex'.
+        on line 176 of /Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss, in `flex'
         from line 176 of /Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss, in `@content'
         from line 66 of /Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/libraries/breakpoint-sass/stylesheets/_breakpoint.scss, in `breakpoint'
         from line 43 of /Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss
@@ -10,7 +10,7 @@ Error: Undefined mixin 'flexbox'.
 173:   
 174:   
 175:   	.field-name-field-fourup{
-176: @include flexbox(1);
+176: @include flex(1);
 177: @include flex-flow(row);
 178: @include flex-direction(row);
 179: margin:0;
@@ -18,7 +18,7 @@ Error: Undefined mixin 'flexbox'.
 181: height:auto;
 
 Backtrace:
-/Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss:176:in `flexbox'
+/Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss:176:in `flex'
 /Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss:176:in `@content'
 /Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/libraries/breakpoint-sass/stylesheets/_breakpoint.scss:66:in `breakpoint'
 /Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss:43
@@ -133,4 +133,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'flexbox'.\A         on line 176 of /Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss, in `flexbox'\A         from line 176 of /Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss, in `@content'\A         from line 66 of /Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/libraries/breakpoint-sass/stylesheets/_breakpoint.scss, in `breakpoint'\A         from line 43 of /Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss\A \A 171: \A 172: .field-collection-view{height:auto;margin:0;padding:0;width:100%;border:0;}\A 173:   \A 174:   \A 175:   	.field-name-field-fourup{\A 176: @include flexbox(1);\A 177: @include flex-flow(row);\A 178: @include flex-direction(row);\A 179: margin:0;\A 180: padding:0;\A 181: height:auto;"; }
+  content: "Error: Undefined mixin 'flex'.\A         on line 176 of /Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss, in `flex'\A         from line 176 of /Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss, in `@content'\A         from line 66 of /Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/libraries/breakpoint-sass/stylesheets/_breakpoint.scss, in `breakpoint'\A         from line 43 of /Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss\A \A 171: \A 172: .field-collection-view{height:auto;margin:0;padding:0;width:100%;border:0;}\A 173:   \A 174:   \A 175:   	.field-name-field-fourup{\A 176: @include flex(1);\A 177: @include flex-flow(row);\A 178: @include flex-direction(row);\A 179: margin:0;\A 180: padding:0;\A 181: height:auto;"; }
