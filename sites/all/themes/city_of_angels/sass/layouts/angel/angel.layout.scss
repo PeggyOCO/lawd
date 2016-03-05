@@ -831,7 +831,7 @@ margin: 0px 0 !important;
 /**Begin home page**/
 .field--name-field-left{display:flex;float:left;width:66%;height:25vw;background-color:#47bdbf;}
 .field--name-field-right{
-          display:flex;
+          @include flex(1);
           float:left;
           width:34%;
           height:25vw;

@@ -1205,7 +1205,8 @@ body.not-logged-in.page-node {
 
   /* line 833, ../../../sass/layouts/angel/angel.layout.scss */
   .field--name-field-right {
-    display: flex;
+    -webkit-flex: 1;
+    flex: 1;
     float: left;
     width: 34%;
     height: 25vw;
