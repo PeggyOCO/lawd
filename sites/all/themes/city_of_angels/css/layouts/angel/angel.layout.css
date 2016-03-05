@@ -1,24 +1,96 @@
 /*
-Error: Undefined mixin 'breakpoint'.
-        on line 40 of /Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss, in `breakpoint'
+Error: Undefined mixin 'flex'.
+        on line 173 of /Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss, in `flex'
+        from line 173 of /Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss, in `@content'
+        from line 66 of /Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/libraries/breakpoint-sass/stylesheets/_breakpoint.scss, in `breakpoint'
         from line 40 of /Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss
 
-35: }
-36: .clr{clear:both;}
-37: 
-38: //************phone************\//
-39: 
-40: @include breakpoint($phone, true) {
-41:   /* Header Area *\/
-42: html, body {
-43: height: 100%;
-44: width:100%;
-45: margin: 0;
+168: 
+169: .field-collection-view{height:auto;margin:0;padding:0;width:100%;border:0;}
+170:   
+171:   
+172:   	.field-name-field-fourup{
+173: @include flex(1);
+174: @include flex-flow(row);
+175: @include flex-direction(row);
+176: margin:0;
+177: padding:0;
+178: height:auto;
 
 Backtrace:
-/Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss:40:in `breakpoint'
+/Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss:173:in `flex'
+/Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss:173:in `@content'
+/Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/libraries/breakpoint-sass/stylesheets/_breakpoint.scss:66:in `breakpoint'
 /Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss:40
 /Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:349:in `block in visit_mixin'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/stack.rb:98:in `block in with_mixin'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/stack.rb:115:in `with_frame'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/stack.rb:98:in `with_mixin'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:347:in `visit_mixin'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/stack.rb:79:in `block in with_base'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/stack.rb:115:in `with_frame'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/stack.rb:79:in `with_base'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:431:in `block (2 levels) in visit_rule'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:431:in `map'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:431:in `block in visit_rule'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:429:in `visit_rule'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/stack.rb:79:in `block in with_base'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/stack.rb:115:in `with_frame'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/stack.rb:79:in `with_base'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:382:in `block (3 levels) in visit_content'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:382:in `map'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:382:in `block (2 levels) in visit_content'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:381:in `block in visit_content'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/stack.rb:98:in `block in with_mixin'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/stack.rb:115:in `with_frame'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/stack.rb:98:in `with_mixin'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:377:in `visit_content'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/stack.rb:79:in `block in with_base'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/stack.rb:115:in `with_frame'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/stack.rb:79:in `with_base'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:513:in `visit_media'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/stack.rb:79:in `block in with_base'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/stack.rb:115:in `with_frame'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/stack.rb:79:in `with_base'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:299:in `block (2 levels) in visit_if'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:299:in `map'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:299:in `block in visit_if'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:298:in `visit_if'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/stack.rb:79:in `block in with_base'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/stack.rb:115:in `with_frame'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/stack.rb:79:in `with_base'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:364:in `block (4 levels) in visit_mixin'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:364:in `map'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:364:in `block (3 levels) in visit_mixin'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:364:in `block (2 levels) in visit_mixin'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:84:in `perform_arguments'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:359:in `block in visit_mixin'
 /Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/stack.rb:98:in `block in with_mixin'
 /Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/stack.rb:115:in `with_frame'
 /Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/stack.rb:98:in `with_mixin'
@@ -61,4 +133,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'breakpoint'.\A         on line 40 of /Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss, in `breakpoint'\A         from line 40 of /Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss\A \A 35: }\A 36: .clr{clear:both;}\A 37: \A 38: //************phone************//\A 39: \A 40: @include breakpoint($phone, true) {\A 41:   /* Header Area */\A 42: html, body {\A 43: height: 100%;\A 44: width:100%;\A 45: margin: 0;"; }
+  content: "Error: Undefined mixin 'flex'.\A         on line 173 of /Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss, in `flex'\A         from line 173 of /Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss, in `@content'\A         from line 66 of /Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/libraries/breakpoint-sass/stylesheets/_breakpoint.scss, in `breakpoint'\A         from line 40 of /Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss\A \A 168: \A 169: .field-collection-view{height:auto;margin:0;padding:0;width:100%;border:0;}\A 170:   \A 171:   \A 172:   	.field-name-field-fourup{\A 173: @include flex(1);\A 174: @include flex-flow(row);\A 175: @include flex-direction(row);\A 176: margin:0;\A 177: padding:0;\A 178: height:auto;"; }
