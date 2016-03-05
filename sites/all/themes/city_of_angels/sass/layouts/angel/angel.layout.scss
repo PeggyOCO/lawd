@@ -846,7 +846,7 @@ margin: 0px 0 !important;
 }
 
 .scrim{background-color: rgba(180, 180, 180, 0.85);
-@include flexbox();
+@include flexbox(1 1 auto);
 @include flex(1);
 	/*display: -ms-flexbox;
 	display: -webkit-flex;
