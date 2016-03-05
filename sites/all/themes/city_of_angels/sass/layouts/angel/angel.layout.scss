@@ -646,7 +646,8 @@ font-size:1.2vw;}
           //margin-top:-2px;
           .field-name-field-bigfront50{
            @include flex(2 1 auto);
-                width:50%;
+           flex-direction:columns;
+                width:48%;
                 height:100%;
                 img{width:100%;}
                 }
@@ -656,15 +657,19 @@ font-size:1.2vw;}
           width:25%;
           height:100%;
           background-color:#fff;
-          img{width:100%;}
+          flex-direction: columns;
+          img{width:100%;height:auto;}
+          .image-field-caption{width:100%;height:auto;}
                     }
           .field-name-field-double2{
             @include flex(1);
+            flex-direction: columns;
             font-size:1.1em;
           width:25%;
           height:100%;
           background-color:#fff;
-          img{width:100%;}
+          img{width:100%;height:auto;}
+          .image-field-caption{width:100%;height:auto;}
           
           }
   
