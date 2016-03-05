@@ -1237,7 +1237,7 @@ body.not-logged-in.page-node {
     z-index: 9999; }
     /* line 871, ../../../sass/layouts/angel/angel.layout.scss */
     .scrim h4 {
-      padding-top: 2em; }
+      padding-top: 5%; }
 
   /* line 879, ../../../sass/layouts/angel/angel.layout.scss */
   .bottomleft {
@@ -1320,7 +1320,7 @@ body.not-logged-in.page-node {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 35em; }
+    height: 42vw; }
 
   /* line 933, ../../../sass/layouts/angel/angel.layout.scss */
   .flex-colstretch {
