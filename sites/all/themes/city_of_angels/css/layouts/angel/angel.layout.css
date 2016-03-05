@@ -950,12 +950,10 @@ body.not-logged-in.page-node {
       width: 25%;
       border-right: 1px solid #666;
       height: auto;
-      background-color: #fff;
-      flex-direction: column; }
+      background-color: #fff; }
       /* line 666, ../../../sass/layouts/angel/angel.layout.scss */
       .field-collection-item-field-frontrow .field-name-field-double1 img {
         width: 100%;
-        height: auto;
         border: 1px solid black; }
       /* line 667, ../../../sass/layouts/angel/angel.layout.scss */
       .field-collection-item-field-frontrow .field-name-field-double1 .image-field-caption {
@@ -968,7 +966,6 @@ body.not-logged-in.page-node {
     /* line 672, ../../../sass/layouts/angel/angel.layout.scss */
     .field-collection-item-field-frontrow .field-name-field-double2 {
       display: inline-flex;
-      flex-direction: column;
       font-size: 1.1em;
       width: 25%;
       border-right: 1px solid #666;
@@ -976,8 +973,7 @@ body.not-logged-in.page-node {
       background-color: #fff; }
       /* line 681, ../../../sass/layouts/angel/angel.layout.scss */
       .field-collection-item-field-frontrow .field-name-field-double2 img {
-        width: 100%;
-        height: auto; }
+        width: 100%; }
       /* line 682, ../../../sass/layouts/angel/angel.layout.scss */
       .field-collection-item-field-frontrow .field-name-field-double2 .image-field-caption {
         width: 100%;
