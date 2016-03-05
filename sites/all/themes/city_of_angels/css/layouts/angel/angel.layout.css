@@ -939,8 +939,7 @@ body.not-logged-in.page-node {
     /* line 650, ../../../sass/layouts/angel/angel.layout.scss */
     .field-collection-item-field-frontrow .field-name-field-bigfront50 {
       display: inline-flex;
-      width: 50%;
-      height: 100%; }
+      width: 50%; }
       /* line 655, ../../../sass/layouts/angel/angel.layout.scss */
       .field-collection-item-field-frontrow .field-name-field-bigfront50 img {
         width: 100%; }
@@ -956,7 +955,8 @@ body.not-logged-in.page-node {
       /* line 666, ../../../sass/layouts/angel/angel.layout.scss */
       .field-collection-item-field-frontrow .field-name-field-double1 img {
         width: 100%;
-        height: auto; }
+        height: auto;
+        border: 1px solid black; }
       /* line 667, ../../../sass/layouts/angel/angel.layout.scss */
       .field-collection-item-field-frontrow .field-name-field-double1 .image-field-caption {
         width: 100%;
