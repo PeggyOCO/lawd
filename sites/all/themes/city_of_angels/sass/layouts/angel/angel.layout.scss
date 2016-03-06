@@ -422,7 +422,7 @@ font-size:1.2vw;}
         @include flexbox(1);
         @include flex(1);
         } 
-        
+.field-collection-view {       
   .field-collection-item-field-frontrow{
           display:flex;
           
@@ -485,6 +485,7 @@ font-size:1.2vw;}
           
           }
   
+  }
   }
  
 	.field-collection-item-field-bigright{
