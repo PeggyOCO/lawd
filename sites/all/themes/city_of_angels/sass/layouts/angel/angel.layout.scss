@@ -427,7 +427,7 @@ font-size:1.2vw;}
         .field-collection-view.field-collection-view-final{
                
   .field-collection-item-field-frontrow{
-          //display:flex;
+          display:flex;
           
             @include flex(1);
             @include flex-direction('row');;
@@ -495,7 +495,7 @@ font-size:1.2vw;}
   }
 .field-collection-view {       
   .field-collection-item-field-frontrow{
-          //display:flex;
+          display:flex;
           
             @include flex(1);
             @include flex-direction('row');
