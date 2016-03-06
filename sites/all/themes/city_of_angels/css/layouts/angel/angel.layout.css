@@ -668,7 +668,7 @@ body.not-logged-in {
       text-align: center;
       font-size: 2em;
       vertical-align: middle;
-      margin: 30% 0;
+      padding: 30% 0;
       background-color: rgba(255, 255, 255, 0.7); }
     /* line 430, ../../../sass/layouts/angel/angel.layout.scss */
     .field--name-field-image img {
