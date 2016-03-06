@@ -718,7 +718,7 @@ body.not-logged-in {
         .field-collection-view:nth-child(even) .field-collection-item-field-frontrow .field-name-field-double1 .image-field-caption h4 {
           width: 70%;
           margin: .5em auto;
-          color: reder; }
+          color: #c4112f; }
         /* line 472, ../../../sass/layouts/angel/angel.layout.scss */
         .field-collection-view:nth-child(even) .field-collection-item-field-frontrow .field-name-field-double1 .image-field-caption p {
           width: 70%;
