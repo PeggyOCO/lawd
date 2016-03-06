@@ -679,8 +679,6 @@ body.not-logged-in {
     overflow: hidden; }
     /* line 446, ../../../sass/layouts/angel/angel.layout.scss */
     .field-collection-view.field-collection-view-final .field-collection-item-field-frontrow .field-name-field-bigfront50 {
-      -webkit-flex: 1;
-      flex: 1;
       -webkit-order: 1;
       order: 1;
       width: 50%; }
@@ -695,8 +693,8 @@ body.not-logged-in {
       flex: 1;
       -webkit-flex-direction: "column";
       flex-direction: "column";
-      -webkit-order: 2;
-      order: 2;
+      -webkit-order: 3;
+      order: 3;
       font-size: 1.1em;
       width: 25%;
       border-right: 1px solid #666;
@@ -727,8 +725,8 @@ body.not-logged-in {
       flex: 1;
       -webkit-flex-direction: "column";
       flex-direction: "column";
-      -webkit-order: 3;
-      order: 3;
+      -webkit-order: 2;
+      order: 2;
       font-size: 1.1em;
       width: 25%;
       border-right: 1px solid #666;
