@@ -467,7 +467,7 @@ font-size:1.2vw;}
           margin:0;
           padding:0;
           position: absolute;
-          top:"60%";
+          top:60%;
           h4{width:70%;margin:.5em auto;color:reder;}
           p{width:70%;
           margin:.5em auto;
@@ -489,7 +489,7 @@ font-size:1.2vw;}
           margin:0;
           padding:0;
           position: absolute;
-          top:"60%";
+          top:60%;
           h4{width:70%;margin:.5em auto; color:$reder;}
           p{width:70%;
           margin:.5em auto;
@@ -517,6 +517,7 @@ font-size:1.2vw;}
           border:1px dotted blue;
           align-items:center;
           overflow:hidden;
+          position:relative;
           //margin-top:-2px;
           .field-name-field-bigfront50{
            //@include flex(2 1 auto);
@@ -537,7 +538,9 @@ font-size:1.2vw;}
           .image-field-caption{width:100%;height:auto;
           margin:0;
           padding:0;
-          h4{width:80%;margin:.5em auto;}
+          position: absolute;
+          top:60%;
+          h4{width:80%;margin:.5em auto;color:$reder;}
           p{width:80%;
           margin:.5em auto;
           font-size:.8em;}
@@ -555,7 +558,9 @@ font-size:1.2vw;}
           .image-field-caption{width:100%;height:auto;
           margin:0;
           padding:0;
-          h4{width:80%;margin:.5em auto;}
+          position: absolute;
+          top:60%;
+          h4{width:80%;margin:.5em auto;color:$reder;}
           p{width:80%;
           margin:.5em auto;
           font-size:.8em;}
