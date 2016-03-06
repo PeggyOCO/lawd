@@ -1,5 +1,5 @@
 /*
-Error: Invalid CSS after "top:       top": expected ";", was ":14em;"
+Error: Invalid CSS after "top:       top": expected ";", was ":"60%";"
         on line 470 of /Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss
 
 465:           .image-field-caption{width:100%;
@@ -7,7 +7,7 @@ Error: Invalid CSS after "top:       top": expected ";", was ":14em;"
 467:           margin:0;
 468:           padding:0;
 469:           position: absolute;
-470: top:       top:14em;
+470: top:       top:"60%";
 471:           h4{width:70%;margin:.5em auto;color:reder;}
 472:           p{width:70%;
 473:           margin:.5em auto;
@@ -70,4 +70,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid CSS after \"top:       top\": expected \";\", was \":14em;\"\A         on line 470 of /Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss\A \A 465:           .image-field-caption{width:100%;\A 466:           height:auto;\A 467:           margin:0;\A 468:           padding:0;\A 469:           position: absolute;\A 470: top:       top:14em;\A 471:           h4{width:70%;margin:.5em auto;color:reder;}\A 472:           p{width:70%;\A 473:           margin:.5em auto;\A 474:           font-size:.8em;}\A 475:             }"; }
+  content: "Error: Invalid CSS after \"top:       top\": expected \";\", was \":\"60%\";\"\A         on line 470 of /Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss\A \A 465:           .image-field-caption{width:100%;\A 466:           height:auto;\A 467:           margin:0;\A 468:           padding:0;\A 469:           position: absolute;\A 470: top:       top:\"60%\";\A 471:           h4{width:70%;margin:.5em auto;color:reder;}\A 472:           p{width:70%;\A 473:           margin:.5em auto;\A 474:           font-size:.8em;}\A 475:             }"; }
