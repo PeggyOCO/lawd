@@ -422,6 +422,77 @@ font-size:1.2vw;}
         @include flexbox(1);
         @include flex(1);
         } 
+        
+        
+        .field-collection-view.field-collection-view-final{
+               
+  .field-collection-item-field-frontrow{
+          display:flex;
+          
+            @include flex(1 1 2);
+            flex-direction:row;
+          width: 100%;
+          height:30vw;
+          background-color:#fff;
+          margin:0;
+          padding:0;
+          clear:both;
+          overflow:hidden;
+          margin-bottom:0;
+          border:1px dotted blue;
+          align-items:center;
+          overflow:hidden;
+          //margin-top:-2px;
+          .field-name-field-bigfront50{
+           @include flex(1);
+           @include order(1);
+           //display: inline-flex;
+                width:50%;
+                height:auto
+                img{width:100%;height:auto;}
+                }
+          .field-name-field-double1{
+          @include flex(1);
+          @include flex-direction('column');
+           @include order(2);
+          font-size:1.1em;
+          width:25%;
+          border-right:1px solid #666;
+          height:100%;
+          background-color:#fff;
+          img{width:100%;height:auto;}
+          .image-field-caption{width:100%;height:auto;
+          margin:0;
+          padding:0;
+          h4{width:80%;margin:.5em auto;}
+          p{width:80%;
+          margin:.5em auto;
+          font-size:.8em;}
+            }
+          }
+          .field-name-field-double2{
+            @include flex(1);
+            @include flex-direction('column');
+             @include order(3);
+            font-size:1.1em;
+          width:25%;
+          border-right:1px solid #666;
+          height:100%;
+          background-color:#fff;
+          img{width:100%;height:auto;}
+          .image-field-caption{width:100%;height:auto;
+          margin:0;
+          padding:0;
+          h4{width:80%;margin:.5em auto;}
+          p{width:80%;
+          margin:.5em auto;
+          font-size:.8em;}
+            }
+          
+          }
+  
+  }
+  }
 .field-collection-view {       
   .field-collection-item-field-frontrow{
           display:flex;
