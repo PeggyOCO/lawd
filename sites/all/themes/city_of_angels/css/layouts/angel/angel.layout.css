@@ -655,6 +655,10 @@ body.not-logged-in {
   .hundredpercenthome {
     border: 0.0001pt solid transparent; }
 
+  /* line 419, ../../../sass/layouts/angel/angel.layout.scss */
+  .field--name-field-image img {
+    display: none; }
+
   /* line 421, ../../../sass/layouts/angel/angel.layout.scss */
   .ds-1col {
     -webkit-flex: 1;
