@@ -424,7 +424,7 @@ font-size:1.2vw;}
         } 
         
         
-        .field-collection-view.field-collection-view-final{
+        .field-collection-view:nth-child('even'){
                
   .field-collection-item-field-frontrow{
           display:flex;
@@ -493,7 +493,7 @@ font-size:1.2vw;}
   
   }
   }
-.field-collection-view {       
+.field-collection-view:nth-child('odd') {       
   .field-collection-item-field-frontrow{
           display:flex;
           
