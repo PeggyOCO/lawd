@@ -724,7 +724,7 @@ body.not-logged-in {
         .field-collection-view:nth-child(even) .field-collection-item-field-frontrow .field-name-field-double1 .image-field-caption p {
           width: 70%;
           margin: .5em auto;
-          font-size: .8em;
+          font-size: .9em;
           color: #666;
           letter-spacing: normal; }
     /* line 477, ../../../sass/layouts/angel/angel.layout.scss */
@@ -764,7 +764,7 @@ body.not-logged-in {
         .field-collection-view:nth-child(even) .field-collection-item-field-frontrow .field-name-field-double2 .image-field-caption p {
           width: 70%;
           margin: .5em auto;
-          font-size: .8em;
+          font-size: .9em;
           color: #666;
           letter-spacing: normal; }
 
@@ -829,7 +829,7 @@ body.not-logged-in {
         .field-collection-view:nth-child(odd) .field-collection-item-field-frontrow .field-name-field-double1 .image-field-caption p {
           width: 70%;
           margin: .5em auto;
-          font-size: .8em;
+          font-size: .9em;
           color: #666;
           letter-spacing: normal; }
     /* line 552, ../../../sass/layouts/angel/angel.layout.scss */
@@ -866,7 +866,7 @@ body.not-logged-in {
         .field-collection-view:nth-child(odd) .field-collection-item-field-frontrow .field-name-field-double2 .image-field-caption p {
           width: 70%;
           margin: .5em auto;
-          font-size: .8em;
+          font-size: .9em;
           color: #666;
           letter-spacing: normal; }
 
