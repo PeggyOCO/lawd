@@ -428,7 +428,7 @@ font-size:1.2vw;}
                
   .field-collection-item-field-frontrow{
           display:flex;
-          
+          z-index:50;
             @include flex(1);
             @include flex-direction('row');;
           width: 100%;
@@ -503,7 +503,7 @@ font-size:1.2vw;}
 .field-collection-view:nth-child(odd) {       
   .field-collection-item-field-frontrow{
           display:flex;
-          
+          z-index:99;
             @include flex(1);
             @include flex-direction('row');
           width: 100%;
@@ -684,8 +684,8 @@ background-color: rgba(0, 0, 0, 0.4);
 
 
 
-  .field-collection-view:nth-child(odd) .ds-1col .field-name-field-fourup{float:right;}
-  .field-collection-view:nth-child(even) .ds-1col .field-name-field-fourup{float:left;}
+ /* .field-collection-view:nth-child(odd) .ds-1col .field-name-field-fourup{float:right;}
+  .field-collection-view:nth-child(even) .ds-1col .field-name-field-fourup{float:left;}*/
   
     
     .field-name-field-rightbig{
