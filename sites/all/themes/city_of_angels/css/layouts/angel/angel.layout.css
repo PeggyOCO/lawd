@@ -676,7 +676,7 @@ body.not-logged-in {
     clear: both;
     overflow: hidden;
     margin-bottom: 0;
-    border: 1px dotted blue;
+    border: 0px dotted blue;
     overflow: hidden; }
     /* line 446, ../../../sass/layouts/angel/angel.layout.scss */
     .field-collection-view:nth-child(even) .field-collection-item-field-frontrow .field-name-field-bigfront50 {
