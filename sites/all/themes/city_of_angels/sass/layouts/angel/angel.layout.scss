@@ -20,7 +20,7 @@
 $phone : max-width 800px;
 //$tab  : 480px 799px;
 $desk : min-width 800px;
-body.not-logged-in{font-family:Lato,Tahoma,Verdana, Helvetica, sans-serif;letter-spacing:2px;
+body.not-logged-in{font-family:Lato,Tahoma,Verdana, Helvetica, sans-serif;letter-spacing:normal;
 width:100%;overflow-x:hidden;}
 
 .pinktitle{font-size:2em;color: #c74c4f;text-transform:uppercase;text-align:left;}
@@ -468,10 +468,10 @@ font-size:1.2vw;}
           padding:0;
           position: absolute;
           top:60%;
-          h4{width:70%;margin:.5em auto;color:$reder;}
+          h4{width:70%;margin:.5em auto;font-size:.9em;color:$reder;}
           p{width:70%;
           margin:.5em auto;
-          font-size:.8em;}
+          font-size:.8em;color:#666;letter-spacing:normal;}
             }
           }
           .field-name-field-double2{
@@ -491,10 +491,10 @@ font-size:1.2vw;}
           border-top:1px solid $blacker;
           position: absolute;
           top:60%;
-          h4{width:70%;margin:.5em auto; color:$reder;}
+          h4{width:70%;margin:.5em auto;font-size:.9em; color:$reder;}
           p{width:70%;
           margin:.5em auto;
-          font-size:.8em;}
+          font-size:.8em;color:#666;letter-spacing:normal;}
             }
           
           }
@@ -543,10 +543,10 @@ font-size:1.2vw;}
           padding:0;
           position: absolute;
           top:60%;
-          h4{width:70%;margin:.5em auto;color:$reder;}
+          h4{width:70%;margin:.5em auto;font-size:.9em;color:$reder;}
           p{width:70%;
           margin:.5em auto;
-          font-size:.8em;}
+          font-size:.8em;color:#666;letter-spacing:normal;}
             }
           }
           .field-name-field-double2{
@@ -564,10 +564,10 @@ font-size:1.2vw;}
           padding:0;
           position: absolute;
           top:60%;
-          h4{width:70%;margin:.5em auto;color:$reder;}
+          h4{width:70%;margin:.5em auto;font-size:.9em;color:$reder;}
           p{width:70%;
           margin:.5em auto;
-          font-size:.8em;}
+          font-size:.8em;color:#666;letter-spacing:normal;}
             }
           
           }
