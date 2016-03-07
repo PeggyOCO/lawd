@@ -1194,13 +1194,17 @@ display: block;
 #block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu{
                                     background-color:$whitest;
                                     color:$blacker;
-                                    padding:1.5em;
-                                    border:1px solid $blacker;
+                                    padding:0;
+                                    border:0;
                                      ul{list-style-type:none;
                                      padding:1.5em;
-                                     li{a{text-decoration:none;color:$blacker;}
+                                     border:1px solid $blacker;
+                                     li{background-color:$whitest;
+                                     
+                                     a{text-decoration:none;color:$blacker;}
                                        a:hover{color:$reder;}
                                      }
+                                     li:hover{background-color:$whitest;}
                                     
                                     }
                                 }
