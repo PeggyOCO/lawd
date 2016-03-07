@@ -1235,9 +1235,9 @@ display: block;
                                                           &:active{color:$reder;
                                                           background-color:$whitest;}
                                                           &:focus{color:$reder;
-                                                          background-color:$whitest;
-                                                          background-image: linear-gradient(to bottom,#fff,#fff);
-                                                          background-image:moz-linear-gradient(to bottom,#fff,#fff);}}}}}}
+                                                          background-color:$whitest !important;
+                                                          background-image: linear-gradient(to bottom,#fff,#fff) !important;
+                                                          background-image:moz-linear-gradient(to bottom,#fff,#fff) !important;}}}}}}
                                      }
                                    }
                                 }
