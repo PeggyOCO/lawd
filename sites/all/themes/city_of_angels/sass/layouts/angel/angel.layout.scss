@@ -1236,8 +1236,8 @@ display: block;
                                                           background-color:$whitest;}
                                                           &:focus{color:$reder;
                                                           background-color:$whitest;
-                                                          background-image:linear-gradient(#fff,#fff);
-                                                          background-image:moz-linear-gradient(#fff,#fff);}}}}}}
+                                                          background-image: linear-gradient(to bottom,#fff,#fff);
+                                                          background-image:moz-linear-gradient(to bottom,#fff,#fff);}}}}}}
                                      }
                                    }
                                 }

@@ -1806,8 +1806,8 @@ body.not-logged-in {
                   #block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li ul li ul li a:focus {
                     color: #c4112f;
                     background-color: #fff;
-                    background-image: linear-gradient(#ffffff, #ffffff);
-                    background-image: moz-linear-gradient(#fff, #fff); }
+                    background-image: linear-gradient(to bottom, #ffffff, #ffffff);
+                    background-image: moz-linear-gradient(to bottom, #fff, #fff); }
 
   /******************old code for megamenu*************/
   /* line 1246, ../../../sass/layouts/angel/angel.layout.scss */
