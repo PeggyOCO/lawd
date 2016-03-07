@@ -1211,6 +1211,8 @@ display: block;
                                       background-color:$whitest;}
                                       &:active{color:$reder;
                                       background-color:$whitest;}
+                                      &::selected{color:$reder;
+                                      background-color:$whitest;}
                                       &:focus{color:$reder;
                                       background-color:$whitest;}}
                                     
