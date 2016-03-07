@@ -1191,7 +1191,21 @@ display: block;
     text-transform: uppercase;
 }
 
+#block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu{
+                                    background-color:$whitest;
+                                    color:$blacker;
+                                    padding:1.5em;
+                                    border:1px solid $blacker;
+                                     ul{list-style-type:none;
+                                     padding:1.5em;
+                                     li{a{text-decoration:none;color:$blacker;}
+                                       a:hover{color:$reder;}
+                                     }
+                                    
+                                    }
+                                }
 
+/******************old code for megamenu*************/
 #tb-megamenu-main-menu .nav > .active > a, .tb-megamenu .nav > .active > a:hover, .tb-megamenu .nav > .active > a:focus {
     background-color: #fff;
     color: #e54e4b;
