@@ -1561,8 +1561,8 @@ body.not-logged-in {
         .field--name-field-blurb ul li a {
           color: #fff;
           text-decoration: none;
-          font-size: 1.6em;
-          line-height: 2em; }
+          font-size: 1.3em;
+          line-height: 1.5em; }
         /* line 1054, ../../../sass/layouts/angel/angel.layout.scss */
         .field--name-field-blurb ul li a:hover {
           color: #c4112f; }
