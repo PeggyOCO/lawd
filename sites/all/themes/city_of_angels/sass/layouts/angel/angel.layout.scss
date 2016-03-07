@@ -1199,12 +1199,12 @@ display: block;
                                      ul{list-style-type:none;
                                      padding:0;
                                      border:0;
-                                     li{background-color:$whitest;
+                                     li,li.active{background-color:$whitest;
                                      &:hover{background-color:$whitest;}
                                      a{text-decoration:none;color:$blacker;
                                       &:hover{color:$reder;}}
                                     
-                                        ul{padding:1.5em; li{background-color:$whitest;
+                                        ul{padding:1.5em; li,li.active{background-color:$whitest;
                                                         &:hover{background-color:$whitest;}
                                                         a{text-decoration:none;color:$blacker;
                                                           &:hover{color:$reder;}}}}
