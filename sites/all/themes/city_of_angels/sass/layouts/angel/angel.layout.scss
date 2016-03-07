@@ -1216,13 +1216,26 @@ display: block;
                                                         &:hover{background-color:$whitest;}
                                                         &:active{background-color:$whitest;}
                                                         &:focus{background-color:$whitest;}
-                                                        a{text-decoration:none;color:$blacker;
+                                                        a{text-decoration:none;
+                                                         color:$blacker;
                                                           &:hover{color:$reder;
                                                           background-color:$whitest;}
                                                           &:active{color:$reder;
                                                           background-color:$whitest;}
                                                           &:focus{color:$reder;
-                                                          background-color:$whitest;}}}}
+                                                          background-color:$whitest;}}
+                                                              ul{padding:0; li{background-color:$whitest;
+                                                        &:hover{background-color:$whitest;}
+                                                        &:active{background-color:$whitest;}
+                                                        &:focus{background-color:$whitest;}
+                                                        a{text-decoration:none;
+                                                         color:$blacker;
+                                                          &:hover{color:$reder;
+                                                          background-color:$whitest;}
+                                                          &:active{color:$reder;
+                                                          background-color:$whitest;}
+                                                          &:focus{color:$reder;
+                                                          background-color:$whitest;}}}}}}
                                      }
                                    }
                                 }
