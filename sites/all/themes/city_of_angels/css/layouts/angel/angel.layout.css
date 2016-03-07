@@ -676,10 +676,6 @@ body.not-logged-in {
     .field--name-field-image img {
       display: none; }
 
-  /* line 436, ../../../sass/layouts/angel/angel.layout.scss */
-  article.node--services {
-    height: 1.2rem; }
-
   /* line 438, ../../../sass/layouts/angel/angel.layout.scss */
   .ds-1col {
     -webkit-flex: 1;
@@ -1508,7 +1504,7 @@ body.not-logged-in {
   /* line 1003, ../../../sass/layouts/angel/angel.layout.scss */
   article.node--services {
     position: relative;
-    margin-top: 1em; }
+    margin-top: .8em; }
 
   /* line 1004, ../../../sass/layouts/angel/angel.layout.scss */
   img[alt="Top picture"] {

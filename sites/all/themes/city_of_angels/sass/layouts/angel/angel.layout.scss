@@ -433,7 +433,7 @@ font-size:1.2vw;}
  
                   }
                   
-            article.node--services{height:1.2rem;}
+           // article.node--services{height:1.2rem;}
  
  .ds-1col{
         @include flexbox(1);
@@ -1000,7 +1000,7 @@ background-position:  14vw 10px,
     margin-top:15px;
 }
 .site-logo img {height:auto;}
-article.node--services{position:relative;margin-top:1em;}
+article.node--services{position:relative;margin-top:.8em;}
 img[alt="Top picture"]{position:relative;margin-top:0;margin-left:0;}
 
 div.sig{
