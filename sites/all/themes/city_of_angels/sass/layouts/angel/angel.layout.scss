@@ -1205,7 +1205,7 @@ display: block;
                                       &:hover{color:$reder;}}
                                     
                                         ul{padding:1.5em; li{background-color:$whitest;
-                                                        &hover:{background-color:$whitest;}
+                                                        &:hover{background-color:$whitest;}
                                                         a{text-decoration:none;color:$blacker;
                                                           &:hover{color:$reder;}}}}
                                      }
