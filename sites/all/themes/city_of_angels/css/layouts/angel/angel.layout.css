@@ -1705,7 +1705,7 @@ body.not-logged-in {
     text-transform: uppercase; }
 
   /* line 1195, ../../../sass/layouts/angel/angel.layout.scss */
-  #block-tb-megamenu-main-menu .nav > .active > a, .tb-megamenu .nav > .active > a:hover, .tb-megamenu .nav > .active > a:focus {
+  #tb-megamenu-main-menu .nav > .active > a, .tb-megamenu .nav > .active > a:hover, .tb-megamenu .nav > .active > a:focus {
     background-color: #fff;
     color: #e54e4b;
     text-shadow: none;
@@ -1715,42 +1715,42 @@ body.not-logged-in {
     outline: none; }
 
   /* line 1205, ../../../sass/layouts/angel/angel.layout.scss */
-  #block-tb-megamenu-main-menu .nav > li > a:hover {
+  #tb-megamenu-main-menu .nav > li > a:hover {
     color: #f00; }
 
   /* line 1210, ../../../sass/layouts/angel/angel.layout.scss */
-  #block-tb-megamenu-main-menu {
+  #tb-megamenu-main-menu {
     background-color: #fff; }
 
   /* line 1214, ../../../sass/layouts/angel/angel.layout.scss */
-  #block-tb-megamenu-main-menu .tb-megamenu-column-inner {
+  #tb-megamenu-main-menu .tb-megamenu-column-inner {
     padding: 2em !important;
     border: 1px solid black !important; }
 
   /* line 1217, ../../../sass/layouts/angel/angel.layout.scss */
-  #block-tb-megamenu-main-menu .tb-megamenu-column-inner.mega-inner {
+  #tb-megamenu-main-menu .tb-megamenu-column-inner.mega-inner {
     border: 0 !important;
     padding: 1em !important; }
 
   /* line 1219, ../../../sass/layouts/angel/angel.layout.scss */
-  #block-tb-megamenu-main-menu .tb-megamenu-item.level-2 a {
+  #tb-megamenu-main-menu .tb-megamenu-item.level-2 a {
     text-transform: uppercase;
     text-decoration: none;
     font-weight: bold; }
 
   /* line 1221, ../../../sass/layouts/angel/angel.layout.scss */
-  #block-tb-megamenu-main-menu li.tb-megamenu-item.level-3.mega a {
+  #tb-megamenu-main-menu li.tb-megamenu-item.level-3.mega a {
     text-transform: capitalize !important;
     font-size: .8vw !important;
     white-space: nowrap;
     padding: 1.5% 0 0 1.5% !important; }
 
   /* line 1227, ../../../sass/layouts/angel/angel.layout.scss */
-  #block-tb-megamenu-main-menu li:nth-child(6).tb-megamenu-item.level-3.mega a {
+  #tb-megamenu-main-menu li:nth-child(6).tb-megamenu-item.level-3.mega a {
     margin-top: 20%; }
 
   /* line 1231, ../../../sass/layouts/angel/angel.layout.scss */
-  #block-tb-megamenu-main-menu .dropdown-menu {
+  #tb-megamenu-main-menu .dropdown-menu {
     position: absolute;
     top: 3em;
     left: 0;
