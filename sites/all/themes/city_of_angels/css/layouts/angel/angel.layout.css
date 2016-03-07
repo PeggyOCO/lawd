@@ -1504,7 +1504,7 @@ body.not-logged-in {
   /* line 1003, ../../../sass/layouts/angel/angel.layout.scss */
   article.node--services {
     position: relative;
-    margin-top: .8em; }
+    margin-top: 0; }
 
   /* line 1004, ../../../sass/layouts/angel/angel.layout.scss */
   img[alt="Top picture"] {
