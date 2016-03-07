@@ -1597,7 +1597,7 @@ body.not-logged-in {
   /* line 1085, ../../../sass/layouts/angel/angel.layout.scss */
   .field--name-body {
     width: 50%;
-    margin: 2em auto; }
+    padding: 3em auto; }
     /* line 1088, ../../../sass/layouts/angel/angel.layout.scss */
     .field--name-body div div h2 {
       text-align: center;
