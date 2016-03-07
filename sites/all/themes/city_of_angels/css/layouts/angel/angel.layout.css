@@ -1836,7 +1836,7 @@ body.not-logged-in {
     z-index: 1000;
     display: none;
     float: left;
-    min-width: 500px;
+    min-width: 850px;
     list-style: none;
     background-color: #fff;
     border: 1px solid #ccc;
