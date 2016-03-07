@@ -1199,15 +1199,30 @@ display: block;
                                      ul{list-style-type:none;
                                      padding:0;
                                      border:0;
-                                     li,li.active{background-color:$whitest;
+                                     li{background-color:$whitest;
                                      &:hover{background-color:$whitest;}
+                                     &:active{background-color:$whitest;}
+                                     &:focus{background-color:$whitest;}
                                      a{text-decoration:none;color:$blacker;
-                                      &:hover{color:$reder;}}
+                                      background-color:$whitest;
+                                      &:hover{color:$reder;
+                                      background-color:$whitest;}
+                                      &:active{color:$reder;
+                                      background-color:$whitest;}
+                                      &:focus{color:$reder;
+                                      background-color:$whitest;}}
                                     
-                                        ul{padding:1.5em; li,li.active{background-color:$whitest;
+                                        ul{padding:1.5em; li{background-color:$whitest;
                                                         &:hover{background-color:$whitest;}
+                                                        &:active{background-color:$whitest;}
+                                                        &:focus{background-color:$whitest;}
                                                         a{text-decoration:none;color:$blacker;
-                                                          &:hover{color:$reder;}}}}
+                                                          &:hover{color:$reder;
+                                                          background-color:$whitest;}
+                                                          &:active{color:$reder;
+                                                          background-color:$whitest;}
+                                                          &:focus{color:$reder;
+                                                          background-color:$whitest;}}}}
                                      }
                                    }
                                 }
