@@ -1205,6 +1205,7 @@ display: block;
                                      &:focus{background-color:$whitest;}
                                      a{text-decoration:none;color:$blacker;
                                       background-color:$whitest;
+                                      background-image:none !important;
                                       &:hover{color:$reder;
                                       background-color:$whitest;}
                                       &:active{color:$reder;
