@@ -1,5 +1,5 @@
 /*
-Error: At least two color stops are required for a linear-gradient
+Error: Not a valid color stop: Sass::Script::Value::Number: 0
         on line 27 of /Users/Pi/.rvm/gems/ruby-1.9.3-p551@global/gems/compass-core-1.0.3/stylesheets/compass/css3/_images.scss, in `@content'
         from line 62 of /Users/Pi/.rvm/gems/ruby-1.9.3-p551@global/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss, in `breakpoint'
         from line 268 of /Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss
@@ -20,8 +20,9 @@ Backtrace:
 /Users/Pi/.rvm/gems/ruby-1.9.3-p551@global/gems/compass-core-1.0.3/stylesheets/compass/css3/_images.scss:27:in `@content'
 /Users/Pi/.rvm/gems/ruby-1.9.3-p551@global/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss:62:in `breakpoint'
 /Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss:268
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@global/gems/compass-core-1.0.3/lib/compass/core/sass_extensions/functions/gradient_support.rb:384:in `initialize'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@global/gems/compass-core-1.0.3/lib/compass/core/sass_extensions/functions/gradient_support.rb:614:in `new'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@global/gems/compass-core-1.0.3/lib/compass/core/sass_extensions/functions/gradient_support.rb:555:in `block in color_stops'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@global/gems/compass-core-1.0.3/lib/compass/core/sass_extensions/functions/gradient_support.rb:543:in `map'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@global/gems/compass-core-1.0.3/lib/compass/core/sass_extensions/functions/gradient_support.rb:543:in `color_stops'
 /Users/Pi/.rvm/gems/ruby-1.9.3-p551@global/gems/compass-core-1.0.3/lib/compass/core/sass_extensions/functions/gradient_support.rb:614:in `_linear_gradient'
 /Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/script/tree/funcall.rb:139:in `_perform'
 /Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/script/tree/node.rb:50:in `perform'
@@ -255,4 +256,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: At least two color stops are required for a linear-gradient\A         on line 27 of /Users/Pi/.rvm/gems/ruby-1.9.3-p551@global/gems/compass-core-1.0.3/stylesheets/compass/css3/_images.scss, in `@content'\A         from line 62 of /Users/Pi/.rvm/gems/ruby-1.9.3-p551@global/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss, in `breakpoint'\A         from line 268 of /Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss\A \A 22: $desk : min-width 800px;\A 23: body.not-logged-in{font-family:Lato,Tahoma,Verdana, Helvetica, sans-serif;letter-spacing:normal;\A 24: width:100%;overflow-x:hidden;}\A 25: \A 26: .pinktitle{font-size:2em;color: #c74c4f;text-transform:uppercase;text-align:left;}\A 27: .wrapfloats{display:block;width:100%;margin:0 auto; border:0px dotted blue;margin:2%;}\A 28: .wrapfloats50{display:block;width:100%;margin:0 auto;border:0px dotted orange;height:15vw;margin-bottom:2%;}\A 29: .floatleft2col{display:inline-block;float:left;margin:0em;width:49%;border:0px dotted green;text-align:left;}\A 30: .floatleft2col div{margin:1.5% 0;}\A 31: .floatleft2colA{display:inline-block;float:left;margin:0em;width:50%;border:0px dotted green;text-align:left;}\A 32: .floatleft2colB{display:inline-block;float:right;margin:0em;width:15%;border:0px dotted green;text-align:left;}"; }
+  content: "Error: Not a valid color stop: Sass::Script::Value::Number: 0\A         on line 27 of /Users/Pi/.rvm/gems/ruby-1.9.3-p551@global/gems/compass-core-1.0.3/stylesheets/compass/css3/_images.scss, in `@content'\A         from line 62 of /Users/Pi/.rvm/gems/ruby-1.9.3-p551@global/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss, in `breakpoint'\A         from line 268 of /Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss\A \A 22: $desk : min-width 800px;\A 23: body.not-logged-in{font-family:Lato,Tahoma,Verdana, Helvetica, sans-serif;letter-spacing:normal;\A 24: width:100%;overflow-x:hidden;}\A 25: \A 26: .pinktitle{font-size:2em;color: #c74c4f;text-transform:uppercase;text-align:left;}\A 27: .wrapfloats{display:block;width:100%;margin:0 auto; border:0px dotted blue;margin:2%;}\A 28: .wrapfloats50{display:block;width:100%;margin:0 auto;border:0px dotted orange;height:15vw;margin-bottom:2%;}\A 29: .floatleft2col{display:inline-block;float:left;margin:0em;width:49%;border:0px dotted green;text-align:left;}\A 30: .floatleft2col div{margin:1.5% 0;}\A 31: .floatleft2colA{display:inline-block;float:left;margin:0em;width:50%;border:0px dotted green;text-align:left;}\A 32: .floatleft2colB{display:inline-block;float:right;margin:0em;width:15%;border:0px dotted green;text-align:left;}"; }
