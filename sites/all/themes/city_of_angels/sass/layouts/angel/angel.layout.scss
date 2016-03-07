@@ -1284,6 +1284,13 @@ display: block;
     color: $reder !important;
 }
 
+.tb-megamenu .dropdown-menu .active > a, .tb-megamenu .dropdown-menu .active > a:hover {
+    color: #f00 !important;
+    text-decoration: none;
+    outline: 0;
+    background-color: #fff;
+}
+
 /******************old code for megamenu*************/
 #tb-megamenu-main-menu .nav > .active > a, .tb-megamenu .nav > .active > a:hover, .tb-megamenu .nav > .active > a:focus {
     background-color: #fff;
