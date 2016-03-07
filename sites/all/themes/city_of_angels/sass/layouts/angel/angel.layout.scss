@@ -1200,9 +1200,9 @@ display: block;
                                      padding:0;
                                      border:0;
                                      li{background-color:$whitest;
-                                     &:hover{background-color:$whitest;}
-                                     &:active{background-color:$whitest;}
-                                     &:focus{background-color:$whitest;}
+                                     &:hover{background-color:$whitest;color:$reder;}
+                                     &:active{background-color:$whitest;color:$reder;}
+                                     &:focus{background-color:$whitest;color:$reder;}
                                      a{text-decoration:none;color:$blacker;
                                       text-transform:uppercase;
                                       background-color:$whitest;
@@ -1215,9 +1215,9 @@ display: block;
                                       background-color:$whitest;}}
                                     
                                         ul{padding:1.5em; li{background-color:$whitest;
-                                                        &:hover{background-color:$whitest;}
-                                                        &:active{background-color:$whitest;}
-                                                        &:focus{background-color:$whitest;}
+                                                        &:hover{background-color:$whitest;color:$reder;}
+                                                        &:active{background-color:$whitest;color:$reder;}
+                                                        &:focus{background-color:$whitest;color:$reder;}
                                                         a{text-decoration:none;
                                                         text-transform:uppercase;
                                                          color:$blacker;
@@ -1229,9 +1229,9 @@ display: block;
                                                           background-color:$whitest;}}
                                                               ul{padding:0; li{background-color:$whitest;
                                                               margin-left:1.5em;
-                                                        &:hover{background-color:$whitest;}
-                                                        &:active{background-color:$whitest;}
-                                                        &:focus{background-color:$whitest;}
+                                                        &:hover{background-color:$whitest;color:$reder;}
+                                                        &:active{background-color:$whitest;color:$reder;}
+                                                        &:focus{background-color:$whitest;color:$reder;}
                                                         a{text-decoration:none;
                                                         text-transform: capitalize;
                                                          color:$blacker;
