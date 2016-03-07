@@ -659,7 +659,7 @@ body.not-logged-in {
   .field--name-field-image {
     height: 40em;
     margin: 0;
-    padding: 20% 0 0;
+    padding: 25% 0 0;
     vertical-align: middle; }
     /* line 423, ../../../sass/layouts/angel/angel.layout.scss */
     .field--name-field-image blockquote {
@@ -671,7 +671,7 @@ body.not-logged-in {
       color: #fff;
       line-height: 3em;
       vertical-align: middle;
-      background-color: rgba(200, 200, 200, 0.7); }
+      background-color: rgba(150, 150, 150, 0.7); }
     /* line 432, ../../../sass/layouts/angel/angel.layout.scss */
     .field--name-field-image img {
       display: none; }
