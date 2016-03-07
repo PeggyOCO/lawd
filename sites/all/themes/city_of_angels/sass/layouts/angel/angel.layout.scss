@@ -1204,6 +1204,7 @@ display: block;
                                      &:active{background-color:$whitest;}
                                      &:focus{background-color:$whitest;}
                                      a{text-decoration:none;color:$blacker;
+                                      text-transform:uppercase;
                                       background-color:$whitest;
                                       background-image:none !important;
                                       &:hover{color:$reder;
@@ -1218,6 +1219,7 @@ display: block;
                                                         &:active{background-color:$whitest;}
                                                         &:focus{background-color:$whitest;}
                                                         a{text-decoration:none;
+                                                        text-transform:capitalize;
                                                          color:$blacker;
                                                           &:hover{color:$reder;
                                                           background-color:$whitest;}
@@ -1226,10 +1228,12 @@ display: block;
                                                           &:focus{color:$reder;
                                                           background-color:$whitest;}}
                                                               ul{padding:0; li{background-color:$whitest;
+                                                              margin-left:1.5em;
                                                         &:hover{background-color:$whitest;}
                                                         &:active{background-color:$whitest;}
                                                         &:focus{background-color:$whitest;}
                                                         a{text-decoration:none;
+                                                        text-transform: capitalize;
                                                          color:$blacker;
                                                           &:hover{color:$reder;
                                                           background-color:$whitest;}
