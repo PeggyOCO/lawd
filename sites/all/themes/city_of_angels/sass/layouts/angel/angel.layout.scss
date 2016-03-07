@@ -1197,16 +1197,19 @@ display: block;
                                     padding:0;
                                     border:0;
                                      ul{list-style-type:none;
-                                     padding:1.5em;
-                                     border:1px solid $blacker;
+                                     padding:0;
+                                     border:0;
                                      li{background-color:$whitest;
-                                     
-                                     a{text-decoration:none;color:$blacker;}
-                                       a:hover{color:$reder;}
-                                     }
-                                     li:hover{background-color:$whitest;}
+                                     &:hover{background-color:$whitest;}
+                                     a{text-decoration:none;color:$blacker;
+                                      &:hover{color:$reder;}}
                                     
-                                    }
+                                        ul{padding:1.5em; li{background-color:$whitest;
+                                                        &hover:{background-color:$whitest;}
+                                                        a{text-decoration:none;color:$blacker;
+                                                          &:hover{color:$reder;}}}}
+                                     }
+                                   }
                                 }
 
 /******************old code for megamenu*************/
