@@ -5,7 +5,6 @@
  */
 function tb_megamenu_schema() {
   $schema = array();
-
   $schema['tb_megamenus'] = array(
     'fields' => array(
       'menu_name' => array(
@@ -30,12 +29,11 @@ function tb_megamenu_schema() {
     ),
     'primary key' => array('menu_name', 'language')
   );
-
   return $schema;
 }
 
 /**
- * Add language field
+ * Add language field.
  */
 function tb_megamenu_update_7101(&$sandbox) {
   // remove existing primary key
@@ -53,6 +51,12 @@ function tb_megamenu_update_7101(&$sandbox) {
     ),
   );
   db_add_field('tb_megamenus', 'language', $field, $keys_new);
-  // set all existing menus to current language
+}
+
+/**
+ * Set all existing menus to current language.
+ */
+function tb_megamenu_update_7102(&$sandbox) {
   db_query("UPDATE {tb_megamenus} SET language = '" . $GLOBALS['language']->language . "'");
+  return t('Set all existing menus to current language');
 }
