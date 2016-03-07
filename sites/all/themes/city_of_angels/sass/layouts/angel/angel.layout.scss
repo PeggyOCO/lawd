@@ -1219,7 +1219,7 @@ display: block;
                                                         &:active{background-color:$whitest;}
                                                         &:focus{background-color:$whitest;}
                                                         a{text-decoration:none;
-                                                        text-transform:capitalize;
+                                                        text-transform:uppercase;
                                                          color:$blacker;
                                                           &:hover{color:$reder;
                                                           background-color:$whitest;}
