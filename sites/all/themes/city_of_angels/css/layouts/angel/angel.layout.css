@@ -1627,9 +1627,6 @@ body.not-logged-in {
       .field--name-body div div div ul li {
         font-size: 1.75em;
         margin-left: 1.5em; }
-    /* line 1102, ../../../sass/layouts/angel/angel.layout.scss */
-    .field--name-body div div div:last-child {
-      padding-bottom: 2em; }
 
   /* line 1107, ../../../sass/layouts/angel/angel.layout.scss */
   article.node--article .field--name-body {
