@@ -1223,7 +1223,7 @@ ul.tb-megamenu-nav{float:right;}
                                       &:focus{color:$reder;
                                       background-color:$whitest;}}
                                     
-                                        ul{padding:1.5em; li{background-color:$whitest;
+                                        ul{padding:1.5em;width:35vw !important; li{background-color:$whitest;
                                                         &:hover{background-color:$whitest;color:$reder;}
                                                         &:active{background-color:$whitest;color:$reder;}
                                                         &:focus{background-color:$whitest;color:$reder;}
