@@ -1492,9 +1492,9 @@ body.not-logged-in {
 
   /* line 993, ../../../sass/layouts/angel/angel.layout.scss */
   .l-region--branding {
-    width: 65%;
+    width: 70%;
     position: absolute;
-    top: 1%;
+    top: 3%;
     right: 1%;
     /*margin: 0px 0px 0px 27%;*/
     margin: 0;
