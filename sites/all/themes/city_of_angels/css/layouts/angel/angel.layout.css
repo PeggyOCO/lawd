@@ -1167,6 +1167,10 @@ body.not-logged-in {
   a.mega-group-title {
     cursor: none !important; }
 
+  /* line 793, ../../../sass/layouts/angel/angel.layout.scss */
+  .tb-megamenu .dropdown-menu {
+    overflow: hidden !important; }
+
   /* line 794, ../../../sass/layouts/angel/angel.layout.scss */
   .tb-megamenu .dropdown-menu li > a {
     border-top: 0 !important;
