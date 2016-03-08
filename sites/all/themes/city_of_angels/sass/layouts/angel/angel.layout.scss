@@ -1074,7 +1074,7 @@ div.sig{
           font-style:italic;
           font-size:.5em;
           margin-top:1.5em;
-          letter-spacing:0em;}
+          letter-spacing:normal;}
          
           }
         
@@ -1082,7 +1082,7 @@ div.sig{
     
  
  .entity-field-collection-item{margin-top:-10px !important;}
- .field--name-body{width:50%;margin:3em auto;
+ .field--name-body{width:50%;margin:3em auto;color:#666;
        div{
           div{
           h2{text-align:center;
@@ -1096,6 +1096,9 @@ div.sig{
               color:#666;
               }
               p.services-par:last-child{padding-bottom:1.5em;}
+              h4{font-weight:normal;font-size:1.75em;}
+              ul{list-style-type:none;
+              li{font-size:1.75em;margin-left:1.5em;}}
           }
       }
   }
