@@ -797,9 +797,16 @@ a.mega-group-title{cursor:none !important;padding-bottom:1em;}
     text-shadow: none;
 }
 
-.tb-megamenu .dropdown-menu li::before{content: "-";
-
+.tb-megamenu .dropdown-menu li::before{ display: inline-block;
+    content: "-";
+    width: 1em;
+    margin-left: -1em;
 }
+
+
+
+
+
 
 .tb-megamenu .dropdown-menu li{
 width: auto !important;
