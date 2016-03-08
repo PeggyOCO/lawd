@@ -1179,7 +1179,7 @@ body.not-logged-in {
     text-shadow: none; }
 
   /* line 800, ../../../sass/layouts/angel/angel.layout.scss */
-  .tb-megamenu .dropdown-menu li::before {
+  .tb-megamenu .dropdown-menu ul li ul li::before {
     display: inline-block;
     content: "-";
     width: 1em;
