@@ -1446,7 +1446,7 @@ body.not-logged-in {
       width: 45%;
       margin: 0 auto;
       text-align: left;
-      padding-left: 1em; }
+      padding-left: 2em; }
     /* line 956, ../../../sass/layouts/angel/angel.layout.scss */
     .middlecenter ul#twolist {
       list-style-type: none;
