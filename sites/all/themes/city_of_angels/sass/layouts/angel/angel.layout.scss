@@ -808,6 +808,7 @@ background-color:#47bdbf;
           float:left;
           width:34%;
           height:25vw;
+          border-bottom:1px solid $blacker;
           background-color:#fff;
               div{width:100%;
                   div{
@@ -1083,7 +1084,7 @@ div.sig{
     }
     
  
- .entity-field-collection-item{margin-top:-10px !important;}
+ .entity-field-collection-item{/*margin-top:-10px !important;*/}
  .field--name-body{width:50%;margin:3em auto;color:#666;
        div{
           div{
