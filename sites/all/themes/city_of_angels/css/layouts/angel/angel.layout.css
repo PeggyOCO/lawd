@@ -1598,6 +1598,8 @@ body.not-logged-in {
 
   /* line 1087, ../../../sass/layouts/angel/angel.layout.scss */
   .entity-field-collection-item {
+    height: 25vw;
+    width: 100%;
     /*margin-top:-10px !important;*/ }
 
   /* line 1088, ../../../sass/layouts/angel/angel.layout.scss */
