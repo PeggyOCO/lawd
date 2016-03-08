@@ -789,12 +789,16 @@ margin: 0px 0 !important;
 .field-name-field-square4{width:25%;height:100%;display:inline-block;float:left;a{img{width:100%;height:100%;border:0;}}}
 
 
-a.mega-group-title{cursor:none !important;} 
+a.mega-group-title{cursor:none !important;padding-bottom:1em;} 
 .tb-megamenu .dropdown-menu{overflow:hidden !important;}
 .tb-megamenu .dropdown-menu li > a {
     border-top: 0 !important;
     padding: 5px 20px;
     text-shadow: none;
+}
+
+.tb-megamenu .dropdown-menu li::before{content: "-";
+
 }
 
 .tb-megamenu .dropdown-menu li{
