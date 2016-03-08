@@ -505,7 +505,7 @@ font-size:1.2vw;}
           .image-field-caption{width:100%;height:auto;
           margin:0;
           padding:0;
-          border-top:1px solid $blacker;
+          border-top:0px solid $blacker;
           position: absolute;
           top:60%;
           h4{width:70%;margin:.5em auto;font-size:.9em; color:$reder;}
@@ -952,6 +952,7 @@ p{text-align:left;}
             .gray{color:#555;
                 font-size:1.1em;width:45%;margin:0 auto;text-align:left;
                 padding-left:2em;
+                padding-bottom:1.5em;
                 }
             ul#twolist{list-style-type: none;
                     color:#d15232;
