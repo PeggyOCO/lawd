@@ -790,6 +790,12 @@ margin: 0px 0 !important;
 
 
 a.mega-group-title{cursor:none !important;} 
+
+.tb-megamenu .dropdown-menu li > a {
+    border-top: 0 !important;
+    padding: 5px 20px;
+    text-shadow: none;
+}
 /**END Project Detail page**/
 
 /**Begin home page**/
