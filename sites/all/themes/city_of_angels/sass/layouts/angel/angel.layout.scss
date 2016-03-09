@@ -1335,7 +1335,9 @@ li:before {
     background-color: #fff;
 }
 
-#block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li div.tb-megamenu-submenu:nth-child(1){border:1px solid #666;}
+#block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li div.tb-megamenu-submenu{border:1px solid #666;}
+#block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li div.tb-megamenu-submenu ul li div{border:0;}
+
 
 #block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li:nth-child(2) a:hover{
 background-color: #fff;
