@@ -1816,7 +1816,8 @@ body.not-logged-in {
         /* line 1259, ../../../sass/layouts/angel/angel.layout.scss */
         #block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li ul {
           padding: 1.5em;
-          width: 35vw !important; }
+          width: 35vw !important;
+          border: 1px solid #666; }
           /* line 1259, ../../../sass/layouts/angel/angel.layout.scss */
           #block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li ul li {
             background-color: #fff; }

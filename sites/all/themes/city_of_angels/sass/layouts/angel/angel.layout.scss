@@ -1256,7 +1256,7 @@ li:before {
                                       &:focus{color:$reder;
                                       background-color:$whitest;}}
                                     
-                                        ul{padding:1.5em;width:35vw !important; li{background-color:$whitest;
+                                        ul{padding:1.5em;width:35vw !important; border:1px solid #666; li{background-color:$whitest;
                                                         &:hover{background-color:$whitest;color:$reder;}
                                                         &:active{background-color:$whitest;color:$reder;}
                                                         &:focus{background-color:$whitest;color:$reder;}
