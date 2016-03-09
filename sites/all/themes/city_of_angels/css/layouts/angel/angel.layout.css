@@ -2086,21 +2086,16 @@ body.not-logged-in {
     width: 40vw !important;
     padding: 1em 0 .5em;
     margin: 0;
-    font-size: 1.5em;
-    background-color: #fff;
-    background-image: url("/dev/sites/all/themes/city_of_angels/uparrow.png");
-    background-size: 25px;
-    background-repeat: no-repeat;
-    background-position: 50px 25px; }
+    font-size: 1.5em; }
 
-  /* line 1427, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1420, ../../../sass/layouts/angel/angel.layout.scss */
   #block-tb-megamenu-menu-bottom-menu li:nth-child(3) {
     width: 15vw !important;
     padding: 1em 0 .5em;
     margin: 0;
     font-size: 1.5em; }
 
-  /* line 1428, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1421, ../../../sass/layouts/angel/angel.layout.scss */
   #block-tb-megamenu-menu-bottom-menu li:nth-child(4) {
     width: 25vw !important;
     padding: 1em 1em .5em .5em;
