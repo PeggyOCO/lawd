@@ -1899,7 +1899,6 @@ body.not-logged-in {
     width: 34vw !important;
     list-style: none;
     background-color: #fff;
-    border: 1px solid #666 !important;
     border-top: none;
     *border-right-width: 2px;
     *border-bottom-width: 2px;
@@ -1993,7 +1992,7 @@ body.not-logged-in {
     min-width: 50% !important;
     list-style: none;
     background-color: #fff;
-    border: 1px solid #ccc;
+    border: 1px solid #666;
     /* border: 1px solid rgba(0,0,0,0.2);
      border-bottom: 3px solid #e65855;
      border-top: none;
