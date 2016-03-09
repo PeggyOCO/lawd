@@ -1936,21 +1936,19 @@ body.not-logged-in {
     border: 0; }
 
   /* line 1342, ../../../sass/layouts/angel/angel.layout.scss */
-  #block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li.sub-hidden-collapse:nth-child(2) a:hover {
+  #block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li[data-id="489"] a:hover {
     background-color: #fff;
     background-image: url("/dev/sites/all/themes/city_of_angels/uparrow.png") !important;
     background-size: 25px;
     background-repeat: no-repeat;
     background-position: 50px 110%; }
 
-  /* line 1349, ../../../sass/layouts/angel/angel.layout.scss */
-  #block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li ul li a:hover {
-    background-color: #fff;
-    background-image: none;
-    background-size: 0;
-    background-repeat: no-repeat;
-    background-position: 0 0; }
-
+  /*#block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li ul li a:hover{
+  background-color: #fff;
+  background-image: none;
+  background-size: 0;
+  background-repeat: no-repeat;
+  background-position: 0 0;}*/
   /******************old code for megamenu*************/
   /* line 1357, ../../../sass/layouts/angel/angel.layout.scss */
   #tb-megamenu-main-menu .nav > .active > a, .tb-megamenu .nav > .active > a:hover, .tb-megamenu .nav > .active > a:focus {
