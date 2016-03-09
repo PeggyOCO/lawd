@@ -1938,7 +1938,7 @@ body.not-logged-in {
   /* line 1342, ../../../sass/layouts/angel/angel.layout.scss */
   #block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li.sub-hidden-collapse:nth-child(2) a:hover {
     background-color: #fff;
-    background-image: url("/dev/sites/all/themes/city_of_angels/uparrow.png");
+    background-image: url("/dev/sites/all/themes/city_of_angels/uparrow.png") !important;
     background-size: 25px;
     background-repeat: no-repeat;
     background-position: 50px 110%; }
