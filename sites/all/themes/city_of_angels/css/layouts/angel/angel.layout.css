@@ -1501,7 +1501,7 @@ body.not-logged-in {
   .l-region--branding {
     width: 70%;
     position: absolute;
-    top: 3%;
+    top: 5%;
     right: 1%;
     /*margin: 0px 0px 0px 27%;*/
     margin: 0;
