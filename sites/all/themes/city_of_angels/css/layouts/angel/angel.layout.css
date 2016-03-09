@@ -1936,7 +1936,7 @@ body.not-logged-in {
     border: 0; }
 
   /* line 1342, ../../../sass/layouts/angel/angel.layout.scss */
-  #block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li[data-id="489"] > a:hover {
+  #block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li[data-id="489"].open {
     background-color: #fff;
     background-image: url("/dev/sites/all/themes/city_of_angels/uparrow.png") !important;
     background-size: 25px;
