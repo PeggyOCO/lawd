@@ -1441,7 +1441,14 @@ margin-top:20%;}
     background-clip: padding-box;
 }
 
-
+.tb-megamenu .dropdown-menu .active > a, .tb-megamenu .dropdown-menu .active > a:hover{
+		color: $reder;
+		text-decoration: none;
+		outline: 0;
+		background-color: transparent;
+		background-image: none;
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e1e1e1', endColorstr='#e1e1e1', GradientType=0);
+}
 
 #block-tb-megamenu-menu-bottom-menu div div{background-color: $transparent;}
 #block-tb-megamenu-menu-bottom-menu li{background-color: $transparent;
