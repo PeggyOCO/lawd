@@ -1928,7 +1928,7 @@ body.not-logged-in {
     background-color: #fff; }
 
   /* line 1338, ../../../sass/layouts/angel/angel.layout.scss */
-  #block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li ul {
+  #block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li div {
     border: 1px solid #666; }
 
   /* line 1340, ../../../sass/layouts/angel/angel.layout.scss */
