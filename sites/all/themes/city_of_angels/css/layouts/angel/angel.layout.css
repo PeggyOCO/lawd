@@ -1308,7 +1308,7 @@ body.not-logged-in {
   /* line 909, ../../../sass/layouts/angel/angel.layout.scss */
   .hometop {
     display: block;
-    margin-top: -1.6em;
+    margin-top: -1em;
     width: 100%;
     position: relative;
     background: url(/dev/sites/default/files/projectpic_0.png) no-repeat center top;
