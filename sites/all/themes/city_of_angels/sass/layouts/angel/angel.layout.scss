@@ -705,6 +705,18 @@ background-color: rgba(0, 0, 0, 0.4);
  /* .field-collection-view:nth-child(odd) .ds-1col .field-name-field-fourup{float:right;}
   .field-collection-view:nth-child(even) .ds-1col .field-name-field-fourup{float:left;}*/
   
+  div.node--projects{ 
+	  div.field-collection-container{
+	    div.field-collection-view:nth-child(odd) .ds-1col .field-name-field-fourup{float:right;}
+        }
+    }
+    
+      div.node--projects{ 
+	  div.field-collection-container{
+	    div.field-collection-view:nth-child(even) .ds-1col .field-name-field-fourup{float:left;}
+        }
+    }
+  
     
     .field-name-field-rightbig{
          @include flex(1);
