@@ -1900,10 +1900,6 @@ body.not-logged-in {
     width: 33vw !important;
     list-style: none;
     background-color: #fff;
-    background-image: url("/dev/sites/all/themes/city_of_angels/uparrow.png");
-    background-size: 15px;
-    background-repeat: no-repeat;
-    background-position: 150px -89px;
     border: 1px solid #ccc;
     border-top: none;
     *border-right-width: 2px;
@@ -1939,7 +1935,7 @@ body.not-logged-in {
     background-image: url("/dev/sites/all/themes/city_of_angels/uparrow.png") !important;
     background-size: 25px;
     background-repeat: no-repeat;
-    background-position: 50px 30px; }
+    background-position: 50px 35px; }
 
   /******************old code for megamenu*************/
   /* line 1346, ../../../sass/layouts/angel/angel.layout.scss */
