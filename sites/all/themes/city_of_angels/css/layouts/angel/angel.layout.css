@@ -2191,6 +2191,22 @@ body.not-logged-in {
    div.tb-megamenu-row.row-fluid{width:100% !important;}
   
   #tb-megamenu-column-6{width:45% !important;display:inline-block !important;float:left !important; li{width:14em !important;}}
-   #tb-megamenu-column-8{width:45% !important;display:inline-block !important;float:left !important; li{width:14em !important;}}*/ }
+   #tb-megamenu-column-8{width:45% !important;display:inline-block !important;float:left !important; li{width:14em !important;}}*/
+  /*******LANDING PAGES*******/
+  /* line 1523, ../../../sass/layouts/angel/angel.layout.scss */
+  h4.landing-heading {
+    color: #666;
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0; }
+
+  /* line 1524, ../../../sass/layouts/angel/angel.layout.scss */
+  p.landing-par {
+    color: #666;
+    font-size: 1.25em; }
+
+  /* line 1525, ../../../sass/layouts/angel/angel.layout.scss */
+  .bottompadding {
+    padding-bottom: 1.5em; } }
 
 /*# sourceMappingURL=angel.layout.css.map */
