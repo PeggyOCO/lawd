@@ -2207,6 +2207,11 @@ body.not-logged-in {
 
   /* line 1525, ../../../sass/layouts/angel/angel.layout.scss */
   .bottompadding {
-    padding-bottom: 1.5em; } }
+    padding-bottom: 1.5em; }
+
+  /* line 1526, ../../../sass/layouts/angel/angel.layout.scss */
+  article.node--landingpages ul {
+    text-indent: 1em;
+    font-size: 1.25em; } }
 
 /*# sourceMappingURL=angel.layout.css.map */
