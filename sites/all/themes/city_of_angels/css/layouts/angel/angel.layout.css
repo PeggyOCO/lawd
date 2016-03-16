@@ -126,7 +126,7 @@ body.not-logged-in {
     /* line 70, ../../../sass/layouts/angel/angel.layout.scss */
     .field--name-field-blurb div {
       display: block;
-      width: 80%;
+      width: 60%;
       margin: 0 auto;
       font-style: bold;
       font-size: 1.1em; }
