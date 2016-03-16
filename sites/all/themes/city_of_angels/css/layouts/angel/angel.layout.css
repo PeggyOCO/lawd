@@ -155,7 +155,10 @@ body.not-logged-in {
         .field--name-field-blurb div:last-child ul li a {
           text-decoration: none; }
 
-  /*.entity-squarenav{h2{visibility:hidden;}}*/
+  /* line 84, ../../../sass/layouts/angel/angel.layout.scss */
+  h2 {
+    display: none; }
+
   /* .top{
     background: url(/dev/sites/default/files/projectpic_0.png) no-repeat center top;
     -webkit-background-size: cover;
