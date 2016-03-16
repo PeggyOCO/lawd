@@ -41,12 +41,12 @@ width:100%;overflow-x:hidden;}
   /* Header Area */
 html, body {
 height: 100%;
-width:100%;
-margin: 0;
-font-size:12px;}
+width:95%;
+margin: 0 auto;
+font-size:1em;}
 .node__submitted{display:none;}
 
-#block-menu-block-1{display:none;}
+/*#block-menu-block-1{display:none;}
 .mean-bar{display:block;}
 .scrim{background-color: rgba(88, 88, 88, 0.8);
     flex:1;
@@ -63,7 +63,7 @@ font-size:12px;}
 .leftbottom{position:absolute;left:10%;bottom:5%;}
 
 .l-content{h1{display:none;}}
- .top{
+/* .top{
   background: url(/dev/sites/default/files/projectpic_0.png) no-repeat center top;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -251,7 +251,7 @@ clear: both;
 .field-collection-container {
     border-bottom: 0px solid #D3D7D9;
     margin-bottom: 0;
-}
+}*/
 
 
   }
