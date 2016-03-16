@@ -126,10 +126,12 @@ body.not-logged-in {
     /* line 70, ../../../sass/layouts/angel/angel.layout.scss */
     .field--name-field-blurb div {
       display: block;
-      width: 100%; }
+      width: 100%;
+      text-align: center; }
       /* line 70, ../../../sass/layouts/angel/angel.layout.scss */
       .field--name-field-blurb div ul {
-        list-style-type: none; }
+        list-style-type: none;
+        text-align: left; }
         /* line 70, ../../../sass/layouts/angel/angel.layout.scss */
         .field--name-field-blurb div ul li a {
           text-decoration: none; }
