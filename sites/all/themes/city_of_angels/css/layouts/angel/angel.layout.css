@@ -122,7 +122,7 @@ body.not-logged-in {
   /* line 69, ../../../sass/layouts/angel/angel.layout.scss */
   .field--name-field-blurb {
     background-color: #47bdbf;
-    padding: 1em; }
+    padding: 0 1em 1em; }
     /* line 70, ../../../sass/layouts/angel/angel.layout.scss */
     .field--name-field-blurb div:first-child {
       display: block;
