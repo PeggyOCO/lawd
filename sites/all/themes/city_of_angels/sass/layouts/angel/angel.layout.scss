@@ -81,25 +81,28 @@ div:last-child{display:block;width:70%;margin:0 auto;font-style:bold;font-size:1
 
 }
 
-div.entity-squarenav{border:2px dotted red;
-                  div.content{border: 2px dotted orange;
+div.entity-squarenav{border:0px dotted red;margin:0;padding:0;
+                  div.content{border: 0px dotted orange;margin:0;padding:0;
 
                       }
                   }
                             
-div.field--name-field-foursquaresrow{border:2px dotted gray;
-                              div.field__items{border: 2px dotted pink;
+div.field--name-field-foursquaresrow{border:0px dotted gray;margin:0;padding:0;
+                              div.field__items{border: 0px dotted pink;
+                                          margin:0;padding:0;
                                   div.field__item{
-                                          border:2px dotted blue;
+                                          border:0px dotted blue;
                                           display:inline-block;
                                           float:left;
+                                          margin:0;padding:0;
                                               }
                                         }
                           }
                           
 div.ds-1col{
 		div a div{width:100%;
-				height:auto;}}
+				height:auto;
+				margin:0;padding:0;}}
 				
 				
 blockquote.image-field-caption{display:none;}
