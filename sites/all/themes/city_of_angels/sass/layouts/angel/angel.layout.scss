@@ -23,16 +23,7 @@ $desk : min-width 800px;
 body.not-logged-in{font-family:Lato,Tahoma,Verdana, Helvetica, sans-serif;letter-spacing:normal;
 width:100%;overflow-x:hidden;}
 
-.pinktitle{font-size:2em;color: #c74c4f;text-transform:uppercase;text-align:left;}
-.wrapfloats{display:block;width:100%;margin:0 auto; border:0px dotted blue;margin:2%;}
-.wrapfloats50{display:block;width:100%;margin:0 auto;border:0px dotted orange;height:15vw;margin-bottom:2%;}
-.floatleft2col{display:inline-block;float:left;margin:0em;width:49%;border:0px dotted green;text-align:left;}
-.floatleft2col div{margin:1.5% 0;}
-.floatleft2colA{display:inline-block;float:left;margin:0em;width:50%;border:0px dotted green;text-align:left;}
-.floatleft2colB{display:inline-block;float:right;margin:0em;width:15%;border:0px dotted green;text-align:left;}
-#module-filter-tabs ul {
-    width: 200px;
-}
+
 .clr{clear:both;}
 
 //************phone************//
@@ -43,7 +34,7 @@ html, body {
 height: 100%;
 width:95%;
 margin: 0 auto;
-font-size:1em;}
+font-size:1.2vw;}
 .node__submitted{display:none;}
 
 /*#block-menu-block-1{display:none;}
@@ -316,6 +307,17 @@ clear: both;
 //************desk************//
 
 @include breakpoint($desk, true) {
+
+.pinktitle{font-size:2em;color: #c74c4f;text-transform:uppercase;text-align:left;}
+.wrapfloats{display:block;width:100%;margin:0 auto; border:0px dotted blue;margin:2%;}
+.wrapfloats50{display:block;width:100%;margin:0 auto;border:0px dotted orange;height:15vw;margin-bottom:2%;}
+.floatleft2col{display:inline-block;float:left;margin:0em;width:49%;border:0px dotted green;text-align:left;}
+.floatleft2col div{margin:1.5% 0;}
+.floatleft2colA{display:inline-block;float:left;margin:0em;width:50%;border:0px dotted green;text-align:left;}
+.floatleft2colB{display:inline-block;float:right;margin:0em;width:15%;border:0px dotted green;text-align:left;}
+#module-filter-tabs ul {
+    width: 200px;
+}
   /* Header Area */
 html, body {
 height: 100%;
