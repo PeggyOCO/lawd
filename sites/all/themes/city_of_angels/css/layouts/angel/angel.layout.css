@@ -1192,7 +1192,8 @@ clear: both;
   }*/
   /* line 910, ../../../sass/layouts/angel/angel.layout.scss */
   div.node--projectdetail--full div.field-collection-container div.field-name-field-detailrow div.field-collection-view {
-    height: 75vw; }
+    max-height: 75vw;
+    min-height: 40vw; }
 
   /* line 916, ../../../sass/layouts/angel/angel.layout.scss */
   .field-name-field-detailrowtitle {

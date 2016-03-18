@@ -907,7 +907,7 @@ a.mega-group-title{cursor:none !important;padding-bottom:1em;}
 div.node--projectdetail--full{
     div.field-collection-container{
       div.field-name-field-detailrow{
-        div.field-collection-view{height:75vw;
+        div.field-collection-view{max-height:75vw;min-height:40vw;
           }
         }
     }
