@@ -63,25 +63,34 @@ body.not-logged-in {
   /* line 60, ../../../sass/layouts/angel/angel.layout.scss */
   .field--name-field-blurb {
     background-color: #47bdbf;
-    padding: 0 .5em .5em; }
+    padding: 0;
+    margin: 0; }
     /* line 61, ../../../sass/layouts/angel/angel.layout.scss */
     .field--name-field-blurb div:first-child {
       display: block;
-      width: 90%;
-      margin: 0 auto;
-      margin-top: -1.5em;
+      width: 100%;
+      margin: 0;
       font-style: bold;
       font-size: .9em; }
       /* line 61, ../../../sass/layouts/angel/angel.layout.scss */
       .field--name-field-blurb div:first-child ul {
+        padding-left: 0;
+        margin-left: 0;
         list-style-type: none; }
         /* line 61, ../../../sass/layouts/angel/angel.layout.scss */
-        .field--name-field-blurb div:first-child ul li a {
-          text-decoration: none;
-          color: black; }
-          /* line 62, ../../../sass/layouts/angel/angel.layout.scss */
-          .field--name-field-blurb div:first-child ul li a:hover {
-            color: orange; }
+        .field--name-field-blurb div:first-child ul li {
+          width: 100%;
+          margin: 0;
+          padding: 0;
+          background-color: #999;
+          border-bottom: 1px solid #e1e1e1; }
+          /* line 61, ../../../sass/layouts/angel/angel.layout.scss */
+          .field--name-field-blurb div:first-child ul li a {
+            text-decoration: none;
+            color: black; }
+            /* line 62, ../../../sass/layouts/angel/angel.layout.scss */
+            .field--name-field-blurb div:first-child ul li a:hover {
+              color: orange; }
     /* line 66, ../../../sass/layouts/angel/angel.layout.scss */
     .field--name-field-blurb div:last-child {
       display: block;
