@@ -163,26 +163,10 @@ body.not-logged-in {
     width: 100%;
     height: 100%; }
 
-  /* line 110, ../../../sass/layouts/angel/angel.layout.scss */
-  .field-name-field-square1 a div {
-    width: 100% !important;
-    height: 100% !important; }
-
-  /* line 111, ../../../sass/layouts/angel/angel.layout.scss */
-  .field-name-field-square2 a div {
-    width: 100% !important;
-    height: 100% !important; }
-
-  /* line 112, ../../../sass/layouts/angel/angel.layout.scss */
-  .field-name-field-square3 a div {
-    width: 100% !important;
-    height: 100% !important; }
-
-  /* line 113, ../../../sass/layouts/angel/angel.layout.scss */
-  .field-name-field-square4 a div {
-    width: 100% !important;
-    height: 100% !important; }
-
+  /*.field-name-field-square1 a div{width:100% !important;height:100% !important;}
+  .field-name-field-square2 a div{width:100% !important;height:100% !important;}
+  .field-name-field-square3 a div{width:100% !important;height:100% !important;}
+  .field-name-field-square4 a div{width:100% !important;height:100% !important;}*/
   /* .top{
     background: url(/dev/sites/default/files/projectpic_0.png) no-repeat center top;
     -webkit-background-size: cover;
