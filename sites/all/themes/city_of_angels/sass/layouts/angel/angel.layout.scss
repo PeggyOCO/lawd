@@ -923,7 +923,7 @@ width: auto !important;
 }
 
 body.node-type-projectdetail div div div div.ds-1col{
-@include flexbox;
+@include flexbox(1);
 		div{ @include flex(1);
         @include flex-direction('column'); 
             a div{  width:100%;
