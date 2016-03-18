@@ -1223,7 +1223,7 @@ clear: both;
 
   /* line 936, ../../../sass/layouts/angel/angel.layout.scss */
   .page-node-35 div div div div.ds-1col div div div:last-child {
-    height: 40vw; }
+    border: 2px dotted maroon; }
     /* line 936, ../../../sass/layouts/angel/angel.layout.scss */
     .page-node-35 div div div div.ds-1col div div div:last-child div div.field-name-field-detailrowcontent {
       padding-top: 2rem;
