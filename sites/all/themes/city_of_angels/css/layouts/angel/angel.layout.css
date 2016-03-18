@@ -408,7 +408,7 @@ clear: both;
 @media (min-width: 800px) {
   /* line 343, ../../../sass/layouts/angel/angel.layout.scss */
   .pinktitle {
-    font-size: 2em;
+    font-size: 1.5rem;
     color: #c74c4f;
     text-transform: uppercase;
     text-align: left; }

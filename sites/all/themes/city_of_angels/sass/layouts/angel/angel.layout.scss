@@ -340,7 +340,7 @@ clear: both;
 
 @include breakpoint($desk, true) {
 
-.pinktitle{font-size:2em;color: #c74c4f;text-transform:uppercase;text-align:left;}
+.pinktitle{font-size:1.5rem;color: #c74c4f;text-transform:uppercase;text-align:left;}
 .wrapfloats{display:block;width:100%;margin:0 auto; border:0px dotted blue;margin:2%;}
 .wrapfloats50{display:block;width:100%;margin:0 auto;border:0px dotted orange;height:15vw;margin-bottom:2%;}
 .floatleft2col{display:inline-block;float:left;margin:0em;width:49%;border:0px dotted green;text-align:left;}
