@@ -1093,7 +1093,8 @@ clear: both;
 
   /* line 873, ../../../sass/layouts/angel/angel.layout.scss */
   .field-name-field-detailrowcontent {
-    font-size: 1em;
+    font-size: 1.5rem;
+    background-color: lightgray;
     color: gray;
     border: 0px solid red;
     text-align: center;
