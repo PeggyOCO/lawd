@@ -60,7 +60,7 @@ body.not-logged-in {
     /* line 57, ../../../sass/layouts/angel/angel.layout.scss */
     .l-content h1 {
       position: absolute;
-      top: 2em;
+      top: 1.5em;
       left: 0;
       text-align: center;
       width: 100%;
