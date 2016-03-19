@@ -907,11 +907,16 @@ a.mega-group-title{cursor:none !important;padding-bottom:1em;}
 div.node--projectdetail--full{
     div.field-collection-container{
       div.field-name-field-detailrow{
-        div.field-collection-view{max-height:75vw;min-height:75vw;
+        div.field-collection-view{height:75vw;
           }
         }
     }
 }
+
+.page-node-35 div div div div.node--projectdetail{
+div div div.field-collection-view-final{
+height:62vw;
+}}
 
 .field-name-field-detailrowtitle{font-size:2rem;}
 .centered40{width:40%;
