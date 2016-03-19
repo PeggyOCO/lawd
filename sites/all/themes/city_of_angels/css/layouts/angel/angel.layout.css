@@ -189,6 +189,10 @@ body.not-logged-in {
     margin: 0;
     border: 0; }
 
+  /* line 133, ../../../sass/layouts/angel/angel.layout.scss */
+  div.node--entrance img {
+    width: 100%; }
+
   /* line 134, ../../../sass/layouts/angel/angel.layout.scss */
   div.entity-squarenav h2 {
     display: none; }
