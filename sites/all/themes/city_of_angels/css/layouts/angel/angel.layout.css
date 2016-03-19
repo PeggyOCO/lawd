@@ -1228,8 +1228,8 @@ clear: both;
     flex-direction: "column"; }
     /* line 943, ../../../sass/layouts/angel/angel.layout.scss */
     body.node-type-projectdetail div div div div.ds-1col div a div {
-      width: 100%;
-      height: auto;
+      width: 100% !important;
+      height: 100% !important;
       margin: 0;
       padding: 0; }
 
