@@ -1196,7 +1196,7 @@ clear: both;
 
   /* line 917, ../../../sass/layouts/angel/angel.layout.scss */
   .page-node-35 div div div div.node--projectdetail div div div.field-collection-view-final {
-    height: 62vw; }
+    height: 62vw !important; }
 
   /* line 921, ../../../sass/layouts/angel/angel.layout.scss */
   .field-name-field-detailrowtitle {
