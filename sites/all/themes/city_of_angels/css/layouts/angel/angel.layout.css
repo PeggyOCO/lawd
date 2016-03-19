@@ -1200,7 +1200,8 @@ clear: both;
 
   /* line 921, ../../../sass/layouts/angel/angel.layout.scss */
   .field-name-field-detailrowtitle {
-    font-size: 2rem; }
+    font-size: 2rem;
+    padding-top: 3rem; }
 
   /* line 922, ../../../sass/layouts/angel/angel.layout.scss */
   .centered40 {
