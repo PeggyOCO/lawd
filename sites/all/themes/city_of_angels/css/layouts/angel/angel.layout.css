@@ -445,7 +445,8 @@ clear: both;
 
   /* line 348, ../../../sass/layouts/angel/angel.layout.scss */
   .floatleft2col:last-child div {
-    margin: 0; }
+    margin: 0;
+    height: 1.5em; }
 
   /* line 349, ../../../sass/layouts/angel/angel.layout.scss */
   .floatleft2colA {
