@@ -1206,10 +1206,10 @@ clear: both;
 
   /* line 926, ../../../sass/layouts/angel/angel.layout.scss */
   .page-node-35 div div div div.node--projectdetail div div div.field-collection-view:nth-child(2) {
-    height: 85vw !important; }
+    /*height:85vw !important;*/ }
   /* line 930, ../../../sass/layouts/angel/angel.layout.scss */
   .page-node-35 div div div div.node--projectdetail div div div.field-collection-view-final {
-    height: 62vw !important; }
+    /*height:62vw !important;*/ }
 
   /* line 936, ../../../sass/layouts/angel/angel.layout.scss */
   .field--name-field-square-ref {
