@@ -914,9 +914,16 @@ div.node--projectdetail--full{
 }
 
 .page-node-35 div div div div.node--projectdetail{
-div div div.field-collection-view-final{
-height:62vw !important;
-}}
+
+    div div div.field-collection-view:nth-child(2){
+    height:85vw !important;
+    }
+
+    div div div.field-collection-view-final{
+    height:72vw !important;
+    }
+
+}
 
 .field-name-field-detailrowtitle{font-size:2rem;padding-top:3rem;}
 .centered40{width:40%;
