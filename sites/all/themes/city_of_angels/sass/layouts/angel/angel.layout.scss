@@ -118,6 +118,13 @@ div.field--name-field-foursquaresrow{width:100%;border:0px dotted gray;margin:0;
 				
 blockquote.image-field-caption{display:block;background-color:#47bdbf;margin:0;width:100%;padding:1em;}
 
+.field-collection-container {
+display:flex;
+flex-direction:column;
+    border:0;
+    margin:0;
+}
+
 div.entity-squarenav h2{display:none;}
 
 .field--name-field-foursquaresrow{
