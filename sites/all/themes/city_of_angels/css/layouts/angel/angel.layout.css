@@ -170,7 +170,7 @@ body.not-logged-in {
 
   /* line 119, ../../../sass/layouts/angel/angel.layout.scss */
   blockquote.image-field-caption {
-    display: none; }
+    display: block; }
 
   /* line 121, ../../../sass/layouts/angel/angel.layout.scss */
   div.entity-squarenav h2 {
