@@ -14,3 +14,8 @@ function city_of_angels_preprocess_field(&$variables) {
 	}
 }
 
+function city_of_angels_parallax_bg_admin_form_alter($form, &$form_state) {
+          
+          dsm($form);
+
+          } 
