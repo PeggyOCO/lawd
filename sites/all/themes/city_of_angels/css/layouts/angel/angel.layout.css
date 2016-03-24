@@ -362,6 +362,10 @@ body.not-logged-in {
     margin-top: 4em !important;
     z-index: 10000 !important; }
 
+  /* line 265, ../../../sass/layouts/angel/angel.layout.scss */
+  #tb-megamenu-column-2 {
+    background-color: #666; }
+
   /* line 267, ../../../sass/layouts/angel/angel.layout.scss */
   .tb-megamenu-item a {
     font-size: 1em;
