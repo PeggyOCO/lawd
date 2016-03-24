@@ -15,7 +15,7 @@ function city_of_angels_preprocess_field(&$variables) {
 }
 
 function city_of_angels_preprocess_html(&$vars) {
-dpm $vars;
+dpm($vars);
   
   /* Setup Viewport Meta Tag
   $viewport = array(
