@@ -155,7 +155,11 @@ body.not-logged-in {
 
   /* line 103, ../../../sass/layouts/angel/angel.layout.scss */
   #block-tb-megamenu-main-menu {
-    text-align: left; }
+    text-align: left;
+    font-size: 1em;
+    padding: .5em;
+    text-decoration: none;
+    border: 0; }
     /* line 105, ../../../sass/layouts/angel/angel.layout.scss */
     #block-tb-megamenu-main-menu ul li a {
       font-size: 1.2em;
