@@ -111,7 +111,7 @@ padding: 2em;}
     background: transparent;
     border: 0;
     color: black;
-    font-size: 1.5em;
+    font-size: 2.5em;
     margin:0;
     padding:0;
     
@@ -120,8 +120,9 @@ padding: 2em;}
 .tb-megamenu .btn:first-child {
     position:absolute;
     bottom:0;
-    right:0;
+    right:.1em;
     &:hover{background-color:transparent !important;}
+    &:selected{background-color:transparent !important;}
 }
 				
 				
