@@ -165,11 +165,12 @@ body.not-logged-in {
     #block-tb-megamenu-main-menu ul li ul li a {
       font-size: 1em;
       padding: .5em;
-      text-decoration: none; }
+      text-decoration: none;
+      border: 0; }
     /* line 107, ../../../sass/layouts/angel/angel.layout.scss */
     #block-tb-megamenu-main-menu ul li ul li ul li a {
-      font-size: 1em;
-      padding: 1em;
+      font-size: 1.2em;
+      padding: .7em;
       text-decoration: none;
       border: 0; }
 
