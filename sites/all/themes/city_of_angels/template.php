@@ -14,19 +14,3 @@ function city_of_angels_preprocess_field(&$variables) {
 	}
 }
 
-function city_of_angels_preprocess_html(&$vars) {
-dpm($vars);
-  
-  /* Setup Viewport Meta Tag
-  $viewport = array(
-    '#type' => 'html_tag',
-    '#tag' => 'meta',
-    '#attributes' => array(
-      'name' => 'viewport',
-      'content' => 'width=device-width, initial-scale=1.0',
-    )
-  );*/
-  
-  /* Add Viewport Meta Tag to head
-  drupal_add_html_head($viewport, 'viewport');*/
-}
