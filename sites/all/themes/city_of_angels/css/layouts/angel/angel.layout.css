@@ -188,13 +188,15 @@ body.not-logged-in {
       background-color: transparent !important;
       border: 0 !important;
       border-radius: 0;
-      box-shadow: transparent; }
+      box-shadow: transparent;
+      background: none !important; }
     /* line 128, ../../../sass/layouts/angel/angel.layout.scss */
     .tb-megamenu .btn:first-child:active {
       background-color: transparent !important;
       border: 0 !important;
       border-radius: 0;
-      box-shadow: transparent; }
+      box-shadow: transparent;
+      background: none !important; }
 
   /* line 134, ../../../sass/layouts/angel/angel.layout.scss */
   blockquote.image-field-caption {
