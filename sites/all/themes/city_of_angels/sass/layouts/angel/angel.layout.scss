@@ -240,21 +240,13 @@ footer{height:15em;background-color:#d5d5d5;margin:0;margin-top:-.25em;}
  
  
   .l-branding {
-        border: 0px dotted maroon;
-        background-color: #fff;
-        /*text-align:center;*/
-        a.site-logo{
-            width:40%;
-            display:inline-block;
-            float:left;
-            }
-        h2.site-slogan{
-            font-size:.75em;
-            font-weight:normal;
-            display:inline-block;
-            float:left;
-            }
-        }
+
+
+    border: 0px dotted maroon;
+    background-color: #ededed;
+    text-align:center;
+
+  }
   
   /*
   
@@ -1393,10 +1385,22 @@ display: block;
   .l-branding {
 
 
-    border: 0px dotted maroon;
+    border: 1px dotted maroon;
     background-color: #ededed;
-    text-align:left;
+    text-align:center;
     height:auto;
+        a.site-logo{
+            width:40%;
+            display:inline-block;
+            float:left;
+            }
+        h2.site-slogan{
+            font-size:.75em;
+            font-weight:normal;
+            display:inline-block;
+            float:left;
+            }
+        
 
   }
   
