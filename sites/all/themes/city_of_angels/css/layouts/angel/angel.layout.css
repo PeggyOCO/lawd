@@ -158,7 +158,7 @@ body.not-logged-in {
     text-align: left; }
     /* line 105, ../../../sass/layouts/angel/angel.layout.scss */
     #block-tb-megamenu-main-menu ul li a {
-      font-size: 1em;
+      font-size: 1.2em;
       padding: .5em;
       text-decoration: none; }
     /* line 106, ../../../sass/layouts/angel/angel.layout.scss */
@@ -405,14 +405,14 @@ body.not-logged-in {
 
   /* line 279, ../../../sass/layouts/angel/angel.layout.scss */
   #tb-megamenu-column-2, #tb-megamenu-column-4 {
-    background-color: #666; }
+    background-color: #c2c1c1; }
 
   /* line 281, ../../../sass/layouts/angel/angel.layout.scss */
   .tb-megamenu-item a {
     font-size: 1em;
     text-decoration: none;
     padding: 1em;
-    background-color: #666; }
+    background-color: #c2c1c1; }
 
   /* .l-header{margin:0;}
   .l-region--header {
