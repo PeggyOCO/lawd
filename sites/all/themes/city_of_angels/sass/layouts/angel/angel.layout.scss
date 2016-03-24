@@ -122,7 +122,9 @@ padding: 2em;}
     bottom:0;
     right:.1em;
     &:hover{background-color:transparent !important;}
-    &:selected{background-color:transparent !important;border:0 !important;}
+    &:selected{background-color:transparent !important;border:0 !important;
+    border-radius:0;
+    box-shadow: transparent;}
 }
 				
 				
