@@ -59,6 +59,7 @@ body.not-logged-in {
       display: none; }
     /* line 57, ../../../sass/layouts/angel/angel.layout.scss */
     .l-content h1 {
+      display: none;
       position: absolute;
       top: 2em;
       left: 0;
