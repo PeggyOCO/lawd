@@ -185,7 +185,8 @@ body.not-logged-in {
       background-color: transparent !important; }
     /* line 125, ../../../sass/layouts/angel/angel.layout.scss */
     .tb-megamenu .btn:first-child:selected {
-      background-color: transparent !important; }
+      background-color: transparent !important;
+      border: 0 !important; }
 
   /* line 129, ../../../sass/layouts/angel/angel.layout.scss */
   blockquote.image-field-caption {
