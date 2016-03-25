@@ -2105,7 +2105,7 @@ clear: both;
                     background-image: moz-linear-gradient(to bottom, #fff, #fff) !important; }
 
   /* line 1536, ../../../sass/layouts/angel/angel.layout.scss */
-  .tb-megamenu .dropdown-menu {
+  .tb-megamenu.dropdown {
     position: absolute;
     top: 100%;
     left: 0;
