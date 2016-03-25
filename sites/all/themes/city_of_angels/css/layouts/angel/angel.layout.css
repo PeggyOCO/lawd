@@ -2153,7 +2153,8 @@ clear: both;
       width: 49%;
       display: inline-block;
       text-align: left;
-      float: left; }
+      float: left;
+      margin: 0; }
 
   /*#block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li div.tb-megamenu-submenu ul{text-align:left; li div{border:1px dotted red;}}*/
   /* line 1593, ../../../sass/layouts/angel/angel.layout.scss */
