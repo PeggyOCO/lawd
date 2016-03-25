@@ -126,7 +126,7 @@ padding: 2em;}
 .tb-megamenu .btn:first-child {
     position:absolute;
     bottom:0;
-    right:.3em;
+    right:.6em;
     &:hover{background-color:transparent !important;}
     &:selected{background-color:transparent !important;border:0 !important;
     border-radius:0;
@@ -272,7 +272,7 @@ footer{height:15em;background-color:#d5d5d5;margin:0;margin-top:-.25em;}
             font-size:.65em;
             position:absolute;
             bottom:.5em;
-            left:30%;
+            left:32%;
             font-weight:400;
             font-style:italic;
             }
