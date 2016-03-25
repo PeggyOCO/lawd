@@ -1540,8 +1540,9 @@ li:before {
     z-index: 1000;
     display: none;
     float: left;
-    width:34vw !important;
+    width:38vw !important;
     list-style: none;
+    border:1px dotted red;
     background-color: #fff;
     //background-image:url("/dev/sites/all/themes/city_of_angels/uparrow.png");
     //background-size:15px;
