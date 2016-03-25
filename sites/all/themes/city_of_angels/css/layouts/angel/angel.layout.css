@@ -2146,7 +2146,7 @@ clear: both;
 
   /* line 1583, ../../../sass/layouts/angel/angel.layout.scss */
   #block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li div.tb-megamenu-submenu {
-    border: 1px solid #666;
+    border: 0px solid #666;
     width: 220% !important; }
     /* line 1584, ../../../sass/layouts/angel/angel.layout.scss */
     #block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li div.tb-megamenu-submenu div div .tb-megamenu-column {
