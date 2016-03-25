@@ -2146,11 +2146,15 @@ clear: both;
 
   /* line 1583, ../../../sass/layouts/angel/angel.layout.scss */
   #block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li div.tb-megamenu-submenu {
-    border: 1px solid #666; }
+    border: 1px solid #666;
+    width: 200% !important; }
 
   /* line 1584, ../../../sass/layouts/angel/angel.layout.scss */
-  #block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li div.tb-megamenu-submenu ul li div {
-    border: 0; }
+  #block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li div.tb-megamenu-submenu ul {
+    text-align: left; }
+    /* line 1584, ../../../sass/layouts/angel/angel.layout.scss */
+    #block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li div.tb-megamenu-submenu ul li div {
+      border: 1px dotted red; }
 
   /* line 1587, ../../../sass/layouts/angel/angel.layout.scss */
   #block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li[data-id="489"] > a:hover {
