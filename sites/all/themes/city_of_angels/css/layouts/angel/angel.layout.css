@@ -2158,7 +2158,7 @@ clear: both;
 
   /* line 1589, ../../../sass/layouts/angel/angel.layout.scss */
   .mega-group-title {
-    padding-bottom: .5em; }
+    padding-bottom: .5em !important; }
 
   /*#block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li div.tb-megamenu-submenu ul{text-align:left; li div{border:1px dotted red;}}*/
   /* line 1595, ../../../sass/layouts/angel/angel.layout.scss */
