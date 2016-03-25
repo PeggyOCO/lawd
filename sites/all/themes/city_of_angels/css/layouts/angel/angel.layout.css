@@ -2156,8 +2156,12 @@ clear: both;
       float: left;
       margin: 0; }
 
+  /* line 1589, ../../../sass/layouts/angel/angel.layout.scss */
+  .mega-group-title {
+    padding-bottom: .5em; }
+
   /*#block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li div.tb-megamenu-submenu ul{text-align:left; li div{border:1px dotted red;}}*/
-  /* line 1593, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1595, ../../../sass/layouts/angel/angel.layout.scss */
   #block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li[data-id="489"] > a:hover {
     background-color: #fff;
     background-image: url("/dev/sites/all/themes/city_of_angels/uparrow.png") !important;
@@ -2172,7 +2176,7 @@ clear: both;
   background-repeat: no-repeat;
   background-position: 0 0;}*/
   /******************old code for megamenu*************/
-  /* line 1608, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1610, ../../../sass/layouts/angel/angel.layout.scss */
   #tb-megamenu-main-menu .nav > .active > a, .tb-megamenu .nav > .active > a:hover, .tb-megamenu .nav > .active > a:focus {
     background-color: #fff;
     color: #e54e4b;
@@ -2182,42 +2186,42 @@ clear: both;
     box-shadow: none;
     outline: none; }
 
-  /* line 1618, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1620, ../../../sass/layouts/angel/angel.layout.scss */
   #tb-megamenu-main-menu .nav > li > a:hover {
     color: #f00; }
 
-  /* line 1623, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1625, ../../../sass/layouts/angel/angel.layout.scss */
   #tb-megamenu-main-menu {
     background-color: #fff; }
 
-  /* line 1627, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1629, ../../../sass/layouts/angel/angel.layout.scss */
   #tb-megamenu-main-menu .tb-megamenu-column-inner {
     padding: 2em !important;
     border: 1px solid black !important; }
 
-  /* line 1630, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1632, ../../../sass/layouts/angel/angel.layout.scss */
   #tb-megamenu-main-menu .tb-megamenu-column-inner.mega-inner {
     border: 0 !important;
     padding: 1em !important; }
 
-  /* line 1632, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1634, ../../../sass/layouts/angel/angel.layout.scss */
   #tb-megamenu-main-menu .tb-megamenu-item.level-2 a {
     text-transform: uppercase;
     text-decoration: none;
     font-weight: bold; }
 
-  /* line 1634, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1636, ../../../sass/layouts/angel/angel.layout.scss */
   #tb-megamenu-main-menu li.tb-megamenu-item.level-3.mega a {
     text-transform: capitalize !important;
     font-size: .8vw !important;
     white-space: nowrap;
     padding: 1.5% 0 0 1.5% !important; }
 
-  /* line 1640, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1642, ../../../sass/layouts/angel/angel.layout.scss */
   #tb-megamenu-main-menu li:nth-child(6).tb-megamenu-item.level-3.mega a {
     margin-top: 20%; }
 
-  /* line 1644, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1646, ../../../sass/layouts/angel/angel.layout.scss */
   #tb-megamenu-main-menu .dropdown-menu {
     position: absolute;
     top: 3em;
@@ -2246,7 +2250,7 @@ clear: both;
     -moz-background-clip: padding;
     background-clip: padding-box; }
 
-  /* line 1673, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1675, ../../../sass/layouts/angel/angel.layout.scss */
   .tb-megamenu .dropdown-menu .active > a, .tb-megamenu .dropdown-menu .active > a:hover {
     color: #c4112f;
     text-decoration: none;
@@ -2255,26 +2259,26 @@ clear: both;
     background-image: none;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e1e1e1', endColorstr='#e1e1e1', GradientType=0); }
 
-  /* line 1682, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1684, ../../../sass/layouts/angel/angel.layout.scss */
   #block-tb-megamenu-menu-bottom-menu div div {
     background-color: transparent; }
 
-  /* line 1683, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1685, ../../../sass/layouts/angel/angel.layout.scss */
   #block-tb-megamenu-menu-bottom-menu li {
     background-color: transparent;
     padding: 1em 0 .5em;
     margin: 0;
     font-size: 1.5em; }
-    /* line 1684, ../../../sass/layouts/angel/angel.layout.scss */
+    /* line 1686, ../../../sass/layouts/angel/angel.layout.scss */
     #block-tb-megamenu-menu-bottom-menu li:first-child {
       width: 15vw; }
 
-  /* line 1686, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1688, ../../../sass/layouts/angel/angel.layout.scss */
   #block-tb-megamenu-menu-bottom-menu li:hover {
     background-color: transparent;
     border: 0; }
 
-  /* line 1687, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1689, ../../../sass/layouts/angel/angel.layout.scss */
   #block-tb-megamenu-menu-bottom-menu a {
     background-color: transparent;
     text-decoration: none;
@@ -2283,74 +2287,74 @@ clear: both;
     padding: 0;
     line-height: 1em; }
 
-  /* line 1688, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1690, ../../../sass/layouts/angel/angel.layout.scss */
   #block-tb-megamenu-menu-bottom-menu a:hover {
     background-color: transparent;
     color: #c4112f;
     background-image: none; }
 
-  /* line 1690, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1692, ../../../sass/layouts/angel/angel.layout.scss */
   #block-tb-megamenu-menu-bottom-menu a:active {
     background-color: transparent;
     color: #c4112f;
     background-image: none; }
 
-  /* line 1694, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1696, ../../../sass/layouts/angel/angel.layout.scss */
   #block-tb-megamenu-menu-bottom-menu li.level-2 {
     margin: .25rem 0 .25rem 1.3rem !important;
     padding: 0 !important; }
-    /* line 1695, ../../../sass/layouts/angel/angel.layout.scss */
+    /* line 1697, ../../../sass/layouts/angel/angel.layout.scss */
     #block-tb-megamenu-menu-bottom-menu li.level-2 a {
       font-size: 1rem !important;
       color: #666; }
-    /* line 1695, ../../../sass/layouts/angel/angel.layout.scss */
+    /* line 1697, ../../../sass/layouts/angel/angel.layout.scss */
     #block-tb-megamenu-menu-bottom-menu li.level-2 a:hover {
       color: #c4112f; }
 
-  /* line 1696, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1698, ../../../sass/layouts/angel/angel.layout.scss */
   #block-tb-megamenu-menu-bottom-menu li.level-3 {
     margin: .25rem 0 .25rem 1.3rem !important;
     padding: 0 !important; }
-    /* line 1697, ../../../sass/layouts/angel/angel.layout.scss */
+    /* line 1699, ../../../sass/layouts/angel/angel.layout.scss */
     #block-tb-megamenu-menu-bottom-menu li.level-3 a {
       font-size: .8rem !important;
       color: #666; }
-    /* line 1697, ../../../sass/layouts/angel/angel.layout.scss */
+    /* line 1699, ../../../sass/layouts/angel/angel.layout.scss */
     #block-tb-megamenu-menu-bottom-menu li.level-3 a:hover {
       color: #c4112f; }
 
-  /* line 1698, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1700, ../../../sass/layouts/angel/angel.layout.scss */
   #block-tb-megamenu-menu-bottom-menu a.mega-group-title {
     font-size: 1rem;
     font-weight: normal;
     color: #666;
     margin-bottom: .5rem; }
 
-  /* line 1699, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1701, ../../../sass/layouts/angel/angel.layout.scss */
   #block-tb-megamenu-menu-bottom-menu li div.tb-megamenu-submenu {
     width: 35vw !important;
     display: block !important;
     border: 0;
     box-shadow: none; }
-    /* line 1699, ../../../sass/layouts/angel/angel.layout.scss */
+    /* line 1701, ../../../sass/layouts/angel/angel.layout.scss */
     #block-tb-megamenu-menu-bottom-menu li div.tb-megamenu-submenu div div {
       background-color: transparent; }
 
-  /* line 1700, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1702, ../../../sass/layouts/angel/angel.layout.scss */
   #block-tb-megamenu-menu-bottom-menu li:nth-child(2) {
     width: 40vw !important;
     padding: 1em 0 .5em;
     margin: 0;
     font-size: 1.5em; }
 
-  /* line 1701, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1703, ../../../sass/layouts/angel/angel.layout.scss */
   #block-tb-megamenu-menu-bottom-menu li:nth-child(3) {
     width: 15vw !important;
     padding: 1em 0 .5em;
     margin: 0;
     font-size: 1.5em; }
 
-  /* line 1702, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1704, ../../../sass/layouts/angel/angel.layout.scss */
   #block-tb-megamenu-menu-bottom-menu li:nth-child(4) {
     width: 25vw !important;
     padding: 1em 1em .5em .5em;
@@ -2402,29 +2406,29 @@ clear: both;
   #tb-megamenu-column-6{width:45% !important;display:inline-block !important;float:left !important; li{width:14em !important;}}
    #tb-megamenu-column-8{width:45% !important;display:inline-block !important;float:left !important; li{width:14em !important;}}*/
   /******CUSTOM ENTITIES*****/
-  /* line 1751, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1753, ../../../sass/layouts/angel/angel.layout.scss */
   div.entity-squarenav h2 {
     visibility: hidden;
     height: 1px; }
 
   /*******LANDING PAGES*******/
-  /* line 1756, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1758, ../../../sass/layouts/angel/angel.layout.scss */
   h4.landing-heading {
     color: #666;
     font-size: 1.5em;
     margin: 0;
     padding: 0; }
 
-  /* line 1757, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1759, ../../../sass/layouts/angel/angel.layout.scss */
   p.landing-par {
     color: #666;
     font-size: 1.25em; }
 
-  /* line 1758, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1760, ../../../sass/layouts/angel/angel.layout.scss */
   .bottompadding {
     padding-bottom: 1.5em; }
 
-  /* line 1759, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1761, ../../../sass/layouts/angel/angel.layout.scss */
   article.node--landingpages ul {
     text-indent: 1em;
     font-size: 1.25em; } }
