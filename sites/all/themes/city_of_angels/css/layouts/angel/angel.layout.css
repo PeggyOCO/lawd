@@ -205,7 +205,7 @@ body.not-logged-in {
   .tb-megamenu .btn:first-child {
     position: absolute;
     bottom: 0;
-    right: .6em; }
+    right: .4em; }
     /* line 132, ../../../sass/layouts/angel/angel.layout.scss */
     .tb-megamenu .btn:first-child:hover {
       background-color: transparent !important; }
