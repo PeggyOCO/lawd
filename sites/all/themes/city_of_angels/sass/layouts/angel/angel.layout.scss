@@ -403,17 +403,18 @@ width:100%;
 clear: both;
     .inlinefourup{a{
         text-decoration:none;
-        display:block;color:#666;
+        display:block;
+        color:#666;
         text-align:center; div{
-                      width:100%;
-                      height:auto;
-                      h3{display:block;
-                          padding:1em;
-                          text-align:center;
-                          position:relative;
+                      width:100% !important;
+                      height:100% !important;
+                      h3{display:block !important;
+                          padding:1em !important;
+                          text-align:center !important;
+                          position:relative !important;
                           }
-                      img{width:100%;
-                              height:auto;
+                      img{width:100% !important;
+                              height:100% !important;
                          }
                       }
                   }
