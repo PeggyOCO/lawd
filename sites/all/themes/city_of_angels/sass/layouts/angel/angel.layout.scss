@@ -163,7 +163,26 @@ display:inline-block;float:left;
 div{width:100%;margin:0;padding:0;}
 img{width:100%;margin:0;padding:0;}
 }
-.hover_caption{width:100%;height:100%;}
+
+.field-name-field-rightbig{
+a{text-decoration:none;
+text-align:center;
+    .hover_caption{width:100%;
+    height:100%;
+
+                h2 {
+                padding: 1em;
+                color: #666;
+                font-size: 1em;
+                position: relative;
+                margin: 0px;
+                display: block;
+                width:100%;
+                text-align:center;
+                }
+  }
+  }
+}
 .field-name-field-square1 a div{width:100% !important;height:100% !important;}
 .field-name-field-square2 a div{width:100% !important;height:100% !important;}
 .field-name-field-square3 a div{width:100% !important;height:100% !important;}
