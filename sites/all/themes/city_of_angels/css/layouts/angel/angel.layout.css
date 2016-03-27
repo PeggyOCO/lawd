@@ -1,5 +1,5 @@
 /*
-Error: Invalid CSS after "...-align:center; ": expected "}", was "!important div{"
+Error: Invalid CSS after "...-align:center; ": expected "}", was "!important; div{"
         on line 410 of /Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss
 
 405:         text-decoration:none !important;
@@ -7,7 +7,7 @@ Error: Invalid CSS after "...-align:center; ": expected "}", was "!important div
 407:         color:#666 !important;
 408:         font-size:1.5em !important;
 409:         line-height: 2em;
-410:         text-align:center; !important div{
+410:         text-align:center; !important; div{
 411:                       width:100% !important;
 412:                       height:100% !important;
 413:                       h3{display:block !important;
@@ -59,4 +59,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid CSS after \"...-align:center; \": expected \"}\", was \"!important div{\"\A         on line 410 of /Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss\A \A 405:         text-decoration:none !important;\A 406:         display:block !important;\A 407:         color:#666 !important;\A 408:         font-size:1.5em !important;\A 409:         line-height: 2em;\A 410:         text-align:center; !important div{\A 411:                       width:100% !important;\A 412:                       height:100% !important;\A 413:                       h3{display:block !important;\A 414:                           padding:1em !important;\A 415:                           text-align:center !important;"; }
+  content: "Error: Invalid CSS after \"...-align:center; \": expected \"}\", was \"!important; div{\"\A         on line 410 of /Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss\A \A 405:         text-decoration:none !important;\A 406:         display:block !important;\A 407:         color:#666 !important;\A 408:         font-size:1.5em !important;\A 409:         line-height: 2em;\A 410:         text-align:center; !important; div{\A 411:                       width:100% !important;\A 412:                       height:100% !important;\A 413:                       h3{display:block !important;\A 414:                           padding:1em !important;\A 415:                           text-align:center !important;"; }
