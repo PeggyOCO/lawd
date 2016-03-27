@@ -360,6 +360,7 @@ clear: both;
 
             }    
         }
+        
 
 	.inlinefourup{
   @include flex(1);
@@ -390,7 +391,28 @@ clear: both;
                 }
          
           }
-    }
+    }*/
+    
+    .inlinefourup{a{
+        text-decoration:none;
+        display:block;color:#666;
+        text-align:center; div{
+                      width:100%;
+                      height:auto;
+                      h3{display:block;
+                          padding:1em;
+                          text-align:center;
+                          position:relative;
+                          }
+                      img{width:100%;
+                              height:auto;
+                         }
+                      }
+                  }
+          }
+    
+    
+    /*
 
 .field-name-field-rightbig a div.caption p {
     position: absolute;
