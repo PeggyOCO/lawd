@@ -402,16 +402,20 @@ height:auto;
 width:100%;
 clear: both;
     .inlinefourup{a{
-        text-decoration:none;
-        display:block;
-        color:#666;
-        text-align:center; div{
+        text-decoration:none !important;
+        display:block !important;
+        color:#666 !important;
+        font-size:1.5em !important;
+        line-height: 2em;
+        text-align:center; !important div{
                       width:100% !important;
                       height:100% !important;
                       h3{display:block !important;
                           padding:1em !important;
                           text-align:center !important;
                           position:relative !important;
+                          color:#666 !important;
+                          font-size:1.5em !important;
                           }
                       img{width:100% !important;
                               height:100% !important;
