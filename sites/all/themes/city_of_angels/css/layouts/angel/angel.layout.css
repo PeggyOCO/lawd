@@ -315,22 +315,22 @@ body.not-logged-in {
   /* line 197, ../../../sass/layouts/angel/angel.layout.scss */
   .field-name-field-square1 a div {
     width: 100% !important;
-    height: 100% !important; }
+    height: auto !important; }
 
   /* line 198, ../../../sass/layouts/angel/angel.layout.scss */
   .field-name-field-square2 a div {
     width: 100% !important;
-    height: 100% !important; }
+    height: auto !important; }
 
   /* line 199, ../../../sass/layouts/angel/angel.layout.scss */
   .field-name-field-square3 a div {
     width: 100% !important;
-    height: 100% !important; }
+    height: auto !important; }
 
   /* line 200, ../../../sass/layouts/angel/angel.layout.scss */
   .field-name-field-square4 a div {
     width: 100% !important;
-    height: 100% !important; }
+    height: auto !important; }
 
   /* line 202, ../../../sass/layouts/angel/angel.layout.scss */
   .hometop {
