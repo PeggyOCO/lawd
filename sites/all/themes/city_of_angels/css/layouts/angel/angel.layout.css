@@ -593,7 +593,7 @@ clear: both;
         /* line 449, ../../../sass/layouts/angel/angel.layout.scss */
         .field-name-field-fourup .inlinefourup a div img {
           width: 100% !important;
-          height: 100% !important; }
+          height: auto !important; }
 
     /*
 
