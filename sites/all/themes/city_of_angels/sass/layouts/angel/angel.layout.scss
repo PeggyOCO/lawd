@@ -1416,12 +1416,32 @@ div.sig{
  
  .entity-field-collection-item{height:25vw;width:100%;/*margin-top:-10px !important;*/}
   
-  div.node--projects{ 
+  div.node--projects{
 	  div.field-collection-container{
+	  
 		  div div.entity-field-collection-item{height:34vw;width:100%;
 		                            }
 		                  }
 	          		}
+	          		
+	          		
+div.node--projects{
+@include flexbox;
+@include flex-direction(row);
+  div div div.field-collection-item-field-twobig:nth-child(even){
+ @include flex(1);
+ @include order(1);
+  }
+  div div div.field-collection-item-field-twobig:nth-child(odd){
+ @include flex(1);
+ @include order(3);
+  }
+  div div div.field-collection-item-field-bigright{
+ @include flex(1);
+ @include order(2);
+  }
+
+}
   
   
  // .entity-field-collection-item{height:25vw;width:100%;/*margin-top:-10px !important;*/}
