@@ -61,7 +61,8 @@
   $(document).ready(function(){
 
      /*   alert($(window).width() + ' got here' + $base_url);*/
-    
+    $('.field--name-field-rightimage a img').hover_caption();
+    $('.field--name-field-leftimage a img').hover_caption();
 	  $('.field-name-field-fourup .inlinefourup a img').hover_caption();
 	  $('.field-name-field-rightbig a img').hover_caption();
 		$('.field-name-field-square1 a img').hover_caption();
@@ -72,6 +73,16 @@
 /*var realurl = $('.field-name-field-rightbig a img').attr('title');
 var realurlsmall = $('.inlinefourup a img').attr('title');
 $('.field-name-field-rightbig a').prop("href", realurl);*/
+
+$('.field-name-field-rightimage').each( function( index, element ){
+    var realurltiny = $(this).find("img").prop('title');
+   $(this).children("a").prop("href","/dev/los-angeles-web-design/" + realurltiny);
+});
+
+$('.field-name-field-leftimage').each( function( index, element ){
+    var realurltiny = $(this).find("img").prop('title');
+   $(this).children("a").prop("href","/dev/los-angeles-web-design/" + realurltiny);
+});
 
 $('.field-name-field-square1').each( function( index, element ){
     var realurltiny = $(this).find("img").prop('title');
