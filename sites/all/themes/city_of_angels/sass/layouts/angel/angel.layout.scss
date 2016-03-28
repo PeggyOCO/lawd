@@ -1426,7 +1426,7 @@ div.sig{
 	          		
 	          		
 div.node--projects{
-@include flexbox(1);
+@include flex(1);
 @include flex-direction(row);
   div div div.field-collection-item-field-twobig:nth-child(even){
  @include flex(1);

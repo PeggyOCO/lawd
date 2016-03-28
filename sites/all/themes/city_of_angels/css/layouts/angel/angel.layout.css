@@ -1922,6 +1922,8 @@ clear: both;
 
   /* line 1428, ../../../sass/layouts/angel/angel.layout.scss */
   div.node--projects {
+    -webkit-flex: 1;
+    flex: 1;
     -webkit-flex-direction: row;
     flex-direction: row; }
     /* line 1431, ../../../sass/layouts/angel/angel.layout.scss */
