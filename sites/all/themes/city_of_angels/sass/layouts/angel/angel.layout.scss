@@ -960,7 +960,7 @@ background-color: rgba(0, 0, 0, 0.4);
     }
   
     
-    .field-name-field-rightbig{
+    .field-name-field-rightbig, .field--name-field-leftimage, .field--name-field-rightimage{
          @include flex(1);
         float:left;
         width: 50% !important;
@@ -987,6 +987,10 @@ background-color: rgba(0, 0, 0, 0.4);
                    }
                 }   
         }
+        
+        
+        
+      
 
 
 .field-collection-view {
