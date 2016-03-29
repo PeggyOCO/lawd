@@ -1957,7 +1957,8 @@ clear: both;
   .field-collection-item-field-twobig-four .field--name-field-rightbig {
     width: 50%;
     display: inline-block;
-    float: left; }
+    float: left;
+    height: 34vw; }
     /* line 1474, ../../../sass/layouts/angel/angel.layout.scss */
     .field-collection-item-field-twobig-four .field--name-field-rightbig img {
       width: 100%; }
