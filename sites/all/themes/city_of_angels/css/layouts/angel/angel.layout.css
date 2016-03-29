@@ -1976,15 +1976,15 @@ clear: both;
     width: 100% !important;
     height: 34vw !important; }
 
-  /* line 1488, ../../../sass/layouts/angel/angel.layout.scss */
-  .field--name-field-rightbig .field_items .field__item a div {
-    width: 100% !important;
-    height: 34vw !important; }
-
-  /* line 1491, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1490, ../../../sass/layouts/angel/angel.layout.scss */
   .field--name-field-twobig-four .field__items .field__item a div {
     width: 100% !important;
     height: 17vw !important; }
+
+  /* line 1493, ../../../sass/layouts/angel/angel.layout.scss */
+  .field--name-field-rightbig .field_items .field__item a div {
+    width: 100% !important;
+    height: 34vw !important; }
 
   /* line 1496, ../../../sass/layouts/angel/angel.layout.scss */
   .field--name-body {
