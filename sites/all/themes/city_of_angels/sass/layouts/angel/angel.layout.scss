@@ -1453,6 +1453,19 @@ div.sig{
     img{width:100%;}
 
 }
+
+
+.field-collection-item-field-fourup{
+          width:50%;
+          display:inline-block;
+          float:left;
+              div{
+                  div.field--type-image{
+                  width:50%;
+                  float:left;
+                  height:25em;}
+                }
+          }
   
   
  // .entity-field-collection-item{height:25vw;width:100%;/*margin-top:-10px !important;*/}
