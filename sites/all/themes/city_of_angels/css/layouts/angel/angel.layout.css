@@ -2487,14 +2487,15 @@ clear: both;
   .field-collection-item-field-twobig {
     display: block;
     width: 100%;
-    height: auto;
+    height: 34vw;
+    overflow: hidden;
     clear: both; }
-    /* line 1841, ../../../sass/layouts/angel/angel.layout.scss */
+    /* line 1842, ../../../sass/layouts/angel/angel.layout.scss */
     .field-collection-item-field-twobig .field--name-field-leftimage {
       display: inline-block;
       width: 50%;
       float: left; }
-    /* line 1844, ../../../sass/layouts/angel/angel.layout.scss */
+    /* line 1845, ../../../sass/layouts/angel/angel.layout.scss */
     .field-collection-item-field-twobig .field--name-field-rightimage {
       display: inline-block;
       width: 50%;
@@ -2545,29 +2546,29 @@ clear: both;
   #tb-megamenu-column-6{width:45% !important;display:inline-block !important;float:left !important; li{width:14em !important;}}
    #tb-megamenu-column-8{width:45% !important;display:inline-block !important;float:left !important; li{width:14em !important;}}*/
   /******CUSTOM ENTITIES*****/
-  /* line 1894, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1895, ../../../sass/layouts/angel/angel.layout.scss */
   div.entity-squarenav h2 {
     visibility: hidden;
     height: 1px; }
 
   /*******LANDING PAGES*******/
-  /* line 1899, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1900, ../../../sass/layouts/angel/angel.layout.scss */
   h4.landing-heading {
     color: #666;
     font-size: 1.5em;
     margin: 0;
     padding: 0; }
 
-  /* line 1900, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1901, ../../../sass/layouts/angel/angel.layout.scss */
   p.landing-par {
     color: #666;
     font-size: 1.25em; }
 
-  /* line 1901, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1902, ../../../sass/layouts/angel/angel.layout.scss */
   .bottompadding {
     padding-bottom: 1.5em; }
 
-  /* line 1902, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1903, ../../../sass/layouts/angel/angel.layout.scss */
   article.node--landingpages ul {
     text-indent: 1em;
     font-size: 1.25em; } }
