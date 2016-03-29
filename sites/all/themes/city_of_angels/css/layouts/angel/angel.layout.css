@@ -1488,7 +1488,7 @@ clear: both;
 
   /* line 1152, ../../../sass/layouts/angel/angel.layout.scss */
   .scrim {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.4);
     -webkit-flex: 1;
     flex: 1;
     	/*display: -ms-flexbox;
