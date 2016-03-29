@@ -851,7 +851,7 @@ font-size:1.2vw;}
           margin-top:-2px;
           }
 
-	.field-name-field-fourup{
+/*	.field-name-field-fourup{
             @include flex(1);
             @include flex-flow(row);
             @include flex-direction(row);
@@ -860,7 +860,7 @@ font-size:1.2vw;}
             height:34vw;
             width:50%;
             float: left;
-            }
+            }*/
             
               
   .hover_caption {
@@ -1450,6 +1450,7 @@ div.sig{
     width: 50%;
     display: inline-block;
     float: left;
+    height:34vw;
     img{width:100%;}
 
 }
