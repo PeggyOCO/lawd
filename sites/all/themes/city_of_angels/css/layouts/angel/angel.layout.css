@@ -1905,7 +1905,7 @@ clear: both;
 
   /* line 1422, ../../../sass/layouts/angel/angel.layout.scss */
   div.node--projects div.field-collection-container div div.entity-field-collection-item {
-    height: 34vw;
+    height: auto;
     width: 100%; }
 
   /*div.node--projects{
