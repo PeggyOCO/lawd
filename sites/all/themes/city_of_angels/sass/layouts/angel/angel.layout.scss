@@ -1473,17 +1473,19 @@ div.sig{
           
    .field--name-field-rightbig{width:50%;display:inline-block;float:left;height:34vw;overflow:hidden;img{width:100%;}}
           
-  }        
+  }  
+  
+        
   .field-name-field-twobig{
 .field-collection-view:first-child{height:34vw;}
 .field-collection-view-final{height:34vw;}
 }
 
 .field--name-field-twobig-two-left{
-.field_items .field__item {a div{height:34vw;}}}
+.field_items .field__item a div{width:100% !important;height:34vw !important;}}
 
 .field--name-field-twobig-four{
-.field__items .field__item {a div{height:17vw;}}}
+.field__items .field__item a div{width:100% !important;height:17vw !important;}}
 
   
   
