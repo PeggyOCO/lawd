@@ -1947,7 +1947,7 @@ clear: both;
     border: 3px dotted red; }
     /* line 1466, ../../../sass/layouts/angel/angel.layout.scss */
     .field-collection-item-field-fourup div div.field--type-image {
-      width: 100%;
+      width: 50%;
       float: left;
       height: auto; }
       /* line 1470, ../../../sass/layouts/angel/angel.layout.scss */
