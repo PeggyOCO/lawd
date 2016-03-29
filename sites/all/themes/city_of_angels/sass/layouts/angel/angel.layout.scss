@@ -1461,6 +1461,7 @@ div.sig{
           display:inline-block;
           float:left;
           height:34vw;
+          overflow:hidden;
           border:0px dotted red;
               div{
                   div.field--type-image{
@@ -1475,8 +1476,8 @@ div.sig{
           
   }        
   .field-name-field-twobig{
-.field-collection-view:first-child{height:34vw;}
-.field-collection-view-final{height:34vw;}
+.field-collection-view:first-child{height:34vw;overflow:hidden;}
+.field-collection-view-final{height:34vw;overflow:hidden;}
 }
 
   
