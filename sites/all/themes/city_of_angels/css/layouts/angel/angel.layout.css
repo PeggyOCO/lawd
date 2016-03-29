@@ -1939,28 +1939,27 @@ clear: both;
       width: 100%; }
 
   /* line 1459, ../../../sass/layouts/angel/angel.layout.scss */
-  .field-collection-item-field-fourup {
+  .field-collection-item-field-twobig-four .content .field-collection-container {
     width: 50% !important;
     display: inline-block;
     float: left;
     height: 34vw;
     border: 3px dotted red; }
     /* line 1466, ../../../sass/layouts/angel/angel.layout.scss */
-    .field-collection-item-field-fourup div div.field--type-image {
+    .field-collection-item-field-twobig-four .content .field-collection-container div div.field--type-image {
       width: 50%;
       float: left;
       height: auto; }
       /* line 1470, ../../../sass/layouts/angel/angel.layout.scss */
-      .field-collection-item-field-fourup div div.field--type-image img {
+      .field-collection-item-field-twobig-four .content .field-collection-container div div.field--type-image img {
         width: 100% !important; }
-
   /* line 1474, ../../../sass/layouts/angel/angel.layout.scss */
-  .field--name-field-rightbig {
+  .field-collection-item-field-twobig-four .field--name-field-rightbig {
     width: 50%;
     display: inline-block;
     float: left; }
     /* line 1474, ../../../sass/layouts/angel/angel.layout.scss */
-    .field--name-field-rightbig img {
+    .field-collection-item-field-twobig-four .field--name-field-rightbig img {
       width: 100%; }
 
   /* line 1478, ../../../sass/layouts/angel/angel.layout.scss */
