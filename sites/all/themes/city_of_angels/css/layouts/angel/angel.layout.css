@@ -1977,7 +1977,7 @@ clear: both;
     height: 34vw !important; }
 
   /* line 1490, ../../../sass/layouts/angel/angel.layout.scss */
-  .field--name-field-twobig-four .field__items .field__item a div {
+  .field--name-field-fourup-one .field__items .field__item a div, .field--name-field-fourup-two .field__items .field__item a div, .field--name-field-fourup-three .field__items .field__item a div, .field--name-field-fourup-four .field__items .field__item a div {
     width: 100% !important;
     height: 17vw !important; }
 
