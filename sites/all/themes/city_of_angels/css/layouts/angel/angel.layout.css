@@ -1955,12 +1955,12 @@ clear: both;
         width: 100% !important; }
 
   /* line 1474, ../../../sass/layouts/angel/angel.layout.scss */
-  .field field--name-field-rightbig {
+  .field--name-field-rightbig {
     width: 50%;
     display: inline-block;
     float: left; }
     /* line 1474, ../../../sass/layouts/angel/angel.layout.scss */
-    .field field--name-field-rightbig img {
+    .field--name-field-rightbig img {
       width: 100%; }
 
   /* line 1478, ../../../sass/layouts/angel/angel.layout.scss */
