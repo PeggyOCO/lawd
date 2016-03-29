@@ -1177,58 +1177,50 @@ clear: both;
     z-index: 7;
     background-color: rgba(0, 0, 0, 0.4); }
 
-  /* line 900, ../../../sass/layouts/angel/angel.layout.scss */
-  .inlinefourup {
-    -webkit-flex: 1;
-    flex: 1;
-    -webkit-flex-basis: 50%;
-    flex-basis: 50%;
-    -webkit-flex-grow: 1;
-    flex-grow: 1;
-    margin: 0px 0;
+  /*	.inlinefourup{
+    @include flex(1);
+    @include flex-basis(50%);
+    @include flex-grow(1);
+    margin:0px 0;
     width: 50%;
-    height: 17vw;
-    float: left;
-    z-index: 1;
-    overflow: hidden;
-    position: relative; }
-    /* line 911, ../../../sass/layouts/angel/angel.layout.scss */
-    .inlinefourup a {
-      width: 100% !important;
-      height: 17vw !important;
-      z-index: 99; }
-      /* line 915, ../../../sass/layouts/angel/angel.layout.scss */
-      .inlinefourup a div {
-        width: 100% !important;
-        height: 17vw !important;
-        z-index: 99; }
-        /* line 918, ../../../sass/layouts/angel/angel.layout.scss */
-        .inlinefourup a div .hover_caption_caption {
-          color: #FFF;
-          width: 100%;
-          height: 100%;
-          font-size: 2vw;
-          font-weight: normal;
-          position: absolute;
-          margin: 0px;
-          top: 0px;
-          left: 0px;
-          display: block;
-          padding: 1vw;
-          display: none;
-          z-index: 7;
-          background-color: rgba(0, 0, 0, 0.4); }
-        /* line 933, ../../../sass/layouts/angel/angel.layout.scss */
-        .inlinefourup a div img {
-          -webkit-flex: 1;
-          flex: 1;
-          width: 100% !important;
-          height: 17vw;
-          z-index: 2; }
-      /* line 940, ../../../sass/layouts/angel/angel.layout.scss */
-      .inlinefourup a p {
-        font-size: .8em; }
-
+    height:34vw;
+    float:left;
+    z-index:1;
+    overflow:hidden;
+    position:relative;
+          a{ 
+                    width:100% !important;
+                    height:17vw !important;
+                    z-index:99;
+                    div{ width:100% !important;
+                    height:17vw !important;
+                    z-index:99;
+                   .hover_caption_caption{color: #FFF;
+                        width: 100%;
+                        height: 100%;
+                        font-size: 2vw;
+                        font-weight:normal;
+                        position: absolute;
+                        margin: 0px;
+                        top:0px;
+                        left:0px;
+                        display: block;
+                        padding: 1vw;
+                        display: none;
+                        z-index: 7;
+                        background-color: rgba(0, 0, 0, 0.4);
+                        }
+                  img{
+                    @include flex(1);
+                    width:100% !important;
+                    height:17vw;
+                    z-index:2;     
+                    }
+                    }
+                    p{font-size:.8em;}
+                  
+            }
+      }*/
   /* .field-collection-view:nth-child(odd) .ds-1col .field-name-field-fourup{float:right;}
    .field-collection-view:nth-child(even) .ds-1col .field-name-field-fourup{float:left;}*/
   /* line 952, ../../../sass/layouts/angel/angel.layout.scss */
