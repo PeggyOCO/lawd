@@ -1966,10 +1966,12 @@ clear: both;
 
   /* line 1478, ../../../sass/layouts/angel/angel.layout.scss */
   .field-name-field-twobig .field-collection-view:first-child {
-    height: 34vw; }
+    height: 34vw;
+    overflow: hidden; }
   /* line 1479, ../../../sass/layouts/angel/angel.layout.scss */
   .field-name-field-twobig .field-collection-view-final {
-    height: 34vw; }
+    height: 34vw;
+    overflow: hidden; }
 
   /* line 1485, ../../../sass/layouts/angel/angel.layout.scss */
   .field--name-body {
