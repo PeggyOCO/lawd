@@ -1464,12 +1464,14 @@ div.sig{
           border:3px dotted red;
               div{
                   div.field--type-image{
-                  width:50%;
+                  width:100%;
                   float:left;
                   height:auto;
                   img{width:100% !important;}}
                 }
           }
+          
+    .field field--name-field-rightbig{width:50%;display:inline-block;float:left; img{width:100%;}}
           
           
   .field-name-field-twobig{
