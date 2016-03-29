@@ -1402,10 +1402,7 @@ clear: both;
   /* line 1072, ../../../sass/layouts/angel/angel.layout.scss */
   div.node--projectdetail--full div.field-collection-container div.field-name-field-detailrow div.field-collection-view {
     /*height:75vw;*/
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-content: stretch; }
+    height: 100%; }
     /* line 1077, ../../../sass/layouts/angel/angel.layout.scss */
     div.node--projectdetail--full div.field-collection-container div.field-name-field-detailrow div.field-collection-view div.ds-1col {
       flex: 1;
