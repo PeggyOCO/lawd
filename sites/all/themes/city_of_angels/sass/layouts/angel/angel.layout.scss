@@ -62,11 +62,17 @@ body > div{overflow-x:hidden;}
 .field--name-field-twobig-two-right{display:inline-block;float:left;width:50%;
 a div{width:100%;height:auto;}}
 
-.field--name-field-fourup-one,.field--name-field-fourup-two,.field--name-field-fourup-three,.field--name-field-fourup-four{
+.field--name-field-fourup-two,.field--name-field-fourup-three,.field--name-field-fourup-four{
 width:50%;
 display:inline-block;
 float:left;
 
+}
+
+.field--name-field-fourup-one,.field--name-field-fourup-four{
+width:100%;
+display:block;
+clear:both;
 }
 
 
