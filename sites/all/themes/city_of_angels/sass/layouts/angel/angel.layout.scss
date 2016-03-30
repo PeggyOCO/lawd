@@ -57,6 +57,11 @@ body > div{overflow-x:hidden;}
 .fourtop{margin-top:4em;}
 .leftbottom{position:absolute;left:10%;bottom:5%;}
 */
+
+.field--name-field-twobig-two-left,
+.field--name-field-twobig-two-right{display:inline-block;float:left;width:50%;}
+
+
 .l-content{width:100%;position:relative; .breadcrumb{display:none;}
         h1{display:block;
             position: relative;
