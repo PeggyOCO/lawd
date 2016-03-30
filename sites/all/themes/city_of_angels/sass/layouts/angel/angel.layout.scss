@@ -78,7 +78,8 @@ clear:both;
         div.field__item{width:100%;
                   a div{width:100% !important;
                         height:auto !important;
-                        @include flex(1);}
+                        @include flex(1);
+                        display:flex;}
               }
 
         }
