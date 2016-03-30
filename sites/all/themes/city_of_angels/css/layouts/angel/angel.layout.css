@@ -59,6 +59,11 @@ body.not-logged-in {
   .fourtop{margin-top:4em;}
   .leftbottom{position:absolute;left:10%;bottom:5%;}
   */
+  /* line 60, ../../../sass/layouts/angel/angel.layout.scss */
+  .white {
+    color: #fff;
+    font-weight: 400; }
+
   /* line 61, ../../../sass/layouts/angel/angel.layout.scss */
   .field--name-field-twobig-two-left,
   .field--name-field-twobig-two-right {
