@@ -208,7 +208,7 @@ body.not-logged-in {
   .entity-field-collection-item .content {
     background-color: #47bdbf;
     margin: 0px;
-    padding: 2em; }
+    padding: 0em; }
 
   /* line 122, ../../../sass/layouts/angel/angel.layout.scss */
   .tb-megamenu button.btn, .tb-megamenu input[type="submit"].btn {
