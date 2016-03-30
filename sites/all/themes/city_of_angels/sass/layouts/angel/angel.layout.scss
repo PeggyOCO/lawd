@@ -76,8 +76,8 @@ display:flex;
 clear:both;
       div.field__items{width:100%;
         div.field__item{width:100%;
-                  a div{width:100%;
-                        height:auto;}
+                  a div{width:100% !important;
+                        height:auto !important;}
               }
 
         }
