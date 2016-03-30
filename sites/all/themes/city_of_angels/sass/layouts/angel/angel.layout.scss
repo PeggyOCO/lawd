@@ -74,7 +74,7 @@ width:100%;
 @include flex(1);
 display:flex;
 clear:both;
-div{width:100%;}
+div{width:100%; a div{width:100%;height:auto;}}
 }
 
 

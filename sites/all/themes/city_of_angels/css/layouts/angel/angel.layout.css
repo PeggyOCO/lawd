@@ -87,6 +87,10 @@ body.not-logged-in {
     /* line 77, ../../../sass/layouts/angel/angel.layout.scss */
     .field--name-field-fourup-one div, .field--name-field-fourup-four div {
       width: 100%; }
+      /* line 77, ../../../sass/layouts/angel/angel.layout.scss */
+      .field--name-field-fourup-one div a div, .field--name-field-fourup-four div a div {
+        width: 100%;
+        height: auto; }
 
   /* line 81, ../../../sass/layouts/angel/angel.layout.scss */
   .l-content {
