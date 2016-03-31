@@ -40,8 +40,9 @@ regions[footer] = Footer
 ; ========================================
 ; Breakpoints
 ; ========================================
-breakpoints[phone] = (max-width: 800px)
-breakpoints[desk] = min-width: 800px)
+breakpoints[desk] = (min-width: 800px) and (max-width: 3000px)
+breakpoints[phone] = (min-width: 0px) and (max-width: 800px)
+
 
 
 ; ========================================
