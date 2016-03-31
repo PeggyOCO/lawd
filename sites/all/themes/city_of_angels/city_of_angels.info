@@ -38,6 +38,13 @@ regions[sidebar_second] = Second Sidebar
 regions[footer] = Footer
 
 ; ========================================
+; Breakpoints
+; ========================================
+breakpoints[phone] = (max-width: 800px)
+breakpoints[desk] = min-width: 800px)
+
+
+; ========================================
 ; Settings
 ; ========================================
 settings[toggle_logo] = 1
