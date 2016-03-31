@@ -73,6 +73,7 @@ body.not-logged-in {
     /* line 63, ../../../sass/layouts/angel/angel.layout.scss */
     .field--name-field-twobig-two-left div div a div,
     .field--name-field-twobig-two-right div div a div {
+      display: flex;
       width: 100%;
       height: auto; }
       /* line 65, ../../../sass/layouts/angel/angel.layout.scss */
