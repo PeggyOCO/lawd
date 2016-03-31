@@ -64,14 +64,14 @@ div div a div{display:flex;width:100%;height:auto;position:relative;
 
       h3 {
           position: absolute;
-          font-size: 1em !important;
+          font-size: .8em !important;
           z-index: 99999999;
           color: #666;
-          background-color: rgba(0, 0, 0, 0.3);
+          background-color: rgba(255, 255, 255, 0.3);
           width: 100%;
           text-align: center;
           padding: 0px !important;
-          color: white !important;
+          color: #666 !important;
           margin: 0px;
           top: 50%;
           left:0;
