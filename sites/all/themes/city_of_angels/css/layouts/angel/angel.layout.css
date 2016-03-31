@@ -77,26 +77,26 @@ body.not-logged-in {
       height: auto; }
 
   /* line 65, ../../../sass/layouts/angel/angel.layout.scss */
-  .field--name-field-fourup-one, .field--name-field-fourup-two, .field--name-field-fourup-three, .field--name-field-fourup-four {
+  .field--name-field-rightbig, .field--name-field-fourup-one, .field--name-field-fourup-two, .field--name-field-fourup-four {
     width: 50%;
     display: inline-block;
     float: left; }
 
   /* line 74, ../../../sass/layouts/angel/angel.layout.scss */
-  .field--name-field-rightbig {
+  .field--name-field-fourup-three {
     width: 100%;
     -webkit-flex: 1;
     flex: 1;
     display: flex;
     clear: both; }
     /* line 79, ../../../sass/layouts/angel/angel.layout.scss */
-    .field--name-field-rightbig div.field__items {
+    .field--name-field-fourup-three div.field__items {
       width: 100%; }
       /* line 80, ../../../sass/layouts/angel/angel.layout.scss */
-      .field--name-field-rightbig div.field__items div.field__item {
+      .field--name-field-fourup-three div.field__items div.field__item {
         width: 100%; }
         /* line 81, ../../../sass/layouts/angel/angel.layout.scss */
-        .field--name-field-rightbig div.field__items div.field__item a div {
+        .field--name-field-fourup-three div.field__items div.field__item a div {
           width: 100% !important;
           height: auto !important;
           -webkit-flex: 1;
