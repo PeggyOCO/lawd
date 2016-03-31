@@ -70,11 +70,12 @@ div div a div{display:flex;width:100%;height:auto;position:relative;
           background-color: rgba(255, 255, 255, 0.65);
           width: 100%;
           text-align: center;
-          padding: 0px;
+          padding: 0px !important;
           color: black !important;
           margin: 0px;
           top: 50%;
           left:0;
+          display:block !important;
       }
 
 }}
