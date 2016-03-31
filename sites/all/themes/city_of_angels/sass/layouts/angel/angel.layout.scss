@@ -66,7 +66,21 @@ a div{width:100%;height:auto;}}
 width:50%;
 display:inline-block;
 float:left;
-
+position:relative;
+      h3 {
+          position: absolute;
+          font-size: 1em;
+          z-index: 99999999;
+          color: #666;
+          background-color: rgba(255, 255, 255, 0.65);
+          width: 100%;
+          text-align: center;
+          padding: 0px;
+          color: black;
+          margin: 0px;
+          top: 50%;
+          left:0;
+      }
 }
 
 
