@@ -71,15 +71,15 @@ body.not-logged-in {
     float: left;
     width: 50%; }
     /* line 63, ../../../sass/layouts/angel/angel.layout.scss */
-    .field--name-field-twobig-two-left div div a div,
-    .field--name-field-twobig-two-right div div a div {
+    .field--name-field-twobig-two-left div div a picture div,
+    .field--name-field-twobig-two-right div div a picture div {
       display: flex;
       width: 100%;
       height: auto;
       position: relative; }
       /* line 65, ../../../sass/layouts/angel/angel.layout.scss */
-      .field--name-field-twobig-two-left div div a div h3,
-      .field--name-field-twobig-two-right div div a div h3 {
+      .field--name-field-twobig-two-left div div a picture div h3,
+      .field--name-field-twobig-two-right div div a picture div h3 {
         position: absolute;
         font-size: .8em !important;
         z-index: 99999999;
