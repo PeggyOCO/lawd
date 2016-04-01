@@ -2737,7 +2737,7 @@ clear: both;
     line-height: 1.5em; }
 
   /* line 2007, ../../../sass/layouts/angel/angel.layout.scss */
-  .field-collection-container div field-collection-view:nth-child(5) {
+  .field-collection-container div .field-collection-view:nth-child(5) {
     background-color: #d5d5d5; }
 
   /******CUSTOM ENTITIES*****/
