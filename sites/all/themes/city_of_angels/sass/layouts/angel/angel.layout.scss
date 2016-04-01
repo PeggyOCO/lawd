@@ -2000,11 +2000,15 @@ div.tb-megamenu-menu-bottom-menu{
 
 p.small{font-size: .8em !important;
     text-align: left;
-    line-height: 1.5em;}
+    line-height: 1.5em;
+    &:first-child{padding-top:2em;}}
     
     
     .field-collection-container div{
-.field-collection-view:nth-child(6){background-color:#d5d5d5;padding-top:1em;padding-bottom:0;margin:0;} }
+.field-collection-view:nth-child(6){background-color: #d5d5d5;
+padding-top: 5em !important;
+padding-bottom: 0 !important;
+margin: 0 !important;} }
 
     
 /******CUSTOM ENTITIES*****/
