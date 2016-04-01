@@ -41,7 +41,7 @@ body.not-logged-in {
 
   /* line 43, ../../../sass/layouts/angel/angel.layout.scss */
   #block-tb-megamenu-menu-bottom-menu {
-    display: none; }
+    display: block; }
 
   /*#block-menu-block-1{display:none;}
   .mean-bar{display:block;}
