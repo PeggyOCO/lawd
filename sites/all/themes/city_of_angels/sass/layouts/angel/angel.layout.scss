@@ -605,7 +605,7 @@ height: 100%;
 margin: 0;
 font-size:1.2vw;}
 
-p.small{font-size:1em;}
+
 #block-system-main-menu{display:none !important;}
 .mean-bar{display:none;}
 #block-menu-block-1{display:block;}
@@ -1995,6 +1995,13 @@ div.tb-megamenu-menu-bottom-menu{
 
 #tb-megamenu-column-6{width:45% !important;display:inline-block !important;float:left !important; li{width:14em !important;}}
  #tb-megamenu-column-8{width:45% !important;display:inline-block !important;float:left !important; li{width:14em !important;}}*/
+
+/******SITEWIDE****/
+
+p.small{font-size: .8em !important;
+    text-align: left;
+    line-height: 1.5em;}
+    
 /******CUSTOM ENTITIES*****/
 
 div.entity-squarenav h2{visibility:hidden;height:1px;}
