@@ -55,7 +55,9 @@ body.not-logged-in {
         /* line 46, ../../../sass/layouts/angel/angel.layout.scss */
         #block-tb-megamenu-menu-bottom-menu div div div {
           background-color: #d5d5d5;
-          color: black; }
+          color: black;
+          position: relative;
+          margin-top: 1em !important; }
           /* line 47, ../../../sass/layouts/angel/angel.layout.scss */
           #block-tb-megamenu-menu-bottom-menu div div div button {
             display: none; }
