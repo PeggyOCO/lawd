@@ -154,7 +154,7 @@ body.not-logged-in {
       .field--name-field-twobig-two-right div div a picture div h3 {
         position: absolute;
         font-size: .8em !important;
-        z-index: 99999999;
+        z-index: 3;
         color: #666;
         background-color: rgba(255, 255, 255, 0.7);
         width: 100%;
