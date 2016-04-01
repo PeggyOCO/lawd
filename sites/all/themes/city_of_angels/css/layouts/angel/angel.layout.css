@@ -57,14 +57,15 @@ body.not-logged-in {
           background-color: #d5d5d5;
           color: black;
           position: relative;
-          margin-top: 1em !important; }
+          border: 1px dotted green; }
           /* line 47, ../../../sass/layouts/angel/angel.layout.scss */
           #block-tb-megamenu-menu-bottom-menu div div div button {
             display: none; }
           /* line 48, ../../../sass/layouts/angel/angel.layout.scss */
           #block-tb-megamenu-menu-bottom-menu div div div ul {
             background-color: #d5d5d5;
-            color: black; }
+            color: black;
+            border: 1px dotted black; }
             /* line 49, ../../../sass/layouts/angel/angel.layout.scss */
             #block-tb-megamenu-menu-bottom-menu div div div ul li {
               background-color: #d5d5d5;
