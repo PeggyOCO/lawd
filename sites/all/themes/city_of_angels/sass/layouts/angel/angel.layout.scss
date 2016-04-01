@@ -2002,7 +2002,10 @@ p.small{font-size: .8em !important;
     text-align: left;
     line-height: 1.5em;}
     
-    .entity-field-collection-item.field-collection-item-field-detailrow{background-color:#d5d5d5;}
+    
+    .field-collection-container div{
+field-collection-view:nth-child(5){background-color:#d5d5d5;} }
+
     
 /******CUSTOM ENTITIES*****/
 

@@ -2736,34 +2736,34 @@ clear: both;
     text-align: left;
     line-height: 1.5em; }
 
-  /* line 2005, ../../../sass/layouts/angel/angel.layout.scss */
-  .entity-field-collection-item.field-collection-item-field-detailrow {
+  /* line 2007, ../../../sass/layouts/angel/angel.layout.scss */
+  .field-collection-container div field-collection-view:nth-child(5) {
     background-color: #d5d5d5; }
 
   /******CUSTOM ENTITIES*****/
-  /* line 2009, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2012, ../../../sass/layouts/angel/angel.layout.scss */
   div.entity-squarenav h2 {
     visibility: hidden;
     height: 1px; }
 
   /*******LANDING PAGES*******/
-  /* line 2014, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2017, ../../../sass/layouts/angel/angel.layout.scss */
   h4.landing-heading {
     color: #666;
     font-size: 1.5em;
     margin: 0;
     padding: 0; }
 
-  /* line 2015, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2018, ../../../sass/layouts/angel/angel.layout.scss */
   p.landing-par {
     color: #666;
     font-size: 1.25em; }
 
-  /* line 2016, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2019, ../../../sass/layouts/angel/angel.layout.scss */
   .bottompadding {
     padding-bottom: 1.5em; }
 
-  /* line 2017, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2020, ../../../sass/layouts/angel/angel.layout.scss */
   article.node--landingpages ul {
     text-indent: 1em;
     font-size: 1.25em; } }
