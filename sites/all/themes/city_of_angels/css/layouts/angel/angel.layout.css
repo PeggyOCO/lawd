@@ -2738,7 +2738,10 @@ clear: both;
 
   /* line 2007, ../../../sass/layouts/angel/angel.layout.scss */
   .field-collection-container div .field-collection-view:nth-child(6) {
-    background-color: #d5d5d5; }
+    background-color: #d5d5d5;
+    padding-top: 1em;
+    padding-bottom: 0;
+    margin: 0; }
 
   /******CUSTOM ENTITIES*****/
   /* line 2012, ../../../sass/layouts/angel/angel.layout.scss */
