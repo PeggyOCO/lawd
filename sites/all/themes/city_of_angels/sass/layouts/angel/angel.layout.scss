@@ -586,6 +586,7 @@ clear: both;
 //************desk************//
 
 @include breakpoint($desk, true) {
+p.small{font-size:1em;}
 
 .pinktitle{font-size:1.5rem;color: #c74c4f;text-transform:uppercase;text-align:left;}
 .wrapfloats{display:block;width:100%;margin:0 auto; border:0px dotted blue;margin:2%;}
@@ -603,6 +604,8 @@ html, body {
 height: 100%;
 margin: 0;
 font-size:1.2vw;}
+
+p.small{font-size:1em;}
 #block-system-main-menu{display:none !important;}
 .mean-bar{display:none;}
 #block-menu-block-1{display:block;}
