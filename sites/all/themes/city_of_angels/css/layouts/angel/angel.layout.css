@@ -73,11 +73,12 @@ body.not-logged-in {
                 line-height: 1.2rem;
                 font-size: .8rem;
                 background-color: #d5d5d5;
-                color: black; }
+                color: black;
+                background-image: none !important; }
                 /* line 50, ../../../sass/layouts/angel/angel.layout.scss */
                 #block-tb-megamenu-menu-bottom-menu div div div ul li a:hover {
                   background-color: #d5d5d5;
-                  color: black; }
+                  color: red; }
                 /* line 51, ../../../sass/layouts/angel/angel.layout.scss */
                 #block-tb-megamenu-menu-bottom-menu div div div ul li a:active {
                   background-color: #d5d5d5;
@@ -96,11 +97,12 @@ body.not-logged-in {
                     line-height: 1.2em;
                     font-size: .8rem;
                     background-color: #d5d5d5;
-                    color: black; }
+                    color: black;
+                    background-image: none !important; }
                     /* line 54, ../../../sass/layouts/angel/angel.layout.scss */
                     #block-tb-megamenu-menu-bottom-menu div div div ul li ul li a:hover {
                       background-color: #d5d5d5;
-                      color: black; }
+                      color: red; }
                     /* line 55, ../../../sass/layouts/angel/angel.layout.scss */
                     #block-tb-megamenu-menu-bottom-menu div div div ul li ul li a:active {
                       background-color: #d5d5d5;
