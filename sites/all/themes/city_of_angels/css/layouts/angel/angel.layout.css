@@ -66,7 +66,8 @@ body.not-logged-in {
             /* line 49, ../../../sass/layouts/angel/angel.layout.scss */
             #block-tb-megamenu-menu-bottom-menu div div div ul li {
               background-color: #d5d5d5;
-              color: black; }
+              color: black;
+              border: 0; }
               /* line 49, ../../../sass/layouts/angel/angel.layout.scss */
               #block-tb-megamenu-menu-bottom-menu div div div ul li a {
                 text-decoration: none;
@@ -78,11 +79,11 @@ body.not-logged-in {
                 /* line 50, ../../../sass/layouts/angel/angel.layout.scss */
                 #block-tb-megamenu-menu-bottom-menu div div div ul li a:hover {
                   background-color: #d5d5d5;
-                  color: red; }
+                  color: #e54e4b; }
                 /* line 51, ../../../sass/layouts/angel/angel.layout.scss */
                 #block-tb-megamenu-menu-bottom-menu div div div ul li a:active {
                   background-color: #d5d5d5;
-                  color: red; }
+                  color: #e54e4b; }
               /* line 52, ../../../sass/layouts/angel/angel.layout.scss */
               #block-tb-megamenu-menu-bottom-menu div div div ul li ul {
                 background-color: #d5d5d5;
@@ -90,11 +91,12 @@ body.not-logged-in {
                 /* line 53, ../../../sass/layouts/angel/angel.layout.scss */
                 #block-tb-megamenu-menu-bottom-menu div div div ul li ul li {
                   background-color: #d5d5d5;
-                  color: black; }
+                  color: black;
+                  border: 0; }
                   /* line 53, ../../../sass/layouts/angel/angel.layout.scss */
                   #block-tb-megamenu-menu-bottom-menu div div div ul li ul li a {
                     text-decoration: none;
-                    line-height: 1.2em;
+                    line-height: 1.3rem;
                     font-size: .8rem;
                     background-color: #d5d5d5;
                     color: black;
@@ -102,11 +104,11 @@ body.not-logged-in {
                     /* line 54, ../../../sass/layouts/angel/angel.layout.scss */
                     #block-tb-megamenu-menu-bottom-menu div div div ul li ul li a:hover {
                       background-color: #d5d5d5;
-                      color: red; }
+                      color: #e54e4b; }
                     /* line 55, ../../../sass/layouts/angel/angel.layout.scss */
                     #block-tb-megamenu-menu-bottom-menu div div div ul li ul li a:active {
                       background-color: #d5d5d5;
-                      color: red; }
+                      color: #e54e4b; }
 
   /*#block-menu-block-1{display:none;}
   .mean-bar{display:block;}
