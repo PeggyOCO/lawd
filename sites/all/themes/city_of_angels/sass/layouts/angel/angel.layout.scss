@@ -40,7 +40,23 @@ overflow-x:hidden;}
 body > div{overflow-x:hidden;}
 .node__submitted{display:none;}
 
-#block-tb-megamenu-menu-bottom-menu{display:block;}
+#block-tb-megamenu-menu-bottom-menu{display:block;background-color:#d5d5d5;color:black;
+  div{background-color:#d5d5d5;color:black;
+      div{background-color:#d5d5d5;color:black;
+          div{background-color:#d5d5d5;color:black;
+              button{display:none;}
+              ul{background-color:#d5d5d5;color:black;
+                li{background-color:#d5d5d5;color:black;a{text-decoration:none;line-height:1.2rem;font-size:.8rem;}
+                      ul{background-color:#d5d5d5;color:black;
+                      li{background-color:#d5d5d5;color:black;a{text-decoration:none;line-height:1.2em;font-size:.8rem;}}
+                      }
+                
+                }
+                }
+              }
+            }
+          }
+        }
 /*#block-menu-block-1{display:none;}
 .mean-bar{display:block;}
 .scrim{background-color: rgba(88, 88, 88, 0.8);
