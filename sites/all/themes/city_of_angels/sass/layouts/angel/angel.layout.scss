@@ -251,7 +251,7 @@ div.entity-squarenav h2{display:none;}
 width:100%;margin:0;padding:0;
 display:inline-block;float:left;
 div{width:100%;margin:0;padding:0;}
-img{width:100%;margin:0;padding:0;}
+img{width:100%;margin:0;padding:0;display:flex;}
 }
 
 .field-name-field-rightbig{
@@ -763,7 +763,7 @@ font-size:1.2vw;}
                   color: #fff;
                   line-height:3em;
                   vertical-align:middle;
-                  background-color:rgba(150,150,150,0.7);}
+                  background-color:rgba(150,150,150,0.7) !important;}
                   img{display:none;}
  
                   }
