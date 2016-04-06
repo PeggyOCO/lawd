@@ -109,7 +109,7 @@ position:relative;
 
 div div a div{display:flex;width:100%;height:auto;position:relative;
 
-        h3 {display:none;
+        h3 {
           position: absolute;
           font-size: .8em !important;
           z-index: 99999999;
@@ -122,7 +122,7 @@ div div a div{display:flex;width:100%;height:auto;position:relative;
           margin: 0px;
           top: 65%;
           left:0;
-          display:block !important;
+          display:none !important;
       }
     }
 

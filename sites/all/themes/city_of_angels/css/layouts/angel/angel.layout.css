@@ -181,7 +181,6 @@ body.not-logged-in {
       position: relative; }
       /* line 112, ../../../sass/layouts/angel/angel.layout.scss */
       .field--name-field-fourup-one div div a div h3, .field--name-field-fourup-two div div a div h3, .field--name-field-fourup-three div div a div h3, .field--name-field-fourup-four div div a div h3 {
-        display: none;
         position: absolute;
         font-size: .8em !important;
         z-index: 99999999;
@@ -194,7 +193,7 @@ body.not-logged-in {
         margin: 0px;
         top: 65%;
         left: 0;
-        display: block !important; }
+        display: none !important; }
 
   /* line 133, ../../../sass/layouts/angel/angel.layout.scss */
   .field--name-field-rightbig {
