@@ -34,7 +34,7 @@ html, body {
 height: 100%;
 width:100%;
 margin: 0 auto;
-font-size:4vw;
+font-size:3vw;
 overflow-x:hidden;}
 
 body > div{overflow-x:hidden;}
@@ -550,8 +550,8 @@ clear: both;
           }
           }
     
-    .field-name-field-detailrowtitle{margin:1em; color:#c74c4f;}
-.field-name-field-detailrowcontent{margin:0 1em;}
+    .field-name-field-detailrowtitle{margin:1em; color:#c74c4f;text-align:center;}
+.field-name-field-detailrowcontent{margin:0 1em; text-align:center;}
     /*
 
 .field-name-field-rightbig a div.caption p {

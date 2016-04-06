@@ -28,7 +28,7 @@ body.not-logged-in {
     height: 100%;
     width: 100%;
     margin: 0 auto;
-    font-size: 4vw;
+    font-size: 3vw;
     overflow-x: hidden; }
 
   /* line 40, ../../../sass/layouts/angel/angel.layout.scss */
@@ -765,11 +765,13 @@ clear: both;
   /* line 553, ../../../sass/layouts/angel/angel.layout.scss */
   .field-name-field-detailrowtitle {
     margin: 1em;
-    color: #c74c4f; }
+    color: #c74c4f;
+    text-align: center; }
 
   /* line 554, ../../../sass/layouts/angel/angel.layout.scss */
   .field-name-field-detailrowcontent {
-    margin: 0 1em; }
+    margin: 0 1em;
+    text-align: center; }
 
     /*
 
