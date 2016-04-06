@@ -225,7 +225,7 @@ body.not-logged-in {
       display: none; }
     /* line 151, ../../../sass/layouts/angel/angel.layout.scss */
     .l-content h1 {
-      display: block;
+      display: none;
       position: relative;
       text-align: center;
       font-size: 1rem;
