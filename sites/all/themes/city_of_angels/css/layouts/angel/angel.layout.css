@@ -164,7 +164,7 @@ body.not-logged-in {
         margin: 0px;
         top: 65%;
         left: 0;
-        display: block !important; }
+        display: none !important; }
 
   /* line 103, ../../../sass/layouts/angel/angel.layout.scss */
   .field--name-field-fourup-one, .field--name-field-fourup-two, .field--name-field-fourup-three, .field--name-field-fourup-four {
