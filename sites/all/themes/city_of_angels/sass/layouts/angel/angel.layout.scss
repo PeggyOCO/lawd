@@ -2021,8 +2021,8 @@ table.sticky-header{display:none;}
 .tablefield-wrapper{width:100%;background-color:#d5d5d5;padding:1em 0 2em 0;margin-bottom:-3em;}
 table.tablefield{width:80%;margin:0 auto;
   tr.even,tr.odd,tbody,thead,th{background-color:transparent;color:#828282;font-size:1.2em;}
-  td,th{height:1.2em;vertical-align:middle}
-  th{font-size:1.5em;color:#c74c4f; font-weight:400;text-transform:uppercase;height:1.5em;}
+  td,th{height:1.2em !important;vertical-align:middle}
+  th{font-size:1.2em;color:#c74c4f; font-weight:400;text-transform:uppercase;height:1.2em !important;}
 }
 
 

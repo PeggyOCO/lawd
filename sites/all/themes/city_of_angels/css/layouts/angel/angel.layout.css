@@ -2790,15 +2790,15 @@ margin: 0 !important;} }*/
       font-size: 1.2em; }
     /* line 2024, ../../../sass/layouts/angel/angel.layout.scss */
     table.tablefield td, table.tablefield th {
-      height: 1.2em;
+      height: 1.2em !important;
       vertical-align: middle; }
     /* line 2025, ../../../sass/layouts/angel/angel.layout.scss */
     table.tablefield th {
-      font-size: 1.5em;
+      font-size: 1.2em;
       color: #c74c4f;
       font-weight: 400;
       text-transform: uppercase;
-      height: 1.5em; }
+      height: 1.2em !important; }
 
   /*******LANDING PAGES*******/
   /* line 2034, ../../../sass/layouts/angel/angel.layout.scss */
