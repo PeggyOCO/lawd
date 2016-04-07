@@ -40,13 +40,13 @@ overflow-x:hidden;}
 body > div{overflow-x:hidden;}
 .node__submitted{display:none;}
 
-#block-tb-megamenu-menu-bottom-menu{display:block;background-color:#d5d5d5;color:black;
+#block-tb-megamenu-menu-bottom-menu{display:block;visibility:visible;background-color:#d5d5d5;color:black;
   div{background-color:#d5d5d5;color:black;
       div{background-color:#d5d5d5;color:black;
           div.always-show{background-color:#d5d5d5;color:black;position:relative;margin-top: 0px !important;z-index: 999999999 !important;
               button{display:none;}
-              ul{background-color:#d5d5d5;color:black;
-                li{background-color:#d5d5d5;color:black;border:0;a{border:0;text-decoration:none;line-height:1.2rem;font-size:.8rem;background-color:#d5d5d5;color:black;background-image:none !important;
+              ul{background-color:#d5d5d5;color:black;display:block;
+                li{background-color:#d5d5d5;color:black;border:0;a{border:0;text-decoration:none;line-height:1.2rem;font-size:1rem;background-color:#d5d5d5;color:black;background-image:none !important;
                                                 &:hover{background-color:#d5d5d5;color:#e54e4b;}
                                                 &:active{background-color:#d5d5d5;color:#e54e4b;}}
                       ul{background-color:#d5d5d5;color:black;
