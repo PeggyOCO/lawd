@@ -79,7 +79,7 @@ $('.field-name-field-rightbig a').prop("href", realurl);*/
 $('.field-name-field-detailrowimage').each(function() {
 var realurlfromtitle = $(this).find("img").prop('title');
 if(realurlfromtitle !=""){
-    $(this).wrap("<a href='" + realurlfromtitle + "'/>");
+    $(this).wrap("<a target='_blank' href='" + realurlfromtitle + "'/>");
     }
 });
 
