@@ -2778,7 +2778,6 @@ clear: both;
     /* line 2022, ../../../sass/layouts/angel/angel.layout.scss */
     table.tablefield tr.even, table.tablefield tr.odd, table.tablefield tbody, table.tablefield thead, table.tablefield th {
       background-color: transparent;
-      padding: .5em 0;
       color: #828282;
       font-size: 1.3em; }
     /* line 2023, ../../../sass/layouts/angel/angel.layout.scss */
