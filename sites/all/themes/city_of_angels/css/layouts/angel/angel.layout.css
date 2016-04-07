@@ -2781,30 +2781,34 @@ clear: both;
       color: #828282;
       font-size: 1.3em; }
     /* line 2023, ../../../sass/layouts/angel/angel.layout.scss */
+    table.tablefield tr.td {
+      height: 1.3em; }
+    /* line 2024, ../../../sass/layouts/angel/angel.layout.scss */
     table.tablefield th {
       font-size: 1.5em;
       color: #c74c4f;
       font-weight: 400;
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      height: 1.5em; }
 
   /*******LANDING PAGES*******/
-  /* line 2032, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2033, ../../../sass/layouts/angel/angel.layout.scss */
   h4.landing-heading {
     color: #666;
     font-size: 1.5em;
     margin: 0;
     padding: 0; }
 
-  /* line 2033, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2034, ../../../sass/layouts/angel/angel.layout.scss */
   p.landing-par {
     color: #666;
     font-size: 1.25em; }
 
-  /* line 2034, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2035, ../../../sass/layouts/angel/angel.layout.scss */
   .bottompadding {
     padding-bottom: 1.5em; }
 
-  /* line 2035, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2036, ../../../sass/layouts/angel/angel.layout.scss */
   article.node--landingpages ul {
     text-indent: 1em;
     font-size: 1.25em; } }
