@@ -2787,10 +2787,11 @@ margin: 0 !important;} }*/
     table.tablefield tr.even, table.tablefield tr.odd, table.tablefield tbody, table.tablefield thead, table.tablefield th {
       background-color: transparent;
       color: #828282;
-      font-size: 1.3em; }
+      font-size: 1.2em; }
     /* line 2024, ../../../sass/layouts/angel/angel.layout.scss */
-    table.tablefield tr.td {
-      height: 1.3em; }
+    table.tablefield td, table.tablefield th {
+      height: 1.2em;
+      vertical-align: middle; }
     /* line 2025, ../../../sass/layouts/angel/angel.layout.scss */
     table.tablefield th {
       font-size: 1.5em;
