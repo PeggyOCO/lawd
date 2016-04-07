@@ -2752,13 +2752,11 @@ clear: both;
     p.small:first-child {
       padding-top: 2em; }
 
-  /* line 2010, ../../../sass/layouts/angel/angel.layout.scss */
-  .field-collection-container div .field-collection-view:nth-child(6) {
-    background-color: #d5d5d5;
-    padding-top: 5em !important;
-    padding-bottom: 0 !important;
-    margin: 0 !important; }
-
+   /* .field-collection-container div{
+.field-collection-view:nth-child(6){background-color: #d5d5d5;
+padding-top: 5em !important;
+padding-bottom: 0 !important;
+margin: 0 !important;} }*/
   /******CUSTOM ENTITIES*****/
   /* line 2018, ../../../sass/layouts/angel/angel.layout.scss */
   div.entity-squarenav h2 {
