@@ -2016,9 +2016,9 @@ margin: 0 !important;} }*/
 /******CUSTOM ENTITIES*****/
 
 div.entity-squarenav h2{visibility:hidden;height:1px;}
-
-.field-name-field-stats{margin-bottom:-2.75em;background-color:#d5d5d5;}
-.tablefield-wrapper{width:100%;background-color:#d5d5d5;padding:1em 0 2em 0;}
+table.sticky-header{display:none;}
+.field-name-field-stats{margin-bottom:-3em;background-color:#d5d5d5;}
+.tablefield-wrapper{width:100%;background-color:#d5d5d5;padding:1em 0 2em 0;margin-bottom:-3em;}
 table.tablefield{width:80%;margin:0 auto;
   tr.even,tr.odd,tbody,thead,th{background-color:transparent;color:#828282;font-size:1.3em;}
   tr.td{height:1.3em;}

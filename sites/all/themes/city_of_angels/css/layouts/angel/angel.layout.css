@@ -2763,16 +2763,21 @@ margin: 0 !important;} }*/
     visibility: hidden;
     height: 1px; }
 
+  /* line 2019, ../../../sass/layouts/angel/angel.layout.scss */
+  table.sticky-header {
+    display: none; }
+
   /* line 2020, ../../../sass/layouts/angel/angel.layout.scss */
   .field-name-field-stats {
-    margin-bottom: -2.75em;
+    margin-bottom: -3em;
     background-color: #d5d5d5; }
 
   /* line 2021, ../../../sass/layouts/angel/angel.layout.scss */
   .tablefield-wrapper {
     width: 100%;
     background-color: #d5d5d5;
-    padding: 1em 0 2em 0; }
+    padding: 1em 0 2em 0;
+    margin-bottom: -3em; }
 
   /* line 2022, ../../../sass/layouts/angel/angel.layout.scss */
   table.tablefield {
