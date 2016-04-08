@@ -307,7 +307,7 @@ body.not-logged-in {
         line-height: 1.2em; }
 
   /* line 218, ../../../sass/layouts/angel/angel.layout.scss */
-  .field--name-body div div h3 {
+  .field--name-body div div h3, .field--name-body div div h2 {
     text-align: center; }
   /* line 219, ../../../sass/layouts/angel/angel.layout.scss */
   .field--name-body div div p {
