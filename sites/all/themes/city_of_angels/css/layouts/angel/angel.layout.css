@@ -317,7 +317,7 @@ body.not-logged-in {
 
   /* line 223, ../../../sass/layouts/angel/angel.layout.scss */
   #block-tb-megamenu-menu-bottom-menu {
-    bottom-padding: 6em; }
+    padding-bottom: 6em; }
 
   /* line 227, ../../../sass/layouts/angel/angel.layout.scss */
   div.entity-squarenav {
