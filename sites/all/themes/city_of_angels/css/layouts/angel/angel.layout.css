@@ -1162,7 +1162,7 @@ clear: both;
       color: #fff;
       line-height: 3em;
       vertical-align: middle;
-      background-color: rgba(150, 150, 150, 0.7) !important; }
+      background-color: rgba(0, 0, 0, 0.35) !important; }
     /* line 857, ../../../sass/layouts/angel/angel.layout.scss */
     .field--name-field-image img {
       display: none; }
