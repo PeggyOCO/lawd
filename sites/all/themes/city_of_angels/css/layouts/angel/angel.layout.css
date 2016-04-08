@@ -642,7 +642,7 @@ body.not-logged-in {
     margin: 4em 0px 0em 0em !important; }
 
   /* line 441, ../../../sass/layouts/angel/angel.layout.scss */
-  #tb-megamenu-column-2, #tb-megamenu-column-4 {
+  #tb-megamenu-column-2, #tb-megamenu-column-2, #tb-megamenu-column-4 {
     background-color: #c2c1c1; }
 
   /* line 443, ../../../sass/layouts/angel/angel.layout.scss */
