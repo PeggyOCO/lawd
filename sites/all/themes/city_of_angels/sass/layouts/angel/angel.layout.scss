@@ -233,6 +233,13 @@ padding: 1em;}
     
 }
 
+.field-name-field-entry-picture{
+background-image: url('/dev/sites/default/files/projectpic_0.png');
+background-repeat:no-repeat;
+background-size:cover;
+img{margin:0 auto;}
+}
+
 .tb-megamenu .btn:first-child {
     position:absolute;
     bottom:0;
@@ -323,7 +330,7 @@ flex-direction:column;}
 
 .scrim{
 text-align:center;
-background-color: rgba(180, 180, 180, 0.85);
+background-color: rgba(0, 0, 0, 0.5);
 //@include flexbox;
 @include flex(1);
 	/*display: -ms-flexbox;
