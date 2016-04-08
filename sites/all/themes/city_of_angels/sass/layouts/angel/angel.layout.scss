@@ -31,7 +31,7 @@ width:100%;overflow-x:hidden;}
 @include breakpoint($phone, true) {
   /* Header Area */
 html, body {
-height: 100%;
+height: auto;
 width:100%;
 margin: 0 auto;
 font-size:3vw;
@@ -39,6 +39,25 @@ overflow-x:hidden;}
 
 body > div{overflow-x:hidden;}
 .node__submitted{display:none;}
+
+
+.field-collection-item-field-frontone{
+  div{
+      .field--name-field-left{
+      width:100%;
+      p.first{color:#fff;
+      font-size:1.5em;
+      padding:5% 10%;
+      line-height:1.5em;
+      text-align:center;
+     }
+   }
+   .field--name-field-right{display:none;}
+ }
+}
+
+
+
 
 #block-tb-megamenu-menu-bottom-menu{display:block;visibility:visible;background-color:#d5d5d5;color:black;
   div{background-color:#d5d5d5;color:black;
