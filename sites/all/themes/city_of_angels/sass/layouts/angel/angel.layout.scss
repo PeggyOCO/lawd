@@ -198,9 +198,10 @@ none;
 br{display:none;}
 li{width:100%;
 margin:0;
-padding:1em;
+padding:.5em;
+text-transform:uppercase;
 background-color:#c2c1c1;
-border-bottom:1px solid #e1e1e1;
+border-bottom:1pt solid #e1e1e1;
  a{text-decoration:none;color:black;
 &:hover{color:orange;}
   }
