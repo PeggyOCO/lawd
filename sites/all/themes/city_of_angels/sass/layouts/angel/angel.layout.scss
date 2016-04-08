@@ -247,7 +247,7 @@ padding: 1em;}
 }
 				
 				
-blockquote.image-field-caption{display:block;background-color:#47bdbf;margin:0;width:100%;padding:1em;}
+blockquote.image-field-caption{display:block;background-color:#fff;margin:0;width:100%;padding:1em;}
 
 .field-name-field-double1,.field-name-field-double2{
 display:flex;
@@ -271,7 +271,7 @@ flex-direction:column;
     margin:0;
     border:0;
 }
-div.node--entrance img{width:100%;height:100%;}
+div.node--entrance img{width:100%;height:100%;display:flex;}
 div.entity-squarenav h2{display:none;}
 
 .field--name-field-foursquaresrow{
