@@ -252,9 +252,19 @@ img{margin:0 auto;}
     border-radius:0;
     box-shadow: transparent;background:none !important;}
 }
+	
+	
+	.field--name-field-image{position:relative;}	
 				
-				
-blockquote.image-field-caption{display:block;background-color:#fff;margin:0;width:100%;padding:1em;}
+blockquote.image-field-caption{display:block;
+background-color: rgba(0,0,0,.35);
+margin:0;
+width:100%;
+padding:.5em;
+.text-align: center;
+position: absolute;
+top: 30%;
+z-index: 99;}
 
 .field-name-field-double1,.field-name-field-double2{
 display:flex;
