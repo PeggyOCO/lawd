@@ -249,7 +249,14 @@ padding: 1em;}
 				
 blockquote.image-field-caption{display:block;background-color:#47bdbf;margin:0;width:100%;padding:1em;}
 
-.field-name-field-double1,.field-name-field-double2{display:flex;flex-direction:column;}
+.field-name-field-double1,.field-name-field-double2{
+display:flex;
+flex-direction:column;
+background-color:#fff;
+color:#000;
+text-align:center;
+font-size:1.5em;
+}
 
 
 .field-collection-container {
