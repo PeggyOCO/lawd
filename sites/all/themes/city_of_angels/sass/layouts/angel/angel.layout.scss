@@ -267,6 +267,13 @@ padding: 1em;}
     
 }
 
+.tb-megamenu .nav li.dropdown.active > .dropdown-toggle, .tb-megamenu .nav li.dropdown.open.active > .dropdown-toggle, .tb-megamenu .nav > li.dropdown.open.active > a:hover {
+    background-color:transparent ;
+    border-color: none;
+    color: #e54e4b;
+}
+
+
 
 .tb-megamenu .dropdown-menu .active > a, .tb-megamenu .dropdown-menu .active > a:hover {
     color: #e54e4b;
