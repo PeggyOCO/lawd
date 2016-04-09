@@ -193,8 +193,8 @@ body.not-logged-in {
     /* line 129, ../../../sass/layouts/angel/angel.layout.scss */
     .field--name-field-fourup-one div div a div, .field--name-field-fourup-two div div a div, .field--name-field-fourup-three div div a div, .field--name-field-fourup-four div div a div {
       display: flex;
-      width: 100%;
-      height: auto;
+      width: 100% !important;
+      height: 100% !important;
       position: relative; }
       /* line 131, ../../../sass/layouts/angel/angel.layout.scss */
       .field--name-field-fourup-one div div a div h3, .field--name-field-fourup-two div div a div h3, .field--name-field-fourup-three div div a div h3, .field--name-field-fourup-four div div a div h3 {

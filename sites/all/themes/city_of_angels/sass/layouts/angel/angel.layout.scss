@@ -126,7 +126,7 @@ display:inline-block;
 float:left;*/
 position:relative;
 
-div div a div{display:flex;width:100%;height:auto;position:relative;
+div div a div{display:flex;width:100% !important;height:100% !important;position:relative;
 
         h3 {
           position: absolute;
