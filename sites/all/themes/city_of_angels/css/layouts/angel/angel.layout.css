@@ -417,7 +417,7 @@ body.not-logged-in {
     color: #e54e4b;
     text-decoration: none;
     outline: 0;
-    background-color: #d2d1d1;
+    background-color: #c2c1c1;
     background-image: none !important; }
 
   /* line 286, ../../../sass/layouts/angel/angel.layout.scss */
@@ -438,7 +438,7 @@ body.not-logged-in {
   */
   /* line 301, ../../../sass/layouts/angel/angel.layout.scss */
   .tb-megamenu .nav-collapse .nav > li > a, .tb-megamenu .nav-collapse .dropdown-menu a {
-    background-color: #d2d1d1; }
+    background-color: #c2c1c1; }
 
   /* line 303, ../../../sass/layouts/angel/angel.layout.scss */
   .tb-megamenu .nav li.dropdown.active > .dropdown-toggle, .tb-megamenu .nav li.dropdown.open.active > .dropdown-toggle, .tb-megamenu .nav > li.dropdown.open.active > a:hover {
