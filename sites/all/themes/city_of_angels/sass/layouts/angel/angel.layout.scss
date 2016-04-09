@@ -275,8 +275,15 @@ img{margin:0 auto;}
 }
 
 .tb-megamenu .btn:first-child {
+    position: absolute;
+    top: -2em;
+    right: 0;
+    z-index: 99;
+}
+
+/*.tb-megamenu .btn:first-child {
     position:absolute;
-    z-index:5;
+    z-index:99;
     width:30%;
     height:auto;
     top: 0.5em;
@@ -289,7 +296,7 @@ img{margin:0 auto;}
      &:active{background-color:transparent !important;border:0 !important;
     border-radius:0;
     box-shadow: transparent;background:none !important;}
-}
+}*/
 	
 	
 	.field--name-field-image{position:relative;}	
