@@ -276,6 +276,10 @@ img{margin:0 auto;}
 
 .tb-megamenu .btn:first-child {
     position:absolute;
+    z-index:5;
+    width:30%;
+    height:auto;
+    top: 0.5em;
     bottom:0;
     right:.4em;
     &:hover{background-color:transparent !important;}
@@ -477,12 +481,23 @@ footer{height:15em;background-color:#d5d5d5;margin:0;margin-top:-.25em;}
     border: 0px dotted maroon;
     background-color: #fff;
     text-align:center;
-        a.site-logo{
+    z-index:1;
+    height:6.5em;
+        /*a.site-logo{
             width:30%;
             display:inline-block;
             float:left;
             margin-top:.5em;
-            }
+            }*/
+          img {
+            position: absolute;
+            left: 0.25em;
+            z-index: 5;
+            width: 30%;
+            height: auto;
+            top: 0.5em;
+            }  
+            
         h2.site-slogan{
             font-size:.65em;
             position:absolute;
