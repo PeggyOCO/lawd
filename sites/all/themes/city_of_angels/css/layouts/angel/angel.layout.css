@@ -605,7 +605,8 @@ body.not-logged-in {
     z-index: 0; }
     /* line 415, ../../../sass/layouts/angel/angel.layout.scss */
     .scrim h4 {
-      padding-top: 5%; }
+      padding-top: 5%;
+      color: #d35232; }
     /* line 416, ../../../sass/layouts/angel/angel.layout.scss */
     .scrim .bottomleft {
       display: none; }
