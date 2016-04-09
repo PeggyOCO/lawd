@@ -59,7 +59,7 @@
 //
 // (Placeholder selectors for each type, for those who rather @extend)
 
-@mixin flexbox {
+@mixin flexbox() {
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: -moz-flex;
