@@ -478,7 +478,7 @@ body.not-logged-in {
     top: 30%;
     color: #fff;
     font-weight: 400;
-    z-index: 99; }
+    z-index: 0; }
 
   /* line 334, ../../../sass/layouts/angel/angel.layout.scss */
   .field-collection-item-field-frontrow blockquote.image-field-caption {
