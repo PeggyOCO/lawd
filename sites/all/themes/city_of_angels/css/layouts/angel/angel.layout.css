@@ -2506,6 +2506,7 @@ clear: both;
           color: #c4112f; }
         /* line 1887, ../../../sass/layouts/angel/angel.layout.scss */
         #block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li a, #block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li .tb_nolink {
+          font-size: 1.1em;
           text-decoration: none;
           color: #666;
           text-transform: uppercase;

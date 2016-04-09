@@ -1884,7 +1884,7 @@ li:before {
                                      &:hover{background-color:$whitest;color:$reder;}
                                      &:active{background-color:$whitest;color:$reder;}
                                      &:focus{background-color:$whitest;color:$reder;}
-                                     a,.tb_nolink{text-decoration:none;color:$blacker;
+                                     a,.tb_nolink{font-size:1.1em;text-decoration:none;color:$blacker;
                                       text-transform:uppercase;
                                       background-color:$whitest;
                                       background-image:none !important;
