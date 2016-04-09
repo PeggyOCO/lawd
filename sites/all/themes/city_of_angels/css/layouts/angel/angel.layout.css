@@ -417,7 +417,7 @@ body.not-logged-in {
     color: #e54e4b;
     text-decoration: none;
     outline: 0;
-    background-color: transparent;
+    background-color: #d2d1d1;
     background-image: none !important; }
 
   /* line 286, ../../../sass/layouts/angel/angel.layout.scss */
