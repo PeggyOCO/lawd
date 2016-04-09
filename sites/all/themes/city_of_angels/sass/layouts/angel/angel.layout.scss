@@ -99,7 +99,7 @@ body > div{overflow-x:hidden;overflow-y:hidden;}
 .white{color:#fff;font-weight:400;}
 .field--name-field-twobig-two-left,
 .field--name-field-twobig-two-right{display:inline-block;float:left;width:50%;
-div div a picture div{display:flex;width:100% !important;height:auto !important;position:relative;
+div div a picture div{display:flex;width:100% !important;height:auto !important;position:relative;z-index:0;
 
       h3 {
           position: absolute;

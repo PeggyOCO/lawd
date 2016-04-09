@@ -165,7 +165,8 @@ body.not-logged-in {
       display: flex;
       width: 100% !important;
       height: auto !important;
-      position: relative; }
+      position: relative;
+      z-index: 0; }
       /* line 104, ../../../sass/layouts/angel/angel.layout.scss */
       .field--name-field-twobig-two-left div div a picture div h3,
       .field--name-field-twobig-two-right div div a picture div h3 {
