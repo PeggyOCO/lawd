@@ -357,7 +357,9 @@ body.not-logged-in {
     padding: .5em;
     text-decoration: none;
     border: 0;
-    color: #000; }
+    color: #000;
+    height: .5em;
+    z-index: 5; }
     /* line 248, ../../../sass/layouts/angel/angel.layout.scss */
     #block-tb-megamenu-main-menu ul li a {
       font-size: 1.2em;
@@ -413,29 +415,39 @@ body.not-logged-in {
     .field-name-field-entry-picture img {
       margin: 0 auto; }
 
-  /* line 277, ../../../sass/layouts/angel/angel.layout.scss */
+  /*.tb-megamenu .btn:first-child {
+      position: absolute;
+      top: -2em;
+      right: 0;
+      z-index: 99;
+  }
+  */
+  /* line 285, ../../../sass/layouts/angel/angel.layout.scss */
   .tb-megamenu .btn:first-child {
     position: absolute;
-    top: -2em;
-    right: 0;
-    z-index: 99; }
+    z-index: 9;
+    width: 30%;
+    height: auto;
+    top: 1em;
+    right: 0; }
+    /* line 292, ../../../sass/layouts/angel/angel.layout.scss */
+    .tb-megamenu .btn:first-child:hover {
+      background-color: transparent !important; }
+    /* line 293, ../../../sass/layouts/angel/angel.layout.scss */
+    .tb-megamenu .btn:first-child:selected {
+      background-color: transparent !important;
+      border: 0 !important;
+      border-radius: 0;
+      box-shadow: transparent;
+      background: none !important; }
+    /* line 296, ../../../sass/layouts/angel/angel.layout.scss */
+    .tb-megamenu .btn:first-child:active {
+      background-color: transparent !important;
+      border: 0 !important;
+      border-radius: 0;
+      box-shadow: transparent;
+      background: none !important; }
 
-  /*.tb-megamenu .btn:first-child {
-      position:absolute;
-      z-index:99;
-      width:30%;
-      height:auto;
-      top: 0.5em;
-      bottom:0;
-      right:.4em;
-      &:hover{background-color:transparent !important;}
-      &:selected{background-color:transparent !important;border:0 !important;
-      border-radius:0;
-      box-shadow: transparent;background:none !important;}
-       &:active{background-color:transparent !important;border:0 !important;
-      border-radius:0;
-      box-shadow: transparent;background:none !important;}
-  }*/
   /* line 302, ../../../sass/layouts/angel/angel.layout.scss */
   .field--name-field-image {
     position: relative; }
@@ -590,7 +602,7 @@ body.not-logged-in {
         flex:1;*/
     width: 100%;
     height: 100%;
-    z-index: 9999; }
+    z-index: 0; }
     /* line 415, ../../../sass/layouts/angel/angel.layout.scss */
     .scrim h4 {
       padding-top: 5%; }
