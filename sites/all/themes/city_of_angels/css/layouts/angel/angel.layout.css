@@ -1,6 +1,6 @@
 /*
-Error: Mixin flexbox is missing argument $properties.
-        on line 1298 of /Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss, in `flexbox'
+Error: Mixin flex takes 1 argument but 3 were passed.
+        on line 1298 of /Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss, in `flex'
         from line 1298 of /Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss, in `@content'
         from line 62 of /Users/Pi/.rvm/gems/ruby-1.9.3-p551@global/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss, in `breakpoint'
         from line 746 of /Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss
@@ -10,21 +10,19 @@ Error: Mixin flexbox is missing argument $properties.
 1295:                 }
 1296:           }
 1297: .field-name-field-foursquaresrow{height:25vw;width:100%;border:0px dotted red;}
-1298: .field-name-field-square1{width:25%;height:100%;display:inline-block;float:left;a{div{@include flexbox; @include flex(1, 1, 100%);img{width:100%;height:100%;border:0;}}}}
-1299: .field-name-field-square2{width:25%;height:100%;display:inline-block;float:left;a{div{@include flexbox; @include flex(1, 1, 100%);img{width:100%;height:100%;border:0;}}}}
-1300: .field-name-field-square3{width:25%;height:100%;display:inline-block;float:left;a{div{@include flexbox; @include flex(1, 1, 100%);img{width:100%;height:100%;border:0;}}}}
-1301: .field-name-field-square4{width:25%;height:100%;display:inline-block;float:left;a{div{@include flexbox; @include flex(1, 1, 100%);img{width:100%;height:100%;border:0;}}}}
+1298: .field-name-field-square1{width:25%;height:100%;display:inline-block;float:left;a{div{@include flexbox(1); @include flex(1, 1, 100%);img{width:100%;height:100%;border:0;}}}}
+1299: .field-name-field-square2{width:25%;height:100%;display:inline-block;float:left;a{div{@include flexbox(1); @include flex(1, 1, 100%);img{width:100%;height:100%;border:0;}}}}
+1300: .field-name-field-square3{width:25%;height:100%;display:inline-block;float:left;a{div{@include flexbox(1); @include flex(1, 1, 100%);img{width:100%;height:100%;border:0;}}}}
+1301: .field-name-field-square4{width:25%;height:100%;display:inline-block;float:left;a{div{@include flexbox(1); @include flex(1, 1, 100%);img{width:100%;height:100%;border:0;}}}}
 1302: 
 1303: 
 
 Backtrace:
-/Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss:1298:in `flexbox'
+/Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss:1298:in `flex'
 /Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss:1298:in `@content'
 /Users/Pi/.rvm/gems/ruby-1.9.3-p551@global/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss:62:in `breakpoint'
 /Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss:746
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:73:in `block in perform_arguments'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:65:in `zip'
-/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:65:in `perform_arguments'
+/Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:57:in `perform_arguments'
 /Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:359:in `block in visit_mixin'
 /Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/stack.rb:98:in `block in with_mixin'
 /Users/Pi/.rvm/gems/ruby-1.9.3-p551@omega.city_of_angels/gems/sass-3.4.17/lib/sass/stack.rb:115:in `with_frame'
@@ -158,4 +156,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Mixin flexbox is missing argument $properties.\A         on line 1298 of /Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss, in `flexbox'\A         from line 1298 of /Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss, in `@content'\A         from line 62 of /Users/Pi/.rvm/gems/ruby-1.9.3-p551@global/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss, in `breakpoint'\A         from line 746 of /Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss\A \A 1293:                     a{img{width:100%;height:100%;}}}\A 1294:                     }\A 1295:                 }\A 1296:           }\A 1297: .field-name-field-foursquaresrow{height:25vw;width:100%;border:0px dotted red;}\A 1298: .field-name-field-square1{width:25%;height:100%;display:inline-block;float:left;a{div{@include flexbox; @include flex(1, 1, 100%);img{width:100%;height:100%;border:0;}}}}\A 1299: .field-name-field-square2{width:25%;height:100%;display:inline-block;float:left;a{div{@include flexbox; @include flex(1, 1, 100%);img{width:100%;height:100%;border:0;}}}}\A 1300: .field-name-field-square3{width:25%;height:100%;display:inline-block;float:left;a{div{@include flexbox; @include flex(1, 1, 100%);img{width:100%;height:100%;border:0;}}}}\A 1301: .field-name-field-square4{width:25%;height:100%;display:inline-block;float:left;a{div{@include flexbox; @include flex(1, 1, 100%);img{width:100%;height:100%;border:0;}}}}\A 1302: \A 1303: "; }
+  content: "Error: Mixin flex takes 1 argument but 3 were passed.\A         on line 1298 of /Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss, in `flex'\A         from line 1298 of /Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss, in `@content'\A         from line 62 of /Users/Pi/.rvm/gems/ruby-1.9.3-p551@global/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss, in `breakpoint'\A         from line 746 of /Users/Pi/Sites/LAWD/sites/all/themes/city_of_angels/sass/layouts/angel/angel.layout.scss\A \A 1293:                     a{img{width:100%;height:100%;}}}\A 1294:                     }\A 1295:                 }\A 1296:           }\A 1297: .field-name-field-foursquaresrow{height:25vw;width:100%;border:0px dotted red;}\A 1298: .field-name-field-square1{width:25%;height:100%;display:inline-block;float:left;a{div{@include flexbox(1); @include flex(1, 1, 100%);img{width:100%;height:100%;border:0;}}}}\A 1299: .field-name-field-square2{width:25%;height:100%;display:inline-block;float:left;a{div{@include flexbox(1); @include flex(1, 1, 100%);img{width:100%;height:100%;border:0;}}}}\A 1300: .field-name-field-square3{width:25%;height:100%;display:inline-block;float:left;a{div{@include flexbox(1); @include flex(1, 1, 100%);img{width:100%;height:100%;border:0;}}}}\A 1301: .field-name-field-square4{width:25%;height:100%;display:inline-block;float:left;a{div{@include flexbox(1); @include flex(1, 1, 100%);img{width:100%;height:100%;border:0;}}}}\A 1302: \A 1303: "; }
