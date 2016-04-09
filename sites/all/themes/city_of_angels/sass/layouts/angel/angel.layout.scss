@@ -298,6 +298,10 @@ img{margin:0 auto;}
 }
 */
 
+.tb-megamenu .nav li.dropdown.active > .dropdown-toggle, .tb-megamenu .nav li.dropdown.open.active > .dropdown-toggle, .tb-megamenu .nav > li.dropdown.open.active > a:hover {
+    background-color: #d2d1d1;
+}
+
 .tb-megamenu .btn:first-child {
     position:absolute;
     z-index:9;
