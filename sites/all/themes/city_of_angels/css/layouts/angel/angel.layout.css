@@ -426,7 +426,7 @@ body.not-logged-in {
   .tb-megamenu .btn:first-child {
     position: absolute;
     z-index: 9;
-    width: 30%;
+    width: auto;
     height: auto;
     top: 1em;
     right: 0; }
