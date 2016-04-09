@@ -2459,7 +2459,7 @@ clear: both;
     border: 0px dotted pink; }
 
   /* line 1853, ../../../sass/layouts/angel/angel.layout.scss */
-  .tb-megamenu .nav > li > a {
+  .tb-megamenu .nav > li > a, span.tb_nolink {
     border-right: 0px solid #222;
     border-top: 0;
     color: #666;
