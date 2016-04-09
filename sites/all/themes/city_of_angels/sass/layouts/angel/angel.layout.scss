@@ -267,6 +267,15 @@ padding: 1em;}
     
 }
 
+
+.tb-megamenu .dropdown-menu .active > a, .tb-megamenu .dropdown-menu .active > a:hover {
+    color: #e54e4b;
+    text-decoration: none;
+    outline: 0;
+    background-color: transparent;
+    background-image:none !important;
+}
+
 .field-name-field-entry-picture{
 background-image: url('/dev/sites/default/files/projectpic_0.png');
 background-repeat:no-repeat;
