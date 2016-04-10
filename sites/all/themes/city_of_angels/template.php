@@ -15,6 +15,7 @@ function city_of_angels_preprocess_field(&$variables) {
 }
 
 function city_of_angels_html_head_alter(&$head_elements) {
+  unset($head_elements['viewport']);
   $head_elements['viewport'] = array(
     '#type' => 'html_tag',
     '#tag' => 'meta',
