@@ -1,4 +1,4 @@
-<li <?php print $attributes;?> class="<?php print $classes;?>">
+<li <?php print $attributes;?>>
   <?php if ($item['link']['href'] == "<nolink>"): ?>
     <span class="tb_nolink"><?php print t($item['link']['link_title']);?></span>
   <?php elseif ($item['link']['href'] == "<separator>"): ?>
