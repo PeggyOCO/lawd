@@ -1,5 +1,5 @@
 <div<?php print $attributes; ?>>
-  <header class="l-header" role="banner">
+  <header class="l-header">
     <div class="l-branding">
       <?php if ($logo): ?>
         <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" class="site-logo"><img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" /></a>
@@ -48,7 +48,7 @@
     <?php print render($page['sidebar_second']); ?>
   </div>
 
-  <footer class="l-footer" role="contentinfo">
+  <footer class="l-footer">
     <?php print render($page['footer']); ?>
   </footer>
 </div>
