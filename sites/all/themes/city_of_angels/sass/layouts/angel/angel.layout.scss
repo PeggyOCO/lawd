@@ -1405,7 +1405,7 @@ background-color:#47bdbf;
 .scrim{
 
 background-color: rgba(0, 0, 0, 0.4);
-//@include flexbox;
+@include flexbox(1);
 @include flex(1);
 	/*display: -ms-flexbox;
 	display: -webkit-flex;
