@@ -1835,7 +1835,8 @@ clear: both;
 
   /* line 1403, ../../../sass/layouts/angel/angel.layout.scss */
   .field--name-field-square-ref {
-    height: 51.5vw; }
+    height: 51.5vw;
+    background-color: #c2c1c1; }
 
   /* line 1405, ../../../sass/layouts/angel/angel.layout.scss */
   .field-name-field-detailrowtitle {
