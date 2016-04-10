@@ -14,7 +14,7 @@ function city_of_angels_preprocess_field(&$variables) {
 	}
 }
 
-function city_of_angels_html_head_alter(&$head_elements) {
+/*function city_of_angels_html_head_alter(&$head_elements) {
   unset($head_elements['viewport']);
   $head_elements['viewport'] = array(
     '#type' => 'html_tag',
@@ -22,4 +22,4 @@ function city_of_angels_html_head_alter(&$head_elements) {
     '#attributes' => array('name' => 'viewport' , 'content' => 'width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1.0'),
     '#weight' => -1001,
   );
-  }
+  }*/
