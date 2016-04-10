@@ -1295,10 +1295,10 @@ margin: 0px 0 !important;
                 }
           }
 .field-name-field-foursquaresrow{height:25vw;width:100%;border:0px dotted red;}
-.field-name-field-square1{width:25%;height:100%;display:inline-block;float:left;a{div{@include flexbox(1 1 100%); @include flex(1 1 100%);img{width:100%;height:100%;border:0;}}}}
-.field-name-field-square2{width:25%;height:100%;display:inline-block;float:left;a{div{@include flexbox(1 1 100%); @include flex(1 1 100%);img{width:100%;height:100%;border:0;}}}}
-.field-name-field-square3{width:25%;height:100%;display:inline-block;float:left;a{div{@include flexbox(1 1 100%); @include flex(1 1 100%);img{width:100%;height:100%;border:0;}}}}
-.field-name-field-square4{width:25%;height:100%;display:inline-block;float:left;a{div{@include flexbox(1 1 100%); @include flex(1 1 100%);img{width:100%;height:100%;border:0;}}}}
+.field-name-field-square1{width:25%;height:100%;display:inline-block;float:left;a{div{@include flexbox(1 0 100%); img{width:100%;height:100%;border:0;}}}}
+.field-name-field-square2{width:25%;height:100%;display:inline-block;float:left;a{div{@include flexbox(1 0 100%); img{width:100%;height:100%;border:0;}}}}
+.field-name-field-square3{width:25%;height:100%;display:inline-block;float:left;a{div{@include flexbox(1 0 100%); img{width:100%;height:100%;border:0;}}}}
+.field-name-field-square4{width:25%;height:100%;display:inline-block;float:left;a{div{@include flexbox(1 0 100%); img{width:100%;height:100%;border:0;}}}}
 
 
 a.mega-group-title{cursor:none !important;padding-bottom:1em;} 
