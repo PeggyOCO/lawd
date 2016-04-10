@@ -1279,8 +1279,8 @@ clear: both;
     .field-collection-view:nth-child(even) .field-collection-item-field-frontrow .field-name-field-double1 {
       -webkit-flex: 1;
       flex: 1;
-      -webkit-flex-direction: "column";
-      flex-direction: "column";
+      -webkit-flex-direction: column;
+      flex-direction: column;
       -webkit-order: 3;
       order: 3;
       font-size: 1.1em;
@@ -1318,8 +1318,8 @@ clear: both;
     .field-collection-view:nth-child(even) .field-collection-item-field-frontrow .field-name-field-double2 {
       -webkit-flex: 1;
       flex: 1;
-      -webkit-flex-direction: "column";
-      flex-direction: "column";
+      -webkit-flex-direction: column;
+      flex-direction: column;
       -webkit-order: 2;
       order: 2;
       font-size: 1.1em;
@@ -1423,8 +1423,8 @@ clear: both;
     .field-collection-view:nth-child(odd) .field-collection-item-field-frontrow .field-name-field-double2 {
       -webkit-flex: 1;
       flex: 1;
-      -webkit-flex-direction: "column";
-      flex-direction: "column";
+      -webkit-flex-direction: column;
+      flex-direction: column;
       font-size: 1.1em;
       width: 25%;
       border-right: 1px solid #666;
@@ -1795,8 +1795,8 @@ clear: both;
   body.node-type-projectdetail div div div div.ds-1col div {
     -webkit-flex: 1;
     flex: 1;
-    -webkit-flex-direction: "column";
-    flex-direction: "column"; }
+    -webkit-flex-direction: column;
+    flex-direction: column; }
     /* line 1366, ../../../sass/layouts/angel/angel.layout.scss */
     body.node-type-projectdetail div div div div.ds-1col div a div {
       width: 100% !important;
@@ -1818,8 +1818,8 @@ clear: both;
   .field--name-field-left {
     -webkit-flex: 1;
     flex: 1;
-    -webkit-flex-direction: "row";
-    flex-direction: "row";
+    -webkit-flex-direction: row;
+    flex-direction: row;
     float: left;
     width: 66%;
     height: 25vw;

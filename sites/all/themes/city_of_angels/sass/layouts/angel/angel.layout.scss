@@ -963,7 +963,7 @@ font-size:1.2vw;}
                 }
           .field-name-field-double1{
           @include flex(1);
-          @include flex-direction('column');
+          @include flex-direction(column);
            @include order(3);
           font-size:1.1em;
           width:25%;
@@ -986,7 +986,7 @@ font-size:1.2vw;}
           }
           .field-name-field-double2{
             @include flex(1);
-            @include flex-direction('column');
+            @include flex-direction(column);
              @include order(2);
             font-size:1.1em;
           width:25%;
@@ -1061,7 +1061,7 @@ font-size:1.2vw;}
           }
           .field-name-field-double2{
             @include flex(1);
-            @include flex-direction('column');
+            @include flex-direction(column);
             font-size:1.1em;
           width:25%;
           border-right:1px solid #666;
@@ -1362,7 +1362,7 @@ width: auto !important;
 body.node-type-projectdetail div div div div.ds-1col{
 @include flexbox(1);
 		div{ @include flex(1);
-        @include flex-direction('column'); 
+        @include flex-direction(column); 
             a div{  width:100% !important;
 				           height:100% !important;
 				           margin:0;padding:0;
@@ -1376,7 +1376,7 @@ body.node-type-projectdetail div div div div.ds-1col{
 /**Begin home page**/
 .field--name-field-left{
 @include flex(1);
-@include flex-direction('row');
+@include flex-direction(row);
 //@include flex-grow(2);
 float:left;
 width:66%;
