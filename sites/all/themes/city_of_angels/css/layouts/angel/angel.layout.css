@@ -1747,47 +1747,47 @@ clear: both;
 
   /* line 1304, ../../../sass/layouts/angel/angel.layout.scss */
   .field-name-field-square1 a div {
-    width: 100%; }
+    width: 100% !important; }
     /* line 1306, ../../../sass/layouts/angel/angel.layout.scss */
     .field-name-field-square1 a div div {
-      width: 100%; }
+      width: 100% !important; }
       /* line 1308, ../../../sass/layouts/angel/angel.layout.scss */
       .field-name-field-square1 a div div img {
-        width: 100%;
-        width: 100%; }
+        width: 100% !important;
+        width: 100% !important; }
 
   /* line 1317, ../../../sass/layouts/angel/angel.layout.scss */
   .field-name-field-square2 a div {
-    width: 100%; }
+    width: 100% !important; }
     /* line 1319, ../../../sass/layouts/angel/angel.layout.scss */
     .field-name-field-square2 a div div {
-      width: 100%; }
+      width: 100% !important; }
       /* line 1321, ../../../sass/layouts/angel/angel.layout.scss */
       .field-name-field-square2 a div div img {
-        width: 100%;
-        width: 100%; }
+        width: 100% !important;
+        width: 100% !important; }
 
   /* line 1329, ../../../sass/layouts/angel/angel.layout.scss */
   .field-name-field-square3 a div {
-    width: 100%; }
+    width: 100% !important; }
     /* line 1331, ../../../sass/layouts/angel/angel.layout.scss */
     .field-name-field-square3 a div div {
-      width: 100%; }
+      width: 100% !important; }
       /* line 1333, ../../../sass/layouts/angel/angel.layout.scss */
       .field-name-field-square3 a div div img {
-        width: 100%;
-        width: 100%; }
+        width: 100% !important;
+        width: 100% !important; }
 
   /* line 1341, ../../../sass/layouts/angel/angel.layout.scss */
   .field-name-field-square4 a div {
-    width: 100%; }
+    width: 100% !important; }
     /* line 1343, ../../../sass/layouts/angel/angel.layout.scss */
     .field-name-field-square4 a div div {
-      width: 100%; }
+      width: 100% !important; }
       /* line 1345, ../../../sass/layouts/angel/angel.layout.scss */
       .field-name-field-square4 a div div img {
-        width: 100%;
-        width: 100%; }
+        width: 100% !important;
+        width: 100% !important; }
 
   /* line 1354, ../../../sass/layouts/angel/angel.layout.scss */
   a.mega-group-title {
