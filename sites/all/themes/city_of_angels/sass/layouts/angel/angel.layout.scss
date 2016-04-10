@@ -1248,7 +1248,7 @@ background-color: rgba(0, 0, 0, 0.4);
     padding:0px;
     margin: 0px;
     border: 0px;
-    margin-bottom:-.4em !important;
+
 }
 
   
@@ -1256,6 +1256,7 @@ background-color: rgba(0, 0, 0, 0.4);
 margin: 0px 0 !important;
  padding: 0 !important;
      border: 0px;
+         margin-bottom:-.4em !important;
 } 
 
 .clearfix::after {
@@ -2164,6 +2165,9 @@ float:left;}
 .field--name-field-rightimage{display:inline-block;
 width:50%;
 float:left;}}
+
+.field--name-field-square-ref{
+div div div div div div div div div{margin-bottom:-.4em;}}
 
 /*#block-tb-megamenu-menu-bottom-menu{color:$whitest;
 div.block__content{background: $transparent;
