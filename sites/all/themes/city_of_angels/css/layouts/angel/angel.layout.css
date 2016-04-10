@@ -1681,7 +1681,6 @@ clear: both;
   .field-name-field-square1 {
     width: 25%;
     height: 100%;
-    display: inline-block;
     float: left; }
     /* line 1298, ../../../sass/layouts/angel/angel.layout.scss */
     .field-name-field-square1 a div img {
@@ -1695,7 +1694,6 @@ clear: both;
   .field-name-field-square2 {
     width: 25%;
     height: 100%;
-    display: inline-block;
     float: left; }
     /* line 1299, ../../../sass/layouts/angel/angel.layout.scss */
     .field-name-field-square2 a div img {
@@ -1709,7 +1707,6 @@ clear: both;
   .field-name-field-square3 {
     width: 25%;
     height: 100%;
-    display: inline-block;
     float: left; }
     /* line 1300, ../../../sass/layouts/angel/angel.layout.scss */
     .field-name-field-square3 a div img {
@@ -1723,7 +1720,6 @@ clear: both;
   .field-name-field-square4 {
     width: 25%;
     height: 100%;
-    display: inline-block;
     float: left; }
     /* line 1301, ../../../sass/layouts/angel/angel.layout.scss */
     .field-name-field-square4 a div img {
