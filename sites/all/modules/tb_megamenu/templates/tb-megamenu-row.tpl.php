@@ -1,3 +1,3 @@
-<div class="<?php print $classes;?>">
+<div <?php print $attributes;?>>
   <?php print $columns;?>
 </div>

@@ -1,4 +1,4 @@
-<div class="<?php print $classes;?>">
+<div <?php print $attributes;?>>
   <div class="mega-dropdown-inner">
     <?php print $rows;?>
   </div>

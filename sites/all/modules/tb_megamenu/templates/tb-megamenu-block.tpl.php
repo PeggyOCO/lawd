@@ -1,5 +1,5 @@
 <?php if($content) :?>
-<div class="<?php print $classes;?>">
+<div <?php print $attributes;?>>
   <div class="block-inner">
     <?php print $content ?>
   </div>
