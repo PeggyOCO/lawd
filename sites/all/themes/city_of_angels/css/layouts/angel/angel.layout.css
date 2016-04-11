@@ -1860,6 +1860,7 @@ clear: both;
   body.node-type-projectdetail div div div div.ds-1col div {
     -webkit-flex: 1;
     flex: 1;
+    z-index: 1;
     -webkit-flex-direction: column;
     flex-direction: column; }
     /* line 1419, ../../../sass/layouts/angel/angel.layout.scss */
