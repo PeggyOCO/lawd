@@ -2246,7 +2246,7 @@ clear: both;
 
   /* line 1652, ../../../sass/layouts/angel/angel.layout.scss */
   .aboutimg {
-    margin: .4em .6em 0;
+    margin: .4em .3em 0 -.1em;
     border: 1px solid #000; }
 
   /* line 1653, ../../../sass/layouts/angel/angel.layout.scss */
