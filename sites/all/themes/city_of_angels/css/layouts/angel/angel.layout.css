@@ -2225,7 +2225,8 @@ clear: both;
 
   /* line 1642, ../../../sass/layouts/angel/angel.layout.scss */
   .aboutimg {
-    margin: .4em .6em 0; }
+    margin: .4em .6em 0;
+    border: 1px solid #000; }
 
   /* line 1643, ../../../sass/layouts/angel/angel.layout.scss */
   .site-logo img {
