@@ -2238,8 +2238,9 @@ clear: both;
     /* line 1644, ../../../sass/layouts/angel/angel.layout.scss */
     article.node--services ul li {
       font-size: 1.65em;
-      font-weight: 300;
-      list-style-type: none; }
+      font-weight: 400;
+      list-style-type: none;
+      margin: .75em 0; }
 
   /* line 1646, ../../../sass/layouts/angel/angel.layout.scss */
   img[alt="Top picture"] {
