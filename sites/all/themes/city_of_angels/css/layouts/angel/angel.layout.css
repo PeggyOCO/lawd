@@ -2310,20 +2310,20 @@ clear: both;
       /*line-height: 3.5vmin;*/
       width: 30%;
       height: 100%;
-      margin-top: -3em;
+      margin-top: 0;
       list-style: none;
       /* li:first-child {
             margin-top:0;
        }*/ }
       /* line 1702, ../../../sass/layouts/angel/angel.layout.scss */
       .field--name-field-blurb ul li {
-        margin-top: .65em; }
+        margin-top: .15em; }
         /* line 1704, ../../../sass/layouts/angel/angel.layout.scss */
         .field--name-field-blurb ul li a {
           color: #fff;
           text-decoration: none;
-          font-size: 1.2em;
-          line-height: 1.4em; }
+          font-size: 1em;
+          line-height: 1em; }
         /* line 1708, ../../../sass/layouts/angel/angel.layout.scss */
         .field--name-field-blurb ul li a:hover {
           color: #c4112f; }
