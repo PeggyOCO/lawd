@@ -2290,10 +2290,10 @@ clear: both;
   /* line 1674, ../../../sass/layouts/angel/angel.layout.scss */
   .field--name-field-blurb {
     border: 0px dotted green;
-    display: table-cell;
+    display: block;
     position: relative;
     background-color: #4abdbf;
-    height: 300px;
+    /*height:300px;*/
     height: 18em;
     margin-top: -5px;
     padding: 2em;
@@ -2327,7 +2327,7 @@ clear: both;
       width: 64%;
       color: black;
       display: inline-block;
-      float: left;
+      float: right;
       font-size: 2em;
       font-size: 2.5vw;
       text-align: center;
