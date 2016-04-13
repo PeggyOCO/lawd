@@ -14,6 +14,14 @@ function city_of_angels_preprocess_field(&$variables) {
 	}
 }
 
+function city_of_angels_page_alter(&$vars) {
+  $vars['content']['content']['content']['#sorted'] = FALSE;
+
+  if (!empty($vars['#excluded']['contenttop'])) {
+    $vars['#excluded']['contenttop']['#weight'] = -22;
+    $vars['content']['content']['content']['contenttop'] = $vars['#excluded']['contenttop'];
+  }}
+
 /*function city_of_angels_html_head_alter(&$head_elements) {
   unset($head_elements['viewport']);
   $head_elements['viewport'] = array(
