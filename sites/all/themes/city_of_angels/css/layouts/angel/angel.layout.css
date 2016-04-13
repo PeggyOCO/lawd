@@ -2209,6 +2209,11 @@ clear: both;
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: 14vw 10px, 55vw 10px, 70vw 10px; }
 
+  /* line 1625, ../../../sass/layouts/angel/angel.layout.scss */
+  .l-region--footer {
+    height: 35em;
+    position: relative; }
+
   /* line 1627, ../../../sass/layouts/angel/angel.layout.scss */
   .l-region--branding {
     width: 70%;
@@ -2490,7 +2495,7 @@ clear: both;
   div.copyright {
     width: 100%;
     text-align: center;
-    font-size: .85rem; }
+    font-size: .9em; }
 
   /* line 1848, ../../../sass/layouts/angel/angel.layout.scss */
   div.centered {
