@@ -1686,20 +1686,11 @@ div.sig{
         display:inline-block;
         border:0px dotted red;
         float:left;
-
-       /* font-size:3.5vmin;*/
-        width:35%;
         height:100%;
         vertical-align:middle;
-        
-        /*line-height: 3.5vmin;*/
-        width: 30%;
+        width: 35%;
         height: 100%;
-        /*margin-top: 0;*/
         list-style: none;
-       /* li:first-child {
-             margin-top:0;
-        }*/
         li{
             margin: 5px 0;
             a{color:#fff;text-decoration:none;
@@ -1711,7 +1702,6 @@ div.sig{
   
       }
       p{
-         /* margin-top:-.175em;*/
           border:0px dotted blue;
           width:60%;
           color:black;
