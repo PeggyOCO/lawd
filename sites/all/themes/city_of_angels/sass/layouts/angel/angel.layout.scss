@@ -1679,7 +1679,7 @@ div.sig{
     height:300px;
     height:18em;
     margin-top:-5px;
-    padding:4em;
+    padding: 2em 4em;
     color:#fff;
     ul{
         display:inline-block;
@@ -1702,8 +1702,8 @@ div.sig{
         li{
             margin-top: .15em;
             a{color:#fff;text-decoration:none;
-                    font-size:1em;
-                    line-height:1em;
+                    font-size:1rem;
+                    line-height:1rem;
 }
             a:hover{color:$reder;}
           }

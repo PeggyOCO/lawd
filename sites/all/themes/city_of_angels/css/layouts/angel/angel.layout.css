@@ -2296,7 +2296,7 @@ clear: both;
     height: 300px;
     height: 18em;
     margin-top: -5px;
-    padding: 4em;
+    padding: 2em 4em;
     color: #fff; }
     /* line 1684, ../../../sass/layouts/angel/angel.layout.scss */
     .field--name-field-blurb ul {
@@ -2322,8 +2322,8 @@ clear: both;
         .field--name-field-blurb ul li a {
           color: #fff;
           text-decoration: none;
-          font-size: 1em;
-          line-height: 1em; }
+          font-size: 1rem;
+          line-height: 1rem; }
         /* line 1708, ../../../sass/layouts/angel/angel.layout.scss */
         .field--name-field-blurb ul li a:hover {
           color: #c4112f; }
