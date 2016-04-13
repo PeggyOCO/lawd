@@ -1673,7 +1673,7 @@ div.sig{
   
 .field--name-field-blurb{
     border:0px dotted green;
-    display:block;
+    display:table-cell;
     position:relative;
     background-color:#4abdbf;
     height:300px;
@@ -1681,6 +1681,7 @@ div.sig{
     margin-top:-5px;
     padding: 2em 4em;
     color:#fff;
+    vertical-align:middle;
     ul{
         display:inline-block;
         border:0px dotted red;
@@ -1689,12 +1690,12 @@ div.sig{
        /* font-size:3.5vmin;*/
         width:35%;
         height:100%;
-        vertical-align:center;
+        vertical-align:middle;
         
         /*line-height: 3.5vmin;*/
         width: 30%;
         height: 100%;
-        margin-top: 0;
+        /*margin-top: 0;*/
         list-style: none;
        /* li:first-child {
              margin-top:0;
@@ -1721,7 +1722,7 @@ div.sig{
           text-align:center;
           height:100%;
           vertical-align:middle;
-          padding: 1em 0;
+          padding: 0;
             span{display:block;
             width:100%;
           text-align:right;
