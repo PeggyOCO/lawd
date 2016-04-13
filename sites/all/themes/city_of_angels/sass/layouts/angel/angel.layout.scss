@@ -1608,7 +1608,7 @@ p{text-align:left;}
                     text-align:left;
                     font-size:1.1em;}
         }
-footer{height:23em;background-color:$footergray;margin:0;margin-top:-.25em;
+footer{height:35em;background-color:$footergray;margin:0;margin-top:-.25em;
 background-image: url('/dev/sites/all/themes/city_of_angels/images/line.png'),
                url('/dev/sites/all/themes/city_of_angels/images/line.png'),
                url('/dev/sites/all/themes/city_of_angels/images/line.png');
@@ -1842,10 +1842,7 @@ div.sig{
  
  div.copyright{width:100%;
  text-align:center;
- font-size:1.2rem;
- position:absolute;
- left:0;
- bottom:20px;
+ font-size:.85rem;
  }
  
  div.centered{
@@ -2239,6 +2236,13 @@ div.tb-megamenu-menu-bottom-menu{
  #tb-megamenu-column-8{width:45% !important;display:inline-block !important;float:left !important; li{width:14em !important;}}*/
 
 /******SITEWIDE****/
+
+#block-block-1{
+text-align: center;
+position: absolute;
+bottom: 20px;
+left: 40%;
+}
 
 p.small{font-size: .8em !important;
     text-align: left;
