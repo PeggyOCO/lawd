@@ -300,7 +300,7 @@ padding: 1em;}
 }
 
 .field-name-field-entry-picture{
-background-image: url('/dev/sites/default/files/projectpic_0.png');
+background-image: url('../../../projectpic_0.png');
 background-repeat:no-repeat;
 background-size:cover;
 img{margin:0 auto;}
@@ -1519,7 +1519,7 @@ z-index:999999;
  .top{display:block;
  width:100%;
  position:relative;
-  background: url(/dev/sites/default/files/projectpic_0.png) no-repeat center top;
+  background: url(../../../projectpic_0.png) no-repeat center top;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1532,7 +1532,7 @@ z-index:999999;
  margin-top: -1em;
  width:100%;
  position:relative;
-  background: url(/dev/sites/default/files/projectpic_0.png) no-repeat center top;
+  background: url(../../../projectpic_0.png) no-repeat center top;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -2090,7 +2090,7 @@ background-color: #fff;
 background-image: url("../uparrow.png") !important;
 background-size: 25px;
 background-repeat: no-repeat;
-background-position: 50px 110%;}
+background-position: bottom}
 
 /*#block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li ul li a:hover{
 background-color: #fff;
