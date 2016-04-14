@@ -1951,12 +1951,20 @@ display: block;
     border-top: 0;
     color: #666;
     font-weight: normal;
-    padding: 15px 15px 5px 15px;
+    padding: 15px 15px 2px 15px;
     text-shadow: none;
     text-decoration: none;
     font-size: 1.3vw;
     text-transform: uppercase;
 }
+
+ .tb-megamenu .nav > li > a:hover,span.tb_nolink {
+
+    padding: 15px 15px 2px 15px;
+
+}
+
+
 
 ul.tb-megamenu-nav{float:right;}
 ul.tb-megamenu-subnav {
