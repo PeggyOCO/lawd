@@ -7,7 +7,7 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:400,700");
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,500");
  @import "compass";
- @import "breakpoint";
+// @import "breakpoint";
  @import "singularitygs";
  @import "toolkit";
  @import "variables/**/*";
@@ -29,7 +29,9 @@ width:100%;overflow-x:hidden;}
 
 //************phone************//
 
-@include breakpoint($phone, true) {
+//@include breakpoint($phone, true) {
+
+@media screen and (max-width: 800px) and (min-width: 0px) {
   /* Header Area */
 html, body {
 height: auto;
@@ -754,7 +756,8 @@ table.tablefield{width:80%;margin:0 auto;
 
 //************desk************//
 
-@include breakpoint($desk, true) {
+//@include breakpoint($desk, true) {
+@media screen and (min-width: 800px) {
 p.small{font-size:1em;}
 
 .pinktitle{font-size:1.5rem;color: #c74c4f;text-transform:uppercase;text-align:left;}
