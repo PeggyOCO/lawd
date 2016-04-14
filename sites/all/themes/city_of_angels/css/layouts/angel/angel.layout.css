@@ -2810,10 +2810,10 @@ clear: both;
   /*#block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li div.tb-megamenu-submenu ul{text-align:left; li div{border:1px dotted red;}}*/
   /* line 2088, ../../../sass/layouts/angel/angel.layout.scss */
   #block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li[data-id="1215"] > a:hover {
-    background-color: #fff;
+    background-color: #f00;
     background-image: url("../../../uparrow.png") !important;
     background-size: 25px;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-position: bottom; }
 
   /*#block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li ul li a:hover{
