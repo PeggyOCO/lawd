@@ -2811,7 +2811,7 @@ clear: both;
   /* line 2088, ../../../sass/layouts/angel/angel.layout.scss */
   #block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li[data-id="1215"] > a:hover {
     background-color: #fff;
-    background-image: url("../uparrow.png") !important;
+    background-image: url("../../../uparrow.png") !important;
     background-size: 25px;
     background-repeat: no-repeat;
     background-position: bottom; }
