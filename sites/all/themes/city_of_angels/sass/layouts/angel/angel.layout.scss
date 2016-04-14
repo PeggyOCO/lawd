@@ -19,7 +19,8 @@
 // Set breakpoint values.
 $phone : max-width 800px;
 //$tab  : 480px 799px;
-$desk : min-width 800px and max-width 3000px;
+//$desk : min-width 800px;
+$desk : 800px 3000px;
 body.not-logged-in{font-family:Lato,Tahoma,Verdana, Helvetica, sans-serif;letter-spacing:normal;
 width:100%;overflow-x:hidden;}
 
