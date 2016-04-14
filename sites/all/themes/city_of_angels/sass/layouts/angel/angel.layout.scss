@@ -2087,7 +2087,7 @@ text-align:left;float:left;margin:0;}
 
 #block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li[data-id="489"] > a:hover{
 background-color: #fff;
-background-image: url("/dev/sites/all/themes/city_of_angels/uparrow.png") !important;
+background-image: url("../uparrow.png") !important;
 background-size: 25px;
 background-repeat: no-repeat;
 background-position: 50px 110%;}
@@ -2262,10 +2262,9 @@ div.tb-megamenu-menu-bottom-menu{
 
 #block-block-1{
 text-align: center;
-position: relative;;
-margin-bottom: 20px;
+position: relative;
 width:100%;
-margin-top:30%;
+margin-top:28em;
 }
 
 p.small{font-size: .8em !important;
