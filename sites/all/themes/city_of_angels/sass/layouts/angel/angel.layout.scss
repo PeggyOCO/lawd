@@ -757,7 +757,9 @@ table.tablefield{width:80%;margin:0 auto;
 //************desk************//
 
 //@include breakpoint($desk, true) {
-@media screen and (min-width: 800px) {
+
+@media screen and (min-width: 800px) , screen and (max-width: 980px), screen and (max-width:3000px) {
+//@media screen and (min-width: 800px) and (max-width:980px) and (max-width:3000px) {
 p.small{font-size:1em;}
 
 .pinktitle{font-size:1.5rem;color: #c74c4f;text-transform:uppercase;text-align:left;}
