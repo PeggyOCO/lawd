@@ -2963,6 +2963,7 @@ clear: both;
     /* line 2210, ../../../sass/layouts/angel/angel.layout.scss */
     #block-tb-megamenu-menu-bottom-menu li.level-2 a, #block-tb-megamenu-menu-bottom-menu li.level-2 .tb_nolink {
       font-size: 1rem !important;
+      margin-left: -1.5em;
       color: #666; }
     /* line 2210, ../../../sass/layouts/angel/angel.layout.scss */
     #block-tb-megamenu-menu-bottom-menu li.level-2 a:hover {
@@ -2975,7 +2976,8 @@ clear: both;
     /* line 2212, ../../../sass/layouts/angel/angel.layout.scss */
     #block-tb-megamenu-menu-bottom-menu li.level-3 a, #block-tb-megamenu-menu-bottom-menu li.level-3 .tb_nolink {
       font-size: 1.1rem !important;
-      color: #666; }
+      color: #666;
+      margin-left: 1.5em; }
     /* line 2212, ../../../sass/layouts/angel/angel.layout.scss */
     #block-tb-megamenu-menu-bottom-menu li.level-3 a:hover {
       color: #c4112f; }
