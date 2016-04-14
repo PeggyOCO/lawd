@@ -1983,11 +1983,6 @@ li:before {
                                      a,.tb_nolink{font-size:1.1em;text-decoration:none;color:$blacker;
                                       text-transform:uppercase;
                                       background-color:$whitest;
-                                      margin-bottom: 0rem;
-                                      background-image:url(../../../uparrow.png);
-                                      background-size:25px;
-                                      background-repeat:no-repeat;
-                                      background-position:bottom;
                                       /*background-image:none !important;*/
                                       &:hover{color:$reder;
                                       background-color:$whitest;}
@@ -2090,7 +2085,7 @@ text-align:left;float:left;margin:0;}
 
 
 
-#block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li[data-id="1215"] > a:hover{
+#block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li[data-id="1215"] > span:hover{
 background-color: #fff;
 padding-bottom:1em;
 background-image: url("../../../uparrow.png") !important;
