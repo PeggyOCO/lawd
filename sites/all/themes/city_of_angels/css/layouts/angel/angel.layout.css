@@ -2659,7 +2659,7 @@ clear: both;
           color: #666;
           text-transform: uppercase;
           background-color: #fff;
-          background-image: none !important; }
+          /*background-image:none !important;*/ }
           /* line 1987, ../../../sass/layouts/angel/angel.layout.scss */
           #block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li a:hover, #block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li .tb_nolink:hover {
             color: #c4112f;
