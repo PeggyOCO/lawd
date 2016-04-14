@@ -1980,6 +1980,8 @@ li:before {
 }
 }
 
+
+
 #block-tb-megamenu-main-menu span.tb_nolink{display:block;}
 
 #block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu{
@@ -2204,7 +2206,7 @@ background-image: none;}
 background-image:none;
 }
 
-#block-tb-megamenu-menu-bottom-menu li.level-2{margin:.25rem 0 .25rem 1.3rem !important;padding:0 !important; 
+#block-tb-megamenu-menu-bottom-menu li.level-2{margin:.25rem 0 .25rem -.5em !important;width:50%;padding:0 !important; 
                                 a,.tb_nolink{font-size:1rem !important;color:$blacker; }a:hover{color:$reder; }}
 #block-tb-megamenu-menu-bottom-menu li.level-3{margin:.5rem 0 .25rem 1.3rem !important;padding:0 !important;
                                 a,.tb_nolink{font-size:1.1rem !important;color:$blacker;}a:hover{color:$reder; }}
