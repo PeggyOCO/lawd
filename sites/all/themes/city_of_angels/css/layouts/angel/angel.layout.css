@@ -2612,7 +2612,7 @@ clear: both;
     border-top: 0;
     color: #666;
     font-weight: normal;
-    padding: 15px 15px;
+    padding: 15px 15px 5px 15px;
     text-shadow: none;
     text-decoration: none;
     font-size: 1.3vw;
@@ -2817,10 +2817,8 @@ clear: both;
     background-repeat: no-repeat;
     background-position: bottom; }
 
-  /* line 2096, ../../../sass/layouts/angel/angel.layout.scss */
-  #block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li[data-id="1215"] > div {
-    margin-top: -.75em; }
-
+  /*#block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li[data-id="1215"] > div{
+  margin-top:-.75em;}*/
   /*#block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li ul li a:hover{
   background-color: #fff;
   background-image: none;
