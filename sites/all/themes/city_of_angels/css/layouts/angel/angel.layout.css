@@ -2822,7 +2822,7 @@ clear: both;
     background-position: bottom; }
 
   /* line 2104, ../../../sass/layouts/angel/angel.layout.scss */
-  #block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li[data-id="1215"] > div {
+  #block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li[data-id="1215"] > span:hover, div {
     margin-top: -.75em; }
 
   /*#block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li ul li a:hover{
