@@ -21,7 +21,7 @@ body.not-logged-in {
 .clr {
   clear: both; }
 
-@media screen and (max-width: 800px) and (min-width: 0px) {
+@media (max-width: 800px) {
   /* Header Area */
   /* line 36, ../../../sass/layouts/angel/angel.layout.scss */
   html, body {
@@ -977,7 +977,7 @@ clear: both;
     border-bottom: 0px solid #D3D7D9;
     margin-bottom: 0;
 }*/ }
-@media screen and (min-width: 800px), screen and (max-width: 980px), screen and (max-width: 3000px) {
+@media (min-width: 800px) {
   /* line 763, ../../../sass/layouts/angel/angel.layout.scss */
   p.small {
     font-size: 1em; }
