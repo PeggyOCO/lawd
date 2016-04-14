@@ -444,7 +444,7 @@ body.not-logged-in {
 
   /* line 302, ../../../sass/layouts/angel/angel.layout.scss */
   .field-name-field-entry-picture {
-    background-image: url("../../../projectpic_0.png");
+    background-image: url("../../../../../../default/files/projectpic_0.png");
     background-repeat: no-repeat;
     background-size: cover; }
     /* line 306, ../../../sass/layouts/angel/angel.layout.scss */
@@ -2008,7 +2008,7 @@ clear: both;
     display: block;
     width: 100%;
     position: relative;
-    background: url(../../../projectpic_0.png) no-repeat center top;
+    background: url(../../../../../../default/files/projectpic_0.png) no-repeat center top;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -2023,7 +2023,7 @@ clear: both;
     margin-top: -1em;
     width: 100%;
     position: relative;
-    background: url(../../../projectpic_0.png) no-repeat center top;
+    background: url(../../../../../../default/files/projectpic_0.png) no-repeat center top;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
