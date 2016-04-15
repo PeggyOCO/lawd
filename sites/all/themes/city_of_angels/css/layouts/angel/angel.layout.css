@@ -2269,9 +2269,10 @@ clear: both;
     background-color: #d5d5d5;
     margin: 0;
     margin-top: -.25em;
+    padding-top: 1em;
     background-image: url("../../../images/line.png"), url("../../../images/line.png"), url("../../../images/line.png");
     background-repeat: no-repeat, no-repeat, no-repeat;
-    background-position: 14vw 10px, 55vw 10px, 70vw 10px; }
+    background-position: 14vw 15px, 55vw 15px, 70vw 15px; }
 
   /* line 1710, ../../../sass/layouts/angel/angel.layout.scss */
   #socialnetworking {
