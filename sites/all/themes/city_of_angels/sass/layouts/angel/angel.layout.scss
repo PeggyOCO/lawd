@@ -744,9 +744,15 @@ table.tablefield{width:80%;margin:0 auto;
     margin-bottom: 0;
 }*/
 
-#block-tb-megamenu-menu-bottom-menu ul{
-padding: 0;
-list-style-type: none;}
+#block-tb-megamenu-menu-bottom-menu{
+  
+  ul,li,span{
+  display:block;
+  padding: 0;
+  list-style-type: none;
+  font-size:1em;
+  text-transform:capitalize;}
+    }
   }
 
 //************end phone************//
