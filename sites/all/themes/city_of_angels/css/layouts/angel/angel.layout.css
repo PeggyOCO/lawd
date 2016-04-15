@@ -68,8 +68,8 @@ body.not-logged-in {
     display: none; }
 
   /* line 73, ../../../sass/layouts/angel/angel.layout.scss */
-  #block-tb-megamenu-menu-bottom-menu ul li span {
-    margin-top: -1.5em; }
+  #block-tb-megamenu-menu-bottom-menu ul li:nth-child(2) span {
+    margin-top: -1em; }
 
   /* line 75, ../../../sass/layouts/angel/angel.layout.scss */
   #block-tb-megamenu-menu-bottom-menu {
