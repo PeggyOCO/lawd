@@ -69,6 +69,7 @@ body.not-logged-in {
 
   /* line 75, ../../../sass/layouts/angel/angel.layout.scss */
   #block-tb-megamenu-menu-bottom-menu {
+    margin-left: 1.5em;
     display: block;
     visibility: visible;
     background-color: #d5d5d5;
@@ -130,7 +131,7 @@ body.not-logged-in {
                   background-color: #d5d5d5;
                   color: black;
                   padding-left: 0;
-                  margin-left: -2em;
+                  margin-left: -1em;
                   border: 0; }
                   /* line 85, ../../../sass/layouts/angel/angel.layout.scss */
                   #block-tb-megamenu-menu-bottom-menu div div div.always-show ul li ul li a {

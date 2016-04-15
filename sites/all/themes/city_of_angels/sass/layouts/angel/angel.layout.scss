@@ -72,7 +72,7 @@ body > div{overflow-x:hidden;overflow-y:hidden;}
 
 
 
-#block-tb-megamenu-menu-bottom-menu{display:block;visibility:visible;background-color:#d5d5d5;color:black;
+#block-tb-megamenu-menu-bottom-menu{margin-left:1.5em;display:block;visibility:visible;background-color:#d5d5d5;color:black;
   div{background-color:#d5d5d5;color:black;
       div{background-color:#d5d5d5;color:black;
           div.always-show{display:block;visibility:visible;background-color:#d5d5d5;color:black;position:relative;margin-top: 0px !important;z-index: 999999999 !important;
@@ -82,7 +82,7 @@ body > div{overflow-x:hidden;overflow-y:hidden;}
                                                 &:hover{background-color:#d5d5d5;color:#e54e4b;}
                                                 &:active{background-color:#d5d5d5;color:#e54e4b;}}
                       ul{background-color:#d5d5d5;color:black;
-                      li{background-color:#d5d5d5;color:black;padding-left:0;margin-left:-2em;border:0;a{border:0;text-decoration:none;line-height:1.2rem;font-size:.8rem;background-color:#d5d5d5;color:black;background-image:none !important;
+                      li{background-color:#d5d5d5;color:black;padding-left:0;margin-left:-1em;border:0;a{border:0;text-decoration:none;line-height:1.2rem;font-size:.8rem;background-color:#d5d5d5;color:black;background-image:none !important;
                         &:hover{background-color:#d5d5d5;color:#e54e4b;}
                         &:active{background-color:#d5d5d5;color:#e54e4b;}}}
                       }
