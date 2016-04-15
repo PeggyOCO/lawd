@@ -3268,8 +3268,13 @@ margin: 0 !important;} }*/
   /*****FORM*****/
   /* line 2432, ../../../sass/layouts/angel/angel.layout.scss */
   #webform-client-form-22 {
+    width: 35em;
+    margin: 1em auto;
     color: black;
-    text-align: center; }
+    text-align: left; }
+    /* line 2432, ../../../sass/layouts/angel/angel.layout.scss */
+    #webform-client-form-22 label {
+      width: 10em; }
     /* line 2432, ../../../sass/layouts/angel/angel.layout.scss */
     #webform-client-form-22 input {
       border: 1px solid black;
