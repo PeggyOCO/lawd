@@ -1002,8 +1002,8 @@ clear: both;
   text-align: center;
   position: relative;
   width: 100%;
-  margin-top: 0em;
-  font-size: .8em; }
+  margin-top: -2em;
+  font-size: .5em; }
 
 /* line 802, ../../../sass/layouts/angel/angel.layout.scss */
 #socialnetworking {
