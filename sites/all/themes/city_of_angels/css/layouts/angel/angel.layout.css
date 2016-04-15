@@ -3289,10 +3289,13 @@ margin: 0 !important;} }*/
       padding: .5em;
       font-size: 1.2em; }
 
-  /* line 2434, ../../../sass/layouts/angel/angel.layout.scss */
-  div.form-actions .webform-submit {
-    background-color: white;
-    width: 6em !important;
-    margin: 0 auto; } }
+  /* line 2433, ../../../sass/layouts/angel/angel.layout.scss */
+  div.form-actions {
+    text-align: right; }
+    /* line 2434, ../../../sass/layouts/angel/angel.layout.scss */
+    div.form-actions .webform-submit {
+      background-color: white;
+      width: 6em !important;
+      margin: 0 auto; } }
 
 /*# sourceMappingURL=angel.layout.css.map */
