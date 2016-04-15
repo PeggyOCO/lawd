@@ -3163,7 +3163,7 @@ clear: both;
     width: 100%;
     margin-top: 35em;
     padding-bottom: 1em;
-    font-size: .75em;
+    font-size: .85em;
     z-index: 9999; }
 
   /* line 2375, ../../../sass/layouts/angel/angel.layout.scss */
@@ -3179,7 +3179,7 @@ clear: both;
     #socialnetworking .socialitem {
       display: inline-block;
       float: left;
-      width: 10%;
+      width: 12%;
       height: auto;
       margin-left: .5em; }
       /* line 2389, ../../../sass/layouts/angel/angel.layout.scss */
