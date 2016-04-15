@@ -68,14 +68,14 @@ body.not-logged-in {
     display: none; }
 
   /* line 74, ../../../sass/layouts/angel/angel.layout.scss */
-  div#block-tb-megamenu-menu-bottom-menu div div div ul li:nth-child(1) {
+  div#block-tb-megamenu-menu-bottom-menu div div div ul:first-child li:nth-child(1) {
     margin-left: .25em; }
   /* line 76, ../../../sass/layouts/angel/angel.layout.scss */
-  div#block-tb-megamenu-menu-bottom-menu div div div ul li:nth-child(3) {
+  div#block-tb-megamenu-menu-bottom-menu div div div ul:first-child li:nth-child(3) {
     margin-left: .25em;
     margin-top: 1.5em; }
   /* line 80, ../../../sass/layouts/angel/angel.layout.scss */
-  div#block-tb-megamenu-menu-bottom-menu div div div ul li:nth-child(4) {
+  div#block-tb-megamenu-menu-bottom-menu div div div ul:first-child li:nth-child(4) {
     margin-left: .25em;
     margin-top: 1.5em; }
 
