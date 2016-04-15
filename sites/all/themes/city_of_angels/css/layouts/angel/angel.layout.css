@@ -87,8 +87,8 @@ body.not-logged-in {
         background-color: #d5d5d5;
         color: black; }
         /* line 78, ../../../sass/layouts/angel/angel.layout.scss */
-        #block-tb-megamenu-menu-bottom-menu div div div.always-show {
-          display: block;
+        #block-tb-megamenu-menu-bottom-menu div div div.nav-collapse {
+          display: block !important;
           visibility: visible;
           background-color: #d5d5d5;
           color: black;
@@ -96,28 +96,28 @@ body.not-logged-in {
           margin-top: 0px !important;
           z-index: 999999999 !important; }
           /* line 79, ../../../sass/layouts/angel/angel.layout.scss */
-          #block-tb-megamenu-menu-bottom-menu div div div.always-show button {
+          #block-tb-megamenu-menu-bottom-menu div div div.nav-collapse button {
             display: none !important; }
           /* line 80, ../../../sass/layouts/angel/angel.layout.scss */
-          #block-tb-megamenu-menu-bottom-menu div div div.always-show ul {
+          #block-tb-megamenu-menu-bottom-menu div div div.nav-collapse ul {
             background-color: #d5d5d5;
             color: black;
             display: block; }
             /* line 82, ../../../sass/layouts/angel/angel.layout.scss */
-            #block-tb-megamenu-menu-bottom-menu div div div.always-show ul li {
+            #block-tb-megamenu-menu-bottom-menu div div div.nav-collapse ul li {
               background-color: #d5d5d5;
               color: black;
               border: 0;
               padding-left: 1em; }
               /* line 87, ../../../sass/layouts/angel/angel.layout.scss */
-              #block-tb-megamenu-menu-bottom-menu div div div.always-show ul li span {
+              #block-tb-megamenu-menu-bottom-menu div div div.nav-collapse ul li span {
                 font-size: .8rem;
                 font-weight: bold;
                 border: 0;
                 display: block;
                 padding-left: 1em; }
               /* line 94, ../../../sass/layouts/angel/angel.layout.scss */
-              #block-tb-megamenu-menu-bottom-menu div div div.always-show ul li a {
+              #block-tb-megamenu-menu-bottom-menu div div div.nav-collapse ul li a {
                 border: 0;
                 text-decoration: none;
                 line-height: 1.2rem;
@@ -126,26 +126,26 @@ body.not-logged-in {
                 color: black;
                 background-image: none !important; }
                 /* line 101, ../../../sass/layouts/angel/angel.layout.scss */
-                #block-tb-megamenu-menu-bottom-menu div div div.always-show ul li a:hover {
+                #block-tb-megamenu-menu-bottom-menu div div div.nav-collapse ul li a:hover {
                   background-color: #d5d5d5;
                   color: #e54e4b; }
                 /* line 103, ../../../sass/layouts/angel/angel.layout.scss */
-                #block-tb-megamenu-menu-bottom-menu div div div.always-show ul li a:active {
+                #block-tb-megamenu-menu-bottom-menu div div div.nav-collapse ul li a:active {
                   background-color: #d5d5d5;
                   color: #e54e4b; }
               /* line 107, ../../../sass/layouts/angel/angel.layout.scss */
-              #block-tb-megamenu-menu-bottom-menu div div div.always-show ul li ul {
+              #block-tb-megamenu-menu-bottom-menu div div div.nav-collapse ul li ul {
                 background-color: #d5d5d5;
                 color: black; }
                 /* line 109, ../../../sass/layouts/angel/angel.layout.scss */
-                #block-tb-megamenu-menu-bottom-menu div div div.always-show ul li ul li {
+                #block-tb-megamenu-menu-bottom-menu div div div.nav-collapse ul li ul li {
                   background-color: #d5d5d5;
                   color: black;
                   padding-left: 0;
                   margin-left: -1em;
                   border: 0; }
                   /* line 114, ../../../sass/layouts/angel/angel.layout.scss */
-                  #block-tb-megamenu-menu-bottom-menu div div div.always-show ul li ul li a {
+                  #block-tb-megamenu-menu-bottom-menu div div div.nav-collapse ul li ul li a {
                     border: 0;
                     text-decoration: none;
                     line-height: 1.2rem;
@@ -154,11 +154,11 @@ body.not-logged-in {
                     color: black;
                     background-image: none !important; }
                     /* line 121, ../../../sass/layouts/angel/angel.layout.scss */
-                    #block-tb-megamenu-menu-bottom-menu div div div.always-show ul li ul li a:hover {
+                    #block-tb-megamenu-menu-bottom-menu div div div.nav-collapse ul li ul li a:hover {
                       background-color: #d5d5d5;
                       color: #e54e4b; }
                     /* line 123, ../../../sass/layouts/angel/angel.layout.scss */
-                    #block-tb-megamenu-menu-bottom-menu div div div.always-show ul li ul li a:active {
+                    #block-tb-megamenu-menu-bottom-menu div div div.nav-collapse ul li ul li a:active {
                       background-color: #d5d5d5;
                       color: #e54e4b; }
 
