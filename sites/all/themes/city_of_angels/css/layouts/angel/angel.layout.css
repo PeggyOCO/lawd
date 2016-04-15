@@ -3152,9 +3152,9 @@ clear: both;
   margin-top:28em;
   }*/
   /* line 2364, ../../../sass/layouts/angel/angel.layout.scss */
-  .button-primary {
-    background-color: none;
-    border: none; }
+  .projectdetails {
+    width: 30em !important;
+    margin: 0 auto !important; }
 
   /* line 2365, ../../../sass/layouts/angel/angel.layout.scss */
   #block-block-1 {
