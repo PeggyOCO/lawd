@@ -3234,9 +3234,11 @@ margin: 0 !important;} }*/
   /*****FORM*****/
   /* line 2402, ../../../sass/layouts/angel/angel.layout.scss */
   #webform-client-form-22 {
-    color: black; }
+    color: black;
+    text-align: center; }
     /* line 2402, ../../../sass/layouts/angel/angel.layout.scss */
     #webform-client-form-22 input {
+      border: 1px solid black;
       width: 20em;
       padding: .5em;
       font-size: 1.2em; } }
