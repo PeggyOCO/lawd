@@ -111,7 +111,7 @@ body > div{overflow-x:hidden;overflow-y:hidden;}
                       padding-left:0;
                       margin-left:-1em;
                       border:0;
-                          span{margin-top:-2em;}
+                          span:nth-child(2){margin-top:-2em;}
                           a{border:0;
                           text-decoration:none;
                           line-height:1.2rem;
