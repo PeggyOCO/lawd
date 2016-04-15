@@ -3275,7 +3275,8 @@ margin: 0 !important;} }*/
     /* line 2432, ../../../sass/layouts/angel/angel.layout.scss */
     #webform-client-form-22 label {
       width: 10em !important;
-      display: block; }
+      display: inline-block;
+      text-align: right; }
     /* line 2432, ../../../sass/layouts/angel/angel.layout.scss */
     #webform-client-form-22 input {
       border: 1px solid black;
