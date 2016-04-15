@@ -2354,12 +2354,40 @@ div.tb-megamenu-menu-bottom-menu{
 
 /******SITEWIDE****/
 
-#block-block-1{
+/*#block-block-1{
 text-align: center;
 position: relative;
 width:100%;
 margin-top:28em;
+}*/
+
+
+  #block-block-1{
+text-align: center;
+position: relative;
+width:100%;
+margin-top:28em;
+padding-bottom:1em;
+font-size:.75em;
 }
+
+  #socialnetworking{    
+    display: block;
+    position: absolute;
+    width: 30%;
+    height: auto;
+    right: 1em;
+    bottom: 1em;
+    border: 0px solid black;
+.socialitem{display:inline-block;
+float:left;
+width:20%;
+height:auto;
+margin-left:.5em;
+a img{width:100%;}
+}}
+
+
 
 p.small{font-size: .8em !important;
     text-align: left;
