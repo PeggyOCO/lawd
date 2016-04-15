@@ -3278,6 +3278,9 @@ margin: 0 !important;} }*/
       display: inline-block;
       text-align: right; }
     /* line 2432, ../../../sass/layouts/angel/angel.layout.scss */
+    #webform-client-form-22 textarea {
+      width: 25em; }
+    /* line 2432, ../../../sass/layouts/angel/angel.layout.scss */
     #webform-client-form-22 input {
       border: 1px solid black;
       width: 20em;
