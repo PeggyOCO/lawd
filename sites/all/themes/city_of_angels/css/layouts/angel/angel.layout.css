@@ -69,7 +69,7 @@ body.not-logged-in {
 
   /* line 73, ../../../sass/layouts/angel/angel.layout.scss */
   #block-tb-megamenu-menu-bottom-menu ul li:nth-child(2) span {
-    margin-top: -1em; }
+    margin-left: .3em; }
 
   /* line 75, ../../../sass/layouts/angel/angel.layout.scss */
   #block-tb-megamenu-menu-bottom-menu {
