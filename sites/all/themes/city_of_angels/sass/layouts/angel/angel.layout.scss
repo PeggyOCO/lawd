@@ -72,7 +72,7 @@ body > div{overflow-x:hidden;overflow-y:hidden;}
 
 
 
-#block-tb-megamenu-menu-bottom-menu{margin-left:1.5em;display:block;visibility:visible;background-color:#d5d5d5;color:black;
+#block-tb-megamenu-menu-bottom-menu{padding-left:1.5em;display:block;visibility:visible;background-color:#d5d5d5;color:black;
   div{background-color:#d5d5d5;color:black;
       div{background-color:#d5d5d5;color:black;
           div.always-show{display:block;visibility:visible;background-color:#d5d5d5;color:black;position:relative;margin-top: 0px !important;z-index: 999999999 !important;
@@ -84,7 +84,9 @@ body > div{overflow-x:hidden;overflow-y:hidden;}
                  border:0;
                  padding-left:1em;
                      span{font-size:.8rem;
-                        border:0;}
+                        border:0;
+                        display:block;
+                        padding-left:1em;}
                      a{border:0;
                      text-decoration:none;
                      line-height:1.2rem;
