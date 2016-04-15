@@ -70,6 +70,20 @@ body > div{overflow-x:hidden;overflow-y:hidden;}
 }
 
 
+div#block-tb-megamenu-menu-bottom-menu{
+ div div div ul {li:nth-child(1){
+               margin-left:.25em;}
+              li:nth-child(3){
+              margin-left:.25em;
+              margin-top:1.5em;
+               }
+               li:nth-child(4){
+               margin-left:.25em;
+               margin-top:1.5em;
+               }
+      }
+  }
+ 
 #block-tb-megamenu-menu-bottom-menu ul li:nth-child(2) span{margin-left:.3em;}
 #tb-megamenu-column-7{margin-top:-1.75em;}
 #block-tb-megamenu-menu-bottom-menu{padding-left:1.5em;display:block;visibility:visible;background-color:#d5d5d5;color:black;
