@@ -3292,7 +3292,7 @@ margin: 0 !important;} }*/
   /* line 2434, ../../../sass/layouts/angel/angel.layout.scss */
   div.form-actions .webform-submit {
     background-color: white;
-    width: 6em;
+    width: 6em !important;
     margin: 0 auto; } }
 
 /*# sourceMappingURL=angel.layout.css.map */
