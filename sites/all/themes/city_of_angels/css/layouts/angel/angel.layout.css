@@ -83,6 +83,8 @@ body.not-logged-in {
         color: black; }
         /* line 78, ../../../sass/layouts/angel/angel.layout.scss */
         #block-tb-megamenu-menu-bottom-menu div div div.always-show {
+          display: block;
+          visibility: visible;
           background-color: #d5d5d5;
           color: black;
           position: relative;
@@ -90,7 +92,7 @@ body.not-logged-in {
           z-index: 999999999 !important; }
           /* line 79, ../../../sass/layouts/angel/angel.layout.scss */
           #block-tb-megamenu-menu-bottom-menu div div div.always-show button {
-            display: none; }
+            display: none !important; }
           /* line 80, ../../../sass/layouts/angel/angel.layout.scss */
           #block-tb-megamenu-menu-bottom-menu div div div.always-show ul {
             background-color: #d5d5d5;
@@ -100,13 +102,14 @@ body.not-logged-in {
             #block-tb-megamenu-menu-bottom-menu div div div.always-show ul li {
               background-color: #d5d5d5;
               color: black;
-              border: 0; }
+              border: 0;
+              padding-left: 1em; }
               /* line 81, ../../../sass/layouts/angel/angel.layout.scss */
               #block-tb-megamenu-menu-bottom-menu div div div.always-show ul li a {
                 border: 0;
                 text-decoration: none;
                 line-height: 1.2rem;
-                font-size: 1rem;
+                font-size: .8rem;
                 background-color: #d5d5d5;
                 color: black;
                 background-image: none !important; }
@@ -126,12 +129,13 @@ body.not-logged-in {
                 #block-tb-megamenu-menu-bottom-menu div div div.always-show ul li ul li {
                   background-color: #d5d5d5;
                   color: black;
+                  padding-left: 0;
                   border: 0; }
                   /* line 85, ../../../sass/layouts/angel/angel.layout.scss */
                   #block-tb-megamenu-menu-bottom-menu div div div.always-show ul li ul li a {
                     border: 0;
                     text-decoration: none;
-                    line-height: 1.3rem;
+                    line-height: 1.2rem;
                     font-size: .8rem;
                     background-color: #d5d5d5;
                     color: black;
@@ -978,7 +982,7 @@ clear: both;
     margin-bottom: 0;
 }*/
   /* line 749, ../../../sass/layouts/angel/angel.layout.scss */
-  #block-tb-megamenu-menu-bottom-menu ul, #block-tb-megamenu-menu-bottom-menu li, #block-tb-megamenu-menu-bottom-menu span {
+  #block-tb-megamenu-menu-bottom-menu ul, #block-tb-megamenu-menu-bottom-menu li, #block-tb-megamenu-menu-bottom-menu span.tb_nolink {
     display: block;
     padding: 0;
     list-style-type: none;

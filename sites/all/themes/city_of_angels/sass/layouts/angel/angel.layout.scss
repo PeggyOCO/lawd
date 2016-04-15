@@ -75,14 +75,14 @@ body > div{overflow-x:hidden;overflow-y:hidden;}
 #block-tb-megamenu-menu-bottom-menu{display:block;visibility:visible;background-color:#d5d5d5;color:black;
   div{background-color:#d5d5d5;color:black;
       div{background-color:#d5d5d5;color:black;
-          div.always-show{background-color:#d5d5d5;color:black;position:relative;margin-top: 0px !important;z-index: 999999999 !important;
-              button{display:none;}
+          div.always-show{display:block;visibility:visible;background-color:#d5d5d5;color:black;position:relative;margin-top: 0px !important;z-index: 999999999 !important;
+              button{display:none !important;}
               ul{background-color:#d5d5d5;color:black;display:block;
-                li{background-color:#d5d5d5;color:black;border:0;a{border:0;text-decoration:none;line-height:1.2rem;font-size:1rem;background-color:#d5d5d5;color:black;background-image:none !important;
+                li{background-color:#d5d5d5;color:black;border:0;padding-left:1em;a{border:0;text-decoration:none;line-height:1.2rem;font-size:.8rem;background-color:#d5d5d5;color:black;background-image:none !important;
                                                 &:hover{background-color:#d5d5d5;color:#e54e4b;}
                                                 &:active{background-color:#d5d5d5;color:#e54e4b;}}
                       ul{background-color:#d5d5d5;color:black;
-                      li{background-color:#d5d5d5;color:black;border:0;a{border:0;text-decoration:none;line-height:1.3rem;font-size:.8rem;background-color:#d5d5d5;color:black;background-image:none !important;
+                      li{background-color:#d5d5d5;color:black;padding-left:0;border:0;a{border:0;text-decoration:none;line-height:1.2rem;font-size:.8rem;background-color:#d5d5d5;color:black;background-image:none !important;
                         &:hover{background-color:#d5d5d5;color:#e54e4b;}
                         &:active{background-color:#d5d5d5;color:#e54e4b;}}}
                       }
@@ -746,12 +746,12 @@ table.tablefield{width:80%;margin:0 auto;
 
 #block-tb-megamenu-menu-bottom-menu{
   
-  ul,li,span{
+  ul,li,span.tb_nolink{
   display:block;
   padding: 0;
   list-style-type: none;
   font-size:1em;
-  text-transform:capitalize;
+  text-transform: capitalize;
   background-color:#d5d5d5;}
     }
   }
