@@ -70,7 +70,7 @@ body > div{overflow-x:hidden;overflow-y:hidden;}
 }
 
 
-#block-tb-megamenu-menu-bottom-menu ul li ul li span.tb_nolink{margin-top:-1.5em;}
+#block-tb-megamenu-menu-bottom-menu ul li ul li span.tb_nolink:nth-child(2){margin-top:-1.5em;}
 
 #block-tb-megamenu-menu-bottom-menu{padding-left:1.5em;display:block;visibility:visible;background-color:#d5d5d5;color:black;
   div{background-color:#d5d5d5;color:black;

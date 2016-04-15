@@ -68,7 +68,7 @@ body.not-logged-in {
     display: none; }
 
   /* line 73, ../../../sass/layouts/angel/angel.layout.scss */
-  #block-tb-megamenu-menu-bottom-menu ul li ul li span.tb_nolink {
+  #block-tb-megamenu-menu-bottom-menu ul li ul li span.tb_nolink:nth-child(2) {
     margin-top: -1.5em; }
 
   /* line 75, ../../../sass/layouts/angel/angel.layout.scss */
