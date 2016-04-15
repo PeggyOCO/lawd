@@ -2994,6 +2994,7 @@ clear: both;
 
   /* line 2277, ../../../sass/layouts/angel/angel.layout.scss */
   #block-tb-megamenu-menu-bottom-menu a {
+    color: #666;
     background-color: transparent;
     text-decoration: none;
     border: 0;
