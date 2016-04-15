@@ -791,6 +791,29 @@ table.tablefield{width:80%;margin:0 auto;
     }
   }
   
+  #block-block-1{
+text-align: center;
+position: relative;
+width:100%;
+margin-top:8em;
+}
+
+  #socialnetworking{    
+    display: block;
+    position: absolute;
+    width: 30%;
+    height: auto;
+    right: 1em;
+    bottom: 1em;
+    border: 0px solid black;
+.socialitem{display:inline-block;
+float:left;
+width:12%;
+height:auto;
+margin-left:.5em;
+a img{width:100%;}
+}}
+  
 #block-tb-megamenu-menu-bottom-menu div div div.nav-collapse{display:block !important;}
 
 //************end phone************//
