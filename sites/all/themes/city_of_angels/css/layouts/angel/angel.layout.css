@@ -68,20 +68,14 @@ body.not-logged-in {
     display: none; }
 
   /* line 74, ../../../sass/layouts/angel/angel.layout.scss */
-  div#block-tb-megamenu-menu-bottom-menu div div div ul {
-    background-color: pink; }
-    /* line 74, ../../../sass/layouts/angel/angel.layout.scss */
-    div#block-tb-megamenu-menu-bottom-menu div div div ul li:nth-child(3) {
-      margin-left: 0;
-      margin-top: -1.5em; }
+  div#block-tb-megamenu-menu-bottom-menu div div div ul li:nth-child(3) {
+    margin-left: 0;
+    margin-top: -1.5em; }
 
   /* line 82, ../../../sass/layouts/angel/angel.layout.scss */
-  div#block-tb-megamenu-menu-bottom-menu div div div ul li ul {
-    background-color: pink; }
-    /* line 82, ../../../sass/layouts/angel/angel.layout.scss */
-    div#block-tb-megamenu-menu-bottom-menu div div div ul li ul li:nth-child(3) {
-      margin-left: -1em;
-      margin-top: 0; }
+  div#block-tb-megamenu-menu-bottom-menu div div div ul li ul li:nth-child(3) {
+    margin-left: -1em;
+    margin-top: 0; }
 
   /* line 89, ../../../sass/layouts/angel/angel.layout.scss */
   #block-tb-megamenu-menu-bottom-menu ul li:nth-child(2) span {
