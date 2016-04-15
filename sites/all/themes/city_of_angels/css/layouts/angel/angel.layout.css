@@ -3156,7 +3156,7 @@ clear: both;
     text-align: center;
     position: relative;
     width: 100%;
-    margin-top: 28em;
+    margin-top: 35em;
     padding-bottom: 1em;
     font-size: .75em; }
 
@@ -3173,7 +3173,7 @@ clear: both;
     #socialnetworking .socialitem {
       display: inline-block;
       float: left;
-      width: 20%;
+      width: 10%;
       height: auto;
       margin-left: .5em; }
       /* line 2387, ../../../sass/layouts/angel/angel.layout.scss */
