@@ -200,6 +200,8 @@ var navCollapse = $('#block-tb-megamenu-menu-bottom-menu div .tb-megamenu').chil
         navCollapse.css({height: 'auto', overflow: 'visible'});
 }
 
+$('#block-tb-megamenu-menu-bottom-menu div .tb-megamenu').parent().toggleClass('responsive-toggled');
+
 });
 
 })(jQuery);
