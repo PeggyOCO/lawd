@@ -3158,9 +3158,10 @@ clear: both;
     width: 100%;
     margin-top: 35em;
     padding-bottom: 1em;
-    font-size: .75em; }
+    font-size: .75em;
+    z-index: 9999; }
 
-  /* line 2374, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2375, ../../../sass/layouts/angel/angel.layout.scss */
   #socialnetworking {
     display: block;
     position: absolute;
@@ -3169,23 +3170,23 @@ clear: both;
     right: 1em;
     bottom: 1em;
     border: 0px solid black; }
-    /* line 2382, ../../../sass/layouts/angel/angel.layout.scss */
+    /* line 2384, ../../../sass/layouts/angel/angel.layout.scss */
     #socialnetworking .socialitem {
       display: inline-block;
       float: left;
       width: 10%;
       height: auto;
       margin-left: .5em; }
-      /* line 2387, ../../../sass/layouts/angel/angel.layout.scss */
+      /* line 2389, ../../../sass/layouts/angel/angel.layout.scss */
       #socialnetworking .socialitem a img {
         width: 100%; }
 
-  /* line 2392, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2394, ../../../sass/layouts/angel/angel.layout.scss */
   p.small {
     font-size: .8em !important;
     text-align: left;
     line-height: 1.5em; }
-    /* line 2395, ../../../sass/layouts/angel/angel.layout.scss */
+    /* line 2397, ../../../sass/layouts/angel/angel.layout.scss */
     p.small:first-child {
       padding-top: 2em; }
 
@@ -3195,41 +3196,41 @@ padding-top: 5em !important;
 padding-bottom: 0 !important;
 margin: 0 !important;} }*/
   /******CUSTOM ENTITIES*****/
-  /* line 2407, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2409, ../../../sass/layouts/angel/angel.layout.scss */
   div.entity-squarenav h2 {
     visibility: hidden;
     height: 1px; }
 
-  /* line 2408, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2410, ../../../sass/layouts/angel/angel.layout.scss */
   table.sticky-header {
     display: none; }
 
-  /* line 2409, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2411, ../../../sass/layouts/angel/angel.layout.scss */
   .field-name-field-stats {
     margin-bottom: -3em;
     background-color: #d5d5d5; }
 
-  /* line 2410, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2412, ../../../sass/layouts/angel/angel.layout.scss */
   .tablefield-wrapper {
     width: 100%;
     background-color: #d5d5d5;
     padding: 1em 0 2em 0;
     margin-bottom: -3em; }
 
-  /* line 2411, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2413, ../../../sass/layouts/angel/angel.layout.scss */
   table.tablefield {
     width: 80%;
     margin: 0 auto; }
-    /* line 2412, ../../../sass/layouts/angel/angel.layout.scss */
+    /* line 2414, ../../../sass/layouts/angel/angel.layout.scss */
     table.tablefield tr.even, table.tablefield tr.odd, table.tablefield tbody, table.tablefield thead, table.tablefield th {
       background-color: transparent;
       color: #828282;
       font-size: 1.2em; }
-    /* line 2413, ../../../sass/layouts/angel/angel.layout.scss */
+    /* line 2415, ../../../sass/layouts/angel/angel.layout.scss */
     table.tablefield td, table.tablefield th {
       height: 1.2em !important;
       vertical-align: middle; }
-    /* line 2414, ../../../sass/layouts/angel/angel.layout.scss */
+    /* line 2416, ../../../sass/layouts/angel/angel.layout.scss */
     table.tablefield th {
       font-size: 1.2em;
       color: #c74c4f;
@@ -3238,33 +3239,33 @@ margin: 0 !important;} }*/
       height: 1.2em !important; }
 
   /*******LANDING PAGES*******/
-  /* line 2423, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2425, ../../../sass/layouts/angel/angel.layout.scss */
   h4.landing-heading {
     color: #666;
     font-size: 1.5em;
     margin: 0;
     padding: 0; }
 
-  /* line 2424, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2426, ../../../sass/layouts/angel/angel.layout.scss */
   p.landing-par {
     color: #666;
     font-size: 1.25em; }
 
-  /* line 2425, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2427, ../../../sass/layouts/angel/angel.layout.scss */
   .bottompadding {
     padding-bottom: 1.5em; }
 
-  /* line 2426, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2428, ../../../sass/layouts/angel/angel.layout.scss */
   article.node--landingpages ul {
     text-indent: 1em;
     font-size: 1.25em; }
 
   /*****FORM*****/
-  /* line 2430, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2432, ../../../sass/layouts/angel/angel.layout.scss */
   #webform-client-form-22 {
     color: black;
     text-align: center; }
-    /* line 2430, ../../../sass/layouts/angel/angel.layout.scss */
+    /* line 2432, ../../../sass/layouts/angel/angel.layout.scss */
     #webform-client-form-22 input {
       border: 1px solid black;
       width: 20em;
