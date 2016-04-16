@@ -1923,6 +1923,9 @@ clear: both;
   .page-node-65 h3 {
     font-size: 1.4em;
     text-align: center; }
+  /* line 1497, ../../../sass/layouts/angel/angel.layout.scss */
+  .page-node-65 ul li {
+    font-size: 1.4em; }
 
   /* line 1501, ../../../sass/layouts/angel/angel.layout.scss */
   .page-node-35 div div div div.node--projectdetail div div div.field-collection-view:nth-child(2) {
