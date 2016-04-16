@@ -202,6 +202,16 @@ var navCollapse = $('#block-tb-megamenu-menu-bottom-menu div .tb-megamenu').chil
 
 $('#block-tb-megamenu-menu-bottom-menu div .tb-megamenu').parent().toggleClass('responsive-toggled');
 
+$('.blurb, .blurblinks').each(function(i, item) {
+    var blurb = $(item).height();
+var wrapper = $('.field--name-field-blurb').height();
+    if(blurb<wrapper){
+        //ITEM IS SHORTER THAN CONTAINER HEIGHT - CENTER IT VERTICALLY
+        var newMargin = (wrapper-blurb)/2+'px';
+        $(item).css({'margin-top': newMargin });
+    }
+});
+
 });
 
 })(jQuery);
