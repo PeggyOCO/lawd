@@ -1924,7 +1924,7 @@ clear: both;
     font-size: 1.4em;
     text-align: center; }
   /* line 1497, ../../../sass/layouts/angel/angel.layout.scss */
-  .page-node-65 ul li {
+  .page-node-65 ul p, .page-node-65 li {
     font-size: 1.4em; }
 
   /* line 1501, ../../../sass/layouts/angel/angel.layout.scss */
