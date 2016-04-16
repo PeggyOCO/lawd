@@ -1923,18 +1923,19 @@ clear: both;
   .page-node-65 h3 {
     font-size: 1.4em;
     text-align: center; }
-  /* line 1497, ../../../sass/layouts/angel/angel.layout.scss */
-  .page-node-65 ul li, .page-node-65 ul p {
+
+  /* line 1498, ../../../sass/layouts/angel/angel.layout.scss */
+  .page-node-65 ul li {
     font-size: 1.4em; }
 
-  /* line 1501, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1502, ../../../sass/layouts/angel/angel.layout.scss */
   .page-node-35 div div div div.node--projectdetail div div div.field-collection-view:nth-child(2) {
     /*height:85vw !important;*/ }
-  /* line 1505, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1506, ../../../sass/layouts/angel/angel.layout.scss */
   .page-node-35 div div div div.node--projectdetail div div div.field-collection-view-final {
     height: 57vw !important; }
 
-  /* line 1511, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1512, ../../../sass/layouts/angel/angel.layout.scss */
   .field--name-field-square-ref {
     height: 50vw;
     background-color: #fff;
@@ -1942,36 +1943,36 @@ clear: both;
     padding: 0;
     border: 0; }
 
-  /* line 1514, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1515, ../../../sass/layouts/angel/angel.layout.scss */
   .field-name-field-detailrowtitle {
     font-size: 2rem;
     padding-top: 3rem; }
 
-  /* line 1515, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1516, ../../../sass/layouts/angel/angel.layout.scss */
   .centered40 {
     width: 40%;
     margin: 0 auto;
     font-size: 1.5rem; }
 
-  /* line 1519, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1520, ../../../sass/layouts/angel/angel.layout.scss */
   .tb-megamenu .dropdown-menu li {
     width: auto !important; }
 
-  /* line 1525, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1526, ../../../sass/layouts/angel/angel.layout.scss */
   body.node-type-projectdetail div div div div.ds-1col div {
     -webkit-flex: 1;
     flex: 1;
     z-index: 1;
     -webkit-flex-direction: column;
     flex-direction: column; }
-    /* line 1527, ../../../sass/layouts/angel/angel.layout.scss */
+    /* line 1528, ../../../sass/layouts/angel/angel.layout.scss */
     body.node-type-projectdetail div div div div.ds-1col div a div {
       width: 100% !important;
       height: 100% !important;
       margin: 0;
       padding: 0; }
 
-  /* line 1534, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1535, ../../../sass/layouts/angel/angel.layout.scss */
   .page-node-35 div div div div.ds-1col div div div:last-child div div.field-name-field-detailrowcontent {
     padding-top: 2rem;
     margin: 0;
@@ -1981,7 +1982,7 @@ clear: both;
 
   /**END Project Detail page**/
   /**Begin home page**/
-  /* line 1538, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1539, ../../../sass/layouts/angel/angel.layout.scss */
   .field--name-field-left {
     -webkit-flex: 1;
     flex: 1;
@@ -1992,7 +1993,7 @@ clear: both;
     height: 25vw;
     background-color: #47bdbf; }
 
-  /* line 1549, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1550, ../../../sass/layouts/angel/angel.layout.scss */
   .field--name-field-right {
     -webkit-flex: 1;
     flex: 1;
@@ -2001,14 +2002,14 @@ clear: both;
     height: 25vw;
     border-bottom: 1px solid #666;
     background-color: #fff; }
-    /* line 1557, ../../../sass/layouts/angel/angel.layout.scss */
+    /* line 1558, ../../../sass/layouts/angel/angel.layout.scss */
     .field--name-field-right div {
       width: 100%; }
-      /* line 1559, ../../../sass/layouts/angel/angel.layout.scss */
+      /* line 1560, ../../../sass/layouts/angel/angel.layout.scss */
       .field--name-field-right div div .item {
         width: 100%; }
 
-  /* line 1566, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1567, ../../../sass/layouts/angel/angel.layout.scss */
   .scrim {
     background-color: rgba(0, 0, 0, 0.4);
     -webkit-flex: 1;
@@ -2022,68 +2023,68 @@ clear: both;
     width: 100%;
     height: 100%;
     z-index: 9999; }
-    /* line 1578, ../../../sass/layouts/angel/angel.layout.scss */
+    /* line 1579, ../../../sass/layouts/angel/angel.layout.scss */
     .scrim h4 {
       padding-top: 5%; }
 
-  /* line 1586, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1587, ../../../sass/layouts/angel/angel.layout.scss */
   .bottomleft {
     display: none;
     margin-top: 10%;
     font-size: 1rem;
     margin-left: 2rem; }
-    /* line 1590, ../../../sass/layouts/angel/angel.layout.scss */
+    /* line 1591, ../../../sass/layouts/angel/angel.layout.scss */
     .bottomleft p a {
       text-decoration: none;
       color: #d25333; }
-      /* line 1592, ../../../sass/layouts/angel/angel.layout.scss */
+      /* line 1593, ../../../sass/layouts/angel/angel.layout.scss */
       .bottomleft p a:hover {
         color: #ac4126; }
-    /* line 1597, ../../../sass/layouts/angel/angel.layout.scss */
+    /* line 1598, ../../../sass/layouts/angel/angel.layout.scss */
     .bottomleft p:last-child {
       font-weight: 600; }
 
-  /* line 1599, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1600, ../../../sass/layouts/angel/angel.layout.scss */
   .middle {
     padding-top: 10%; }
 
   /**end home page**/
-  /* line 1602, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1603, ../../../sass/layouts/angel/angel.layout.scss */
   .node__submitted {
     display: none; }
 
-  /* line 1606, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1607, ../../../sass/layouts/angel/angel.layout.scss */
   .fred {
     color: #d25333; }
 
-  /* line 1607, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1608, ../../../sass/layouts/angel/angel.layout.scss */
   .white {
     color: #fff; }
 
-  /* line 1608, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1609, ../../../sass/layouts/angel/angel.layout.scss */
   .single {
     font-size: 1.1em; }
 
-  /* line 1609, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1610, ../../../sass/layouts/angel/angel.layout.scss */
   .double {
     font-size: 1em; }
 
-  /* line 1611, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1612, ../../../sass/layouts/angel/angel.layout.scss */
   .fourtop {
     margin-top: 4em; }
 
-  /* line 1612, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1613, ../../../sass/layouts/angel/angel.layout.scss */
   .leftbottom {
     position: absolute;
     left: 10%;
     bottom: 5%;
     z-index: 999999; }
 
-  /* line 1616, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1617, ../../../sass/layouts/angel/angel.layout.scss */
   .l-content h1 {
     display: none; }
 
-  /* line 1617, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1618, ../../../sass/layouts/angel/angel.layout.scss */
   .top {
     display: block;
     width: 100%;
@@ -2097,7 +2098,7 @@ clear: both;
     width: 100vw !important;
     margin-top: -2.3em; }
 
-  /* line 1629, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1630, ../../../sass/layouts/angel/angel.layout.scss */
   .hometop {
     display: block;
     margin-top: -1em;
@@ -2110,7 +2111,7 @@ clear: both;
     background-size: cover;
     height: 42vw; }
 
-  /* line 1640, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1641, ../../../sass/layouts/angel/angel.layout.scss */
   .flex-colstretch {
     display: flex;
     display: -ms-flexbox;
@@ -2124,13 +2125,13 @@ clear: both;
     border: 0px dotted red;
     min-height: 900px; }
 
-  /* line 1654, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1655, ../../../sass/layouts/angel/angel.layout.scss */
   .flex-colstretchnoheight {
     display: flex;
     flex-direction: column;
     border: 0px dotted red; }
 
-  /* line 1659, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1660, ../../../sass/layouts/angel/angel.layout.scss */
   section {
     position: relative;
     display: flex;
@@ -2138,7 +2139,7 @@ clear: both;
     min-height: 20em;
     align-items: stretch; }
 
-  /* line 1660, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1661, ../../../sass/layouts/angel/angel.layout.scss */
   section.quad {
     position: relative;
     display: flex;
@@ -2146,11 +2147,11 @@ clear: both;
     min-height: 10em;
     align-items: stretch; }
 
-  /* line 1661, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1662, ../../../sass/layouts/angel/angel.layout.scss */
   .teal {
     background-color: #47bdbf; }
 
-  /* line 1662, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1663, ../../../sass/layouts/angel/angel.layout.scss */
   .red {
     color: #d35232;
     letter-spacing: 1px;
@@ -2160,28 +2161,28 @@ clear: both;
     display: block;
     text-align: left; }
 
-  /* line 1663, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1664, ../../../sass/layouts/angel/angel.layout.scss */
   .center {
     text-align: center;
     width: 100%; }
 
-  /* line 1664, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1665, ../../../sass/layouts/angel/angel.layout.scss */
   .white.center {
     font-size: 1.5rem; }
 
-  /* line 1665, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1666, ../../../sass/layouts/angel/angel.layout.scss */
   p.frontblack {
     font-size: 1em;
     color: black;
     width: 80%;
     margin: 0 auto; }
 
-  /* line 1666, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1667, ../../../sass/layouts/angel/angel.layout.scss */
   p.frontwhite {
     font-size: 1.5em;
     color: white; }
 
-  /* line 1667, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1668, ../../../sass/layouts/angel/angel.layout.scss */
   .item {
     box-sizing: content-box;
     width: 25%;
@@ -2190,14 +2191,14 @@ clear: both;
     background-color: #fff;
     min-height: 8em; }
 
-  /* line 1671, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1672, ../../../sass/layouts/angel/angel.layout.scss */
   .item2 {
     box-sizing: content-box;
     -webkit-flex: 2 1 0;
     flex: 2 1 0;
     min-height: 8em; }
 
-  /* line 1676, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1677, ../../../sass/layouts/angel/angel.layout.scss */
   .itemquad {
     box-sizing: content-box;
     width: 25%;
@@ -2207,7 +2208,7 @@ clear: both;
     background-color: #fff;
     min-height: 4em; }
 
-  /* line 1677, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1678, ../../../sass/layouts/angel/angel.layout.scss */
   .itemquad2 {
     box-sizing: content-box;
     flex-grow: 2;
@@ -2215,7 +2216,7 @@ clear: both;
     flex-basis: 0;
     min-height: 4em; }
 
-  /* line 1679, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1680, ../../../sass/layouts/angel/angel.layout.scss */
   p.first {
     width: 75%;
     margin: 13% auto;
@@ -2223,45 +2224,45 @@ clear: both;
     font-size: 1.85vw;
     vertical-align: middle; }
 
-  /* line 1680, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1681, ../../../sass/layouts/angel/angel.layout.scss */
   .breadcrumb {
     display: none; }
 
-  /* line 1683, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1684, ../../../sass/layouts/angel/angel.layout.scss */
   .item img {
     width: 100%; }
 
-  /* line 1684, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1685, ../../../sass/layouts/angel/angel.layout.scss */
   .item2 img {
     width: 100%; }
 
-  /* line 1685, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1686, ../../../sass/layouts/angel/angel.layout.scss */
   .itemquad img {
     width: 100%; }
 
-  /* line 1686, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1687, ../../../sass/layouts/angel/angel.layout.scss */
   .itemquad2 img {
     width: 100%; }
 
-  /* line 1687, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1688, ../../../sass/layouts/angel/angel.layout.scss */
   .centerbox {
     width: 100%;
     margin: 0 auto; }
-    /* line 1688, ../../../sass/layouts/angel/angel.layout.scss */
+    /* line 1689, ../../../sass/layouts/angel/angel.layout.scss */
     .centerbox h4.red {
       width: 80%;
       margin: 0 auto; }
-    /* line 1690, ../../../sass/layouts/angel/angel.layout.scss */
+    /* line 1691, ../../../sass/layouts/angel/angel.layout.scss */
     .centerbox p {
       text-align: left; }
 
-  /* line 1693, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1694, ../../../sass/layouts/angel/angel.layout.scss */
   .middlecenter {
     width: 80%;
     margin: 22% auto;
     height: auto;
     text-align: center; }
-    /* line 1697, ../../../sass/layouts/angel/angel.layout.scss */
+    /* line 1698, ../../../sass/layouts/angel/angel.layout.scss */
     .middlecenter .gray {
       color: #555;
       font-size: 1.1em;
@@ -2270,7 +2271,7 @@ clear: both;
       text-align: left;
       padding-left: 2em;
       padding-bottom: 1.5em; }
-    /* line 1702, ../../../sass/layouts/angel/angel.layout.scss */
+    /* line 1703, ../../../sass/layouts/angel/angel.layout.scss */
     .middlecenter ul#twolist {
       list-style-type: none;
       color: #d15232;
@@ -2278,14 +2279,14 @@ clear: both;
       margin: 0 auto;
       text-align: left;
       font-size: 1.1em; }
-      /* line 1708, ../../../sass/layouts/angel/angel.layout.scss */
+      /* line 1709, ../../../sass/layouts/angel/angel.layout.scss */
       .middlecenter ul#twolist li a {
         color: #c4112f;
         text-decoration: none;
         display: block;
         padding: .25em 0; }
 
-  /* line 1713, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1714, ../../../sass/layouts/angel/angel.layout.scss */
   footer {
     height: 35em;
     background-color: #d5d5d5;
@@ -2296,7 +2297,7 @@ clear: both;
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: 14vw 15px, 55vw 15px, 70vw 15px; }
 
-  /* line 1727, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1728, ../../../sass/layouts/angel/angel.layout.scss */
   #socialnetworking {
     display: block;
     position: absolute;
@@ -2305,23 +2306,23 @@ clear: both;
     right: 1em;
     bottom: 1em;
     border: 0px solid black; }
-    /* line 1735, ../../../sass/layouts/angel/angel.layout.scss */
+    /* line 1736, ../../../sass/layouts/angel/angel.layout.scss */
     #socialnetworking .socialitem {
       display: inline-block;
       float: left;
       width: 12%;
       height: auto;
       margin-left: .5em; }
-      /* line 1740, ../../../sass/layouts/angel/angel.layout.scss */
+      /* line 1741, ../../../sass/layouts/angel/angel.layout.scss */
       #socialnetworking .socialitem a img {
         width: 100%; }
 
-  /* line 1743, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1744, ../../../sass/layouts/angel/angel.layout.scss */
   .l-region--footer {
     height: 35em;
     position: relative; }
 
-  /* line 1745, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1746, ../../../sass/layouts/angel/angel.layout.scss */
   .l-region--branding {
     width: 70%;
     position: absolute;
@@ -2332,10 +2333,10 @@ clear: both;
     padding-left: 15%;
     /* border:1px dotted red;*/ }
 
-  /* line 1756, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1757, ../../../sass/layouts/angel/angel.layout.scss */
   #block-system-main-menu .menu {
     list-style-type: none; }
-    /* line 1757, ../../../sass/layouts/angel/angel.layout.scss */
+    /* line 1758, ../../../sass/layouts/angel/angel.layout.scss */
     #block-system-main-menu .menu li {
       list-style-type: none;
       display: inline-block;
@@ -2343,11 +2344,11 @@ clear: both;
       margin: 0;
       text-transform: uppercase;
       letter-spacing: none; }
-      /* line 1758, ../../../sass/layouts/angel/angel.layout.scss */
+      /* line 1759, ../../../sass/layouts/angel/angel.layout.scss */
       #block-system-main-menu .menu li a {
         text-transform: uppercase; }
 
-  /* line 1761, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1762, ../../../sass/layouts/angel/angel.layout.scss */
   .site-logo {
     display: inline-block;
     float: left;
@@ -2356,36 +2357,36 @@ clear: both;
     margin-left: 50px;
     margin-top: 15px; }
 
-  /* line 1770, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1771, ../../../sass/layouts/angel/angel.layout.scss */
   .aboutimg {
     margin: .4em .3em 0 -.1em;
     border: 1px solid #000; }
 
-  /* line 1771, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1772, ../../../sass/layouts/angel/angel.layout.scss */
   .site-logo img {
     height: auto; }
 
-  /* line 1772, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1773, ../../../sass/layouts/angel/angel.layout.scss */
   article.node--services {
     position: relative;
     margin-top: 0; }
-    /* line 1773, ../../../sass/layouts/angel/angel.layout.scss */
+    /* line 1774, ../../../sass/layouts/angel/angel.layout.scss */
     article.node--services h3 {
       font-size: 1.85em;
       font-weight: 400; }
-    /* line 1774, ../../../sass/layouts/angel/angel.layout.scss */
+    /* line 1775, ../../../sass/layouts/angel/angel.layout.scss */
     article.node--services ul li {
       font-size: 1.5em;
       font-weight: 400;
       margin: 5px 0; }
 
-  /* line 1776, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1777, ../../../sass/layouts/angel/angel.layout.scss */
   img[alt="Top picture"] {
     position: relative;
     margin-top: 0;
     margin-left: 0; }
 
-  /* line 1778, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1779, ../../../sass/layouts/angel/angel.layout.scss */
   div.sig {
     display: block;
     clear: both;
@@ -2399,7 +2400,7 @@ clear: both;
     width: 50%;
     margin-left: 50%; }
 
-  /* line 1792, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1793, ../../../sass/layouts/angel/angel.layout.scss */
   .field--name-field-blurb {
     border: 0px dotted green;
     display: block;
@@ -2411,7 +2412,7 @@ clear: both;
     padding: 2em;
     color: #fff;
     vertical-align: middle; }
-    /* line 1803, ../../../sass/layouts/angel/angel.layout.scss */
+    /* line 1804, ../../../sass/layouts/angel/angel.layout.scss */
     .field--name-field-blurb ul {
       display: inline-block;
       border: 0px dotted red;
@@ -2421,19 +2422,19 @@ clear: both;
       width: 35%;
       height: 100%;
       list-style: none; }
-      /* line 1812, ../../../sass/layouts/angel/angel.layout.scss */
+      /* line 1813, ../../../sass/layouts/angel/angel.layout.scss */
       .field--name-field-blurb ul li {
         margin: 5px 0; }
-        /* line 1814, ../../../sass/layouts/angel/angel.layout.scss */
+        /* line 1815, ../../../sass/layouts/angel/angel.layout.scss */
         .field--name-field-blurb ul li a {
           color: #fff;
           text-decoration: none;
           font-size: 1em;
           font-weight: 400; }
-        /* line 1818, ../../../sass/layouts/angel/angel.layout.scss */
+        /* line 1819, ../../../sass/layouts/angel/angel.layout.scss */
         .field--name-field-blurb ul li a:hover {
           color: #c4112f; }
-    /* line 1822, ../../../sass/layouts/angel/angel.layout.scss */
+    /* line 1823, ../../../sass/layouts/angel/angel.layout.scss */
     .field--name-field-blurb p {
       border: 0px dotted blue;
       width: 64%;
@@ -2446,7 +2447,7 @@ clear: both;
       height: 100%;
       vertical-align: middle;
       padding: 0; }
-      /* line 1834, ../../../sass/layouts/angel/angel.layout.scss */
+      /* line 1835, ../../../sass/layouts/angel/angel.layout.scss */
       .field--name-field-blurb p span {
         display: block;
         width: 100%;
@@ -2458,13 +2459,13 @@ clear: both;
         padding-right: 7em;
         letter-spacing: normal; }
 
-  /* line 1849, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1850, ../../../sass/layouts/angel/angel.layout.scss */
   .entity-field-collection-item {
     height: 25vw;
     width: 100%;
     /*margin-top:-10px !important;*/ }
 
-  /* line 1854, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1855, ../../../sass/layouts/angel/angel.layout.scss */
   div.node--projects div.field-collection-container div div.entity-field-collection-item {
     height: auto;
     width: 100%; }
@@ -2487,82 +2488,82 @@ clear: both;
   
   }
   }*/
-  /* line 1880, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1881, ../../../sass/layouts/angel/angel.layout.scss */
   .field--name-field-twobig-two-left,
   .field--name-field-twobig-two-right {
     width: 50%;
     display: inline-block;
     float: left;
     height: 34vw; }
-    /* line 1886, ../../../sass/layouts/angel/angel.layout.scss */
+    /* line 1887, ../../../sass/layouts/angel/angel.layout.scss */
     .field--name-field-twobig-two-left img,
     .field--name-field-twobig-two-right img {
       width: 100%; }
 
-  /* line 1891, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1892, ../../../sass/layouts/angel/angel.layout.scss */
   .field-collection-item-field-twobig-four .content .field-collection-container {
     width: 50% !important;
     display: inline-block;
     float: left;
     height: 34vw;
     border: 0px dotted red; }
-    /* line 1898, ../../../sass/layouts/angel/angel.layout.scss */
+    /* line 1899, ../../../sass/layouts/angel/angel.layout.scss */
     .field-collection-item-field-twobig-four .content .field-collection-container div div.field--type-image {
       width: 50%;
       float: left;
       height: 17vw; }
-      /* line 1902, ../../../sass/layouts/angel/angel.layout.scss */
+      /* line 1903, ../../../sass/layouts/angel/angel.layout.scss */
       .field-collection-item-field-twobig-four .content .field-collection-container div div.field--type-image img {
         width: 100% !important; }
-  /* line 1906, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1907, ../../../sass/layouts/angel/angel.layout.scss */
   .field-collection-item-field-twobig-four .field--name-field-rightbig {
     width: 50%;
     display: inline-block;
     float: left;
     height: 34vw;
     overflow: hidden; }
-    /* line 1906, ../../../sass/layouts/angel/angel.layout.scss */
+    /* line 1907, ../../../sass/layouts/angel/angel.layout.scss */
     .field-collection-item-field-twobig-four .field--name-field-rightbig img {
       width: 100%; }
 
-  /* line 1912, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1913, ../../../sass/layouts/angel/angel.layout.scss */
   .field-name-field-twobig .field-collection-view:first-child {
     height: 34vw; }
-  /* line 1913, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1914, ../../../sass/layouts/angel/angel.layout.scss */
   .field-name-field-twobig .field-collection-view-final {
     height: 34vw; }
 
-  /* line 1917, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1918, ../../../sass/layouts/angel/angel.layout.scss */
   .field--name-field-twobig-two-left .field__items .field__item a div {
     width: 100% !important;
     height: 34vw !important; }
 
-  /* line 1920, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1921, ../../../sass/layouts/angel/angel.layout.scss */
   .field--name-field-twobig-two-right .field__items .field__item a div {
     width: 100% !important;
     height: 34vw !important; }
 
-  /* line 1923, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1924, ../../../sass/layouts/angel/angel.layout.scss */
   .field--name-field-fourup-one .field__items .field__item a div, .field--name-field-fourup-two .field__items .field__item a div, .field--name-field-fourup-three .field__items .field__item a div, .field--name-field-fourup-four .field__items .field__item a div {
     width: 100% !important;
     height: 17vw !important; }
 
-  /* line 1926, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1927, ../../../sass/layouts/angel/angel.layout.scss */
   .field--name-field-rightbig .field__items .field__item a div {
     width: 100% !important;
     height: 34vw !important; }
 
-  /* line 1929, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1930, ../../../sass/layouts/angel/angel.layout.scss */
   .field--name-body {
     width: 50%;
     margin: 3em auto;
     color: #666; }
-    /* line 1932, ../../../sass/layouts/angel/angel.layout.scss */
+    /* line 1933, ../../../sass/layouts/angel/angel.layout.scss */
     .field--name-body div div h2 {
       text-align: center;
       font-size: 2em;
       color: #666; }
-    /* line 1935, ../../../sass/layouts/angel/angel.layout.scss */
+    /* line 1936, ../../../sass/layouts/angel/angel.layout.scss */
     .field--name-body div div p.services-par {
       text-align: left;
       margin: 1em 0;
@@ -2570,28 +2571,28 @@ clear: both;
       line-height: 1.3em;
       text-align: left;
       color: #666; }
-    /* line 1943, ../../../sass/layouts/angel/angel.layout.scss */
+    /* line 1944, ../../../sass/layouts/angel/angel.layout.scss */
     .field--name-body div div p.services-par:last-child {
       padding-bottom: 1.5em; }
-    /* line 1944, ../../../sass/layouts/angel/angel.layout.scss */
+    /* line 1945, ../../../sass/layouts/angel/angel.layout.scss */
     .field--name-body div div div h4 {
       font-weight: normal;
       font-size: 1.75em;
       margin-bottom: 0;
       padding-bottom: 0; }
-    /* line 1945, ../../../sass/layouts/angel/angel.layout.scss */
+    /* line 1946, ../../../sass/layouts/angel/angel.layout.scss */
     .field--name-body div div div ul {
       list-style-type: none; }
-      /* line 1946, ../../../sass/layouts/angel/angel.layout.scss */
+      /* line 1947, ../../../sass/layouts/angel/angel.layout.scss */
       .field--name-body div div div ul li {
         font-size: 1.75em;
         margin-left: 1.5em; }
 
-  /* line 1952, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1953, ../../../sass/layouts/angel/angel.layout.scss */
   article.node--article .field--name-body {
     width: 100%; }
 
-  /* line 1954, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1955, ../../../sass/layouts/angel/angel.layout.scss */
   p.services-parcenter {
     margin: 1em 0;
     font-size: 1.75em;
@@ -2599,13 +2600,13 @@ clear: both;
     text-align: center;
     color: #666; }
 
-  /* line 1962, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1963, ../../../sass/layouts/angel/angel.layout.scss */
   div.copyright {
     width: 100%;
     text-align: center;
     font-size: .7em; }
 
-  /* line 1967, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1968, ../../../sass/layouts/angel/angel.layout.scss */
   div.centered {
     text-align: center;
     font-size: 1.5em;
@@ -2614,7 +2615,7 @@ clear: both;
     width: 98%;
     margin: 0 auto; }
 
-  /* line 1975, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1976, ../../../sass/layouts/angel/angel.layout.scss */
   li.bottommain .tb-megamenu-submenu {
     height: 20em; }
 
@@ -2635,7 +2636,7 @@ clear: both;
       height:3em;
       padding-bottom:.25em;}
       */
-  /* line 1997, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 1998, ../../../sass/layouts/angel/angel.layout.scss */
   .site-slogan {
     display: inline-block;
     font-size: .6em;
@@ -2649,30 +2650,30 @@ clear: both;
     margin-left: 1.5vw;
     color: gray; }
 
-  /* line 2011, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2012, ../../../sass/layouts/angel/angel.layout.scss */
   #superfish-1 {
     margin-top: 2vw; }
-    /* line 2013, ../../../sass/layouts/angel/angel.layout.scss */
+    /* line 2014, ../../../sass/layouts/angel/angel.layout.scss */
     #superfish-1 li {
       margin-left: 2vw; }
 
-  /* line 2019, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2020, ../../../sass/layouts/angel/angel.layout.scss */
   .l-branding {
     border: 0px dotted maroon;
     background-color: #ededed;
     text-align: center;
     height: auto; }
 
-  /* line 2029, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2030, ../../../sass/layouts/angel/angel.layout.scss */
   .l-header {
     margin: 0;
     height: 108px; }
 
-  /* line 2033, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2034, ../../../sass/layouts/angel/angel.layout.scss */
   .l-region--navigation {
     clear: both; }
 
-  /* line 2037, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2038, ../../../sass/layouts/angel/angel.layout.scss */
   .l-main {
     -webkit-flex: 1;
     flex: 1;
@@ -2688,7 +2689,7 @@ clear: both;
     vertical-align: top;
     border: 0px dotted pink; }
 
-  /* line 2048, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2049, ../../../sass/layouts/angel/angel.layout.scss */
   .tb-megamenu .nav > li > a, span.tb_nolink {
     border-right: 0px solid #222;
     border-top: 0;
@@ -2700,45 +2701,45 @@ clear: both;
     font-size: 1.3vw;
     text-transform: uppercase; }
 
-  /* line 2060, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2061, ../../../sass/layouts/angel/angel.layout.scss */
   .tb-megamenu .nav > li > a:hover, span.tb_nolink {
     padding: 15px 15px 2px 15px; }
 
-  /* line 2068, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2069, ../../../sass/layouts/angel/angel.layout.scss */
   ul.tb-megamenu-nav {
     float: right; }
 
-  /* line 2078, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2079, ../../../sass/layouts/angel/angel.layout.scss */
   #block-tb-megamenu-main-menu span.tb_nolink {
     display: block; }
 
-  /* line 2080, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2081, ../../../sass/layouts/angel/angel.layout.scss */
   #block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu {
     background-color: #fff;
     color: #666;
     padding: 0;
     border: 0; }
-    /* line 2085, ../../../sass/layouts/angel/angel.layout.scss */
+    /* line 2086, ../../../sass/layouts/angel/angel.layout.scss */
     #block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul {
       list-style-type: none;
       padding: 0;
       border: 0; }
-      /* line 2088, ../../../sass/layouts/angel/angel.layout.scss */
+      /* line 2089, ../../../sass/layouts/angel/angel.layout.scss */
       #block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li {
         background-color: #fff; }
-        /* line 2089, ../../../sass/layouts/angel/angel.layout.scss */
+        /* line 2090, ../../../sass/layouts/angel/angel.layout.scss */
         #block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li:hover {
           background-color: #fff;
           color: #c4112f; }
-        /* line 2090, ../../../sass/layouts/angel/angel.layout.scss */
+        /* line 2091, ../../../sass/layouts/angel/angel.layout.scss */
         #block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li:active {
           background-color: #fff;
           color: #c4112f; }
-        /* line 2091, ../../../sass/layouts/angel/angel.layout.scss */
+        /* line 2092, ../../../sass/layouts/angel/angel.layout.scss */
         #block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li:focus {
           background-color: #fff;
           color: #c4112f; }
-        /* line 2092, ../../../sass/layouts/angel/angel.layout.scss */
+        /* line 2093, ../../../sass/layouts/angel/angel.layout.scss */
         #block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li a, #block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li .tb_nolink {
           font-size: 1.1em;
           text-decoration: none;
@@ -2746,98 +2747,98 @@ clear: both;
           text-transform: uppercase;
           background-color: #fff;
           /*background-image:none !important;*/ }
-          /* line 2096, ../../../sass/layouts/angel/angel.layout.scss */
+          /* line 2097, ../../../sass/layouts/angel/angel.layout.scss */
           #block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li a:hover, #block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li .tb_nolink:hover {
             color: #c4112f;
             background-color: #fff; }
-          /* line 2098, ../../../sass/layouts/angel/angel.layout.scss */
+          /* line 2099, ../../../sass/layouts/angel/angel.layout.scss */
           #block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li a:active, #block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li .tb_nolink:active {
             color: #c4112f;
             background-color: #fff; }
-          /* line 2100, ../../../sass/layouts/angel/angel.layout.scss */
+          /* line 2101, ../../../sass/layouts/angel/angel.layout.scss */
           #block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li a::selected, #block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li .tb_nolink::selected {
             color: #c4112f;
             background-color: #fff; }
-          /* line 2102, ../../../sass/layouts/angel/angel.layout.scss */
+          /* line 2103, ../../../sass/layouts/angel/angel.layout.scss */
           #block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li a:focus, #block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li .tb_nolink:focus {
             color: #c4112f;
             background-color: #fff; }
-        /* line 2105, ../../../sass/layouts/angel/angel.layout.scss */
+        /* line 2106, ../../../sass/layouts/angel/angel.layout.scss */
         #block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li ul {
           padding: 1.5em;
           width: 35vw !important; }
-          /* line 2105, ../../../sass/layouts/angel/angel.layout.scss */
+          /* line 2106, ../../../sass/layouts/angel/angel.layout.scss */
           #block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li ul li {
             background-color: #fff; }
-            /* line 2106, ../../../sass/layouts/angel/angel.layout.scss */
+            /* line 2107, ../../../sass/layouts/angel/angel.layout.scss */
             #block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li ul li:hover {
               background-color: #fff;
               color: #c4112f; }
-            /* line 2107, ../../../sass/layouts/angel/angel.layout.scss */
+            /* line 2108, ../../../sass/layouts/angel/angel.layout.scss */
             #block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li ul li:active {
               background-color: #fff;
               color: #c4112f; }
-            /* line 2108, ../../../sass/layouts/angel/angel.layout.scss */
+            /* line 2109, ../../../sass/layouts/angel/angel.layout.scss */
             #block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li ul li:focus {
               background-color: #fff;
               color: #c4112f; }
-            /* line 2109, ../../../sass/layouts/angel/angel.layout.scss */
+            /* line 2110, ../../../sass/layouts/angel/angel.layout.scss */
             #block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li ul li a {
               text-decoration: none;
               text-transform: uppercase;
               color: #666; }
-              /* line 2112, ../../../sass/layouts/angel/angel.layout.scss */
+              /* line 2113, ../../../sass/layouts/angel/angel.layout.scss */
               #block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li ul li a:hover {
                 color: #c4112f;
                 background-color: #fff; }
-              /* line 2114, ../../../sass/layouts/angel/angel.layout.scss */
+              /* line 2115, ../../../sass/layouts/angel/angel.layout.scss */
               #block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li ul li a:active {
                 color: #c4112f;
                 background-color: #fff; }
-              /* line 2116, ../../../sass/layouts/angel/angel.layout.scss */
+              /* line 2117, ../../../sass/layouts/angel/angel.layout.scss */
               #block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li ul li a:focus {
                 color: #c4112f;
                 background-color: #fff; }
-            /* line 2118, ../../../sass/layouts/angel/angel.layout.scss */
+            /* line 2119, ../../../sass/layouts/angel/angel.layout.scss */
             #block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li ul li ul {
               padding: 0; }
-              /* line 2118, ../../../sass/layouts/angel/angel.layout.scss */
+              /* line 2119, ../../../sass/layouts/angel/angel.layout.scss */
               #block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li ul li ul li {
                 background-color: #fff;
                 margin-left: 1.5em; }
-                /* line 2120, ../../../sass/layouts/angel/angel.layout.scss */
+                /* line 2121, ../../../sass/layouts/angel/angel.layout.scss */
                 #block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li ul li ul li:hover {
                   background-color: #fff;
                   color: #c4112f; }
-                /* line 2121, ../../../sass/layouts/angel/angel.layout.scss */
+                /* line 2122, ../../../sass/layouts/angel/angel.layout.scss */
                 #block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li ul li ul li:active {
                   background-color: #fff;
                   color: #c4112f; }
-                /* line 2122, ../../../sass/layouts/angel/angel.layout.scss */
+                /* line 2123, ../../../sass/layouts/angel/angel.layout.scss */
                 #block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li ul li ul li:focus {
                   background-color: #fff;
                   color: #c4112f; }
-                /* line 2123, ../../../sass/layouts/angel/angel.layout.scss */
+                /* line 2124, ../../../sass/layouts/angel/angel.layout.scss */
                 #block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li ul li ul li a, #block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li ul li ul li .tb_nolink {
                   text-decoration: none;
                   text-transform: capitalize;
                   color: #666; }
-                  /* line 2126, ../../../sass/layouts/angel/angel.layout.scss */
+                  /* line 2127, ../../../sass/layouts/angel/angel.layout.scss */
                   #block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li ul li ul li a:hover, #block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li ul li ul li .tb_nolink:hover {
                     color: #c4112f;
                     background-color: #fff; }
-                  /* line 2128, ../../../sass/layouts/angel/angel.layout.scss */
+                  /* line 2129, ../../../sass/layouts/angel/angel.layout.scss */
                   #block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li ul li ul li a:active, #block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li ul li ul li .tb_nolink:active {
                     color: #c4112f;
                     background-color: #fff; }
-                  /* line 2130, ../../../sass/layouts/angel/angel.layout.scss */
+                  /* line 2131, ../../../sass/layouts/angel/angel.layout.scss */
                   #block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li ul li ul li a:focus, #block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li ul li ul li .tb_nolink:focus {
                     color: #c4112f;
                     background-color: #fff !important;
                     background-image: linear-gradient(to bottom, #ffffff, #ffffff) !important;
                     background-image: moz-linear-gradient(to bottom, #fff, #fff) !important; }
 
-  /* line 2138, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2139, ../../../sass/layouts/angel/angel.layout.scss */
   .tb-megamenu.dropdown {
     position: absolute;
     top: 100%;
@@ -2864,24 +2865,24 @@ clear: both;
     -moz-background-clip: padding;
     background-clip: padding-box; }
 
-  /* line 2172, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2173, ../../../sass/layouts/angel/angel.layout.scss */
   .tb-megamenu .nav li.dropdown.active > .dropdown-toggle, .tb-megamenu .nav li.dropdown.open.active > .dropdown-toggle, .tb-megamenu .nav > li.dropdown.open.active > a:hover {
     background-color: #fff;
     border-color: #fff;
     color: #c4112f !important; }
 
-  /* line 2178, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2179, ../../../sass/layouts/angel/angel.layout.scss */
   .tb-megamenu .dropdown-menu .active > a, .tb-megamenu .dropdown-menu .active > a:hover {
     color: #c4112f !important;
     text-decoration: none;
     outline: 0;
     background-color: #fff; }
 
-  /* line 2185, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2186, ../../../sass/layouts/angel/angel.layout.scss */
   #block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li div.tb-megamenu-submenu {
     border: 0px solid #666;
     width: 220% !important; }
-    /* line 2186, ../../../sass/layouts/angel/angel.layout.scss */
+    /* line 2187, ../../../sass/layouts/angel/angel.layout.scss */
     #block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li div.tb-megamenu-submenu div div .tb-megamenu-column {
       width: 49%;
       display: inline-block;
@@ -2889,12 +2890,12 @@ clear: both;
       float: left;
       margin: 0; }
 
-  /* line 2191, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2192, ../../../sass/layouts/angel/angel.layout.scss */
   .mega-group-title {
     padding: 1em 0 !important; }
 
   /*#block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li div.tb-megamenu-submenu ul{text-align:left; li div{border:1px dotted red;}}*/
-  /* line 2197, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2198, ../../../sass/layouts/angel/angel.layout.scss */
   #block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li[data-id="1215"] > span:hover {
     background-color: #fff;
     padding-bottom: 1em;
@@ -2903,7 +2904,7 @@ clear: both;
     background-repeat: no-repeat;
     background-position: bottom; }
 
-  /* line 2205, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2206, ../../../sass/layouts/angel/angel.layout.scss */
   #block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu ul li[data-id="1215"] > div {
     margin-top: -.55em; }
 
@@ -2914,7 +2915,7 @@ clear: both;
   background-repeat: no-repeat;
   background-position: 0 0;}*/
   /******************old code for megamenu*************/
-  /* line 2216, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2217, ../../../sass/layouts/angel/angel.layout.scss */
   #tb-megamenu-main-menu .nav > .active > a, .tb-megamenu .nav > .active > a:hover, .tb-megamenu .nav > .active > a:focus {
     background-color: #fff;
     color: #e54e4b;
@@ -2924,42 +2925,42 @@ clear: both;
     box-shadow: none;
     outline: none; }
 
-  /* line 2226, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2227, ../../../sass/layouts/angel/angel.layout.scss */
   #tb-megamenu-main-menu .nav > li > a:hover {
     color: #f00; }
 
-  /* line 2231, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2232, ../../../sass/layouts/angel/angel.layout.scss */
   #tb-megamenu-main-menu {
     background-color: #fff; }
 
-  /* line 2235, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2236, ../../../sass/layouts/angel/angel.layout.scss */
   #tb-megamenu-main-menu .tb-megamenu-column-inner {
     padding: 2em !important;
     border: 1px solid black !important; }
 
-  /* line 2238, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2239, ../../../sass/layouts/angel/angel.layout.scss */
   #tb-megamenu-main-menu .tb-megamenu-column-inner.mega-inner {
     border: 0 !important;
     padding: 1em !important; }
 
-  /* line 2240, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2241, ../../../sass/layouts/angel/angel.layout.scss */
   #tb-megamenu-main-menu .tb-megamenu-item.level-2 a {
     text-transform: uppercase;
     text-decoration: none;
     font-weight: bold; }
 
-  /* line 2242, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2243, ../../../sass/layouts/angel/angel.layout.scss */
   #tb-megamenu-main-menu li.tb-megamenu-item.level-3.mega a {
     text-transform: capitalize !important;
     font-size: .8vw !important;
     white-space: nowrap;
     padding: 1.5% 0 0 1.5% !important; }
 
-  /* line 2248, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2249, ../../../sass/layouts/angel/angel.layout.scss */
   #tb-megamenu-main-menu li:nth-child(6).tb-megamenu-item.level-3.mega a {
     margin-top: 20%; }
 
-  /* line 2252, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2253, ../../../sass/layouts/angel/angel.layout.scss */
   #tb-megamenu-main-menu .dropdown-menu {
     position: absolute;
     top: 3em;
@@ -2988,7 +2989,7 @@ clear: both;
     -moz-background-clip: padding;
     background-clip: padding-box; }
 
-  /* line 2281, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2282, ../../../sass/layouts/angel/angel.layout.scss */
   .tb-megamenu .dropdown-menu .active > a, .tb-megamenu .dropdown-menu .active > a:hover {
     color: #c4112f;
     text-decoration: none;
@@ -2997,26 +2998,26 @@ clear: both;
     background-image: none;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e1e1e1', endColorstr='#e1e1e1', GradientType=0); }
 
-  /* line 2290, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2291, ../../../sass/layouts/angel/angel.layout.scss */
   #block-tb-megamenu-menu-bottom-menu div div {
     background-color: transparent; }
 
-  /* line 2291, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2292, ../../../sass/layouts/angel/angel.layout.scss */
   #block-tb-megamenu-menu-bottom-menu li {
     background-color: transparent;
     padding: 1em 0 .5em;
     margin: 0;
     font-size: 1.5em; }
-    /* line 2292, ../../../sass/layouts/angel/angel.layout.scss */
+    /* line 2293, ../../../sass/layouts/angel/angel.layout.scss */
     #block-tb-megamenu-menu-bottom-menu li:first-child {
       width: 15vw; }
 
-  /* line 2294, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2295, ../../../sass/layouts/angel/angel.layout.scss */
   #block-tb-megamenu-menu-bottom-menu li:hover {
     background-color: transparent;
     border: 0; }
 
-  /* line 2295, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2296, ../../../sass/layouts/angel/angel.layout.scss */
   #block-tb-megamenu-menu-bottom-menu a {
     color: #666;
     background-color: transparent;
@@ -3026,102 +3027,102 @@ clear: both;
     padding: 0;
     line-height: 1em; }
 
-  /* line 2296, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2297, ../../../sass/layouts/angel/angel.layout.scss */
   #block-tb-megamenu-menu-bottom-menu a:hover {
     background-color: transparent;
     color: #c4112f;
     background-image: none; }
 
-  /* line 2298, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2299, ../../../sass/layouts/angel/angel.layout.scss */
   #block-tb-megamenu-menu-bottom-menu a:active {
     background-color: transparent;
     color: #c4112f;
     background-image: none; }
 
-  /* line 2302, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2303, ../../../sass/layouts/angel/angel.layout.scss */
   #block-tb-megamenu-menu-bottom-menu li.level-2 {
     margin: .25rem 0 .25rem 1em !important;
     width: 50%;
     padding: 0 !important; }
-    /* line 2303, ../../../sass/layouts/angel/angel.layout.scss */
+    /* line 2304, ../../../sass/layouts/angel/angel.layout.scss */
     #block-tb-megamenu-menu-bottom-menu li.level-2 a, #block-tb-megamenu-menu-bottom-menu li.level-2 .tb_nolink {
       font-size: 1rem !important;
       margin-left: -1.5em;
       color: #666; }
-    /* line 2303, ../../../sass/layouts/angel/angel.layout.scss */
+    /* line 2304, ../../../sass/layouts/angel/angel.layout.scss */
     #block-tb-megamenu-menu-bottom-menu li.level-2 a:hover {
       color: #c4112f; }
 
-  /* line 2304, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2305, ../../../sass/layouts/angel/angel.layout.scss */
   #block-tb-megamenu-menu-bottom-menu li.level-3 {
     margin: .5rem 0 .25rem -.5em !important;
     padding: 0 !important; }
-    /* line 2305, ../../../sass/layouts/angel/angel.layout.scss */
+    /* line 2306, ../../../sass/layouts/angel/angel.layout.scss */
     #block-tb-megamenu-menu-bottom-menu li.level-3 a, #block-tb-megamenu-menu-bottom-menu li.level-3 .tb_nolink {
       font-size: 1.1rem !important;
       color: #666;
       margin-left: 1.5em; }
-    /* line 2305, ../../../sass/layouts/angel/angel.layout.scss */
+    /* line 2306, ../../../sass/layouts/angel/angel.layout.scss */
     #block-tb-megamenu-menu-bottom-menu li.level-3 a:hover {
       color: #c4112f; }
 
-  /* line 2306, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2307, ../../../sass/layouts/angel/angel.layout.scss */
   #block-tb-megamenu-menu-bottom-menu a.mega-group-title, .tb_nolink {
     font-size: 1rem;
     font-weight: normal;
     color: #666;
     margin-bottom: .5rem; }
 
-  /* line 2307, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2308, ../../../sass/layouts/angel/angel.layout.scss */
   #block-tb-megamenu-menu-bottom-menu li div.tb-megamenu-submenu {
     width: 35vw !important;
     display: block !important;
     border: 0;
     box-shadow: none; }
-    /* line 2307, ../../../sass/layouts/angel/angel.layout.scss */
+    /* line 2308, ../../../sass/layouts/angel/angel.layout.scss */
     #block-tb-megamenu-menu-bottom-menu li div.tb-megamenu-submenu div div {
       background-color: transparent; }
 
-  /* line 2308, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2309, ../../../sass/layouts/angel/angel.layout.scss */
   #block-tb-megamenu-menu-bottom-menu li:nth-child(2) {
     width: 40vw !important;
     padding: 1em 0 .5em;
     margin: 0;
     font-size: 1.5em; }
 
-  /* line 2309, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2310, ../../../sass/layouts/angel/angel.layout.scss */
   #block-tb-megamenu-menu-bottom-menu li:nth-child(3) {
     width: 15vw !important;
     padding: 1em 0 .5em;
     margin: 0;
     font-size: 1.5em; }
 
-  /* line 2310, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2311, ../../../sass/layouts/angel/angel.layout.scss */
   #block-tb-megamenu-menu-bottom-menu li:nth-child(4) {
     width: 25vw !important;
     padding: 1em 1em .5em .5em;
     margin: 0;
     font-size: 1.5em; }
 
-  /* line 2312, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2313, ../../../sass/layouts/angel/angel.layout.scss */
   .field-collection-item-field-twobig {
     display: block;
     width: 100%;
     height: 34vw;
     overflow: hidden;
     clear: both; }
-    /* line 2318, ../../../sass/layouts/angel/angel.layout.scss */
+    /* line 2319, ../../../sass/layouts/angel/angel.layout.scss */
     .field-collection-item-field-twobig .field--name-field-leftimage {
       display: inline-block;
       width: 50%;
       float: left; }
-    /* line 2321, ../../../sass/layouts/angel/angel.layout.scss */
+    /* line 2322, ../../../sass/layouts/angel/angel.layout.scss */
     .field-collection-item-field-twobig .field--name-field-rightimage {
       display: inline-block;
       width: 50%;
       float: left; }
 
-  /* line 2326, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2327, ../../../sass/layouts/angel/angel.layout.scss */
   .field--name-field-square-ref div div div div div div div div div {
     margin-bottom: -.4em; }
 
@@ -3176,12 +3177,12 @@ clear: both;
   width:100%;
   margin-top:28em;
   }*/
-  /* line 2382, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2383, ../../../sass/layouts/angel/angel.layout.scss */
   .projectdetails {
     width: 34em !important;
     margin: 0 auto !important; }
 
-  /* line 2383, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2384, ../../../sass/layouts/angel/angel.layout.scss */
   #block-block-1 {
     text-align: center;
     position: relative;
@@ -3191,7 +3192,7 @@ clear: both;
     font-size: .85em;
     z-index: 9999; }
 
-  /* line 2393, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2394, ../../../sass/layouts/angel/angel.layout.scss */
   #socialnetworking {
     display: block;
     position: absolute;
@@ -3200,23 +3201,23 @@ clear: both;
     right: 1em;
     bottom: 1em;
     border: 0px solid black; }
-    /* line 2402, ../../../sass/layouts/angel/angel.layout.scss */
+    /* line 2403, ../../../sass/layouts/angel/angel.layout.scss */
     #socialnetworking .socialitem {
       display: inline-block;
       float: left;
       width: 12%;
       height: auto;
       margin-left: .5em; }
-      /* line 2407, ../../../sass/layouts/angel/angel.layout.scss */
+      /* line 2408, ../../../sass/layouts/angel/angel.layout.scss */
       #socialnetworking .socialitem a img {
         width: 100%; }
 
-  /* line 2412, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2413, ../../../sass/layouts/angel/angel.layout.scss */
   p.small {
     font-size: .8em !important;
     text-align: left;
     line-height: 1.5em; }
-    /* line 2415, ../../../sass/layouts/angel/angel.layout.scss */
+    /* line 2416, ../../../sass/layouts/angel/angel.layout.scss */
     p.small:first-child {
       padding-top: 2em; }
 
@@ -3226,41 +3227,41 @@ padding-top: 5em !important;
 padding-bottom: 0 !important;
 margin: 0 !important;} }*/
   /******CUSTOM ENTITIES*****/
-  /* line 2427, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2428, ../../../sass/layouts/angel/angel.layout.scss */
   div.entity-squarenav h2 {
     visibility: hidden;
     height: 1px; }
 
-  /* line 2428, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2429, ../../../sass/layouts/angel/angel.layout.scss */
   table.sticky-header {
     display: none; }
 
-  /* line 2429, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2430, ../../../sass/layouts/angel/angel.layout.scss */
   .field-name-field-stats {
     margin-bottom: -3em;
     background-color: #d5d5d5; }
 
-  /* line 2430, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2431, ../../../sass/layouts/angel/angel.layout.scss */
   .tablefield-wrapper {
     width: 100%;
     background-color: #d5d5d5;
     padding: 1em 0 2em 0;
     margin-bottom: -3em; }
 
-  /* line 2431, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2432, ../../../sass/layouts/angel/angel.layout.scss */
   table.tablefield {
     width: 80%;
     margin: 0 auto; }
-    /* line 2432, ../../../sass/layouts/angel/angel.layout.scss */
+    /* line 2433, ../../../sass/layouts/angel/angel.layout.scss */
     table.tablefield tr.even, table.tablefield tr.odd, table.tablefield tbody, table.tablefield thead, table.tablefield th {
       background-color: transparent;
       color: #828282;
       font-size: 1.2em; }
-    /* line 2433, ../../../sass/layouts/angel/angel.layout.scss */
+    /* line 2434, ../../../sass/layouts/angel/angel.layout.scss */
     table.tablefield td, table.tablefield th {
       height: 1.2em !important;
       vertical-align: middle; }
-    /* line 2434, ../../../sass/layouts/angel/angel.layout.scss */
+    /* line 2435, ../../../sass/layouts/angel/angel.layout.scss */
     table.tablefield th {
       font-size: 1.2em;
       color: #c74c4f;
@@ -3269,53 +3270,53 @@ margin: 0 !important;} }*/
       height: 1.2em !important; }
 
   /*******LANDING PAGES*******/
-  /* line 2443, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2444, ../../../sass/layouts/angel/angel.layout.scss */
   h4.landing-heading {
     color: #666;
     font-size: 1.5em;
     margin: 0;
     padding: 0; }
 
-  /* line 2444, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2445, ../../../sass/layouts/angel/angel.layout.scss */
   p.landing-par {
     color: #666;
     font-size: 1.25em; }
 
-  /* line 2445, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2446, ../../../sass/layouts/angel/angel.layout.scss */
   .bottompadding {
     padding-bottom: 1.5em; }
 
-  /* line 2446, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2447, ../../../sass/layouts/angel/angel.layout.scss */
   article.node--landingpages ul {
     text-indent: 1em;
     font-size: 1.25em; }
 
   /*****FORM*****/
-  /* line 2450, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2451, ../../../sass/layouts/angel/angel.layout.scss */
   #webform-client-form-22 {
     width: 35em;
     margin: 1em auto;
     color: black;
     text-align: left; }
-    /* line 2450, ../../../sass/layouts/angel/angel.layout.scss */
+    /* line 2451, ../../../sass/layouts/angel/angel.layout.scss */
     #webform-client-form-22 label {
       width: 10em !important;
       display: inline-block;
       text-align: right; }
-    /* line 2450, ../../../sass/layouts/angel/angel.layout.scss */
+    /* line 2451, ../../../sass/layouts/angel/angel.layout.scss */
     #webform-client-form-22 textarea {
       width: 32em; }
-    /* line 2450, ../../../sass/layouts/angel/angel.layout.scss */
+    /* line 2451, ../../../sass/layouts/angel/angel.layout.scss */
     #webform-client-form-22 input {
       border: 1px solid black;
       width: 20em;
       padding: .5em;
       font-size: 1.2em; }
 
-  /* line 2451, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2452, ../../../sass/layouts/angel/angel.layout.scss */
   div.form-actions {
     text-align: right; }
-    /* line 2452, ../../../sass/layouts/angel/angel.layout.scss */
+    /* line 2453, ../../../sass/layouts/angel/angel.layout.scss */
     div.form-actions .webform-submit {
       background-color: white;
       width: 6em !important;
