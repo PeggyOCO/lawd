@@ -3092,7 +3092,7 @@ clear: both;
   /* line 2314, ../../../sass/layouts/angel/angel.layout.scss */
   #block-tb-megamenu-menu-bottom-menu li:nth-child(2) {
     width: 40vw !important;
-    padding: 1em 0 .5em;
+    padding: .5em 0;
     margin: 0;
     font-size: 1.5em; }
 
