@@ -200,6 +200,10 @@ var navCollapse = $('#block-tb-megamenu-menu-bottom-menu div .tb-megamenu').chil
         navCollapse.css({height: 'auto', overflow: 'visible'});
 }
 
+if($('a[title="About"] ul li a').hasClass('active')){
+$('a[title="About"]').css({"color":"#666"});
+}
+
 $('#block-tb-megamenu-menu-bottom-menu div .tb-megamenu').parent().toggleClass('responsive-toggled');
 
 $('.blurb, .blurblinks').each(function(i, item) {
