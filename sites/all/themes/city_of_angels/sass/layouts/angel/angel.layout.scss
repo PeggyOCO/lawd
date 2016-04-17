@@ -2102,7 +2102,7 @@ li:before {
                                       background-color:$whitest;}
                                       &:focus{color:$reder;
                                       background-color:$whitest;}}
-                                      .tb_nolink:hover,.tb_nolink:active,.tb_nolink:focus{color:black;}
+                                      .tb_nolink:hover,.tb_nolink:active,.tb_nolink:focus{color:$blacker;}
                                     
                                         ul{padding:1.5em;width:35vw !important; li{background-color:$whitest;
                                                         &:hover{background-color:$whitest;color:$reder;}
@@ -2134,7 +2134,7 @@ li:before {
                                                           background-image: linear-gradient(to bottom,#fff,#fff) !important;
                                                           background-image:moz-linear-gradient(to bottom,#fff,#fff) !important;}
                                                           }
-                                                          .tb_nolink:hover,.tb_nolink:active,.tb_nolink:focus{color:black;}
+                                                          .tb_nolink:hover,.tb_nolink:active,.tb_nolink:focus{color:$blacker;}
                                                           }}}}
                                      }
                                    }
