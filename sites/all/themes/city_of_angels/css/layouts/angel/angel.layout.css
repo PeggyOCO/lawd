@@ -3178,13 +3178,13 @@ clear: both;
    #tb-megamenu-column-8{width:45% !important;display:inline-block !important;float:left !important; li{width:14em !important;}}*/
   /*#block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu > ul li:nth-child(2) ul li a{padding-top:.5em;text-transform:capitalize;padding-left:4em;}*/
   /* line 2382, ../../../sass/layouts/angel/angel.layout.scss */
-  li a[title="Print Media"] {
+  #block-tb-megamenu-main-menu li a[title="Print Media"] {
     padding-top: 1.5em !important;
     text-transform: capitalize !important;
     padding-left: 1.5em !important; }
 
   /* line 2383, ../../../sass/layouts/angel/angel.layout.scss */
-  li a[title="Graphic Design Services"] {
+  #block-tb-megamenu-main-menu li a[title="Graphic Design Services"] {
     text-transform: capitalize !important;
     padding-left: 1.5em !important; }
 
