@@ -3047,7 +3047,7 @@ clear: both;
 
   /* line 2308, ../../../sass/layouts/angel/angel.layout.scss */
   #block-tb-megamenu-menu-bottom-menu li.level-2 {
-    margin: .25rem 0 .25rem 1em !important;
+    margin: .25rem 0 .5rem 1em !important;
     width: 50%;
     padding: 0 !important; }
     /* line 2309, ../../../sass/layouts/angel/angel.layout.scss */
