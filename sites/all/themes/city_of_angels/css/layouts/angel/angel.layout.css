@@ -3080,14 +3080,14 @@ clear: both;
     margin-bottom: .5rem; }
 
   /* line 2313, ../../../sass/layouts/angel/angel.layout.scss */
-  #block-tb-megamenu-menu-bottom-menu li div.tb-megamenu-submenu {
+  #block-tb-megamenu-menu-bottom-menu li > div.tb-megamenu-submenu {
     width: 35vw !important;
-    margin-top: -.5em;
     display: block !important;
+    margin-top: -.5em;
     border: 0;
     box-shadow: none; }
     /* line 2313, ../../../sass/layouts/angel/angel.layout.scss */
-    #block-tb-megamenu-menu-bottom-menu li div.tb-megamenu-submenu div div {
+    #block-tb-megamenu-menu-bottom-menu li > div.tb-megamenu-submenu div div {
       background-color: transparent; }
 
   /* line 2314, ../../../sass/layouts/angel/angel.layout.scss */
