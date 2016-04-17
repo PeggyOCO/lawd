@@ -3181,12 +3181,12 @@ clear: both;
   li a[title="Print Media"] {
     padding-top: .5em !important;
     text-transform: capitalize !important;
-    padding-left: 4em !important; }
+    padding-left: 2em !important; }
 
   /* line 2383, ../../../sass/layouts/angel/angel.layout.scss */
   li a[title="Graphic Design Services"] {
     text-transform: capitalize !important;
-    padding-left: 4em !important; }
+    padding-left: 2em !important; }
 
   /******SITEWIDE****/
   /*#block-block-1{
