@@ -2078,6 +2078,8 @@ li:before {
 
 #block-tb-megamenu-main-menu span.tb_nolink{display:block;}
 
+#block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu > ul li ul{li:nth-child(3){padding-top:.5em;text-transform:capitalize;padding-left:1em;}}
+
 #block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu{
                                     background-color:$whitest;
                                     color:$blacker;
