@@ -3080,19 +3080,20 @@ clear: both;
     margin-bottom: .5rem; }
 
   /* line 2313, ../../../sass/layouts/angel/angel.layout.scss */
-  #block-tb-megamenu-menu-bottom-menu li div.tb-megamenu-submenu {
+  #block-tb-megamenu-menu-bottom-menu li div.tb-megamenu-submenu:first-child {
     width: 35vw !important;
+    margin-top: -.5em;
     display: block !important;
     border: 0;
     box-shadow: none; }
     /* line 2313, ../../../sass/layouts/angel/angel.layout.scss */
-    #block-tb-megamenu-menu-bottom-menu li div.tb-megamenu-submenu div div {
+    #block-tb-megamenu-menu-bottom-menu li div.tb-megamenu-submenu:first-child div div {
       background-color: transparent; }
 
   /* line 2314, ../../../sass/layouts/angel/angel.layout.scss */
   #block-tb-megamenu-menu-bottom-menu li:nth-child(2) {
     width: 40vw !important;
-    padding: .5em 0;
+    padding: .5em 0 0;
     margin: 0;
     font-size: 1.5em; }
 
@@ -3187,10 +3188,6 @@ clear: both;
   #block-tb-megamenu-main-menu li a[title="Graphic Design Services"] {
     text-transform: capitalize !important;
     padding-left: 1.5em !important; }
-
-  /* line 2384, ../../../sass/layouts/angel/angel.layout.scss */
-  #block-tb-megamenu-main-menu li div {
-    margin-top: -.5em; }
 
   /******SITEWIDE****/
   /*#block-block-1{
