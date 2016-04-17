@@ -3117,7 +3117,8 @@ clear: both;
 
   /* line 2318, ../../../sass/layouts/angel/angel.layout.scss */
   #block-tb-megamenu-menu-bottom-menu li a[title="About"] {
-    margin-bottom: .5em; }
+    margin-bottom: .5em;
+    color: #666 !important; }
 
   /* line 2320, ../../../sass/layouts/angel/angel.layout.scss */
   .field-collection-item-field-twobig {
