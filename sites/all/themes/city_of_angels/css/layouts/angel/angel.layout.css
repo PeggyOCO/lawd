@@ -3188,6 +3188,10 @@ clear: both;
     text-transform: capitalize !important;
     padding-left: 1.5em !important; }
 
+  /* line 2384, ../../../sass/layouts/angel/angel.layout.scss */
+  #block-tb-megamenu-main-menu li div {
+    margin-top: -.5em; }
+
   /******SITEWIDE****/
   /*#block-block-1{
   text-align: center;
