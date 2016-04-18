@@ -66,18 +66,18 @@ body.not-logged-in {
     /* line 62, ../../../sass/layouts/angel/angel.layout.scss */
     .field--name-body div div p.services-par {
       text-align: left;
-      margin: 1.5rem 0;
-      font-size: 1.5rem;
-      line-height: 1.5rem;
+      margin: 1.5rem 0 0;
+      font-size: 2rem;
+      line-height: 2rem;
       text-align: left;
       color: #666; }
     /* line 70, ../../../sass/layouts/angel/angel.layout.scss */
     .field--name-body div div p.services-par:last-child {
-      padding-bottom: 1.5rem; }
+      padding-bottom: 2rem; }
     /* line 71, ../../../sass/layouts/angel/angel.layout.scss */
     .field--name-body div div div h4 {
       font-weight: normal;
-      font-size: 1.75rem;
+      font-size: 2rem;
       margin-bottom: 0;
       padding-bottom: 0; }
     /* line 72, ../../../sass/layouts/angel/angel.layout.scss */
