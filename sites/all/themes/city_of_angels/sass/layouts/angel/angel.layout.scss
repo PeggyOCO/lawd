@@ -809,7 +809,7 @@ table.tablefield{width:80%;margin:0 auto;
   text-transform: capitalize;
   background-color:#d5d5d5;}
     }
-  }
+  
   
   #block-block-1{
 text-align: center;
@@ -836,7 +836,9 @@ margin-left:.5em;
 a img{width:100%;}
 }}
   
-#block-tb-megamenu-menu-bottom-menu div div div.nav-collapse{display:block !important;}
+#block-tb-megamenu-menu-bottom-menu div div div.nav-collapse{display:block !important;height:auto !important;overflow:visible !important;}
+
+}
 
 //************end phone************//
 
