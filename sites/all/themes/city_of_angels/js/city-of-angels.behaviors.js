@@ -196,13 +196,13 @@ $('.field-name-field-rightbig a .hover_caption img').each(function(i, item) {
 
 var navCollapse = $('#block-tb-megamenu-menu-bottom-menu div .tb-megamenu').children('.nav-collapse');
       navCollapse.removeClass('collapse');
-      if (navCollapse.height() <= 0) {
+      if (navCollapse.height() >= 0) {
         navCollapse.css({height: 'auto', overflow: 'visible'});
 }
 
 
 
-$('#block-tb-megamenu-menu-bottom-menu div .tb-megamenu').parent().toggleClass('responsive-toggled');
+/*$('#block-tb-megamenu-menu-bottom-menu div .tb-megamenu').parent().toggleClass('responsive-toggled');*/
 
 $("#block-tb-megamenu-menu-bottom-menu button").hide();
 $("#block-tb-megamenu-menu-bottom-menu ul").show();
