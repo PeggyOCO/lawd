@@ -801,9 +801,9 @@ table.tablefield{width:80%;margin:0 auto;
 
 #block-tb-megamenu-menu-bottom-menu{
   
-  ul,li,span.tb_nolink{
+  ul,li a,span.tb_nolink{
 display: block;
-padding: .5rem .5rem 0 0;
+padding: .5rem 0 0 0;
 margin:0;
 list-style-type: none;
 font-size: 2rem !important;

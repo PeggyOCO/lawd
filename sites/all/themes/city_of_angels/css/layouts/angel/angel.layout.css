@@ -1009,9 +1009,9 @@ clear: both;
     margin-bottom: 0;
 }*/
   /* line 804, ../../../sass/layouts/angel/angel.layout.scss */
-  #block-tb-megamenu-menu-bottom-menu ul, #block-tb-megamenu-menu-bottom-menu li, #block-tb-megamenu-menu-bottom-menu span.tb_nolink {
+  #block-tb-megamenu-menu-bottom-menu ul, #block-tb-megamenu-menu-bottom-menu li a, #block-tb-megamenu-menu-bottom-menu span.tb_nolink {
     display: block;
-    padding: .5rem .5rem 0 0;
+    padding: .5rem 0 0 0;
     margin: 0;
     list-style-type: none;
     font-size: 2rem !important;
