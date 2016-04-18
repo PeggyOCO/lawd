@@ -74,7 +74,7 @@
             if (config.caption_bold) { image.css('font-weight', 'bold') };
 
             // add hover event to toggle message
-            image.parent().click(function() {
+            image.parent().hover(function() {
               $(this).addClass('hover_caption').find('h3').show();
             }, function() {
               $(this).removeClass('hover_caption').find('h3').hide();
