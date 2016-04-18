@@ -53,6 +53,29 @@ span.tb_nolink{
 body > div{overflow-x:hidden;overflow-y:hidden;}
 .node__submitted{display:none;}
 
+ .field--name-body{width:95%;margin:3em auto;color:#666;
+       div{
+          div{
+          h2{text-align:center;
+            font-size:2em;
+            color:#666;}
+              p.services-par{
+              text-align:left;
+              margin:1.5rem 0;
+              font-size:1.5rem;
+              line-height:1.5rem;
+              text-align:left;
+              color:#666;
+              }
+              p.services-par:last-child{padding-bottom:1.5rem;}
+              div{h4{font-weight:normal;font-size:1.75rem;margin-bottom:0;padding-bottom:0;}
+              ul{list-style-type:none;
+              li{font-size:1.5rem;margin-left:1.5rem;}}}
+              
+          }
+      }
+  }
+
 
 .field-collection-item-field-frontone{
   div{
