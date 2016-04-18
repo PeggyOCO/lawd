@@ -802,12 +802,13 @@ table.tablefield{width:80%;margin:0 auto;
 #block-tb-megamenu-menu-bottom-menu{
   
   ul,li,span.tb_nolink{
-  display:block;
-  padding: 0;
-  list-style-type: none;
-  font-size:1em;
-  text-transform: capitalize;
-  background-color:#d5d5d5;}
+display: block;
+padding: .5rem .5rem 0 0;
+margin:0;
+list-style-type: none;
+font-size: 2rem !important;
+text-transform: capitalize;
+background-color: #d5d5d5;}
     }
   
   
