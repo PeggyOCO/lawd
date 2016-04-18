@@ -205,7 +205,7 @@ var navCollapse = $('#block-tb-megamenu-menu-bottom-menu div .tb-megamenu').chil
 /*$('#block-tb-megamenu-menu-bottom-menu div .tb-megamenu').parent().toggleClass('responsive-toggled');*/
 
 $("#block-tb-megamenu-menu-bottom-menu > div > div > button").hide();
-$("#block-tb-megamenu-menu-bottom-menu > div > div > div.nav-collapse").show();
+$("#block-tb-megamenu-menu-bottom-menu > div > div > div.nav-collapse").css({height:'auto !important',overflow:'visible !important'});
 
 $('.blurb, .blurblinks').each(function(i, item) {
     var blurb = $(item).height();
