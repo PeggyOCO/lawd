@@ -204,6 +204,9 @@ var navCollapse = $('#block-tb-megamenu-menu-bottom-menu div .tb-megamenu').chil
 
 $('#block-tb-megamenu-menu-bottom-menu div .tb-megamenu').parent().toggleClass('responsive-toggled');
 
+$("#block-tb-megamenu-menu-bottom-menu button").hide();
+$("#block-tb-megamenu-menu-bottom-menu ul").show();
+
 $('.blurb, .blurblinks').each(function(i, item) {
     var blurb = $(item).height();
 var wrapper = $('.field--name-field-blurb').height();
