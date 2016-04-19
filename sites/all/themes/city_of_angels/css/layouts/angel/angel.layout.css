@@ -528,10 +528,10 @@ body.not-logged-in {
   /* line 398, ../../../sass/layouts/angel/angel.layout.scss */
   .tb-megamenu .nav-collapse .nav > li > a, .tb-megamenu .nav-collapse {
     height: auto;
-    overflow: visible;
+    /*overflow: visible;*/
     width: 100vw !important;
     margin-left: -0.5em !important;
-    margin-top: 4.7em !important; }
+    margin-top: 0 !important; }
 
   /* line 406, ../../../sass/layouts/angel/angel.layout.scss */
   .tb-megamenu .nav-collapse .nav > li > a, .tb-megamenu .nav-collapse .dropdown-menu a {
