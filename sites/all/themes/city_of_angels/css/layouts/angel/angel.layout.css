@@ -1096,7 +1096,8 @@ clear: both;
     display: block !important;
     height: auto !important;
     overflow: visible !important;
-    font-size: 4em !important; } }
+    font-size: 4em !important;
+    margin-left: 0 !important; } }
 @media (min-width: 800px) {
   /* line 891, ../../../sass/layouts/angel/angel.layout.scss */
   p.small {
