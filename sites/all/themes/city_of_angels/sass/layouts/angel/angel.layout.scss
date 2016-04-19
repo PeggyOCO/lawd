@@ -871,13 +871,19 @@ margin-top: -3em;}
     left: 1em;
     top: -2em;
     border: 0px solid black;
-.socialitem{display:inline-block;
-float:left;
-width:20%;
-height:auto;
-margin-left:1em;
-a img{width:100%;}
-}}
+      .socialheading {
+      font-size: 1.5em;
+      text-align: left;
+      padding: 0px 0.5em 0.25em;
+      }
+    
+      .socialitem{display:inline-block;
+      float:left;
+      width:20%;
+      height:auto;
+      margin-left:1em;
+      a img{width:100%;}
+      }}
   
 #block-tb-megamenu-menu-bottom-menu div div div.nav-collapse{display:block !important;height:auto !important;overflow:visible !important;
 font-size:4em !important;margin-left:0 !important;
