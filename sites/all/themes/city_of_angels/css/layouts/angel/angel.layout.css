@@ -2641,7 +2641,7 @@ clear: both;
     color: #666; }
 
   /* line 1992, ../../../sass/layouts/angel/angel.layout.scss */
-  body.page-search-node div header div div.l-content {
+  body.page-search-node div div div.l-content {
     width: 80%;
     margin: 0 auto; }
 
