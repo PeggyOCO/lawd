@@ -196,14 +196,14 @@ class RedirectFunctionalTest extends RedirectTestHelper {
 
     // Add a new redirect.
     $redirect = $this->addRedirect('redirect', 'node');
-    $this->assertEqual($redirect->access, 0);
+    $this->assertEqual($redirect->access, REQUEST_TIME);
     $this->assertEqual($redirect->count, 0);
     $this->assertPageNotCached('redirect');
 
     // Perform the redirect and check that last_used
     $redirect = $this->assertRedirect($redirect);
     $this->assertEqual($redirect->count, 1);
-    $this->assertTrue($redirect->access > 0);
+    $this->assertTrue($redirect->access > REQUEST_TIME);
     $cache = $this->assertPageCached('redirect');
     $this->assertHeader('Location', url('node', array('absolute' => TRUE)), $cache->data['headers']);
     $this->assertHeader('X-Redirect-ID', $redirect->rid, $cache->data['headers']);

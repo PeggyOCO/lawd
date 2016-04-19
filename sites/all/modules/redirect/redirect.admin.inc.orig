@@ -89,7 +89,7 @@ function redirect_list_form($form, &$form_state) {
     $row['status_code'] = $redirect->status_code ? $redirect->status_code : t('Default (@default)', array('@default' => $default_status_code));
     $row['language'] = module_invoke('locale', 'language_name', $redirect->language);
     $row['count'] = $redirect->count;
-    if ($redirect->count) {
+    if ($redirect->access) {
       $row['access'] = array(
         'data' => t('!interval ago', array('!interval' => format_interval(REQUEST_TIME - $redirect->access))),
         'title' => t('Last accessed on @date', array('@date' => format_date($redirect->access))),
@@ -861,7 +861,7 @@ function redirect_list_table($redirects, $header) {
     $row['data']['status_code'] = $redirect->status_code ? $redirect->status_code : t('Default (@default)', array('@default' => $default_status_code));
     $row['data']['language'] = module_invoke('locale', 'language_name', $redirect->language);
     $row['data']['count'] = $redirect->count;
-    if ($redirect->count) {
+    if ($redirect->access) {
       $row['data']['access'] = array(
         'data' => t('!interval ago', array('!interval' => format_interval(REQUEST_TIME - $redirect->access))),
         'title' => t('Last accessed on @date', array('@date' => format_date($redirect->access))),

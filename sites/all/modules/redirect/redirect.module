@@ -750,7 +750,7 @@ function redirect_object_prepare($redirect, $defaults = array()) {
     'language' => LANGUAGE_NONE,
     'status_code' => 0,
     'count' => 0,
-    'access' => 0,
+    'access' => REQUEST_TIME,
     'hash' => '',
     'status' => 1,
   );
@@ -793,7 +793,7 @@ function redirect_save($redirect) {
     if ($redirect->is_new || $redirect->hash != $redirect->original->hash) {
       // Only new or changed redirects reset the last used value.
       $redirect->count = 0;
-      $redirect->access = 0;
+      $redirect->access = REQUEST_TIME;
     }
 
     // Allow other modules to alter the redirect before saving.

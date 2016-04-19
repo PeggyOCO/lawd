@@ -1,0 +1,65 @@
+diff --git a/redirect.admin.inc b/redirect.admin.inc
+index 990a22a..25bbfe7 100644
+--- a/redirect.admin.inc
++++ b/redirect.admin.inc
+@@ -89,7 +89,7 @@ function redirect_list_form($form, &$form_state) {
+     $row['status_code'] = $redirect->status_code ? $redirect->status_code : t('Default (@default)', array('@default' => $default_status_code));
+     $row['language'] = module_invoke('locale', 'language_name', $redirect->language);
+     $row['count'] = $redirect->count;
+-    if ($redirect->access) {
++    if ($redirect->count) {
+       $row['access'] = array(
+         'data' => t('!interval ago', array('!interval' => format_interval(REQUEST_TIME - $redirect->access))),
+         'title' => t('Last accessed on @date', array('@date' => format_date($redirect->access))),
+@@ -873,7 +873,7 @@ function redirect_list_table($redirects, $header) {
+     $row['data']['status_code'] = $redirect->status_code ? $redirect->status_code : t('Default (@default)', array('@default' => $default_status_code));
+     $row['data']['language'] = module_invoke('locale', 'language_name', $redirect->language);
+     $row['data']['count'] = $redirect->count;
+-    if ($redirect->access) {
++    if ($redirect->count) {
+       $row['data']['access'] = array(
+         'data' => t('!interval ago', array('!interval' => format_interval(REQUEST_TIME - $redirect->access))),
+         'title' => t('Last accessed on @date', array('@date' => format_date($redirect->access))),
+diff --git a/redirect.module b/redirect.module
+index 5d92399..d41a13e 100644
+--- a/redirect.module
++++ b/redirect.module
+@@ -750,7 +750,7 @@ function redirect_object_prepare($redirect, $defaults = array()) {
+     'language' => LANGUAGE_NONE,
+     'status_code' => 0,
+     'count' => 0,
+-    'access' => 0,
++    'access' => REQUEST_TIME,
+     'hash' => '',
+     'status' => 1,
+   );
+@@ -793,7 +793,7 @@ function redirect_save($redirect) {
+     if ($redirect->is_new || $redirect->hash != $redirect->original->hash) {
+       // Only new or changed redirects reset the last used value.
+       $redirect->count = 0;
+-      $redirect->access = 0;
++      $redirect->access = REQUEST_TIME;
+     }
+ 
+     // Allow other modules to alter the redirect before saving.
+diff --git a/redirect.test b/redirect.test
+index 33c6d23..5d72d08 100644
+--- a/redirect.test
++++ b/redirect.test
+@@ -196,14 +196,14 @@ class RedirectFunctionalTest extends RedirectTestHelper {
+ 
+     // Add a new redirect.
+     $redirect = $this->addRedirect('redirect', 'node');
+-    $this->assertEqual($redirect->access, 0);
++    $this->assertEqual($redirect->access, REQUEST_TIME);
+     $this->assertEqual($redirect->count, 0);
+     $this->assertPageNotCached('redirect');
+ 
+     // Perform the redirect and check that last_used
+     $redirect = $this->assertRedirect($redirect);
+     $this->assertEqual($redirect->count, 1);
+-    $this->assertTrue($redirect->access > 0);
++    $this->assertTrue($redirect->access > REQUEST_TIME);
+     $cache = $this->assertPageCached('redirect');
+     $this->assertHeader('Location', url('node', array('absolute' => TRUE)), $cache->data['headers']);
+     $this->assertHeader('X-Redirect-ID', $redirect->rid, $cache->data['headers']);
