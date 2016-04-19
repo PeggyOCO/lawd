@@ -62,6 +62,9 @@
 
      /*   alert($(window).width() + ' got here' + $base_url);*/
      
+    var current_width = $(window).width();
+     /*only apply hover_caption to desktop*/
+    if(current_width > 800){
     $('.field__item .even a img').hover_caption();
     $('.field--name-field-rightimage a img').hover_caption();
     $('.field--name-field-leftimage a img').hover_caption();
@@ -71,7 +74,7 @@
     $('.field-name-field-square2 a img').hover_caption();
     $('.field-name-field-square3 a img').hover_caption();
     $('.field-name-field-square4 a img').hover_caption();
-
+    } 
 /*var realurl = $('.field-name-field-rightbig a img').attr('title');
 var realurlsmall = $('.inlinefourup a img').attr('title');
 $('.field-name-field-rightbig a').prop("href", realurl);*/
