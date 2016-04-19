@@ -277,7 +277,7 @@ clear:both;
 .field--name-field-blurb{background-color:#47bdbf;
 padding:0;
 margin:0;
-margin-top: -3.1em;
+margin-top: -1.4em;
 div:first-child{display:block;
 width:100%;
 margin:0;
@@ -845,27 +845,37 @@ background-color: #d5d5d5;}
   
   
   #block-block-1{
-text-align: center;
-position: relative;
-width:100%;
-margin-top:-4em;
-padding-bottom:1em;
-font-size:.75em;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    margin-top: 0;
+    padding-bottom: 1em;
+    font-size: .75em;
+    height: 10em;
+    position: relative;
+    margin-top: 0;
+    height: 10em;
+    background-color: #d2d2d2;
+    padding-top: 10em;
+    padding-bottom: 2em;
+div div.copyright{
+padding-bottom: 2em;
+margin-top: -3em;}
 }
 
   #socialnetworking{    
     display: block;
     position: absolute;
-    width: 30%;
-    height: auto;
-    right: 1em;
-    bottom: 1em;
+    width: 60%;
+    height: 3em;
+    left: 1em;
+    top: -2em;
     border: 0px solid black;
 .socialitem{display:inline-block;
 float:left;
 width:20%;
 height:auto;
-margin-left:.5em;
+margin-left:1em;
 a img{width:100%;}
 }}
   
