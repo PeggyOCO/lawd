@@ -1988,14 +1988,19 @@ div.sig{
               color:#666;
               }
               
-  #search-form{
+
+body.page-search-node div header div div.l-content{width:80%;
+margin:0 auto;}
+footer.search-result__info{display:none;}
+#search-form{
 width:90%;
 margin:2em auto;
 text-align:center;
 input#edit-keys{width:20em;
-height:4em;
+height:2.5em;
 }
 }
+
  
  div.copyright{width:100%;
  text-align:center;
