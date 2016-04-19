@@ -528,7 +528,7 @@ body.not-logged-in {
   /* line 398, ../../../sass/layouts/angel/angel.layout.scss */
   .tb-megamenu .nav-collapse {
     height: auto;
-    /* overflow: visible;*/
+    overflow: hidden;
     width: 100vw !important;
     margin-left: -0.5em !important;
     margin-top: 4.7em !important; }
