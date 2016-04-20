@@ -69,6 +69,8 @@ body > div{overflow-x:hidden;overflow-y:hidden;}
               img{
                   margin: 5px .5em 0;
                   }
+                  a{text-decoration:none;color:$blacker;
+                  &:hover{color:$reder;}}
               }
               p.services-par:last-child{padding-bottom:2rem;}
               div{h4{font-weight:normal;font-size:2rem;margin-bottom:0;padding-bottom:0;}
