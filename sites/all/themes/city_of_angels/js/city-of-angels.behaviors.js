@@ -82,55 +82,55 @@ $('.field-name-field-rightbig a').prop("href", realurl);*/
 $('.field-name-field-detailrowimage').each(function() {
 var realurlfromtitle = $(this).find("img").prop('title');
 if(realurlfromtitle !=""){
-    $(this).wrap("<a target='_blank' href='" + realurlfromtitle + "'/>");
+    $(this).wrap("<a href='node/" + realurlfromtitle + "'/>");
     }
 });
 
 $('.field__item .even').each( function( index, element ){
     var realurltiny = $(this).find("img").prop('title');
-   $(this).children("a").prop("href","/dev/los-angeles-web-design/" + realurltiny);
+   $(this).children("a").prop("href","node/" + realurltiny);
 });
 
 $('.field-name-field-rightimage').each( function( index, element ){
     var realurltiny = $(this).find("img").prop('title');
-   $(this).children("a").prop("href","/dev/los-angeles-web-design/" + realurltiny);
+   $(this).children("a").prop("href","node/" + realurltiny);
 });
 
 $('.field-name-field-leftimage').each( function( index, element ){
     var realurltiny = $(this).find("img").prop('title');
-   $(this).children("a").prop("href","/dev/los-angeles-web-design/" + realurltiny);
+   $(this).children("a").prop("href","node/" + realurltiny);
 });
 
 $('.field-name-field-square1').each( function( index, element ){
     var realurltiny = $(this).find("img").prop('title');
-   $(this).children("a").prop("href","/dev/los-angeles-web-design/" + realurltiny);
+   $(this).children("a").prop("href","node/" + realurltiny);
 });
 $('.field-name-field-square2').each( function( index, element ){
     var realurltiny = $(this).find("img").prop('title');
-   $(this).children("a").prop("href","/dev/los-angeles-web-design/" + realurltiny);
+   $(this).children("a").prop("href","node/" + realurltiny);
 });
 $('.field-name-field-square3').each( function( index, element ){
     var realurltiny = $(this).find("img").prop('title');
-   $(this).children("a").prop("href","/dev/los-angeles-web-design/" + realurltiny);
+   $(this).children("a").prop("href","node/" + realurltiny);
 });
 $('.field-name-field-square4').each( function( index, element ){
     var realurltiny = $(this).find("img").prop('title');
-   $(this).children("a").prop("href","/dev/los-angeles-web-design/" + realurltiny);
+   $(this).children("a").prop("href","node/" + realurltiny);
 });
 
 $('.field-name-field-double1').each( function( index, element ){
     var realurltiny = $(this).find("img").prop('title');
-   $(this).children("a").prop("href","/dev/los-angeles-web-design/" + realurltiny);
+   $(this).children("a").prop("href","node/" + realurltiny);
 });
 
 $('.field-name-field-double2').each( function( index, element ){
     var realurltiny = $(this).find("img").prop('title');
-   $(this).children("a").prop("href","/dev/los-angeles-web-design/" + realurltiny);
+   $(this).children("a").prop("href","node/" + realurltiny);
 });
 
 $('.field-name-field-bigfront50').each( function( index, element ){
     var realurltiny = $(this).find("img").prop('title');
-   $(this).children("a").prop("href","/dev/los-angeles-web-design/" + realurltiny);
+   $(this).children("a").prop("href","node/" + realurltiny);
 });
 
 
@@ -140,7 +140,7 @@ $('.field-name-field-rightbig').each( function( index, element ){
     /*var realurlbig = $(this).children("a").children(".caption").children("img").prop('title');*/
      var realurlbig = $(this).find("img").prop('title');
     /*alert(realurlbig + ' got here');*/
-   $(this).children("a").prop("href","/dev/los-angeles-web-design/" + realurlbig);
+   $(this).children("a").prop("href","node/" + realurlbig);
      /*$(location).attr('href',"/dev/los-angeles-web-design/"+realurlbig+"");*/
      /*$(this).children("a").attr("href","/dev/los-angeles-web-design/"+realurlbig+"");*/
   /* $(this).children("a").data("href",'/dev/los-angeles-web-design/' + realurlbig);*/
@@ -151,7 +151,7 @@ $('.inlinefourup').each( function( index, element ){
    /*var realurltiny = $(this).children(".inlinefourup").children("a").children(".caption").children("img").prop('title');*/
     var realurltiny = $(this).find("img").prop('title');
    /*alert(realurltiny + ' got here');*/
-   $(this).children("a").prop("href","/dev/los-angeles-web-design/" + realurltiny);
+   $(this).children("a").prop("href","node/" + realurltiny);
       /* $(location).attr('href',"/dev/los-angeles-web-design/"+realurltiny+"");*/
     /* $(this).children("a").data("href",'/dev/los-angeles-web-design/' + realurltiny);*/
    /* $(this).children("a").attr("href",'/dev/los-angeles-web-design/' + realurltiny);*/
