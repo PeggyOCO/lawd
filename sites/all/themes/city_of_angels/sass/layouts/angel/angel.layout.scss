@@ -72,7 +72,7 @@ body > div{overflow-x:hidden;overflow-y:hidden;}
               img{
                   margin: 5px .5em 0;
                   }
-                  a{text-align:right;text-decoration:none;font-size:.75em;color:$blacker;
+                  a.linkedin-bio{display:block;margin:0 1em;text-align:right;text-decoration:none;font-size:.75em;color:$blacker;
                   &:hover{color:$reder;}}
               }
               p.services-par:last-child{padding-bottom:2rem;}

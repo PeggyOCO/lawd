@@ -80,13 +80,15 @@ body.not-logged-in {
       .field--name-body div div p.services-par img {
         margin: 5px .5em 0; }
       /* line 75, ../../../sass/layouts/angel/angel.layout.scss */
-      .field--name-body div div p.services-par a {
+      .field--name-body div div p.services-par a.linkedin-bio {
+        display: block;
+        margin: 0 1em;
         text-align: right;
         text-decoration: none;
         font-size: .75em;
         color: #666; }
         /* line 76, ../../../sass/layouts/angel/angel.layout.scss */
-        .field--name-body div div p.services-par a:hover {
+        .field--name-body div div p.services-par a.linkedin-bio:hover {
           color: #c4112f; }
     /* line 78, ../../../sass/layouts/angel/angel.layout.scss */
     .field--name-body div div p.services-par:last-child {
