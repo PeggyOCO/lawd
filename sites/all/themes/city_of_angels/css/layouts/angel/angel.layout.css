@@ -3447,6 +3447,7 @@ margin: 0 !important;} }*/
     div.form-actions .webform-submit {
       background-color: white;
       width: 6em !important;
-      margin: 0 auto; } }
+      margin: 0 auto;
+      margin-right: 1em; } }
 
 /*# sourceMappingURL=angel.layout.css.map */
