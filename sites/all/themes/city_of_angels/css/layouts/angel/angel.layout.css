@@ -83,7 +83,7 @@ body.not-logged-in {
       .field--name-body div div p.services-par a {
         text-align: right;
         text-decoration: none;
-        font-size: 1.5em;
+        font-size: .75em;
         color: #666; }
         /* line 76, ../../../sass/layouts/angel/angel.layout.scss */
         .field--name-body div div p.services-par a:hover {
