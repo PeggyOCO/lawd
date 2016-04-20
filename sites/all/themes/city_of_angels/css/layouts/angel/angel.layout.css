@@ -547,8 +547,8 @@ body.not-logged-in {
     z-index: 9;
     width: auto;
     height: auto;
-    top: 1.35em;
-    right: 0; }
+    top: .7em;
+    right: 1em; }
     /* line 421, ../../../sass/layouts/angel/angel.layout.scss */
     .tb-megamenu .btn:first-child:hover {
       background-color: transparent !important; }
