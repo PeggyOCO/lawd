@@ -341,7 +341,7 @@ body.not-logged-in {
     background-color: #47bdbf;
     padding: 0;
     margin: 0;
-    margin-top: -1.4em; }
+    margin-top: -3.1em; }
     /* line 281, ../../../sass/layouts/angel/angel.layout.scss */
     .field--name-field-blurb div:first-child {
       display: block;
@@ -531,8 +531,7 @@ body.not-logged-in {
     overflow: hidden;
     width: 100vw !important;
     margin-left: -0.5em !important;
-    margin-top: 4.6em !important;
-    border-top: 2px solid #fff; }
+    margin-top: 4.6em !important; }
 
   /* line 408, ../../../sass/layouts/angel/angel.layout.scss */
   .tb-megamenu .nav-collapse .nav > li > a, .tb-megamenu .nav-collapse .dropdown-menu a {
