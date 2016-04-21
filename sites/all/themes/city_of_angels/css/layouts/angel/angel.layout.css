@@ -1163,7 +1163,9 @@ clear: both;
     /* line 923, ../../../sass/layouts/angel/angel.layout.scss */
     #block-tb-megamenu-menu-bottom-menu div div div.nav-collapse span {
       display: block;
-      margin-top: .5em !important; } }
+      margin-top: .5em !important;
+      margin-bottom: 0 !important;
+      padding: 0 !important; } }
 @media (min-width: 800px) {
   /* line 941, ../../../sass/layouts/angel/angel.layout.scss */
   p.small {
