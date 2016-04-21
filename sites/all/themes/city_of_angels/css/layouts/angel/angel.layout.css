@@ -1861,7 +1861,8 @@ clear: both;
 
   /* line 1480, ../../../sass/layouts/angel/angel.layout.scss */
   .page-sitemap h1 {
-    display: block;
+    display: block !important;
+    visibility: visible;
     color: #666;
     font-size: 2rem;
     text-align: center;
