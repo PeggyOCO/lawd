@@ -630,8 +630,8 @@ body.not-logged-in {
     position: relative; }
 
   /* line 485, ../../../sass/layouts/angel/angel.layout.scss */
-  li[data-id="1058"] span {
-    display: none; }
+  li[data-id="1058"] > span {
+    display: none !important; }
 
   /* line 487, ../../../sass/layouts/angel/angel.layout.scss */
   .field-name-field-double1, .field-name-field-double2 {
