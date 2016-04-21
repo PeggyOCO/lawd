@@ -76,7 +76,7 @@
     $('.field-name-field-square4 a img').hover_caption();
     $('.field-name-field-bigfront50 a img').hover_caption();
     $('.field-name-field-double2 a img').hover_caption();
-    
+    $('.field-name-field-double1 a img').hover_caption();
     
     
    $('.blurb, .blurblinks').each(function(i, item) {
