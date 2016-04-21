@@ -74,6 +74,8 @@
     $('.field-name-field-square2 a img').hover_caption();
     $('.field-name-field-square3 a img').hover_caption();
     $('.field-name-field-square4 a img').hover_caption();
+    $('.field-name-field-bigfront50 a img').hover_caption();
+    $('.field-name-field-double2 a img').hover_caption();
     
     
     
