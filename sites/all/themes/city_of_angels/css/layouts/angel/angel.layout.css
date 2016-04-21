@@ -630,7 +630,7 @@ body.not-logged-in {
     position: relative; }
 
   /* line 485, ../../../sass/layouts/angel/angel.layout.scss */
-  li[data-id="1058"] {
+  li[data-id="1058"] span {
     display: none; }
 
   /* line 487, ../../../sass/layouts/angel/angel.layout.scss */
