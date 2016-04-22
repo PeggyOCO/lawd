@@ -3460,17 +3460,9 @@ clear: both;
   #tb-megamenu-column-6{width:45% !important;display:inline-block !important;float:left !important; li{width:14em !important;}}
    #tb-megamenu-column-8{width:45% !important;display:inline-block !important;float:left !important; li{width:14em !important;}}*/
   /*#block-tb-megamenu-main-menu > div > .tb-megamenu-main-menu > ul li:nth-child(2) ul li a{padding-top:.5em;text-transform:capitalize;padding-left:4em;}*/
-  /* line 2524, ../../../sass/layouts/angel/angel.layout.scss */
-  #block-tb-megamenu-main-menu li a[title="Print Media"] {
-    padding-top: .85em !important;
-    text-transform: capitalize !important;
-    padding-left: 1.5em !important; }
-
-  /* line 2525, ../../../sass/layouts/angel/angel.layout.scss */
-  #block-tb-megamenu-main-menu li a[title="Graphic Design Services"] {
-    text-transform: capitalize !important;
-    padding-left: 1.5em !important; }
-
+  /*#block-tb-megamenu-main-menu  li a[title="Print Media"]{padding-top:.85em !important;text-transform:capitalize !important;padding-left:1.5em !important;}
+  #block-tb-megamenu-main-menu  li a[title="Graphic Design Services"]{text-transform:capitalize !important;padding-left:1.5em !important;}
+  */
   /******SITEWIDE****/
   /*#block-block-1{
   text-align: center;
