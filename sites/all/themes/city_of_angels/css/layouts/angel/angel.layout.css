@@ -2597,7 +2597,6 @@ clear: both;
       margin: 5px 0; }
     /* line 1893, ../../../sass/layouts/angel/angel.layout.scss */
     article.node--services ol li {
-      list-style-type: disc;
       font-size: 1.5em;
       font-weight: 400;
       margin: 5px 0; }
