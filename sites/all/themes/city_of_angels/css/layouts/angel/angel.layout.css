@@ -56,10 +56,13 @@ body.not-logged-in {
         font-weight: 400;
         margin: 5px 0; }
     /* line 49, ../../../sass/layouts/angel/angel.layout.scss */
-    article.node--services ol li {
-      font-size: 1.5em;
-      font-weight: 400;
-      margin: 5px 0; }
+    article.node--services ol {
+      margin-left: 1em; }
+      /* line 49, ../../../sass/layouts/angel/angel.layout.scss */
+      article.node--services ol li {
+        font-size: 1.5em;
+        font-weight: 400;
+        margin: 5px 0; }
 
   /* line 53, ../../../sass/layouts/angel/angel.layout.scss */
   h3.landing-heading {
