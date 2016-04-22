@@ -3402,11 +3402,7 @@ clear: both;
   #block-tb-megamenu-menu-bottom-menu li > div.tb-megamenu-submenu.mega-group-ct.nav-child {
     margin: 0; }
 
-  /* line 2462, ../../../sass/layouts/angel/angel.layout.scss */
-  #block-tb-megamenu-menu-bottom-menu li a[title="About"] {
-    margin-bottom: .5em;
-    color: #666 !important; }
-
+  /*#block-tb-megamenu-menu-bottom-menu li a[title="About"]{margin-bottom:.5em; color:#666 !important;}*/
   /* line 2464, ../../../sass/layouts/angel/angel.layout.scss */
   .field-collection-item-field-twobig {
     display: block;
