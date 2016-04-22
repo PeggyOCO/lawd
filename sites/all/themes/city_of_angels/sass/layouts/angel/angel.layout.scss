@@ -85,8 +85,8 @@ body > div{overflow-x:hidden;overflow-y:hidden;}
               img{
                   margin: 5px .5em 0;
                   }
-                  a.linkedin-bio{display:block;margin:0 1em;text-align:right;text-decoration:none;font-size:.75em;color:$blacker;
-                  &:hover{color:$reder;}}
+                  a.linkedin-bio{display:block;margin:0 1em;text-align:right;text-decoration:none;font-size:1em;color:$reder;
+                  &:hover{color:$blacker;}}
               }
               p.services-par:last-child{padding-bottom:2rem;}
               div{h4{font-weight:normal;font-size:2rem;margin-bottom:0;padding-bottom:0;}
@@ -329,6 +329,7 @@ padding:.5em;
 text-transform:uppercase;
 background-color:#c2c1c1;
 border-bottom:1pt solid #e1e1e1;
+list-style-type:none !important;
  a{text-decoration:none;color:black;
 &:hover{color:orange;}
   }
@@ -959,6 +960,9 @@ span{display:block;margin-top:.5em !important;margin-bottom:0 !important;padding
 //@media screen and (min-width: 800px) , screen and (max-width: 980px), screen and (max-width:3000px) {
 //@media screen and (min-width: 800px) and (max-width:980px) and (max-width:3000px) {
 p.small{font-size:1em;}
+
+ a.linkedin-bio{display:block;margin:0 1em;text-align:right;text-decoration:none;font-size:1em;color:$reder;
+                  &:hover{color:$blacker;}}
 
 .pinktitle{font-size:1.5rem;color: #c74c4f;text-transform:uppercase;text-align:left;}
 .wrapfloats{display:block;width:100%;margin:0 auto; border:0px dotted blue;margin:2%;}
@@ -1934,7 +1938,7 @@ div.sig{
         vertical-align:middle;
         width: 35%;
         height: 100%;
-        list-style: none;
+        list-style: none !important;
         li{
             margin: 5px 0;
             a{color:#fff;text-decoration:none;
