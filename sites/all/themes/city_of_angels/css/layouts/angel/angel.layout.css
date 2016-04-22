@@ -1935,7 +1935,7 @@ clear: both;
 
   /* line 1498, ../../../sass/layouts/angel/angel.layout.scss */
   .page-sitemap h1 {
-    display: block !important;
+    display: none !important;
     visibility: visible;
     color: #666;
     font-size: 2rem;
@@ -1944,6 +1944,7 @@ clear: both;
 
   /* line 1500, ../../../sass/layouts/angel/angel.layout.scss */
   .page-sitemap div div div div#site-map {
+    display: none;
     width: 50%;
     margin: 0 auto;
     padding: 2em; }
