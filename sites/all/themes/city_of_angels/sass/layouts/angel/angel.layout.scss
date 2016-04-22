@@ -1889,8 +1889,10 @@ a img{width:100%;}
 .site-logo img {height:auto;}
 article.node--services{position:relative;margin-top:0;
 h3{font-size:1.85em;font-weight:400;}
-ul li{font-size:1.5em;font-weight:400;margin:5px 0;}
+ul li{list-style-type:disc;font-size:1.5em;font-weight:400;margin:5px 0;}
+ol li{list-style-type:disc;font-size:1.5em;font-weight:400;margin:5px 0;}
 }
+
 img[alt="Top picture"]{position:relative;margin-top:0;margin-left:0;}
 
 div.sig{
