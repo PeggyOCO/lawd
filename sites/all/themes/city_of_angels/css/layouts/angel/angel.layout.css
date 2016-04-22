@@ -2177,6 +2177,17 @@ clear: both;
       flex-direction: column;
       height: 100%; }
 
+  /* line 1623, ../../../sass/layouts/angel/angel.layout.scss */
+  .page-node-5 h3 {
+    font-size: 1.75em; }
+    /* line 1623, ../../../sass/layouts/angel/angel.layout.scss */
+    .page-node-5 h3 a {
+      text-decoration: none;
+      color: #666; }
+      /* line 1623, ../../../sass/layouts/angel/angel.layout.scss */
+      .page-node-5 h3 a:hover {
+        color: #c4112f; }
+
   /* line 1624, ../../../sass/layouts/angel/angel.layout.scss */
   .page-node-21 h3 {
     font-size: 1.75em; }
