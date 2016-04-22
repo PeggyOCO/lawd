@@ -2057,6 +2057,7 @@ div.sig{
               line-height:1.3em;
               text-align:left;
               color:#666;
+              a{text-decoration:none;color:$blacker;&:hover{color:$reder;}}
               }
               p.services-par:last-child{padding-bottom:1.5em;}
               div{h4{font-weight:normal;font-size:1.75em;margin-bottom:0;padding-bottom:0;}
@@ -2585,7 +2586,7 @@ table.tablefield{width:80%;margin:0 auto;
 
 /*******LANDING PAGES*******/
 
-h3.landing-heading{font-size:2em !important;text-align:left !important;margin-left: 1em; a{text-decoration:none;color:$blacker;&:hover{color:$reder;}}}
+h3.landing-heading{font-size:2em !important;text-align:left !important; a{text-decoration:none;color:$blacker;&:hover{color:$reder;}}}
 
 h4.landing-heading{color:$blacker;font-size:1.5em;margin:0;padding:0;
 a{color:black;
