@@ -3536,60 +3536,73 @@ margin: 0 !important;} }*/
       height: 1.2em !important; }
 
   /*******LANDING PAGES*******/
-  /* line 2589, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2588, ../../../sass/layouts/angel/angel.layout.scss */
+  h3.landing-heading {
+    font-size: 2em !important;
+    text-align: left !important;
+    margin-left: 1em; }
+    /* line 2588, ../../../sass/layouts/angel/angel.layout.scss */
+    h3.landing-heading a {
+      text-decoration: none;
+      color: #666; }
+      /* line 2588, ../../../sass/layouts/angel/angel.layout.scss */
+      h3.landing-heading a:hover {
+        color: #c4112f; }
+
+  /* line 2590, ../../../sass/layouts/angel/angel.layout.scss */
   h4.landing-heading {
     color: #666;
     font-size: 1.5em;
     margin: 0;
     padding: 0; }
-    /* line 2590, ../../../sass/layouts/angel/angel.layout.scss */
+    /* line 2591, ../../../sass/layouts/angel/angel.layout.scss */
     h4.landing-heading a {
       color: black; }
-      /* line 2591, ../../../sass/layouts/angel/angel.layout.scss */
+      /* line 2592, ../../../sass/layouts/angel/angel.layout.scss */
       h4.landing-heading a:hover {
         color: #c4112f;
         text-decoration: none; }
 
-  /* line 2592, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2593, ../../../sass/layouts/angel/angel.layout.scss */
   p.landing-par {
     color: #666;
     font-size: 1.25em; }
 
-  /* line 2593, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2594, ../../../sass/layouts/angel/angel.layout.scss */
   .bottompadding {
     padding-bottom: 1.5em; }
 
-  /* line 2594, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2595, ../../../sass/layouts/angel/angel.layout.scss */
   article.node--landingpages ul {
     text-indent: 1em;
     font-size: 1.25em; }
 
   /*****FORM*****/
-  /* line 2598, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2599, ../../../sass/layouts/angel/angel.layout.scss */
   #webform-client-form-22 {
     width: 35em;
     margin: 1em auto;
     color: black;
     text-align: left; }
-    /* line 2598, ../../../sass/layouts/angel/angel.layout.scss */
+    /* line 2599, ../../../sass/layouts/angel/angel.layout.scss */
     #webform-client-form-22 label {
       width: 10em !important;
       display: inline-block;
       text-align: right; }
-    /* line 2598, ../../../sass/layouts/angel/angel.layout.scss */
+    /* line 2599, ../../../sass/layouts/angel/angel.layout.scss */
     #webform-client-form-22 textarea {
       width: 32em; }
-    /* line 2598, ../../../sass/layouts/angel/angel.layout.scss */
+    /* line 2599, ../../../sass/layouts/angel/angel.layout.scss */
     #webform-client-form-22 input {
       border: 1px solid black;
       width: 20em;
       padding: .5em;
       font-size: 1.2em; }
 
-  /* line 2599, ../../../sass/layouts/angel/angel.layout.scss */
+  /* line 2600, ../../../sass/layouts/angel/angel.layout.scss */
   div.form-actions {
     text-align: right; }
-    /* line 2600, ../../../sass/layouts/angel/angel.layout.scss */
+    /* line 2601, ../../../sass/layouts/angel/angel.layout.scss */
     div.form-actions .webform-submit {
       background-color: white;
       width: 6em !important;
