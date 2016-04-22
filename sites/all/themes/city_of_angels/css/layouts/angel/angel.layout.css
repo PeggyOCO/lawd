@@ -48,7 +48,7 @@ body.not-logged-in {
       font-weight: 400; }
     /* line 48, ../../../sass/layouts/angel/angel.layout.scss */
     article.node--services ul {
-      margin-left: 1em; }
+      margin-left: 1em !important; }
       /* line 48, ../../../sass/layouts/angel/angel.layout.scss */
       article.node--services ul li {
         list-style-type: disc;
