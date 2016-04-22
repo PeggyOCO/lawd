@@ -4,9 +4,10 @@
 
 #module-filter-tabs {
   float: left;
+  width:20%;
 }
 #module-filter-tabs ul {
-  width: 239px;
+  width: 95%;
   list-style: none;
   list-style-image: none;
   background-color: #ddd;
