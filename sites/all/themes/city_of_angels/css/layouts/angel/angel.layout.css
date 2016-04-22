@@ -2684,6 +2684,7 @@ clear: both;
       list-style: none !important; }
       /* line 1942, ../../../sass/layouts/angel/angel.layout.scss */
       .field--name-field-blurb ul li {
+        list-style: none !important;
         margin: 5px 0; }
         /* line 1944, ../../../sass/layouts/angel/angel.layout.scss */
         .field--name-field-blurb ul li a {
