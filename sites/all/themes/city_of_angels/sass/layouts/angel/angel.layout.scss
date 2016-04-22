@@ -74,6 +74,7 @@ body > div{overflow-x:hidden;overflow-y:hidden;}
               line-height:2.25rem;
               text-align:left;
               color:#666;
+              a{text-decoration:none;color:$blacker;&:hover{color:$reder;}}
               img{
                   margin: 5px .5em 0;
                   }
