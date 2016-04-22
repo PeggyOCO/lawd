@@ -42,7 +42,8 @@ overflow-x:hidden;}
 
 ul.bigpageul{margin-left:2em !important;}
 
-h3.landing-heading{font-size:2em;text-align:left;a{text-decoration:none;color:$blacker;&:hover{color:$reder;}}}
+
+h3.landing-heading{font-size:2em !important;text-align:left !important;margin-left: 1em; a{text-decoration:none;color:$blacker;&:hover{color:$reder;}}}
 
 span.tb_nolink{
     background-color:#c2c1c1;
