@@ -34,6 +34,9 @@ body.not-logged-in {
   /* line 43, ../../../sass/layouts/angel/angel.layout.scss */
   ul.bigpageul {
     margin-left: 2em !important; }
+    /* line 43, ../../../sass/layouts/angel/angel.layout.scss */
+    ul.bigpageul li {
+      font-size: 1.5em; }
 
   /* line 46, ../../../sass/layouts/angel/angel.layout.scss */
   h3.landing-heading {
