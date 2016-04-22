@@ -70,7 +70,9 @@ body > div{overflow-x:hidden;overflow-y:hidden;}
           div{
           h3{text-align:center;
             font-size:1.5em;
-            color:#666;}
+            color:#666;
+            a{text-decoration:none;color:$blacker;&:hover{color:$reder;}}
+            }
           h2{text-align:center;
             font-size:2em;
             color:#666;}
