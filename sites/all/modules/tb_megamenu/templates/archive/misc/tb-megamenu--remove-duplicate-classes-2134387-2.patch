@@ -1,0 +1,78 @@
+diff --git a/templates/tb-megamenu-block.tpl.php b/templates/tb-megamenu-block.tpl.php
+index 3d2ba25..edf0820 100644
+--- a/templates/tb-megamenu-block.tpl.php
++++ b/templates/tb-megamenu-block.tpl.php
+@@ -1,5 +1,5 @@
+ <?php if($content) :?>
+-<div <?php print $attributes;?> class="<?php print $classes;?>">
++<div class="<?php print $classes;?>">
+   <div class="block-inner">
+     <?php print $content ?>
+   </div>
+diff --git a/templates/tb-megamenu-column.tpl.php b/templates/tb-megamenu-column.tpl.php
+index d563cad..aec1be9 100644
+--- a/templates/tb-megamenu-column.tpl.php
++++ b/templates/tb-megamenu-column.tpl.php
+@@ -1,4 +1,4 @@
+-<div <?php print $attributes;?> class="<?php print $classes;?>">
++<div class="<?php print $classes;?>">
+   <div class="tb-megamenu-column-inner mega-inner clearfix">
+     <?php if($close_button): ?>
+       <?php print $close_button;?>
+diff --git a/templates/tb-megamenu-item.tpl.php b/templates/tb-megamenu-item.tpl.php
+index 086dd31..7800e38 100644
+--- a/templates/tb-megamenu-item.tpl.php
++++ b/templates/tb-megamenu-item.tpl.php
+@@ -1,4 +1,4 @@
+-<li <?php print $attributes;?> class="<?php print $classes;?>">
++<li class="<?php print $classes;?>">
+   <a href="<?php print in_array($item['link']['href'], array('<nolink>')) ? "#" : url($item['link']['href']);?>" class="<?php print implode(" ", $a_classes);?>">
+     <?php if(!empty($item_config['xicon'])) : ?>
+       <i class="<?php print $item_config['xicon'];?>"></i>
+diff --git a/templates/tb-megamenu-nav.tpl.php b/templates/tb-megamenu-nav.tpl.php
+index b4a263a..e26e3e1 100644
+--- a/templates/tb-megamenu-nav.tpl.php
++++ b/templates/tb-megamenu-nav.tpl.php
+@@ -1,3 +1,3 @@
+-<ul <?php print $attributes;?> class="<?php print $classes;?>">
++<ul class="<?php print $classes;?>">
+   <?php print $lis;?>
+ </ul>
+diff --git a/templates/tb-megamenu-row.tpl.php b/templates/tb-megamenu-row.tpl.php
+index 96d4a05..624186a 100644
+--- a/templates/tb-megamenu-row.tpl.php
++++ b/templates/tb-megamenu-row.tpl.php
+@@ -1,3 +1,3 @@
+-<div <?php print $attributes;?> class="<?php print $classes;?>">
++<div class="<?php print $classes;?>">
+   <?php print $columns;?>
+ </div>
+diff --git a/templates/tb-megamenu-submenu.tpl.php b/templates/tb-megamenu-submenu.tpl.php
+index b428263..8605f77 100644
+--- a/templates/tb-megamenu-submenu.tpl.php
++++ b/templates/tb-megamenu-submenu.tpl.php
+@@ -1,4 +1,4 @@
+-<div <?php print $attributes;?> class="<?php print $classes;?>">
++<div class="<?php print $classes;?>">
+   <div class="mega-dropdown-inner">
+     <?php print $rows;?>
+   </div>
+diff --git a/templates/tb-megamenu-subnav.tpl.php b/templates/tb-megamenu-subnav.tpl.php
+index b4a263a..e26e3e1 100644
+--- a/templates/tb-megamenu-subnav.tpl.php
++++ b/templates/tb-megamenu-subnav.tpl.php
+@@ -1,3 +1,3 @@
+-<ul <?php print $attributes;?> class="<?php print $classes;?>">
++<ul class="<?php print $classes;?>">
+   <?php print $lis;?>
+ </ul>
+diff --git a/templates/tb-megamenu.tpl.php b/templates/tb-megamenu.tpl.php
+index 3e0e7f7..0959e22 100644
+--- a/templates/tb-megamenu.tpl.php
++++ b/templates/tb-megamenu.tpl.php
+@@ -1,4 +1,4 @@
+-<div <?php print $attributes;?> class="<?php print $classes;?>">
++<div class="<?php print $classes;?>">
+   <?php if($section == 'frontend') :?>
+     <button data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar tb-megamenu-button" type="button">
+       <i class="icon-reorder"></i>
