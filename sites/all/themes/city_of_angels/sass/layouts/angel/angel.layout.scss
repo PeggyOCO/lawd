@@ -320,9 +320,8 @@ margin:0;
 width:100%;} ul{
 width:100%;
 padding-left:0;
-margin-left:0;
-list-style-type:
-none;
+margin-left:0 !important;
+list-style-type:none !important;
 br{display:none;}
 li{width:100%;
 margin:0;
