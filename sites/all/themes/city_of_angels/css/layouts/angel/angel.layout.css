@@ -484,13 +484,13 @@ body.not-logged-in {
       width: 100%;
       margin: 0 auto;
       font-style: bold;
-      font-size: 2em; }
+      font-size: 1em; }
       /* line 345, ../../../sass/layouts/angel/angel.layout.scss */
       .field--name-field-blurb div:last-child p {
         padding: 0 2em 1em;
         text-align: center;
         color: #000;
-        line-height: 2em; }
+        line-height: 1em; }
         /* line 347, ../../../sass/layouts/angel/angel.layout.scss */
         .field--name-field-blurb div:last-child p span {
           display: block;
@@ -498,7 +498,7 @@ body.not-logged-in {
           text-align: right;
           font-weight: 400;
           font-style: italic;
-          font-size: .75em;
+          font-size: .5em;
           margin-top: 1.5em;
           padding-right: 7em;
           letter-spacing: normal; }
