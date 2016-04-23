@@ -79,7 +79,7 @@ GEM
     sassy-maps (0.4.0)
       sass (~> 3.3)
     shellany (0.0.1)
-    singularitygs (1.6.2)
+    singularitygs (1.7.0)
       breakpoint (~> 2.4)
       sass (~> 3.3)
     slop (3.6.0)
