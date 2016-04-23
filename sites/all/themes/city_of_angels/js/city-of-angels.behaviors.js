@@ -93,18 +93,6 @@ var wrapper = $('.field--name-field-blurb').height();
     } 
     
     
-    if(current_width < 800){
-    
-      $(".field-name-field-square1").click(function() {
-    
-      var realurltiny = $(this).find("img").prop('title');
-      $(this).children("a").prop("href","/node/" + realurltiny);
-    alert(realurltiny);
-      window.location = $(this).find("a").attr("href"); 
-      return false;
-      });
-    
-    }
 /*var realurl = $('.field-name-field-rightbig a img').attr('title');
 var realurlsmall = $('.inlinefourup a img').attr('title');
 $('.field-name-field-rightbig a').prop("href", realurl);*/
@@ -133,6 +121,7 @@ $('.field-name-field-leftimage').each( function( index, element ){
 
 $('.field-name-field-square1').each( function( index, element ){
     var realurltiny = $(this).find("img").prop('title');
+    alert(realurltiny + 'got here');
    $(this).children("a").prop("href","/node/" + realurltiny);
 });
 $('.field-name-field-square2').each( function( index, element ){
