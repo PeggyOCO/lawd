@@ -447,7 +447,7 @@ body.not-logged-in {
       margin: 0;
       padding: 0;
       font-style: bold;
-      font-size: .9em; }
+      font-size: 2em; }
       /* line 322, ../../../sass/layouts/angel/angel.layout.scss */
       .field--name-field-blurb div:first-child div {
         padding: 0;
@@ -477,7 +477,7 @@ body.not-logged-in {
             color: black; }
             /* line 338, ../../../sass/layouts/angel/angel.layout.scss */
             .field--name-field-blurb div:first-child ul li a:hover {
-              color: orange; }
+              color: #c4112f; }
     /* line 344, ../../../sass/layouts/angel/angel.layout.scss */
     .field--name-field-blurb div:last-child {
       display: block;
