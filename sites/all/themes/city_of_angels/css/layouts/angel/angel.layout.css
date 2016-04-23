@@ -95,7 +95,7 @@ body.not-logged-in {
   /* line 65, ../../../sass/layouts/angel/angel.layout.scss */
   .field--name-field-square-ref {
     position: relative;
-    z-index: -5; }
+    z-index: 20; }
 
   /* line 67, ../../../sass/layouts/angel/angel.layout.scss */
   body > div {

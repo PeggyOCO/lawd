@@ -121,7 +121,6 @@ $('.field-name-field-leftimage').each( function( index, element ){
 
 $('.field-name-field-square1').each( function( index, element ){
     var realurltiny = $(this).find("img").prop('title');
-    alert(realurltiny + 'got here');
    $(this).children("a").prop("href","/node/" + realurltiny);
 });
 $('.field-name-field-square2').each( function( index, element ){
