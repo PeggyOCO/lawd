@@ -44,7 +44,7 @@ body.not-logged-in {
     margin-top: 0; }
     /* line 47, ../../../sass/layouts/angel/angel.layout.scss */
     article.node--services h3 {
-      font-size: 1.85em;
+      font-size: 2.2em;
       font-weight: 400; }
       /* line 48, ../../../sass/layouts/angel/angel.layout.scss */
       article.node--services h3 a {
@@ -55,19 +55,19 @@ body.not-logged-in {
           color: #c4112f; }
     /* line 50, ../../../sass/layouts/angel/angel.layout.scss */
     article.node--services ul {
-      margin-left: 1em !important; }
+      margin-left: 0 !important; }
       /* line 50, ../../../sass/layouts/angel/angel.layout.scss */
       article.node--services ul li {
         list-style-type: disc;
-        font-size: 1.5em;
+        font-size: 2em;
         font-weight: 400;
         margin: 5px 0; }
     /* line 51, ../../../sass/layouts/angel/angel.layout.scss */
     article.node--services ol {
-      margin-left: 1em; }
+      margin-left: 0; }
       /* line 51, ../../../sass/layouts/angel/angel.layout.scss */
       article.node--services ol li {
-        font-size: 1.5em;
+        font-size: 2em;
         font-weight: 400;
         margin: 5px 0; }
 
