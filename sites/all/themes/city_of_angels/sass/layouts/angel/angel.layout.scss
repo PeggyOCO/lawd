@@ -966,11 +966,14 @@ span{display:block;margin-top:.5em !important;margin-bottom:0 !important;padding
 p.small{font-size:1em;}
 
 #block-views-blog-list-block{
-    h2{font-size:1.5em;color:$blacker;text-align:center;width:70%;margin:1em auto;}
-    ul.links{width: 30%;
+    h2{font-size:1.5em;color:$blacker;text-align:center;width:70%;margin:1em auto;
+     a{text-decoration:none;color:$blacker;&:hover{color:$reder;}
+                                                                  }}
+    ul.links{width: 100%;
           margin: 2em auto;
           font-size: 1.2em;
           text-decoration: none;
+          text-align:right;
                li:last-child{display:none;}
                }
       }
