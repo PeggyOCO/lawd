@@ -99,7 +99,7 @@ var wrapper = $('.field--name-field-blurb').height();
     
       var realurltiny = $(this).find("img").prop('title');
       $(this).children("a").prop("href","/node/" + realurltiny);
-    
+    alert(realurltiny);
       window.location = $(this).find("a").attr("href"); 
       return false;
       });
