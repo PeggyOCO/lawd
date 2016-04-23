@@ -969,12 +969,12 @@ p.small{font-size:1em;}
     h2{font-size:1.5em;color:$blacker;text-align:center;width:70%;margin:1em auto;
      a{text-decoration:none;color:$blacker;&:hover{color:$reder;}
                                                                   }}
-    ul.links{width: 70%;
+    ul.links{width: 60%;
           margin: 2em auto;
           font-size: 1.2em;
           text-decoration: none;
           text-align:right;
-               li{float:right;}
+               li{float:right;a{text-decoration:none;color:$blacker;&:hover{color:$reder;}}
                li:last-child{display:none;}
                }
       }
