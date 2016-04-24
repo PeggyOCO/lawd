@@ -56,7 +56,9 @@
 <head>
 
 <?php if (drupal_is_front_page()){
-
+echo '<meta name="description" content="We create award-winning work for our clients. Offering leading brands an innovative blend of strategy, design, and technology." />
+<meta name="abstract" content="Responsive design, website graphic design, website development, database and CMS design and development. Top 10 Digital Agency 2016" />
+<meta name="keywords" content="website design, website development, digital agency" />';
 
 } ?>
 
