@@ -447,7 +447,7 @@ body.not-logged-in {
       margin: 0;
       padding: 0;
       font-style: bold;
-      font-size: 1.5em; }
+      font-size: 1em; }
       /* line 322, ../../../sass/layouts/angel/angel.layout.scss */
       .field--name-field-blurb div:first-child div {
         padding: 0;
