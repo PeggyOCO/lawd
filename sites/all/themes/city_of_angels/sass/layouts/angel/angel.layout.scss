@@ -335,15 +335,16 @@ background-color:#c2c1c1;
 border-bottom:1pt solid #e1e1e1;
 list-style-type:none !important;
  a{text-decoration:none;color:black;
+ font-size:1.5em;
 &:hover{color:$reder;}
   }
 }
 
 }}
 
-div:last-child{display:block;width:100%;margin:0 auto;font-style:bold;font-size:1em; 
+div:last-child{display:block;width:100%;margin:0 auto;font-style:bold;font-size:1.5em; 
 p{padding:0 2em 1em;
-text-align:center;color:#000;line-height:1em;
+text-align:center;color:#000;line-height:1.5em;
 span {
     display: block;
     width: 100%;
