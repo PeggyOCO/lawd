@@ -57,7 +57,7 @@
 
 <?php
 if($is_front) {
-  render($page['content']['metatags']);
+  render($head['metatags']);
 }
 ?>
   <?php print $head; ?>
