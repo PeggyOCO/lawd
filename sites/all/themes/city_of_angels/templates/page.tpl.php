@@ -70,11 +70,7 @@
  * @see omega_preprocess_page()
  */
 ?>
-<?php
-if($is_front) {
-  render($page['content']['metatags']);
-}
-?>
+
 
 <div class="l-page">
   <header class="l-header">
