@@ -55,6 +55,11 @@
 <?php endif; ?>
 <head>
 
+<?php if (drupal_is_front_page()){
+
+
+} ?>
+
 
   <?php print $head; ?>
   <title><?php print $head_title; ?></title>
