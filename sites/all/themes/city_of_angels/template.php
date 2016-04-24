@@ -14,7 +14,11 @@ function city_of_angels_preprocess_field(&$variables) {
 	}
 }
 
-
+function city_of_angels_preprocess_page(&$vars) {
+  if (!empty($vars['is_front'])) {
+    metatag_page_build($vars['page']);
+  }
+}
 
 /*function city_of_angels_html_head_alter(&$head_elements) {
   unset($head_elements['viewport']);
