@@ -521,7 +521,7 @@ background-color:#fff;
 color:#000;
 text-align:center;
 font-size:1.5em;
-a div{width:100%;height:auto;}
+a div{width:100%;height:auto !important;}
 blockquote h4 a{text-decoration:none;color:$reder;}
 }
 
@@ -1202,7 +1202,7 @@ font-size:1.2vw;}
            @include order(1);
            //display: inline-flex;
                 width:50%;
-                height:auto
+                height:auto !important;
                 img{width:100%;height:auto;}
                 }
           .field-name-field-double1{
@@ -1283,6 +1283,7 @@ font-size:1.2vw;}
            //display: inline-flex;
                 width:50%;
                 height:auto
+                a div{height:auto !important;}
                 img{width:100%;height:auto;}
                 }
           .field-name-field-double1{
