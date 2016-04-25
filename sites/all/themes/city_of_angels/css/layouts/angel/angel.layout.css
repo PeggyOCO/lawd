@@ -1736,9 +1736,8 @@ clear: both;
     .field-collection-view:nth-child(odd) .field-collection-item-field-frontrow .field-name-field-bigfront50 {
       -webkit-flex: 1;
       flex: 1;
-      /*@include flex-direction('column');*/
-      /*width:50%;*/
-      height: 100%; }
+      width: 50%;
+      height: auto; }
       /* line 1286, ../../../sass/layouts/angel/angel.layout.scss */
       .field-collection-view:nth-child(odd) .field-collection-item-field-frontrow .field-name-field-bigfront50 a div {
         height: auto !important;
