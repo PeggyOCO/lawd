@@ -1738,7 +1738,9 @@ clear: both;
       /* line 1285, ../../../sass/layouts/angel/angel.layout.scss */
       .field-collection-view:nth-child(odd) .field-collection-item-field-frontrow .field-name-field-bigfront50 height:auto
       a div {
-        height: auto !important; }
+        height: auto !important;
+        width: 100%;
+        min-height: 50%; }
       /* line 1287, ../../../sass/layouts/angel/angel.layout.scss */
       .field-collection-view:nth-child(odd) .field-collection-item-field-frontrow .field-name-field-bigfront50 img {
         width: 100%;
