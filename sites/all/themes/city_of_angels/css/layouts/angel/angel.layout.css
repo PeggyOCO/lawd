@@ -1734,8 +1734,7 @@ clear: both;
     position: relative; }
     /* line 1281, ../../../sass/layouts/angel/angel.layout.scss */
     .field-collection-view:nth-child(odd) .field-collection-item-field-frontrow .field-name-field-bigfront50 {
-      -webkit-flex: 1;
-      flex: 1;
+      /*@include flex(1);*/
       width: 50%;
       height: auto; }
       /* line 1286, ../../../sass/layouts/angel/angel.layout.scss */
