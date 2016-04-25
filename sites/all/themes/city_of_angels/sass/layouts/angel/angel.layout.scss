@@ -1178,7 +1178,7 @@ font-size:1.2vw;}
         } 
         
         
-        .field-collection-view:nth-child(even){
+      /*  .field-collection-view:nth-child(even){
                
   .field-collection-item-field-frontrow{
           display:flex;
@@ -1256,7 +1256,90 @@ font-size:1.2vw;}
           }
   
   }
+  }*/
+  
+.field-collection-view:nth-child(even){
+          .field-collection-item-field-frontrow{
+          display:flex;
+          z-index:99;
+            @include flex(1);
+            @include flex-direction('row');
+          width: 100%;
+          height:32vw;
+          background-color:#fff;
+          margin:0;
+          padding:0;
+          clear:both;
+          overflow:hidden;
+          margin-bottom:0;
+          border:0px dotted blue;
+          border-bottom:1px solid $blacker;
+          border-top:1px solid $blacker;
+          //align-items:center;
+          overflow:hidden;
+          position:relative;
+          //margin-top:-2px;
+          .field-name-field-bigfront50{
+           //@include flex(1);
+           @include order(1);
+           //display: inline-flex;
+                width:50%;
+                height:auto !important;
+                a div{height:auto !important;width:100%;min-height:50%;}
+                img{width:100%;height:auto;}
+                }
+          .field-name-field-double1{
+          @include flex(1);
+          @include flex-direction(column);
+           @include order(3);
+          font-size:1.1em;
+          width:25%;
+          border-right:1px solid #666;
+          height:100%;
+          background-color:#fff;
+          position:relative;
+          img{width:100%;height:54.5%;}
+          .image-field-caption{width:100%;
+          height:auto;
+          margin:0;
+          padding:0;
+          position: absolute;
+          top:60%;
+          h4{width:70%;margin:.5em auto;font-size:.9em;color:$reder;
+          a{text-decoration:none;color:$reder;}}
+          p{width:70%;
+          margin:.5em auto;
+          font-size:.9em;color:#666;letter-spacing:normal;}
+            }
+          }
+          .field-name-field-double2{
+            @include flex(1);
+            @include flex-direction(column);
+             @include order(2);
+            font-size:1.1em;
+          width:25%;
+          border-right:1px solid #666;
+          height:100%;
+          background-color:#fff;
+          position:relative;
+          img{width:100%;height:54.5%;}
+          .image-field-caption{width:100%;height:auto;
+          margin:0;
+          padding:0;
+          position: absolute;
+          top:60%;
+          h4{width:70%;margin:.5em auto;font-size:.9em; color:$reder;
+          a{text-decoration:none;color:$reder;}}
+          p{width:70%;
+          margin:.5em auto;
+          font-size:.9em;color:#666;letter-spacing:normal;}
+            }
+          
+          }
+  
   }
+  }
+  
 .field-collection-view:nth-child(odd) {       
   .field-collection-item-field-frontrow{
           display:flex;
