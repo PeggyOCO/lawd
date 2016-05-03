@@ -968,7 +968,7 @@ span{display:block;margin-top:.5em !important;margin-bottom:0 !important;padding
 
 //@media screen and (min-width: 800px) , screen and (max-width: 980px), screen and (max-width:3000px) {
 //@media screen and (min-width: 800px) and (max-width:980px) and (max-width:3000px) {
-p.small{font-size:1em;}
+p.small{font-size:1rem;}
 
 #block-views-blog-list-block{
     h2{font-size:1.5em;color:$blacker;text-align:center;width:70%;margin:1em auto;
@@ -2677,10 +2677,11 @@ a img{width:100%;}
 
 
 
-p.small{font-size: .8em !important;
+p.small{font-size: 1rem !important;
     text-align: left;
-    line-height: 1.5em;
-    &:first-child{padding-top:2em;}}
+    line-height: 1.5rem;
+    &:first-child{padding-top:2em;}
+    &:last-child{font-style:italic;text-align:right;}}
     
     
    /* .field-collection-container div{
