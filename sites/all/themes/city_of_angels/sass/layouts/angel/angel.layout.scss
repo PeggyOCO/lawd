@@ -2693,7 +2693,8 @@ margin: 0 !important;} }*/
     
 /******CUSTOM ENTITIES*****/
 
-div.entity-squarenav h2{visibility:hidden;height:1px;}
+/*div.entity-squarenav h2{visibility:hidden;height:1px;}*/
+div.entity-squarenav h2{display:none;}
 table.sticky-header{display:none;}
 .field-name-field-stats{margin-bottom:-3em;background-color:#d5d5d5;}
 .tablefield-wrapper{width:100%;background-color:#d5d5d5;padding:1em 0 2em 0;margin-bottom:-3em;}
