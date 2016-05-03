@@ -3708,8 +3708,8 @@ margin: 0 !important;} }*/
 
   /******CUSTOM ENTITIES*****/
   /***special treatment for tabular data**/
-  /* line 2698, ../../../sass/layouts/angel/angel.layout.scss */
-  #tablefield-0 tr:last-child {
+  /* line 2697, ../../../sass/layouts/angel/angel.layout.scss */
+  #tablefield-0 {
     display: block;
     padding-bottom: 3em; }
 
