@@ -2693,6 +2693,13 @@ margin: 0 !important;} }*/
     
 /******CUSTOM ENTITIES*****/
 
+/***special treatment for tabular data**/
+#tablefield-0{
+tr:last-child{display:block;padding-bottom:3em;}
+}
+/***end special treatment for tabular data**/
+
+
 /*div.entity-squarenav h2{visibility:hidden;height:1px;}*/
 div.entity-squarenav h2{display:none;}
 table.sticky-header{display:none;}
