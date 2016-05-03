@@ -3718,7 +3718,7 @@ margin: 0 !important;} }*/
 
   /* line 2702, ../../../sass/layouts/angel/angel.layout.scss */
   th.row_0.col_2 {
-    width: 5em;
+    width: 5em !important;
     display: block; }
 
   /***end special treatment for tabular data**/
