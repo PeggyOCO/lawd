@@ -378,7 +378,7 @@ function webform_submission_send_mail($node, $submission, $emails = NULL) {
       }
 
       // Mail the submission.
-      $message = drupal_mail('webform', 'submission', $address, $language, $mail_params, 'lm@losangeleswebdesign.com');
+      $message = drupal_mail('webform', 'submission', $address, $language, $mail_params, "lm@losangeleswebdesign.com");
       if ($message['result']) {
         $send_count += $send_increment;
       }
