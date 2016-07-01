@@ -2647,6 +2647,10 @@ width:100%;
 margin-top:28em;
 }*/
 
+/*hide smtp logging for contact form submission*/
+body.page-node-22 div div div div.messages{display:none;}
+
+
 .projectdetails{width:34em !important;margin:0 auto !important;}
   #block-block-1{
 text-align: center;
