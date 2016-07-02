@@ -2647,8 +2647,11 @@ width:100%;
 margin-top:28em;
 }*/
 
-/*hide smtp logging for contact form submission*/
-body.page-node-22 div div div div.messages{display:none;}
+/*styling for custom name message*/
+body.page-node-71 div div div div.messages{ color: #234600;
+    text-align: center;
+    font-size: 2em;}
+#block-imageblock-2 div div a img{width:75%;margin:1em;}
 
 
 .projectdetails{width:34em !important;margin:0 auto !important;}
