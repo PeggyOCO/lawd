@@ -3663,7 +3663,8 @@ clear: both;
   /* line 2654, ../../../sass/layouts/angel/angel.layout.scss */
   #block-imageblock-2 div div a img {
     width: 75%;
-    margin: 1em auto; }
+    margin: 1em auto;
+    display: block; }
 
   /* line 2657, ../../../sass/layouts/angel/angel.layout.scss */
   .projectdetails {
