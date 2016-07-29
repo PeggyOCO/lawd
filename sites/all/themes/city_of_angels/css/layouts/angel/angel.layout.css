@@ -2744,7 +2744,8 @@ clear: both;
   /* line 1981, ../../../sass/layouts/angel/angel.layout.scss */
   .l-region--footer {
     height: 35em;
-    position: relative; }
+    position: relative;
+    background-color: lightgray; }
 
   /* line 1983, ../../../sass/layouts/angel/angel.layout.scss */
   .l-region--branding {
