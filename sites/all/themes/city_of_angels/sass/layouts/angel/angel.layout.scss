@@ -1947,15 +1947,7 @@ p{text-align:left;}
                           padding:.25em 0;}}
         }
 footer{height:35em;background-color:$footergray;margin:0;margin-top:-.25em;padding-top:3em;
-background-image: url('../../../images/line.png'),
-                  url('../../../images/line.png'),
-                  url('../../../images/line.png');
-background-repeat: no-repeat,
-                no-repeat,
-                no-repeat;
-background-position:  14vw 5vw,
-                 55vw 5vw,
-                 70vw 5vw;
+
                
                
                }
@@ -1978,7 +1970,18 @@ margin-left:.5em;
 a img{width:100%;}
 }}
 
- .l-region--footer{height:35em;position:relative;background-color:lightgray;}
+ .l-region--footer{height:35em;position:relative;background-color:lightgray;
+ background-image: url('../../../images/line.png'),
+                  url('../../../images/line.png'),
+                  url('../../../images/line.png');
+background-repeat: no-repeat,
+                no-repeat,
+                no-repeat;
+background-position:  14vw 5vw,
+                 55vw 5vw,
+                 70vw 5vw;
+ 
+ }
 
   .l-region--branding{width:70%;
     position: absolute;
