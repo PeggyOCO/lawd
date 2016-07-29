@@ -2745,7 +2745,7 @@ clear: both;
     background-color: lightgray;
     background-image: url("../../../images/line.png"), url("../../../images/line.png"), url("../../../images/line.png");
     background-repeat: no-repeat, no-repeat, no-repeat;
-    background-position: 14vw 5vw, 55vw 5vw, 70vw 5vw; }
+    background-position: 14vw 1vw, 55vw 1vw, 70vw 1vw; }
 
   /* line 1986, ../../../sass/layouts/angel/angel.layout.scss */
   .l-region--branding {
