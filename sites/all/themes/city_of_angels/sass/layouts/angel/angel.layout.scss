@@ -24,7 +24,10 @@ $desk : min-width 800px;
 body.not-logged-in{font-family:Lato,Tahoma,Verdana, Helvetica, sans-serif;letter-spacing:normal;
 width:100%;overflow-x:hidden;}
 
-
+body{
+ /**testing transformations**/
+transform-style: preserve-3d; 
+}
 .clr{clear:both;}
 
 //************phone************//
@@ -2205,7 +2208,10 @@ div.sig{
               
 
 body.page-search-node div div div.l-content{width:80%;
-margin:0 auto;}
+margin:0 auto;
+ /**testing transformations**/
+transform: perspective(2000px) translateZ(0px) !important;
+}
 footer.search-result__info{display:none;}
 #search-form{
 width:90%;
@@ -2437,6 +2443,7 @@ li:before {
     background-color: #fff;
     border-color: #fff;
     color: $reder !important;
+    /**testing transformations**/
     transform: perspective(2000px) translateZ(500px) !important;
 }
 
