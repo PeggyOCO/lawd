@@ -2212,6 +2212,9 @@ div.sig{
 body.page-search-node div div div.l-content{width:80%;
 margin:0 auto;
  /**testing transformations**/
+ transform-style: preserve-3d !important;
+-moz-transform-style: preserve-3d !important; 
+-webkit-transform-style: preserve-3d !important;  
 transform: perspective(2000px) translateZ(-1px) !important;
 -moz-transform: perspective(2000px) translateZ(-1px) !important;
 -webkit-transform: perspective(2000px) translateZ(-1px) !important;
@@ -2448,6 +2451,9 @@ li:before {
     border-color: #fff;
     color: $reder !important;
     /**testing transformations**/
+    transform-style: preserve-3d !important;
+-moz-transform-style: preserve-3d !important; 
+-webkit-transform-style: preserve-3d !important;  
     transform: perspective(2000px) translateZ(500px) !important;
     -moz-transform: perspective(2000px) translateZ(500px) !important;
     -webkit-transform: perspective(2000px) translateZ(500px) !important;
