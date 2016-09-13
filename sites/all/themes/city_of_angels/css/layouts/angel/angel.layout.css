@@ -3051,9 +3051,9 @@ clear: both;
     width: 80%;
     margin: 0 auto;
     /**testing transformations**/
-    transform: perspective(2000px) translateZ(0px) !important;
-    -moz-transform: perspective(2000px) translateZ(0px) !important;
-    -webkit-transform: perspective(2000px) translateZ(0px) !important; }
+    transform: perspective(2000px) translateZ(-1px) !important;
+    -moz-transform: perspective(2000px) translateZ(-1px) !important;
+    -webkit-transform: perspective(2000px) translateZ(-1px) !important; }
 
   /* line 2219, ../../../sass/layouts/angel/angel.layout.scss */
   footer.search-result__info {

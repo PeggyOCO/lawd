@@ -2212,9 +2212,9 @@ div.sig{
 body.page-search-node div div div.l-content{width:80%;
 margin:0 auto;
  /**testing transformations**/
-transform: perspective(2000px) translateZ(0px) !important;
--moz-transform: perspective(2000px) translateZ(0px) !important;
--webkit-transform: perspective(2000px) translateZ(0px) !important;
+transform: perspective(2000px) translateZ(-1px) !important;
+-moz-transform: perspective(2000px) translateZ(-1px) !important;
+-webkit-transform: perspective(2000px) translateZ(-1px) !important;
 }
 footer.search-result__info{display:none;}
 #search-form{
