@@ -20,9 +20,9 @@ body.not-logged-in {
 /* line 27, ../../../sass/layouts/angel/angel.layout.scss */
 body {
   /**testing transformations**/
-  transform-style: preserve-3d;
-  -moz-transform-style: preserve-3d;
-  -webkit-transform-style: preserve-3d; }
+  transform-style: preserve-3d !important;
+  -moz-transform-style: preserve-3d !important;
+  -webkit-transform-style: preserve-3d !important; }
 
 /* line 33, ../../../sass/layouts/angel/angel.layout.scss */
 .clr {
