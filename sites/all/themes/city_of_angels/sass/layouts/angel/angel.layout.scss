@@ -2598,6 +2598,10 @@ background-image:none;
 #block-tb-megamenu-menu-bottom-menu li > div.tb-megamenu-submenu.mega-group-ct.nav-child{margin:0;}
 #block-tb-megamenu-menu-bottom-menu li a[title="About"]{margin-bottom:.5em;}
 
+.tb-megamenu-main-menu ul li:hover{
+.tb-megamenu-submenu{display:block;}
+}
+
 .field-collection-item-field-twobig{
 display:block;
 width:100%;
