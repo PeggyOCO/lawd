@@ -1024,8 +1024,9 @@ font-size:1.2vw;}
    width:100%;
    font-family:Verdana, Geneva, sans-serif; /* Menu font */
    font-size:.8rem; /* Menu text size */
-   z-index:1000; /* This makes the dropdown menus appear above the page content below */
    position:relative;
+   z-index:1000; /* This makes the dropdown menus appear above the page content below */
+   
     }
 
 /****block menu begin****/    
@@ -2457,6 +2458,7 @@ li:before {
     transform: perspective(2000px) translateZ(500px) !important;
     -moz-transform: perspective(2000px) translateZ(500px) !important;
     -webkit-transform: perspective(2000px) translateZ(500px) !important;
+
 }
 
 .tb-megamenu .dropdown-menu .active > a, .tb-megamenu .dropdown-menu .active > a:hover {
@@ -2564,6 +2566,7 @@ margin-top:20%;}
 
 .tb-megamenu .dropdown-menu .active > a, .tb-megamenu .dropdown-menu .active > a:hover{
 		color: $reder;
+		    z-index: 10001;
 		text-decoration: none;
 		outline: 0;
 		background-color: transparent;
