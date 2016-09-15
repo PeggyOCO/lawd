@@ -3607,9 +3607,9 @@ clear: both;
     /* line 2605, ../../../sass/layouts/angel/angel.layout.scss */
     .tb-megamenu-main-menu ul li:hover .tb-megamenu-submenu {
       display: block;
-      -moz-transform: perspective(2000px) translateZ(500px);
-      -webkit-transform: perspective(2000px) translateZ(500px);
-      transform: perspective(2000px) translateZ(500px); }
+      -moz-transform: perspective(2000px) translateZ(600px);
+      -webkit-transform: perspective(2000px) translateZ(600px);
+      transform: perspective(2000px) translateZ(600px); }
 
   /* line 2612, ../../../sass/layouts/angel/angel.layout.scss */
   .field-collection-item-field-twobig {
