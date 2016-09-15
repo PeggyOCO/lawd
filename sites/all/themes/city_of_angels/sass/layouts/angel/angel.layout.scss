@@ -2599,13 +2599,17 @@ background-image:none;
 #block-tb-megamenu-menu-bottom-menu li a[title="About"]{margin-bottom:.5em;}
 
 .tb-megamenu-main-menu ul li:hover{
+position:relative;
+z-index:10;
   -moz-transform-style: preserve-3d;
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
     .tb-megamenu-submenu{display:block;
-    -moz-transform: perspective(2000px) translateZ(600px);
+    position:relative;
+z-index:12;
+    /*-moz-transform: perspective(2000px) translateZ(600px);
     -webkit-transform: perspective(2000px) translateZ(600px);
-    transform: perspective(2000px) translateZ(600px);
+    transform: perspective(2000px) translateZ(600px);*/
     }
 }
 
